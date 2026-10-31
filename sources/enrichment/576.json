@@ -1,0 +1,153 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Side Bend",
+  "summary": "A standing lateral trunk exercise targeting the obliques and quadratus lumborum by flexing and extending the spine laterally against single-sided resistance.",
+  "aliases": [
+    {
+      "text": "Side Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Dumbbell Side Bend",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Side Flexion",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "lateral-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "suitcase",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "external-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadratus-lumborum",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "lateral-flexion"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "lateral-flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "kettlebell",
+    "weight-plate"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand upright with your feet hip-width apart and knees soft.",
+      "Hold a dumbbell in one hand at your side with an arm hanging straight and a neutral grip.",
+      "Place your free hand behind your head or resting on your opposite hip."
+    ],
+    "steps": [
+      "Keeping your hips square and shoulders facing forward, slowly bend your torso laterally toward the weighted side until you feel a gentle stretch in the opposite flank.",
+      "Contract the obliques on the unweighted side to pull your torso smoothly back to the upright position.",
+      "Optionally continue slightly past vertical into a modest lateral contraction, then return to center under control.",
+      "Complete all repetitions on one side before switching the dumbbell to the opposite hand."
+    ],
+    "breathing": "Inhale as you laterally lower the weight down the side of your thigh, and exhale as you contract your obliques to return upright.",
+    "cues": [
+      "Bend directly sideways without leaning forward or twisting.",
+      "Move strictly from the spine while keeping your pelvis stationary.",
+      "Pull with your opposite waist to stand tall."
+    ],
+    "common_faults": [
+      {
+        "fault": "Holding dumbbells in both hands simultaneously, which creates a counterbalance and eliminates tension on the target muscles.",
+        "correction": "Hold only one dumbbell at a time so your lateral core must work against an asymmetrical load."
+      },
+      {
+        "fault": "Rotating the hips or flexing forward at the waist during the bend.",
+        "correction": "Move strictly within the frontal plane as if sliding your back along a flat wall."
+      },
+      {
+        "fault": "Using excessive momentum or over-bending past an active, pain-free range of motion.",
+        "correction": "Use a controlled tempo and lower the dumbbell only as far as comfortable lateral spinal flexion allows."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid aggressive overbending or bouncing at the bottom of the movement to protect the lumbar spine."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

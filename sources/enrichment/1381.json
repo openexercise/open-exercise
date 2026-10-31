@@ -1,0 +1,163 @@
+{
+  "is_exercise": true,
+  "name": "Machine Upper Back Row",
+  "summary": "A seated, chest-supported machine pull targeting the rhomboids, rear deltoids, and middle trapezius with flared elbows.",
+  "aliases": [
+    {
+      "text": "Upper Back",
+      "kind": "brand"
+    },
+    {
+      "text": "Upper Back Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Chest-Supported Machine Upper Back Row",
+      "kind": "common"
+    },
+    {
+      "text": "Technogym Upper Back",
+      "kind": "brand"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "muscles": [
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-abduction",
+        "extension"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so that the chest pad rests comfortably against your sternum and your feet can press firmly into the floor or footrests.",
+      "Sit upright with your chest against the pad and take a pronated grip on the wide or horizontal machine handles with arms extended."
+    ],
+    "steps": [
+      "Initiate the movement by retracting your shoulder blades and driving your elbows out and back.",
+      "Pull until your elbows are in line with your torso, firmly contracting your upper back and rear deltoids.",
+      "Pause briefly at peak contraction without allowing your chest to peel away from the support pad.",
+      "Lower the weight with control, extending your arms and letting your shoulder blades protract slightly before starting the next repetition."
+    ],
+    "breathing": "Exhale as you pull the handles toward your torso, and inhale as you return the weight under control.",
+    "cues": [
+      "Lead with the elbows, not the hands",
+      "Pin your chest to the pad",
+      "Squeeze your shoulder blades together at the finish"
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulders upward toward the ears during the pull.",
+        "correction": "Keep your shoulders depressed and focus on horizontal elbow drive rather than elevating your traps."
+      },
+      {
+        "fault": "Hyperextending the lower back to pull the chest away from the support pad.",
+        "correction": "Maintain full, continuous chest contact with the pad throughout the entire range of motion."
+      },
+      {
+        "fault": "Pulling primarily through elbow flexion rather than scapular retraction.",
+        "correction": "Think of your hands as hooks and focus on pulling your elbows wide and pinching your shoulder blades together."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the seat pin is fully locked in place before beginning the exercise."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

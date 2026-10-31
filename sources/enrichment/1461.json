@@ -1,0 +1,181 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Feet-Up Bench Press",
+  "summary": "A dumbbell bench press variation performed with the feet elevated off the floor to eliminate leg drive and place greater demand on the upper body and core stability.",
+  "aliases": [
+    {
+      "text": "Feet-Up Dumbbell Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "No Leg Drive Dumbbell Chest Press",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Larsen Press",
+      "kind": "common"
+    },
+    {
+      "text": "Feet-Elevated Dumbbell Bench Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "supine",
+  "incline_degrees": 0,
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "load_position": "chest",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rotator-cuff",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "adjustable-bench"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit on a flat bench with a dumbbell resting upright on each knee.",
+      "Lie back smoothly, kicking the dumbbells up to your chest as your torso settles onto the bench.",
+      "Elevate your feet by bending your knees and placing your feet flat on the bench, or extending your legs straight out in the air.",
+      "Retract and depress your shoulder blades against the pad and press the dumbbells up to arm's length over your chest."
+    ],
+    "steps": [
+      "Lower the dumbbells under control by breaking at the elbows and shoulders, keeping forearms vertical.",
+      "Descend until the dumbbells reach chest level, maintaining balanced torso tightness without any support from your feet.",
+      "Press the weights back up along a slight inward arc until your arms are fully extended over your chest."
+    ],
+    "breathing": "Inhale deeply and brace your core as you lower the dumbbells; exhale forcefully past the sticking point as you press back to lockout.",
+    "cues": [
+      "Lock your core tight",
+      "Elbows at forty-five degrees",
+      "Control the descent",
+      "No rocking on the bench"
+    ],
+    "common_faults": [
+      {
+        "fault": "Losing torso balance and rocking laterally during the press.",
+        "correction": "Brace the abdominal wall tightly and choose a moderate load you can balance without relying on foot contact."
+      },
+      {
+        "fault": "Excessive lower-back arching without floor support.",
+        "correction": "Maintain a neutral spine and keep your glutes and core engaged throughout the movement."
+      },
+      {
+        "fault": "Flaring elbows out ninety degrees from the torso.",
+        "correction": "Tuck elbows slightly to an angle roughly 45 to 60 degrees from your sides to protect the shoulders."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using maximum loads without experience, as balance is significantly reduced without foot contact.",
+        "If you fail a repetition, bring the dumbbells to your chest and rock forward or safely release them to the floor away from your body."
+      ],
+      "spotter": "recommended",
+      "safeties": false
+    }
+  }
+}

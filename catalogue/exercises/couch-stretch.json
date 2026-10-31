@@ -1,0 +1,188 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Rear-Foot-Elevated Hip Flexor Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Wall Hip Flexor Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-femoris",
+        "role": "stretched"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "stretched"
+      },
+      {
+        "muscle": "vastus-lateralis",
+        "role": "stretched"
+      },
+      {
+        "muscle": "vastus-medialis",
+        "role": "stretched"
+      },
+      {
+        "muscle": "vastus-intermedius",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "abdominals",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat",
+      "yoga-block"
+    ],
+    "required": [
+      [
+        "bench",
+        "wall",
+        "plyo-box",
+        "chair"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2525"
+  },
+  "id": "oec:couch-stretch",
+  "instructions": {
+    "setup": [
+      "Place a mat or soft pad on the floor directly in front of a flat bench or wall.",
+      "Kneel on the mat facing away from the bench, placing your back knee close to the base of the bench and resting the top of your foot laces-down against it.",
+      "Step your opposite foot forward into a half-kneeling position with the front shin roughly vertical."
+    ],
+    "steps": [
+      "Brace your abdominal muscles and squeeze the glute of the rear leg to tilt your pelvis posteriorly.",
+      "Slowly raise your torso upright until you feel a deep stretch along the front of your rear thigh and hip.",
+      "Maintain a tall, neutral spine and hold the position, gently driving the rear hip forward without overarching your lower back.",
+      "Carefully lower your torso forward to relieve tension before switching to the opposite leg."
+    ],
+    "breathing": "Breathe deeply and rhythmically into the belly, using slow exhalations to relax into the stretch.",
+    "cues": [
+      "Squeeze the trailing glute",
+      "Tuck the tailbone",
+      "Tall chest, flat lower back"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lumbar spine to force the torso upright instead of extending at the hip.",
+        "correction": "Keep your abdominal wall braced, tuck your pelvis under, and only raise your torso as high as your hip mobility allows."
+      },
+      {
+        "fault": "Allowing the back knee to slide excessively far from the support surface.",
+        "correction": "Position the rear knee as close to the bench or wall as comfortably tolerable to maximize rectus femoris stretch."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a cushioned mat under the kneeling joint to avoid patellar discomfort."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Couch Stretch",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Couch Stretch",
+        "url": "https://wger.de/en/exercise/2525/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Croak6728"
+      }
+    ]
+  },
+  "setup": {
+    "position": "half-kneeling"
+  },
+  "status": "active",
+  "summary": "A deep kneeling stretch targeting the hip flexors and quadriceps by elevating the rear foot against a bench or wall."
+}

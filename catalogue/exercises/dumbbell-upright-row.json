@@ -1,0 +1,230 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Upright Row with Dumbbells",
+      "kind": "common"
+    },
+    {
+      "text": "DB Upright Row",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Upright Row w/ Dumbbells",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-lateral",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "abduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "elevation",
+          "upward-rotation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "694"
+  },
+  "id": "oec:dumbbell-upright-row",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart holding a dumbbell in each hand in front of your thighs.",
+      "Grip the dumbbells with an overhand (pronated) grip, keeping your chest up and shoulders back."
+    ],
+    "steps": [
+      "Initiate the pull by driving your elbows upward and slightly outward toward the ceiling.",
+      "Raise the dumbbells along the front of your torso until your elbows reach roughly chest or shoulder level.",
+      "Pause briefly at the top while keeping your elbows higher than your wrists.",
+      "Lower the dumbbells smoothly back to the starting position along your thighs under control."
+    ],
+    "breathing": "Exhale as you pull the weights upward, and inhale as you lower them with control.",
+    "cues": [
+      "Lead with the elbows.",
+      "Keep the weights close to your body.",
+      "Stop at mid-chest to protect the shoulders."
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling the elbows excessively high above shoulder level.",
+        "correction": "Stop the upward pull when your upper arms are roughly parallel to the floor to avoid shoulder impingement."
+      },
+      {
+        "fault": "Using hip momentum or swinging the torso to heave the weight up.",
+        "correction": "Maintain a braced core and upright posture, using only your shoulders and arms to move the dumbbells."
+      },
+      {
+        "fault": "Allowing the wrists to curl or sit higher than the elbows.",
+        "correction": "Keep your wrists relaxed and ensure your elbows remain higher than your hands throughout the range."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Individuals with existing subacromial impingement should limit range of motion or consider wider grip variations or lateral raises instead."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Upright Row",
+  "previous_ids": [
+    "oec:upright-row-w-dumbbells"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Upright Row w/ Dumbbells",
+        "url": "https://wger.de/en/exercise/694/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "koreyhinton"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-wide-grip-upright-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:close-grip-barbell-upright-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:ez-bar-upright-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-cross-upright-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:smith-machine-upright-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A vertical pulling exercise using dumbbells to target the lateral deltoids and upper trapezius."
+}

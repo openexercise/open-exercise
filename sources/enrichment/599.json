@@ -1,0 +1,213 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Snatch",
+  "summary": "An Olympic weightlifting movement where a barbell is lifted from the floor to overhead in one continuous, explosive motion.",
+  "aliases": [
+    {
+      "text": "Snatch",
+      "kind": "common"
+    },
+    {
+      "text": "Full Snatch",
+      "kind": "common"
+    },
+    {
+      "text": "Squat Snatch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "olympic-weightlifting",
+      "power",
+      "strength"
+    ],
+    "movement_patterns": [
+      "olympic-lift",
+      "hinge",
+      "squat",
+      "vertical-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "advanced"
+  },
+  "position": "standing",
+  "grip_orientation": "hook",
+  "grip_width": "snatch",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "overhead",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "elevation",
+        "upward-rotation"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "abduction",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "weight-plate"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand over the loaded barbell with feet hip-width apart and the bar over the balls of the feet.",
+      "Grip the bar with a wide snatch grip using a hook grip, keeping arms long and relaxed.",
+      "Lower the hips, lift the chest, pull the shoulders slightly ahead of the bar, and flatten the spine to build full-body tension."
+    ],
+    "steps": [
+      "Initiate the first pull by pushing through the full foot to elevate the bar smoothly past the knees while maintaining the back angle.",
+      "Once the bar clears the knees, transition into the second pull by violently extending the hips, knees, and ankles while bringing the bar close to the hip crease.",
+      "Shrug the shoulders and pull the body downward rapidly under the rising bar.",
+      "Turn over the wrists and punch aggressively against the bar into a full overhead squat with arms locked.",
+      "Stabilize the bottom position, then stand erect to full hip and knee extension with the barbell locked overhead.",
+      "Lower or drop the barbell forward under control onto a lifting surface."
+    ],
+    "breathing": "Take a deep breath and brace the core tightly before initiating the pull from the floor; exhale forcefully once standing fully erect at the completion of the lift.",
+    "cues": [
+      "Push the floor away",
+      "Keep the bar close",
+      "Violent hip extension",
+      "Punch up fast into the catch"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the barbell outward away from the body in an arc.",
+        "correction": "Keep the lats engaged and elbows high and outside during the pull to keep the bar traveling vertically close to the torso."
+      },
+      {
+        "fault": "Bending the arms prematurely before complete hip extension.",
+        "correction": "Keep arms long like ropes until the hips and knees reach full extension in the second pull."
+      },
+      {
+        "fault": "Catching with soft elbows and pressing out the bar overhead.",
+        "correction": "Pull under the bar aggressively and punch into a crisp, immediate lockout before catching the load."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use bumper plates on a designated lifting platform with ample clearance.",
+        "Practice dumping and bailing the barbell forward and backward safely before handling heavy loads."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Chest-Supported Dumbbell Y-Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Incline Dumbbell Y-Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Dumbbell Y-Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Y-Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Chest-Supported Rear Delt Raise",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Incline DB Y-Raise",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "trapezius-lower",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-lateral",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "supraspinatus",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "abduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation",
+          "retraction"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1825,1879"
+  },
+  "id": "oec:incline-dumbbell-y-raise",
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an incline of 30 to 45 degrees.",
+      "Lie face down on the bench with your chest firmly supported and your head in a neutral position.",
+      "Hold a light dumbbell in each hand with your arms hanging down and thumbs pointed upward."
+    ],
+    "steps": [
+      "Keeping your elbows nearly straight, raise the dumbbells diagonally upward and outward at roughly a 30- to 45-degree angle from your torso, forming a Y shape.",
+      "Lift until your arms align with your torso, feeling your lower and mid-trapezius contract.",
+      "Pause briefly at the top without shrugging your shoulders into your ears.",
+      "Lower the dumbbells smoothly under control back to the starting hanging position."
+    ],
+    "breathing": "Exhale as you raise the dumbbells into the Y position and inhale as you lower them.",
+    "cues": [
+      "Lead with your thumbs.",
+      "Form a Y, not a T.",
+      "Keep your shoulders down away from your ears."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively shrugging the shoulders upward using the upper traps.",
+        "correction": "Depress your shoulder blades before raising and focus on rotating the scapulae upward rather than shrugging."
+      },
+      {
+        "fault": "Using momentum or arching the lower back off the bench.",
+        "correction": "Keep your chest glued to the pad and select lighter dumbbells to isolate the movement."
+      },
+      {
+        "fault": "Raising the arms straight out to the sides into a T shape instead of a Y.",
+        "correction": "Angle your arms roughly 30 to 45 degrees forward into the scapular plane."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use very light weights to protect the rotator cuff and avoid neck strain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Incline Dumbbell Y-Raise",
+  "previous_ids": [
+    "oec:chest-supported-rear-delt-raise",
+    "oec:incline-db-y-raise"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Chest-Supported Rear Delt Raise",
+        "url": "https://wger.de/en/exercise/1825/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "beagle"
+      },
+      {
+        "title": "wger: Incline DB Y-Raise",
+        "url": "https://wger.de/en/exercise/1879/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Deflation"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-cross-body-y-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:trap-3-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-scaption"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "incline_degrees": 30,
+    "load_position": "at-sides",
+    "position": "prone",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A chest-supported shoulder raise performed on an incline bench with arms moving in a Y-formation to target the lower trapezius and lateral deltoids."
+}

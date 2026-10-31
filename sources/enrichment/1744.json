@@ -1,0 +1,148 @@
+{
+  "is_exercise": true,
+  "name": "Machine Lateral Raise",
+  "summary": "An isolation machine exercise that targets the lateral deltoids through guided shoulder abduction.",
+  "aliases": [
+    {
+      "text": "Machine Side Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Machine Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Lever Lateral Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "neutral",
+  "muscles": [
+    {
+      "muscle": "deltoid-lateral",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "supraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so the machine's axis of rotation aligns with your shoulder joints.",
+      "Sit upright with your torso supported against the backrest or chest pad depending on machine design.",
+      "Place your elbows or forearms against the padded lever arms and grasp the handles lightly."
+    ],
+    "steps": [
+      "Brace your core and initiate the movement by driving your elbows out and up away from your sides.",
+      "Raise the pads in a smooth arc until your upper arms are roughly parallel to the floor.",
+      "Pause briefly at the top while maintaining tension in your side shoulders.",
+      "Lower the arms under control back to the starting position without letting the weight stack slam."
+    ],
+    "breathing": "Exhale as you raise your arms out to the sides; inhale as you slowly lower the weight.",
+    "cues": [
+      "Lead with your elbows",
+      "Keep shoulders depressed away from your ears",
+      "Control the descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulders excessively at the top of the movement.",
+        "correction": "Keep your shoulder blades depressed and focus on driving outward rather than upward."
+      },
+      {
+        "fault": "Using torso momentum or swinging to lift the weight.",
+        "correction": "Keep your back firmly against the pad and select a load that allows strict form."
+      },
+      {
+        "fault": "Seat height misaligned with the machine pivot point.",
+        "correction": "Adjust the seat so your glenohumeral joints line up directly with the machine's rotational axis."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not force your arms above parallel if you experience impingement or shoulder pain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

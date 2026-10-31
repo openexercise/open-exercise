@@ -1,0 +1,142 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Seated Calf Raise",
+  "summary": "An ankle plantarflexion isolation exercise performed while seated with dumbbells resting on the thighs to preferentially target the soleus muscle.",
+  "aliases": [
+    {
+      "text": "Seated Dumbbell Calf Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Seated DB Calf Raise",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-ankle"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "soleus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "tibialis-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "peroneals",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "toes",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "chair"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "step",
+    "weight-plate",
+    "yoga-block"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit upright on the edge of a flat bench with your knees bent at approximately 90 degrees.",
+      "Place the balls of your feet on the floor or an elevated block to allow for a full stretch.",
+      "Rest the dumbbells vertically or horizontally across your lower thighs just above the knees, holding them steady with your hands."
+    ],
+    "steps": [
+      "Lower your heels as far as comfortably possible to achieve a deep stretch in the calves.",
+      "Drive through the balls of your feet to press your heels upward into full plantarflexion.",
+      "Pause briefly at the top contraction before lowering under control to the stretched position."
+    ],
+    "breathing": "Exhale as you press upward onto the balls of your feet; inhale as you lower your heels back down.",
+    "cues": [
+      "Drive through the big toes",
+      "Pause at the bottom stretch",
+      "Control the descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bouncing out of the bottom stretch using Achilles tendon elasticity.",
+        "correction": "Pause for one to two seconds in the stretched position before initiating the upward drive."
+      },
+      {
+        "fault": "Cutting the range of motion short at the top or bottom.",
+        "correction": "Achieve full dorsiflexion at the bottom and push as high as possible onto the balls of your feet at the top."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure dumbbells are held securely to prevent them from rolling off the thighs during the movement."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

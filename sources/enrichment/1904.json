@@ -1,0 +1,171 @@
+{
+  "is_exercise": true,
+  "name": "Machine Chest Fly",
+  "summary": "A seated isolation exercise using a fly machine to target the pectoral muscles through horizontal adduction.",
+  "aliases": [
+    {
+      "text": "Pec Deck",
+      "kind": "common"
+    },
+    {
+      "text": "Pec Dec",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Pec Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Pec Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Machine Fly",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-chest-fly",
+      "horizontal-push"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "coracobrachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so the handles or arm pads align horizontally with the mid-to-lower chest.",
+      "Sit back firmly against the back pad with your feet flat on the floor.",
+      "Grasp the handles with a slight bend in your elbows and retract your shoulder blades against the pad."
+    ],
+    "steps": [
+      "Contract your chest to bring the handles together in an arc in front of your sternum.",
+      "Squeeze your pectorals firmly at peak contraction without letting your shoulders roll forward.",
+      "Slowly reverse the motion, maintaining the slight elbow bend, until you feel a comfortable stretch across your chest.",
+      "Pause briefly under control before beginning the next repetition."
+    ],
+    "breathing": "Exhale as you bring your hands together in front of your chest; inhale as you slowly return to the stretched position.",
+    "cues": [
+      "Lead with your elbows",
+      "Hug a wide tree",
+      "Keep your chest puffed tall"
+    ],
+    "common_faults": [
+      {
+        "fault": "Overstretching at the bottom of the repetition.",
+        "correction": "Set the starting arm position so you achieve a chest stretch without forcing the shoulders into extreme horizontal extension."
+      },
+      {
+        "fault": "Rounding the shoulders forward to finish the movement.",
+        "correction": "Keep your thoracic spine extended and shoulder blades pinned to the back pad throughout the squeeze."
+      },
+      {
+        "fault": "Bending and extending the elbows excessively, turning the fly into a press.",
+        "correction": "Maintain a fixed, soft bend in the elbows from start to finish."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not set the starting levers too far back if you have limited shoulder mobility or an anterior shoulder impingement."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "is_exercise": true,
+  "name": "Close-Grip Supinated Lat Pulldown",
+  "summary": "A vertical pulling exercise performed on a cable pulldown station using a narrow underhand grip to emphasize the lats and elbow flexors.",
+  "aliases": [
+    {
+      "text": "Close-Grip Underhand Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Close-Grip Reverse Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse-Grip Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Underhand Cable Pulldown",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "supinated",
+  "grip_width": "narrow",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "downward-rotation",
+        "retraction"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable",
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach a straight or revolving bar to the high pulley of a lat pulldown machine.",
+      "Adjust the thigh pad so your knees fit snugly underneath with feet flat on the floor.",
+      "Grasp the bar with an underhand (supinated) grip roughly 6 to 8 inches apart, narrower than shoulder width.",
+      "Sit down, anchoring your thighs firmly under the pad, and allow your arms to extend fully overhead with a slight backward torso lean."
+    ],
+    "steps": [
+      "Depress your scapulae and pull the bar downward toward your upper chest, leading with your elbows.",
+      "Drive your elbows down and close to your sides until the bar touches or approaches your collarbone.",
+      "Pause briefly at the bottom, squeezing your lats and mid-back.",
+      "Slowly reverse the movement under control, extending your arms until your lats are fully stretched at the top."
+    ],
+    "breathing": "Inhale as you allow the bar to return overhead, and exhale forcefully as you pull the bar down toward your chest.",
+    "cues": [
+      "Lead with the elbows, not the hands.",
+      "Chest up to meet the bar.",
+      "Keep elbows tracking tight to your ribs."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive torso swing to generate momentum.",
+        "correction": "Maintain a steady torso with only a slight backward lean throughout the entire repetition."
+      },
+      {
+        "fault": "Cutting the range of motion short at the top.",
+        "correction": "Allow your arms to fully extend and your shoulder blades to upwardly rotate for a complete stretch on each rep."
+      },
+      {
+        "fault": "Rounding the shoulders forward at the bottom.",
+        "correction": "Keep the chest proud and pull the shoulder blades down and back as the bar reaches your upper chest."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the thigh pads are firmly locked down to avoid being lifted off the seat during heavy sets."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

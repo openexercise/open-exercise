@@ -1,0 +1,182 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Bench Press Isometric Hold",
+  "summary": "A static upper-body exercise where a loaded barbell is held motionless at a specific point in the bench press range of motion to build sticking-point strength and joint stability.",
+  "aliases": [
+    {
+      "text": "Bench Press Isometric",
+      "kind": "common"
+    },
+    {
+      "text": "Isometric Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Bench Press Static Hold",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "powerlifting"
+    ],
+    "movement_patterns": [
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "supine",
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "chest",
+  "range": "pause",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rotator-cuff",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "depression",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "adjustable-bench"
+      ]
+    },
+    {
+      "any_of": [
+        "power-rack",
+        "squat-rack"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Set up a flat bench inside a power rack with safety pins adjusted just below your target hold height.",
+      "Lie supine on the bench with your eyes directly under the bar, feet flat on the floor, and shoulder blades retracted and depressed.",
+      "Grip the barbell with a full, pronated grip slightly wider than shoulder width and unrack the bar with straight arms over your chest."
+    ],
+    "steps": [
+      "Lower the bar with control to your predetermined target position, typically just off the chest or at your specific sticking point.",
+      "Bring the bar to a dead stop and maintain maximal tension, resisting any movement for the prescribed duration.",
+      "Press the bar forcefully back to full lockout once the hold time is completed, then carefully rack the barbell."
+    ],
+    "breathing": "Take a deep diaphragmatic breath and brace your core prior to descending, maintaining pressurized, shallow breaths during the hold without losing upper-back tension.",
+    "cues": [
+      "Crush the bar with your hands.",
+      "Pull shoulder blades back and down into the bench.",
+      "Drive your feet into the floor.",
+      "Freeze the bar in place without letting it drift."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the barbell to slowly drift or bounce during the hold.",
+        "correction": "Lock into position and keep full-body tension constant throughout the entire target duration."
+      },
+      {
+        "fault": "Losing scapular retraction, causing the shoulders to roll forward.",
+        "correction": "Keep your upper back pinned tightly into the bench and your chest high."
+      },
+      {
+        "fault": "Performing the hold without safety pins set at the correct height.",
+        "correction": "Position rack safety pins immediately below the hold position to catch the barbell safely in the event of fatigue."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Always perform this movement inside a power rack with properly adjusted safety pins or with an attentive spotter, as sudden muscle failure is common during isometric holds.",
+        "Do not bounce the bar off the safety pins or drop it onto your chest."
+      ],
+      "spotter": "recommended",
+      "safeties": true
+    }
+  }
+}

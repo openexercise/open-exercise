@@ -1,0 +1,231 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Remo maquina agarre estrecho supino",
+      "kind": "regional"
+    },
+    {
+      "text": "Machine Close-Grip Underhand Row",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Reverse-Grip Row",
+      "kind": "common"
+    },
+    {
+      "text": "Underhand Machine Row",
+      "kind": "common"
+    },
+    {
+      "text": "Close-Grip Supinated Machine Row",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "depression"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1120"
+  },
+  "id": "oec:machine-underhand-close-grip-row",
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so that your chest rests comfortably against the upper chest pad.",
+      "Sit facing the machine and plant your feet firmly on the footplates or floor.",
+      "Reach forward and take a close, underhand grip on the handles with palms facing upward."
+    ],
+    "steps": [
+      "Keep your chest braced firmly against the pad and pull your shoulders down and back.",
+      "Drive your elbows backward tight along your ribcage, pulling the handles toward your lower abdomen.",
+      "Squeeze your lats and mid-back at the end of the range of motion for a brief pause.",
+      "Lower the weight smoothly by extending your arms forward until your lats are fully stretched."
+    ],
+    "breathing": "Exhale as you pull the handles toward your torso, and inhale as you return them to the starting position.",
+    "cues": [
+      "Lead with your elbows.",
+      "Keep elbows tight to your sides.",
+      "Stay glued to the chest pad."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbows outward.",
+        "correction": "Keep your elbows tucked close to your torso throughout the pull to emphasize the lats."
+      },
+      {
+        "fault": "Excessively leaning back and pulling your chest off the pad.",
+        "correction": "Maintain constant, firm contact with the chest pad to prevent using momentum."
+      },
+      {
+        "fault": "Shrugging the shoulders upward.",
+        "correction": "Depress your shoulder blades down and back before starting the row."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not allow the weight stack to slam down at the bottom of the movement."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Machine Underhand Close-Grip Row",
+  "previous_ids": [
+    "oec:remo-maquina-agarre-estrecho-supino"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Remo maquina agarre estrecho supino",
+        "url": "https://wger.de/en/exercise/1120/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Franpol"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:machine-close-grip-row"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:machine-seated-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-reverse-grip-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-close-grip-seated-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated",
+      "width": "narrow"
+    },
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A machine-based horizontal pull utilizing a narrow supinated grip to heavily recruit the lats and elbow flexors."
+}

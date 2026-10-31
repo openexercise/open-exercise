@@ -1,0 +1,232 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Low Pulley Cable Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Low Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Low-to-High Cable Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Low Cable Crossover",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Fly Upper Chest",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "horizontal-adduction",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "protraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-chest-fly"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1270,1690"
+  },
+  "id": "oec:cable-low-to-high-fly",
+  "instructions": {
+    "setup": [
+      "Set both pulleys to the lowest position on a dual-cable column station and attach single D-handles.",
+      "Grasp a handle in each hand with palms facing forward and slightly upward.",
+      "Take a step forward into a staggered stance to create tension on the cables, keeping the chest tall and a slight bend in both elbows."
+    ],
+    "steps": [
+      "Brace your core and maintain a fixed, slight bend in the elbows.",
+      "Sweep your hands upward and inward along an arc, bringing them together around upper-chest or neck height.",
+      "Squeeze your upper chest firmly at the top of the contraction for a brief pause.",
+      "Lower the handles slowly back along the same path under control until you feel a comfortable stretch across the chest."
+    ],
+    "breathing": "Exhale as you bring your hands upward together; inhale as you lower them under control.",
+    "cues": [
+      "Scoop your hands up and in",
+      "Lead with your inner elbows",
+      "Keep the elbows locked in a soft bend"
+    ],
+    "common_faults": [
+      {
+        "fault": "Turning the movement into a bicep curl by flexing and extending the elbows.",
+        "correction": "Lock a slight bend into your elbows at the start and keep that joint angle fixed throughout the entire rep."
+      },
+      {
+        "fault": "Using excessive momentum and swinging the torso forward and backward.",
+        "correction": "Adopt a stable staggered stance, brace your midsection, and keep your torso stationary."
+      },
+      {
+        "fault": "Shrugging the shoulders upward toward the ears during the fly.",
+        "correction": "Keep your shoulder blades depressed and engage the chest rather than the upper trapezius to drive the motion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid over-extending behind the shoulder joint in the bottom position if you experience anterior shoulder discomfort."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable Low-to-High Fly",
+  "previous_ids": [
+    "oec:low-pulley-cable-fly",
+    "oec:cable-fly-upper-chest"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Low Pulley Cable Fly",
+        "url": "https://wger.de/en/exercise/1270/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "FEFFO"
+      },
+      {
+        "title": "wger: Cable Fly Upper Chest",
+        "url": "https://wger.de/en/exercise/1690/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "daiben"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:incline-dumbbell-fly"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:low-cable-crossover"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated"
+    },
+    "position": "standing",
+    "stance": {
+      "kind": "staggered"
+    }
+  },
+  "status": "active",
+  "summary": "A standing cable isolation exercise that targets the upper chest and anterior deltoids by sweeping the handles upward and together."
+}

@@ -1,0 +1,166 @@
+{
+  "is_exercise": true,
+  "name": "Cable Neutral-Grip Lat Pulldown",
+  "summary": "A vertical pulling exercise performed on a cable station using parallel handles to target the lats with reduced shoulder strain.",
+  "aliases": [
+    {
+      "text": "Neutral-Grip Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Parallel-Grip Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "V-Bar Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Close-Grip Neutral Lat Pulldown",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "neutral",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "downward-rotation",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable",
+        "selectorized-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach a neutral-grip handle or parallel-grip bar to the high pulley of a lat pulldown station.",
+      "Adjust the thigh pad so your legs are firmly secured with feet flat on the floor.",
+      "Grasp the handles with palms facing each other, sit down, and anchor your thighs beneath the pads with arms fully extended overhead."
+    ],
+    "steps": [
+      "Depress your scapulae and pull the handle downward toward your upper chest by driving your elbows down and back.",
+      "Pause briefly at the bottom as the handle approaches collarbone level, maintaining an upright torso with a slight backward lean.",
+      "Control the weight as you smoothly extend your arms back overhead, allowing your shoulder blades to upwardly rotate into a full stretch."
+    ],
+    "breathing": "Inhale as your arms extend overhead, and exhale as you pull the handles down toward your chest.",
+    "cues": [
+      "Lead with your elbows, not your hands.",
+      "Pull your shoulder blades down into your back pockets.",
+      "Keep your chest lifted toward the cable."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive backward swinging of the torso to use momentum.",
+        "correction": "Maintain a steady, slight lean back throughout the movement without rocking at the hips."
+      },
+      {
+        "fault": "Pulling primarily through the forearms and biceps without engaging the back.",
+        "correction": "Initiate the movement by depressing the shoulder blades and driving your elbows down toward your hips."
+      },
+      {
+        "fault": "Cutting the top range of motion short.",
+        "correction": "Allow your arms to fully straighten and your lats to stretch at the top of each rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the thigh support is locked securely to keep you anchored to the seat under heavy loads.",
+        "Do not pull the handle behind your neck."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

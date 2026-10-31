@@ -1,0 +1,225 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Dumbbell Side Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Side Squat",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension",
+          "abduction",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "lunge",
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1653"
+  },
+  "id": "oec:dumbbell-lateral-lunge",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart holding a dumbbell in one hand at your side or in a goblet position at chest level.",
+      "Engage your core and keep your chest lifted with shoulders pulled down and back."
+    ],
+    "steps": [
+      "Take a wide step out to the side with one leg, keeping both feet pointed straight ahead or only slightly turned out.",
+      "Hinge at the hips and bend the stepping knee, lowering your pelvis back and down over the working foot while keeping the trailing leg completely straight.",
+      "Descend until your working thigh is approximately parallel to the floor, ensuring your heel stays firmly planted.",
+      "Push forcefully through the midfoot and heel of the working leg to drive yourself back up to the starting hip-width stance."
+    ],
+    "breathing": "Inhale as you step out and lower into the lunge, and exhale as you press back to the starting position.",
+    "cues": [
+      "Sit back into the working hip.",
+      "Keep the trailing leg straight.",
+      "Keep both feet flat on the floor.",
+      "Drive the floor away to return."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the heel of the stepping foot to lift off the floor.",
+        "correction": "Shift your weight back into your hip and midfoot rather than driving excessively forward onto the toes."
+      },
+      {
+        "fault": "Collapsing the working knee inward into valgus alignment.",
+        "correction": "Track the working knee directly in line with your second toe throughout the descent and ascent."
+      },
+      {
+        "fault": "Rounding the lumbar spine under the load of the dumbbell.",
+        "correction": "Brace your core, hinge cleanly at the hips, and maintain a neutral spine with an upright chest."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Clear ample floor space on both sides before initiating lateral steps.",
+        "Ensure adductor and groin flexibility is warmed up properly before using heavier external loads."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Dumbbell Lateral Lunge",
+  "previous_ids": [
+    "oec:dumbbell-side-squat"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dumbbell Side Squat",
+        "url": "https://wger.de/en/exercise/1653/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "AlucardEvil40"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "part-of",
+      "target": "oec:dumbbell-multi-planar-lunge"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-lunge"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:lateral-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:slider-lateral-lunge"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral lower-body exercise where you step out laterally and squat onto one leg while holding a dumbbell, building frontal-plane strength and hip mobility."
+}

@@ -1,0 +1,253 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Seated Dumbbell Overhead Press",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Shoulder Press",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Overhead Press",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell OHP",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Seated DB Shoulder Press",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Military Press with Dumbbells",
+      "kind": "common"
+    },
+    {
+      "text": "OHP Dumbbells",
+      "kind": "common"
+    },
+    {
+      "text": "Overhead press Dumbbells",
+      "kind": "common"
+    },
+    {
+      "text": "Shoulder Press, Dumbbells",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-lateral",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "abduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-bench",
+        "bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "567"
+  },
+  "id": "oec:seated-dumbbell-shoulder-press",
+  "instructions": {
+    "setup": [
+      "Adjust a bench backrest to a nearly vertical position, roughly 75 to 85 degrees.",
+      "Sit back firmly against the pad with feet flat on the floor.",
+      "Kick the dumbbells up from your knees one at a time to shoulder height, holding them with your elbows positioned slightly forward in the scapular plane."
+    ],
+    "steps": [
+      "Press both dumbbells vertically upward until your arms are fully extended overhead without violently locking your elbows.",
+      "Pause briefly at the top while keeping the weights balanced over your shoulders.",
+      "Lower the dumbbells in a controlled descent back to just above shoulder level."
+    ],
+    "breathing": "Inhale before pressing or as you lower the weights, and exhale forcefully as you drive the dumbbells overhead.",
+    "cues": [
+      "Press yourself down into the seat.",
+      "Keep elbows slightly in front of your shoulders, not flared wide.",
+      "Control the descent all the way to the shoulders."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively arching the lower back off the pad to press at a flatter angle.",
+        "correction": "Brace your core, keep your ribcage down, and maintain full contact between your upper back, hips, and the seat."
+      },
+      {
+        "fault": "Flaring elbows completely out to the sides.",
+        "correction": "Tuck elbows roughly 30 to 45 degrees forward into the scapular plane to protect the shoulder joints."
+      },
+      {
+        "fault": "Clanging the dumbbells together at the top.",
+        "correction": "Press straight up and slightly inward along a natural arc without colliding the weights."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you reach failure, lower the dumbbells under control to your knees rather than dropping them to the sides."
+      ],
+      "spotter": "recommended"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Seated Dumbbell Shoulder Press",
+  "previous_ids": [
+    "oec:shoulder-press-dumbbells"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Shoulder Press, Dumbbells",
+        "url": "https://wger.de/en/exercise/567/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-barbell-overhead-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-dumbbell-overhead-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-shoulder-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:smith-machine-shoulder-press"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-overhead-press"
+    }
+  ],
+  "setup": {
+    "load_position": "overhead",
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "An overhead pressing movement performed seated on a supported bench to build shoulder and triceps strength and hypertrophy."
+}

@@ -1,0 +1,235 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Incline Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Decline Bench Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Slant Board Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Decline Ab Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Crunches",
+      "kind": "common"
+    },
+    {
+      "text": "Negative Crunches",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "obliques",
+        "role": "synergist"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "weight-plate"
+    ],
+    "required": [
+      [
+        "adjustable-bench",
+        "bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "171,427"
+  },
+  "id": "oec:decline-crunch",
+  "instructions": {
+    "setup": [
+      "Secure your legs and ankles under the padded rollers at the elevated end of a decline bench.",
+      "Lie back on the bench so your head is positioned lower than your hips.",
+      "Place your hands lightly beside your ears or cross your arms over your chest without interlocking your fingers behind your head."
+    ],
+    "steps": [
+      "Engage your abdominals and tuck your chin slightly toward your chest.",
+      "Curl your upper torso off the bench by flexing your spine and drawing your ribcage down toward your pelvis.",
+      "Pause and squeeze your abdominals hard at the peak of the contraction when your shoulder blades clear the bench.",
+      "Slowly uncurl your spine under control to lower your torso back down to the starting position."
+    ],
+    "breathing": "Exhale forcefully as you curl upward against gravity; inhale as you slowly lower your torso back down.",
+    "cues": [
+      "Ribs to hips",
+      "Roll up like a carpet",
+      "Do not yank your neck"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling on the head and neck with the hands.",
+        "correction": "Cross arms over the chest or place fingertips lightly by your ears without pulling forward."
+      },
+      {
+        "fault": "Performing a full sit-up by pivoting at the hips rather than curling the spine.",
+        "correction": "Keep your lower back in contact with the pad and focus purely on flexing your spine to lift your shoulder blades."
+      },
+      {
+        "fault": "Relying on momentum and bouncing off the bench at the bottom.",
+        "correction": "Maintain continuous abdominal tension throughout and control the descent fully."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure your legs are securely locked into the ankle pads before leaning back into the decline position."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Decline Crunch",
+  "previous_ids": [
+    "oec:incline-crunches",
+    "oec:negative-crunches"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Incline Crunches",
+        "url": "https://wger.de/en/exercise/171/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      },
+      {
+        "title": "wger: Negative Crunches",
+        "url": "https://wger.de/en/exercise/427/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:crunch"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:crunch"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-kneeling-crunch"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-crunch"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:weighted-crunch"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:stability-ball-crunch"
+    }
+  ],
+  "setup": {
+    "position": "supine",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "An abdominal isolation exercise performed on a decline bench where the torso curls upward against gravity through spinal flexion."
+}

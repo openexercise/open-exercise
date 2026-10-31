@@ -1,0 +1,167 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Overhead Triceps Extension",
+  "summary": "An isolation exercise performed by lowering and extending a barbell behind the head from an overhead position to target the triceps.",
+  "aliases": [
+    {
+      "text": "Barbell Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Overhead Barbell Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell French Press",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Overhead Barbell Triceps Extension",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "narrow",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "overhead",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "triceps-long-head",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-lateral-head",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-medial-head",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "anconeus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell",
+        "ez-bar"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and brace your core.",
+      "Press the barbell directly overhead with a narrow overhand grip, keeping your upper arms vertical and close to your head."
+    ],
+    "steps": [
+      "Keeping your upper arms stationary and elbows pointing forward, bend your elbows to lower the barbell in a controlled arc behind your head.",
+      "Lower the bar until you feel a deep stretch in the triceps.",
+      "Drive through your palms and contract your triceps to extend your elbows back to the starting overhead position.",
+      "Lock out your elbows briefly at the top without hyperextending."
+    ],
+    "breathing": "Inhale as you lower the barbell behind your head; exhale forcefully as you extend your elbows back to the top.",
+    "cues": [
+      "Keep elbows pointing up and forward",
+      "Lock the ribs down to avoid arching your lower back",
+      "Move only at the elbows"
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring elbows wide outward during the descent",
+        "correction": "Keep elbows tucked inward and pointing forward to maintain tension on the triceps and protect the shoulders."
+      },
+      {
+        "fault": "Arching the lumbar spine to push the weight up",
+        "correction": "Brace the abdominals and squeeze the glutes to keep the torso rigid and vertical throughout the set."
+      },
+      {
+        "fault": "Moving the upper arms back and forth during the rep",
+        "correction": "Anchor the upper arms in a fixed vertical position so movement occurs solely at the elbow joint."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use caution when lowering and raising the barbell overhead, especially near failure.",
+        "An EZ-curl bar can be substituted to relieve wrist or elbow discomfort."
+      ],
+      "spotter": "recommended",
+      "safeties": false
+    }
+  }
+}

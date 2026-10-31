@@ -1,0 +1,210 @@
+{
+  "is_exercise": true,
+  "name": "Suitcase Carry",
+  "summary": "A unilateral loaded carry where a single weight is held at one side while walking to build anti-lateral flexion core strength and grip endurance.",
+  "aliases": [
+    {
+      "text": "Suitcase Walk",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Farmer's Walk",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Farmer's Walk",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Suitcase Carry",
+      "kind": "common"
+    },
+    {
+      "text": "Kettlebell Suitcase Carry",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "carry",
+      "anti-lateral-flexion",
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "mixed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "moving",
+  "grip_orientation": "neutral",
+  "load_position": "suitcase",
+  "muscles": [
+    {
+      "muscle": "obliques",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadratus-lumborum",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "fingers",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "kettlebell",
+        "dumbbell",
+        "farmers-handles"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "distance",
+        "load"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration",
+        "load"
+      ],
+      "optional": [
+        "distance",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Place a single heavy dumbbell or kettlebell on the floor beside one foot.",
+      "Hinge at the hips with a flat back to grip the handle firmly with one hand.",
+      "Stand fully upright, squaring your shoulders and hips so your torso remains completely vertical."
+    ],
+    "steps": [
+      "Brace your core and begin walking forward with controlled, deliberate strides.",
+      "Keep the weight slightly off your thigh without leaning away from or toward the loaded side.",
+      "Maintain a tall posture and level shoulder line throughout the path.",
+      "Turn smoothly or stop after the target distance, lower the weight safely using a hip hinge, and repeat on the opposite side."
+    ],
+    "breathing": "Maintain continuous, shallow diaphragmatic breathing behind a firmly braced abdominal wall throughout the walk.",
+    "cues": [
+      "Keep shoulders level like a balance scale",
+      "Walk tall and don't let the weight drag you down",
+      "Crush the handle"
+    ],
+    "common_faults": [
+      {
+        "fault": "Leaning the torso away from the weight to compensate for the load.",
+        "correction": "Reduce the load and focus on maintaining a perfectly upright, vertical spine as if balancing a book on your head."
+      },
+      {
+        "fault": "Resting the implement against the thigh during the walk.",
+        "correction": "Hold the working arm just far enough from the body to clear the hip, forcing the core to stabilize the load."
+      },
+      {
+        "fault": "Rushing forward with choppy, unstable strides.",
+        "correction": "Slow your pace to a controlled, heel-to-toe gait to maximize time under tension and balance."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the walking pathway is completely free of tripping hazards.",
+        "Always lift and set down the weight using a proper hip hinge to protect your lower back."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "is_exercise": true,
+  "name": "Tuck Planche",
+  "summary": "An isometric calisthenics hold balancing horizontally on straight arms with the knees tucked tightly into the chest.",
+  "aliases": [
+    {
+      "text": "Tucked Planche",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "balance"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "support",
+  "grip_orientation": "pronated",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "depression",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "extension",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "parallettes",
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Kneel on the floor and place your hands flat roughly shoulder-width apart, with fingers pointed slightly outward to reduce wrist strain.",
+      "Lock your elbows completely and push the ground away to strongly protract and depress your shoulder blades."
+    ],
+    "steps": [
+      "Shift your body weight forward by leaning your shoulders past your wrists.",
+      "Engage your core, pull your knees firmly into your chest, and lift your feet off the ground.",
+      "Elevate your hips until your torso is roughly parallel to the floor, maintaining locked arms and rounded upper back protraction.",
+      "Hold the position steadily for the prescribed duration, then lower your feet back to the floor with control."
+    ],
+    "breathing": "Maintain steady, shallow diaphragmatic breaths while keeping continuous abdominal and scapular tension throughout the hold.",
+    "cues": [
+      "Push the floor away",
+      "Keep the elbows locked",
+      "Knees to chest",
+      "Lean forward into the shoulders"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the elbows to compensate for straight-arm shoulder strength deficits.",
+        "correction": "Ensure elbows are fully locked before lifting the feet; regress to planche leans if locked-arm strength is insufficient."
+      },
+      {
+        "fault": "Allowing the scapulae to retract and chest to collapse toward the floor.",
+        "correction": "Actively press into the floor to maintain maximal scapular protraction and depression."
+      },
+      {
+        "fault": "Hips dropping too low or staying piked too high above horizontal.",
+        "correction": "Align your hips at roughly shoulder height to create a level torso while keeping the knees tucked tightly."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure thorough warm-up of wrists and biceps tendons prior to loading straight-arm planche progressions.",
+        "Use parallettes if floor wrist extension causes discomfort or pinching."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

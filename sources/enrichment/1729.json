@@ -1,0 +1,155 @@
+{
+  "is_exercise": true,
+  "name": "Cable Shoulder External Rotation",
+  "summary": "A standing cable isolation exercise that strengthens the external rotators of the rotator cuff.",
+  "aliases": [
+    {
+      "text": "Cable External Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Cable Shoulder External Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Rotator Cuff External Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Shoulder External Rotation (Cable)",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "rotation"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "infraspinatus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-minor",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set the cable pulley to elbow height and attach a single D-handle.",
+      "Stand perpendicular to the cable machine with your working arm furthest from the stack.",
+      "Grasp the handle with your working hand, bending your elbow to 90 degrees and tucking your upper arm against your torso."
+    ],
+    "steps": [
+      "Keeping your elbow pinned firmly to your side, rotate your forearm outward away from the cable stack.",
+      "Continue rotating until your forearm is roughly perpendicular to your torso or as far as active shoulder mobility allows without torso twisting.",
+      "Pause briefly at peak contraction.",
+      "Control the weight smoothly back to the starting position across your stomach."
+    ],
+    "breathing": "Exhale as you rotate outward and inhale as you return to the start.",
+    "cues": [
+      "Pin your elbow to your ribs like a door hinge",
+      "Move the forearm, not the torso",
+      "Lead with the back of the hand"
+    ],
+    "common_faults": [
+      {
+        "fault": "Elbow drifting away from the side of the body.",
+        "correction": "Keep the upper arm glued to your ribs; place a small rolled towel between your elbow and torso to maintain contact if needed."
+      },
+      {
+        "fault": "Rotating the torso to swing the weight.",
+        "correction": "Keep your hips and shoulders squared forward throughout the entire movement."
+      },
+      {
+        "fault": "Extending the elbow or flexing the wrist to generate false range of motion.",
+        "correction": "Lock the elbow at a strict 90-degree angle and maintain a rigid, neutral wrist."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use very light loads; the rotator cuff responds best to high control and moderate-to-high repetitions."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

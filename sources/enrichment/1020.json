@@ -1,0 +1,160 @@
+{
+  "is_exercise": true,
+  "name": "Pistol Squat",
+  "summary": "An advanced unilateral bodyweight exercise where one squats to full depth on a single leg with the opposite leg held straight out in front.",
+  "aliases": [
+    {
+      "text": "Single-Leg Squat",
+      "kind": "common"
+    },
+    {
+      "text": "One-Legged Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Pistol",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "balance"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "advanced"
+  },
+  "position": "standing",
+  "stance_kind": "single-leg",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "tibialis-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "plyo-box",
+    "kettlebell",
+    "weight-plate"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall on one leg with your feet pointing forward.",
+      "Extend the opposite leg out in front of you, keeping the knee straight and toes pointed up.",
+      "Reach your arms forward at shoulder height to assist with balance."
+    ],
+    "steps": [
+      "Inhale and initiate the descent by breaking at the hip and knee simultaneously on the working leg.",
+      "Lower yourself under control as deep as mobility allows, keeping the non-working leg elevated off the floor.",
+      "Pause briefly at the bottom without bouncing or losing balance.",
+      "Drive firmly through the whole foot to extend the knee and hip back to the starting standing position."
+    ],
+    "breathing": "Inhale deeply during the descent and exhale forcefully as you drive out of the bottom to stand up.",
+    "cues": [
+      "Reach forward with your hands to counterbalance your hips.",
+      "Keep the working heel glued to the floor.",
+      "Actively lift the front leg to keep it clear of the ground."
+    ],
+    "common_faults": [
+      {
+        "fault": "Working heel elevating off the floor.",
+        "correction": "Improve ankle dorsiflexion mobility, or elevate the heel slightly on a small wedge while developing range."
+      },
+      {
+        "fault": "Knee caving inward into valgus during ascent.",
+        "correction": "Actively engage the gluteus medius and track the knee directly in line with the middle toes."
+      },
+      {
+        "fault": "The non-working foot dragging or touching the floor.",
+        "correction": "Engage the hip flexors and quadriceps of the non-working leg to hold it parallel to the ground."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid collapsing abruptly into the bottom position, as this places heavy compressive forces on the knee joint."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

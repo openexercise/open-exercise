@@ -1,0 +1,191 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Seated Single Leg Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Single Leg Hamstring Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Modified Hurdler Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Hamstring Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-femoris",
+        "role": "stretched"
+      },
+      {
+        "muscle": "semitendinosus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "semimembranosus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "stretched"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "hinge"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "not-applicable",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat",
+      "strap"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1393,2688"
+  },
+  "id": "oec:seated-single-leg-hamstring-stretch",
+  "instructions": {
+    "setup": [
+      "Sit upright on the floor with one leg extended straight forward and the foot dorsiflexed.",
+      "Bend the opposite knee and place the sole of that foot flat against the inner thigh of the extended leg."
+    ],
+    "steps": [
+      "Sit tall to lengthen your spine, squaring your chest toward the extended leg.",
+      "Hinge at the hips and reach forward along the extended leg with both hands.",
+      "Lower your chest toward your thigh until you feel a gentle, sustained stretch along the back of the leg.",
+      "Hold the position smoothly without bouncing, then release and repeat on the opposite side."
+    ],
+    "breathing": "Inhale to lengthen your spine, and exhale as you fold deeper into the stretch.",
+    "cues": [
+      "Hinge from the hips, not just the lower back",
+      "Keep the knee softly extended, not hyperextended",
+      "Lead with the chest toward the shin"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively rounding the upper back to touch the toes instead of hinging at the hip.",
+        "correction": "Focus on driving your chest toward your knee while keeping the spine elongated."
+      },
+      {
+        "fault": "Bouncing dynamically into and out of the stretch.",
+        "correction": "Hold a steady, static position at comfortable tension to avoid triggering the stretch reflex."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not force your forehead to your knee if you experience sharp pain or excessive nerve tension behind the knee."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Seated Single-Leg Hamstring Stretch",
+  "previous_ids": [
+    "oec:single-leg-hamstring-stretch",
+    "oec:hamstring-stretch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Single Leg Hamstring Stretch",
+        "url": "https://wger.de/en/exercise/1393/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "captive0592"
+      },
+      {
+        "title": "wger: Hamstring Stretch",
+        "url": "https://wger.de/en/exercise/2688/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "tobias08"
+      }
+    ]
+  },
+  "setup": {
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A seated unilateral flexibility exercise that stretches the hamstrings, calves, and lower back by hinging forward over one extended leg."
+}

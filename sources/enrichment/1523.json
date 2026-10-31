@@ -1,0 +1,204 @@
+{
+  "is_exercise": true,
+  "name": "Sled Push",
+  "summary": "A full-body conditioning and lower-body strength exercise where an athlete drives a weighted sled forward across the floor.",
+  "aliases": [
+    {
+      "text": "Prowler Push",
+      "kind": "brand"
+    },
+    {
+      "text": "Weighted Sled Push",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "conditioning",
+      "strength",
+      "strongman"
+    ],
+    "movement_patterns": [
+      "gait",
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "moving",
+  "grip_orientation": "neutral",
+  "stance_kind": "staggered",
+  "load_position": "chest",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "soleus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "sled"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "weight-plate"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "distance",
+        "load"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration",
+        "load"
+      ],
+      "optional": [
+        "distance",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Load the sled with the target weight on a suitable surface such as turf or rubber flooring.",
+      "Face the sled and grip the vertical uprights firmly with either straight arms or bent arms close to the chest.",
+      "Incline your torso forward at roughly a 45-degree angle, establishing a rigid line from your head through your spine to your back foot."
+    ],
+    "steps": [
+      "Brace your core and drive through the balls of your feet to initiate forward motion.",
+      "Drive alternating knees forward and forcefully extend the trailing hip and leg to push the sled forward.",
+      "Maintain a consistent forward lean and steady arm position throughout the prescribed distance or duration.",
+      "Decelerate gradually by shortening your stride until the sled comes to a complete stop."
+    ],
+    "breathing": "Breathe continuously with rhythmic, deep breaths synchronized with your stride rate; avoid holding your breath.",
+    "cues": [
+      "Drive the ground away",
+      "Stay in a forward lean",
+      "Punch knees forward",
+      "Keep the torso braced"
+    ],
+    "common_faults": [
+      {
+        "fault": "Standing too upright during the push",
+        "correction": "Maintain a forward torso angle of roughly 45 degrees so force transfers directly forward into the sled."
+      },
+      {
+        "fault": "Allowing the lumbar spine to hyperextend or sag",
+        "correction": "Brace the abdominal wall to maintain a neutral spine throughout the drive."
+      },
+      {
+        "fault": "Pushing solely from the toes with short, shuffling steps",
+        "correction": "Take powerful, deliberate strides driving through the ball of the foot with full hip and knee extension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the path ahead is clear of obstacles, equipment, and other people.",
+        "Wear athletic shoes with adequate grip suited for the pushing surface to prevent slipping."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

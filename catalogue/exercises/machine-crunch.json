@@ -1,0 +1,220 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Seated Machine Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Ab Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Abdominal Crunch Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Crunches on Machine",
+      "kind": "common"
+    },
+    {
+      "text": "3008 Klappsitz",
+      "kind": "common"
+    },
+    {
+      "text": "3008 Abdominal Crunch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "obliques",
+        "role": "synergist"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "172,1924"
+  },
+  "id": "oec:machine-crunch",
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so that your chest rests comfortably against the upper pad and the machine's axis of rotation aligns with your mid-torso.",
+      "Sit back firmly into the pad and secure your feet beneath the foot rollers or flat on the footrests.",
+      "Grasp the handles lightly to stabilize your upper body without pulling with your arms."
+    ],
+    "steps": [
+      "Initiate the movement by drawing your ribs down toward your pelvis, curling your spine forward through a full contraction.",
+      "Pause briefly at the bottom of the movement while actively squeezing your abdominal muscles.",
+      "Control the return as your spine slowly uncurls back to an upright position, resisting the stack without letting the weights slam."
+    ],
+    "breathing": "Exhale forcefully as you crunch forward and empty your lungs to deepen the abdominal contraction, then inhale as you slowly return to the upright position.",
+    "cues": [
+      "Ribs to pelvis",
+      "Curl your spine, do not just hinge at the hips",
+      "Hands are hooks, do not pull with your arms"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hinging purely at the hips with a rigid, flat spine rather than flexing the trunk.",
+        "correction": "Focus on actively curling the spine forward vertebra by vertebra to ensure the rectus abdominis does the work."
+      },
+      {
+        "fault": "Yanking on the handles with the arms to generate momentum.",
+        "correction": "Maintain a light, relaxed grip and initiate the motion entirely from your core."
+      },
+      {
+        "fault": "Hyperextending the lower back aggressively at the top of each repetition.",
+        "correction": "Stop the return once you reach an upright, neutral seated posture before the lower back overextends."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessive loads that force the neck into severe forward flexion or compromise spinal control."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Machine Crunch",
+  "previous_ids": [
+    "oec:crunches-on-machine",
+    "oec:3008-abdominal-crunch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Crunches on Machine",
+        "url": "https://wger.de/en/exercise/172/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      },
+      {
+        "title": "wger: 3008 Abdominal Crunch",
+        "url": "https://wger.de/en/exercise/1924/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:crunch"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-kneeling-crunch"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:weighted-crunch"
+    }
+  ],
+  "setup": {
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A seated machine exercise that loads spinal flexion to strengthen and hypertrophy the abdominal muscles."
+}

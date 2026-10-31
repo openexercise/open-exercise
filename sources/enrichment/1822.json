@@ -1,0 +1,175 @@
+{
+  "is_exercise": true,
+  "name": "Half-Kneeling Open Book",
+  "summary": "A mobility drill performed in a half-kneeling stance against a wall to improve thoracic spine rotation while locking the pelvis and lumbar spine.",
+  "aliases": [
+    {
+      "text": "Half-Kneeling Thoracic Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Wall Open Book",
+      "kind": "common"
+    },
+    {
+      "text": "Half-Kneeling Wall Windmill",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "rotation",
+      "stretch"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "half-kneeling",
+  "stance_kind": "split",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "external-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "rotation"
+      ]
+    },
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "rotation"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "wall"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat",
+    "foam-roller"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Set up in a half-kneeling position with your side closest to a wall, placing the knee closest to the wall on the floor and the outer leg forward with foot flat.",
+      "Position your body upright with hips tucked square, torso tall, and both arms extended forward at chest height with palms together touching the wall."
+    ],
+    "steps": [
+      "Reach the outside arm forward slightly to initiate smooth shoulder blade movement.",
+      "Open the outside arm horizontally away from the wall in a sweeping arc, rotating through your thoracic spine and chest.",
+      "Follow your moving hand with your head and eyes while keeping your front knee and pelvis completely stable and pinned facing forward.",
+      "Rotate until you achieve a comfortable stretch across the chest and upper back, ideally touching or approaching the wall behind you.",
+      "Pause briefly, then reverse the arc under control to return your palms together in the starting position."
+    ],
+    "breathing": "Inhale to lengthen your spine before moving, exhale smoothly as you rotate open, and inhale as you return to the start.",
+    "cues": [
+      "Move from the ribs, not the hips",
+      "Follow your fingertips with your eyes",
+      "Keep the front knee tracking straight ahead"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating through the pelvis and lumbar spine instead of the mid-back.",
+        "correction": "Squeeze the glute of the down knee and keep the hips locked facing straight ahead throughout the rotation."
+      },
+      {
+        "fault": "Letting the front knee flare outward or cave inward.",
+        "correction": "Keep the forward foot firmly planted with the knee aligned over the second toe; place a foam roller between the knee and wall to provide tactile feedback if needed."
+      },
+      {
+        "fault": "Cranking the shoulder into hyper-horizontal abduction without rotating the torso.",
+        "correction": "Ensure your breastbone turns with your arm rather than merely forcing your arm backward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Place a folded mat or pad under the kneeling knee to protect against discomfort.",
+        "Stop within an active, pain-free range of motion if you experience anterior shoulder or lumbar pinch."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

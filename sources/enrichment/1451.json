@@ -1,0 +1,136 @@
+{
+  "is_exercise": true,
+  "name": "Standing Trunk Rotation Stretch",
+  "summary": "A standing mobility stretch that gently rotates the spine to relieve tension through the obliques and back muscles.",
+  "aliases": [
+    {
+      "text": "Torso Rotation Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Torso Twist Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Spinal Twist Stretch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "rotation"
+    ],
+    "mechanics": "not-applicable",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "external-oblique",
+      "role": "stretched"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "stretched"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stretched"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "rotation"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "rotation"
+      ]
+    },
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "rotation"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with your feet shoulder-width apart and your toes pointing forward.",
+      "Place your hands on your hips, or bring your arms across your chest with your elbows bent."
+    ],
+    "steps": [
+      "Inhale to lengthen your spine, standing as tall as possible.",
+      "Exhale and slowly rotate your torso to one side, turning through your ribcage while keeping your hips facing forward as much as possible.",
+      "Allow your head to follow the line of your chest into the twist.",
+      "Hold the stretch at a comfortable end-range for the desired duration, breathing smoothly.",
+      "Slowly unwind back to the center and repeat on the opposite side."
+    ],
+    "breathing": "Inhale to lengthen the spine tall, and exhale gently to settle deeper into the rotation without forcing the range.",
+    "cues": [
+      "Twist from the ribs, not just the hips.",
+      "Keep both feet flat and grounded.",
+      "Lengthen upward before rotating."
+    ],
+    "common_faults": [
+      {
+        "fault": "Over-rotating through the pelvis and knees rather than the spine.",
+        "correction": "Anchor your feet and keep your hips square to the front so the rotation originates from the thoracic spine."
+      },
+      {
+        "fault": "Forcing the twist using momentum or ballistic swinging.",
+        "correction": "Move into the rotation smoothly and hold statically without bouncing."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not force end-range rotation if you have acute spinal disc issues or lower back pain."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

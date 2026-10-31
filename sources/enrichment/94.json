@@ -1,0 +1,159 @@
+{
+  "is_exercise": true,
+  "name": "EZ-Bar Curl",
+  "summary": "A standing bicep curl performed with an undulating cambered bar to reduce wrist and forearm strain.",
+  "aliases": [
+    {
+      "text": "EZ-Bar Biceps Curl",
+      "kind": "common"
+    },
+    {
+      "text": "SZ-Bar Curl",
+      "kind": "regional"
+    },
+    {
+      "text": "EZ Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Cambered Bar Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "supinated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "ez-bar"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand upright with feet hip-width apart and knees slightly unlocked.",
+      "Grasp the inner angled grips of the EZ-bar with an underhand grip, hands roughly shoulder-width apart.",
+      "Hold the bar at thigh level with arms extended and elbows pinned lightly near your ribcage."
+    ],
+    "steps": [
+      "Keeping your upper arms stationary, curl the bar upward by flexing the elbows.",
+      "Continue lifting until your biceps are fully contracted and the bar reaches upper chest height.",
+      "Pause briefly and squeeze your biceps at the peak of the movement.",
+      "Lower the bar under control back to full elbow extension."
+    ],
+    "breathing": "Exhale as you curl the bar upward; inhale smoothly as you lower it back down.",
+    "cues": [
+      "Elbows glued to your sides",
+      "Squeeze biceps at the top",
+      "No swinging with the hips"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to generate momentum from the hips and lower back.",
+        "correction": "Brace the core, keep the torso motionless, and reduce the weight if necessary."
+      },
+      {
+        "fault": "Drifting the elbows forward to make the top portion easier.",
+        "correction": "Keep the elbows tucked at your sides to ensure continuous mechanical tension on the biceps."
+      },
+      {
+        "fault": "Cutting the bottom range of motion short.",
+        "correction": "Allow the arms to fully straighten at the bottom of every rep to achieve a complete stretch."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid hyperextending the lumbar spine under heavy loads."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

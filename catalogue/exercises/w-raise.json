@@ -1,0 +1,173 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "W Leg Raise",
+      "kind": "common"
+    },
+    {
+      "text": "W-Up",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "obliques",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "synergist"
+      },
+      {
+        "muscle": "tensor-fasciae-latae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion",
+          "rotation"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "spinal-flexion",
+      "rotation"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1474"
+  },
+  "id": "oec:w-raise",
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on an exercise mat with your legs fully extended and held together.",
+      "Place your arms along your sides with palms pressed into the floor for support.",
+      "Engage your abdominals by pressing your lower back firmly into the floor and hover your heels a few inches above the ground."
+    ],
+    "steps": [
+      "Raise your straight legs upward and slightly angled toward one side, elevating your hips slightly off the floor at the peak.",
+      "Lower your legs toward the center point without letting your heels touch the floor.",
+      "Immediately raise your legs straight up through the middle, driving your pelvis upward into a reverse crunch.",
+      "Lower your legs back toward the center, then raise them upward toward the opposite side to complete the 'W' trajectory.",
+      "Reverse the tracing pattern back to the starting side to finish one complete repetition."
+    ],
+    "breathing": "Exhale as you raise your legs and lift your hips; inhale as you lower your legs under control.",
+    "cues": [
+      "Glue your lower back to the mat at the bottom of each stroke.",
+      "Draw the letter with your toes.",
+      "Lift the pelvis using your lower abs, not momentum."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lower back off the floor when legs are lowered.",
+        "correction": "Only lower your legs as far as you can maintain full contact between your lumbar spine and the floor, or slightly bend your knees."
+      },
+      {
+        "fault": "Using swinging momentum instead of abdominal contraction.",
+        "correction": "Slow the pace and pause briefly at each vertex of the 'W' to enforce strict muscular control."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid letting your legs drop too low if you experience strain in your lumbar spine."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "W-Raise",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: W-Raise",
+        "url": "https://wger.de/en/exercise/1474/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Moffi"
+      }
+    ]
+  },
+  "setup": {
+    "position": "supine"
+  },
+  "status": "active",
+  "summary": "A dynamic supine core exercise where extended legs trace a 'W' pattern to target the rectus abdominis, obliques, and hip flexors."
+}

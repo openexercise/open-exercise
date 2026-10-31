@@ -1,0 +1,171 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "pelvic tilt crunch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "obliques",
+        "role": "synergist"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1772"
+  },
+  "id": "oec:reverse-crunch",
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a mat with your arms resting at your sides, palms pressed into the floor.",
+      "Bend your knees to approximately 90 degrees and lift your feet slightly off the floor."
+    ],
+    "steps": [
+      "Contract your abdominals to curl your pelvis off the floor, bringing your knees toward your chest.",
+      "Pause for a brief contraction at the top as your lower back lifts off the floor.",
+      "Lower your pelvis back to the starting position in a slow, controlled manner without letting your lower back arch off the mat."
+    ],
+    "breathing": "Exhale as you curl your hips toward your chest; inhale as you slowly return to the starting position.",
+    "cues": [
+      "Roll your pelvis toward your ribs",
+      "Control the descent",
+      "Don't swing your legs"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the legs to generate momentum rather than curling the pelvis.",
+        "correction": "Keep your knee angle fixed and focus entirely on posterior pelvic tilt and rolling the hips up."
+      },
+      {
+        "fault": "Allowing the lumbar spine to hyperextend at the bottom of the movement.",
+        "correction": "Stop the descent before your lower back peels off the floor and maintain core engagement throughout."
+      }
+    ],
+    "safety": {
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Reverse Crunch",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Reverse crunch",
+        "url": "https://wger.de/en/exercise/1772/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "eufvksruh"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:crunch"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:captain-s-chair-knee-raise"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:hanging-knee-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:captain-s-chair-knee-raise"
+    }
+  ],
+  "setup": {
+    "position": "supine"
+  },
+  "status": "active",
+  "summary": "A supine bodyweight core exercise where the pelvis is curled off the floor toward the ribs to target the abdominals."
+}

@@ -1,0 +1,161 @@
+{
+  "is_exercise": true,
+  "name": "Machine Assisted Dip",
+  "summary": "A compound upper-body pressing exercise using a counterweight machine to reduce bodyweight load while strengthening the triceps, chest, and anterior shoulders.",
+  "aliases": [
+    {
+      "text": "Assisted Triceps Dip",
+      "kind": "common"
+    },
+    {
+      "text": "Assisted Dip",
+      "kind": "common"
+    },
+    {
+      "text": "Machine-Assisted Dip",
+      "kind": "common"
+    },
+    {
+      "text": "Triceps Dips (Assisted)",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "support",
+  "grip_orientation": "neutral",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-minor",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "elevation"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "assisted-pull-up-machine"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight-minus-assistance",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Select the desired counterweight on the machine stack; heavier counterweights provide more assistance.",
+      "Grasp the parallel dip bars with a firm neutral grip and step or kneel onto the assistance pad.",
+      "Lock out your arms at the top, depressing your shoulder blades down and keeping your torso upright with a slight forward lean."
+    ],
+    "steps": [
+      "Lower your body under control by bending at the elbows and shoulders until your upper arms are roughly parallel to the floor.",
+      "Pause momentarily in the bottom position without allowing your shoulders to shrug upward toward your ears.",
+      "Press firmly through the palms to extend the elbows and return to the fully locked-out starting position."
+    ],
+    "breathing": "Inhale as you lower your body into the dip, and exhale forcefully as you press back up to the lockout.",
+    "cues": [
+      "Keep shoulders down away from the ears.",
+      "Tuck elbows slightly rather than flaring wide.",
+      "Control the descent; do not bounce off the assistance pad."
+    ],
+    "common_faults": [
+      {
+        "fault": "Dipping excessively deep past the point of shoulder comfort.",
+        "correction": "Stop when upper arms reach parallel to the floor or where shoulder stability is maintained."
+      },
+      {
+        "fault": "Allowing shoulders to roll forward and elevate into the neck.",
+        "correction": "Actively depress the scapulae and keep the chest proud throughout the range of motion."
+      },
+      {
+        "fault": "Stepping off the assistance pad abruptly.",
+        "correction": "Step off carefully one foot or knee at a time while holding the handles to avoid the pad slamming upward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain control of the counterweight platform at all times, especially when dismounting."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Reverse Grip Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Underhand Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Supinated Bench Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "upper-back",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "horizontal-adduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "bench",
+        "adjustable-bench"
+      ],
+      [
+        "power-rack",
+        "squat-rack"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "498"
+  },
+  "id": "oec:barbell-reverse-grip-bench-press",
+  "instructions": {
+    "setup": [
+      "Lie supine on a flat bench with your eyes directly under the racked barbell.",
+      "Grasp the bar with an underhand (supinated) grip, hands set slightly wider than shoulder width.",
+      "Retract and depress your scapulae, plant your feet firmly on the floor, and unrack the bar over your lower chest with assistance if available."
+    ],
+    "steps": [
+      "Lower the barbell under control toward your lower sternum or upper abdomen, keeping your elbows tucked close to your torso.",
+      "Lightly touch your torso without bouncing the bar off your ribs.",
+      "Press the barbell upward and slightly backward until your elbows are fully extended over your chest."
+    ],
+    "breathing": "Inhale deeply as you lower the bar to your chest, hold briefly through the transition, and exhale forcefully as you complete the press.",
+    "cues": [
+      "Tuck the elbows",
+      "Squeeze the bar tightly",
+      "Drive your feet through the floor"
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbows outward during the press.",
+        "correction": "Keep elbows tucked tightly toward your sides throughout the descent and ascent to protect the wrists and shoulders."
+      },
+      {
+        "fault": "Excessive wrist extension under the bar.",
+        "correction": "Position the barbell deep in the heel of your palms and keep your wrists stacked directly over your forearms."
+      },
+      {
+        "fault": "Touching the bar too high on the chest.",
+        "correction": "Lower the bar to the lower sternum or upper abdomen to accommodate the natural path of the supinated forearm."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a power rack with safety pins set just below chest level, or perform the exercise with an attentive spotter due to the increased risk of dropping a supinated bar."
+      ],
+      "spotter": "recommended",
+      "safeties": true
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "rir",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Reverse-Grip Bench Press",
+  "previous_ids": [
+    "oec:reverse-grip-bench-press"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Reverse Grip Bench Press",
+        "url": "https://wger.de/en/exercise/498/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "bl0sh"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-reverse-grip-bench-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated",
+      "width": "shoulder"
+    },
+    "load_position": "chest",
+    "position": "supine",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A flat bench press variation performed with a supinated grip to place greater emphasis on the upper chest and triceps."
+}

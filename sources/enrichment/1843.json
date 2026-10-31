@@ -1,0 +1,140 @@
+{
+  "is_exercise": true,
+  "name": "Butterfly Stretch",
+  "summary": "A seated static stretch that targets the inner thighs and groin by bringing the soles of the feet together and lowering the knees outward.",
+  "aliases": [
+    {
+      "text": "Seated Butterfly Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Groin Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Bound Angle Pose",
+      "kind": "common"
+    },
+    {
+      "text": "Baddha Konasana",
+      "kind": "regional"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "mobility-drill"
+    ],
+    "mechanics": "not-applicable",
+    "force": "static",
+    "kinetic_chain": "not-applicable",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "adductor-longus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "adductor-brevis",
+      "role": "stretched"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gracilis",
+      "role": "stretched"
+    },
+    {
+      "muscle": "pectineus",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "abduction",
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat",
+    "yoga-block"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "load_convention": "not-applicable",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit upright on the floor with your legs bent in front of you.",
+      "Bring the soles of your feet together and let your knees fall outward toward the floor.",
+      "Grasp your feet or ankles with your hands and draw your heels comfortably toward your pelvis while maintaining a tall, neutral spine."
+    ],
+    "steps": [
+      "Engage your posture by lifting through the chest and gently pulling your shoulders down and back.",
+      "Allow gravity to lower your knees toward the floor, optionally using your elbows to apply gentle, even pressure to your inner thighs.",
+      "Maintain a steady stretch in the groin without bouncing or forcing your knees down.",
+      "Hold the position for the prescribed duration, then gently release and return your legs to center."
+    ],
+    "breathing": "Breathe deeply and slowly throughout the stretch, using each exhalation to relax deeper into hip abduction.",
+    "cues": [
+      "Sit tall through the crown of your head",
+      "Let the knees fall naturally",
+      "Hinge from the hips, do not round the back"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding the lower back and slouching to bring the chest forward.",
+        "correction": "Keep the spine upright and pelvis neutral; hinge forward from the hips only as far as mobility allows without lumbar flexion."
+      },
+      {
+        "fault": "Bouncing the knees aggressively.",
+        "correction": "Hold a smooth, static position and allow the adductors to release gradually."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid aggressive downward force on the knees if you experience hip or knee joint discomfort.",
+        "Sit on an elevated mat or yoga block if tight hips cause excessive lower back rounding."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

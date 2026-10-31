@@ -1,0 +1,231 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Underhand Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse-Grip Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Supinated Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Close-Grip Underhand Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Biceps Close Grip Pull Down",
+      "kind": "misspelling"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "adduction",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "downward-rotation",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable",
+        "selectorized-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1280"
+  },
+  "id": "oec:cable-reverse-grip-lat-pulldown",
+  "instructions": {
+    "setup": [
+      "Attach a straight or revolving bar to the high pulley of a lat pulldown station.",
+      "Adjust the thigh pad so your legs are firmly secured with feet flat on the floor.",
+      "Grasp the bar with an underhand (supinated) grip at approximately shoulder width.",
+      "Sit down, anchoring your thighs snugly under the pads, and allow your arms to fully extend overhead with a tall, slightly arched chest."
+    ],
+    "steps": [
+      "Depress your shoulder blades and pull the bar smoothly down toward your upper chest by driving your elbows down and back.",
+      "Pause briefly at the bottom as the bar reaches collarbone height, squeezing your lats and biceps.",
+      "Control the weight as you slowly return the bar overhead to a full stretch, resisting the pull of the cable."
+    ],
+    "breathing": "Exhale as you pull the bar down toward your chest, and inhale as you return the bar under control to the top.",
+    "cues": [
+      "Drive your elbows into your back pockets.",
+      "Keep your chest proud throughout the pull.",
+      "Control the ascent; do not let the stack jerk your arms."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive leaning back and using momentum to swing the weight down.",
+        "correction": "Maintain a stable torso with only a slight natural backward lean of about ten to fifteen degrees."
+      },
+      {
+        "fault": "Incomplete range of motion at the top of the lift.",
+        "correction": "Allow your shoulder blades to elevate naturally at the top to achieve a full stretch on the lats."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the thigh support is properly secured to prevent being lifted off the seat."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable Reverse-Grip Lat Pulldown",
+  "previous_ids": [
+    "oec:biceps-close-grip-pull-down"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Biceps Close Grip Pull Down",
+        "url": "https://wger.de/en/exercise/1280/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "daniel.escada"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-lat-pulldown"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:reverse-grip-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:chin-up"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:chin-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated",
+      "width": "shoulder"
+    },
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A vertical pulling exercise performed on a pulldown station using a supinated grip to target the latissimus dorsi and elbow flexors."
+}

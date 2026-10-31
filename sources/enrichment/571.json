@@ -1,0 +1,167 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Shrug",
+  "summary": "An isolation exercise that builds the upper trapezius and neck musculature by elevating the shoulder blades against a barbell held in front of the body.",
+  "aliases": [
+    {
+      "text": "shrug",
+      "kind": "common"
+    },
+    {
+      "text": "barbell shrugs",
+      "kind": "common"
+    },
+    {
+      "text": "standing barbell shrug",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "trapezius-upper",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "levator-scapulae",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "elevation",
+        "depression"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "power-rack",
+    "squat-rack",
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand upright holding a loaded barbell with a double-overhand grip just outside your thighs.",
+      "Position your feet hip-width apart, soften your knees slightly, and keep your chest tall with a neutral spine."
+    ],
+    "steps": [
+      "Keeping your arms fully extended, elevate your shoulders straight up toward your ears as high as possible.",
+      "Pause briefly at the top of the contraction, squeezing your upper traps.",
+      "Lower the barbell under control back to the starting position until you feel a deep stretch in your traps."
+    ],
+    "breathing": "Inhale before initiating the lift and exhale as you reach peak elevation or as you lower the bar.",
+    "cues": [
+      "Shrug straight up toward your ears.",
+      "Keep your arms straight like ropes.",
+      "Pause and squeeze at the peak."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling the shoulders backward or forward at the top of the movement.",
+        "correction": "Move strictly up and down in a vertical plane to protect the glenohumeral joint and neck."
+      },
+      {
+        "fault": "Bending the elbows to lift the barbell higher.",
+        "correction": "Keep your arms locked straight and allow only the scapulae to elevate the weight."
+      },
+      {
+        "fault": "Using excessive leg drive or bouncing to heave the weight up.",
+        "correction": "Maintain a strict, stationary stance and select a load you can lift using only your traps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid craning your neck forward during heavy sets to reduce cervical strain.",
+        "Consider using lifting straps if grip fatigue limits upper trap recruitment."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

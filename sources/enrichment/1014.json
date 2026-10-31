@@ -1,0 +1,122 @@
+{
+  "is_exercise": true,
+  "name": "Levator Scapulae Stretch",
+  "summary": "A targeted static stretch for the neck and upper back that lengthens the levator scapulae via cervical flexion, contralateral rotation, and lateral flexion.",
+  "aliases": [
+    {
+      "text": "Seated Levator Scapulae Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Levator Scapulae Stretch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "levator-scapulae",
+      "role": "stretched"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "stretched"
+    },
+    {
+      "muscle": "splenius",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "flexion",
+        "lateral-flexion",
+        "rotation"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "chair"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit upright on a chair or stand tall with neutral posture.",
+      "Anchor the shoulder of the side you wish to stretch by placing that hand behind your lower back or gripping the underside of your chair seat.",
+      "Rotate your head roughly 45 degrees away from the target side."
+    ],
+    "steps": [
+      "Gently tilt your chin down toward your collarbone or armpit until you feel a mild stretch along the back and side of your neck.",
+      "Place your free hand lightly on the crown of your head to add gentle overpressure, without yanking or forcing the movement.",
+      "Hold the position for the desired duration while breathing slowly and evenly.",
+      "Gently release the hand pressure, return your head to neutral, and repeat on the opposite side."
+    ],
+    "breathing": "Maintain slow, deep diaphragmatic breaths, relaxing further into the stretch with each exhalation.",
+    "cues": [
+      "Nose to armpit",
+      "Keep the target shoulder depressed",
+      "Guide gently, never pull hard"
+    ],
+    "common_faults": [
+      {
+        "fault": "Yanking aggressively on the head and neck",
+        "correction": "Use only the light weight of the hand to apply gentle overpressure."
+      },
+      {
+        "fault": "Allowing the stretched shoulder to shrug upward",
+        "correction": "Actively anchor the arm downward by sitting on your hand or holding the chair seat to keep the scapula depressed."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Stop immediately if you experience sharp pain, dizziness, or radiating tingling into the arm."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

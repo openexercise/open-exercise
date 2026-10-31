@@ -1,0 +1,213 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "leg press machine",
+      "kind": "common"
+    },
+    {
+      "text": "sled leg press",
+      "kind": "common"
+    },
+    {
+      "text": "45-degree leg press",
+      "kind": "common"
+    },
+    {
+      "text": "incline leg press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "leg-press-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "371"
+  },
+  "id": "oec:leg-press",
+  "instructions": {
+    "setup": [
+      "Sit back firmly into the machine seat with your entire back and hips flush against the pads.",
+      "Place your feet flat on the platform roughly shoulder-width apart, toes pointing slightly outward.",
+      "Disengage the safety release handles while extending your legs to take the weight, keeping a slight bend in your knees."
+    ],
+    "steps": [
+      "Lower the sled smoothly by flexing your hips and knees until your thighs approach roughly ninety degrees relative to your torso.",
+      "Pause briefly at the bottom without allowing your pelvis to lift off the back pad.",
+      "Press through your whole foot to extend your knees and hips, returning the sled to the top without slamming or hyperextending your knees."
+    ],
+    "breathing": "Inhale steadily as you lower the weight, and exhale forcefully as you press the sled upward.",
+    "cues": [
+      "Press the floor away",
+      "Keep your tailbone pinned to the seat",
+      "Soft knees at lockout"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pelvis curling off the pad (butt wink) at the bottom of the movement, placing excessive stress on the lumbar spine.",
+        "correction": "Limit the depth to where your lower back and glutes can stay firmly pinned against the seat back."
+      },
+      {
+        "fault": "Forcefully locking out the knees into hyperextension under heavy load.",
+        "correction": "Halt each repetition just short of mechanical lockout to keep continuous tension on the quads and protect the joints."
+      },
+      {
+        "fault": "Knees caving inward (valgus collapse) during the upward drive.",
+        "correction": "Actively track your knees in line with your second and third toes throughout the entire range."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Always set the mechanical safety stops at an appropriate height before loading heavy weight to prevent entrapment."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Leg Press",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Leg Press",
+        "url": "https://wger.de/en/exercise/371/view-base",
+        "license": "CC0-1.0",
+        "author": "BFad07"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-back-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:hack-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-hack-squat"
+    }
+  ],
+  "setup": {
+    "position": "seated",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A machine-based compound exercise where the lifter presses a weighted sled or footplate away using the lower body."
+}

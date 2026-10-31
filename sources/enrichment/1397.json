@@ -1,0 +1,160 @@
+{
+  "is_exercise": true,
+  "name": "Standing Pancake Good Morning",
+  "summary": "A wide-stance hip hinge performed to build active flexibility and eccentric strength in the hamstrings, adductors, and posterior chain.",
+  "aliases": [
+    {
+      "text": "Wide-Stance Good Morning",
+      "kind": "common"
+    },
+    {
+      "text": "Bodyweight Wide-Stance Good Morning",
+      "kind": "common"
+    },
+    {
+      "text": "Straddle Good Morning",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility",
+      "calisthenics",
+      "strength"
+    ],
+    "movement patterns": [
+      "hinge",
+      "stretch",
+      "mobility-drill"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "eccentric-emphasis"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "stance_width": "wide",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "hamstrings",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "weight-plate",
+    "dumbbell"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "tempo",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet set in a wide straddle, significantly wider than shoulder width.",
+      "Turn your toes forward or slightly angled outward according to hip comfort.",
+      "Interlock your fingers lightly behind your head with elbows flared wide, or cross your arms over your chest.",
+      "Brace your core and keep the knees straight but not hyperextended."
+    ],
+    "steps": [
+      "Hinge at your hips, pushing your pelvis back while lowering your torso forward.",
+      "Maintain a flat, neutral spine and keep your chest open as you descend.",
+      "Lower as far as your hamstring and adductor flexibility allows without rounding your lower back.",
+      "Pause briefly at the bottom of the stretch, then drive your hips forward to return to the upright starting position."
+    ],
+    "breathing": "Inhale as you hinge forward and lower your torso; exhale as you extend your hips back to the starting standing position.",
+    "cues": [
+      "Push the hips back like shutting a door.",
+      "Keep the chest proud and spine long.",
+      "Knees stay firm and straight throughout."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding the lumbar spine to reach lower.",
+        "correction": "Limit your range of motion to only what your hips and hamstrings allow while maintaining a completely flat back."
+      },
+      {
+        "fault": "Bending the knees excessively into a squat.",
+        "correction": "Keep knees soft but extended so the movement remains a pure hip hinge."
+      },
+      {
+        "fault": "Pulling forward on the neck with the hands.",
+        "correction": "Keep fingertips light against the back of the head and pull elbows back to encourage thoracic extension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Warm up the adductors and hamstrings thoroughly before attempting deep ranges of motion."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

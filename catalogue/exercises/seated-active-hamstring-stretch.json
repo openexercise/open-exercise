@@ -1,0 +1,185 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Hamstring Chokes",
+      "kind": "common"
+    },
+    {
+      "text": "Hamstring Choke",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Dynamic Hamstring Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Active Knee Extension Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Dynamic Hamstring Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "hamstrings",
+        "role": "stretched"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hip-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "knee",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1398"
+  },
+  "id": "oec:seated-active-hamstring-stretch",
+  "instructions": {
+    "setup": [
+      "Sit upright on the floor with your legs extended in front of you.",
+      "Bend one knee and bring the thigh close to your chest.",
+      "Interlace your fingers behind the back of the working thigh just below the knee, locking the hip in flexion."
+    ],
+    "steps": [
+      "Actively contract your quadriceps to extend your knee, driving your heel upward toward the ceiling.",
+      "Pause for one to two seconds at the top of the extension when a moderate stretch is felt in the hamstring.",
+      "Lower the lower leg back under control by bending the knee to return to the starting position.",
+      "Repeat for the desired number of repetitions, then switch legs."
+    ],
+    "breathing": "Exhale as you straighten your leg into the stretch and inhale as you bend the knee back to the start.",
+    "cues": [
+      "Keep your chest tall and avoid slouching through the lower back.",
+      "Squeeze the quadriceps at the top to deepen the stretch via reciprocal inhibition.",
+      "Keep the thigh pinned near your chest rather than letting it drift away as the knee straightens."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding excessively through the lumbar spine to reach higher extension.",
+        "correction": "Maintain an upright spine and elevate the chest, extending the knee only as far as your hamstring flexibility allows."
+      },
+      {
+        "fault": "Kicking the leg rapidly using momentum rather than active muscular control.",
+        "correction": "Extend the leg with a smooth, controlled contraction of the quadriceps and pause briefly at the top."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forcing the knee into a painful hyperextended lockout; stretch to a point of gentle tension, not sharp discomfort."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Seated Active Hamstring Stretch",
+  "previous_ids": [
+    "oec:hamstring-chokes"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Hamstring Chokes",
+        "url": "https://wger.de/en/exercise/1398/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "captive0592"
+      }
+    ]
+  },
+  "setup": {
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A dynamic flexibility drill performed by hugging one thigh to the chest while seated and actively extending the knee to stretch the hamstrings."
+}

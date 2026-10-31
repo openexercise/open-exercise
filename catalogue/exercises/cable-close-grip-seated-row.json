@@ -1,0 +1,256 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Close-Grip Seated Cable Row",
+      "kind": "common"
+    },
+    {
+      "text": "Long Pulley Row",
+      "kind": "regional"
+    },
+    {
+      "text": "V-Bar Seated Cable Row",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Cable Row",
+      "kind": "common"
+    },
+    {
+      "text": "Long-Pulley, Narrow",
+      "kind": "common"
+    },
+    {
+      "text": "Seated V-Grip Row",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "depression"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable",
+        "selectorized-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "395,1928"
+  },
+  "id": "oec:cable-close-grip-seated-row",
+  "instructions": {
+    "setup": [
+      "Attach a close-grip V-handle to the low pulley of a seated cable row station.",
+      "Sit on the bench with your feet firmly planted on the footrests and knees slightly bent.",
+      "Grasp the handles with a neutral grip and push back until your torso is upright with your arms fully extended."
+    ],
+    "steps": [
+      "Initiate the pull by retracting your shoulder blades and driving your elbows straight back tight to your torso.",
+      "Continue pulling until the handle reaches your lower abdomen.",
+      "Pause briefly at peak contraction while keeping your chest tall.",
+      "Reverse the movement with control, allowing your arms to straighten and scapulae to protract without rounding your lower back."
+    ],
+    "breathing": "Inhale as you extend your arms forward; exhale as you pull the handle into your abdomen.",
+    "cues": [
+      "Drive the elbows back.",
+      "Chest tall, shoulders down.",
+      "Do not swing your torso."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive torso swing using momentum to pull the weight.",
+        "correction": "Keep your torso stationary with a slight natural forward-and-back hinge limited to the hips."
+      },
+      {
+        "fault": "Shrugging the shoulders upward during the pull.",
+        "correction": "Depress your shoulder blades and focus on pulling the elbows down and back."
+      },
+      {
+        "fault": "Rounding the lumbar spine under load.",
+        "correction": "Maintain neutral spine alignment and brace your core throughout the movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Keep a slight bend in your knees to protect your lower back and hamstrings."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable Close-Grip Seated Row",
+  "previous_ids": [
+    "oec:long-pulley-narrow",
+    "oec:seated-v-grip-row"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Long-Pulley, Narrow",
+        "url": "https://wger.de/en/exercise/395/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      },
+      {
+        "title": "wger: Seated V-Grip Row",
+        "url": "https://wger.de/en/exercise/1928/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "amaesc"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-seated-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-close-grip-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-seated-row"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:resistance-band-seated-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "narrow"
+    },
+    "position": "seated",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A seated horizontal cable pull using a narrow attachment to develop the latissimus dorsi, rhomboids, and mid-back."
+}

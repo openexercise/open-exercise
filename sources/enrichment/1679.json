@@ -1,0 +1,173 @@
+{
+  "is_exercise": true,
+  "name": "Wall Angel",
+  "summary": "A standing mobility drill performed against a wall to enhance scapular upward rotation, shoulder mobility, and thoracic spine alignment.",
+  "aliases": [
+    {
+      "text": "Wall Angels",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Wall Angel",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "rehabilitation",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "trapezius-lower",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "infraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "pectoralis-minor",
+      "role": "stretched"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "downward-rotation",
+        "retraction",
+        "depression"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction",
+        "adduction",
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "extension",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "wall"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "tempo"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": []
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand with your back flat against a wall, placing your feet roughly a half-step away from the baseboard with slight knee flexion.",
+      "Press your sacrum, upper back, and the back of your head firmly against the wall.",
+      "Bring your arms into a 'goalpost' or 'W' position with elbows bent at 90 degrees, aiming to place the backs of your elbows, forearms, and wrists flat against the wall."
+    ],
+    "steps": [
+      "Brace your core to ensure your lower back does not excessively arch off the wall.",
+      "Slowly slide your arms upward along the wall toward an overhead 'V' or 'Y' shape, keeping contact with your elbows and hands as long as comfortable.",
+      "Pause briefly at the top of your pain-free range of motion without letting your ribs flare.",
+      "Slowly pull your elbows back down and in toward your ribs, squeezing your shoulder blades down and back to finish the repetition."
+    ],
+    "breathing": "Inhale as you slide your arms overhead; exhale as you pull your elbows down toward your ribs while keeping the core braced.",
+    "cues": [
+      "Keep your ribs pulled down and flat against the wall.",
+      "Slide the backs of your hands, not just your elbows.",
+      "Move only as high as you can maintain wall contact without pain."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive lumbar extension (arching the lower back) to force the arms flat against the wall.",
+        "correction": "Engage the abdominals to posteriorly tilt the pelvis slightly, keeping the low back relatively close to the wall."
+      },
+      {
+        "fault": "Elbows or wrists peeling away from the wall during the upward slide.",
+        "correction": "Only slide up as far as you can maintain good form; stop and reverse direction before your arms break contact."
+      },
+      {
+        "fault": "Shrugging the shoulders upward toward the ears during overhead movement.",
+        "correction": "Keep active depression and upward rotation by drawing the shoulder blades smoothly around the ribcage rather than hiking the upper traps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not force wrist or shoulder contact if you experience shoulder impingement or anterior capsule pain; work within a comfortable, pain-free range."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

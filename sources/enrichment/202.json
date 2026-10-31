@@ -1,0 +1,138 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Concentration Curl",
+  "summary": "A seated single-arm dumbbell curl with the back of the upper arm braced against the inner thigh to strictly isolate the elbow flexors.",
+  "aliases": [
+    {
+      "text": "Concentration Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Concentration Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "supinated",
+  "stance_width": "wide",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "chair"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit on the edge of a flat bench with your feet spread wide and flat on the floor.",
+      "Grasp a dumbbell in one hand with an underhand grip.",
+      "Hinge forward at the hips and brace the back of your working upper arm against the inside of the same-side thigh, just above the knee.",
+      "Rest your non-working hand or forearm on the opposite knee for torso stability."
+    ],
+    "steps": [
+      "Lower the dumbbell until your working arm is fully extended toward the floor.",
+      "Keeping your upper arm stationary against your thigh, curl the dumbbell upward toward your shoulder by flexing the elbow.",
+      "Squeeze your biceps hard at the peak contraction.",
+      "Lower the dumbbell under control back to the fully extended starting position.",
+      "Complete all repetitions on one side before switching arms."
+    ],
+    "breathing": "Exhale as you curl the dumbbell up; inhale as you lower the weight under control.",
+    "cues": [
+      "Lock your triceps against your inner thigh.",
+      "Only the forearm moves.",
+      "Squeeze hard at the peak."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso backward to generate momentum.",
+        "correction": "Keep your chest still and let the elbow flexors do all the work."
+      },
+      {
+        "fault": "Allowing the upper arm to slide off the inner thigh.",
+        "correction": "Firmly anchor the triceps into the medial thigh throughout the entire range of motion."
+      },
+      {
+        "fault": "Cutting the bottom of the movement short.",
+        "correction": "Lower the weight until the elbow reaches full extension to work the muscle through a complete range."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid hyperextending or violently locking out the elbow under load at the bottom."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

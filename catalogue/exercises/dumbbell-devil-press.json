@@ -1,0 +1,254 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Devil Press",
+      "kind": "common"
+    },
+    {
+      "text": "Devil's Press",
+      "kind": "common"
+    },
+    {
+      "text": "Devil’s Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "horizontal-adduction",
+          "extension"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "conditioning",
+      "power",
+      "strength"
+    ],
+    "movement_patterns": [
+      "hinge",
+      "horizontal-push",
+      "vertical-push",
+      "swing"
+    ],
+    "mechanics": "compound",
+    "force": "mixed",
+    "kinetic_chain": "mixed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "ballistic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1556"
+  },
+  "id": "oec:dumbbell-devil-press",
+  "instructions": {
+    "setup": [
+      "Place two dumbbells on the floor parallel to each other, roughly shoulder-width apart.",
+      "Stand directly behind the dumbbells with your feet hip-width apart."
+    ],
+    "steps": [
+      "Hinge at the hips, place your hands securely on the dumbbell handles, and jump your feet back into a push-up plank position.",
+      "Lower your chest and thighs completely to the floor between the dumbbells.",
+      "Push forcefully off the floor and jump your feet forward, landing in a wide stance outside the dumbbells.",
+      "With a flat back, swing the dumbbells slightly back between your legs to load the posterior chain.",
+      "Violently extend your hips, knees, and ankles, pulling the dumbbells upward close to your body and punching them directly overhead into full lockout.",
+      "Stand tall with elbows locked, dumbbells stacked over your shoulders, and hips fully open.",
+      "Return the dumbbells to the floor under control to begin the next repetition."
+    ],
+    "breathing": "Inhale as you lower your chest to the floor; exhale forcefully as you press up and drive the dumbbells overhead.",
+    "common_faults": [
+      {
+        "fault": "Rounding the lumbar spine when transitioning from the burpee to the swing.",
+        "correction": "Land with a wide stance, drop the hips slightly, and set a rigid, flat back before initiating the swing."
+      },
+      {
+        "fault": "Swinging the dumbbells out in a wide arc like a front raise rather than using hip extension to snatch them overhead.",
+        "correction": "Keep the dumbbells close to your torso as they travel upward, snapping the hips to generate vertical momentum."
+      },
+      {
+        "fault": "Incomplete overhead lockout, finishing with bent knees or soft elbows.",
+        "correction": "Fully extend the hips, knees, and elbows at the top with the weights aligned over the heels."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure dumbbells have flat hex ends to prevent rolling while your hands are on the handles during the push-up phase.",
+        "Maintain core bracing to avoid hyperextending the lower back at overhead lockout."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "load",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Devil Press",
+  "previous_ids": [
+    "oec:devil-s-press"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Devil’s Press",
+        "url": "https://wger.de/en/exercise/1556/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Settebello"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:burpee"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:dumbbell-snatch"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "shoulder"
+    },
+    "position": "moving",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "wide"
+    }
+  },
+  "status": "active",
+  "summary": "A full-body conditioning movement combining a dumbbell burpee with a double dumbbell swing-snatch overhead."
+}

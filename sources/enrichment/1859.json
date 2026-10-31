@@ -1,0 +1,152 @@
+{
+  "is_exercise": true,
+  "name": "Foam Roller Glute Roll",
+  "summary": "A self-myofascial release technique using a foam roller to alleviate tension and improve tissue quality in the gluteal muscles.",
+  "aliases": [
+    {
+      "text": "Foam Roller Gluteus",
+      "kind": "common"
+    },
+    {
+      "text": "Glute Foam Rolling",
+      "kind": "common"
+    },
+    {
+      "text": "Foam Roll Glutes",
+      "kind": "common"
+    },
+    {
+      "text": "Glute SMR",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "not-applicable",
+    "force": "not-applicable",
+    "kinetic_chain": "not-applicable",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stretched"
+    },
+    {
+      "muscle": "piriformis",
+      "role": "stretched"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "foam-roller"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit directly on top of a foam roller placed horizontally on the floor.",
+      "Support your upper body by placing your hands flat on the floor behind the roller.",
+      "Cross the ankle of the targeted leg over the opposite knee in a figure-four position to expose the deep gluteal tissues.",
+      "Slightly shift your body weight toward the side of the crossed leg."
+    ],
+    "steps": [
+      "Use your supporting foot and hands to slowly roll back and forth from the top of the iliac crest down to the sit bone.",
+      "Scan the muscle belly slowly for areas of localized tightness or tenderness.",
+      "When a tender trigger point is found, pause on the spot for twenty to thirty seconds while breathing deeply until tension decreases.",
+      "Perform small, controlled oscillating rolls over the area before switching to the other side."
+    ],
+    "breathing": "Breathe continuously and deeply, exhaling slowly to encourage the gluteal muscles to relax over the roller.",
+    "cues": [
+      "Keep the chest open and support weight with the hands.",
+      "Cross the ankle to stretch and expose the deep hip rotators.",
+      "Roll slowly; avoid rushing over tender spots."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling too rapidly across the muscle.",
+        "correction": "Move at a slow, deliberate pace of about one inch per second to allow soft tissue adaptation."
+      },
+      {
+        "fault": "Holding your breath due to discomfort.",
+        "correction": "Ease off the pressure by supporting more weight through your hands and maintain steady, relaxed breathing."
+      },
+      {
+        "fault": "Rolling directly over bony landmarks such as the greater trochanter or sacrum.",
+        "correction": "Keep the roller centered on the soft muscular tissue between the hip crest and hip joint."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid rolling over unhealed muscle tears, acute bursitis, or severe sciatic nerve pain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

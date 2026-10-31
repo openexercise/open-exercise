@@ -1,0 +1,159 @@
+{
+  "is_exercise": true,
+  "name": "L-Sit",
+  "summary": "An advanced isometric calisthenics hold where the body is suspended on the hands with the legs held straight and parallel to the floor.",
+  "aliases": [
+    {
+      "text": "Floor L-Sit",
+      "kind": "common"
+    },
+    {
+      "text": "L Sit",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "advanced"
+  },
+  "position": "support",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "parallettes",
+    "yoga-block",
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit on the floor with your legs fully extended straight in front of you and feet together.",
+      "Place your palms flat on the floor beside your hips, fingers pointing forward or slightly outward.",
+      "Lock your elbows and draw your shoulders away from your ears."
+    ],
+    "steps": [
+      "Press aggressively through your palms to depress your scapulae and lift your hips off the ground.",
+      "Simultaneously contract your abdominals and hip flexors to lift your straight legs parallel to the floor, forming a 90-degree 'L' shape with your torso.",
+      "Point your toes, maintain fully locked knees, and hold the suspended position for the target duration.",
+      "Lower your hips and heels smoothly back to the floor under control."
+    ],
+    "breathing": "Take shallow, controlled breaths into your upper chest while maintaining continuous abdominal and hip tension throughout the hold.",
+    "cues": [
+      "Push the floor away",
+      "Knees locked, toes pointed",
+      "Chest tall, shoulders down"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the knees to decrease hip flexor leverage.",
+        "correction": "Squeeze your quadriceps hard to maintain full knee lockout; scale to a tuck L-sit if necessary."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears, losing scapular depression.",
+        "correction": "Actively press downward through your hands to create maximal distance between your shoulders and ears."
+      },
+      {
+        "fault": "Allowing the hips to drop below hand level or dragging the heels.",
+        "correction": "Focus on driving your pelvis forward slightly and actively pulling the thighs toward your torso with your hip flexors."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Warm up the wrists and shoulders thoroughly before performing floor support holds."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

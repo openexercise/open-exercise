@@ -1,0 +1,196 @@
+{
+  "is_exercise": true,
+  "name": "Sit-Through",
+  "summary": "A dynamic bodyweight exercise where you rotate from a quadruped or plank position, threading one leg underneath the torso while balancing on the opposite hand and foot.",
+  "aliases": [
+    {
+      "text": "Sit-Out",
+      "kind": "common"
+    },
+    {
+      "text": "Kick-Through",
+      "kind": "common"
+    },
+    {
+      "text": "Full Sit Out",
+      "kind": "common"
+    },
+    {
+      "text": "Bear Sit-Through",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "rotation",
+      "anti-rotation",
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "quadruped",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "external-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rotator-cuff",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "rotation"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "rotation"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "upward-rotation"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "internal-rotation",
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Start on all fours with your hands directly under your shoulders and your knees directly beneath your hips.",
+      "Tuck your toes and press through your hands and feet to elevate your knees 1 to 2 inches off the floor into a hovering bear position.",
+      "Engage your core and establish a stable, active base with your shoulder blades protracted."
+    ],
+    "steps": [
+      "Shift your weight onto your left hand and right foot.",
+      "Lift your right hand and sweep your left leg underneath your torso, pivoting on your supporting right foot.",
+      "Extend the left leg fully forward just above the floor while pulling your right elbow back toward your ribs.",
+      "Pause briefly with your torso rotated and hips hovering above the floor.",
+      "Reverse the movement with control, bringing your left leg back under and returning your right hand to the starting bear position.",
+      "Repeat the movement in the opposite direction by sweeping your right leg through while lifting your left hand."
+    ],
+    "breathing": "Exhale as you rotate and kick through, and inhale as you return to the center quadruped position.",
+    "cues": [
+      "Push the floor away through the supporting arm.",
+      "Keep your hips hovering low without touching down.",
+      "Pivot smoothly on the ball of the grounded foot."
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging or collapsing into the supporting shoulder during rotation.",
+        "correction": "Actively push through the floor to keep the supporting shoulder engaged and stable."
+      },
+      {
+        "fault": "Piking hips too high in the starting position.",
+        "correction": "Keep your knees hovering only an inch or two above the ground with your spine flat."
+      },
+      {
+        "fault": "Letting the hip drop entirely to the floor on the kick-through.",
+        "correction": "Maintain abdominal tension to keep your hips elevated throughout the entire movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure adequate wrist mobility before performing rapid or high-volume repetitions."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

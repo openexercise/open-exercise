@@ -1,0 +1,257 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Walking Dumbbell Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Walking Lunges",
+      "kind": "common"
+    },
+    {
+      "text": "Walking Lunge with Dumbbells",
+      "kind": "common"
+    },
+    {
+      "text": "Walking Lunges",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Lunges Walking",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "lunge",
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "206"
+  },
+  "id": "oec:dumbbell-walking-lunge",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart, holding a dumbbell in each hand with arms hanging naturally at your sides.",
+      "Engage your core, pull your shoulders back and down, and ensure a clear, unobstructed path ahead."
+    ],
+    "steps": [
+      "Take a controlled step forward with one leg, landing heel-to-midfoot.",
+      "Lower your body under control until the back knee lightly taps or hovers just above the floor, with both knees bent to roughly ninety degrees.",
+      "Push forcefully through the front midfoot and heel, extending the hip and knee to drive your body upward and forward.",
+      "Bring the trailing leg through in a continuous motion to step directly into the next lunge, or pause briefly with feet together if balance requires.",
+      "Repeat alternating legs for the desired number of repetitions."
+    ],
+    "breathing": "Inhale as you step forward and lower into the lunge; exhale forcefully as you drive up out of the bottom position.",
+    "cues": [
+      "Stay tall through the torso.",
+      "Step on train tracks, not a tightrope.",
+      "Drive through the whole front foot.",
+      "Control the descent; don't slam the trailing knee."
+    ],
+    "common_faults": [
+      {
+        "fault": "Stepping with feet directly in line, leading to loss of lateral balance.",
+        "correction": "Maintain hip-width spacing between feet as you step forward."
+      },
+      {
+        "fault": "Slamming the rear knee forcefully onto the floor.",
+        "correction": "Decelerate smoothly and stop just short of floor contact or let the knee tap gently."
+      },
+      {
+        "fault": "Excessive forward torso collapse and rounding of the spine.",
+        "correction": "Brace the abdominals and keep the chest proud throughout the stride."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Clear ample floor space of stray equipment before beginning.",
+        "If you lose balance, drop the dumbbells to your sides away from your feet rather than twisting."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "distance"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Walking Lunge",
+  "previous_ids": [
+    "oec:dumbbell-lunges-walking"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dumbbell Lunges Walking",
+        "url": "https://wger.de/en/exercise/206/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-lunge"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-walking-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-walking-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-reverse-lunge"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:forward-lunge"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:bodyweight-forward-lunge"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "at-sides",
+    "position": "moving",
+    "range": "full",
+    "stance": {
+      "kind": "split",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A dynamic lower-body exercise where you step forward into alternating lunges while holding dumbbells at your sides."
+}

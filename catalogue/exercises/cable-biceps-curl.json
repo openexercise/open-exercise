@@ -1,0 +1,245 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Cable Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Cable Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Low Cable Biceps Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Biceps Curl With Cable",
+      "kind": "common"
+    },
+    {
+      "text": "Straight Bar Cable Curls",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "radioulnar",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "95,912"
+  },
+  "id": "oec:cable-biceps-curl",
+  "instructions": {
+    "setup": [
+      "Attach a straight or EZ-curl bar to a low cable pulley.",
+      "Stand facing the pulley with feet hip-width apart and grasp the bar with an underhand, shoulder-width grip.",
+      "Step back slightly so there is tension on the cable with arms fully extended and elbows tucked close to your torso."
+    ],
+    "steps": [
+      "Keeping your upper arms stationary by your sides, curl the bar upward toward your shoulders by flexing your elbows.",
+      "Squeeze your biceps hard at the peak contraction.",
+      "Slowly lower the bar back to the starting position under control, fully extending your elbows before beginning the next rep."
+    ],
+    "breathing": "Exhale as you curl the weight upward; inhale as you lower it back down.",
+    "cues": [
+      "Pin your elbows to your sides",
+      "Move only your forearms",
+      "Control the descent against the cable's pull"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to build momentum",
+        "correction": "Keep your core braced and stand upright, reducing the load if necessary to eliminate body swing."
+      },
+      {
+        "fault": "Allowing elbows to drift forward excessively during the curl",
+        "correction": "Lock the upper arms along the ribcage so the biceps perform the work rather than the anterior deltoids."
+      },
+      {
+        "fault": "Cutting the eccentric range short",
+        "correction": "Lower the bar all the way until the elbows reach full extension to take advantage of continuous cable tension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a stable base of support and avoid hyperextending the lower back under heavy loads"
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable Biceps Curl",
+  "previous_ids": [
+    "oec:biceps-curl-with-cable",
+    "oec:straight-bar-cable-curls"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Biceps Curl With Cable",
+        "url": "https://wger.de/en/exercise/95/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      },
+      {
+        "title": "wger: Straight Bar Cable Curls",
+        "url": "https://wger.de/en/exercise/912/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "novadani"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-biceps-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:ez-bar-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-biceps-curl"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated",
+      "width": "shoulder"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A standing isolation exercise that uses a low cable pulley to maintain constant tension on the elbow flexors throughout the entire range of motion."
+}

@@ -1,0 +1,159 @@
+{
+  "is_exercise": true,
+  "name": "Archer Pull-Up",
+  "summary": "An advanced bodyweight vertical pull where the body is pulled toward one hand while the opposite arm straightens along the bar to overload the working side.",
+  "aliases": [
+    {
+      "text": "Archer Chin-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Archer Pullup",
+      "kind": "misspelling"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "advanced"
+  },
+  "position": "hanging",
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "adduction",
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "downward-rotation",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "pull-up-bar",
+        "gymnastic-rings"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Grip the pull-up bar with an overhand grip significantly wider than shoulder width.",
+      "Hang with arms straight, engaging your core and pulling your shoulders down into an active dead hang."
+    ],
+    "steps": [
+      "Initiate the pull by driving your target-side elbow down and in toward your ribs, shifting your body toward that hand.",
+      "Simultaneously extend the assisting arm straight out along the bar, resting your fingers over the bar to provide minimal support.",
+      "Pull until your chin clears the bar over your working hand.",
+      "Lower yourself under control back to the central dead hang position.",
+      "Repeat the movement by pulling up toward the opposite side."
+    ],
+    "breathing": "Inhale at the bottom before initiating the pull, exhale as you pull yourself to the side, and inhale again as you lower with control.",
+    "cues": [
+      "Drive the working elbow to your pocket.",
+      "Keep the assisting arm locked out.",
+      "Stay tight through your midsection without swinging."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the assisting arm significantly.",
+        "correction": "Focus on keeping the assisting arm straight across the bar so the working side bears the majority of the load."
+      },
+      {
+        "fault": "Kipping or swinging the legs to generate momentum.",
+        "correction": "Brace the abdominals and legs to maintain a rigid hollow-body position throughout each rep."
+      },
+      {
+        "fault": "Dropping quickly out of the top position.",
+        "correction": "Control the eccentric phase smoothly back to the center before starting the next rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure you have a strong base of standard wide-grip pull-ups before attempting archer variations to prevent excessive strain on the shoulder and elbow."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

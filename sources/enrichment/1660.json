@@ -1,0 +1,174 @@
+{
+  "is_exercise": true,
+  "name": "Cable Single-Arm Incline Chest Press",
+  "summary": "A standing unilateral cable press that pushes upward and inward to target the upper chest and anterior shoulder while challenging core anti-rotation.",
+  "aliases": [
+    {
+      "text": "Cable Chest Press - Incline",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Incline Cable Chest Press",
+      "kind": "common"
+    },
+    {
+      "text": "Standing One-Arm Incline Cable Press",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Cable Incline Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "anti-rotation"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "grip_width": "shoulder",
+  "stance_width": "shoulder",
+  "stance_kind": "staggered",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "horizontal-adduction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "upward-rotation"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set the cable pulley to low or hip height with a single D-handle attached.",
+      "Grasp the handle with one hand and face away from the cable stack.",
+      "Step forward into a staggered stance with the leg opposite the working arm forward.",
+      "Hold the handle near the lower chest with your elbow bent roughly 90 degrees and in line with the cable trajectory, bracing your non-working hand against the cable upright or your hip."
+    ],
+    "steps": [
+      "Brace your core to prevent your torso from twisting toward the cable stack.",
+      "Press the handle upward and forward at roughly a 30 to 45-degree angle toward chest height in front of your sternum.",
+      "Squeeze the upper chest at full elbow extension without shrugging the shoulder.",
+      "Lower the handle under control along the same path back to the starting position."
+    ],
+    "breathing": "Inhale as you lower the cable back to your side; exhale forcefully as you press forward and upward.",
+    "cues": [
+      "Punch up and in toward your midline.",
+      "Keep the torso square against the cable's pull.",
+      "Match your forearm angle to the cable path."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the torso to twist during the press.",
+        "correction": "Brace the abdominal wall and widen the staggered stance to maintain strict anti-rotation."
+      },
+      {
+        "fault": "Flaring the elbow out horizontally.",
+        "correction": "Keep the elbow tucked roughly 45 degrees relative to your torso along the upward line of push."
+      },
+      {
+        "fault": "Pressing straight ahead instead of on an incline.",
+        "correction": "Set the pulley low enough and follow a diagonal pressing path from low to upper chest height."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Step forward under control before pressing to avoid sudden pull-back from the stack.",
+        "Ensure secure footing to prevent slipping under asymmetrical resistance."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

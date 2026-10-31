@@ -1,0 +1,215 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Standing Leg Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Hamstring Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Standing Hamstring Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Leg Standing Leg Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Leg Curls (standing)",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-femoris",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "semitendinosus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "semimembranosus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gracilis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "sartorius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-knee-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "367"
+  },
+  "id": "oec:machine-standing-leg-curl",
+  "instructions": {
+    "setup": [
+      "Adjust the machine so the knee of your working leg aligns with the machine's axis of rotation.",
+      "Position the lower leg pad comfortably against the back of your working calf or just below the Achilles tendon.",
+      "Stand upright facing the machine with the front of your thighs supported by the thigh pad and grasp the handles for stability."
+    ],
+    "steps": [
+      "Brace your core and keep your hips pressed gently forward against the support pad.",
+      "Curl the working leg upward by bending your knee as far as comfortable through a full range of motion.",
+      "Squeeze your hamstring forcefully at peak contraction for a brief pause.",
+      "Lower the weight smoothly under control back to the starting position without allowing the weight stack to slam."
+    ],
+    "breathing": "Exhale as you curl the pad toward your glutes, and inhale as you lower the weight back down.",
+    "cues": [
+      "Keep your hips pinned to the pad.",
+      "Drive your heel to your glute.",
+      "Control the descent."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flexing forward at the hips to swing the weight up.",
+        "correction": "Maintain an upright torso and keep your pelvis pressed steadily against the thigh support pad throughout the set."
+      },
+      {
+        "fault": "Rushing the eccentric phase and letting the weight drop.",
+        "correction": "Lower the leg slowly over two to three seconds to maintain constant muscular tension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the pivot point of the machine is aligned directly with your knee joint to prevent excess shearing forces."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Machine Standing Leg Curl",
+  "previous_ids": [
+    "oec:leg-curls-standing"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Leg Curls (standing)",
+        "url": "https://wger.de/en/exercise/367/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:lying-leg-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-leg-curl"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "single-leg"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral isolation exercise that targets the hamstrings through knee flexion on a standing leg curl machine."
+}

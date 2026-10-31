@@ -1,0 +1,225 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Alternate Walking",
+      "kind": "common"
+    },
+    {
+      "text": "Walk-Run Intervals",
+      "kind": "common"
+    },
+    {
+      "text": "Run-Walk Method",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "soleus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "tibialis-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "treadmill"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "2670"
+  },
+  "id": "oec:run-walk-intervals",
+  "instructions": {
+    "setup": [
+      "Stand tall outdoors on a flat, safe surface, or step onto a treadmill.",
+      "Set your interval timer or monitor for your desired walk and run durations."
+    ],
+    "steps": [
+      "Begin by walking at a brisk, purposeful recovery pace for the designated walking interval.",
+      "Smoothly transition into an easy jog or run as the interval timer signals the work bout.",
+      "Maintain an upright posture, relaxed shoulders, and a smooth cadence throughout the jog.",
+      "Decelerate back to a walk at the end of the running interval and repeat for the target duration."
+    ],
+    "breathing": "Maintain a steady, rhythmic breathing pattern matched to your footfalls, avoiding holding your breath during running phases.",
+    "cues": [
+      "Stay tall through the torso",
+      "Smooth transitions",
+      "Keep shoulders relaxed"
+    ],
+    "common_faults": [
+      {
+        "fault": "Sprinting during the run interval and becoming too exhausted to complete subsequent sets.",
+        "correction": "Keep the running pace conversational and controlled to sustain the intervals over time."
+      },
+      {
+        "fault": "Overstriding during the transition to a jog, leading to excessive heel striking and joint impact.",
+        "correction": "Land with feet beneath your hips using a quick, light turnover."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Wear appropriate running footwear to absorb impact.",
+        "Stay alert to terrain and traffic when performing intervals outdoors."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "distance",
+          "pace",
+          "speed",
+          "heart-rate",
+          "calories",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration",
+          "distance"
+        ],
+        "optional": [
+          "pace",
+          "speed",
+          "heart-rate",
+          "calories",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Run-Walk Intervals",
+  "previous_ids": [
+    "oec:alternate-walking"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Alternate Walking",
+        "url": "https://wger.de/en/exercise/2670/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Mamo2604"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:walking"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:running"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:jogging"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:interval-run"
+    }
+  ],
+  "setup": {
+    "position": "moving"
+  },
+  "status": "active",
+  "summary": "A cardiovascular exercise alternating bouts of walking with periods of jogging or running."
+}

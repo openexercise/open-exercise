@@ -1,0 +1,178 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Pin Squat",
+  "summary": "A squat variation where the barbell settles onto safety pins at a specified depth to eliminate the stretch reflex and build concentric power.",
+  "aliases": [
+    {
+      "text": "Pin Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Anderson Squat",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "powerlifting",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "high-bar",
+  "range": "pin",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "power-rack"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set the safety pins in a power rack to the desired squat depth, typically just below parallel or at your sticking point.",
+      "Set the J-hooks higher to unrack conventionally, or place the loaded bar directly on the pins if performing concentric-only repetitions.",
+      "Step under the barbell, resting it across your upper traps or rear deltoids, and establish an even, full-grip hand placement.",
+      "Unrack the bar, take two to three steps back to establish your standard squat stance, and brace your core."
+    ],
+    "steps": [
+      "Hinge at the hips and bend the knees simultaneously to descend under control.",
+      "Gently lower the bar until it rests fully on the safety pins, maintaining total body tension and your braced position without relaxing.",
+      "Pause for one to two seconds on the pins to eliminate all elastic rebound.",
+      "Drive aggressively through the middle of your feet, extending your hips and knees to return to a fully standing lockout."
+    ],
+    "breathing": "Inhale deeply and brace your core with the Valsalva maneuver before descending; hold your breath through the pause on the pins and exhale once past the sticking point on the ascent.",
+    "cues": [
+      "Stay tight on the pins",
+      "Do not collapse",
+      "Drive the floor away"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bouncing the barbell violently off the safety pins to utilize momentum.",
+        "correction": "Come to a controlled stop on the pins so the weight settles completely without bouncing."
+      },
+      {
+        "fault": "Losing spinal bracing and collapsing torso posture while resting on the pins.",
+        "correction": "Maintain full muscular tension and an active brace throughout the pause; the pins support the bar, not your posture."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure both safety pins are set at precisely the same height before loading the bar.",
+        "Use a sturdy power rack with rated safety pins or strap safeties."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Side-Lying Dumbbell External Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Side-Lying External Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Rotator Cuff Exercise",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "infraspinatus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-minor",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "external-rotation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "strength"
+    ],
+    "movement_patterns": [
+      "rotation"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "406,578"
+  },
+  "id": "oec:dumbbell-side-lying-external-rotation",
+  "instructions": {
+    "setup": [
+      "Lie on your side on a mat or flat bench with your working arm on top.",
+      "Support your head with your bottom arm or a small pillow to keep the neck neutral.",
+      "Bend the elbow of your working arm to 90 degrees and pin the upper arm against your flank.",
+      "Grasp a light dumbbell with a neutral grip so your forearm rests across your abdomen."
+    ],
+    "steps": [
+      "Keeping your elbow pinned firmly to your side at 90 degrees, rotate your forearm upward toward the ceiling.",
+      "Pause briefly at the top of the movement without letting your torso roll backward.",
+      "Slowly lower the dumbbell back across your abdomen under complete control.",
+      "Complete all repetitions on one side before switching to the other."
+    ],
+    "breathing": "Exhale as you rotate the weight upward; inhale as you lower it back to your stomach.",
+    "cues": [
+      "Keep the elbow pinned to your side.",
+      "Rotate from the shoulder, not the wrist.",
+      "Do not roll your chest open toward the ceiling."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the elbow to drift away from the torso during rotation.",
+        "correction": "Place a rolled towel between your elbow and ribcage and keep it pressed in place throughout the set."
+      },
+      {
+        "fault": "Rolling the torso backward to cheat the weight up.",
+        "correction": "Keep your hips and shoulders stacked vertically and only move through the shoulder joint."
+      },
+      {
+        "fault": "Extending or flexing the wrist to simulate more range of motion.",
+        "correction": "Keep the wrist rigid in a neutral alignment throughout the repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use very light resistance; the rotator cuff muscles are small and easily strained."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Dumbbell Side-Lying External Rotation",
+  "previous_ids": [
+    "oec:lying-rotator-cuff-exercise",
+    "oec:side-lying-external-rotation"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Lying Rotator Cuff Exercise",
+        "url": "https://wger.de/en/exercise/406/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Trix"
+      },
+      {
+        "title": "wger: Side-lying External Rotation",
+        "url": "https://wger.de/en/exercise/578/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "apeschel"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-external-rotation"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:side-lying-dumbbell-external-rotation"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-seated-external-rotation"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-external-rotation"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-shoulder-external-rotation"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "side-lying"
+  },
+  "status": "active",
+  "summary": "An isolated rotator cuff exercise performed lying on one side to strengthen the infraspinatus and teres minor against gravity."
+}

@@ -1,0 +1,202 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Hyperextension Bench Crunch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "external-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "weight-plate"
+    ],
+    "required": [
+      [
+        "roman-chair",
+        "ghd"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "505"
+  },
+  "id": "oec:roman-chair-crunch",
+  "instructions": {
+    "setup": [
+      "Sit on the Roman chair facing upward with your thighs supported by the main pad and your ankles firmly secured beneath the roller pads.",
+      "Cross your arms over your chest or lightly place your fingertips beside your ears without pulling on your neck.",
+      "Engage your core and lean back slightly until your torso forms a straight line with your thighs."
+    ],
+    "steps": [
+      "Exhale and curl your ribcage down toward your pelvis by flexing your spine, squeezing your abdominals hard at the peak of the contraction.",
+      "Pause momentarily at peak flexion while keeping your hips stable.",
+      "Inhale and slowly uncurl your spine, returning to the starting semi-reclined alignment without hyperextending your lower back."
+    ],
+    "breathing": "Exhale forcefully as you curl the torso upward; inhale smoothly as you lower back down under control.",
+    "cues": [
+      "Ribs to hips",
+      "Curl, don't hinge",
+      "Keep tension on the abs throughout"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso by hinging at the hips instead of flexing the spine.",
+        "correction": "Keep your hip angle relatively fixed and focus exclusively on curling your ribcage toward your pelvis."
+      },
+      {
+        "fault": "Hyperextending the lower back excessively at the bottom of each repetition.",
+        "correction": "Stop descending once your torso is parallel with your thighs to maintain continuous abdominal engagement and protect the lumbar spine."
+      },
+      {
+        "fault": "Yanking on the neck with hands behind the head.",
+        "correction": "Cross your arms across your chest or keep your fingertips gently resting at your temples."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure ankle pads are securely locked in position before leaning back into the movement."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Roman Chair Crunch",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Roman Chair Crunch",
+        "url": "https://wger.de/en/exercise/505/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "MaddieBeasley"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:crunch"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:crunch"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:decline-crunch"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:stability-ball-crunch"
+    }
+  ],
+  "setup": {
+    "position": "seated",
+    "range": "partial"
+  },
+  "status": "active",
+  "summary": "An abdominal exercise performed on a Roman chair that targets the rectus abdominis through controlled spinal flexion while the lower body is anchored."
+}

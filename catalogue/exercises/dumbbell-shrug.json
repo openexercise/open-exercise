@@ -1,0 +1,210 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "DB Shrug",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Dumbbell Shoulder Shrug",
+      "kind": "common"
+    },
+    {
+      "text": "Shrugs, Dumbbells",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "trapezius-upper",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "levator-scapulae",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "elevation",
+          "depression"
+        ]
+      },
+      {
+        "joint": "cervical-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "strap"
+    ],
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "572"
+  },
+  "id": "oec:dumbbell-shrug",
+  "instructions": {
+    "setup": [
+      "Stand upright holding a dumbbell in each hand at your sides using a neutral grip.",
+      "Position your feet hip-width apart with a slight bend in your knees and your core braced.",
+      "Allow the shoulders to hang down naturally into full scapular depression."
+    ],
+    "steps": [
+      "Elevate your shoulders straight up toward your ears as high as possible without bending your elbows.",
+      "Pause briefly at the top to accentuate the peak contraction in the upper traps.",
+      "Lower the dumbbells under control back to the starting position, feeling a full stretch at the bottom."
+    ],
+    "breathing": "Inhale before elevating the shoulders, and exhale as you lower the weight or complete the rep.",
+    "cues": [
+      "Shrug straight up, not backward.",
+      "Keep arms completely straight.",
+      "Pause and squeeze at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling the shoulders in a circle at the top.",
+        "correction": "Move strictly up and down in a straight vertical path to avoid excessive glenohumeral stress."
+      },
+      {
+        "fault": "Bending the elbows to pull the weight higher.",
+        "correction": "Keep the arms long and loose like ropes; move the load solely through scapular elevation."
+      },
+      {
+        "fault": "Poking the chin forward during the shrug.",
+        "correction": "Maintain a neutral neck and pack your chin throughout the set."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use lifting straps if grip fatigue limits upper trapezius recruitment, rather than compromising form."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Shrug",
+  "previous_ids": [
+    "oec:shrugs-dumbbells"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Shrugs, Dumbbells",
+        "url": "https://wger.de/en/exercise/572/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-shrug"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-shrug"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:smith-machine-shrug"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A standing upper-back isolation exercise targeting the upper trapezius by elevating the shoulders against dumbbell resistance."
+}

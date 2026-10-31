@@ -1,0 +1,238 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Military Press mit SZ-Bar",
+      "kind": "regional"
+    },
+    {
+      "text": "EZ-Bar Military Press",
+      "kind": "common"
+    },
+    {
+      "text": "EZ-Bar Shoulder Press",
+      "kind": "common"
+    },
+    {
+      "text": "EZ Curl Bar Overhead Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-lateral",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "abduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "weight-plate",
+      "power-rack",
+      "squat-rack"
+    ],
+    "required": [
+      [
+        "ez-bar"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "418"
+  },
+  "id": "oec:ez-bar-overhead-press",
+  "instructions": {
+    "setup": [
+      "Stand with your feet hip-width apart and grip the angled bends of the EZ-bar with an overhand grip around shoulder width.",
+      "Bring the bar to the front-rack position across your upper chest with elbows positioned slightly forward of the bar.",
+      "Brace your core, squeeze your glutes, and establish a tall, stable posture."
+    ],
+    "steps": [
+      "Tilt your head back slightly and press the EZ-bar vertically in a straight path.",
+      "Once the bar clears your forehead, shift your head forward into a neutral position and extend your arms fully overhead.",
+      "Lock out the weight overhead with the bar balanced directly above the midfoot.",
+      "Lower the bar back to the upper chest under control by tucking your elbows slightly forward and clearing the chin."
+    ],
+    "breathing": "Inhale and brace your trunk before pressing, exhale as you complete the lockout overhead, and inhale again as you lower the bar.",
+    "cues": [
+      "Tight glutes and braced core to prevent leaning back.",
+      "Tuck your chin to make way, then push your head through the window.",
+      "Punch the bar straight toward the ceiling."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive lumbar extension (arching the lower back) to push the weight.",
+        "correction": "Squeeze your glutes, pull your ribs down toward your pelvis, and reduce the load if necessary."
+      },
+      {
+        "fault": "Pressing the bar out in front rather than vertically overhead.",
+        "correction": "Keep your forearms vertical and allow the head to move back slightly so the bar travels in a straight vertical line."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not hyperextend the spine to compensate for limited overhead mobility.",
+        "Ensure collars are used if loose plates are added to the EZ-bar."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "EZ-Bar Overhead Press",
+  "previous_ids": [
+    "oec:military-press-mit-sz-bar"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Military Press mit SZ-Bar",
+        "url": "https://wger.de/en/exercise/418/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "mbozi1"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-overhead-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-overhead-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "load_position": "front-rack",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A standing vertical press performed with an EZ-curl bar to build shoulder and triceps strength while reducing wrist strain."
+}

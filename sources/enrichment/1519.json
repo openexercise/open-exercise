@@ -1,0 +1,175 @@
+{
+  "is_exercise": true,
+  "name": "EZ-Bar Overhead Triceps Extension",
+  "summary": "An isolation exercise performed seated or standing that extends an EZ-curl bar overhead to target the triceps, particularly emphasizing the long head.",
+  "aliases": [
+    {
+      "text": "Overhead EZ-Bar Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "French Press",
+      "kind": "common"
+    },
+    {
+      "text": "EZ-Bar French Press",
+      "kind": "common"
+    },
+    {
+      "text": "Seated EZ-Bar Overhead Triceps Extension",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "seated",
+  "grip_orientation": "pronated",
+  "grip_width": "narrow",
+  "load_position": "overhead",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "triceps-long-head",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-lateral-head",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-medial-head",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "anconeus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rotator-cuff",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "ez-bar"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "adjustable-bench"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit upright on a flat bench or a bench with low back support, holding an EZ-bar with an overhand grip on the inner bends.",
+      "Press the bar directly overhead until your arms are extended vertically with your elbows tucked inward."
+    ],
+    "steps": [
+      "Keeping your upper arms stationary and close to your ears, lower the bar behind your head by bending at the elbows.",
+      "Descend until you feel a deep stretch in the triceps, around a ninety-degree elbow angle or slightly deeper.",
+      "Drive the weight upward by extending your elbows until your arms return to the fully extended starting position.",
+      "Squeeze the triceps firmly at the top before beginning the next repetition."
+    ],
+    "breathing": "Inhale as you lower the bar behind your head; exhale forcefully as you extend your elbows back to the top.",
+    "cues": [
+      "Elbows pointed forward",
+      "Upper arms fixed like pillars",
+      "Ribs down, avoid arching the lower back"
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbows outward excessively during the descent.",
+        "correction": "Keep elbows pointing mostly forward and relatively close together to maintain tension on the triceps and protect the shoulders."
+      },
+      {
+        "fault": "Arching the lumbar spine to compensate for poor shoulder mobility.",
+        "correction": "Brace the abdominals firmly and use a bench with vertical back support if needed."
+      },
+      {
+        "fault": "Moving the upper arms forward and back like a pullover.",
+        "correction": "Isolate the movement to the elbow joint; keep the upper arms locked in a near-vertical plane."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Carefully lower the bar to your chest or have a spotter take it when finishing the set rather than dropping it behind your neck.",
+        "Do not use excessive weight that forces severe cervical flexion or lumbar hyperextension."
+      ],
+      "spotter": "recommended",
+      "safeties": false
+    }
+  }
+}

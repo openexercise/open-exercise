@@ -1,0 +1,134 @@
+{
+  "is_exercise": true,
+  "name": "Kegel",
+  "summary": "A targeted pelvic floor isometric exercise focused on lifting and contracting the deep pelvic musculature while keeping surrounding muscles relaxed.",
+  "aliases": [
+    {
+      "text": "Kegel Exercise",
+      "kind": "common"
+    },
+    {
+      "text": "Controlled Kegels",
+      "kind": "common"
+    },
+    {
+      "text": "Pelvic Floor Contraction",
+      "kind": "common"
+    },
+    {
+      "text": "Pelvic Floor Muscle Training",
+      "kind": "common"
+    },
+    {
+      "text": "PFMT",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "calisthenics"
+    ],
+    "movement_patterns": [],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "not-applicable",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "transversus-abdominis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "multifidus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie on your back on an exercise mat with your knees bent and feet flat on the floor, hip-width apart.",
+      "Rest your arms comfortably at your sides and ensure your abdominal, gluteal, and thigh muscles are fully relaxed."
+    ],
+    "steps": [
+      "Exhale softly and draw the pelvic floor muscles inward and upward, as if trying to stop the flow of urine or hold back gas.",
+      "Hold the contraction steadily at the top without tensing your glutes or holding your breath.",
+      "Gently release the tension and allow the pelvic floor to fully relax before initiating the next repetition."
+    ],
+    "breathing": "Breathe continuously and smoothly throughout the exercise, never holding your breath during the squeeze.",
+    "cues": [
+      "Lift inward and upward",
+      "Keep glutes and thighs soft",
+      "Breathe through the hold"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bearing down or pushing outward instead of pulling upward.",
+        "correction": "Focus on an inward lifting sensation toward your navel rather than straining downward."
+      },
+      {
+        "fault": "Co-contracting the gluteus maximus or adductors.",
+        "correction": "Place your hands lightly on your buttocks or inner thighs to verify that they remain completely relaxed throughout the contraction."
+      },
+      {
+        "fault": "Holding breath to brace the abdomen.",
+        "correction": "Count your hold seconds out loud to force consistent breathing."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not routinely perform this exercise while actively urinating, as this can interfere with normal bladder function."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

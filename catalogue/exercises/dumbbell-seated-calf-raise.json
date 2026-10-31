@@ -1,0 +1,194 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Seated Dumbbell Calf Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Seated DB Calf Raise",
+      "kind": "abbreviation"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "soleus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "tibialis-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "peroneals",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "toes",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-ankle"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "step",
+      "weight-plate",
+      "yoga-block"
+    ],
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "bench",
+        "chair"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1620"
+  },
+  "id": "oec:dumbbell-seated-calf-raise",
+  "instructions": {
+    "setup": [
+      "Sit upright on the edge of a flat bench with your knees bent at approximately 90 degrees.",
+      "Place the balls of your feet on the floor or an elevated block to allow for a full stretch.",
+      "Rest the dumbbells vertically or horizontally across your lower thighs just above the knees, holding them steady with your hands."
+    ],
+    "steps": [
+      "Lower your heels as far as comfortably possible to achieve a deep stretch in the calves.",
+      "Drive through the balls of your feet to press your heels upward into full plantarflexion.",
+      "Pause briefly at the top contraction before lowering under control to the stretched position."
+    ],
+    "breathing": "Exhale as you press upward onto the balls of your feet; inhale as you lower your heels back down.",
+    "cues": [
+      "Drive through the big toes",
+      "Pause at the bottom stretch",
+      "Control the descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bouncing out of the bottom stretch using Achilles tendon elasticity.",
+        "correction": "Pause for one to two seconds in the stretched position before initiating the upward drive."
+      },
+      {
+        "fault": "Cutting the range of motion short at the top or bottom.",
+        "correction": "Achieve full dorsiflexion at the bottom and push as high as possible onto the balls of your feet at the top."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure dumbbells are held securely to prevent them from rolling off the thighs during the movement."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Seated Calf Raise",
+  "previous_ids": [
+    "oec:seated-dumbbell-calf-raise"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Seated Dumbbell Calf Raise",
+        "url": "https://wger.de/en/exercise/1620/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "AlucardEvil40"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-seated-calf-raise"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:machine-seated-calf-raise"
+    }
+  ],
+  "setup": {
+    "load_position": "at-sides",
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "An ankle plantarflexion isolation exercise performed while seated with dumbbells resting on the thighs to preferentially target the soleus muscle."
+}

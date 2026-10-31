@@ -1,0 +1,167 @@
+{
+  "is_exercise": true,
+  "name": "Hangboard Pull-Up",
+  "summary": "A vertical pulling variation performed by gripping the edges or pockets of a hangboard to build upper-body pulling power and finger grip strength.",
+  "aliases": [
+    {
+      "text": "Fingerboard Pull-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Pullup on Fingerboard",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "calisthenics",
+      "sport"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "hanging",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "fingers",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "adduction",
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "downward-rotation",
+        "retraction"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "dip-belt",
+    "weight-vest",
+    "resistance-band"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand beneath a securely mounted hangboard and select matching holds or edges appropriate for your finger strength.",
+      "Grip the chosen edge using an open-hand or semi-crimp grip, avoiding a full closed crimp.",
+      "Engage your shoulders by pulling your shoulder blades slightly down and back, hanging freely with feet off the ground."
+    ],
+    "steps": [
+      "Drive your elbows down and back to pull your chest toward the board.",
+      "Continue pulling smoothly until your chin clears the level of your hands.",
+      "Pause briefly at the top without allowing your finger grip to slip or collapse.",
+      "Lower yourself under control back to a dead hang with active shoulders before initiating the next repetition."
+    ],
+    "breathing": "Inhale as you hang at the bottom, and exhale forcefully as you pull your body upward.",
+    "cues": [
+      "Drive elbows down",
+      "Open-hand grip",
+      "Control the descent",
+      "Quiet core"
+    ],
+    "common_faults": [
+      {
+        "fault": "Using an aggressive full crimp with thumb wrapped over fingers.",
+        "correction": "Use an open-hand or half-crimp position to minimize stress on the finger pulley ligaments."
+      },
+      {
+        "fault": "Kipping or swinging the legs to generate momentum.",
+        "correction": "Maintain a tight hollow-body core to keep the movement strictly vertical and controlled."
+      },
+      {
+        "fault": "Dropping suddenly into a passive dead hang at the bottom.",
+        "correction": "Lower under control and keep the scapulae engaged to protect the shoulder joints and finger tendons."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Warm up the fingers, wrists, and shoulders thoroughly before performing pull-ups on small edges.",
+        "Discontinue the exercise immediately if you experience sharp pain in the finger pulleys."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

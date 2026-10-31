@@ -1,0 +1,169 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Seated Figure-Four Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Chair Piriformis Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Glute Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "piriformis",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "external-rotation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "not-applicable",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "chair",
+        "bench",
+        "plyo-box"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1959"
+  },
+  "id": "oec:seated-piriformis-stretch",
+  "instructions": {
+    "setup": [
+      "Sit upright near the edge of a sturdy chair or bench with both feet flat on the floor.",
+      "Lift one leg and rest the outside of that ankle across the opposite thigh, just above the knee, creating a figure-four shape.",
+      "Keep the foot of the crossed leg lightly dorsiflexed to protect the knee."
+    ],
+    "steps": [
+      "Sit tall with a neutral spine and inhale deeply.",
+      "Hinge forward at your hips, bringing your chest toward your crossed shin while keeping your back flat.",
+      "Hold the position when you feel a moderate stretch in the outer hip and glute of the crossed leg.",
+      "Breathe smoothly and hold for the designated duration before gently returning upright and switching sides."
+    ],
+    "breathing": "Maintain slow, deep nasal breathing, allowing your hip muscles to relax deeper into the stretch with each exhalation.",
+    "cues": [
+      "Lead with the chest, not the nose.",
+      "Hinge from the hips, do not round the back.",
+      "Keep the crossed foot flexed."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding through the thoracic or lumbar spine to reach further forward.",
+        "correction": "Keep your chest proud and hinge exclusively from the hips."
+      },
+      {
+        "fault": "Allowing the crossed ankle to sickle or roll into extreme inversion.",
+        "correction": "Keep the ankle flexed in slight dorsiflexion to keep the joint stable."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forcing the knee downward if you experience sharp knee or hip discomfort; reduce the forward hinge angle."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Seated Piriformis Stretch",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Seated Piriformis Stretch",
+        "url": "https://wger.de/en/exercise/1959/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Pete-E automation"
+      }
+    ]
+  },
+  "setup": {
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A seated mobility exercise that targets the deep external rotators of the hip by hinging forward over a crossed leg."
+}

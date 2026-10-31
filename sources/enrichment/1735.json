@@ -1,0 +1,158 @@
+{
+  "is_exercise": true,
+  "name": "Side-Lying Leg Press",
+  "summary": "A unilateral leg press variation performed lying sideways on the backrest to bias the gluteal musculature.",
+  "aliases": [
+    {
+      "text": "Single-Leg Side Leg Press",
+      "kind": "common"
+    },
+    {
+      "text": "Side Leg Press",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Leg Side Glute Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "side-lying",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "leg-press-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit on the leg press machine and turn your torso sideways, resting on one hip and the side of your torso against the backrest.",
+      "Place the foot of your top or working leg high and centered on the footplate, angled slightly outwards.",
+      "Grip the machine handle or edge of the seat with your hands to anchor your torso firmly in place.",
+      "Disengage the safety catches while supporting the sled with your working leg."
+    ],
+    "steps": [
+      "Lower the sled smoothly by flexing your working hip and knee, allowing the knee to track in line with your toes.",
+      "Descend until your hip and knee reach approximately a 90-degree angle without letting your pelvis twist or peel off the pad.",
+      "Press through your whole foot and heel to extend the leg and drive the sled back up.",
+      "Stop just short of knee lockout to maintain tension on the glutes before beginning the next repetition.",
+      "Complete the desired repetitions, re-engage the safety mechanism, and repeat on the opposite side."
+    ],
+    "breathing": "Inhale as you lower the sled under control; exhale forcefully as you drive through your heel to press the platform away.",
+    "cues": [
+      "Drive through the heel",
+      "Keep your knee tracking in line with your toes",
+      "Brace against the backrest to prevent twisting",
+      "Soft lockout at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the working knee to collapse inward into valgus during the press.",
+        "correction": "Actively track the knee over the lateral edge of the foot throughout the descent and drive."
+      },
+      {
+        "fault": "Excessive spinal twisting or rolling off the back pad under load.",
+        "correction": "Hold firmly onto the machine handles and brace the torso against the pad to stabilize your pelvis."
+      },
+      {
+        "fault": "Hyperextending and locking out the knee violently at the top.",
+        "correction": "Maintain a soft knee bend at peak extension to keep constant mechanical tension on the glutes and protect the joint."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Set the safety stoppers on the leg press sled to a height that catches the weight if full depth cannot be recovered.",
+        "Use significantly less load than in a standard bilateral leg press due to the unilateral mechanics and torso position."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  }
+}

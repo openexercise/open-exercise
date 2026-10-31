@@ -1,0 +1,209 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Supine Pelvic Tilt",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Posterior Pelvic Tilt",
+      "kind": "common"
+    },
+    {
+      "text": "Pelvic Tilt Drill",
+      "kind": "common"
+    },
+    {
+      "text": "Floor Pelvic Tilt",
+      "kind": "common"
+    },
+    {
+      "text": "Pelvic Tilt Drill / Supine Pelvic Tilt",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "external-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "anti-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "2488"
+  },
+  "id": "oec:posterior-pelvic-tilt",
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on an exercise mat with your knees bent and feet flat on the floor, about hip-width apart.",
+      "Rest your arms comfortably at your sides and allow your spine to settle into its natural resting curve, creating a small gap under your lower back."
+    ],
+    "steps": [
+      "Engage your deep abdominal muscles and gently squeeze your glutes.",
+      "Roll your pelvis backward toward your ribcage, pressing your lumbar spine completely flat against the mat.",
+      "Hold the flattened, braced position for the intended duration while continuing to breathe shallowly.",
+      "Slowly relax the contraction and allow your pelvis to rock forward back to the neutral starting position."
+    ],
+    "breathing": "Exhale as you tilt your pelvis and flatten your back into the floor, then maintain calm, shallow breathing during any isometric hold.",
+    "cues": [
+      "Belt buckle to belly button",
+      "Crush the floor with your lower back",
+      "Gently squeeze the glutes"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pushing hard through the feet to lift the hips off the floor like a bridge.",
+        "correction": "Keep your hips in contact with the mat; the motion is a subtle rotational tilt of the pelvis, not a hip lift."
+      },
+      {
+        "fault": "Holding your breath during the contraction.",
+        "correction": "Maintain relaxed breathing into the chest or sides while holding the abdominal brace."
+      },
+      {
+        "fault": "Overusing the neck or tensing the shoulders.",
+        "correction": "Keep the upper body, neck, and shoulders completely relaxed against the floor."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform the movement gently and avoid forcing extreme lumbar flexion if you have acute disc symptoms."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Posterior Pelvic Tilt",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Posterior Pelvic Tilt",
+        "url": "https://wger.de/en/exercise/2488/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Raj"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:dead-bug"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:hollow-body-hold"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:supine-toe-tap"
+    }
+  ],
+  "setup": {
+    "position": "supine",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A supine core and mobility drill where the pelvis is tilted backward to flatten the lower back against the floor, activating the abdominals and glutes."
+}

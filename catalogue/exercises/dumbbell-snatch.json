@@ -1,0 +1,263 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Single-Arm Dumbbell Snatch",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Dumbbell Snatch",
+      "kind": "common"
+    },
+    {
+      "text": "DB Snatch",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Dumbbell Power Snatch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "elevation",
+          "upward-rotation"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "abduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "power",
+      "olympic-weightlifting",
+      "conditioning",
+      "strength"
+    ],
+    "movement_patterns": [
+      "olympic-lift",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "mixed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1947"
+  },
+  "id": "oec:dumbbell-snatch",
+  "instructions": {
+    "setup": [
+      "Place a dumbbell on the floor between your feet.",
+      "Stand with feet shoulder-width apart and toes pointed slightly outward.",
+      "Hinge at your hips and bend your knees to reach down and grasp the dumbbell handle with an overhand grip.",
+      "Flatten your back, brace your core, and keep your chest lifted with your non-working arm extended out for balance."
+    ],
+    "steps": [
+      "Drive aggressively through the floor by extending your ankles, knees, and hips simultaneously.",
+      "As full extension is achieved, shrug the working shoulder and allow the dumbbell to travel upward close to your torso with a high elbow.",
+      "Quickly drop under the rising dumbbell into a partial squat, rotating your hand underneath to punch the weight toward the ceiling.",
+      "Receive the dumbbell with a locked elbow directly over your shoulder, hip, and midfoot.",
+      "Stand fully upright to complete the repetition, then safely lower the dumbbell to the floor or hang position under control."
+    ],
+    "breathing": "Inhale deeply and brace your core before initiating the pull, then exhale sharply as you punch the dumbbell to full lockout overhead.",
+    "cues": [
+      "Jump and punch.",
+      "Keep the weight close like zipping up a jacket.",
+      "Drive with the hips, not the arm."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the dumbbell outward like a kettlebell swing.",
+        "correction": "Lead with the elbow and keep the dumbbell path vertical and close to your body."
+      },
+      {
+        "fault": "Pressing the weight out with the arm rather than using lower-body momentum.",
+        "correction": "Ensure explosive hip and knee extension creates the upward velocity before dropping underneath the weight."
+      },
+      {
+        "fault": "Rounding the lumbar spine when lifting the dumbbell from the floor.",
+        "correction": "Hinge properly at the hips, bend your knees, and set a flat back with engaged lats before lifting."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Clear the surrounding floor space of obstacles.",
+        "Avoid letting the non-working hand rest on your knee or thigh for leverage."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Dumbbell Snatch",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: dumbbell snatch",
+        "url": "https://wger.de/en/exercise/1947/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Aleid"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-snatch"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-snatch"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-snatch"
+    },
+    {
+      "type": "part-of",
+      "target": "oec:dumbbell-devil-press"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "An explosive unilateral exercise in which a dumbbell is propelled from the floor to an overhead lockout in one continuous motion using triple extension."
+}

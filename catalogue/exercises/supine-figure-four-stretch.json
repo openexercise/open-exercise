@@ -1,0 +1,170 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Lying Figure Four Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Figure-4 Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Piriformis Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Reclined Pigeon Pose",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "piriformis",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "external-rotation",
+          "abduction"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat",
+      "strap"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1869"
+  },
+  "id": "oec:supine-figure-four-stretch",
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a mat with your knees bent and feet flat on the floor hip-width apart.",
+      "Cross your right ankle over your left knee, allowing your right knee to point outward into a figure-four position."
+    ],
+    "steps": [
+      "Reach through the opening between your legs with your right arm and around the outside of your left leg with your left arm.",
+      "Interlace your fingers behind your left hamstring or over your left shin.",
+      "Gently draw your left knee toward your chest until you feel a moderate stretch in your right outer hip and glute.",
+      "Hold the position statically, maintaining relaxation throughout your upper body.",
+      "Slowly lower your left foot back to the floor and repeat on the opposite side."
+    ],
+    "breathing": "Breathe slowly and deeply into your abdomen, exhaling to encourage the hip muscles to relax deeper into the stretch.",
+    "cues": [
+      "Flex the crossed foot to protect your knee.",
+      "Keep your head and shoulders flat on the floor.",
+      "Sink your tailbone down rather than letting it curl excessively off the mat."
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the neck and shoulders off the floor to reach the thigh.",
+        "correction": "Use a strap or towel looped behind the supporting thigh so your head and upper back can rest flat on the mat."
+      },
+      {
+        "fault": "Allowing the crossed ankle to invert or sickle passively.",
+        "correction": "Actively dorsiflex the ankle of the crossed leg to maintain alignment and stabilize the knee."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid pulling aggressively if you feel sharp pain or torque inside the knee joint; ease off hip flexion until only a muscle stretch is felt."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Supine Figure-Four Stretch",
+  "previous_ids": [
+    "oec:lying-figure-four-stretch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Lying Figure Four Stretch",
+        "url": "https://wger.de/en/exercise/1869/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Davidgj32"
+      }
+    ]
+  },
+  "setup": {
+    "position": "supine"
+  },
+  "status": "active",
+  "summary": "A supine mobility stretch targeting the deep hip rotators and glutes by pulling one flexed leg toward the chest with the opposite ankle crossed over the knee."
+}

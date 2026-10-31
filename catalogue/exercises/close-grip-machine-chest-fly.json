@@ -1,0 +1,228 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Butterfly Narrow Grip",
+      "kind": "common"
+    },
+    {
+      "text": "Narrow-Grip Butterfly",
+      "kind": "common"
+    },
+    {
+      "text": "Close-Grip Pec Deck Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Close-Grip Machine Fly",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "coracobrachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-short-head",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-chest-fly",
+      "horizontal-push"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "137"
+  },
+  "id": "oec:close-grip-machine-chest-fly",
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so the machine handles align horizontally with mid-chest level.",
+      "Sit back firmly against the backrest with your feet planted flat on the floor.",
+      "Grasp the inner or narrow handle attachments with a neutral grip and maintain a slight bend in your elbows."
+    ],
+    "steps": [
+      "Engage your chest and pull the handles together in a smooth arc until your hands nearly touch in front of your sternum.",
+      "Squeeze your pectoral muscles intensely at peak contraction for a brief pause.",
+      "Slowly reverse the movement under control, allowing your chest to open until you feel a comfortable stretch without letting the weight stack touch down."
+    ],
+    "breathing": "Exhale as you bring the handles together; inhale as you slowly return to the stretched starting position.",
+    "cues": [
+      "Lead with your elbows, not your hands.",
+      "Keep your chest high and shoulders pinned back.",
+      "Squeeze the chest at the center."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the shoulders to shrug or roll forward at the end of the press.",
+        "correction": "Keep your shoulder blades retracted and depressed against the backrest throughout the movement."
+      },
+      {
+        "fault": "Overextending the arms backward and hyperextending the shoulder capsule.",
+        "correction": "Stop the eccentric phase when your elbows are roughly in line with your torso, feeling tension in the chest rather than the shoulder joint."
+      },
+      {
+        "fault": "Letting the weight plates crash between repetitions.",
+        "correction": "Maintain continuous muscular tension by stopping just short of the weight stack resting."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not set the starting arm range too far back if you have a history of anterior shoulder instability."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Close-Grip Machine Chest Fly",
+  "previous_ids": [
+    "oec:butterfly-narrow-grip"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Butterfly Narrow Grip",
+        "url": "https://wger.de/en/exercise/137/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:machine-chest-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-chest-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-cable-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-chest-fly"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "narrow"
+    },
+    "position": "seated",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An isolation exercise performed seated on a fly machine using a narrow handle grip to target the pectoral muscles through horizontal adduction."
+}

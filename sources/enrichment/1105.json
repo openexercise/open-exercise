@@ -1,0 +1,139 @@
+{
+  "is_exercise": true,
+  "name": "Seated Knee Tuck",
+  "summary": "A bodyweight core exercise performed by balancing on the glutes with hands supported behind, alternately extending the legs forward and flexing the knees and spine toward the chest.",
+  "aliases": [
+    {
+      "text": "Seated In and Out",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Leg Tuck",
+      "kind": "common"
+    },
+    {
+      "text": "In and Outs",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat",
+    "bench"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit on the floor or a flat bench with your knees bent and feet flat.",
+      "Place your hands on the surface slightly behind and outside your hips with fingers pointing forward for support.",
+      "Lean your torso back slightly and lift your feet a few inches off the floor, engaging your core to balance on your pelvis."
+    ],
+    "steps": [
+      "Simultaneously extend your legs straight forward while leaning your torso back slightly, keeping your feet elevated above the floor.",
+      "Pull your knees back in toward your chest while flexing your torso slightly forward to meet them.",
+      "Squeeze your abdominal muscles at the peak contraction, then repeat the movement smoothly under control."
+    ],
+    "breathing": "Inhale as you extend your legs and lean back; exhale forcefully as you pull your knees toward your chest.",
+    "cues": [
+      "Accordion in, accordion out",
+      "Keep feet hovering off the floor",
+      "Crunch your ribs toward your pelvis"
+    ],
+    "common_faults": [
+      {
+        "fault": "Relying purely on momentum without contracting the abdominals",
+        "correction": "Slow the tempo down and pause for a brief squeeze when the knees are drawn fully into the chest."
+      },
+      {
+        "fault": "Hyperextending the lower back during leg extension",
+        "correction": "Maintain pelvic control and do not lower the legs beyond the point where you can keep your core tightly braced."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid letting the lower back arch excessively if you have a history of lumbar discomfort; limit leg extension range as needed."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

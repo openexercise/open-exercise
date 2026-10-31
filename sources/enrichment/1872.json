@@ -1,0 +1,142 @@
+{
+  "is_exercise": true,
+  "name": "Pigeon Stretch",
+  "summary": "A floor-based hip stretch targeting the glutes, deep hip external rotators, and the trailing hip flexors.",
+  "aliases": [
+    {
+      "text": "Pigeon Pose",
+      "kind": "common"
+    },
+    {
+      "text": "Sleeping Pigeon Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Eka Pada Rajakapotasana",
+      "kind": "regional"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "not-applicable",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "muscles": [
+    {
+      "muscle": "piriformis",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stretched"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "stretched"
+    },
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "external-rotation",
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat",
+    "yoga-block"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": []
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Begin on all fours on a comfortable mat.",
+      "Slide one knee forward toward the wrist on the same side, placing the shin on the floor angled diagonally under your torso.",
+      "Extend the opposite leg straight back behind you with the top of the foot flat on the floor."
+    ],
+    "steps": [
+      "Square your hips toward the floor so your weight is centered rather than falling to the side of the bent leg.",
+      "Lower your pelvis toward the floor until you feel a deep stretch in the outer hip and glute of the front leg.",
+      "Walk your hands forward and lower down onto your forearms or fold your torso over the front shin to deepen the stretch.",
+      "Hold the position for the target duration while relaxing into the stretch.",
+      "Press through your hands to lift your torso, step the front leg back, and switch sides."
+    ],
+    "breathing": "Take slow, deep diaphragmatic breaths, consciously releasing tension and sinking deeper into the hip on every exhale.",
+    "cues": [
+      "Square the hips forward",
+      "Stay tall through the spine",
+      "Breathe into the tight hip"
+    ],
+    "common_faults": [
+      {
+        "fault": "Collapsing onto the hip of the front leg",
+        "correction": "Keep your pelvis level and square to the floor; place a yoga block or rolled towel under the front glute if needed for support."
+      },
+      {
+        "fault": "Twisting the front knee instead of moving through the hip",
+        "correction": "Bring the front foot closer to your groin to decrease torque at the knee joint."
+      },
+      {
+        "fault": "Rounding aggressively through the lower back",
+        "correction": "Maintain length in the spine and hinge from the hip rather than slouching forward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid pushing into sharp knee pain; the stretch should be felt in the hip and glute, not the knee joint."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

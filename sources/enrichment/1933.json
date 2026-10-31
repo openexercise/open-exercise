@@ -1,0 +1,140 @@
+{
+  "is_exercise": true,
+  "name": "Crunch",
+  "summary": "A foundational bodyweight core exercise that isolates the rectus abdominis by flexing the spine while keeping the lower back grounded.",
+  "aliases": [
+    {
+      "text": "Abdominal Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Floor Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Standard Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Ab Crunch",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deep-neck-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie supine on a comfortable, flat surface with your knees bent at approximately 90 degrees and your feet flat on the floor, hip-width apart.",
+      "Place your fingertips lightly behind your ears or cross your arms over your chest, ensuring your elbows remain flared outward.",
+      "Gently draw your ribs down toward your pelvis to establish initial abdominal engagement."
+    ],
+    "steps": [
+      "Contract your abdominal muscles to curl your head, neck, and shoulder blades upward off the floor.",
+      "Pause and squeeze your abdominals forcefully at the top of the range of motion, keeping your lower back firmly pressed against the floor.",
+      "Lower your upper torso under control until your shoulder blades touch the ground, without fully releasing abdominal tension."
+    ],
+    "breathing": "Exhale forcefully as you curl upward into the peak contraction, and inhale as you return to the starting position.",
+    "cues": [
+      "Shorten the distance between your ribs and your hips.",
+      "Keep your lower back glued to the floor.",
+      "Look toward the ceiling to keep space between your chin and chest."
+    ],
+    "common_faults": [
+      {
+        "fault": "Yanking on the back of the neck with the hands, causing cervical strain.",
+        "correction": "Keep fingertips lightly touching the temples or cross arms over the chest, maintaining a neutral neck."
+      },
+      {
+        "fault": "Lifting the lower back off the floor, turning the movement into a hip-flexor-driven sit-up.",
+        "correction": "Focus solely on curling the shoulder blades off the floor while keeping the lumbar spine anchored."
+      },
+      {
+        "fault": "Using momentum to bounce up and down rapidly.",
+        "correction": "Slow the tempo to a two-second ascent and two-second descent with a distinct pause at peak flexion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid excessive neck flexion; maintain roughly a fist-sized gap between your chin and sternum."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

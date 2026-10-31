@@ -1,0 +1,248 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Pec Deck",
+      "kind": "common"
+    },
+    {
+      "text": "Pec Deck Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Butterfly",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Machine Fly",
+      "kind": "common"
+    },
+    {
+      "text": "pec dec",
+      "kind": "common"
+    },
+    {
+      "text": "pec fly",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "coracobrachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-chest-fly"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "135,926,1904"
+  },
+  "id": "oec:machine-chest-fly",
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so the handles or arm pads align with the middle of your chest.",
+      "Sit back firmly with your head, upper back, and glutes supported against the pad, feet flat on the floor.",
+      "Grasp the handles or position your forearms against the pads with a slight, fixed bend in your elbows."
+    ],
+    "steps": [
+      "Inhale, brace your core, and set your shoulder blades back and down against the backrest.",
+      "Bring the handles together in front of your chest in a smooth, hugging arc.",
+      "Pause briefly at peak contraction, squeezing your pectorals firmly without touching the handles together.",
+      "Reverse the movement with control, feeling a deep stretch across your chest before the weight stack touches down."
+    ],
+    "breathing": "Exhale as you pull the handles together; inhale as you slowly return to the stretched starting position.",
+    "cues": [
+      "Hug a wide barrel.",
+      "Lead with the elbows rather than the hands.",
+      "Keep your chest high and shoulders pinned to the pad."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the shoulders to round forward at full contraction.",
+        "correction": "Keep your shoulder blades retracted and depressed against the backrest throughout the entire rep."
+      },
+      {
+        "fault": "Changing the elbow bend during the movement to turn the fly into a press.",
+        "correction": "Lock in a soft elbow angle at the start and maintain it unchanged from start to finish."
+      },
+      {
+        "fault": "Overstretching the shoulders backward at the start of the rep.",
+        "correction": "Adjust the machine's range-of-motion cam so your elbows do not travel excessively behind the plane of your torso."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not allow the weights to violently yank your arms backward into excessive external rotation and horizontal abduction."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Machine Chest Fly",
+  "previous_ids": [
+    "oec:butterfly",
+    "oec:pec-deck"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Butterfly",
+        "url": "https://wger.de/en/exercise/135/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      },
+      {
+        "title": "wger: Machine chest fly",
+        "url": "https://wger.de/en/exercise/926/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "novadani"
+      },
+      {
+        "title": "wger: Pec Deck",
+        "url": "https://wger.de/en/exercise/1904/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-chest-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-cable-fly"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:dumbbell-fly"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:cable-chest-fly"
+    }
+  ],
+  "setup": {
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A seated machine isolation exercise targeting the pectorals through guided horizontal adduction of the arms."
+}

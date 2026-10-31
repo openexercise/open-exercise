@@ -1,0 +1,150 @@
+{
+  "is_exercise": true,
+  "name": "Pull-Up Hold",
+  "summary": "A static bodyweight exercise holding a flexed position on a pull-up bar to build isometric pulling strength and endurance.",
+  "aliases": [
+    {
+      "text": "Pull-up Isometric Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Isometric Pull-Up Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Flexed-Arm Hang",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "hanging",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "pull-up-bar"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "plyo-box",
+    "weight-vest",
+    "resistance-band"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Grasp a pull-up bar with an overhand, shoulder-width grip.",
+      "Step off a box or jump up so your chin clears the bar, with your chest close to hand height."
+    ],
+    "steps": [
+      "Retract and depress your shoulder blades, actively pulling your elbows down and back.",
+      "Brace your core and squeeze your glutes to prevent swinging.",
+      "Hold this flexed position steadily for the designated time.",
+      "Lower yourself in a controlled manner back to the ground or box when finished."
+    ],
+    "breathing": "Breathe continuously and smoothly into your belly without letting tension out of your upper back.",
+    "cues": [
+      "Chest to the bar",
+      "Drive elbows into your back pockets",
+      "Stay tight from shoulders to toes"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing shoulders to shrug up toward the ears as fatigue sets in.",
+        "correction": "Actively depress your scapulae by pulling your shoulders down away from your ears."
+      },
+      {
+        "fault": "Kicking or excessively swinging the lower body.",
+        "correction": "Brace your abdominals and maintain a tight hollow-body or straight-body position."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a stable box or step to reach the bar safely rather than attempting an uncontrolled jump."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Dumbbell Heel-Elevated Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Heel-Elevated Dumbbell Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Cyclist Squat with Dumbbells",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "weight-plate",
+        "step"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2682"
+  },
+  "id": "oec:dumbbell-cyclist-squat",
+  "instructions": {
+    "setup": [
+      "Place a sturdy elevation, such as weight plates or a slant board, on the floor.",
+      "Hold a dumbbell in each hand at your sides with arms fully extended.",
+      "Step onto the elevation with your heels raised and the balls of your feet on the floor, adopting a narrow, hip-width or narrower stance."
+    ],
+    "steps": [
+      "Inhale, brace your core, and keep your torso as upright as possible.",
+      "Descend by bending at the knees and hips, allowing your knees to travel freely forward over your toes.",
+      "Lower yourself until your thighs reach at least parallel to the floor or your hamstrings contact your calves.",
+      "Drive through the midfoot and balls of your feet to reverse the movement and extend your knees and hips back to the starting position.",
+      "Exhale as you approach full standing extension."
+    ],
+    "breathing": "Inhale and brace your core before descending, holding tension through the bottom, and exhale as you drive back to the top.",
+    "cues": [
+      "Stay tall through your torso.",
+      "Push your knees forward over your toes.",
+      "Control the descent without bouncing at the bottom."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hinging excessively at the hips and leaning forward.",
+        "correction": "Maintain an upright torso and emphasize forward knee travel to load the quadriceps."
+      },
+      {
+        "fault": "Letting the heels slip off the elevated surface.",
+        "correction": "Ensure your heels are firmly planted on the plate or wedge before beginning each rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the heel-elevation surface is stable and will not slide during the movement.",
+        "Maintain control of the descent to avoid excessive compressive stress at the knee joint."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Cyclist Squat",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dumbbell cyclist squat",
+        "url": "https://wger.de/en/exercise/2682/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "JuustoKakku"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-goblet-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-hack-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:hack-squat"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "narrow"
+    }
+  },
+  "status": "active",
+  "summary": "A narrow-stance, heel-elevated dumbbell squat that maximizes knee flexion and upright torso posture to target the quadriceps."
+}

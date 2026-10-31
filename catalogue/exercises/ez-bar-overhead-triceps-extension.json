@@ -1,0 +1,240 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Overhead EZ-Bar Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "French Press",
+      "kind": "common"
+    },
+    {
+      "text": "EZ-Bar French Press",
+      "kind": "common"
+    },
+    {
+      "text": "Seated EZ-Bar Overhead Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Overhead Triceps Extension",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-long-head",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-lateral-head",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-medial-head",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "anconeus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "ez-bar"
+      ],
+      [
+        "bench",
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1519"
+  },
+  "id": "oec:ez-bar-overhead-triceps-extension",
+  "instructions": {
+    "setup": [
+      "Sit upright on a flat bench or a bench with low back support, holding an EZ-bar with an overhand grip on the inner bends.",
+      "Press the bar directly overhead until your arms are extended vertically with your elbows tucked inward."
+    ],
+    "steps": [
+      "Keeping your upper arms stationary and close to your ears, lower the bar behind your head by bending at the elbows.",
+      "Descend until you feel a deep stretch in the triceps, around a ninety-degree elbow angle or slightly deeper.",
+      "Drive the weight upward by extending your elbows until your arms return to the fully extended starting position.",
+      "Squeeze the triceps firmly at the top before beginning the next repetition."
+    ],
+    "breathing": "Inhale as you lower the bar behind your head; exhale forcefully as you extend your elbows back to the top.",
+    "cues": [
+      "Elbows pointed forward",
+      "Upper arms fixed like pillars",
+      "Ribs down, avoid arching the lower back"
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbows outward excessively during the descent.",
+        "correction": "Keep elbows pointing mostly forward and relatively close together to maintain tension on the triceps and protect the shoulders."
+      },
+      {
+        "fault": "Arching the lumbar spine to compensate for poor shoulder mobility.",
+        "correction": "Brace the abdominals firmly and use a bench with vertical back support if needed."
+      },
+      {
+        "fault": "Moving the upper arms forward and back like a pullover.",
+        "correction": "Isolate the movement to the elbow joint; keep the upper arms locked in a near-vertical plane."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Carefully lower the bar to your chest or have a spotter take it when finishing the set rather than dropping it behind your neck.",
+        "Do not use excessive weight that forces severe cervical flexion or lumbar hyperextension."
+      ],
+      "spotter": "recommended"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "EZ-Bar Overhead Triceps Extension",
+  "previous_ids": [
+    "oec:overhead-triceps-extension"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Overhead Triceps Extension",
+        "url": "https://wger.de/en/exercise/1519/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "benjamin.yildiz@proton.me"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-overhead-triceps-extension"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-overhead-triceps-extension"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-overhead-triceps-extension"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-dumbbell-overhead-triceps-extension"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "narrow"
+    },
+    "load_position": "overhead",
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "An isolation exercise performed seated or standing that extends an EZ-curl bar overhead to target the triceps, particularly emphasizing the long head."
+}

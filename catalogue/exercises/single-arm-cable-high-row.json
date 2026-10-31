@@ -1,0 +1,230 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Remo alto polea alta",
+      "kind": "regional"
+    },
+    {
+      "text": "One-Arm Cable High Row",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm High Pulley Row",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "depression",
+          "downward-rotation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "pull",
+      "horizontal-pull",
+      "vertical-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "bench",
+      "adjustable-bench"
+    ],
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1718"
+  },
+  "id": "oec:single-arm-cable-high-row",
+  "instructions": {
+    "setup": [
+      "Set the cable pulley above head height and attach a single D-handle.",
+      "Grasp the handle with one hand and take a half-kneeling or seated position facing the pulley.",
+      "Extend your working arm fully forward and upward along the line of the cable, bracing your core and squaring your shoulders."
+    ],
+    "steps": [
+      "Initiate the pull by depressing your shoulder blade and driving your elbow down and back toward your hip.",
+      "Continue rowing until your hand reaches your lower ribs, squeezing your lat and upper back at the peak contraction.",
+      "Pause briefly, resisting rotation through your torso.",
+      "Slowly extend your arm along the line of the cable under control until your lat is fully stretched.",
+      "Complete the desired repetitions, then repeat on the opposite side."
+    ],
+    "breathing": "Exhale as you pull the handle toward your torso, and inhale as you return the cable to the starting position.",
+    "cues": [
+      "Drive the elbow to your hip pocket.",
+      "Keep your chest proud and square to the cable.",
+      "Pull with your back, not your biceps."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive torso rotation and momentum during the pull.",
+        "correction": "Brace your core firmly and keep your chest squared to isolate the working side."
+      },
+      {
+        "fault": "Shrugging the shoulder toward the ear at peak contraction.",
+        "correction": "Keep the shoulder blade depressed down away from your neck throughout the entire range of motion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a stable base of support to prevent being pulled forward by the cable stack."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Single-Arm Cable High Row",
+  "previous_ids": [
+    "oec:remo-alto-polea-alta"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Remo alto polea alta",
+        "url": "https://wger.de/en/exercise/1718/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "polloperro"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-single-arm-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:half-kneeling-cable-high-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-alternating-high-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-single-arm-lat-pulldown"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "half-kneeling",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A unilateral pulling exercise performed from a high cable pulley to build the lats, upper back, and elbow flexors."
+}

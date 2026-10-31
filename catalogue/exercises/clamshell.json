@@ -1,0 +1,190 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Side-Lying Clamshell",
+      "kind": "common"
+    },
+    {
+      "text": "Clam",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-medius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-minimus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "piriformis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "external-rotation",
+          "abduction"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "strength",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "isolation-hip-abduction"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat",
+      "mini-band"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1823"
+  },
+  "id": "oec:clamshell",
+  "instructions": {
+    "setup": [
+      "Lie on your side on the floor or a mat, resting your head comfortably on your bottom arm.",
+      "Bend your hips to approximately 45 degrees and your knees to roughly 90 degrees.",
+      "Stack your shoulders, hips, knees, and feet vertically perpendicular to the floor."
+    ],
+    "steps": [
+      "Engage your core to prevent your pelvis from rocking backward.",
+      "Keeping your heels pressed together, raise your top knee as high as you comfortably can using your hip muscles.",
+      "Pause for a moment at the top of the movement to emphasize the contraction in the upper glute.",
+      "Slowly lower your top knee back down until it touches the resting knee."
+    ],
+    "breathing": "Exhale as you raise the knee upward and inhale as you lower it back to the start.",
+    "cues": [
+      "Keep heels glued together",
+      "Do not let your hips roll back",
+      "Squeeze the side of your hip at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling the pelvis backward during the lift",
+        "correction": "Place your top hand on your hip bone to monitor pelvis position, and stop raising the knee before the pelvis starts tilting."
+      },
+      {
+        "fault": "Separating the feet during the repetition",
+        "correction": "Keep your inner heels lightly pressed together throughout the entire range of motion."
+      }
+    ],
+    "safety": {
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Clamshell",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Clamshell",
+        "url": "https://wger.de/en/exercise/1823/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "teus_ergaster"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:band-clamshell"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:clamshell-to-reverse-clamshell"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:side-lying-hip-abduction"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:fire-hydrant"
+    }
+  ],
+  "setup": {
+    "position": "side-lying"
+  },
+  "status": "active",
+  "summary": "A side-lying hip exercise targeting the gluteus medius and external rotators by opening the top knee while keeping the feet together."
+}

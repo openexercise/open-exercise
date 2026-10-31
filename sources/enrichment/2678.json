@@ -1,0 +1,183 @@
+{
+  "is_exercise": true,
+  "name": "Ring Incline Row",
+  "summary": "A bodyweight horizontal pulling exercise performed on gymnastic rings at an angle to develop the upper back, rear shoulders, and elbow flexors.",
+  "aliases": [
+    {
+      "text": "Ring Row",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Ring Row",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Row - Rings",
+      "kind": "common"
+    },
+    {
+      "text": "Gymnastic Ring Incline Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "grip_orientation": "rotating",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "gymnastic-rings",
+        "suspension-trainer"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "weight-vest"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "tempo",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Adjust the gymnastic rings to approximately waist height.",
+      "Grasp the rings with an overhand or neutral grip and walk your feet forward so your body leans backward at your chosen incline.",
+      "Engage your glutes and core to form a rigid, straight line from your head to your heels with arms fully extended."
+    ],
+    "steps": [
+      "Initiate the movement by retracting your shoulder blades and pulling your chest toward the rings.",
+      "Drive your elbows back past your torso while allowing the rings to naturally rotate into a neutral or slightly supinated position.",
+      "Squeeze your upper back firmly at the top when your hands touch the sides of your ribcage.",
+      "Lower yourself under control by extending your arms and allowing your shoulder blades to protract until you return to the start position."
+    ],
+    "breathing": "Exhale as you pull your chest up to the rings; inhale as you lower back down under control.",
+    "cues": [
+      "Drive the elbows back.",
+      "Stay stiff as a plank.",
+      "Proud chest at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging at the hips or hyper-extending the lower back during the pull.",
+        "correction": "Squeeze your glutes and brace your abs throughout each repetition to maintain a straight line."
+      },
+      {
+        "fault": "Leading with the hips rather than the chest.",
+        "correction": "Keep your body in one rigid segment and initiate the pull with your shoulder blades and arms."
+      },
+      {
+        "fault": "Incomplete range of motion by not touching the rings to the ribs.",
+        "correction": "Adjust your feet backward to a more upright incline if you cannot complete full scapular retraction and arm extension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the straps and anchor point are securely fastened and tested before putting your full bodyweight on the rings."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

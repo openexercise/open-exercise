@@ -1,0 +1,153 @@
+{
+  "is_exercise": true,
+  "name": "Scapular Push-Up",
+  "summary": "A bodyweight movement performed in a plank position that isolates scapular protraction and retraction with straight arms to target the serratus anterior.",
+  "aliases": [
+    {
+      "text": "Scap Push-Up",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Push-Up Plus",
+      "kind": "common"
+    },
+    {
+      "text": "Scapular Pushup",
+      "kind": "misspelling"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "rehabilitation",
+      "mobility",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "serratus-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-minor",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Assume a full plank position with your hands placed directly under your shoulders and your fingers spread.",
+      "Keep your feet hip-width apart and brace your core and glutes to maintain a rigid, neutral spine.",
+      "Fully extend your elbows without hyperextending them."
+    ],
+    "steps": [
+      "Without bending your elbows, allow your chest to sink slightly toward the floor as your shoulder blades pinch together in controlled retraction.",
+      "Push firmly through your palms to spread your shoulder blades apart and dome your upper back into full protraction.",
+      "Pause for a brief count at the top of the protraction before lowering into the next repetition."
+    ],
+    "breathing": "Inhale as your chest sinks and shoulder blades retract; exhale smoothly as you push the floor away into protraction.",
+    "cues": [
+      "Keep the elbows locked.",
+      "Push the floor away at the top.",
+      "Move only from the shoulder blades."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the elbows to mimic a standard push-up.",
+        "correction": "Keep your arms completely straight throughout the entire set, moving solely at the shoulder blades."
+      },
+      {
+        "fault": "Sagging at the lower back and hips.",
+        "correction": "Maintain a strong plank with braced abdominals and squeezed glutes so only the upper torso moves."
+      },
+      {
+        "fault": "Shrugging the shoulders toward the ears.",
+        "correction": "Keep your shoulders depressed and drawn away from your ears to properly recruit the serratus anterior."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If maintaining a full plank causes your lower back to sag, regress the movement by performing it from your knees or with hands elevated on a bench."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

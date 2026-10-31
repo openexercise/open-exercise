@@ -1,0 +1,238 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Kettlebell Deadlifts",
+      "kind": "common"
+    },
+    {
+      "text": "KB Deadlift",
+      "kind": "abbreviation"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "trapezius",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "kettlebell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1003"
+  },
+  "id": "oec:kettlebell-deadlift",
+  "instructions": {
+    "setup": [
+      "Place the kettlebell on the floor between your feet, aligning the handle with the arches of your feet.",
+      "Stand with feet roughly hip- to shoulder-width apart, toes pointing slightly outward.",
+      "Hinge at the hips by pushing your pelvis backward with a soft bend in your knees.",
+      "Grip the kettlebell handle firmly with both hands, pull your shoulders down and back, and engage your lats to establish a neutral spine."
+    ],
+    "steps": [
+      "Drive through your midfoot and heels into the floor, extending your hips and knees simultaneously.",
+      "Stand fully upright, locking out your hips by squeezing the glutes at the top without hyperextending your lower back.",
+      "Initiate the descent by pushing your hips backward while maintaining tension across your upper back.",
+      "Lower the kettlebell under control along a straight vertical path until it lightly touches the floor between your feet."
+    ],
+    "breathing": "Inhale and brace your core at the bottom before lifting, exhale forcefully past the sticking point near full extension, and inhale again as you lower the weight.",
+    "cues": [
+      "Push the floor away",
+      "Break the handle in half",
+      "Reach your hips back"
+    ],
+    "common_faults": [
+      {
+        "fault": "Squatting the weight rather than hinging at the hips.",
+        "correction": "Push the hips backward and keep the shins relatively vertical rather than driving the knees forward."
+      },
+      {
+        "fault": "Rounding the lumbar spine to reach the kettlebell.",
+        "correction": "Elevate the kettlebell on a low block or step if mobility is limited, and ensure the chest stays proud with lats packed."
+      },
+      {
+        "fault": "Hyperextending the lower back at the top lockout.",
+        "correction": "Finish the rep by squeezing your glutes and bracing your abs to achieve a tall, neutral vertical posture."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the kettlebell stays close to your center of mass between your feet, not out in front of your toes."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Kettlebell Deadlift",
+  "previous_ids": [
+    "oec:kettlebell-deadlifts"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Kettlebell deadlifts",
+        "url": "https://wger.de/en/exercise/1003/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:bodyweight-hip-hinge"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-deadlift"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:kettlebell-swing"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-deadlift"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-deadlift"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-deadlift"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "narrow"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A hip-hinge movement lifting a kettlebell from the floor between the feet to full hip and knee extension."
+}

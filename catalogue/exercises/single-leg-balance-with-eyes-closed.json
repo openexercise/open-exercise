@@ -1,0 +1,203 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Eyes Closed Single Leg Stand",
+      "kind": "common"
+    },
+    {
+      "text": "Blind Single-Leg Balance",
+      "kind": "common"
+    },
+    {
+      "text": "Eyes-Closed Single-Leg Stance",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "foot-intrinsics",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "tibialis-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "peroneals",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "ankle",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "subtalar",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "balance",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "balance"
+    ],
+    "mechanics": "not-applicable",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "wall",
+      "chair"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "2667"
+  },
+  "id": "oec:single-leg-balance-with-eyes-closed",
+  "instructions": {
+    "setup": [
+      "Stand tall on a firm, level surface, ideally within arm's reach of a wall or sturdy chair for safety.",
+      "Distribute your weight evenly across your target stance foot, unlocking the knee slightly.",
+      "Lift the non-working foot off the floor by flexing the hip and knee so it hovers freely without touching the standing leg."
+    ],
+    "steps": [
+      "Establish steady balance on the single leg while your eyes are still open.",
+      "Gently close both eyes and maintain an upright posture.",
+      "Rely on proprioceptive feedback from the foot, ankle, and hip to continuously correct micro-instabilities.",
+      "Hold the position for the prescribed duration before opening your eyes and lowering the non-working leg."
+    ],
+    "breathing": "Breathe smoothly, rhythmically, and calmly throughout the hold without holding your breath.",
+    "cues": [
+      "Tripod foot: balance weight across heel, big toe, and pinky toe",
+      "Soft knee, strong hip",
+      "Stand tall through the crown of your head"
+    ],
+    "common_faults": [
+      {
+        "fault": "Locking the standing knee into hyperextension.",
+        "correction": "Keep a micro-bend in the knee to allow the leg muscles to actively absorb movement."
+      },
+      {
+        "fault": "Resting the free foot against the stance leg (kickstanding).",
+        "correction": "Keep the non-working leg completely hovering and free from contact with the support leg."
+      },
+      {
+        "fault": "Excessive hip drop on the non-working side (Trendelenburg sign).",
+        "correction": "Engage the stance-leg gluteus medius to keep the pelvis level."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform near a wall, counter, or sturdy chair to catch yourself if you lose balance."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Single-Leg Balance with Eyes Closed",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Single-Leg Balance with Eyes Closed",
+        "url": "https://wger.de/en/exercise/2667/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "trs1800"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:bosu-single-leg-balance"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "single-leg",
+      "width": "narrow"
+    }
+  },
+  "status": "active",
+  "summary": "An advanced isometric proprioception exercise where you maintain upright balance on one foot without visual feedback."
+}

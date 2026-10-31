@@ -1,0 +1,126 @@
+{
+  "is_exercise": true,
+  "name": "Standing IT Band Stretch",
+  "summary": "A standing lateral hip stretch targeting the tensor fasciae latae and gluteal complex by crossing the legs and shifting the pelvis sideways.",
+  "aliases": [
+    {
+      "text": "Standing Iliotibial Band Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Cross-Legged ITB Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Standing TFL Stretch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_kind": "staggered",
+  "muscles": [
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "adduction"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "lateral-flexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "wall"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart, optionally placing one hand on a wall or sturdy object for balance.",
+      "Cross the target leg behind your front leg, resting its foot flat or slightly on its outer edge."
+    ],
+    "steps": [
+      "Push your target hip outward away from the front foot, driving your pelvis into lateral adduction.",
+      "Reach the arm on the target side up and over your head toward the opposite side, gently curving your torso.",
+      "Hold the position for the prescribed duration while maintaining a steady stretch along the outer hip and thigh.",
+      "Carefully return to an upright standing position and repeat on the opposite side."
+    ],
+    "breathing": "Breathe smoothly and deeply, relaxing deeper into the hip adduction on each exhale.",
+    "cues": [
+      "Push the back hip out",
+      "Keep both feet grounded",
+      "Reach tall and bend sideways"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the hips or shoulders forward rather than staying in the frontal plane.",
+        "correction": "Keep your pelvis and chest facing squarely forward throughout the stretch."
+      },
+      {
+        "fault": "Bending forward at the waist instead of side-bending.",
+        "correction": "Focus on driving the hip out laterally and laterally flexing the spine rather than flexing forward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a wall for balance if you feel unsteady while your feet are crossed."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

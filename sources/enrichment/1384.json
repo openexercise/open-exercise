@@ -1,0 +1,159 @@
+{
+  "is_exercise": true,
+  "name": "Machine Pullover",
+  "summary": "A machine-based upper body exercise that isolates the latissimus dorsi through guided shoulder extension.",
+  "aliases": [
+    {
+      "text": "Pullover Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Machine Pullover",
+      "kind": "common"
+    },
+    {
+      "text": "Nautilus Pullover",
+      "kind": "brand"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "pull",
+      "vertical-pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "neutral",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-long-head",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "downward-rotation",
+        "depression"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so that the axis of rotation of the machine aligns directly with your shoulder joints.",
+      "Fasten the seatbelt if the machine is equipped with one to keep your hips anchored.",
+      "Depress the foot pedal to bring the arm pads forward within reach.",
+      "Rest the backs of your triceps and elbows firmly against the pads, lightly grasping the handles with a relaxed grip.",
+      "Release the foot pedal smoothly to transfer the load onto your upper body."
+    ],
+    "steps": [
+      "Initiate the movement by driving your elbows down and back in an arc toward your ribs.",
+      "Continue pulling until your elbows reach your sides and your lats fully contract.",
+      "Pause momentarily at peak contraction without letting your chest collapse.",
+      "Slowly reverse the motion under control, allowing your elbows to travel overhead until you feel a comfortable stretch in the lats."
+    ],
+    "breathing": "Exhale as you drive your elbows down to contract the lats, and inhale steadily as you return to the overhead stretch.",
+    "cues": [
+      "Drive with the elbows, not the hands",
+      "Keep your hips down on the seat",
+      "Control the stretch overhead"
+    ],
+    "common_faults": [
+      {
+        "fault": "Gripping the handles excessively tight and pulling with the forearms and biceps.",
+        "correction": "Focus the pressure through your elbows against the pads and keep the hands relaxed."
+      },
+      {
+        "fault": "Allowing the hips or lower back to lift off the seat during the pull.",
+        "correction": "Tighten the seatbelt, brace your core, and keep your pelvis anchored against the pad."
+      },
+      {
+        "fault": "Seat height misaligned with the machine's pivot point.",
+        "correction": "Adjust the seat so the center of your shoulder joints lines up directly with the machine's rotational axis."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not allow the machine to pull your shoulders past an active, pain-free range of motion overhead."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "is_exercise": true,
+  "name": "Wrist Circle",
+  "summary": "A dynamic mobility exercise that moves the wrists through full active circumduction to warm up the joint and surrounding musculature.",
+  "aliases": [
+    {
+      "text": "Wrist Circles",
+      "kind": "common"
+    },
+    {
+      "text": "Wrist Roll",
+      "kind": "common"
+    },
+    {
+      "text": "Wrist Rolls",
+      "kind": "common"
+    },
+    {
+      "text": "Wrist Rotations",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "muscles": [
+    {
+      "muscle": "forearm-flexors",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "forearm-extensors",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pronators",
+      "role": "synergist"
+    },
+    {
+      "muscle": "supinator",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "wrist",
+      "actions": [
+        "circumduction"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand or sit upright with your shoulders relaxed and elbows bent at roughly ninety degrees in front of your body.",
+      "Bring your hands in front of you, either closing them into gentle fists or leaving the fingers relaxed."
+    ],
+    "steps": [
+      "Slowly trace a complete circle with your hands by moving strictly at the wrist joints through flexion, deviation, and extension.",
+      "Complete the desired repetitions or duration in one direction.",
+      "Reverse the movement and circle in the opposite direction for an equal duration or rep count."
+    ],
+    "breathing": "Breathe continuously and evenly throughout the rotations.",
+    "cues": [
+      "Draw the biggest circle you comfortably can.",
+      "Keep your forearms and elbows quiet.",
+      "Move smoothly without rushing the corners."
+    ],
+    "common_faults": [
+      {
+        "fault": "Moving from the elbows or shoulders rather than isolating the wrists.",
+        "correction": "Keep your forearms stabilized in space and direct all motion through the wrist joint."
+      },
+      {
+        "fault": "Speeding through the movement and cutting off end ranges.",
+        "correction": "Slow down the tempo to actively explore the full perimeter of your comfortable range of motion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid aggressive end ranges or snapping motions if you experience wrist impingement or sharp discomfort."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

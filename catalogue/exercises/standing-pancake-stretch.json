@@ -1,0 +1,194 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Standing Pancake",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Straddle Forward Bend",
+      "kind": "common"
+    },
+    {
+      "text": "Wide-Stance Forward Fold",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "hamstrings",
+        "role": "stretched"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gracilis",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "abduction"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility",
+      "calisthenics",
+      "yoga"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "yoga-block",
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1396"
+  },
+  "id": "oec:standing-pancake-stretch",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet set in a wide straddle, roughly three to four feet apart or as wide as comfortably possible.",
+      "Turn the feet parallel or slightly pigeon-toed, engage the quadriceps to lock the knees, and place your hands on your hips."
+    ],
+    "steps": [
+      "Hinge forward at the hips, pushing the pelvis backward while maintaining a neutral, elongated spine.",
+      "Lower your torso toward the floor, bringing your hands down to support yourself on blocks or the ground between your feet.",
+      "Allow the pelvis to rotate forward anteriorly to deepen the stretch across the hamstrings and groin.",
+      "Hold the bottom position for the prescribed duration while maintaining active quadriceps engagement and steady breathing.",
+      "Engage the glutes and hamstrings to hinge back up smoothly to the starting standing position."
+    ],
+    "breathing": "Inhale to lengthen the spine before hinging; exhale slowly to sink deeper into the stretch and breathe rhythmically throughout the hold.",
+    "cues": [
+      "Hinge at the hips, do not round the lower back.",
+      "Keep the quads tight to protect the hamstrings.",
+      "Send the sit bones toward the ceiling."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively rounding the lumbar spine instead of pivoting at the pelvis.",
+        "correction": "Focus on pushing the hips back and anteriorly tilting the pelvis, using yoga blocks under the hands if needed to maintain a flat back."
+      },
+      {
+        "fault": "Bending the knees to bypass the stretch.",
+        "correction": "Actively contract the quadriceps to keep the legs straight and decrease the stance width if flexibility is insufficient."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid bouncing or aggressively pulling into the stretch; ease into the end range gradually.",
+        "Ensure the floor surface offers good grip to prevent your feet from sliding outward unexpectedly."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Standing Pancake Stretch",
+  "previous_ids": [
+    "oec:standing-pancake"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Standing Pancake",
+        "url": "https://wger.de/en/exercise/1396/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "captive0592"
+      }
+    ]
+  },
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "wide"
+    }
+  },
+  "status": "active",
+  "summary": "A standing straddle forward fold that deeply stretches the hamstrings and adductors while hinging at the hips."
+}

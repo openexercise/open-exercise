@@ -1,0 +1,225 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Neutral Grip Chin-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Parallel-Grip Pull-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Hammer-Grip Pull-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Pull-Ups (Neutral Grip)",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "downward-rotation",
+          "retraction"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "resistance-band",
+      "dip-belt"
+    ],
+    "required": [
+      [
+        "pull-up-bar"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1696"
+  },
+  "id": "oec:neutral-grip-pull-up",
+  "instructions": {
+    "setup": [
+      "Grasp parallel pull-up handles with palms facing each other at approximately shoulder width.",
+      "Hang with arms fully extended into a dead hang while keeping your core braced and legs straight or crossed at the ankles."
+    ],
+    "steps": [
+      "Initiate the pull by depressing and retracting your shoulder blades.",
+      "Drive your elbows down and back toward your ribs, pulling your chest up toward the handles.",
+      "Continue pulling until your chin clearly passes above the height of your hands.",
+      "Pause briefly at the top to squeeze your back muscles.",
+      "Lower yourself under control back to a full dead hang with arms completely extended."
+    ],
+    "breathing": "Inhale at the bottom or as you begin, and exhale forcefully as you pull your chest to the handles.",
+    "cues": [
+      "Elbows to your back pockets.",
+      "Lead with your chest.",
+      "Pull from a dead hang every rep."
+    ],
+    "common_faults": [
+      {
+        "fault": "Kicking the legs or kipping to generate momentum.",
+        "correction": "Keep your core tight, squeeze your glutes, and perform the movement strictly with your upper body."
+      },
+      {
+        "fault": "Cutting the bottom range of motion short without fully extending the arms.",
+        "correction": "Lower all the way down until your elbows are completely straight before starting the next rep."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears at the top of the pull.",
+        "correction": "Keep the shoulders pulled down away from your ears throughout the entire ascent."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the pull-up station or bar handles are stable and securely fastened before hanging."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Neutral-Grip Pull-Up",
+  "previous_ids": [
+    "oec:pull-ups-neutral-grip"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Pull-Ups (Neutral Grip)",
+        "url": "https://wger.de/en/exercise/1696/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "daiben"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:pull-up"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:pull-up"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:chin-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "shoulder"
+    },
+    "position": "hanging",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A bodyweight vertical pull performed on parallel handles that targets the lats and elbow flexors while reducing shoulder and wrist strain."
+}

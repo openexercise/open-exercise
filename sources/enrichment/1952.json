@@ -1,0 +1,139 @@
+{
+  "is_exercise": true,
+  "name": "Massage Ball Glute Release",
+  "summary": "A self-myofascial release drill using a firm massage ball to alleviate muscle tightness and improve tissue mobility in the glutes and deep hip rotators.",
+  "aliases": [
+    {
+      "text": "Lacrosse Ball Glute Smash",
+      "kind": "common"
+    },
+    {
+      "text": "Lacrosse Ball Glute Roll",
+      "kind": "common"
+    },
+    {
+      "text": "SMR Glutes",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Lacrosse Ball Hip Mobilization",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "not-applicable",
+    "force": "not-applicable",
+    "kinetic_chain": "not-applicable",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stretched"
+    },
+    {
+      "muscle": "piriformis",
+      "role": "stretched"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "external-rotation"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "massage-ball"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit on the floor or an exercise mat with knees bent and feet flat.",
+      "Place a massage ball (such as a lacrosse ball) under one glute cheek.",
+      "Support your upper body by placing your hands on the floor behind you.",
+      "Optionally cross the ankle of the targeted side over the opposite knee into a figure-four position to expose deeper hip rotators."
+    ],
+    "steps": [
+      "Slowly shift your body weight onto the ball to apply tolerable pressure to the muscle tissue.",
+      "Roll gently in small circles or back and forth over tender areas of the glute and lateral hip.",
+      "When a particularly tender trigger point is found, pause on the spot for twenty to thirty seconds while breathing deeply to allow the muscle to relax.",
+      "Slowly mobilize the hip by slightly opening and closing the knee to floss the tissue over the ball.",
+      "Complete the desired duration, then switch sides."
+    ],
+    "breathing": "Maintain slow, deep diaphragmatic breathing; avoid holding your breath when rolling over tender spots.",
+    "cues": [
+      "Sink into the ball, do not tense up.",
+      "Small, slow passes over tight areas.",
+      "Breathe through the discomfort."
+    ],
+    "common_faults": [
+      {
+        "fault": "Tensing the glute muscles during rolling.",
+        "correction": "Ease off the amount of bodyweight placed on the ball and exhale deeply to allow the muscle to soften."
+      },
+      {
+        "fault": "Rolling directly onto bony landmarks like the greater trochanter or tailbone.",
+        "correction": "Keep the ball centered in soft muscular tissue between the hip bone and sacrum."
+      },
+      {
+        "fault": "Applying excessive, sharp pressure that causes numbness or radiating nerve pain.",
+        "correction": "Reposition the ball immediately away from the sciatic nerve path and reduce pressure to a dull, therapeutic ache."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid rolling directly over the course of the sciatic nerve if you experience sharp tingling or numbness down the leg."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

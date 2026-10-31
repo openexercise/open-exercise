@@ -1,0 +1,164 @@
+{
+  "is_exercise": true,
+  "name": "Forward Lunge",
+  "summary": "A dynamic lower-body exercise where you step forward into a split stance, lowering the hips until both knees are bent, then push back to standing.",
+  "aliases": [
+    {
+      "text": "bodyweight forward lunge",
+      "kind": "common"
+    },
+    {
+      "text": "alternating forward lunge",
+      "kind": "common"
+    },
+    {
+      "text": "lunge",
+      "kind": "common"
+    },
+    {
+      "text": "lunges",
+      "kind": "common"
+    },
+    {
+      "text": "front lunge",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with your feet hip-width apart and your hands on your hips or clasped at your chest.",
+      "Engage your core and keep your chest lifted with shoulders back."
+    ],
+    "steps": [
+      "Take a controlled, generous step forward with one leg, landing heel first.",
+      "Lower your body under control until both knees are bent to approximately ninety degrees, with the back knee hovering just above the floor.",
+      "Ensure the front knee stays aligned over the front ankle and does not collapse inward.",
+      "Drive firmly through the midfoot and heel of the front foot to push yourself smoothly back to the starting position.",
+      "Repeat the movement by stepping forward with the opposite leg."
+    ],
+    "breathing": "Inhale as you step forward and lower down; exhale forcefully as you drive back to the standing position.",
+    "cues": [
+      "Step on train tracks, not a tightrope",
+      "Chest up, torso tall",
+      "Drive through the front heel"
+    ],
+    "common_faults": [
+      {
+        "fault": "Stepping with feet directly in line, creating instability and balance loss.",
+        "correction": "Maintain hip-width spacing between your feet as you step forward."
+      },
+      {
+        "fault": "Front knee caving inward (valgus collapse) during the descent or drive.",
+        "correction": "Actively track the front knee in line with your second and third toes."
+      },
+      {
+        "fault": "Slamming the rear knee violently into the floor.",
+        "correction": "Control the descent and hover the back knee an inch above the ground."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform on a flat, non-slip surface.",
+        "Use an exercise mat under the back knee if you have patellar sensitivity."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

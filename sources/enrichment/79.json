@@ -1,0 +1,184 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Bent-Over High Pull",
+  "summary": "A bent-over dumbbell pull targeting the upper back, rear deltoids, and trapezius by pulling with high, flared elbows.",
+  "aliases": [
+    {
+      "text": "Bent High Pulls",
+      "kind": "common"
+    },
+    {
+      "text": "Bent-Over Dumbbell High Pull",
+      "kind": "common"
+    },
+    {
+      "text": "Bent-Over Dumbbell High Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "bent-over",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-posterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "infraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-abduction",
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "upward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand with your feet hip-width apart, holding a dumbbell in each hand using an overhand (pronated) grip.",
+      "Hinge at your hips with a slight bend in your knees, lowering your torso until it is roughly 45 degrees to the floor while maintaining a flat back.",
+      "Let the dumbbells hang naturally below your shoulders with arms fully extended."
+    ],
+    "steps": [
+      "Initiate the pull by driving your elbows up and out wide to the sides.",
+      "Pull the dumbbells toward your upper chest, keeping your elbows higher than your wrists throughout the ascent.",
+      "Squeeze your shoulder blades together at the top of the motion for a brief pause.",
+      "Lower the dumbbells under control back to the starting hanging position."
+    ],
+    "breathing": "Exhale as you pull the dumbbells up toward your chest; inhale as you lower them with control.",
+    "cues": [
+      "Lead with the elbows high and wide.",
+      "Pinch your shoulder blades at the top.",
+      "Keep your torso still and brace your core."
+    ],
+    "common_faults": [
+      {
+        "fault": "Using excessive body English or standing up to heave the weights.",
+        "correction": "Reduce the dumbbell weight and keep your hip hinge stationary throughout the set."
+      },
+      {
+        "fault": "Pulling elbows in close to the torso like a standard row.",
+        "correction": "Flare your elbows out wide perpendicular to your torso to target the upper back and rear delts."
+      },
+      {
+        "fault": "Rounding the lower back.",
+        "correction": "Maintain an active hip hinge with an engaged core and neutral spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessively heavy loads that compromise lumbar spinal alignment."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Seated Hip Abduction",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Machine Hip Abduction",
+      "kind": "common"
+    },
+    {
+      "text": "Hip Abductor Machine",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-medius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-minimus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "tensor-fasciae-latae",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "piriformis",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "abduction"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-hip-abduction"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1672,1748"
+  },
+  "id": "oec:machine-hip-abduction",
+  "instructions": {
+    "setup": [
+      "Sit upright in the machine with your back firmly against the backrest.",
+      "Adjust the thigh pads so they rest comfortably against the outside of your knees or lower thighs.",
+      "Place your feet on the foot pegs and grip the side handles for upper-body stability."
+    ],
+    "steps": [
+      "Push your thighs outward against the pads by contracting your outer hips.",
+      "Continue spreading your legs until you reach full hip abduction.",
+      "Hold the fully open position briefly while squeezing your glutes.",
+      "Slowly return your legs to the starting position under control, stopping just before the weight stack touches down."
+    ],
+    "breathing": "Exhale as you push your legs outward; inhale as you slowly return to the center.",
+    "cues": [
+      "Drive outward from the knees.",
+      "Keep your hips and lower back planted.",
+      "Control the eccentric phase without letting the weights slam."
+    ],
+    "common_faults": [
+      {
+        "fault": "Using momentum or swinging the upper body forward to move the weight.",
+        "correction": "Keep your torso stationary against the pad and move only at the hip joints."
+      },
+      {
+        "fault": "Letting the weight stack crash between repetitions.",
+        "correction": "Stop just short of resting the plates to maintain continuous tension on the target muscles."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Adjust the starting width pin to a comfortable stretch that does not force the hips into excessive adduction."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Machine Hip Abduction",
+  "previous_ids": [
+    "oec:seated-hip-abduction"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Seated Hip Abduction",
+        "url": "https://wger.de/en/exercise/1672/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Iko"
+      },
+      {
+        "title": "wger: Machine Hip Abduction",
+        "url": "https://wger.de/en/exercise/1748/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Tierrasverdes"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:side-lying-hip-abduction"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:standing-hip-abduction"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:supine-hip-abduction"
+    }
+  ],
+  "setup": {
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A seated machine exercise that isolates the outer hips and glutes by spreading the thighs outward against resistance."
+}

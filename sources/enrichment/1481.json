@@ -1,0 +1,134 @@
+{
+  "is_exercise": true,
+  "name": "Cable Drag Pushdown",
+  "summary": "A triceps pushdown variation performed by pinning the elbows behind the torso and extending the arms close to the body to emphasize the shortened position of the triceps.",
+  "aliases": [
+    {
+      "text": "Drag Pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Drag Triceps Pushdown",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "anconeus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach a rope or straight bar to a high cable pulley.",
+      "Stand facing the stack with a stable hip-width stance and grasp the attachment.",
+      "Hinge slightly forward at the hips while maintaining a neutral spine and drawn-in core.",
+      "Pull your elbows backward slightly past the line of your torso and pin them in place."
+    ],
+    "steps": [
+      "Push the attachment downward, dragging it as close along your torso as possible.",
+      "Extend your elbows fully at the bottom to achieve a peak contraction in the triceps.",
+      "Squeeze firmly for a brief pause without letting your elbows drift forward.",
+      "Reverse the movement by bending at the elbows with control, allowing the attachment to travel back up along your body while keeping your upper arms stationary."
+    ],
+    "breathing": "Exhale as you push down and fully extend your elbows; inhale as you return the weight under control.",
+    "cues": [
+      "Keep elbows pinned behind the ribs",
+      "Drag close to the body",
+      "Lock out the elbows fully at the bottom"
+    ],
+    "common_faults": [
+      {
+        "fault": "Elbows drifting forward during the descent or return.",
+        "correction": "Engage your upper back and lats to keep the elbows locked slightly behind your torso throughout the entire set."
+      },
+      {
+        "fault": "Allowing the cable attachment to swing away from the torso.",
+        "correction": "Keep the hands tight to your body throughout the range of motion as if scraping your sides."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Select a load that allows full elbow lockout without using momentum or trunk swing."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

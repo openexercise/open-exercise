@@ -1,0 +1,210 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Incline DB Fly",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Incline Dumbbell Flye",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Chest Fly with Dumbbells",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-chest-fly",
+      "horizontal-push"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "308"
+  },
+  "id": "oec:incline-dumbbell-fly",
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an incline of 30 to 45 degrees.",
+      "Sit down with a dumbbell resting on each thigh, then lie back and kick the weights up to your chest.",
+      "Press the dumbbells directly over your upper chest with palms facing each other and plant your feet firmly on the floor.",
+      "Retract your shoulder blades and set a slight, fixed bend in your elbows."
+    ],
+    "steps": [
+      "Lower the dumbbells out to the sides in a wide arc, maintaining the fixed elbow angle throughout the descent.",
+      "Continue lowering until you feel a comfortable, deep stretch across your chest and anterior shoulders, keeping your elbows level with or slightly below your torso.",
+      "Reverse the movement by contracting your chest and bringing the dumbbells back together along the same arc.",
+      "Stop when the dumbbells meet above your chest without clashing them together."
+    ],
+    "breathing": "Inhale deeply as you lower the weights into the stretch; exhale smoothly as you squeeze your chest to bring them back up.",
+    "cues": [
+      "Hug a wide tree",
+      "Keep elbows softly bent and locked in place",
+      "Lead with the chest, not the hands"
+    ],
+    "common_faults": [
+      {
+        "fault": "Turning the fly into a press by bending and extending the elbows excessively.",
+        "correction": "Lock a slight bend in your elbows at the top and keep that angle identical throughout the entire range of motion."
+      },
+      {
+        "fault": "Overstretching past active shoulder mobility.",
+        "correction": "Stop the descent once your upper arms are roughly parallel to the floor or when you feel a strong stretch across the pectorals."
+      },
+      {
+        "fault": "Setting the bench angle too steep, shifting tension heavily onto the anterior deltoids.",
+        "correction": "Keep the incline between 30 and 45 degrees to optimize tension on the upper chest."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not use excessive loads that compromise control in the bottom stretched position.",
+        "Avoid letting the elbows drop excessively far below the bench plane to protect the anterior shoulder capsule."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Incline Dumbbell Fly",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Incline Dumbbell Fly",
+        "url": "https://wger.de/en/exercise/308/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "tuckerm"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-low-to-high-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:low-cable-crossover"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "incline_degrees": 30,
+    "position": "supine",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "An upper-body isolation exercise performed on an incline bench to target the clavicular head of the pectoralis major."
+}

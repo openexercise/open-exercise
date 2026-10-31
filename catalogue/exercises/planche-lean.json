@@ -1,0 +1,224 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Planche Lean Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Plank Lean",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "depression"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "parallettes",
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "2532"
+  },
+  "id": "oec:planche-lean",
+  "instructions": {
+    "setup": [
+      "Place your hands on the floor roughly shoulder-width apart, with fingers spread and pointed slightly outward to relieve wrist pressure.",
+      "Step your feet back into a push-up plank position with feet together and toes pointed into the ground.",
+      "Lock your elbows completely straight and actively push the floor away to achieve maximum scapular protraction and depression.",
+      "Tuck your pelvis into a posterior pelvic tilt, bracing the abs and squeezing the glutes to form a solid hollow body."
+    ],
+    "steps": [
+      "Keeping the arms fully locked and core tight, shift your body weight forward by leaning your shoulders ahead of your wrists.",
+      "Hold the maximum forward lean you can sustain with completely straight elbows, protracted shoulder blades, and a flat lower back.",
+      "Maintain the static hold for the prescribed duration.",
+      "Carefully shift your weight backward to exit the hold and rest on your knees."
+    ],
+    "breathing": "Breathe continuously with shallow, controlled breaths while maintaining rigid abdominal and chest tension throughout the hold.",
+    "cues": [
+      "Push the floor away to round the upper back.",
+      "Lock the elbows completely.",
+      "Tuck the tailbone and squeeze the glutes.",
+      "Lean forward onto the tips of the toes."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the elbows as the forward lean increases.",
+        "correction": "Fully lock the arms and rotate the elbow pits forward; decrease the forward lean angle until the elbows can stay rigidly straight."
+      },
+      {
+        "fault": "Losing scapular protraction and allowing the chest to sink between the shoulder blades.",
+        "correction": "Actively spread the shoulder blades apart and push the ground away throughout the entire duration."
+      },
+      {
+        "fault": "Sagging at the hips or hyper-extending the lumbar spine.",
+        "correction": "Squeeze the glutes hard and pull the ribcage down toward the pelvis into a hollow-body position."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Thoroughly warm up the wrists, shoulders, and biceps tendons before performing intense straight-arm leans.",
+        "If wrist mobility limits your lean angle or causes pain, perform the exercise using parallettes or turn the hands outward."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Planche Lean",
+  "previous_ids": [
+    "oec:planche-lean-hold"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Planche Lean Hold",
+        "url": "https://wger.de/en/exercise/2532/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "ege"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:tuck-planche"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "prone",
+    "stance": {
+      "kind": "parallel",
+      "width": "narrow"
+    }
+  },
+  "status": "active",
+  "summary": "An isometric calisthenics hold in a plank position with the shoulders leaned forward past the wrists to develop straight-arm pushing strength and scapular protraction."
+}

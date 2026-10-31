@@ -1,0 +1,183 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Standing Biceps Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Wall Biceps Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Wall Chest and Biceps Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Standing biceps stretch left",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-brachii",
+        "role": "stretched"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "stretched"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stretched"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-abduction",
+          "extension"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "not-applicable",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "wall"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1232"
+  },
+  "id": "oec:wall-biceps-stretch",
+  "instructions": {
+    "setup": [
+      "Stand sideways next to a wall with your feet hip-width apart.",
+      "Extend the arm closest to the wall straight behind you at approximately shoulder height.",
+      "Place your palm flat against the wall, pointing your fingers directly behind you or slightly downward."
+    ],
+    "steps": [
+      "Keep your arm extended and your shoulder packed down away from your ear.",
+      "Slowly rotate your chest and torso away from the wall until you feel a gentle stretch across the front of your arm and shoulder.",
+      "Hold the position steadily without bouncing.",
+      "Gently rotate back toward the wall to release the tension, then switch sides."
+    ],
+    "breathing": "Breathe smoothly and deeply, relaxing deeper into the stretch with each exhalation.",
+    "cues": [
+      "Keep the shoulder down",
+      "Turn your chest away",
+      "Maintain a straight arm"
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulder up toward the ear",
+        "correction": "Depress the shoulder blade down and back before rotating your torso."
+      },
+      {
+        "fault": "Bending the working elbow",
+        "correction": "Keep the arm fully extended to ensure the stretch reaches the biceps rather than only the chest."
+      },
+      {
+        "fault": "Aggressively forcing the torso rotation",
+        "correction": "Rotate gradually and stop at a comfortable, pain-free stretch sensation."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid this stretch if you experience sharp anterior shoulder impingement or pain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Wall Biceps Stretch",
+  "previous_ids": [
+    "oec:standing-biceps-stretch-left"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Standing biceps stretch left",
+        "url": "https://wger.de/en/exercise/1232/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Lynn_McIntyre"
+      }
+    ]
+  },
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A standing static stretch that lengthens the biceps brachii, anterior deltoid, and chest against a wall."
+}

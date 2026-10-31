@@ -1,0 +1,242 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "High Knee Skips",
+      "kind": "common"
+    },
+    {
+      "text": "A-Skip",
+      "kind": "common"
+    },
+    {
+      "text": "Power Skip",
+      "kind": "common"
+    },
+    {
+      "text": "High Knee Skips HD",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "iliopsoas",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "plyometric",
+      "conditioning",
+      "cardio"
+    ],
+    "movement_patterns": [
+      "jump",
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "mixed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "cone"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1318"
+  },
+  "id": "oec:high-knee-skip",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and arms relaxed at your sides.",
+      "Engage your core, keep your chest upright, and direct your gaze forward."
+    ],
+    "steps": [
+      "Push forcefully off the ball of one foot into a skip while driving the opposite knee upward until the thigh is parallel to the ground.",
+      "Dorsiflex the ankle of the raised leg so the toes point upward.",
+      "Drive the opposite arm forward and upward with a bent elbow in coordination with the lead leg.",
+      "Land lightly on the ball of the stance foot, initiate a quick double-bounce rhythm, and immediately drive the opposite knee upward to continue skipping."
+    ],
+    "breathing": "Maintain a steady, rhythmic breathing pattern timed with the skips.",
+    "cues": [
+      "Knee up, toe up.",
+      "Spring off the balls of your feet.",
+      "Stay tall through your torso."
+    ],
+    "common_faults": [
+      {
+        "fault": "Leaning backward as the knee drives up.",
+        "correction": "Brace the abdominals and maintain a tall, slightly forward-biased athletic posture."
+      },
+      {
+        "fault": "Allowing the foot of the raised leg to dangle in plantarflexion.",
+        "correction": "Actively pull the toes toward the shin (dorsiflexion) as the knee elevates."
+      },
+      {
+        "fault": "Landing flat-footed or on the heels.",
+        "correction": "Stay light and springy on the balls of your feet to maximize elastic recoil."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform on a flat, non-slip, and shock-absorbing surface like a track, grass, or gym floor."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "distance"
+        ],
+        "optional": [
+          "duration",
+          "heart-rate"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "heart-rate"
+        ]
+      },
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "High Knee Skip",
+  "previous_ids": [
+    "oec:high-knee-skips-hd"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: High Knee Skips HD",
+        "url": "https://wger.de/en/exercise/1318/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "hektkaso"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:high-knee-march"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:high-knees"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:high-knees"
+    }
+  ],
+  "setup": {
+    "position": "moving",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A dynamic skipping drill that explosively drives the lead knee upward to develop hip flexor power, calf stiffness, and running mechanics."
+}

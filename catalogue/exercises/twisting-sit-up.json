@@ -1,0 +1,209 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Cross-Body Sit-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Sit-Up Elbow Thrust",
+      "kind": "common"
+    },
+    {
+      "text": "Rotational Sit-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Sit Up Elbow Thrust",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "external-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion",
+          "rotation"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "flexion",
+          "rotation"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "spinal-flexion",
+      "rotation"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1479"
+  },
+  "id": "oec:twisting-sit-up",
+  "instructions": {
+    "setup": [
+      "Lie supine on a floor or mat with knees bent and feet planted flat on the floor about hip-width apart.",
+      "Place your fingertips lightly beside your ears or temples with elbows flared slightly outward, keeping your neck neutral."
+    ],
+    "steps": [
+      "Engage your abdominals and flex your spine to raise your torso off the floor toward your knees.",
+      "As your upper torso clears the floor, rotate your trunk to drive one elbow across your body toward the opposite knee.",
+      "Pause momentarily at the peak of the twist with full abdominal contraction.",
+      "Rotate your torso back to center as you lower yourself under control to the starting position.",
+      "Repeat the movement, rotating to the opposite side on the subsequent repetition."
+    ],
+    "breathing": "Exhale forcefully as you sit up and twist; inhale smoothly as you lower your torso back to the floor.",
+    "cues": [
+      "Rotate through the ribs, not just the shoulders",
+      "Curl your spine off the floor vertebra by vertebra",
+      "Keep hands light against the head to avoid pulling on the neck"
+    ],
+    "common_faults": [
+      {
+        "fault": "Yanking on the cervical spine with the hands to initiate the movement.",
+        "correction": "Keep fingertips light at the temples and generate the flexion strictly from your abdominal muscles."
+      },
+      {
+        "fault": "Swinging arms or relying purely on momentum rather than muscular contraction.",
+        "correction": "Perform the ascent smoothly, pausing briefly at the peak of the twist before controlling the descent."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid rapid, forceful lumbar twisting if you have a history of lumbar disc pathology."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Twisting Sit-Up",
+  "previous_ids": [
+    "oec:sit-up-elbow-thrust"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Sit Up Elbow Thrust",
+        "url": "https://wger.de/en/exercise/1479/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Moffi"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:sit-up"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:bicycle-crunch"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:russian-twist"
+    }
+  ],
+  "setup": {
+    "position": "supine",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A dynamic sit-up variation combining spinal flexion and trunk rotation to target the abdominal wall and obliques."
+}

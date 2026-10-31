@@ -1,0 +1,213 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Wall Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Wall Sit Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Isometric Wall Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Wall-sit",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "wall"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "718,1408"
+  },
+  "id": "oec:wall-sit",
+  "instructions": {
+    "setup": [
+      "Stand with your back flat against a sturdy wall.",
+      "Step your feet forward roughly two feet from the wall, positioned hip- to shoulder-width apart.",
+      "Ensure your head, upper back, and lower back are resting evenly against the surface."
+    ],
+    "steps": [
+      "Slide your torso down the wall by bending your hips and knees until your thighs are parallel to the floor.",
+      "Adjust your feet so your knees are positioned directly over your ankles, forming a 90-degree angle at both the knees and hips.",
+      "Cross your arms over your chest or rest your hands lightly at your sides without pushing on your thighs.",
+      "Hold this position statically for the prescribed duration while driving pressure evenly through your midfoot and heels.",
+      "To finish, push through your heels and use your hands against the wall to slide back up to a standing position."
+    ],
+    "breathing": "Breathe steadily and deeply throughout the hold; avoid holding your breath under tension.",
+    "cues": [
+      "Keep back flat against the wall",
+      "Knees stacked over ankles",
+      "Thighs parallel to the floor",
+      "Hands off your thighs"
+    ],
+    "common_faults": [
+      {
+        "fault": "Resting hands or forearms on the thighs to bear weight.",
+        "correction": "Cross your arms over your chest or keep them dangling by your sides to keep the load on your legs."
+      },
+      {
+        "fault": "Knees tracking past the toes due to feet positioned too close to the wall.",
+        "correction": "Walk your feet further forward so your shins remain vertical when your thighs reach parallel."
+      },
+      {
+        "fault": "Sitting too high or dropping hips below 90 degrees.",
+        "correction": "Lower until thighs are parallel to the ground, keeping hips and knees aligned horizontally."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the floor surface has sufficient traction to prevent feet from slipping outward during the hold."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Wall Sit",
+  "previous_ids": [
+    "oec:wall-squat"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Wall Squat",
+        "url": "https://wger.de/en/exercise/718/view-base",
+        "license": "CC0-1.0",
+        "author": "Blablabla"
+      },
+      {
+        "title": "wger: Wall-sit",
+        "url": "https://wger.de/en/exercise/1408/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "clafal"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:squat-hold"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:squat-hold"
+    }
+  ],
+  "setup": {
+    "position": "seated",
+    "range": "pause",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An isometric bodyweight exercise where you hold a seated squat position against a wall to build lower-body endurance."
+}

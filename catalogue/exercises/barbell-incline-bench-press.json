@@ -1,0 +1,250 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "incline bench press",
+      "kind": "common"
+    },
+    {
+      "text": "incline barbell bench press",
+      "kind": "common"
+    },
+    {
+      "text": "incline bench",
+      "kind": "common"
+    },
+    {
+      "text": "incline press",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Bench Press - Barbell",
+      "kind": "common"
+    },
+    {
+      "text": "Supino inclinado",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "horizontal-adduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "bench",
+        "adjustable-bench"
+      ],
+      [
+        "squat-rack",
+        "power-rack"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "538,1778"
+  },
+  "id": "oec:barbell-incline-bench-press",
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an incline of 30 to 45 degrees beneath a barbell rack.",
+      "Lie back on the bench with your eyes aligned beneath the bar and plant your feet firmly on the floor.",
+      "Retract and depress your shoulder blades into the pad to create a stable base.",
+      "Grip the bar slightly wider than shoulder width with a full, pronated grip, ensuring your wrists are straight.",
+      "Unrack the bar by straightening your arms, moving it directly over your upper chest."
+    ],
+    "steps": [
+      "Inhale and lower the barbell under control toward your upper chest or clavicle.",
+      "Keep your forearms vertical and tuck your elbows at roughly a 45-to-60-degree angle from your torso.",
+      "Touch the bar lightly to your upper chest without bouncing.",
+      "Exhale and press the barbell up and slightly back toward your face until your arms are fully extended over your shoulders."
+    ],
+    "breathing": "Inhale and brace your core as you lower the bar, then exhale forcefully through the sticking point on the ascent.",
+    "cues": [
+      "Pull the bar down to your collarbones.",
+      "Drive your feet into the floor.",
+      "Keep your wrists stacked directly over your elbows."
+    ],
+    "common_faults": [
+      {
+        "fault": "Setting the bench angle too steep (above 45 degrees).",
+        "correction": "Use an incline of 30 to 45 degrees to maximize upper-chest engagement and minimize excessive front-deltoid strain."
+      },
+      {
+        "fault": "Flaring the elbows out to 90 degrees.",
+        "correction": "Tuck your elbows to approximately 45-60 degrees relative to your torso to protect the shoulder joint."
+      },
+      {
+        "fault": "Bouncing the bar off the chest.",
+        "correction": "Control the eccentric descent and pause or lightly touch the chest under full muscular tension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure safety pins or spotter arms are set at chest height if training in a power rack without a spotter.",
+        "Maintain a wrapped thumb around the bar rather than a thumbless (suicide) grip to avoid dropping the weight."
+      ],
+      "spotter": "recommended",
+      "safeties": true
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Incline Bench Press",
+  "previous_ids": [
+    "oec:incline-bench-press-barbell",
+    "oec:supino-inclinado"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Incline Bench Press - Barbell",
+        "url": "https://wger.de/en/exercise/538/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      },
+      {
+        "title": "wger: Supino inclinado",
+        "url": "https://wger.de/en/exercise/1778/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:incline-dumbbell-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:smith-machine-incline-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-incline-chest-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "supine"
+  },
+  "status": "active",
+  "summary": "An upper-body compound pressing exercise performed on an inclined bench that emphasizes the upper chest and anterior shoulders."
+}

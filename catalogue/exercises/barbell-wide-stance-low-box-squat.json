@@ -1,0 +1,248 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Low Box Squat - Wide Stance",
+      "kind": "common"
+    },
+    {
+      "text": "Wide-Stance Low Box Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Wide Stance Box Squat",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "vastus-lateralis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-femoris",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "powerlifting"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "squat-rack",
+        "power-rack"
+      ],
+      [
+        "plyo-box",
+        "bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "397"
+  },
+  "id": "oec:barbell-wide-stance-low-box-squat",
+  "instructions": {
+    "setup": [
+      "Position a box or low bench inside the rack at a height that places the hip crease below the top of the knee when seated.",
+      "Unrack the barbell across your rear deltoids and step back so your calves are close to the box.",
+      "Set your feet into an exaggerated wide stance, with toes pointed moderately outward, and brace your core tightly."
+    ],
+    "steps": [
+      "Hinge at the hips and push your knees actively outward as you descend toward the box.",
+      "Sit back fully onto the box under control, releasing hip flexor tension while keeping your torso upright and core rigid.",
+      "Pause momentarily on the box without rocking back or bouncing.",
+      "Drive aggressively through your feet, spreading the floor apart and extending the hips and knees to return to standing lockout."
+    ],
+    "breathing": "Inhale deeply and brace your abdominals before initiating the descent; hold your breath through the pause on the box, and exhale past the sticking point on the ascent.",
+    "cues": [
+      "Spread the floor with your feet",
+      "Sit back, not down",
+      "Knees out wide",
+      "Stay tight on the box"
+    ],
+    "common_faults": [
+      {
+        "fault": "Crashing down onto the box instead of maintaining control during the eccentric phase.",
+        "correction": "Control your descent by reaching back with the hips and resisting gravity until you make quiet, deliberate contact."
+      },
+      {
+        "fault": "Rocking backward on the box and bouncing forward to generate momentum.",
+        "correction": "Pause motionless on the box while keeping the spine braced, then drive straight up without rocking."
+      },
+      {
+        "fault": "Letting the knees collapse inward on either descent or ascent.",
+        "correction": "Actively push your knees outward in line with your angled toes throughout the entire rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the box is sturdy, level, and will not slip during contact.",
+        "Set safety pins in the power rack slightly below your seated box height."
+      ],
+      "spotter": "recommended",
+      "safeties": true
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Wide-Stance Low Box Squat",
+  "previous_ids": [
+    "oec:low-box-squat-wide-stance"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Low Box Squat - Wide Stance",
+        "url": "https://wger.de/en/exercise/397/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "taylorbarbell"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-back-squat"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:bodyweight-box-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-sumo-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-pin-squat"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated"
+    },
+    "load_position": "low-bar",
+    "position": "standing",
+    "range": "box",
+    "stance": {
+      "kind": "parallel",
+      "width": "wide"
+    }
+  },
+  "status": "active",
+  "summary": "A barbell back squat variation performed with an exaggerated wide stance to a below-parallel box, emphasizing hip and adductor recruitment while breaking the eccentric-concentric chain."
+}

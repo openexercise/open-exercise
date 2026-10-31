@@ -1,0 +1,150 @@
+{
+  "is_exercise": true,
+  "name": "Neck Controlled Articular Rotation",
+  "summary": "A slow, deliberate mobility drill tracing the maximal active perimeter of the cervical spine through flexion, rotation, lateral flexion, and extension.",
+  "aliases": [
+    {
+      "text": "Neck CARs",
+      "kind": "common"
+    },
+    {
+      "text": "Cervical CARs",
+      "kind": "common"
+    },
+    {
+      "text": "Cervical Controlled Articular Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Neck CAR",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "rehabilitation",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "isolation-neck"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "muscles": [
+    {
+      "muscle": "sternocleidomastoid",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "splenius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deep-neck-flexors",
+      "role": "synergist"
+    },
+    {
+      "muscle": "upper-cervical-extensors",
+      "role": "synergist"
+    },
+    {
+      "muscle": "levator-scapulae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "flexion",
+        "extension",
+        "lateral-flexion",
+        "rotation",
+        "circumduction"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand or sit tall with feet flat on the floor and a neutral spine.",
+      "Gently brace your core, pull your shoulders down and back, and clench your fists to create full-body irradiation and isolate the neck."
+    ],
+    "steps": [
+      "Tuck your chin toward your chest into full cervical flexion.",
+      "Rotate your chin along your collarbone toward one shoulder as far as comfortable.",
+      "Tip your ear toward the same shoulder into lateral flexion.",
+      "Extend your head back and around, rolling smoothly through extension to the opposite side without hyperextending or pinching.",
+      "Drop your ear toward the opposite shoulder, then rotate your chin down along the opposite collarbone back to the chest to complete the circle.",
+      "Pause briefly, then repeat for the prescribed repetitions before reversing direction."
+    ],
+    "breathing": "Breathe smoothly and continuously throughout the rotation without holding your breath.",
+    "cues": [
+      "Draw the biggest circle you can with your chin.",
+      "Move the neck only; keep your shoulders glued down.",
+      "Smooth out any jerky corners."
+    ],
+    "common_faults": [
+      {
+        "fault": "Moving the shoulders or thoracic spine to create artificial range.",
+        "correction": "Lock your torso in place, pin your shoulders down, and move strictly from the cervical spine."
+      },
+      {
+        "fault": "Rushing through the rotation.",
+        "correction": "Perform each circle slowly under control, taking five to ten seconds per repetition."
+      },
+      {
+        "fault": "Pushing into sharp closing-angle pain or nerve pinching.",
+        "correction": "Bypass any painful pinch by carving just inside the painful boundary of range."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forcing through dizziness, sharp pain, or numbness; keep movements within a comfortable, pain-free active range."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "is_exercise": true,
+  "name": "Machine Incline Chest Press",
+  "summary": "A seated machine compound press performed on an upward incline to target the upper chest, anterior shoulders, and triceps.",
+  "aliases": [
+    {
+      "text": "Incline Machine Chest Press",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Incline Press",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Chest Press Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Lever Incline Chest Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "horizontal-adduction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "upward-rotation"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so the handles align roughly with your upper chest or clavicle level at the bottom of the movement.",
+      "Sit back firmly against the backrest with your feet planted flat on the floor.",
+      "Grasp the handles with an overhand grip, pull your shoulder blades down and back, and brace your core."
+    ],
+    "steps": [
+      "Press the handles smoothly upward and forward along the machine's fixed path until your arms are extended without locking your elbows.",
+      "Pause briefly at the top while maintaining tension in your upper chest.",
+      "Lower the handles under control until you feel a comfortable stretch across your chest, just before the weight stack touches down."
+    ],
+    "breathing": "Exhale as you press the handles away, and inhale as you lower the weight back toward your chest.",
+    "cues": [
+      "Drive through your upper chest",
+      "Keep your shoulder blades pinned to the pad",
+      "Control the descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Setting the seat too high, causing the press to mimic a flat press or putting excessive stress on the shoulders.",
+        "correction": "Lower the seat so the handles align with your upper chest and the pressing angle travels upward."
+      },
+      {
+        "fault": "Letting the shoulders roll forward and protract excessively at the top of the press.",
+        "correction": "Keep your upper back pinned against the pad and maintain scapular retraction throughout the rep."
+      },
+      {
+        "fault": "Bouncing the weight stack at the bottom of the stroke.",
+        "correction": "Reverse direction smoothly just before the plates touch to maintain continuous muscular tension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessive range of motion if you experience anterior shoulder pain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

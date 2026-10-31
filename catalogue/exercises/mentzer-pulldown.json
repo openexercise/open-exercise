@@ -1,0 +1,235 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Mike Mentzer Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Close-Grip Underhand Cable Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Cable Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Mentzer Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Mentzer Bicep Pulldown",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "downward-rotation",
+          "retraction"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable",
+        "selectorized-machine"
+      ],
+      [
+        "adjustable-bench",
+        "bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1971"
+  },
+  "id": "oec:mentzer-pulldown",
+  "instructions": {
+    "setup": [
+      "Position an adjustable bench set to a steep incline (around 60 to 70 degrees) facing a high cable pulley.",
+      "Attach a straight bar or EZ-curl bar attachment to the high cable.",
+      "Sit on the bench facing the cable stack, plant your feet flat on the floor, and grasp the bar with a shoulder-width or slightly narrower underhand (supinated) grip.",
+      "Allow your arms to fully extend overhead to establish an initial stretch through your lats and biceps."
+    ],
+    "steps": [
+      "Initiate the pull by drawing your elbows down and in toward your sides while simultaneously curling the bar toward your upper chest or chin.",
+      "Continue pulling smoothly until your elbows are fully bent and the bar reaches upper chest height.",
+      "Pause for a brief moment at the bottom to forcefully contract your biceps and upper back.",
+      "Slowly reverse the motion under control, extending your elbows until you return to the full stretch at the top."
+    ],
+    "breathing": "Exhale as you pull the bar down to your chest, and inhale as you smoothly return the weight to the top stretch.",
+    "cues": [
+      "Drive your elbows down and curl to your chin.",
+      "Keep your wrists firmly supinated throughout.",
+      "Control the eccentric stretch at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso backward to use momentum.",
+        "correction": "Keep your chest and torso anchored against the bench pad and pull purely with your arms and back."
+      },
+      {
+        "fault": "Flaring the elbows outward.",
+        "correction": "Track your elbows forward and down in front of your body to maintain peak mechanical tension on the biceps."
+      },
+      {
+        "fault": "Cutting the eccentric phase short.",
+        "correction": "Allow your arms to reach complete extension overhead between repetitions to maximize the stretch-mediated stimulus."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Select a load you can control smoothly through full extension without being pulled off the seat."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Mentzer Pulldown",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Mentzer Pulldown",
+        "url": "https://wger.de/en/exercise/1971/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Mike Mentzer"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:close-grip-supinated-lat-pulldown"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:cable-incline-bench-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:close-grip-supinated-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-reverse-grip-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:chin-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated",
+      "width": "narrow"
+    },
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A vertical cable pulldown performed on an incline bench with a close underhand grip to emphasize biceps and latissimus dorsi recruitment."
+}

@@ -1,0 +1,181 @@
+{
+  "is_exercise": true,
+  "name": "Meadows Row",
+  "summary": "A unilateral landmine row performed standing perpendicular to the barbell with a pronated grip on the sleeve to target the lats and upper back.",
+  "aliases": [
+    {
+      "text": "Landmine Meadows Row",
+      "kind": "common"
+    },
+    {
+      "text": "Perpendicular Unilateral Landmine Row",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Perpendicular Landmine Row",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Landmine Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "bent-over",
+  "grip_orientation": "pronated",
+  "stance_kind": "staggered",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "landmine"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "weight-plate",
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Load the sleeve of a barbell anchored in a landmine attachment, preferably using smaller-diameter plates to allow a greater range of motion.",
+      "Stand perpendicular to the barbell with a staggered stance, placing the foot on the working side slightly behind the front foot.",
+      "Hinge at the hips until your torso is roughly 45 degrees to the floor, bracing your non-working forearm on your front thigh for support.",
+      "Grip the thick collar end of the barbell sleeve with an overhand (pronated) grip using the working arm."
+    ],
+    "steps": [
+      "Initiate the pull by retracting your shoulder blade and driving your elbow up and slightly out toward your hip.",
+      "Row the collar until your elbow reaches or slightly passes torso height, squeezing the lat and upper back.",
+      "Lower the barbell under control until your arm is fully extended and you feel a mild stretch in the lat.",
+      "Complete the desired repetitions on one side before turning around to repeat on the other side."
+    ],
+    "breathing": "Inhale as you lower the weight into full extension; exhale forcefully as you drive the elbow up into the row.",
+    "cues": [
+      "Lead with the elbow, not the hand.",
+      "Keep your chest proud and hips square.",
+      "Let the shoulder blade glide forward at the bottom for a deep stretch."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive torso rotation or heaving momentum to lift the bar.",
+        "correction": "Keep your shoulders and hips square to the floor and initiate each rep purely from the back muscles."
+      },
+      {
+        "fault": "Using 45-pound or Olympic-diameter plates that bump the torso prematurely.",
+        "correction": "Load multiple smaller-diameter plates (such as 25-pound plates) to maximize your pulling range of motion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a neutral spine and brace your core throughout to protect the lower back."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

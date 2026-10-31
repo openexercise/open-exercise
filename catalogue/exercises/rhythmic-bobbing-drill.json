@@ -1,0 +1,212 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Bobs",
+      "kind": "common"
+    },
+    {
+      "text": "Bobbing Drill",
+      "kind": "common"
+    },
+    {
+      "text": "Rhythmic Bobbing",
+      "kind": "common"
+    },
+    {
+      "text": "Bobbing Exhale Drill",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "transversus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "calves",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "sport",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "swim"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "pool"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2482"
+  },
+  "id": "oec:rhythmic-bobbing-drill",
+  "instructions": {
+    "setup": [
+      "Stand in chest-deep water with your feet flat on the bottom of the pool.",
+      "Lightly hold the pool edge or place your hands comfortably at your sides for balance."
+    ],
+    "steps": [
+      "Take a comfortable breath in through your mouth above the surface.",
+      "Bend your knees to submerge your head fully underwater.",
+      "Exhale continuously and steadily through your nose and mouth, blowing a steady stream of bubbles.",
+      "Push off the pool floor to rise back up until your mouth clears the water.",
+      "Inhale immediately as your head breaks the surface and descend without pausing."
+    ],
+    "breathing": "Inhale exclusively above water through your mouth, and exhale completely and continuously through your nose or mouth while submerged.",
+    "cues": [
+      "Exhale under, inhale over",
+      "Blow steady bubbles",
+      "Keep the rhythm smooth and relaxed"
+    ],
+    "common_faults": [
+      {
+        "fault": "Holding your breath underwater instead of exhaling continuously.",
+        "correction": "Hum or blow bubbles the entire time your face is submerged so you are ready to inhale the instant you surface."
+      },
+      {
+        "fault": "Wiping water from the face or pausing at the surface between repetitions.",
+        "correction": "Maintain a continuous, relaxed rhythm and transition immediately from inhaling to submerging."
+      },
+      {
+        "fault": "Attempting to exhale after surfacing.",
+        "correction": "Ensure all air is emptied underwater so your time at the surface is dedicated solely to a quick inhale."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform only in shallow water where you can easily stand with your head above the surface.",
+        "Stop immediately if you feel dizzy, lightheaded, or panicked."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Rhythmic Bobbing Drill",
+  "previous_ids": [
+    "oec:bobbing-exhale-drill"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Bobbing Exhale Drill",
+        "url": "https://wger.de/en/exercise/2482/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:recovery-bobbing"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A foundational swimming breathing drill where you submerge to exhale continuously underwater and surface to inhale rhythmically."
+}

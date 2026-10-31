@@ -1,0 +1,228 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Dynamic Effort Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "DE Deadlift",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Speed Pull",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "trapezius",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "powerlifting",
+      "power",
+      "strength"
+    ],
+    "movement_patterns": [
+      "hinge",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "resistance-band"
+    ],
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "weight-plate"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "604"
+  },
+  "id": "oec:speed-deadlift",
+  "instructions": {
+    "setup": [
+      "Load the barbell with a submaximal weight, typically between 50% and 75% of your one-rep max.",
+      "Stand with feet hip-width apart and mid-foot directly under the bar.",
+      "Hinge at the hips, grip the barbell just outside your shins, and pull the slack out of the bar while engaging your lats.",
+      "Brace your core firmly and establish a neutral, rigid spine before initiating the pull."
+    ],
+    "steps": [
+      "Drive aggressively through the floor, pulling the barbell upward with maximum intent and acceleration.",
+      "Extend your hips and knees explosively into full lockout while maintaining a rigid torso.",
+      "Control the barbell back to the floor under control without losing posture or spinal alignment.",
+      "Reset completely between reps to ensure maximum power output on each repetition."
+    ],
+    "breathing": "Take a deep breath and brace your abdominal wall before pulling; exhale once you complete the lockout or during the controlled descent.",
+    "cues": [
+      "Push the floor away explosively",
+      "Pull the slack out first",
+      "Snap the hips through at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Jerking the barbell off the floor before taking out the slack, leading to thoracic flexion and loss of positioning.",
+        "correction": "Build tension against the bar before driving aggressively through the floor."
+      },
+      {
+        "fault": "Prioritizing speed over form, allowing the spine to round or hips to shoot up early.",
+        "correction": "Treat every submaximal rep with the exact setup and technical discipline of a maximum-effort lift."
+      },
+      {
+        "fault": "Bouncing repetitions off the floor to sustain momentum.",
+        "correction": "Come to a complete stop or reset between repetitions to maximize rate of force development from a dead stop."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure collars are secured so weight plates do not shift during rapid acceleration.",
+        "Maintain a neutral spine throughout the entire pull; terminate the set if bar speed noticeably drops or form degrades."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "speed"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Speed Deadlift",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Speed Deadlift",
+        "url": "https://wger.de/en/exercise/604/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "MrSteele"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-deadlift"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A barbell deadlift performed with submaximal loads focused on maximum rate of force development and bar speed."
+}

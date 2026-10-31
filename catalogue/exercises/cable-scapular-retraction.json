@@ -1,0 +1,236 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Seated Cable Mid Trap Shrug",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Scapular Row",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Cable Scapular Retraction",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Kelso Shrug",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Horizontal Shrug",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "trapezius-middle",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "protraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "horizontal-pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "bench"
+    ],
+    "required": [
+      [
+        "cable",
+        "selectorized-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "922"
+  },
+  "id": "oec:cable-scapular-retraction",
+  "instructions": {
+    "setup": [
+      "Sit upright at a low cable row station with your feet firmly planted on the footrests and knees slightly bent.",
+      "Grasp the handle attachment with arms fully extended and your torso vertical.",
+      "Allow the resistance to pull your shoulder blades forward into a fully protracted position while maintaining an upright, neutral spine."
+    ],
+    "steps": [
+      "Keeping your arms straight, smoothly pull your shoulder blades straight back toward your spine.",
+      "Hold the fully retracted position for a brief pause, focusing on contracting your middle back.",
+      "Slowly allow your shoulder blades to glide forward into full protraction under control."
+    ],
+    "breathing": "Exhale as you retract your shoulder blades, and inhale as you allow them to protract forward.",
+    "cues": [
+      "Pinch a pencil between your shoulder blades.",
+      "Keep your arms locked long; do not bend at the elbows.",
+      "Stay tall and do not rock through your torso."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the elbows to pull the weight.",
+        "correction": "Keep your arms extended with only a soft micro-bend in the elbows so all movement originates from the shoulder blades."
+      },
+      {
+        "fault": "Swinging the torso backward to create momentum.",
+        "correction": "Brace your core and keep your torso stationary, moving only your scapulae."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid shrugging your shoulders upward toward your ears to prevent overworking the upper trapezius and neck."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable Scapular Retraction",
+  "previous_ids": [
+    "oec:seated-cable-mid-trap-shrug"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Seated Cable Mid Trap Shrug",
+        "url": "https://wger.de/en/exercise/922/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "novadani"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "part-of",
+      "target": "oec:cable-seated-row"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:cable-seated-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:band-scapular-retraction"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:prone-scapular-retraction"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-kelso-shrug"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "shoulder"
+    },
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "An upper-back isolation exercise performed on a cable row station to strengthen the middle trapezius and rhomboids through pure shoulder blade movement."
+}

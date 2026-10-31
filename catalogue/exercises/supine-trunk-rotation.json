@@ -1,0 +1,204 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Hip Crossover",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Trunk Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Knee Twist",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Knee Roll",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Hip Crossover",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "obliques",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stretched"
+      },
+      {
+        "muscle": "quadratus-lumborum",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "piriformis",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "rotation"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "rotation"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "internal-rotation",
+          "external-rotation"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "rotation",
+      "mobility-drill",
+      "stretch"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1863"
+  },
+  "id": "oec:supine-trunk-rotation",
+  "instructions": {
+    "setup": [
+      "Lie face-up on a mat with your knees bent and feet flat on the floor, keeping your legs together.",
+      "Extend your arms straight out to your sides at shoulder height with palms facing down to anchor your upper body."
+    ],
+    "steps": [
+      "Keeping your knees and feet glued together, slowly lower your knees toward the floor on one side.",
+      "Lower only as far as you can while keeping both shoulder blades flat against the mat.",
+      "Pause for a brief stretch across the hip, outer glute, and lower back.",
+      "Engage your midsection to smoothly draw your knees back to the upright starting position.",
+      "Repeat the motion in the opposite direction."
+    ],
+    "breathing": "Inhale smoothly as you lower your knees to the side, and exhale as you engage your core to return to center.",
+    "cues": [
+      "Shoulders glued to the floor",
+      "Knees stay stacked",
+      "Move with control"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the opposite shoulder off the floor to force the knees down.",
+        "correction": "Stop the descent as soon as the opposing shoulder begins to peel off the mat; prioritize thoracic anchoring over knee depth."
+      },
+      {
+        "fault": "Allowing the knees to slide apart during the rotation.",
+        "correction": "Keep gentle inward pressure between your inner knees and ankles throughout the movement."
+      },
+      {
+        "fault": "Using momentum to swing the legs side to side.",
+        "correction": "Control the descent slowly and use your abdominal muscles to pull the legs back to the center."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Move within a comfortable range of motion and avoid forcing the knees to the floor if you experience sharp lower back or hip pain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Supine Trunk Rotation",
+  "previous_ids": [
+    "oec:hip-crossover"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Hip Crossover",
+        "url": "https://wger.de/en/exercise/1863/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Davidgj32"
+      }
+    ]
+  },
+  "setup": {
+    "position": "supine",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A supine dynamic mobility exercise that gently rotates the hips and lower spine to improve rotational mobility and loosen the trunk and hips."
+}

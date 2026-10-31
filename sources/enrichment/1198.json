@@ -1,0 +1,197 @@
+{
+  "is_exercise": true,
+  "name": "Inverted Row",
+  "summary": "A bodyweight horizontal pull performed by hanging supine beneath a fixed bar and pulling the chest up while keeping the body in a rigid plank.",
+  "aliases": [
+    {
+      "text": "Horizontal Pull-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Australian Pull-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Bodyweight Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "inverted",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell",
+        "smith-machine"
+      ]
+    },
+    {
+      "any_of": [
+        "squat-rack",
+        "power-rack",
+        "smith-machine"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "bench",
+    "weight-vest"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Set a barbell securely in a rack or Smith machine at roughly waist height.",
+      "Lie beneath the bar so it sits directly above your mid-chest.",
+      "Grasp the bar with an overhand grip slightly wider than shoulder-width.",
+      "Extend your legs forward resting on your heels, squeezing your glutes and bracing your core to form a straight line from head to heels."
+    ],
+    "steps": [
+      "Initiate the pull by retracting your shoulder blades and driving your elbows down and back.",
+      "Pull smoothly until your sternum lightly contacts the bar.",
+      "Pause momentarily at the top while maintaining tension through your torso and hips.",
+      "Lower yourself under control by extending your arms and protracting your shoulder blades until you return to the starting dead-hang position."
+    ],
+    "breathing": "Inhale as you hang at the bottom, hold your brace as you pull, and exhale as you lower back down under control.",
+    "cues": [
+      "Drive your elbows toward the floor",
+      "Lead with your chest, not your chin",
+      "Stay rigid like a plank"
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging hips or hyperextending the lower back during the pull.",
+        "correction": "Squeeze your glutes and brace your abdominals tightly throughout the entire range of motion."
+      },
+      {
+        "fault": "Reaching with the chin to touch the bar while the chest stays away.",
+        "correction": "Keep your neck in a neutral alignment and focus on touching your lower sternum to the bar."
+      },
+      {
+        "fault": "Allowing the shoulders to round forward at the top of the pull.",
+        "correction": "Actively squeeze your shoulder blades together as you reach full elbow flexion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the barbell cannot roll or lift out of the J-hooks by pulling against the direction of the rack uprights."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

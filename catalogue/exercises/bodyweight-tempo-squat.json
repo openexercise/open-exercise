@@ -1,0 +1,225 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Tempo Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Slow Squat",
+      "kind": "common"
+    },
+    {
+      "text": "3-1-1 Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Tempo Air Squat",
+      "kind": "common"
+    },
+    {
+      "text": "​3-1-1 Squat",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "eccentric-emphasis"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1963"
+  },
+  "id": "oec:bodyweight-tempo-squat",
+  "instructions": {
+    "setup": [
+      "Stand tall with your feet roughly shoulder-width apart and your toes angled slightly outward.",
+      "Brace your core and extend your arms in front of your chest for balance."
+    ],
+    "steps": [
+      "Initiate the descent by breaking simultaneously at the hips and knees.",
+      "Lower your body slowly over a strict three-second count until your hip crease drops below the top of your knees.",
+      "Pause motionless in the bottom position for a full one-second count without losing core tension.",
+      "Drive through your midfoot to stand up at a normal, controlled speed.",
+      "Fully extend your hips and knees at the top before beginning the next repetition."
+    ],
+    "breathing": "Inhale deeply into your abdomen on the slow descent, hold your breath through the pause, and exhale as you drive back to standing.",
+    "cues": [
+      "Count your descent: three, two, one.",
+      "Own the bottom position.",
+      "Keep your chest proud and knees tracking your toes."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rushing the eccentric tempo as fatigue sets in.",
+        "correction": "Use an internal or audible metronome count to ensure a true three-second descent on every rep."
+      },
+      {
+        "fault": "Collapsing tension or bouncing out of the bottom position.",
+        "correction": "Stay actively braced and come to a complete, controlled stop for the prescribed pause."
+      },
+      {
+        "fault": "Heels lifting off the floor during the descent.",
+        "correction": "Maintain balanced pressure across your entire foot, driving knees outward to make room for hip depth."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Descend only to a depth you can maintain with a neutral spine."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "tempo",
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Bodyweight Tempo Squat",
+  "previous_ids": [
+    "oec:slow-squat"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Slow Squat",
+        "url": "https://wger.de/en/exercise/1963/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Anon#2"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:bodyweight-squat"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:bodyweight-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:bodyweight-squat"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A bilateral bodyweight squat performed with an intentionally slowed eccentric phase and a brief pause at the bottom to maximize time under tension and movement control."
+}

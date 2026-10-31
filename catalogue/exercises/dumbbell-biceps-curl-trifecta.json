@@ -1,0 +1,214 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Bizeps Curls Trifecta",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Biceps Curl Trifecta",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Biceps Trifecta",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "infraspinatus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "teres-minor",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "radioulnar",
+        "actions": [
+          "pronation",
+          "supination"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "external-rotation",
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1483"
+  },
+  "id": "oec:dumbbell-biceps-curl-trifecta",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart holding a pair of moderate dumbbells at your sides.",
+      "Brace your core and set your shoulder blades back and down."
+    ],
+    "steps": [
+      "Perform the prescribed reps of supinated cross-body curls by supinating your forearms and curling across your chest toward the opposite shoulder.",
+      "Immediately transition to pronated cross-body curls by turning your forearms into full pronation (overhand grip) and curling across the body.",
+      "Finish the set with no-money curls by pinning your elbows against your sides, externally rotating your shoulders, and curling the dumbbells outward away from your torso."
+    ],
+    "breathing": "Exhale on each concentric curl contraction and inhale as you lower the weights under control.",
+    "cues": [
+      "Keep elbows pinned to your sides during the no-money curls",
+      "Control the eccentric phase on every variation",
+      "Avoid swinging the torso for momentum"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to generate momentum as fatigue accumulates.",
+        "correction": "Select a lighter dumbbell weight that allows strict control through all three variations."
+      },
+      {
+        "fault": "Flaring the elbows outward during the no-money curl portion.",
+        "correction": "Keep your elbows tucked into your ribs and rotate outward strictly through the shoulders and forearms."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not compromise form or hyperextend the lumbar spine to complete later repetitions."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Biceps Curl Trifecta",
+  "previous_ids": [
+    "oec:bizeps-curls-trifecta"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Bizeps Curls Trifecta",
+        "url": "https://wger.de/en/exercise/1483/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Moffi"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-biceps-curl"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-curl"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "rotating"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A dumbbell curl combination performed within a single set, transitioning through supinated cross-body curls, pronated cross-body curls, and no-money curls."
+}

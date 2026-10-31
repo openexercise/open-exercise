@@ -1,0 +1,154 @@
+{
+  "is_exercise": true,
+  "name": "Wall Baby Breathing",
+  "summary": "A supine developmental breathing drill performed with the feet against a wall to facilitate posterior pelvic tilt, rib cage depression, and deep core activation.",
+  "aliases": [
+    {
+      "text": "90-90 Wall Breathing",
+      "kind": "common"
+    },
+    {
+      "text": "Wall Happy Baby Breathing",
+      "kind": "common"
+    },
+    {
+      "text": "PRI Wall Baby",
+      "kind": "brand"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "mobility",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "anti-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "muscles": [
+    {
+      "muscle": "transversus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "multifidus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "wall"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat",
+    "foam-roller",
+    "yoga-block"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie flat on your back with your feet flat against a wall, positioning your hips and knees at approximately 90-degree angles.",
+      "Rest your arms extended toward the ceiling with soft elbows or resting gently by your sides.",
+      "Gently drag your heels downward on the wall without moving them to feel your hamstrings engage, letting your tailbone curl slightly off the floor while keeping your lower back flat on the mat."
+    ],
+    "steps": [
+      "Inhale deeply through your nose for a count of three to four seconds, directing air into your upper back and sides of your rib cage.",
+      "Exhale fully through your mouth for a count of six to eight seconds, feeling your ribs depress and sink down toward your pelvis.",
+      "Pause and hold your breath out for two to three seconds while maintaining abdominal engagement.",
+      "Inhale again through your nose while keeping the ribs anchored down, repeating for the desired number of breath cycles."
+    ],
+    "breathing": "Inhale quietly through your nose into the back of your ribs, then perform a slow, complete, fogging exhale through your mouth to fully empty the lungs.",
+    "cues": [
+      "Heels pull down to tuck the pelvis.",
+      "Exhale until you feel your ribs drop.",
+      "Keep your lower back flat against the floor."
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the lower back off the floor into lumbar extension.",
+        "correction": "Pull down with the heels to posteriorly tilt the pelvis and keep the lower back in contact with the ground."
+      },
+      {
+        "fault": "Breathing into the neck and chest rather than the posterior rib cage.",
+        "correction": "Relax the shoulders and consciously direct the inhalation into your back and sides."
+      },
+      {
+        "fault": "Incomplete exhalation.",
+        "correction": "Exhale gently until all air is expelled and you feel the deep abdominal wall firmly contract."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not strain or bear down forcefully; keep the breath controlled and relaxed."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

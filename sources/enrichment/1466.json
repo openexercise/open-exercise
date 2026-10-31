@@ -1,0 +1,154 @@
+{
+  "is_exercise": true,
+  "name": "Hack Squat Calf Raise",
+  "summary": "A machine-based lower leg isolation exercise performed on an inclined hack squat sled to target the calf musculature through deep ankle plantarflexion.",
+  "aliases": [
+    {
+      "text": "Calf Raise using Hack Squat Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Hack Squat Calf Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Hack Machine Calf Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-ankle"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gastrocnemius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "tibialis-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "peroneals",
+      "role": "synergist"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "toes",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "hack-squat-machine"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Position your back and shoulders firmly against the hack squat backrest and shoulder pads.",
+      "Place the balls of your feet on the bottom edge of the footplate, allowing your heels to hang freely off the edge.",
+      "Disengage the machine safeties and extend your legs, keeping a slight, soft micro-bend in the knees to avoid hyperextension."
+    ],
+    "steps": [
+      "Lower your heels in a slow, controlled motion past the level of the platform until you feel a deep stretch throughout your calves.",
+      "Pause briefly at the bottom to eliminate elastic bounce.",
+      "Press firmly through the balls of your feet and big toes to raise your heels as high as possible into full plantarflexion.",
+      "Squeeze your calves forcefully at the peak contraction before lowering into the next repetition."
+    ],
+    "breathing": "Exhale as you push onto your toes; inhale as you slowly lower your heels into the stretch.",
+    "cues": [
+      "Drive through the big toes.",
+      "Pause in the stretch.",
+      "Keep the knees fixed, not bouncing."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending and straightening the knees to assist the lift.",
+        "correction": "Keep the knees locked in a fixed, micro-bent position throughout the entire set so the calves do all the work."
+      },
+      {
+        "fault": "Bouncing out of the bottom position.",
+        "correction": "Hold a distinct pause at the bottom stretch to eliminate the stretch reflex and maximize muscle tension."
+      },
+      {
+        "fault": "Placing too little of the foot on the platform, risking slippage.",
+        "correction": "Ensure the entire balls of your feet and toes are secure on the edge of the footplate before loading weight."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure your footwear has reliable tread to prevent slipping off the edge of the footplate.",
+        "Always re-engage the machine safeties before stepping off the platform."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  }
+}

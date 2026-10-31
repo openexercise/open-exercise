@@ -1,0 +1,234 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Glute Bridge Single-Arm Press",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Dumbbell Glute Bridge Press",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Glute Bridge Floor Press",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Glute Bridge Floor Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "anti-rotation"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "mixed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1686"
+  },
+  "id": "oec:dumbbell-single-arm-glute-bridge-press",
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a mat with your knees bent and feet planted flat on the floor hip-width apart.",
+      "Hold a dumbbell in one hand directly above your chest with your arm extended and your non-working arm extended out to the side for support.",
+      "Drive through your heels and squeeze your glutes to raise your hips into a full glute bridge, forming a straight line from your shoulders to your knees."
+    ],
+    "steps": [
+      "Maintain the static glute bridge and braced core throughout the set.",
+      "Inhale as you lower the dumbbell with control, tucking your elbow at roughly a 45-degree angle until your upper arm gently taps the floor.",
+      "Pause briefly without resting the weight on the floor.",
+      "Exhale as you press the dumbbell back up to full lockout over your chest, resisting any rotational twist in your hips or torso.",
+      "Complete all repetitions on one side before lowering your hips or switching hands."
+    ],
+    "breathing": "Inhale as you lower the dumbbell toward the floor, and exhale forcefully as you press the weight back to the top.",
+    "cues": [
+      "Keep hips level and glutes squeezed tight.",
+      "Punch the ceiling without letting your torso rotate.",
+      "Gently tap the floor with your tricep, do not slam it."
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging or twisting hips during the press.",
+        "correction": "Squeeze both glutes equally and brace your abdomen to keep the pelvis completely level."
+      },
+      {
+        "fault": "Flaring the working elbow excessively out to ninety degrees.",
+        "correction": "Keep the elbow tucked at approximately 45 degrees relative to your torso to protect the shoulder."
+      },
+      {
+        "fault": "Bouncing the elbow off the floor to initiate the press.",
+        "correction": "Lower under control, pause lightly on the floor, and press up using muscular force."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Lower the dumbbell safely to your hip or floor before coming out of the bridge at the end of the set."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Dumbbell Single-Arm Glute Bridge Press",
+  "previous_ids": [
+    "oec:glute-bridge-single-arm-press"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Glute Bridge Single-Arm Press",
+        "url": "https://wger.de/en/exercise/1686/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "meldun"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-floor-press"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:dumbbell-floor-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "supine",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral floor press performed while holding an isometric glute bridge, challenging chest and triceps strength alongside core anti-rotation and posterior chain stability."
+}

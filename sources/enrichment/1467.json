@@ -1,0 +1,180 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Incline Close-Grip Bench Press",
+  "summary": "An incline pressing variation using a narrow grip to heavily emphasize the triceps and upper chest.",
+  "aliases": [
+    {
+      "text": "Incline Close Grip Barbell Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Close-Grip Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Close-Grip Incline Bench Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "supine",
+  "grip_orientation": "pronated",
+  "grip_width": "narrow",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "chest",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rotator-cuff",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "horizontal-adduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "depression"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "adjustable-bench",
+        "bench"
+      ]
+    },
+    {
+      "any_of": [
+        "power-rack",
+        "squat-rack"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an incline between 30 and 45 degrees inside a rack.",
+      "Lie back on the bench with your eyes directly under the racked bar, planting your feet firmly on the floor.",
+      "Grasp the barbell with a pronated grip approximately shoulder-width apart.",
+      "Retract and depress your shoulder blades, then unrack the bar and hold it directly above your upper chest with elbows extended."
+    ],
+    "steps": [
+      "Inhale and lower the barbell under control toward your upper chest, keeping your elbows tucked at roughly a 30 to 45-degree angle to your torso.",
+      "Touch the bar lightly to your chest without bouncing.",
+      "Exhale and press the barbell back up along a slight backward arc to the starting position, fully extending your elbows."
+    ],
+    "breathing": "Inhale as you lower the bar to your chest, hold briefly through the bottom turn, and exhale as you press back to lockout.",
+    "cues": [
+      "Keep elbows tucked rather than flared.",
+      "Squeeze the bar tightly and stack your wrists over your elbows.",
+      "Drive through your triceps at the top of the press."
+    ],
+    "common_faults": [
+      {
+        "fault": "Gripping the bar excessively narrow (hands touching or only inches apart).",
+        "correction": "Space your hands roughly shoulder-width apart to protect your wrists and optimize triceps leverage."
+      },
+      {
+        "fault": "Flaring the elbows outward during the descent.",
+        "correction": "Keep your elbows tucked closer to your ribs to shift load to the triceps and spare the anterior shoulders."
+      },
+      {
+        "fault": "Bouncing the bar off the chest.",
+        "correction": "Lower the bar with control and pause momentarily before pressing upward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use safety spotter arms set just above chest height or perform with a competent spotter.",
+        "Avoid using a thumbless (false) grip with a narrow hand placement."
+      ],
+      "spotter": "recommended",
+      "safeties": true
+    }
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Deficit Pushup",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Deep Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Extended ROM Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Deficit Push ups",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat",
+      "weight-vest"
+    ],
+    "required": [
+      [
+        "parallettes",
+        "yoga-block",
+        "weight-plate",
+        "step"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1777"
+  },
+  "id": "oec:deficit-push-up",
+  "instructions": {
+    "setup": [
+      "Place two stable elevated surfaces, such as blocks, weight plates, or handles, slightly wider than shoulder-width apart on the floor.",
+      "Place one hand firmly on each elevated surface and extend your legs straight behind you, resting on the balls of your feet.",
+      "Brace your core, squeeze your glutes, and establish a rigid straight-line plank posture from head to heels."
+    ],
+    "steps": [
+      "Lower your body under control by bending your elbows and allowing your shoulder blades to retract.",
+      "Descend smoothly until your chest dips below the level of your hands, feeling a deep stretch across the pectorals.",
+      "Pause briefly at the bottom without letting your shoulders roll forward or hips sag.",
+      "Press through your palms to return to the starting position, fully extending the elbows and protracting the shoulder blades at the top."
+    ],
+    "breathing": "Inhale as you lower your body into the deficit, and exhale forcefully as you press back up to the lockout.",
+    "cues": [
+      "Chest through the hands",
+      "Keep the body stiff like a board",
+      "Elbows at a forty-five degree arrow",
+      "Push the floor away at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging hips or hyperextending the lumbar spine to reach the floor.",
+        "correction": "Squeeze the glutes and pull the ribs toward the pelvis to maintain a neutral spine throughout the movement."
+      },
+      {
+        "fault": "Flaring elbows excessively wide at ninety degrees.",
+        "correction": "Tuck the elbows roughly 30 to 45 degrees from the torso to protect the anterior shoulder capsule in deep flexion."
+      },
+      {
+        "fault": "Craning the neck downward to fake depth.",
+        "correction": "Keep the cervical spine neutral and focus on lowering the sternum past the hands rather than the chin."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the elevation blocks or handles are completely stable and will not slip or tip outward under load.",
+        "Only descend as deep as active shoulder mobility comfortably permits without anterior shoulder pain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Deficit Push-Up",
+  "previous_ids": [
+    "oec:deficit-push-ups"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Deficit Push ups",
+        "url": "https://wger.de/en/exercise/1777/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Rottekongen"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:parallette-push-up"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-push-up"
+    }
+  ],
+  "setup": {
+    "position": "prone",
+    "range": "deficit",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A push-up variation performed with the hands elevated on platforms or handles to allow the chest to descend past hand level for greater range of motion and stretch."
+}

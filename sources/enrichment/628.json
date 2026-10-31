@@ -1,0 +1,163 @@
+{
+  "is_exercise": true,
+  "name": "Cable Straight-Arm Pulldown",
+  "summary": "A cable isolation exercise that targets the latissimus dorsi by extending the shoulders through a wide arc with straight arms.",
+  "aliases": [
+    {
+      "text": "Straight-Arm Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Straight-Arm Cable Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Straight-Arm Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Lat Pushdown",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-long-head",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach a straight bar or wide handle to the high pulley of a cable station.",
+      "Grasp the bar with an overhand, shoulder-width grip.",
+      "Step back a couple of feet to create tension on the cable, hinge forward slightly at the hips, and maintain a soft bend in your knees and elbows."
+    ],
+    "steps": [
+      "Keeping your arms fixed with only a slight, unchanging bend at the elbows, pull the bar down in a sweeping arc toward your thighs.",
+      "Contract your lats firmly as the bar approaches your hips.",
+      "Control the bar as it travels back along the same path overhead until you feel a deep stretch in your lats.",
+      "Stop when your hands are slightly above eye level before initiating the next repetition."
+    ],
+    "breathing": "Exhale as you sweep the bar down toward your thighs, and inhale as you return the bar overhead under control.",
+    "cues": [
+      "Drive your hands toward your pockets.",
+      "Lock your elbows in place throughout.",
+      "Keep your chest proud and brace your core."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending and extending the elbows, turning the movement into a triceps pushdown.",
+        "correction": "Maintain a fixed, soft elbow angle throughout the entire range of motion and move purely from the shoulders."
+      },
+      {
+        "fault": "Using excessive body English and swinging the torso.",
+        "correction": "Lock your torso at a slight forward angle and keep your core braced to isolate the back muscles."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not allow the weight stack to pull your shoulders into painful hyperflexion at the top of the movement."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

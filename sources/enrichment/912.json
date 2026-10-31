@@ -1,0 +1,151 @@
+{
+  "is_exercise": true,
+  "name": "Cable Biceps Curl",
+  "summary": "A standing isolation exercise that uses a low cable pulley to maintain constant tension on the elbow flexors throughout the curl.",
+  "aliases": [
+    {
+      "text": "Straight Bar Cable Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Cable Biceps Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Straight Bar Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "supinated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach a straight bar or EZ-curl bar to the lowest setting of a cable pulley.",
+      "Grasp the bar with an underhand, shoulder-width grip.",
+      "Step back slightly to create tension on the cable, standing upright with feet hip-width apart and elbows pinned near your sides."
+    ],
+    "steps": [
+      "Keep your upper arms stationary and curl the bar upward toward your chest by flexing your elbows.",
+      "Squeeze your biceps firmly at the top of the contraction.",
+      "Lower the bar under control until your elbows are fully extended, resisting the pull of the cable throughout the descent."
+    ],
+    "breathing": "Exhale as you curl the bar upward and inhale as you lower it back to the starting position.",
+    "cues": [
+      "Glue your elbows to your ribs",
+      "Keep your torso still and resist leaning back",
+      "Control the descent all the way down"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso backward to initiate the curl with momentum.",
+        "correction": "Brace your core, reduce the weight, and keep your spine vertical throughout the movement."
+      },
+      {
+        "fault": "Allowing the elbows to drift excessively forward during the lift.",
+        "correction": "Keep your upper arms pinned to your sides to ensure the tension stays on the biceps rather than shifting to the front deltoids."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a neutral wrist position to prevent excess strain on the forearm tendons."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

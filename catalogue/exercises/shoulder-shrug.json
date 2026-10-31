@@ -1,0 +1,173 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Shrug",
+      "kind": "common"
+    },
+    {
+      "text": "Bodyweight Shrug",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Shrug",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "trapezius-upper",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "levator-scapulae",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "elevation",
+          "depression"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "mobility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "570"
+  },
+  "id": "oec:shoulder-shrug",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and arms hanging naturally by your sides.",
+      "Maintain a neutral spine, forward-facing head, and relaxed shoulders."
+    ],
+    "steps": [
+      "Elevate your shoulders straight up toward your ears as high as possible without bending your elbows.",
+      "Pause momentarily at the top of the contraction.",
+      "Lower your shoulders under control back to the starting position."
+    ],
+    "breathing": "Inhale as you raise your shoulders; exhale as you lower them.",
+    "cues": [
+      "Shoulders to ears.",
+      "Keep arms long and straight.",
+      "Move straight up and down, do not roll the shoulders."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling the shoulders backward or forward at the top.",
+        "correction": "Elevate the shoulders strictly straight up and down in the vertical plane."
+      },
+      {
+        "fault": "Bending the elbows to assist the movement.",
+        "correction": "Keep your arms fully extended and allow all movement to originate at the scapulae."
+      },
+      {
+        "fault": "Protracting the neck forward to reach for the shoulders.",
+        "correction": "Keep your head stationary and chin neutral throughout the repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid excessive neck tension by keeping the cervical spine aligned."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Shoulder Shrug",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Shoulder Shrug",
+        "url": "https://wger.de/en/exercise/570/view-base",
+        "license": "CC0-1.0",
+        "author": "BFad07"
+      }
+    ]
+  },
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An isolation movement performed by elevating the scapulae toward the ears to strengthen and mobilize the upper trapezius."
+}

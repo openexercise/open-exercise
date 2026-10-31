@@ -1,0 +1,151 @@
+{
+  "is_exercise": true,
+  "name": "Pendulum Squat",
+  "summary": "A machine-based squat variation utilizing a counterbalanced arc trajectory to heavily load the quadriceps while reducing spinal compression.",
+  "aliases": [
+    {
+      "text": "Machine Pendulum Squat",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Step onto the footplate and rest your shoulders snugly under the shoulder pads with your back firmly pressed against the backrest.",
+      "Position your feet shoulder-width apart in the middle or lower half of the platform depending on your limb lengths and mobility.",
+      "Grasp the machine handles, extend your knees and hips to unrack the carriage, and disengage the safety catch."
+    ],
+    "steps": [
+      "Inhale and brace your core, keeping your torso firmly supported against the pad.",
+      "Descend smoothly along the machine's arc by flexing your knees and hips, allowing your knees to track forward over your toes.",
+      "Lower until your thighs reach at least parallel to the footplate or full knee flexion without your lower back rounding off the pad.",
+      "Drive through your midfoot and heels, extending your knees and hips to return to the starting position without locking out abruptly.",
+      "Re-engage the safety mechanism once your set is complete."
+    ],
+    "breathing": "Inhale deeply and brace your core before descending; exhale as you press out of the bottom and approach the top of the repetition.",
+    "cues": [
+      "Stay glued to the back pad",
+      "Track your knees over your toes",
+      "Drive the platform away smoothly"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the lower back or pelvis off the support pad at the bottom.",
+        "correction": "Limit your depth to what your hip mobility allows and ensure your back stays flat against the pad throughout."
+      },
+      {
+        "fault": "Letting the heels rise off the platform.",
+        "correction": "Move your foot placement slightly higher on the platform or focus on driving through the whole foot."
+      },
+      {
+        "fault": "Bouncing out of the bottom reversal point.",
+        "correction": "Control the eccentric descent and pause momentarily at deep knee flexion before driving up."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the mechanical safety stops are adjusted to a safe minimum height before loading heavy weights.",
+        "Always confirm the safety latch is fully engaged before stepping out of the machine."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  }
+}

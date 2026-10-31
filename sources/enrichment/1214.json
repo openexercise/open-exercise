@@ -1,0 +1,166 @@
+{
+  "is_exercise": true,
+  "name": "Tuck Front Lever",
+  "summary": "An isometric calisthenics hold where the torso is suspended horizontally beneath a bar with the knees tucked tightly to the chest.",
+  "aliases": [
+    {
+      "text": "Front Lever Tuck",
+      "kind": "common"
+    },
+    {
+      "text": "Tucked Front Lever",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "pull",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "hanging",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-long-head",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "pull-up-bar",
+        "gymnastic-rings"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "resistance-band"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Grasp a pull-up bar with an overhand (pronated) grip, hands spaced shoulder-width apart.",
+      "Hang with your arms fully extended and engage your shoulders by depressing the scapulae downward."
+    ],
+    "steps": [
+      "Pull your knees tightly into your chest into a compact tucked position.",
+      "Pull down through straight arms using your lats to rotate your body backward until your back is parallel to the floor.",
+      "Maintain straight elbows, depressed shoulders, and a flat horizontal back.",
+      "Hold the horizontal position for the target duration, then lower under control back to a hang."
+    ],
+    "breathing": "Maintain continuous, shallow diaphragmatic breathing while bracing your core throughout the hold.",
+    "cues": [
+      "Push the bar down toward your hips",
+      "Lock the elbows completely straight",
+      "Keep the knees glued to the chest",
+      "Level your back with the floor"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the elbows to compensate for lat weakness.",
+        "correction": "Keep the elbows completely locked; regress to banded tuck holds or active hangs if arm extension cannot be maintained."
+      },
+      {
+        "fault": "Hips sagging below shoulder height.",
+        "correction": "Pull down harder through the shoulders and tuck the knees tighter to raise the pelvis in line with the shoulders."
+      },
+      {
+        "fault": "Excessive thoracic rounding and internally collapsed shoulders.",
+        "correction": "Depress and slightly retract your shoulder blades to keep the chest proud and upper back stable."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the pull-up bar or suspension anchor is securely fastened before inverting.",
+        "Exit the hold immediately if elbow tendon pain or sudden shoulder strain occurs."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

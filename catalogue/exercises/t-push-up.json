@@ -1,0 +1,248 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Push-up rotations",
+      "kind": "common"
+    },
+    {
+      "text": "Pushup rotations",
+      "kind": "common"
+    },
+    {
+      "text": "Push-Up with Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Rotational Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "T-Pushup",
+      "kind": "common"
+    },
+    {
+      "text": "Push up rotations",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "obliques",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "horizontal-abduction",
+          "abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "rotation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "rotation",
+      "anti-lateral-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "985"
+  },
+  "id": "oec:t-push-up",
+  "instructions": {
+    "setup": [
+      "Assume a high plank position with your hands slightly wider than shoulder-width apart and your feet set about shoulder-width apart for rotational stability.",
+      "Engage your abdominals and glutes to align your body in a straight line from head to heels."
+    ],
+    "steps": [
+      "Lower your chest toward the floor by bending your elbows back at roughly a 45-degree angle.",
+      "Push forcefully through your palms to return to the top of the push-up.",
+      "At lockout, shift your weight onto your left hand and pivot on the edges of your feet, rotating your torso open to the right.",
+      "Raise your right arm straight toward the ceiling until your arms and chest form a vertical 'T' shape.",
+      "Pause briefly in control, then rotate back down to the starting high plank position.",
+      "Perform the next push-up and rotate to the opposite side."
+    ],
+    "breathing": "Inhale as you lower into the push-up, exhale as you press up and rotate into the T-position.",
+    "cues": [
+      "Keep your body in a rigid plank throughout the rotation.",
+      "Follow your top hand with your gaze.",
+      "Drive the floor away with the supporting shoulder so it does not collapse."
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging or hiking the hips during the rotation.",
+        "correction": "Squeeze your obliques and glutes to keep the pelvis aligned with your spine throughout the transition."
+      },
+      {
+        "fault": "Feet set too close together.",
+        "correction": "Widen your stance to shoulder width to allow smooth pivoting onto the sides of your feet."
+      },
+      {
+        "fault": "Rushing the rotation and losing balance.",
+        "correction": "Complete the push-up lockout first before initiating a deliberate, controlled turn of the torso."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid if experiencing acute shoulder impingement or wrist pain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "T-Push-Up",
+  "previous_ids": [
+    "oec:push-up-rotations"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Push-up rotations",
+        "url": "https://wger.de/en/exercise/985/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:push-up"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:push-up"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:push-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "prone",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A push-up variation that finishes with a rotation into a side plank with one arm extended toward the ceiling."
+}

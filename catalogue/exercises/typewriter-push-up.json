@@ -1,0 +1,233 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Isometric Wipers",
+      "kind": "common"
+    },
+    {
+      "text": "Push-Up Wiper",
+      "kind": "common"
+    },
+    {
+      "text": "Typewriter Pushup",
+      "kind": "common"
+    },
+    {
+      "text": "Side-to-Side Push-Up",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "horizontal-abduction",
+          "adduction",
+          "abduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "anti-extension",
+      "anti-rotation"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "frontal",
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "314"
+  },
+  "id": "oec:typewriter-push-up",
+  "instructions": {
+    "setup": [
+      "Begin in a high plank position on the floor with feet hip-width apart and hands placed wider than shoulder-width apart, fingers pointed slightly outward.",
+      "Brace your core, squeeze your glutes, and establish a straight line from your heels through your head."
+    ],
+    "steps": [
+      "Lower your chest down toward the floor as you shift your torso toward one hand, fully bending that elbow while the opposite arm extends almost straight.",
+      "Maintain your chest just an inch or two above the floor as you slide horizontally across to the opposite hand.",
+      "As you reach the opposite side, bend that elbow deeply while straightening the trailing arm.",
+      "Reverse the horizontal glide or press back up to the center depending on the set format, repeating the alternating slides smoothly."
+    ],
+    "breathing": "Inhale as you lower and initiate the lateral shift; maintain controlled, shallow breaths during the glide, and exhale as you press back up to the top.",
+    "cues": [
+      "Stay low like a typewriter carriage.",
+      "Keep your hips level with your shoulders as you slide.",
+      "Brace your abs hard to prevent your lower back from sagging."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rising up in the middle of the transition between sides.",
+        "correction": "Keep your chest pinned at the bottom height throughout the entire horizontal sweep across the floor."
+      },
+      {
+        "fault": "Sagging hips or hyperextending the lumbar spine.",
+        "correction": "Squeeze the glutes and pull the belly button toward the spine to maintain a rigid plank."
+      },
+      {
+        "fault": "Twisting the hips and shoulders unevenly toward the floor.",
+        "correction": "Keep the torso parallel to the ground; only shift left-to-right without rotating the pelvis."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Requires significant shoulder and wrist mobility; warm up the rotator cuff and wrists thoroughly before attempting."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Typewriter Push-Up",
+  "previous_ids": [
+    "oec:isometric-wipers"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Isometric Wipers",
+        "url": "https://wger.de/en/exercise/314/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "cal.zabel"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:wide-grip-push-up"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:one-arm-push-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "wide"
+    },
+    "position": "prone",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An advanced push-up variation where you lower to the bottom position and glide laterally from side to side, placing intense unilateral load and isometric tension on the chest, shoulders, and triceps."
+}

@@ -1,0 +1,216 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Archer Chin-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Archer Pullup",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Archer Pull Up",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "adduction",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "downward-rotation",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "advanced"
+  },
+  "equipment": {
+    "required": [
+      [
+        "pull-up-bar",
+        "gymnastic-rings"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1545"
+  },
+  "id": "oec:archer-pull-up",
+  "instructions": {
+    "setup": [
+      "Grip the pull-up bar with an overhand grip significantly wider than shoulder width.",
+      "Hang with arms straight, engaging your core and pulling your shoulders down into an active dead hang."
+    ],
+    "steps": [
+      "Initiate the pull by driving your target-side elbow down and in toward your ribs, shifting your body toward that hand.",
+      "Simultaneously extend the assisting arm straight out along the bar, resting your fingers over the bar to provide minimal support.",
+      "Pull until your chin clears the bar over your working hand.",
+      "Lower yourself under control back to the central dead hang position.",
+      "Repeat the movement by pulling up toward the opposite side."
+    ],
+    "breathing": "Inhale at the bottom before initiating the pull, exhale as you pull yourself to the side, and inhale again as you lower with control.",
+    "cues": [
+      "Drive the working elbow to your pocket.",
+      "Keep the assisting arm locked out.",
+      "Stay tight through your midsection without swinging."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the assisting arm significantly.",
+        "correction": "Focus on keeping the assisting arm straight across the bar so the working side bears the majority of the load."
+      },
+      {
+        "fault": "Kipping or swinging the legs to generate momentum.",
+        "correction": "Brace the abdominals and legs to maintain a rigid hollow-body position throughout each rep."
+      },
+      {
+        "fault": "Dropping quickly out of the top position.",
+        "correction": "Control the eccentric phase smoothly back to the center before starting the next rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure you have a strong base of standard wide-grip pull-ups before attempting archer variations to prevent excessive strain on the shoulder and elbow."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Archer Pull-Up",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Archer Pull Up",
+        "url": "https://wger.de/en/exercise/1545/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Antsy6277"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:pull-up"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:pull-up"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:wide-grip-pull-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "wide"
+    },
+    "position": "hanging"
+  },
+  "status": "active",
+  "summary": "An advanced bodyweight vertical pull where the body is pulled toward one hand while the opposite arm straightens along the bar to overload the working side."
+}

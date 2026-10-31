@@ -1,0 +1,160 @@
+{
+  "is_exercise": true,
+  "name": "Side-Lying Dumbbell External Rotation",
+  "summary": "An isolation exercise that strengthens the shoulder external rotators and posterior rotator cuff against gravity while lying on your side.",
+  "aliases": [
+    {
+      "text": "Dumbbell Side-Lying External Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Side-Lying External Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Shoulder External Rotation with Dumbbell",
+      "kind": "common"
+    },
+    {
+      "text": "Side-Lying Infraspinatus Dumbbell Rotation",
+      "kind": "descriptive"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "strength"
+    ],
+    "movement_patterns": [
+      "rotation",
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "side-lying",
+  "grip_orientation": "neutral",
+  "muscles": [
+    {
+      "muscle": "infraspinatus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-minor",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "supraspinatus",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Lie on an exercise mat on your non-working side with your hips and knees slightly bent for stability.",
+      "Support your head with your bottom arm or a pillow to keep your cervical spine neutral.",
+      "Grasp a light dumbbell with your top hand, bending your working elbow to a 90-degree angle and pinning the upper arm snugly against your flank.",
+      "Rest the dumbbell across your abdomen just in front of your navel."
+    ],
+    "steps": [
+      "Keep your elbow pinned to your side and rotate your shoulder to raise the dumbbell in an arc toward the ceiling.",
+      "Stop when your forearm is perpendicular to the floor or just past parallel with your torso, feeling the contraction in the back of your shoulder.",
+      "Pause briefly at the top without rolling your torso backward.",
+      "Slowly lower the dumbbell under control back to the starting position across your stomach."
+    ],
+    "breathing": "Exhale as you rotate the dumbbell upward; inhale as you lower the weight with control.",
+    "cues": [
+      "Keep your elbow glued to your ribs.",
+      "Rotate around the axis of your arm without moving the elbow.",
+      "Do not roll your chest open toward the ceiling."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling the torso backward to swing the weight up.",
+        "correction": "Keep your shoulders and hips stacked vertically perpendicular to the floor throughout the entire set."
+      },
+      {
+        "fault": "Lifting the elbow away from the ribcage during rotation.",
+        "correction": "Maintain firm contact between your elbow and your side; place a small rolled towel between your elbow and torso and keep it pinned."
+      },
+      {
+        "fault": "Using excessively heavy weights leading to wrist or momentum compensation.",
+        "correction": "Use very light dumbbells to isolate the rotator cuff muscles without engaging larger compensatory prime movers."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forcing end-range external rotation if you experience anterior shoulder pain or clicking."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

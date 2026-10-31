@@ -1,0 +1,243 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Incline Chest-Supported Dumbbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Dumbbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Incline Dumbbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Chest Supported DB Row",
+      "kind": "abbreviation"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "depression"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1283"
+  },
+  "id": "oec:chest-supported-dumbbell-row",
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an incline between 30 and 45 degrees.",
+      "Straddle the bench and lie prone with your chest resting firmly against the pad and your head clear of the top edge.",
+      "Plant the balls of your feet firmly into the floor for stability.",
+      "Grasp a dumbbell in each hand with a neutral grip and allow your arms to hang straight down toward the floor."
+    ],
+    "steps": [
+      "Initiate the movement by retracting your shoulder blades.",
+      "Pull the dumbbells upward, driving your elbows toward your hips and keeping your upper arms relatively close to your torso.",
+      "Squeeze your back muscles firmly at the top of the contraction for a brief pause.",
+      "Lower the dumbbells under control back to a full dead hang, allowing your shoulder blades to protract slightly at the bottom."
+    ],
+    "breathing": "Exhale as you pull the dumbbells up toward your sides; inhale as you lower them with control.",
+    "cues": [
+      "Lead with your elbows, not your hands.",
+      "Keep your chest glued to the pad.",
+      "Squeeze your shoulder blades together at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the chest off the bench to use momentum.",
+        "correction": "Keep your sternum pressed into the bench pad throughout the entire set and reduce the load if necessary."
+      },
+      {
+        "fault": "Shrugging the shoulders upward toward the ears.",
+        "correction": "Depress your shoulders down away from your ears and pull toward your lower ribcage rather than your neck."
+      },
+      {
+        "fault": "Cutting the bottom range of motion short.",
+        "correction": "Allow the arms to fully extend and let the shoulder blades wrap forward around the ribcage at the bottom of each repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Carefully place dumbbells on the floor or a low rack between sets to avoid pinching fingers under the bench."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Chest-Supported Dumbbell Row",
+  "previous_ids": [
+    "oec:incline-chest-supported-dumbbell-row"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Incline Chest-Supported Dumbbell Row",
+        "url": "https://wger.de/en/exercise/1283/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "carlos3c"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-bent-over-row"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:dumbbell-bent-over-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-bent-over-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-seal-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-bent-over-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "shoulder"
+    },
+    "incline_degrees": 45,
+    "position": "prone",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A horizontal pulling movement performed lying prone on an incline bench that targets the upper back and lats without spinal loading."
+}

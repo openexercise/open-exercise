@@ -1,0 +1,222 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "TRX Single Arm Bicep Curl",
+      "kind": "brand"
+    },
+    {
+      "text": "One-Arm Suspension Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm TRX Biceps Curl",
+      "kind": "brand"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "radioulnar",
+        "actions": [
+          "supination"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion",
+      "anti-rotation"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "suspension-trainer"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1262"
+  },
+  "id": "oec:suspension-single-arm-biceps-curl",
+  "instructions": {
+    "setup": [
+      "Set the suspension trainer to mid-length and adjust to single-handle mode.",
+      "Face the anchor point, grasp the single handle with an underhand grip, and walk your feet forward so your body leans back at an angle.",
+      "Keep your body in a straight plank line from head to heels, with your upper arm elevated roughly shoulder height and parallel to the ground.",
+      "Place your free hand across your chest or by your side."
+    ],
+    "steps": [
+      "Keeping your upper arm still and your elbow pointing forward, flex your elbow to curl your hand toward your forehead.",
+      "Pull your body upward using only elbow flexion, resisting any rotational twist through your torso.",
+      "Squeeze the biceps at peak contraction as your knuckles approach your temple.",
+      "Lower yourself back under control by slowly extending your elbow to the full arm extension without letting your hips sag or rotate."
+    ],
+    "breathing": "Exhale as you curl upward; inhale as you extend your arm and lower your body back down.",
+    "cues": [
+      "Keep the elbow high and still",
+      "Knuckles to the temple",
+      "Square the shoulders throughout"
+    ],
+    "common_faults": [
+      {
+        "fault": "Dropping the elbow and turning the movement into a row",
+        "correction": "Keep your upper arm elevated and fixed in place; only bend at the elbow."
+      },
+      {
+        "fault": "Rotating the hips or shoulders to heave the body up",
+        "correction": "Brace your core and glutes to keep your shoulders and hips square to the anchor point, reducing body angle if necessary."
+      },
+      {
+        "fault": "Sagging at the hips",
+        "correction": "Maintain a rigid plank line by squeezing your glutes and bracing your abdominals throughout the set."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the suspension trainer is properly locked into single-handle mode before placing full weight on it."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Suspension Single-Arm Biceps Curl",
+  "previous_ids": [
+    "oec:trx-single-arm-bicep-curl"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Trx Single Arm Bicep Curl",
+        "url": "https://wger.de/en/exercise/1262/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "cynomops"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:suspension-trainer-biceps-curl"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:suspension-trainer-biceps-curl"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral bodyweight isolation exercise using a suspension trainer to target the elbow flexors and challenge core anti-rotation stability."
+}

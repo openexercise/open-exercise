@@ -1,0 +1,124 @@
+{
+  "is_exercise": true,
+  "name": "Doorway Chest Stretch",
+  "summary": "A static upper-body stretch performed against a doorframe to enhance flexibility across the chest and anterior shoulder.",
+  "aliases": [
+    {
+      "text": "Doorway Pectoral Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Doorframe Chest Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Doorway Pec Stretch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_kind": "staggered",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major",
+      "role": "stretched"
+    },
+    {
+      "muscle": "pectoralis-minor",
+      "role": "stretched"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-abduction",
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "wall"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall inside an open doorway or next to a sturdy wall corner.",
+      "Bend one elbow to roughly 90 degrees and place your forearm and palm flat against the doorframe at chest or shoulder height.",
+      "Adopt a staggered stance with the leg on the same side or opposite side slightly forward."
+    ],
+    "steps": [
+      "Gently shift your body weight forward through the doorway until you feel a comfortable stretch across the front of your chest and shoulder.",
+      "Rotate your torso slightly away from the anchored arm to intensify the stretch across the pectorals.",
+      "Hold the position steadily without bouncing.",
+      "Gently step back to release tension, then switch sides."
+    ],
+    "breathing": "Breathe deeply and slowly, using each exhalation to relax deeper into the stretch.",
+    "cues": [
+      "Keep the shoulder blade pulled back and down.",
+      "Lead with the sternum, not the chin.",
+      "Rotate gently away from the wall."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the shoulder to shrug or roll forward during the stretch.",
+        "correction": "Actively depress and retract the scapula before shifting forward."
+      },
+      {
+        "fault": "Overextending the lumbar spine to push the chest forward.",
+        "correction": "Brace the abdominals and step forward with the hips and torso moving as one unit."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forcing the shoulder into extreme horizontal abduction if you have a history of anterior shoulder instability."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "is_exercise": true,
+  "name": "Alternating Dumbbell Curl",
+  "summary": "An isolation exercise that builds the elbow flexors by curling dumbbells one arm at a time while rotating the forearm into supination.",
+  "aliases": [
+    {
+      "text": "Alternating Dumbbell Biceps Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Alternating Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Alternating Dumbbell Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Alternating Biceps Curls With Dumbbell",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "rotating",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "supinator",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "supination",
+        "pronation"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand upright with your feet hip-width apart and your core braced.",
+      "Hold a dumbbell in each hand at your sides with your arms extended and palms facing inward toward your thighs."
+    ],
+    "steps": [
+      "Keep your upper arm stationary by your side and curl one dumbbell upward by bending the elbow.",
+      "As the dumbbell clears your thigh, supinate your forearm so that your palm faces upward at the top of the contraction.",
+      "Squeeze your biceps at peak flexion without allowing your elbow to swing forward.",
+      "Lower the dumbbell under control, pronating your forearm back to the neutral starting position.",
+      "Repeat the movement with the opposite arm to complete one alternating cycle."
+    ],
+    "breathing": "Exhale as you curl the weight upward and inhale as you lower it under control.",
+    "cues": [
+      "Elbows pinned to your sides.",
+      "Turn your pinky up at the top.",
+      "Resist the weight on the way down."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to generate momentum.",
+        "correction": "Keep your spine neutral, brace your abdominals, and reduce the weight if necessary."
+      },
+      {
+        "fault": "Drifting the elbows forward to make the top of the lift easier.",
+        "correction": "Keep your upper arms vertical and fixed in line with your torso throughout the entire repetition."
+      },
+      {
+        "fault": "Failing to fully supinate the forearm.",
+        "correction": "Begin rotating your wrist outward as soon as the dumbbell passes your hip to fully recruit the biceps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid leaning backward or hyperextending your lumbar spine to lift the dumbbells."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

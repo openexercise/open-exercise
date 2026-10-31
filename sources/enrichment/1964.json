@@ -1,0 +1,161 @@
+{
+  "is_exercise": true,
+  "name": "Wide-Grip Push-Up",
+  "summary": "A bodyweight push-up variation performed with a wide hand placement to emphasize the pectoralis major through horizontal adduction.",
+  "aliases": [
+    {
+      "text": "Wide Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Wide-Hand Push-Up",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Assume a high plank position with your hands placed on the floor significantly wider than shoulder-width, roughly 1.5 times shoulder width apart.",
+      "Angle your fingers slightly outward if needed to relieve wrist stress.",
+      "Extend your legs behind you with feet hip-width apart and establish a rigid line from your heels to the top of your head by squeezing your glutes and bracing your core."
+    ],
+    "steps": [
+      "Lower your chest toward the floor by bending at the elbows, maintaining full-body tension.",
+      "Descend until your chest is just above the floor or your elbows reach approximately ninety degrees of flexion.",
+      "Press through the base of your palms and drive horizontally inward to return to the top position.",
+      "Lock out your arms smoothly and protract your shoulder blades slightly at the top."
+    ],
+    "breathing": "Inhale as you lower your body toward the floor, and exhale forcefully as you press back up to lockout.",
+    "cues": [
+      "Keep a rigid plank from head to heels.",
+      "Think about pulling your hands together to contract the chest.",
+      "Keep elbows flared moderately without letting them rise directly in line with your shoulders."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring elbows excessively out at ninety degrees perpendicular to the torso, causing anterior shoulder impingement.",
+        "correction": "Tuck the elbows slightly so they form roughly a sixty- to seventy-degree angle with the torso."
+      },
+      {
+        "fault": "Sagging hips and lumbar hyperextension during the movement.",
+        "correction": "Engage the abdominals and squeeze the glutes to keep the pelvis tucked in a neutral position."
+      },
+      {
+        "fault": "Placing hands excessively wide, which sharply limits functional range of motion and overstresses the shoulders.",
+        "correction": "Bring hands inward to roughly 1.5 times shoulder width so your forearms remain relatively vertical at the bottom."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Individuals with anterior shoulder instability or impingement should modify hand width closer to shoulder-width."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

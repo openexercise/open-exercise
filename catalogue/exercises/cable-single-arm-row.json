@@ -1,0 +1,226 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Single-Arm Cable Row",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Cable Row",
+      "kind": "common"
+    },
+    {
+      "text": "Unilateral Cable Row",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Seated Cable Row",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "depression"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "bench",
+      "adjustable-bench"
+    ],
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1621"
+  },
+  "id": "oec:cable-single-arm-row",
+  "instructions": {
+    "setup": [
+      "Attach a single D-handle to a low or mid pulley on a cable station.",
+      "Sit upright facing the machine on the row bench or an upright utility bench, placing your feet securely on the footrests or floor.",
+      "Grasp the handle with one hand in a neutral grip and sit tall with your chest up and arm fully extended to establish tension on the cable."
+    ],
+    "steps": [
+      "Initiate the pull by retracting and depressing your shoulder blade.",
+      "Drive your elbow straight back toward your hip, keeping the forearm aligned with the cable.",
+      "Pull until your hand reaches your lower ribs or hip, squeezing your lat firmly at the peak contraction.",
+      "Slowly extend your arm and allow your shoulder blade to protract under control to achieve a deep stretch in the lat before starting the next repetition."
+    ],
+    "breathing": "Exhale as you row the handle toward your torso, and inhale as you return the weight under control.",
+    "cues": [
+      "Lead with the elbow.",
+      "Pull your elbow to your hip pocket.",
+      "Keep your torso square and avoid twisting."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive torso rotation to heave the weight.",
+        "correction": "Brace your core and keep your shoulders and chest facing forward throughout the movement."
+      },
+      {
+        "fault": "Shrugging the shoulder toward the ear during the pull.",
+        "correction": "Keep your shoulder depressed down and away from your ear as you pull."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a neutral spine and avoid rounding the lower back when reaching into the stretched position."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Cable Single-Arm Row",
+  "previous_ids": [
+    "oec:unilateral-cable-row"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Unilateral Cable row",
+        "url": "https://wger.de/en/exercise/1621/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Rottekongen"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-seated-row"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:cable-standing-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:single-arm-dumbbell-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-iso-lateral-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A unilateral horizontal pulling exercise performed on a cable machine to develop the latissimus dorsi, upper back, and elbow flexors."
+}

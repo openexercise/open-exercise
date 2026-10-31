@@ -1,0 +1,227 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Body-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Body Up",
+      "kind": "common"
+    },
+    {
+      "text": "Plank Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Tiger Bend Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Body-Ups",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension",
+      "anti-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "112"
+  },
+  "id": "oec:sphinx-push-up",
+  "instructions": {
+    "setup": [
+      "Start in a forearm plank position with your elbows directly under or slightly in front of your shoulders.",
+      "Place your forearms parallel to each other, palms flat against the floor with fingers pointing forward.",
+      "Support your lower body on your toes, bracing your abdominals and glutes to form a straight line from your head to your heels."
+    ],
+    "steps": [
+      "Press your palms firmly into the floor and contract your triceps to extend your elbows.",
+      "Lift both forearms off the floor simultaneously until your arms reach full lockout.",
+      "Pause briefly at the top while maintaining a rigid core.",
+      "Bend your elbows with control, lowering both forearms back to the floor in unison to return to the starting position."
+    ],
+    "breathing": "Inhale as you lower your forearms to the floor; exhale forcefully as you press up into extension.",
+    "cues": [
+      "Drive through the palms.",
+      "Keep the elbows tucked, not flared.",
+      "Move both arms as a single unit."
+    ],
+    "common_faults": [
+      {
+        "fault": "Pressing up one arm at a time rather than simultaneously.",
+        "correction": "Push evenly through both palms; if needed, scale the movement by performing it from your knees."
+      },
+      {
+        "fault": "Sagging or piking at the hips.",
+        "correction": "Squeeze your glutes and brace your core throughout the entire set to maintain a neutral spine."
+      },
+      {
+        "fault": "Flaring the elbows outward excessively.",
+        "correction": "Keep your forearms parallel and your elbows tracking straight back to maximize triceps loading and protect the elbow joints."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid this exercise if you experience sharp pain in the triceps tendon or elbow joints.",
+        "Perform on your knees if full bodyweight places excessive stress on your elbows."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Sphinx Push-Up",
+  "previous_ids": [
+    "oec:body-ups"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Body-Ups",
+        "url": "https://wger.de/en/exercise/112/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "cal.zabel"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:plank-triceps-extension"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:plank-triceps-extension"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:suspension-trainer-triceps-extension"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "prone",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A bodyweight triceps exercise performed from a plank position by pressing the palms into the floor to extend the elbows."
+}

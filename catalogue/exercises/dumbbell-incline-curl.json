@@ -1,0 +1,207 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Incline Dumbbell Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Bicep Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Dumbbell Biceps Curl",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-long-head",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "biceps-short-head",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "radioulnar",
+        "actions": [
+          "supination"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "204"
+  },
+  "id": "oec:dumbbell-incline-curl",
+  "instructions": {
+    "setup": [
+      "Adjust an incline bench to an angle between 45 and 60 degrees.",
+      "Sit back firmly against the pad with your head, upper back, and glutes supported, holding a dumbbell in each hand.",
+      "Allow your arms to hang straight down toward the floor behind your torso, with your palms turned forward."
+    ],
+    "steps": [
+      "Keep your upper arms pinned in place perpendicular to the floor as you flex your elbows to curl the dumbbells upward.",
+      "Continue lifting until your biceps reach full contraction near shoulder level, squeezing firmly at the top.",
+      "Lower the dumbbells smoothly back down under complete control until your elbows reach full extension and a deep stretch is felt in the biceps."
+    ],
+    "breathing": "Exhale as you curl the dumbbells upward and inhale as you lower them into the bottom stretch.",
+    "cues": [
+      "Keep your elbows pointed toward the floor.",
+      "Do not let the upper arm drift forward.",
+      "Control the stretch at the bottom."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the upper arms forward during the curl.",
+        "correction": "Keep the humerus perpendicular to the floor throughout the entire repetition so tension stays on the biceps rather than shifting to the anterior deltoids."
+      },
+      {
+        "fault": "Cutting the bottom range of motion short.",
+        "correction": "Lower the weights until the elbows are fully straight to capitalize on the lengthened position of the long head."
+      },
+      {
+        "fault": "Lifting the head and shoulders off the bench to assist the lift.",
+        "correction": "Maintain firm upper back and head contact against the bench pad from start to finish."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a manageable load to avoid excessive strain on the biceps tendon in the fully extended position."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Incline Curl",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dumbbell Incline Curl",
+        "url": "https://wger.de/en/exercise/204/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "ExRx"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-incline-w-curl"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated"
+    },
+    "incline_degrees": 45,
+    "load_position": "at-sides",
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A seated isolation exercise performed on an inclined bench that places the biceps, particularly the long head, under stretch throughout elbow flexion."
+}

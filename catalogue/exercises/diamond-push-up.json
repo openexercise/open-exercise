@@ -1,0 +1,239 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Diamond Push-Ups",
+      "kind": "common"
+    },
+    {
+      "text": "Triangle Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Diamond Press-Up",
+      "kind": "regional"
+    },
+    {
+      "text": "Diamond push ups",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "386"
+  },
+  "id": "oec:diamond-push-up",
+  "instructions": {
+    "setup": [
+      "Assume a high plank position on the floor with your feet set hip-width apart.",
+      "Bring your hands together directly beneath the center of your chest, joining your index fingers and thumbs to form a diamond or triangle shape.",
+      "Engage your glutes and brace your core so your body forms a straight line from head to heels."
+    ],
+    "steps": [
+      "Inhale and lower your chest under control toward your hands by bending your elbows.",
+      "Track your elbows back along your torso at roughly a 45-degree angle rather than flaring them wide.",
+      "Descend until your chest gently touches or hovers immediately above the diamond formed by your hands.",
+      "Exhale and press forcefully through your palms, extending your elbows fully to return to the starting position."
+    ],
+    "breathing": "Inhale as you lower your body toward the floor, and exhale forcefully as you push back up to the top.",
+    "cues": [
+      "Diamond under the sternum",
+      "Elbows track back",
+      "Solid plank throughout"
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbows outward perpendicularly to the torso.",
+        "correction": "Keep your elbows tucked at roughly 30 to 45 degrees relative to your sides to protect the shoulder joints and target the triceps."
+      },
+      {
+        "fault": "Sagging the hips and extending the lumbar spine.",
+        "correction": "Squeeze your glutes and draw your navel inward to maintain a rigid, neutral spine throughout the movement."
+      },
+      {
+        "fault": "Cutting the range of motion short.",
+        "correction": "Lower until your chest meets or nearly meets your hands before driving back up to full elbow extension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you experience wrist or elbow discomfort, widen your hand placement slightly or perform the movement on an elevated surface to reduce the load."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Diamond Push-Up",
+  "previous_ids": [
+    "oec:diamond-push-ups"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Diamond push ups",
+        "url": "https://wger.de/en/exercise/386/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "notdefine"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:push-up"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:push-up"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:close-grip-push-up"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:close-grip-push-up"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-close-grip-bench-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "width": "narrow"
+    },
+    "position": "prone",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A close-hand push-up variation with thumbs and index fingers touching in a diamond shape to emphasize the triceps and chest."
+}

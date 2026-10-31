@@ -1,0 +1,216 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Retro Treadmill Walking",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse Treadmill Walk",
+      "kind": "common"
+    },
+    {
+      "text": "Backward Walking on Treadmill",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "tibialis-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "cardio",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "treadmill"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2549"
+  },
+  "id": "oec:backward-treadmill-walk",
+  "instructions": {
+    "setup": [
+      "Straddle the treadmill belt facing away from the console.",
+      "Attach the safety clip to your clothing and hold onto the handrails for balance.",
+      "Start the treadmill at the lowest possible speed setting, then carefully step onto the belt walking backward."
+    ],
+    "steps": [
+      "Reach backward with one leg, making initial contact with the ball of the foot.",
+      "Roll smoothly from the toes down to the heel as the leg straightens, actively pushing the belt away by extending the knee.",
+      "Simultaneously pull the opposite leg underneath you, cycling smoothly in a backward stride.",
+      "Maintain an upright posture without leaning excessively forward or backward.",
+      "Continue walking rhythmically for the intended duration, using the handrails as needed for stability."
+    ],
+    "breathing": "Breathe naturally and rhythmically throughout the walk.",
+    "cues": [
+      "Toe to heel on every step",
+      "Stand tall and keep chest up",
+      "Push through the quad to lock out each step"
+    ],
+    "common_faults": [
+      {
+        "fault": "Setting the speed too fast to control the backward stride safely.",
+        "correction": "Start at a very slow pace (e.g., 1.0 to 2.0 mph) and only increase speed once balance and coordination are fully established."
+      },
+      {
+        "fault": "Excessively leaning forward over the treadmill console or handrails.",
+        "correction": "Maintain an upright torso with eyes focused straight ahead rather than looking down at your feet."
+      },
+      {
+        "fault": "Taking short, choppy steps that fail to fully extend the knee.",
+        "correction": "Take deliberate, full strides, ensuring the heel connects with the belt and the knee fully extends."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Always attach the emergency stop clip to your clothing before starting the belt.",
+        "Keep hands near or lightly touching the handrails to maintain balance."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "distance",
+          "incline",
+          "speed",
+          "pace",
+          "heart-rate",
+          "calories",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "distance",
+          "duration"
+        ],
+        "optional": [
+          "incline",
+          "speed",
+          "pace",
+          "heart-rate",
+          "calories",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Backward Treadmill Walk",
+  "previous_ids": [
+    "oec:retro-treadmill-walking"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Retro Treadmill Walking",
+        "url": "https://wger.de/en/exercise/2549/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "Personal routine"
+      }
+    ]
+  },
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A low-impact gait variation walking in reverse on a treadmill to strengthen the knee extensors and improve joint health."
+}

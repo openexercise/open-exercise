@@ -1,0 +1,212 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Leg Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Leg Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Floor Leg Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Leg Raises, Lying",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "iliopsoas",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "tensor-fasciae-latae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "anti-extension",
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "376,377"
+  },
+  "id": "oec:lying-leg-raise",
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a mat with your legs extended straight and feet together.",
+      "Place your arms by your sides with palms pressing lightly into the floor for support.",
+      "Posteriorly tilt your pelvis to press your lower back firmly into the floor, engaging your abdominals."
+    ],
+    "steps": [
+      "Keeping your legs straight and feet together, lift them smoothly off the floor by flexing at the hips.",
+      "Raise your legs until they are perpendicular to the floor, or as high as you can manage while keeping your lower back anchored.",
+      "Pause briefly at the top, maintaining core tension.",
+      "Lower your legs back down under control, stopping just before your heels touch the floor, then begin the next repetition."
+    ],
+    "breathing": "Inhale as you lower your legs toward the floor, and exhale forcefully as you raise them back up.",
+    "cues": [
+      "Glued lower back to the floor",
+      "Control the descent",
+      "Lead with the thighs"
+    ],
+    "common_faults": [
+      {
+        "fault": "Arching the lower back off the floor during the descent.",
+        "correction": "Only lower your legs as far as you can maintain abdominal brace and pelvic contact with the floor, or regress to bending the knees."
+      },
+      {
+        "fault": "Using momentum or swinging the legs upward.",
+        "correction": "Perform the movement at a slow, controlled cadence without rocking the torso."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you experience lower back discomfort, reduce the range of motion or bend your knees to shorten the lever arm."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Lying Leg Raise",
+  "previous_ids": [
+    "oec:leg-raise",
+    "oec:leg-raises-lying"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Leg Raise",
+        "url": "https://wger.de/en/exercise/376/view-base",
+        "license": "CC0-1.0",
+        "author": "BFad07"
+      },
+      {
+        "title": "wger: Leg Raises, Lying",
+        "url": "https://wger.de/en/exercise/377/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:captain-s-chair-leg-raise"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:decline-leg-raise"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:hanging-leg-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:captain-s-chair-leg-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:hanging-leg-raise"
+    }
+  ],
+  "setup": {
+    "position": "supine"
+  },
+  "status": "active",
+  "summary": "A supine bodyweight core exercise where straight legs are lifted toward vertical against gravity, training the hip flexors and anterior core."
+}

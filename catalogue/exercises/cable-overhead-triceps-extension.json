@@ -1,0 +1,230 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Overhead Cable Tricep Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Rope Overhead Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Overhead Cable Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Overhead Cable Extension",
+      "kind": "abbreviation"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-long-head",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-lateral-head",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-medial-head",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "anconeus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "strap"
+    ],
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1513"
+  },
+  "id": "oec:cable-overhead-triceps-extension",
+  "instructions": {
+    "setup": [
+      "Attach a rope attachment to a cable pulley set around chest or head height.",
+      "Face away from the machine, grasp the rope overhead with a neutral grip, and step forward into a stable staggered stance.",
+      "Lean forward slightly from the hips with a braced core, keeping the upper arms elevated and positioned near your ears."
+    ],
+    "steps": [
+      "Begin with the elbows fully bent behind your head to feel a deep stretch in the triceps.",
+      "Extend your elbows smoothly, pressing the rope forward and upward until your arms reach full extension.",
+      "Spread the ends of the rope slightly apart at peak contraction to achieve a full squeeze.",
+      "Control the eccentric return by slowly bending the elbows back to the starting stretch while keeping the upper arms stationary."
+    ],
+    "breathing": "Exhale as you extend your elbows forward; inhale as you slowly return to the stretched position.",
+    "cues": [
+      "Lock your elbows in space.",
+      "Split the rope at the top.",
+      "Brace your core to prevent arching."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring or swinging the upper arms to heave the weight forward.",
+        "correction": "Keep the upper arms fixed in place beside your head and ensure all movement comes purely from the elbow joint."
+      },
+      {
+        "fault": "Overextending the lumbar spine under the cable load.",
+        "correction": "Adopt a wide split stance, lean slightly forward, and brace the abdominals tightly throughout the set."
+      },
+      {
+        "fault": "Cutting the eccentric phase short and avoiding the stretch.",
+        "correction": "Allow the elbows to achieve full flexion on every repetition to maximize tension on the long head of the triceps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Keep shoulders properly warmed up and avoid excessive backward shoulder extension if you have a history of impingement."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable Overhead Triceps Extension",
+  "previous_ids": [
+    "oec:overhead-cable-tricep-extension"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Overhead Cable Tricep Extension",
+        "url": "https://wger.de/en/exercise/1513/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Expenses7000"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-overhead-triceps-extension"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-single-arm-overhead-triceps-extension"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:ez-bar-overhead-triceps-extension"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-dumbbell-overhead-triceps-extension"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "overhead",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "split",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An isolation cable exercise that trains the triceps, particularly emphasizing the long head through an overhead stretch."
+}

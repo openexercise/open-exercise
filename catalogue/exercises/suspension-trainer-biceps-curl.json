@@ -1,0 +1,233 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "TRX Biceps Curl",
+      "kind": "brand"
+    },
+    {
+      "text": "TRX Bicep Curl",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Suspension Biceps Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Suspension Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Biceps with TRX",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "suspension-trainer"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "958"
+  },
+  "id": "oec:suspension-trainer-biceps-curl",
+  "instructions": {
+    "setup": [
+      "Face the suspension trainer anchor point and grasp the handles with a supinated (palms facing up) grip.",
+      "Walk your feet toward the anchor point to lean back, extending your arms until the straps are taut.",
+      "Engage your core and glutes to establish a rigid plank line from head to heels, with your upper arms raised to roughly shoulder height."
+    ],
+    "steps": [
+      "Keep your elbows pinned high and pointing directly at the anchor point.",
+      "Curl your body upward by flexing your elbows, bringing your hands toward your temples or forehead.",
+      "Squeeze your biceps hard at peak flexion without dropping your elbows.",
+      "Lower yourself under control by extending your elbows until your arms are straight, maintaining a stable plank."
+    ],
+    "breathing": "Exhale as you curl your body upward; inhale as you slowly extend your arms back down.",
+    "cues": [
+      "Keep elbows high and still",
+      "Hands to temples",
+      "Stay in a rigid plank",
+      "Pull with your biceps, not your back"
+    ],
+    "common_faults": [
+      {
+        "fault": "Dropping the elbows to turn the movement into a row.",
+        "correction": "Keep upper arms horizontal and parallel to the floor throughout the entire rep."
+      },
+      {
+        "fault": "Sagging at the hips or thrusting the pelvis forward.",
+        "correction": "Maintain glute and abdominal tension to hold a straight plank alignment."
+      },
+      {
+        "fault": "Letting the straps lose tension at the top of the curl.",
+        "correction": "Stop just before the straps slacken to maintain continuous tension on the biceps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the suspension trainer anchor point is rated for full body weight before leaning back."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Suspension Trainer Biceps Curl",
+  "previous_ids": [
+    "oec:biceps-with-trx"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Biceps with TRX",
+        "url": "https://wger.de/en/exercise/958/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "clafal"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:suspension-single-arm-biceps-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:inverted-biceps-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-biceps-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-biceps-curl"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated",
+      "width": "shoulder"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A closed-chain bodyweight arm exercise that isolates the elbow flexors using a suspension trainer."
+}

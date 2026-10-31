@@ -1,0 +1,170 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Romanian Deadlift",
+  "summary": "A hip-hinge exercise using a barbell to build the hamstrings, gluteus maximus, and posterior chain under controlled tension.",
+  "aliases": [
+    {
+      "text": "RDL",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Romanian Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell RDL",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "hamstrings",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "weight-plate",
+    "squat-rack",
+    "power-rack",
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "rir",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Unrack or deadlift the barbell to a standing lockout with feet hip-width apart.",
+      "Grip the bar slightly outside your thighs with a double-overhand or hook grip.",
+      "Stand tall, brace your core, pull your shoulder blades slightly down and back, and unlock your knees slightly."
+    ],
+    "steps": [
+      "Push your hips backward as if reaching for a wall behind you, keeping your shins nearly vertical and knees softly bent at a fixed angle.",
+      "Lower the bar in a straight vertical path, skimming closely down your thighs and past your knees.",
+      "Descend until you feel a deep stretch in your hamstrings, typically around mid-shin level, while maintaining a flat, neutral spine.",
+      "Drive your hips forward and push through your midfoot to return to the upright starting position, squeezing your glutes at the top."
+    ],
+    "breathing": "Inhale and brace your core at the top, hold your breath through the descent and turn-around, and exhale as you lock out the hips.",
+    "cues": [
+      "Reach your hips toward the wall behind you.",
+      "Paint your legs with the bar.",
+      "Keep a soft knee bend and freeze that angle."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding the lower back to reach lower to the floor.",
+        "correction": "Stop the descent as soon as your hips stop moving backward and your hamstrings reach full stretch."
+      },
+      {
+        "fault": "Squatting the weight down by excessively bending the knees.",
+        "correction": "Keep your shins vertical and focus on horizontal hip travel rather than vertical drop."
+      },
+      {
+        "fault": "Allowing the barbell to drift away from the legs.",
+        "correction": "Engage your lats to keep the bar in constant light contact with your thighs and shins."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not sacrifice spinal neutral for extra range of motion."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

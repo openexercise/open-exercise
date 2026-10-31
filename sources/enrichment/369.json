@@ -1,0 +1,130 @@
+{
+  "is_exercise": true,
+  "name": "Leg Extension",
+  "summary": "An open-chain machine exercise that isolates the quadriceps through seated knee extension.",
+  "aliases": [
+    {
+      "text": "quad extension",
+      "kind": "common"
+    },
+    {
+      "text": "seated leg extension",
+      "kind": "common"
+    },
+    {
+      "text": "machine leg extension",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-knee-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "rectus-femoris",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "vastus-lateralis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "vastus-medialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "vastus-intermedius",
+      "role": "prime-mover"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "knee",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the backrest so the axis of rotation of the machine aligns directly with your knee joints.",
+      "Position the lower leg pad so it rests comfortably against your lower shins just above the ankles.",
+      "Sit back firmly against the pad, grasp the side handles, and pull yourself down into the seat."
+    ],
+    "steps": [
+      "Extend your knees smoothly to raise the pad until your legs are fully straightened.",
+      "Pause briefly at peak contraction without hyperextending or lifting your hips from the seat.",
+      "Lower the weight under control back to the starting flexed position."
+    ],
+    "breathing": "Exhale as you extend your legs and inhale as you lower the weight.",
+    "cues": [
+      "Keep your hips glued to the seat",
+      "Squeeze your quads at the top",
+      "Control the descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Kicking or using momentum to swing the weight up.",
+        "correction": "Initiate the movement smoothly and maintain a controlled cadence throughout."
+      },
+      {
+        "fault": "Hips lifting off the bench during the repetition.",
+        "correction": "Pull up firmly on the machine handles to lock your pelvis into the seat."
+      },
+      {
+        "fault": "Misaligned knee pivot point with the machine axis.",
+        "correction": "Adjust the seat back so your knees line up directly with the machine's pivot point."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid aggressive hyperextension at the top of the movement, especially under heavy loads."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

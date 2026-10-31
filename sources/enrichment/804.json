@@ -1,0 +1,160 @@
+{
+  "is_exercise": true,
+  "name": "Hangboard Sloper Hang",
+  "summary": "An isometric grip-training exercise performed by hanging from sloped holds on a fingerboard to build contact strength and open-hand grip endurance.",
+  "aliases": [
+    {
+      "text": "Sloper Hang",
+      "kind": "common"
+    },
+    {
+      "text": "Sloper Dead Hang",
+      "kind": "common"
+    },
+    {
+      "text": "Fingerboard Sloper Hang",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "sport",
+      "strength",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "isolation-grip",
+      "climb"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "hanging",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "forearm-flexors",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hand-intrinsics",
+      "role": "synergist"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rotator-cuff",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "fingers",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "weight-vest",
+    "dip-belt"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand underneath a securely mounted hangboard equipped with sloper holds.",
+      "Place both hands onto matching sloper holds using an open-hand grip, maximizing skin contact with the surface.",
+      "Engage your core and keep your shoulders actively packed down and back."
+    ],
+    "steps": [
+      "Transfer your weight smoothly off the ground until you are hanging fully from the slopers.",
+      "Maintain a slight bend in your elbows and keep your shoulder blades depressed rather than hanging passively on the joints.",
+      "Squeeze into the slope using wrist flexion and open-hand friction to prevent your hands from slipping off.",
+      "Hold the position steadily for the desired duration.",
+      "Step or lower your feet back to the floor in a controlled manner."
+    ],
+    "breathing": "Maintain steady, rhythmic breathing throughout the duration of the hang without holding your breath.",
+    "cues": [
+      "Max skin contact",
+      "Pull through the wrists",
+      "Active shoulders, no sagging"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hanging with completely passive, relaxed shoulders.",
+        "correction": "Keep the scapulae depressed and engaged, maintaining a small bend in the elbows to protect the shoulder joints."
+      },
+      {
+        "fault": "Attempting to crimp or curl the fingers excessively on the rounded edge.",
+        "correction": "Use an open-hand friction grip and rely on wrist engagement rather than trying to close your hand into a crimp."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Warm up the fingers, wrists, and shoulders thoroughly before hanging on slopers.",
+        "Ensure a crash pad or clear, stable landing surface is beneath you in case your hands slip unexpectedly."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

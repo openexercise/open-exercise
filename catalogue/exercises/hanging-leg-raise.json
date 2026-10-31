@@ -1,0 +1,242 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Hanging Straight Leg Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Straight Leg Hanging Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Hanging Leg Raises",
+      "kind": "common"
+    },
+    {
+      "text": "Leg raises pull up bar",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "synergist"
+      },
+      {
+        "muscle": "tensor-fasciae-latae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "synergist"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "fingers",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "strap",
+      "ankle-weight"
+    ],
+    "required": [
+      [
+        "pull-up-bar"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "283,979"
+  },
+  "id": "oec:hanging-leg-raise",
+  "instructions": {
+    "setup": [
+      "Grasp a pull-up bar with an overhand, shoulder-width grip.",
+      "Hang with your arms fully extended and shoulders actively engaged away from your ears.",
+      "Zip your legs together and point your toes slightly forward to create baseline tension."
+    ],
+    "steps": [
+      "Without swinging, contract your abdominals and hip flexors to raise your extended legs forward and up.",
+      "Continue raising your legs until they are at least parallel to the floor, rolling your pelvis upward toward your chest to engage the lower abs fully.",
+      "Pause momentarily at the top of the movement with your core braced.",
+      "Lower your legs back down under strict control, resisting momentum until returning to the dead-hang start position."
+    ],
+    "breathing": "Inhale before initiating the movement, exhale forcefully as your legs reach the top, and inhale on the controlled descent.",
+    "cues": [
+      "Roll your pelvis up to your ribs, do not just lift at the hips.",
+      "Keep the torso still and eliminate swing.",
+      "Point your toes and lock your knees."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso and using momentum to kick the legs upward.",
+        "correction": "Reset to a dead hang on each repetition and perform the concentric phase smoothly without kipping."
+      },
+      {
+        "fault": "Only flexing the hips without tilting the pelvis.",
+        "correction": "Ensure your pelvis rolls upward and curls toward your ribcage at the top of the repetition to target the abdominals rather than purely hip flexors."
+      },
+      {
+        "fault": "Passive, disengaged shoulders causing excessive shoulder distraction.",
+        "correction": "Depress your scapulae slightly and keep active tension through your lats and upper back throughout the set."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure grip and pull-up bar are dry to avoid slipping.",
+        "Regress to hanging knee raises if you cannot lift straight legs without lower back strain or severe swinging."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Hanging Leg Raise",
+  "previous_ids": [
+    "oec:hanging-leg-raises",
+    "oec:leg-raises-pull-up-bar"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Hanging Leg Raises",
+        "url": "https://wger.de/en/exercise/283/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "robhoyt"
+      },
+      {
+        "title": "wger: Leg raises pull up bar",
+        "url": "https://wger.de/en/exercise/979/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "clafal"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:hanging-knee-raise"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:captain-s-chair-leg-raise"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:lying-leg-raise"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:toes-to-bar"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:hanging-windshield-wiper"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "hanging",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A challenging bodyweight core exercise performed from an overhead bar, raising straight legs by flexing the hips and curling the pelvis."
+}

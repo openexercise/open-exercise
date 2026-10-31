@@ -1,0 +1,126 @@
+{
+  "is_exercise": true,
+  "name": "Levitation Crunch",
+  "summary": "A crunch variation where the shoulder blades are lifted straight up toward the ceiling with the arms overhead to emphasize upper abdominal contraction.",
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "partial",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deep-neck-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a mat with your knees bent and your feet flat on the floor roughly hip-width apart.",
+      "Extend your arms overhead or cross your forearms above your head without clasping your hands behind your neck.",
+      "Flatten your lower back firmly against the floor to posteriorly tilt the pelvis."
+    ],
+    "steps": [
+      "Exhale and lift your shoulder blades straight up off the floor toward the ceiling, keeping your lower back anchored down.",
+      "Pause at the top for one to two seconds, focusing on a maximal contraction in the upper abdominals.",
+      "Inhale as you lower your torso under control until your shoulder blades lightly touch the floor, maintaining tension throughout."
+    ],
+    "breathing": "Exhale forcefully as you lift straight up toward the ceiling, and inhale smoothly as you lower your upper back to the mat.",
+    "cues": [
+      "Drive your chest straight to the ceiling.",
+      "Keep your lower back glued to the floor.",
+      "Don't yank your head or tuck your chin into your chest."
+    ],
+    "common_faults": [
+      {
+        "fault": "Curling the torso forward instead of lifting straight upward.",
+        "correction": "Focus on elevating the ribcage and shoulder blades directly toward the ceiling rather than rolling toward your knees."
+      },
+      {
+        "fault": "Pulling on the cervical spine with the hands.",
+        "correction": "Keep your arms crossed overhead or keep hands lightly touching the temples without pulling the neck."
+      },
+      {
+        "fault": "Arching the lumbar spine off the floor during the lift.",
+        "correction": "Maintain abdominal brace and keep the lumbar spine pinned against the mat throughout the entire movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Keep the neck relaxed and aligned with the spine to avoid cervical strain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

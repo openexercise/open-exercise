@@ -1,0 +1,253 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "RDL",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Barbell RDL",
+      "kind": "common"
+    },
+    {
+      "text": "Romanian Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "rdls",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Romanian Deadlift (RDL)",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "hamstrings",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "eccentric-emphasis"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "weight-plate",
+      "power-rack",
+      "squat-rack",
+      "strap"
+    ],
+    "required": [
+      [
+        "barbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "507,1700"
+  },
+  "id": "oec:barbell-romanian-deadlift",
+  "instructions": {
+    "setup": [
+      "Stand tall holding a loaded barbell with an overhand, shoulder-width grip.",
+      "Position your feet hip-width apart with toes pointing forward or slightly outward.",
+      "Pull your shoulder blades back and down, brace your core, and unlock your knees slightly."
+    ],
+    "steps": [
+      "Hinge at the hips by pushing your pelvis straight backward while keeping a soft, fixed bend in your knees.",
+      "Lower the barbell in a straight line close to your thighs and shins until you feel a deep stretch in your hamstrings.",
+      "Reverse the motion once your hips stop traveling backward, driving your hips forward to return to the upright starting position.",
+      "Finish by squeezing your glutes at the top without hyperextending your lower back."
+    ],
+    "breathing": "Inhale and brace your core at the top before hinging; exhale as you lock out your hips near the top of the ascent.",
+    "cues": [
+      "Push your hips to the wall behind you",
+      "Keep the bar glued to your legs",
+      "Maintain a soft knee bend without squatting",
+      "Proud chest throughout the descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding the lumbar spine to reach lower to the floor.",
+        "correction": "Stop descending when your hips stop moving backward; range of motion is determined by hamstring flexibility, not touching the floor."
+      },
+      {
+        "fault": "Squatting the weight down by bending the knees excessively.",
+        "correction": "Keep your knees softly unlocked at a fixed angle and focus entirely on pushing your hips backward."
+      },
+      {
+        "fault": "Allowing the barbell to drift away from the legs.",
+        "correction": "Engage your lats to keep the bar skimming along your thighs and shins throughout the lift."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not sacrifice neutral spinal alignment to gain extra depth.",
+        "Use lifting straps if grip fatigue compromises form."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Romanian Deadlift",
+  "previous_ids": [
+    "oec:romanian-deadlift",
+    "oec:barbell-romanian-deadlift-rdl"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Romanian Deadlift",
+        "url": "https://wger.de/en/exercise/507/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "pjwirth"
+      },
+      {
+        "title": "wger: Barbell Romanian Deadlift (RDL)",
+        "url": "https://wger.de/en/exercise/1700/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "daiben"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-deadlift"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-romanian-deadlift"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-stiff-leg-deadlift"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:bodyweight-hip-hinge"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A hip-hinge barbell exercise emphasizing eccentric loading of the hamstrings and glutes while maintaining a neutral spine."
+}

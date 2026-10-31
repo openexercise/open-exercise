@@ -1,0 +1,164 @@
+{
+  "is_exercise": true,
+  "name": "Machine Shoulder Press",
+  "summary": "A seated overhead pressing movement performed on a guided machine to develop the shoulders and triceps.",
+  "aliases": [
+    {
+      "text": "Machine Overhead Press",
+      "kind": "common"
+    },
+    {
+      "text": "Shoulder Press, on Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Machine Shoulder Press",
+      "kind": "common"
+    },
+    {
+      "text": "Lever Shoulder Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-lateral",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so that the handles sit roughly level with your chin or the tops of your shoulders.",
+      "Sit back firmly with your upper back and hips supported against the pads.",
+      "Plant your feet flat on the floor and grasp the handles with an overhand or neutral grip."
+    ],
+    "steps": [
+      "Press the handles smoothly overhead until your arms are extended, stopping just short of locking out your elbows.",
+      "Pause briefly at the top while maintaining tension in the shoulders.",
+      "Lower the handles under control back to the starting depth around ear or chin level."
+    ],
+    "breathing": "Inhale as you lower the handles and exhale forcefully as you press overhead.",
+    "cues": [
+      "Drive your knuckles to the ceiling.",
+      "Keep your back firmly against the pad.",
+      "Control the descent; do not bounce off the weight stack."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive arching of the lower back to turn the lift into an incline chest press.",
+        "correction": "Keep your core braced and your entire back flat against the seat pad throughout the movement."
+      },
+      {
+        "fault": "Seat adjusted too low, forcing the shoulders into extreme, uncomfortable horizontal abduction at the bottom.",
+        "correction": "Raise the seat so the starting position places the handles around chin to shoulder height."
+      },
+      {
+        "fault": "Locking out the elbows aggressively at the top of the press.",
+        "correction": "Stop just short of lockout to preserve joint health and maintain continuous tension on the target muscles."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If shoulder mobility is limited, use neutral handles if available or stop the descent slightly above shoulder level."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

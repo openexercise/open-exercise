@@ -1,0 +1,234 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Lat Pull Down (Leaning Back)",
+      "kind": "common"
+    },
+    {
+      "text": "Leaning Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Lean-Back Lat Pulldown",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "downward-rotation",
+          "retraction",
+          "depression"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull",
+      "horizontal-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "strap"
+    ],
+    "required": [
+      [
+        "cable",
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "354"
+  },
+  "id": "oec:cable-lean-back-lat-pulldown",
+  "instructions": {
+    "setup": [
+      "Adjust the thigh pad on the lat pulldown machine so your knees fit snugly and your feet rest flat on the floor.",
+      "Grasp the lat pulldown bar with a pronated grip slightly wider than shoulder width.",
+      "Sit down under the pads, extend your arms overhead, and lean your torso back roughly 30 to 45 degrees with your chest held high and spine neutral."
+    ],
+    "steps": [
+      "Initiate the pull by drawing your shoulder blades down and back.",
+      "Pull the bar down toward your mid-to-upper chest while driving your elbows downward and behind your torso.",
+      "Pause briefly at the bottom to actively squeeze your lats and mid-back musculature.",
+      "Control the ascent as you allow the bar to return overhead, maintaining the fixed torso angle throughout the repetition."
+    ],
+    "breathing": "Inhale as your arms extend overhead, and exhale smoothly as you pull the bar down toward your chest.",
+    "cues": [
+      "Drive elbows down and back",
+      "Chest up to the bar",
+      "Hold your torso angle steady"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso dynamically back and forth to generate momentum.",
+        "correction": "Lock your torso into a fixed 30 to 45 degree lean before the rep begins and keep it stationary."
+      },
+      {
+        "fault": "Pulling primarily with the biceps without engaging the back.",
+        "correction": "Initiate the repetition by depressing the scapulae before bending your elbows."
+      }
+    ],
+    "safety": {
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable Lean-Back Lat Pulldown",
+  "previous_ids": [
+    "oec:lat-pull-down-leaning-back"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Lat Pull Down (Leaning Back)",
+        "url": "https://wger.de/en/exercise/354/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "drthurlow"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-incline-lat-pulldown"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "wide"
+    },
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A lat pulldown variation performed with a fixed backward torso lean to target the latissimus dorsi, rhomboids, and middle trapezius."
+}

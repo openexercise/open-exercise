@@ -1,0 +1,243 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Single-Leg Lunge with Kettlebell",
+      "kind": "common"
+    },
+    {
+      "text": "Kettlebell Goblet Forward Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Kettlebell Goblet Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Kettlebell Front Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Leg Lunge with Kettlebell:",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "kettlebell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1734"
+  },
+  "id": "oec:kettlebell-forward-lunge",
+  "instructions": {
+    "setup": [
+      "Stand tall with your feet hip-width apart.",
+      "Grip the kettlebell by the horns with both hands and hold it securely against the center of your chest in a goblet position.",
+      "Brace your core and keep your shoulders pulled back and down."
+    ],
+    "steps": [
+      "Take a controlled step forward with one leg, planting your heel and then the whole foot firmly on the floor.",
+      "Lower your hips straight down until your front thigh is roughly parallel to the floor and your back knee hovers just above the ground.",
+      "Push forcefully through your front heel and midfoot to extend your hips and knees.",
+      "Return in one smooth motion to the upright starting position."
+    ],
+    "breathing": "Inhale as you step forward and lower your body; exhale forcefully as you drive back to the starting stance.",
+    "cues": [
+      "Stay tall in the torso",
+      "Step onto railroad tracks, not a tightrope",
+      "Drive the floor away through the front foot"
+    ],
+    "common_faults": [
+      {
+        "fault": "Stepping with feet directly in line, leading to loss of lateral balance.",
+        "correction": "Maintain hip-width spacing between your feet as you step forward."
+      },
+      {
+        "fault": "Allowing the front heel to lift off the floor, placing excessive shear on the front knee.",
+        "correction": "Take a slightly longer stride and distribute your weight evenly through the front foot."
+      },
+      {
+        "fault": "Letting the torso collapse forward under the weight of the kettlebell.",
+        "correction": "Keep the kettlebell tight to the sternum, engage the upper back, and keep the chest proud throughout."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the floor surface is non-slip and clear of obstructions before stepping.",
+        "Avoid violently slamming the trailing knee into the floor."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Kettlebell Forward Lunge",
+  "previous_ids": [
+    "oec:single-leg-lunge-with-kettlebell"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Single-Leg Lunge with Kettlebell:",
+        "url": "https://wger.de/en/exercise/1734/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Tierrasverdes"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:forward-lunge"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:bodyweight-forward-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-forward-lunge"
+    }
+  ],
+  "setup": {
+    "load_position": "goblet",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral lower-body compound movement performed by stepping forward into a lunge while holding a kettlebell."
+}

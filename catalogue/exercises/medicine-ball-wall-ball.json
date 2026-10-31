@@ -1,0 +1,267 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Wall Ball",
+      "kind": "common"
+    },
+    {
+      "text": "Wall Balls",
+      "kind": "common"
+    },
+    {
+      "text": "Wall Ball Shot",
+      "kind": "common"
+    },
+    {
+      "text": "MB Wall Ball",
+      "kind": "abbreviation"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "conditioning",
+      "power",
+      "plyometric",
+      "strength"
+    ],
+    "movement_patterns": [
+      "squat",
+      "vertical-push",
+      "throw"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "mixed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "medicine-ball",
+        "slam-ball"
+      ],
+      [
+        "wall"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1100"
+  },
+  "id": "oec:medicine-ball-wall-ball",
+  "instructions": {
+    "setup": [
+      "Stand facing a sturdy wall about an arm's length away with your feet shoulder-width apart.",
+      "Hold the medicine ball at your chest with your hands placed under and slightly to the sides of the ball, elbows kept tight to your torso."
+    ],
+    "steps": [
+      "Descend into a full squat by pushing your hips back and bending your knees until your hip crease drops below your kneecaps.",
+      "Drive aggressively out of the bottom position through your midfoot and heels, fully extending your hips and knees.",
+      "Transfer the momentum upward into an overhead thrust, launching the ball up to contact the target on the wall.",
+      "As the ball rebounds off the wall, catch it in front of your upper chest and immediately absorb the impact by descending into the next squat."
+    ],
+    "breathing": "Inhale as you descend into the squat, and exhale forcefully as you drive upward and throw the ball.",
+    "cues": [
+      "Drive from the legs, not just the arms",
+      "Hit full depth on every squat",
+      "Catch and descend in one smooth motion"
+    ],
+    "common_faults": [
+      {
+        "fault": "Standing too close or too far from the wall, forcing an awkward neck angle or excessive forward reaching.",
+        "correction": "Calibrate your distance by holding the ball at chest height with elbows bent; the ball should lightly touch the wall at full arm extension."
+      },
+      {
+        "fault": "Throwing entirely with the upper body before the legs finish driving.",
+        "correction": "Ensure your hips and knees reach full explosive extension before pushing the ball overhead."
+      },
+      {
+        "fault": "Letting the chest cave forward and the elbows drop during the squat.",
+        "correction": "Keep your torso upright and brace your core, keeping your elbows tucked underneath the ball."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the wall surface is structural and free of obstructions or low-hanging fixtures.",
+        "Use a soft, non-bouncing medicine ball designed for wall ball training rather than a hard, high-rebound rubber ball."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "height",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Medicine Ball Wall Ball",
+  "previous_ids": [
+    "oec:wall-balls"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Wall balls",
+        "url": "https://wger.de/en/exercise/1100/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "philip"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-thruster"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-thruster"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-thruster"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "chest",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A dynamic compound movement combining a front squat with an explosive overhead throw of a medicine ball against a high wall target."
+}

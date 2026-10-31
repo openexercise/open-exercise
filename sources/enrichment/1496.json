@@ -1,0 +1,163 @@
+{
+  "is_exercise": true,
+  "name": "Single-Arm Dumbbell Supinated Front Raise",
+  "summary": "A unilateral isolation exercise performed with an underhand grip to emphasize the anterior deltoid and upper chest.",
+  "aliases": [
+    {
+      "text": "Single-Arm Underhand Dumbbell Front Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Upper Chest Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Dumbbell Scoop Raise",
+      "kind": "common"
+    },
+    {
+      "text": "DB Upper Chest Variation",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise",
+      "isolation-chest-fly"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "supinated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "protraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand upright with your feet hip-width apart, holding a dumbbell in one hand at your side.",
+      "Turn your wrist into a fully supinated (underhand) grip with your palm facing forward.",
+      "Set a slight, fixed bend in your working elbow and brace your core."
+    ],
+    "steps": [
+      "Raise the dumbbell upward and slightly inward toward chest and shoulder height, maintaining the supinated palm orientation.",
+      "Pause briefly at the top to squeeze your upper chest and front deltoid.",
+      "Lower the dumbbell smoothly along the same path back to your side.",
+      "Complete the assigned repetitions before repeating on the opposite arm."
+    ],
+    "breathing": "Exhale as you lift the dumbbell upward and inhale as you lower it back down.",
+    "cues": [
+      "Lead with your palm.",
+      "Scoop up and across.",
+      "Keep the elbow angle locked."
+    ],
+    "common_faults": [
+      {
+        "fault": "Turning the movement into a biceps curl by flexing the elbow during the lift.",
+        "correction": "Maintain a static, soft bend in the elbow throughout the entire repetition."
+      },
+      {
+        "fault": "Swinging the torso backward to generate momentum.",
+        "correction": "Keep your ribcage down and use a weight you can control strictly with your shoulder."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Stop the lift at shoulder height if you experience joint pinching in the front of the shoulder."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

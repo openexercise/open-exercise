@@ -1,0 +1,117 @@
+{
+  "is_exercise": true,
+  "name": "Stomach Vacuum",
+  "summary": "An isometric core exercise focused on drawing the abdominal wall inward to target the deep transverse abdominis.",
+  "aliases": [
+    {
+      "text": "Abdominal Vacuum",
+      "kind": "common"
+    },
+    {
+      "text": "Ab Vacuum",
+      "kind": "common"
+    },
+    {
+      "text": "Stomach Vacuum Pose",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "not-applicable",
+    "laterality": "bilateral",
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "muscles": [
+    {
+      "muscle": "transversus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie on your back on a flat floor or exercise mat with your knees bent and feet flat on the ground.",
+      "Rest your arms comfortably at your sides and allow your torso to fully relax."
+    ],
+    "steps": [
+      "Take a deep breath in through your nose to expand your abdomen.",
+      "Exhale completely through your mouth, expelling as much air from your lungs as possible.",
+      "Without inhaling, pull your belly button forcefully inward toward your spine, hollowing out your stomach and drawing it up under your ribcage.",
+      "Hold this deep isometric contraction for the prescribed duration while maintaining light, shallow breathing or holding on the exhale.",
+      "Slowly release the contraction and inhale gently to return your abdomen to resting position."
+    ],
+    "breathing": "Completely empty the lungs before drawing the abdomen inward; take shallow sips of air if holding for longer periods without relaxing the inward pull.",
+    "cues": [
+      "Belly button to spine",
+      "Suck the stomach up under the ribs",
+      "Exhale all air completely"
+    ],
+    "common_faults": [
+      {
+        "fault": "Holding breath with lungs full of air.",
+        "correction": "Ensure a complete, forceful exhalation before drawing the stomach inward."
+      },
+      {
+        "fault": "Arching the lower back off the ground.",
+        "correction": "Keep the pelvis neutral and the lower back flat or gently settled against the floor."
+      },
+      {
+        "fault": "Flexing the ribcage forward like doing a crunch.",
+        "correction": "Keep the chest still and shoulders relaxed, isolating the movement entirely to the deep abdominal wall."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform on an empty stomach to avoid gastrointestinal discomfort or nausea."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

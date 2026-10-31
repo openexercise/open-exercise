@@ -1,0 +1,219 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Hovering Cat",
+      "kind": "common"
+    },
+    {
+      "text": "Hovering Cat Plank",
+      "kind": "common"
+    },
+    {
+      "text": "Cat Pose Plank",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "flexion",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "pilates"
+    ],
+    "movement_patterns": [
+      "anti-extension",
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1911"
+  },
+  "id": "oec:cat-plank",
+  "instructions": {
+    "setup": [
+      "Start on all fours with your hands directly under your shoulders and your knees directly beneath your hips.",
+      "Tuck your toes under and grip the floor firmly with your fingers.",
+      "Press the floor away with your palms to spread your shoulder blades wide and gently round your upper back into a cat-like arch."
+    ],
+    "steps": [
+      "Engage your deep abdominals and press through the balls of your feet to lift your knees roughly one to two inches off the floor.",
+      "Maintain the rounded spine and protracted shoulder blades, pulling your navel toward your spine.",
+      "Hold this hovering position steadily for the target duration without allowing your hips to pike or your lower back to sag.",
+      "Gently lower your knees back to the floor to finish."
+    ],
+    "breathing": "Breathe continuously with shallow, controlled breaths while maintaining deep abdominal bracing and spinal flexion.",
+    "cues": [
+      "Push the floor away",
+      "Dome your upper back",
+      "Keep knees low to the floor",
+      "Pull ribs toward hips"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the hips too high toward a downward dog position.",
+        "correction": "Keep your knees hovering only one to two inches off the floor and thighs perpendicular to the ground."
+      },
+      {
+        "fault": "Collapsing into the shoulder blades and sagging through the midsection.",
+        "correction": "Actively push through your hands to protract the shoulder blades and keep your core braced."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you experience wrist discomfort, perform the hold onto fists or place your hands on low parallettes or yoga blocks."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Cat Plank",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Cat Plank",
+        "url": "https://wger.de/en/exercise/1911/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "cybro"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:plank"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated"
+    },
+    "position": "quadruped",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An isometric quadruped core exercise where the knees hover off the floor while the upper back is actively rounded in spinal flexion and scapular protraction."
+}

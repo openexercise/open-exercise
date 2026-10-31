@@ -1,0 +1,171 @@
+{
+  "is_exercise": true,
+  "name": "Single-Leg Drop Landing",
+  "summary": "A unilateral landing drill where you step off a low box and absorb force quietly on one leg, holding the position to develop deceleration control and stability.",
+  "aliases": [
+    {
+      "text": "Single-Leg Soft-Landing Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Leg Land and Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Leg Depth Landing",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "plyometric",
+      "balance",
+      "rehabilitation",
+      "sport"
+    ],
+    "movement_patterns": [
+      "balance",
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "eccentric-emphasis",
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "stance_kind": "single-leg",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "calves",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "foot-intrinsics",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "subtalar",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "plyo-box",
+        "step"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall on a low plyo box or aerobic step (typically 15 to 30 cm high) near the front edge.",
+      "Fix your gaze straight ahead and brace your core."
+    ],
+    "steps": [
+      "Step off the edge with one foot without jumping upward or pushing off aggressively.",
+      "Drop straight down and contact the floor with the balls of your landing foot first, immediately rolling to the heel.",
+      "Absorb the impact softly by flexing simultaneously at your ankle, knee, and hip into a balanced athletic quarter-squat.",
+      "Freeze instantly upon landing and hold the single-leg stance motionless for one to two seconds.",
+      "Step back up onto the box and reset before the next repetition."
+    ],
+    "breathing": "Exhale sharply as your foot contacts the ground to brace your trunk, holding steady through the pause.",
+    "cues": [
+      "Land like a ninja",
+      "Knee over middle toes",
+      "Stick the landing"
+    ],
+    "common_faults": [
+      {
+        "fault": "Landing with a stiff, locked knee and loud impact.",
+        "correction": "Actively yield into ankle dorsiflexion, knee flexion, and hip flexion to decelerate silently."
+      },
+      {
+        "fault": "Knee caving inward (valgus collapse) on contact.",
+        "correction": "Engage the hip abductors and keep your kneecap tracking directly over your second and third toes."
+      },
+      {
+        "fault": "Jumping upward off the box instead of stepping off.",
+        "correction": "Step directly forward or downward so gravity drives the drop without adding extra vertical momentum."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Begin on a low surface (15 cm) to verify joint tolerance and control before progressing box height."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

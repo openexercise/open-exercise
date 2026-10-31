@@ -1,0 +1,238 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Incline Dumbbell Press",
+      "kind": "common"
+    },
+    {
+      "text": "Incline DB Bench Press",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Incline DB Press",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Incline Bench Press - Dumbbell",
+      "kind": "common"
+    },
+    {
+      "text": "incline dumbbell bench",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "horizontal-adduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "537"
+  },
+  "id": "oec:incline-dumbbell-bench-press",
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an incline of approximately 30 to 45 degrees.",
+      "Sit on the bench with a dumbbell resting upright on each knee.",
+      "Plant your feet firmly on the floor and retract your shoulder blades against the backrest.",
+      "Kick the dumbbells back with your knees one at a time as you lean back onto the bench, pressing them into a locked-out position over your upper chest."
+    ],
+    "steps": [
+      "Lower the dumbbells under control toward your upper chest, allowing your elbows to track at roughly a 45-degree to 60-degree angle relative to your torso.",
+      "Descend until you achieve a comfortable stretch in the pectorals, keeping your forearms perpendicular to the floor.",
+      "Press the dumbbells up and slightly inward along a natural arc until your arms are extended, without banging the weights together at the top."
+    ],
+    "breathing": "Inhale deeply during the lowering eccentric phase, and exhale powerfully as you press past the sticking point.",
+    "cues": [
+      "Tuck elbows slightly toward the ribs, avoiding a flared 90-degree angle.",
+      "Keep the wrists stacked directly over the elbows.",
+      "Drive the floor away with your feet to keep the torso stable."
+    ],
+    "common_faults": [
+      {
+        "fault": "Setting the bench angle too steep (greater than 45 degrees).",
+        "correction": "Keep the bench at 30 to 45 degrees to maintain tension on the clavicular head of the chest rather than completely shifting load to the anterior deltoids."
+      },
+      {
+        "fault": "Flaring the elbows straight out to the sides.",
+        "correction": "Tuck the elbows roughly 45 to 60 degrees to protect the shoulder joint and better align with upper pectoral muscle fibers."
+      },
+      {
+        "fault": "Bouncing or colliding the dumbbells at the top.",
+        "correction": "Maintain tension throughout the movement by stopping just short of full lockout and keeping the dumbbells separated by a few inches."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If experiencing muscle failure, drop the dumbbells safely away from your body to the rubber flooring or guide them carefully back to your thighs while sitting up."
+      ],
+      "spotter": "recommended"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "rir",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Incline Dumbbell Bench Press",
+  "previous_ids": [
+    "oec:incline-bench-press-dumbbell"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Incline Bench Press - Dumbbell",
+        "url": "https://wger.de/en/exercise/537/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-incline-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-incline-chest-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:smith-machine-incline-bench-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "incline_degrees": 30,
+    "position": "supine",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "An upper-body compound pressing movement performed on an inclined bench to target the upper chest, anterior shoulders, and triceps."
+}

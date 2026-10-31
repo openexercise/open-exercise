@@ -1,0 +1,155 @@
+{
+  "is_exercise": true,
+  "name": "Dead Bug",
+  "summary": "A supine core stability exercise where opposite limbs extend away from the body while maintaining a flat, neutral spine against the floor.",
+  "aliases": [
+    {
+      "text": "Deadbug",
+      "kind": "common"
+    },
+    {
+      "text": "Dying Bug",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "anti-extension",
+      "anti-rotation"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "contralateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "transversus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "synergist"
+    },
+    {
+      "muscle": "external-oblique",
+      "role": "synergist"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "synergist"
+    },
+    {
+      "muscle": "multifidus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "tempo",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a mat with your arms pointing straight up toward the ceiling over your shoulders.",
+      "Bend your hips and knees to 90 degrees so your shins are parallel to the floor.",
+      "Engage your deep core and press your lower back firmly into the floor to eliminate any space underneath."
+    ],
+    "steps": [
+      "Slowly lower your right arm overhead toward the floor while simultaneously extending your left leg straight out just above the ground.",
+      "Maintain constant contact between your lower back and the floor throughout the entire reach.",
+      "Pause for a moment at full extension without letting your heel or hand touch down.",
+      "Return your arm and leg to the starting 90-degree position under full control.",
+      "Repeat the movement with the opposite arm and leg, alternating sides for the target repetitions."
+    ],
+    "breathing": "Exhale fully through pursed lips as you reach your limbs outward to brace the abdomen, and inhale as you return to the center.",
+    "cues": [
+      "Glue your lower back to the floor",
+      "Reach long through your heel and fingertips",
+      "Brace your ribs down toward your pelvis"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lower back arching off the floor as the leg extends.",
+        "correction": "Only lower your leg as far as you can while keeping your lumbar spine firmly braced against the ground."
+      },
+      {
+        "fault": "Moving the non-working limbs during the rep.",
+        "correction": "Keep the resting arm and knee stationary at a strict 90-degree angle."
+      },
+      {
+        "fault": "Rushing through the movement using momentum.",
+        "correction": "Perform each extension with a slow, controlled tempo and deliberate pause at the end range."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Discontinue or decrease the range of motion if you experience sharp lower back discomfort."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

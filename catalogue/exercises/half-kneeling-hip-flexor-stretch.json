@@ -1,0 +1,188 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Kneeling Hip Flexor Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Solo Hip Flexor Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Lunge Hip Flexor Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Hip Flexor Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "iliopsoas",
+        "role": "stretched"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1839,1867"
+  },
+  "id": "oec:half-kneeling-hip-flexor-stretch",
+  "instructions": {
+    "setup": [
+      "Assume a half-kneeling position on the floor, placing a mat under your back knee for comfort.",
+      "Position your front foot flat on the floor with both knees bent at roughly 90 degrees.",
+      "Keep your torso upright with your hands placed on your front thigh or hips."
+    ],
+    "steps": [
+      "Engage your abdominals and actively squeeze the glute of the trailing leg to tilt your pelvis posteriorly.",
+      "Shift your weight slightly forward from the hips until you feel a gentle stretch across the front of the trailing hip and upper thigh.",
+      "Hold the position for the desired duration while maintaining an upright posture.",
+      "Release the stretch slowly and repeat on the opposite side."
+    ],
+    "breathing": "Breathe smoothly and deeply, using slow exhalations to help the hip flexors relax into the stretch.",
+    "cues": [
+      "Squeeze the back glute",
+      "Tuck your tailbone",
+      "Stay tall through the torso"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively arching the lower back to simulate hip extension",
+        "correction": "Brace your core and perform a posterior pelvic tilt before shifting forward."
+      },
+      {
+        "fault": "Lurching too far forward without engaging the trailing glute",
+        "correction": "Keep the forward shift small and controlled, emphasizing pelvic position over forward travel."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a padded mat under the back knee if you experience patellar discomfort."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Half-Kneeling Hip Flexor Stretch",
+  "previous_ids": [
+    "oec:solo-hip-flexor-stretch",
+    "oec:hip-flexor-stretch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Solo Hip Flexor Stretch",
+        "url": "https://wger.de/en/exercise/1839/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Croak6728"
+      },
+      {
+        "title": "wger: Hip Flexor Stretch",
+        "url": "https://wger.de/en/exercise/1867/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Davidgj32"
+      }
+    ]
+  },
+  "setup": {
+    "position": "half-kneeling",
+    "stance": {
+      "kind": "split"
+    }
+  },
+  "status": "active",
+  "summary": "A static stretch targeting the hip flexors and anterior thigh of the trailing leg from a half-kneeling stance."
+}

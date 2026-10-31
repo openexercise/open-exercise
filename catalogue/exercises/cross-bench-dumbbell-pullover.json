@@ -1,0 +1,243 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Cross-Bench Pullover",
+      "kind": "common"
+    },
+    {
+      "text": "Perpendicular Dumbbell Pullover",
+      "kind": "common"
+    },
+    {
+      "text": "Cross-Bench Dumbbell Pullovers",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-long-head",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-minor",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "downward-rotation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "bench",
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "161"
+  },
+  "id": "oec:cross-bench-dumbbell-pullover",
+  "instructions": {
+    "setup": [
+      "Place a dumbbell upright on the flat bench.",
+      "Lie perpendicular across the bench so only your upper back and shoulder blades rest on the pad, with your head supported or positioned just off the edge.",
+      "Plant your feet firmly on the floor roughly shoulder-width apart, knees bent at approximately 90 degrees, and bridge your hips slightly below parallel with your torso.",
+      "Grasp the top inner plate of the dumbbell with both hands, cupping the underside in a diamond grip with thumbs and index fingers overlapping the handle.",
+      "Hold the dumbbell directly above your chest with a slight, fixed bend in your elbows."
+    ],
+    "steps": [
+      "Inhale deeply and slowly lower the dumbbell backward in an arc over your head, keeping the bend in your elbows constant.",
+      "Continue descending until you feel a deep, comfortable stretch in your lats and chest, keeping your hips stationary.",
+      "Pull the dumbbell back along the same arc by contracting your lats and chest until it is returned to the starting position above your chest.",
+      "Exhale as you near the top of the movement and squeeze your chest and lats before initiating the next repetition."
+    ],
+    "breathing": "Inhale deeply as you lower the weight to expand the ribcage and maximize the stretch; exhale forcefully as you pull the dumbbell back over your chest.",
+    "cues": [
+      "Keep elbows softly bent and locked in place.",
+      "Pull through your armpits, not your hands.",
+      "Keep your hips steady—do not thrust your hips to bounce the weight."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending and extending the elbows excessively, turning the pullover into a triceps extension.",
+        "correction": "Maintain a fixed, slight bend in the elbows throughout the entire range of motion."
+      },
+      {
+        "fault": "Overarching the lower spine or violently swinging the hips to gain momentum.",
+        "correction": "Keep your glutes and core engaged to stabilize the pelvis and isolate movement to the shoulder joint."
+      },
+      {
+        "fault": "Lowering the weight beyond comfortable active shoulder mobility, risking impingement.",
+        "correction": "Stop the descent once your upper arms are roughly aligned with your torso or when a deep stretch is achieved without joint discomfort."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Check that your grip on the dumbbell head is secure before moving the weight over your face.",
+        "Individuals with shoulder impingement or glenohumeral instability should limit the depth of the eccentric stretch."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cross-Bench Dumbbell Pullover",
+  "previous_ids": [
+    "oec:cross-bench-dumbbell-pullovers"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Cross-Bench Dumbbell Pullovers",
+        "url": "https://wger.de/en/exercise/161/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "powerade69"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-pullover"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-pullover"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-incline-pullover"
+    }
+  ],
+  "setup": {
+    "load_position": "chest",
+    "position": "supine",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "An upper-body movement performed lying perpendicular across a flat bench that targets the latissimus dorsi, pectoralis major, and serratus anterior through shoulder extension."
+}

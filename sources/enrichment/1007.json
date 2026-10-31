@@ -1,0 +1,139 @@
+{
+  "is_exercise": true,
+  "name": "Neck Rotation Stretch",
+  "summary": "A mobility and flexibility exercise that gently rotates the cervical spine to stretch the neck musculature and improve range of motion.",
+  "aliases": [
+    {
+      "text": "Head Turns",
+      "kind": "common"
+    },
+    {
+      "text": "Cervical Rotation Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Neck Turns",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "mobility-drill",
+      "rotation"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "sternocleidomastoid",
+      "role": "stretched"
+    },
+    {
+      "muscle": "splenius",
+      "role": "stretched"
+    },
+    {
+      "muscle": "levator-scapulae",
+      "role": "stretched"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "rotation"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "chair"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps"
+      ]
+    },
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "per-side",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit upright on a chair or stand tall with your shoulders relaxed and pulled gently down and back.",
+      "Fix your gaze straight ahead with your chin level and parallel to the floor."
+    ],
+    "steps": [
+      "Slowly turn your head to one side, looking over your shoulder as far as comfortably possible.",
+      "Hold the end range for the specified duration without forcing or bouncing.",
+      "Smoothly return your head to the neutral starting position.",
+      "Repeat the rotation to the opposite side."
+    ],
+    "breathing": "Breathe smoothly and continuously throughout, exhaling gently as you rotate into the stretch.",
+    "cues": [
+      "Keep your shoulders down",
+      "Rotate smoothly without tilting your chin up or down",
+      "Stop at mild tension, never pain"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the shoulders and torso along with the head.",
+        "correction": "Keep your chest facing forward and isolate the rotation purely to the neck."
+      },
+      {
+        "fault": "Tilting the head sideways or poking the chin forward during rotation.",
+        "correction": "Keep the chin level and the head aligned directly over the shoulders throughout the movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid rapid or jerky rotations; move at a slow, controlled pace.",
+        "Cease immediately if you experience dizziness, numbness, or sharp nerve pain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "is_exercise": true,
+  "name": "Runner's Lunge Stretch",
+  "summary": "A deep lower-body stretch performed in a long split stance to lengthen the hip flexors of the trailing leg and hips of the lead leg.",
+  "aliases": [
+    {
+      "text": "Runner's Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Runners Lunge Stretch",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Low Lunge Stretch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "lunge"
+    ],
+    "mechanics": "not-applicable",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "split-stance",
+  "stance_kind": "split",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "iliopsoas",
+      "role": "stretched"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat",
+    "yoga-block"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "load_convention": "not-applicable",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Begin in a high plank position or standing upright.",
+      "Step one foot forward between your hands so your front knee aligns directly over your ankle.",
+      "Extend the back leg straight behind you with the ball of the foot on the floor, or gently rest the back knee on a mat."
+    ],
+    "steps": [
+      "Place both hands flat on the floor or on yoga blocks flanking your front foot.",
+      "Lower your hips toward the floor while keeping your chest lifted and spine neutral.",
+      "Actively engage the glute of the rear leg to deepen the stretch through the front of that hip.",
+      "Hold the position for the desired duration while breathing deeply.",
+      "Step back smoothly to switch sides."
+    ],
+    "breathing": "Breathe slowly and deeply, allowing your hips to sink slightly deeper into the stretch with each exhalation.",
+    "cues": [
+      "Chest tall and proud",
+      "Squeeze the back glute",
+      "Drive the back heel away",
+      "Keep the front knee stacked over the ankle"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively rounding the spine to reach the floor.",
+        "correction": "Elevate your hands on yoga blocks to keep your chest up and spine long."
+      },
+      {
+        "fault": "Letting the front knee track excessively past the toes, lifting the front heel.",
+        "correction": "Step the front foot further forward to maintain a grounded heel and stacked shin."
+      },
+      {
+        "fault": "Twisting the hips open toward the rear leg.",
+        "correction": "Keep both hip points squared directly forward toward the front of the mat."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you have sensitive knees, place a folded towel or mat under the trailing knee when resting it on the floor."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

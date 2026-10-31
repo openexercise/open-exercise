@@ -1,0 +1,221 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Zottman Curl",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pronators",
+        "role": "synergist"
+      },
+      {
+        "muscle": "supinator",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-extensors",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "radioulnar",
+        "actions": [
+          "pronation",
+          "supination"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic",
+      "eccentric-emphasis"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1683"
+  },
+  "id": "oec:dumbbell-zottman-curl",
+  "instructions": {
+    "setup": [
+      "Stand upright with feet hip-width apart, holding a pair of dumbbells at your sides with your arms fully extended and palms facing forward in a supinated grip.",
+      "Pin your elbows close to your torso and engage your core to keep your posture tall."
+    ],
+    "steps": [
+      "Curl the dumbbells upward toward shoulder height while keeping the upper arms stationary and palms facing upward.",
+      "Pause briefly at the top of the curl, then rotate your wrists until your palms face forward and downward in a fully pronated grip.",
+      "Slowly lower the dumbbells back down under strict control using the overhand grip.",
+      "Once your arms reach full extension at the bottom, rotate your forearms back to the supinated starting position."
+    ],
+    "breathing": "Exhale as you curl the weights upward, and inhale as you lower them slowly under control.",
+    "cues": [
+      "Pin elbows to ribs",
+      "Rotate smoothly at the top",
+      "Lower slow on the way down"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso or using momentum to heave the dumbbells up.",
+        "correction": "Reduce the load and keep your torso rigid with your elbows locked beside your ribcage."
+      },
+      {
+        "fault": "Dropping the dumbbells quickly during the lowering phase.",
+        "correction": "Emphasize the eccentric tempo by taking two to three seconds to lower the weights with the overhand grip."
+      },
+      {
+        "fault": "Flaring the elbows outward during the rotation or descent.",
+        "correction": "Keep the upper arms tucked in place so the rotation occurs strictly through the forearms."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Select a lighter weight than typical curls to accommodate the weaker reverse-grip eccentric phase and avoid excessive wrist strain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Zottman Curl",
+  "previous_ids": [
+    "oec:zottman-curl"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Zottman curl",
+        "url": "https://wger.de/en/exercise/1683/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "meldun"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-biceps-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-hammer-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-reverse-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:ez-bar-reverse-curl"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "rotating"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A dumbbell curl variation that lifts with a supinated grip and lowers with a pronated grip to train both the upper arms and forearms."
+}

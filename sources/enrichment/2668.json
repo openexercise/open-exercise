@@ -1,0 +1,198 @@
+{
+  "is_exercise": true,
+  "name": "Kettlebell Single-Leg Around the World",
+  "summary": "A dynamic balance and stability drill where a kettlebell is passed in circles around the torso while balancing on one leg.",
+  "aliases": [
+    {
+      "text": "Single-Leg Kettlebell Around the World",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Leg Balance with Kettlebell Circles",
+      "kind": "common"
+    },
+    {
+      "text": "Kettlebell Body Circle on One Leg",
+      "kind": "common"
+    },
+    {
+      "text": "Single Leg Balance Kettlebell Circle",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Single-Leg Kettlebell Slingshot",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "balance",
+      "strength"
+    ],
+    "movement_patterns": [
+      "anti-rotation",
+      "anti-lateral-flexion",
+      "balance"
+    ],
+    "mechanics": "compound",
+    "force": "mixed",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse",
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "stance_kind": "single-leg",
+  "stance_width": "narrow",
+  "load_position": "at-sides",
+  "muscles": [
+    {
+      "muscle": "gluteus-medius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "obliques",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "tibialis-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "peroneals",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "kettlebell"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration",
+        "load"
+      ],
+      "optional": [
+        "reps",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall holding a light kettlebell by the handle in one hand at hip height.",
+      "Fix your gaze on a stationary point ahead and shift your weight fully onto one foot.",
+      "Lift the non-working foot slightly off the floor while maintaining a soft, unlocked knee on the supporting leg."
+    ],
+    "steps": [
+      "Brace your midsection and keep your pelvis level and upright.",
+      "Pass the kettlebell smoothly in front of your waist to the opposite hand.",
+      "Continue guiding the kettlebell around your hip and behind your back, transferring it back to the starting hand to complete one revolution.",
+      "Maintain stable posture without allowing the torso to sway or the free foot to touch down.",
+      "Complete the assigned reps in one direction, reverse the rotation direction, and then switch standing legs."
+    ],
+    "breathing": "Breathe continuously and evenly throughout the rotations, avoiding holding your breath while maintaining trunk stiffness.",
+    "cues": [
+      "Root through the foot",
+      "Quiet torso",
+      "Level hips",
+      "Smooth handoff"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive torso swaying to counter the moving weight.",
+        "correction": "Use a lighter kettlebell and actively brace the core to resist trunk rotation and lateral flexion."
+      },
+      {
+        "fault": "Pelvis dropping on the unsupported side (Trendelenburg tilt).",
+        "correction": "Drive firmly through the stance foot and squeeze the supporting hip glute to keep both hip bones level."
+      },
+      {
+        "fault": "Locking out the standing knee.",
+        "correction": "Keep a micro-bend in the knee to engage the quadriceps and hip musculature for better balance absorption."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure clear floor space in front and around you in case of a dropped kettlebell."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

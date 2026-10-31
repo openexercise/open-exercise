@@ -1,0 +1,160 @@
+{
+  "is_exercise": true,
+  "name": "Russian Push-Up",
+  "summary": "An advanced calisthenics push-up variation where you transition from the bottom of a push-up onto your forearms and rock forward back onto your hands before pressing up.",
+  "aliases": [
+    {
+      "text": "Russian Push-Ups",
+      "kind": "common"
+    },
+    {
+      "text": "Forearm to Palm Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Rocking Push-Up",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "advanced"
+  },
+  "position": "prone",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Assume a high plank position with your hands roughly shoulder-width apart and your body in a rigid, straight line from head to heels.",
+      "Engage your abdominals, squeeze your glutes, and tuck your pelvis into a neutral alignment."
+    ],
+    "steps": [
+      "Lower your chest toward the floor by bending your elbows, stopping an inch above the ground as in the bottom of a standard push-up.",
+      "Shift your weight backward, dropping your forearms and elbows flat onto the ground while maintaining a rigid plank.",
+      "Drive your palms aggressively into the floor and shift your body weight forward, popping off your forearms back onto your hands at the bottom of the push-up position.",
+      "Press forcefully through your hands to extend your elbows and return to the high plank lockout."
+    ],
+    "breathing": "Inhale as you lower down and shift onto your forearms; exhale forcefully as you drive back up onto your hands and press out to the starting position.",
+    "cues": [
+      "Keep a rigid hollow body",
+      "Drive the ground away with your palms",
+      "Elbows track straight back"
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging the hips during the transition onto and off the forearms.",
+        "correction": "Brace the abs and squeeze the glutes tightly to keep the torso completely rigid throughout the shift."
+      },
+      {
+        "fault": "Flaring the elbows out to the sides.",
+        "correction": "Keep the elbows tucked close to the ribs to safely load the triceps and shoulders."
+      },
+      {
+        "fault": "Pushoff hesitation leading to an asymmetrical heave off the floor.",
+        "correction": "Build momentum with an explosive palm-drive and practice the movement from the knees first if necessary."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Place a cushioned exercise mat under your forearms to protect your elbows during the drop."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

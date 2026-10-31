@@ -1,0 +1,150 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Triceps Kickback",
+  "summary": "An isolation exercise that targets the triceps by extending the elbows while holding a bent-over torso position.",
+  "aliases": [
+    {
+      "text": "Tricep Dumbbell Kickback",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Kickback",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Dumbbell Tricep Kickback",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "bent-over",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "anconeus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand with feet hip-width apart, holding a dumbbell in each hand with a neutral grip.",
+      "Hinge forward at the hips until your torso is nearly parallel to the floor, maintaining a flat back and soft bend in your knees.",
+      "Pull your elbows up tight against your ribs so your upper arms align roughly parallel to your torso, with forearms hanging down at a 90-degree angle."
+    ],
+    "steps": [
+      "Extend both elbows backward until your arms are fully straight and parallel to your torso, keeping your upper arms stationary.",
+      "Squeeze your triceps firmly at peak extension for a brief pause.",
+      "Lower the dumbbells under control by flexing at the elbows back to the 90-degree starting position without swinging."
+    ],
+    "breathing": "Exhale as you extend your elbows to push the weights back; inhale as you return to the starting bend.",
+    "cues": [
+      "Keep elbows pinned to your ribs.",
+      "Move only the forearms.",
+      "Pause and squeeze at lockout."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the upper arms forward and back to gain momentum.",
+        "correction": "Lock your upper arms in place parallel to the torso and only articulate the elbow joints."
+      },
+      {
+        "fault": "Dropping the elbows below torso level, reducing range and tension at lockout.",
+        "correction": "Keep your elbows pulled high and tight throughout the entire set."
+      },
+      {
+        "fault": "Standing too upright, which turns the movement into a partial swing without tension at the top.",
+        "correction": "Hinge forward until your torso is roughly 45 degrees or closer to parallel with the floor."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Select light to moderate loads to avoid straining the lower back or forcing compensatory momentum."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

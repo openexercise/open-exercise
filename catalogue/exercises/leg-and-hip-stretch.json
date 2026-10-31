@@ -1,0 +1,29 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "external_ids": {
+    "wger": "1589"
+  },
+  "id": "oec:leg-and-hip-stretch",
+  "measurement": {
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ]
+      }
+    ]
+  },
+  "name": "Leg and hip stretch",
+  "provenance": {
+    "license": "CC-BY-SA-4.0",
+    "sources": [
+      {
+        "title": "wger: Leg and hip stretch",
+        "url": "https://wger.de/en/exercise/1589/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "MrAlfaRobot"
+      }
+    ]
+  },
+  "status": "deprecated"
+}

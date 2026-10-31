@@ -1,0 +1,238 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Alternating Battle Rope Waves",
+      "kind": "common"
+    },
+    {
+      "text": "Battle Ropes",
+      "kind": "common"
+    },
+    {
+      "text": "Battle Rope Waves",
+      "kind": "common"
+    },
+    {
+      "text": "Alternating Waves",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "elevation",
+          "depression"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "conditioning",
+      "power"
+    ],
+    "movement_patterns": [
+      "anti-rotation",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "ballistic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "battle-rope"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1524"
+  },
+  "id": "oec:battle-rope-alternating-wave",
+  "instructions": {
+    "setup": [
+      "Stand facing the anchor point holding one end of the battle rope in each hand with a neutral grip.",
+      "Step back until there is a slight amount of slack in the ropes.",
+      "Assume an athletic quarter-squat stance with feet shoulder-width apart, chest tall, and core braced."
+    ],
+    "steps": [
+      "Raise one arm quickly toward shoulder height while driving the other downward toward hip level.",
+      "Immediately reverse the motion, snapping the opposite arm upward and driving the raised arm down.",
+      "Continue alternating arms rapidly to create continuous, fluid waves that travel all the way to the anchor point."
+    ],
+    "breathing": "Maintain rhythmic, continuous breathing throughout the interval rather than holding your breath.",
+    "cues": [
+      "Fast hands, quiet torso.",
+      "Whip from the shoulders.",
+      "Stay rooted in your hips."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive torso swaying and twisting.",
+        "correction": "Brace your core and keep your chest facing directly forward throughout the set."
+      },
+      {
+        "fault": "Standing completely upright with locked knees.",
+        "correction": "Maintain a solid athletic stance with knees and hips slightly bent to absorb momentum."
+      },
+      {
+        "fault": "Standing too far back with overly taut ropes.",
+        "correction": "Step forward slightly to allow enough slack for waves to travel freely."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the anchor point is secure and the floor is clear of slip or trip hazards."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "heart-rate",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Battle Rope Alternating Wave",
+  "previous_ids": [
+    "oec:battle-ropes"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Battle Ropes",
+        "url": "https://wger.de/en/exercise/1524/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "flanny"
+      }
+    ]
+  },
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "shoulder"
+    },
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "An upper-body conditioning exercise performed by rapidly moving battle ropes in an alternating wave pattern from an athletic quarter-squat stance."
+}

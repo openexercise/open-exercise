@@ -1,0 +1,169 @@
+{
+  "is_exercise": true,
+  "name": "Smith Machine Squat",
+  "summary": "A squat variation performed using a Smith machine to train the quadriceps and glutes with a fixed, guided bar path.",
+  "aliases": [
+    {
+      "text": "Squats on Multipress",
+      "kind": "regional"
+    },
+    {
+      "text": "Multipress Squat",
+      "kind": "regional"
+    },
+    {
+      "text": "Smith Machine Back Squat",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "high-bar",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "smith-machine"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set the Smith machine bar at roughly upper-chest height and set the safety stops just below your target squat depth.",
+      "Step under the bar, placing it across your upper trapezius, and grasp it firmly with both hands outside shoulder width.",
+      "Position your feet shoulder-width apart slightly in front of the bar's vertical line, with toes pointed slightly outward.",
+      "Extend your legs to lift the bar and rotate the bar with your wrists to unhook it from the safety pegs."
+    ],
+    "steps": [
+      "Inhale, brace your core, and initiate the descent by bending simultaneously at the hips and knees.",
+      "Lower yourself under control until your thighs are at least parallel to the floor.",
+      "Push forcefully through your midfoot and heels to reverse the motion, extending your hips and knees.",
+      "Return to the starting upright position without aggressively locking out your knees.",
+      "At the end of the set, rotate your wrists forward to re-engage the safety hooks onto the machine."
+    ],
+    "breathing": "Inhale and brace your core before descending, hold through the bottom turn, and exhale as you drive back to the top.",
+    "cues": [
+      "Brace your core tight",
+      "Push the floor away",
+      "Knees track over toes"
+    ],
+    "common_faults": [
+      {
+        "fault": "Placing feet directly underneath or behind the bar, leading to excessive forward torso lean and heel lifting.",
+        "correction": "Step the feet a few inches forward so you can sit down into the squat while keeping your heels firmly planted."
+      },
+      {
+        "fault": "Knees caving inward during the upward drive.",
+        "correction": "Actively push your knees outward in line with your toes throughout the movement."
+      },
+      {
+        "fault": "Failing to set the safety stoppers on the machine.",
+        "correction": "Always set the mechanical safety stops just below your lowest depth before loading working weight."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Always adjust the Smith machine safety stops to catch the bar in case of failure.",
+        "Ensure the wrist rotation to re-rack is familiar before using heavy loads."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  }
+}

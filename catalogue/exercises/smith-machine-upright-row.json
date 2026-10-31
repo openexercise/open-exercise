@@ -1,0 +1,238 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Smith Upright Row",
+      "kind": "common"
+    },
+    {
+      "text": "Multi Press Upright Row",
+      "kind": "regional"
+    },
+    {
+      "text": "Upright Row, on Multi Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-lateral",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "elevation",
+          "upward-rotation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "smith-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "691"
+  },
+  "id": "oec:smith-machine-upright-row",
+  "instructions": {
+    "setup": [
+      "Set the Smith machine bar at mid-thigh height.",
+      "Stand close to the bar with feet hip-width apart and an upright torso.",
+      "Grasp the bar with an overhand (pronated) grip, hands spaced roughly shoulder-width apart.",
+      "Rotate the bar to unrack it, letting arms hang straight down with the bar resting lightly against the thighs."
+    ],
+    "steps": [
+      "Pull the bar vertically along the guide rods by driving the elbows up and out.",
+      "Keep the bar path close to your torso until it reaches mid-to-upper chest height, with elbows staying higher than the wrists.",
+      "Pause briefly at the top to contract the shoulders and upper back.",
+      "Lower the bar under control back to full arm extension before initiating the next repetition."
+    ],
+    "breathing": "Exhale as you pull the bar up; inhale as you lower the weight under control.",
+    "cues": [
+      "Lead with the elbows, not the hands.",
+      "Keep the bar gliding close to your shirt.",
+      "Stay upright and resist leaning back."
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling the bar too high up to the chin, increasing risk of shoulder impingement.",
+        "correction": "Stop the pull once the bar reaches mid-chest or clavicle level, ensuring elbows do not excessively internally rotate."
+      },
+      {
+        "fault": "Gripping the bar with hands too close together.",
+        "correction": "Widen grip to roughly shoulder-width to reduce severe internal rotation at the shoulder joint."
+      },
+      {
+        "fault": "Using excessive body English or hip thrust to propel the bar upward.",
+        "correction": "Maintain a strict upright posture with knees soft and core braced throughout the movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid this movement or restrict the range of motion if you experience front shoulder pain or symptoms of subacromial impingement.",
+        "Ensure the safety catches are adjusted just below the lowest hang position."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Smith Machine Upright Row",
+  "previous_ids": [
+    "oec:upright-row-on-multi-press"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Upright Row, on Multi Press",
+        "url": "https://wger.de/en/exercise/691/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-wide-grip-upright-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:close-grip-barbell-upright-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-upright-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:ez-bar-upright-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-cross-upright-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A guided vertical pulling movement targeting the lateral deltoids and upper trapezius using a Smith machine."
+}

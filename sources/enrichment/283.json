@@ -1,0 +1,162 @@
+{
+  "is_exercise": true,
+  "name": "Hanging Leg Raise",
+  "summary": "A challenging bodyweight core exercise performed from an overhead bar, raising straight legs by flexing the hips and curling the pelvis.",
+  "aliases": [
+    {
+      "text": "Hanging Straight Leg Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Straight Leg Hanging Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "hanging",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "synergist"
+    },
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "fingers",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "pull-up-bar"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "strap",
+    "ankle-weight"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Grasp a pull-up bar with an overhand, shoulder-width grip.",
+      "Hang with your arms fully extended and shoulders actively engaged away from your ears.",
+      "Zip your legs together and point your toes slightly forward to create baseline tension."
+    ],
+    "steps": [
+      "Without swinging, contract your abdominals and hip flexors to raise your extended legs forward and up.",
+      "Continue raising your legs until they are at least parallel to the floor, rolling your pelvis upward toward your chest to engage the lower abs fully.",
+      "Pause momentarily at the top of the movement with your core braced.",
+      "Lower your legs back down under strict control, resisting momentum until returning to the dead-hang start position."
+    ],
+    "breathing": "Inhale before initiating the movement, exhale forcefully as your legs reach the top, and inhale on the controlled descent.",
+    "cues": [
+      "Roll your pelvis up to your ribs, do not just lift at the hips.",
+      "Keep the torso still and eliminate swing.",
+      "Point your toes and lock your knees."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso and using momentum to kick the legs upward.",
+        "correction": "Reset to a dead hang on each repetition and perform the concentric phase smoothly without kipping."
+      },
+      {
+        "fault": "Only flexing the hips without tilting the pelvis.",
+        "correction": "Ensure your pelvis rolls upward and curls toward your ribcage at the top of the repetition to target the abdominals rather than purely hip flexors."
+      },
+      {
+        "fault": "Passive, disengaged shoulders causing excessive shoulder distraction.",
+        "correction": "Depress your scapulae slightly and keep active tension through your lats and upper back throughout the set."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure grip and pull-up bar are dry to avoid slipping.",
+        "Regress to hanging knee raises if you cannot lift straight legs without lower back strain or severe swinging."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

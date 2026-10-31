@@ -1,0 +1,153 @@
+{
+  "is_exercise": true,
+  "name": "Band Terminal Knee Extension",
+  "summary": "A standing closed-chain knee extension exercise using a resistance band to strengthen the quadriceps through terminal extension.",
+  "aliases": [
+    {
+      "text": "TKE",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Band TKE",
+      "kind": "common"
+    },
+    {
+      "text": "Banded Terminal Knee Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Terminal Knee Extension",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-knee-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "split-stance",
+  "stance_width": "hip",
+  "stance_kind": "staggered",
+  "range": "partial",
+  "muscles": [
+    {
+      "muscle": "vastus-medialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "vastus-lateralis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "vastus-intermedius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "knee",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "resistance-band"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "band-tension",
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "elastic",
+  "load_convention": "not-applicable",
+  "reps_counted": "per-side",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Anchor a continuous loop resistance band to a sturdy post at knee height.",
+      "Step inside the loop and place the band directly behind the knee crease of the working leg.",
+      "Step back facing the anchor to create moderate band tension, setting your non-working foot slightly behind you in a relaxed staggered stance with your working heel firmly on the floor."
+    ],
+    "steps": [
+      "Begin with the working knee slightly bent and heel grounded.",
+      "Contract your quadriceps to drive the knee back into full extension against the band tension.",
+      "Squeeze your thigh firmly at the end range and hold for a brief pause.",
+      "Slowly allow the knee to bend back to the starting position under control."
+    ],
+    "breathing": "Exhale as you straighten the knee and lock into full extension; inhale as you slowly return to the flexed position.",
+    "cues": [
+      "Keep the working heel glued to the floor.",
+      "Squeeze the teardrop muscle above your kneecap.",
+      "Drive straight back without twisting your hips."
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the heel of the working foot off the floor during extension.",
+        "correction": "Keep full contact with your foot, driving weight through the midfoot and heel."
+      },
+      {
+        "fault": "Extending the hip excessively by arching the lower back instead of moving purely at the knee.",
+        "correction": "Keep your pelvis square and torso upright, isolating movement entirely to the knee joint."
+      },
+      {
+        "fault": "Allowing the band to aggressively snap the knee forward on the return.",
+        "correction": "Resist the pull of the band eccentrically, taking one to two seconds to bend the knee."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the anchor point is immovable and the band is in good condition without fraying.",
+        "Do not forcefully hyperextend the knee joint beyond its natural terminal lockout."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

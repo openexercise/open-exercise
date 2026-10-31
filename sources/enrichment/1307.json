@@ -1,0 +1,158 @@
+{
+  "is_exercise": true,
+  "name": "Plank",
+  "summary": "An isometric bodyweight core exercise held in a prone position supported on the forearms and toes to resist spinal extension.",
+  "aliases": [
+    {
+      "text": "Front Plank",
+      "kind": "common"
+    },
+    {
+      "text": "Forearm Plank",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Plank",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie prone on the floor or an exercise mat.",
+      "Place your elbows directly beneath your shoulders with forearms resting flat on the ground, pointing forward.",
+      "Tuck your toes under and extend your legs fully."
+    ],
+    "steps": [
+      "Engage your abdominals and glutes to lift your torso, hips, and thighs off the floor.",
+      "Form a rigid, straight line from your heels through your hips to the top of your head.",
+      "Press the floor away through your forearms to maintain active shoulder protraction without sagging.",
+      "Hold the position steadily for the intended duration without letting your lower back arch or hips pike.",
+      "Lower your knees and body smoothly to the floor to finish."
+    ],
+    "breathing": "Breathe continuously with slow, controlled breaths into your belly while maintaining steady core tension.",
+    "cues": [
+      "Ribs to hips.",
+      "Squeeze your glutes and quads.",
+      "Push the floor away."
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging hips and lumbar hyperextension.",
+        "correction": "Squeeze your glutes, tilt your pelvis slightly posterior, and brace your abs to align hips with shoulders."
+      },
+      {
+        "fault": "Piking hips upward to relieve core tension.",
+        "correction": "Lower your hips until your body forms a straight line from shoulders to heels."
+      },
+      {
+        "fault": "Winged scapulae and collapsing into the shoulders.",
+        "correction": "Actively press your forearms into the floor to keep your upper back broad."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Terminate the hold when you can no longer prevent lumbar extension or hip sagging."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

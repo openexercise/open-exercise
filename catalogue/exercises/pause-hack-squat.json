@@ -1,0 +1,221 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Paused Hack Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Pause Hack Squats",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Pause Hack Squat",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "hack-squat-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1464"
+  },
+  "id": "oec:pause-hack-squat",
+  "instructions": {
+    "setup": [
+      "Step onto the footplate with feet shoulder-width apart and toes slightly pointed outward.",
+      "Rest your back flat against the backrest and position your shoulders securely under the shoulder pads.",
+      "Disengage the machine's safety handles and fully extend your legs without hyperextending your knees."
+    ],
+    "steps": [
+      "Inhale, brace your core, and smoothly lower the carriage by bending your knees and hips.",
+      "Descend until your thighs reach at least parallel to the footplate or full comfortable knee flexion.",
+      "Hold the bottom position completely motionless for one to two seconds without resting the carriage on the bottom stops.",
+      "Drive through your midfoot to press the sled back up to the starting position, exhaling near the top."
+    ],
+    "breathing": "Inhale and brace your torso before descending, hold your breath through the bottom pause to maintain spinal stability, and exhale as you press back to lockout.",
+    "cues": [
+      "Glue your lower back to the pad",
+      "Dead stop at the bottom",
+      "Drive the floor away"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bouncing out of the hole or cutting the pause short.",
+        "correction": "Come to a complete, deliberate standstill at maximum depth before initiating the upward drive."
+      },
+      {
+        "fault": "Allowing the lower back or pelvis to curl away from the pad at the bottom.",
+        "correction": "Limit your range of motion to where your sacrum remains firmly against the back pad."
+      },
+      {
+        "fault": "Heels lifting off the platform during descent.",
+        "correction": "Move your feet slightly higher on the footplate to ensure full foot contact throughout the movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the safety catch mechanism is adjusted to catch the sled just below your target depth."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Pause Hack Squat",
+  "previous_ids": [
+    "oec:pause-hack-squats"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Pause Hack Squats",
+        "url": "https://wger.de/en/exercise/1464/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Expenses7000"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:machine-hack-squat"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:machine-hack-squat"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:hack-squat"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "pause",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A machine-based squat variation performed with a motionless hold at full depth to eliminate the stretch reflex and maximize quadriceps recruitment."
+}

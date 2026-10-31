@@ -1,0 +1,283 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Back Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Squat",
+      "kind": "common"
+    },
+    {
+      "text": "high bar squat",
+      "kind": "common"
+    },
+    {
+      "text": "low bar squat",
+      "kind": "common"
+    },
+    {
+      "text": "Squats",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Full Squat",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy",
+      "powerlifting"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "weight-plate"
+    ],
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "squat-rack",
+        "power-rack"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "615,1801"
+  },
+  "id": "oec:barbell-back-squat",
+  "instructions": {
+    "setup": [
+      "Set the barbell in a rack at approximately mid-chest height.",
+      "Step under the bar, positioning it securely across your upper trapezius (or rear deltoids for low-bar), and grip the bar firmly outside shoulder width.",
+      "Inhale, brace your core, unrack the bar by extending your knees and hips, and take two to three deliberate steps backward.",
+      "Establish a stable stance roughly shoulder-width apart with your toes angled slightly outward."
+    ],
+    "steps": [
+      "Take a deep breath into your abdomen and brace your core firmly.",
+      "Initiate the descent by simultaneously bending at the hips and knees, allowing your knees to track in line with your toes.",
+      "Descend smoothly until the crease of your hip is parallel with or slightly below the top of your knee.",
+      "Drive through your midfoot to reverse the motion, extending your knees and hips smoothly until returning to the upright starting position.",
+      "Exhale near the top of the lift and reset your brace before the next repetition."
+    ],
+    "breathing": "Inhale and perform a Valsalva brace before descending, holding your breath through the sticking point, and exhale upon completing the ascent.",
+    "cues": [
+      "Root your feet into the floor.",
+      "Chest up, knees tracking toes.",
+      "Drive the floor away."
+    ],
+    "common_faults": [
+      {
+        "fault": "Knees collapsing inward (valgus collapse) during the ascent.",
+        "correction": "Push the knees outward in line with your toes and actively spread the floor with your feet."
+      },
+      {
+        "fault": "Excessive forward torso lean causing the hips to rise much faster than the chest (good-morning squat).",
+        "correction": "Maintain abdominal bracing, keep the chest proud, and focus on driving your shoulders into the bar as you ascend."
+      },
+      {
+        "fault": "Heels lifting off the ground at the bottom of the squat.",
+        "correction": "Distribute your weight evenly across the tripod of your foot and work on ankle dorsiflexion mobility."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Set safety pins or spotter arms in the rack just below your full depth to catch the barbell if you fail a rep."
+      ],
+      "spotter": "recommended",
+      "safeties": true
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Back Squat",
+  "previous_ids": [
+    "oec:squats",
+    "oec:barbell-full-squat"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Squats",
+        "url": "https://wger.de/en/exercise/615/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      },
+      {
+        "title": "wger: Barbell Full Squat",
+        "url": "https://wger.de/en/exercise/1801/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "fabrice"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:bodyweight-squat"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:dumbbell-goblet-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-front-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:belt-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:smith-machine-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:hack-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:leg-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "wide"
+    },
+    "load_position": "high-bar",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A foundational compound lower-body exercise where a barbell is supported across the upper back while squatting to parallel or below."
+}

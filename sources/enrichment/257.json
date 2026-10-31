@@ -1,0 +1,176 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Front Squat",
+  "summary": "A barbell squat variation where the weight rests across the anterior deltoids, emphasizing the quadriceps and upper back strength.",
+  "aliases": [
+    {
+      "text": "Front Squat",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy",
+      "olympic-weightlifting"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_width": "shoulder",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "front-rack",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "upper-back",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "squat-rack",
+        "power-rack"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set the barbell in a rack at approximately mid-chest height.",
+      "Step up to the bar and secure a front rack position, resting the bar across the front of the shoulders and clavicles with elbows driven high forward.",
+      "Support the bar lightly with two to three fingers or a full clean grip as mobility allows.",
+      "Unrack the bar, take two steps back, and set feet roughly shoulder-width apart with toes turned slightly outward."
+    ],
+    "steps": [
+      "Inhale deeply into the abdomen, brace the core, and keep the chest and elbows elevated.",
+      "Descend by bending at the knees and hips simultaneously, sitting straight down between the heels while keeping the torso upright.",
+      "Continue descending until the hip crease dips below the top of the knees.",
+      "Drive forcefully through the mid-foot to stand, actively pressing the elbows up to keep the bar from rolling forward.",
+      "Complete the repetition by extending hips and knees fully at the top."
+    ],
+    "breathing": "Inhale and brace intra-abdominal pressure before descending, hold through the sticking point, and exhale near the top of the repetition.",
+    "cues": [
+      "Elbows up",
+      "Chest tall",
+      "Sit between your knees"
+    ],
+    "common_faults": [
+      {
+        "fault": "Dropping the elbows during descent, causing the bar to roll forward off the shoulders.",
+        "correction": "Focus on driving the elbows toward the ceiling throughout the entire repetition, especially out of the hole."
+      },
+      {
+        "fault": "Excessive forward torso lean shifting the load into the lower back.",
+        "correction": "Stay more upright by pushing knees forward over toes and sitting straight down rather than hinging hips far back."
+      },
+      {
+        "fault": "Heels lifting off the floor during deep knee flexion.",
+        "correction": "Improve ankle dorsiflexion mobility, wear weightlifting shoes, or widen the stance slightly with toes turned out."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If balance or the rack position is lost, dump the bar forward away from the body onto safety pins or rubber flooring; never try to catch it with wrists or knees."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  }
+}

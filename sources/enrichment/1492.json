@@ -1,0 +1,191 @@
+{
+  "is_exercise": true,
+  "name": "Half-Kneeling Cable High Row",
+  "summary": "A unilateral pulling exercise performed from a half-kneeling stance that targets the latissimus dorsi and upper back through a diagonal high-to-low pulling path.",
+  "aliases": [
+    {
+      "text": "High Row",
+      "kind": "common"
+    },
+    {
+      "text": "Half-Kneeling Cable Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Half-Kneeling Cable High Row",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable High Row",
+      "kind": "common"
+    },
+    {
+      "text": "Kneeling Cable High Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "horizontal-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "half-kneeling",
+  "grip_orientation": "neutral",
+  "stance_kind": "split",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "retraction",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set a cable pulley to a high setting and attach a single D-handle.",
+      "Assume a half-kneeling position facing the machine, resting the knee on the working side on the floor and planting the opposite foot flat in front with the knee bent at ninety degrees.",
+      "Grasp the handle with the working hand using a neutral grip, and allow the cable tension to extend your arm forward and upward to stretch the lat while keeping your torso upright and braced."
+    ],
+    "steps": [
+      "Initiate the pull by depressing your shoulder blade and driving your elbow down and back toward your hip.",
+      "Pull the handle down smoothly until your elbow is tight against your side, squeezing your lat at the end of the range of motion.",
+      "Pause briefly at peak contraction without twisting your torso.",
+      "Slowly extend your arm along the same diagonal path to return the weight stack, allowing the shoulder blade to upwardly rotate and stretch the lat.",
+      "Complete all prescribed repetitions on one side before switching knee and hand positions to work the opposite side."
+    ],
+    "breathing": "Exhale as you pull your elbow down toward your hip, and inhale as you return the handle to the overhead starting position.",
+    "cues": [
+      "Drive your elbow into your back pocket.",
+      "Lead with the elbow, not the hand.",
+      "Keep your ribs down and torso squared."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the torso to assist in pulling the load.",
+        "correction": "Brace your abdominals and glutes to keep your shoulders and hips square throughout the repetition."
+      },
+      {
+        "fault": "Initiating the pull with the bicep rather than the back.",
+        "correction": "Depress the shoulder blade first and focus on elbow drive rather than curling the wrist or forearm."
+      },
+      {
+        "fault": "Arching the lower back excessively at the bottom of the pull.",
+        "correction": "Squeeze the glute of the kneeling leg and engage your core to maintain a neutral spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a foam pad or exercise mat under the down knee to prevent joint discomfort."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

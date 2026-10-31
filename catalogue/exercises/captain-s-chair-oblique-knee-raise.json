@@ -1,0 +1,221 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Captain's Chair Side Knee Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Captain's Chair Twisting Knee Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Twisting Captain's Chair Knee Raise",
+      "kind": "common"
+    },
+    {
+      "text": "VKR Oblique Knee Raise",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Knieheben Beinhebemaschine seitlich",
+      "kind": "regional"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "external-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "synergist"
+      },
+      {
+        "muscle": "tensor-fasciae-latae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion",
+          "rotation",
+          "lateral-flexion"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "rotation",
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "transverse",
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "roman-chair",
+        "dip-station"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2675"
+  },
+  "id": "oec:captain-s-chair-oblique-knee-raise",
+  "instructions": {
+    "setup": [
+      "Step onto the foot pegs of a vertical knee raise station and place your forearms securely on the padded rests.",
+      "Grip the handles firmly and press down through your elbows to keep your shoulders depressed and active.",
+      "Rest your back flat against the back pad and let your legs hang vertically together."
+    ],
+    "steps": [
+      "Inhale to brace your core.",
+      "Exhale and rotate your hips slightly while drawing your knees up and across toward one side of your torso.",
+      "Continue raising your knees until your pelvis tilts upward and your lower spine flexes, squeezing your obliques at the top.",
+      "Inhale as you lower your legs back to the center in a controlled motion without swinging.",
+      "Repeat the movement by raising your knees toward the opposite side, alternating repetitions evenly."
+    ],
+    "breathing": "Exhale forcefully as you curl your knees up and to the side, and inhale as you lower them under control.",
+    "cues": [
+      "Drive your knees toward your armpit.",
+      "Roll your pelvis up off the back pad.",
+      "Stay tall through your shoulders—do not sink into your neck."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the legs to generate momentum.",
+        "correction": "Pause briefly at the bottom of each repetition to ensure abdominal contraction initiates the movement."
+      },
+      {
+        "fault": "Only flexing the hips without tilting the pelvis.",
+        "correction": "Curl the pelvis upward and round the lower back slightly at the peak to fully recruit the abdominal wall."
+      },
+      {
+        "fault": "Collapsing into the shoulder girdle.",
+        "correction": "Actively push down into the forearm pads throughout the set to keep your chest open and shoulders depressed."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure your back maintains contact with the pad and avoid extreme rotational twisting if you have acute lumbar spine pain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Captain's Chair Oblique Knee Raise",
+  "previous_ids": [
+    "oec:knieheben-beinhebemaschine-seitlich"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Knieheben Beinhebemaschine seitlich",
+        "url": "https://wger.de/en/exercise/2675/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "fen"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:captain-s-chair-knee-raise"
+    }
+  ],
+  "setup": {
+    "position": "support"
+  },
+  "status": "active",
+  "summary": "A bodyweight core exercise performed in forearm support on a vertical knee raise station, lifting the knees diagonally toward alternating sides to target the obliques and abdominals."
+}

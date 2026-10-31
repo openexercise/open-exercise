@@ -1,0 +1,72 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "id": "oec:assisted-dip",
+  "name": "Assisted Dip",
+  "summary": "A dip on a machine that takes off part of your body weight.",
+  "classification": {
+    "modalities": [
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "level": "beginner"
+  },
+  "setup": {
+    "position": "support"
+  },
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      }
+    ]
+  },
+  "equipment": {
+    "required": [
+      [
+        "assisted-pull-up-machine"
+      ]
+    ]
+  },
+  "measurement": {
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ]
+      }
+    ],
+    "load": {
+      "kind": "bodyweight-minus-assistance",
+      "convention": "weight-stack"
+    },
+    "reps_counted": "total",
+    "records": {
+      "e1rm": false,
+      "volume": false
+    }
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:dip"
+    }
+  ],
+  "provenance": {
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "unreviewed"
+    }
+  }
+}

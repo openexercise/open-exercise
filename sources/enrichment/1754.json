@@ -1,0 +1,165 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Scaption",
+  "summary": "A shoulder isolation exercise where dumbbells are raised in the scapular plane, roughly thirty to forty-five degrees forward of the torso, to strengthen the deltoids with minimal subacromial impingement.",
+  "aliases": [
+    {
+      "text": "45° Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "45-Degree Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell 45-Degree Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Scapular Plane Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Scapular Plane Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Scaption",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-lateral",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "supraspinatus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and a dumbbell in each hand at your sides.",
+      "Slightly bend your elbows and rotate your hands so your thumbs point slightly upward or toward each other in a neutral to semi-neutral grip."
+    ],
+    "steps": [
+      "Raise both arms along the scapular plane, approximately 30 to 45 degrees forward from purely sideways.",
+      "Continue raising until your hands reach shoulder height, maintaining the slight elbow bend and leading slightly with the thumbs.",
+      "Pause briefly at the top while maintaining control without shrugging excessively.",
+      "Lower the dumbbells smoothly along the same diagonal path back to the starting position."
+    ],
+    "breathing": "Exhale as you raise the dumbbells; inhale smoothly as you lower them.",
+    "cues": [
+      "Reach out into a wide V.",
+      "Lead with the thumbs slightly up.",
+      "Keep shoulders down away from ears."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to generate momentum.",
+        "correction": "Brace the core, stay upright, and reduce the weight so the shoulders perform all the work."
+      },
+      {
+        "fault": "Raising arms purely to the side in the frontal plane.",
+        "correction": "Angling the arms 30 to 45 degrees forward aligns movement with the shoulder blade and avoids joint pinch."
+      },
+      {
+        "fault": "Excessive shrugging toward the ears.",
+        "correction": "Focus on reaching the dumbbells outward toward the walls rather than pulling upward with the upper traps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not internally rotate the shoulders (thumbs pointing down) during the raise to avoid subacromial impingement."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

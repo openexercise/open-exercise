@@ -1,0 +1,235 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "March in Place",
+      "kind": "common"
+    },
+    {
+      "text": "Running in Place",
+      "kind": "common"
+    },
+    {
+      "text": "March or jog in place",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "calves",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "tibialis-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1584"
+  },
+  "id": "oec:jog-in-place",
+  "instructions": {
+    "setup": [
+      "Stand upright with your feet hip-width apart and your core lightly braced.",
+      "Bend your elbows to approximately ninety degrees, keeping your shoulders relaxed."
+    ],
+    "steps": [
+      "Lift one knee toward hip height while swinging the opposite arm forward.",
+      "Lower the foot back down to the ground under control, landing softly on the ball of your foot.",
+      "Immediately switch sides, lifting the opposite knee and reversing your arm swing.",
+      "Continue alternating legs in a smooth, rhythmic, running motion without traveling forward."
+    ],
+    "breathing": "Breathe rhythmically in through your nose and out through your mouth in cadence with your strides.",
+    "cues": [
+      "Stay light on your feet",
+      "Pump arms from the shoulders",
+      "Maintain a tall posture"
+    ],
+    "common_faults": [
+      {
+        "fault": "Landing heavily on the heels, increasing joint impact.",
+        "correction": "Spring off and land lightly on the midfoot to balls of the feet with a slight knee bend."
+      },
+      {
+        "fault": "Excessive forward or backward leaning of the torso.",
+        "correction": "Keep the chest upright and engage the core to maintain a neutral spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Wear supportive athletic footwear to minimize repetitive impact on lower extremities."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "heart-rate",
+          "cadence",
+          "calories",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Jog in Place",
+  "previous_ids": [
+    "oec:march-or-jog-in-place"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: March or jog in place",
+        "url": "https://wger.de/en/exercise/1584/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "MrAlfaRobot"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:running"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:running"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:running"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:high-knee-march"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:high-knees"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A stationary aerobic exercise simulating the running gait to elevate heart rate and warm up the body."
+}

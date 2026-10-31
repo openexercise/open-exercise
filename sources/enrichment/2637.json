@@ -1,0 +1,130 @@
+{
+  "is_exercise": true,
+  "name": "FlexBar Wrist Flexion",
+  "summary": "A seated rehabilitation exercise that isolates and strengthens the wrist flexors by curling a flexible resistance bar upward with the forearm supported.",
+  "aliases": [
+    {
+      "text": "Theraband FlexBar Wrist Flexion",
+      "kind": "brand"
+    },
+    {
+      "text": "Resistance Bar Wrist Flexion",
+      "kind": "common"
+    },
+    {
+      "text": "FlexBar Wrist Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-grip"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "supinated",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "forearm-flexors",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hand-intrinsics",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "wrist",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "fingers",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "resistance-band"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "chair",
+    "bench"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "band-tension",
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "elastic",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit on a chair or bench and rest your working forearm across your thigh or a flat table.",
+      "Position your wrist and hand just past the supporting edge with your palm facing upward.",
+      "Grip one end of the flexible resistance bar firmly."
+    ],
+    "steps": [
+      "Allow your wrist to slowly extend downward toward the floor into a comfortable stretch.",
+      "Curl your wrist upward toward your body as far as comfortable while keeping your forearm stationary.",
+      "Squeeze at the top, then slowly lower the bar back to the starting position over two to three seconds."
+    ],
+    "breathing": "Exhale as you curl your wrist upward and inhale as you lower the bar down.",
+    "cues": [
+      "Keep the forearm pinned down",
+      "Move only through the wrist",
+      "Control the descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the forearm off the support",
+        "correction": "Keep your entire forearm anchored to the thigh or table so the movement is isolated to the wrist."
+      },
+      {
+        "fault": "Dropping the weight too quickly",
+        "correction": "Lower the bar under control for at least two to three seconds on each repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not force deep wrist extension if experiencing acute medial epicondylalgia or forearm pain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

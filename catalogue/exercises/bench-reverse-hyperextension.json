@@ -1,0 +1,204 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Reverse Hyperextension",
+      "kind": "common"
+    },
+    {
+      "text": "Flat Bench Reverse Hyperextension",
+      "kind": "common"
+    },
+    {
+      "text": "Bench Reverse Hyper",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Prone Bench Leg Raise",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "biceps-femoris",
+        "role": "synergist"
+      },
+      {
+        "muscle": "semitendinosus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "semimembranosus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "ankle-weight",
+      "resistance-band"
+    ],
+    "required": [
+      [
+        "bench",
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1809"
+  },
+  "id": "oec:bench-reverse-hyperextension",
+  "instructions": {
+    "setup": [
+      "Lie face down across a sturdy flat bench with your hips positioned right at the edge so your legs can hang freely toward the floor.",
+      "Firmly grip the sides or front of the bench with both hands to anchor your upper body.",
+      "Keep your legs together with knees straight or slightly unlocked."
+    ],
+    "steps": [
+      "Contract your glutes and hamstrings to lift both legs upward in an arc.",
+      "Raise your legs until they align horizontally with your torso, pausing briefly at the top to maximally contract the glutes.",
+      "Slowly lower your legs under control back toward the starting position without touching the floor."
+    ],
+    "breathing": "Exhale as you raise your legs into extension, and inhale as you lower them under control.",
+    "cues": [
+      "Squeeze glutes at the top",
+      "Brace your core to protect your lower back",
+      "Lift with control, do not kick"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the legs up using momentum rather than muscular contraction.",
+        "correction": "Slow the tempo down and pause for one second at the top of each repetition."
+      },
+      {
+        "fault": "Excessively arching and hyperextending the lumbar spine to gain height.",
+        "correction": "Brace your abdominals and stop leg elevation once your thighs are in line with your torso."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the bench is sufficiently weighted or stable so it does not tip forward as you raise your legs."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Bench Reverse Hyperextension",
+  "previous_ids": [
+    "oec:reverse-hyperextension"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Reverse Hyperextension",
+        "url": "https://wger.de/en/exercise/1809/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Croak6728"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:back-extension"
+    }
+  ],
+  "setup": {
+    "position": "prone"
+  },
+  "status": "active",
+  "summary": "A bodyweight posterior chain exercise performed prone on a bench, raising the legs to extend the hips and strengthen the glutes, hamstrings, and lower back."
+}

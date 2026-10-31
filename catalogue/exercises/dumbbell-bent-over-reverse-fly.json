@@ -1,0 +1,244 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Dumbbell Rear Delt Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Bent-Over Dumbbell Reverse Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Bent-Over Rear Delt Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Bent-Over Lateral Raise",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-posterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "infraspinatus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "teres-minor",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise",
+      "horizontal-pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2643"
+  },
+  "id": "oec:dumbbell-bent-over-reverse-fly",
+  "instructions": {
+    "setup": [
+      "Stand with feet hip-width apart, holding a light dumbbell in each hand.",
+      "Hinge forward at the hips until your torso is nearly parallel to the floor, maintaining a flat back and soft bend in the knees.",
+      "Let your arms hang straight down below your chest with palms facing each other and elbows slightly unlocked."
+    ],
+    "steps": [
+      "Maintain a fixed, slight bend in the elbows and raise the dumbbells out to the sides in a wide arc.",
+      "Continue raising until your upper arms are in line with your torso, feeling the contraction in the rear shoulders.",
+      "Pause briefly at the peak of the movement.",
+      "Lower the dumbbells smoothly along the same arc back to the starting hanging position."
+    ],
+    "breathing": "Exhale as you raise the dumbbells outward; inhale as you return to the starting position.",
+    "cues": [
+      "Lead with the elbows",
+      "Keep torso stationary",
+      "Pour water at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to generate momentum.",
+        "correction": "Reduce the dumbbell weight and keep your hips and spine rigid throughout each repetition."
+      },
+      {
+        "fault": "Excessively bending the elbows into a row.",
+        "correction": "Lock a slight elbow bend from the start and move only through the shoulder joints."
+      },
+      {
+        "fault": "Rounding the lower back.",
+        "correction": "Hinge deeply at the hips and engage the core and spinal erectors to maintain a neutral spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use light weights to protect shoulder integrity and avoid recruiting larger muscle groups like the lats."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Bent-Over Reverse Fly",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dumbbell Bent-Over Reverse Fly",
+        "url": "https://wger.de/en/exercise/2643/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-rear-delt-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-reverse-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-reverse-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-bent-over-dumbbell-rear-delt-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:standing-cable-reverse-fly"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:seated-bent-over-dumbbell-rear-delt-raise"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "bent-over",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A bent-over isolation exercise that targets the posterior deltoids and upper back musculature using dumbbells."
+}

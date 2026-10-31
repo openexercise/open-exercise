@@ -1,0 +1,153 @@
+{
+  "is_exercise": true,
+  "name": "Kettlebell Single-Arm Biceps Curl",
+  "summary": "A standing unilateral arm exercise that uses a kettlebell to isolate elbow flexion while challenging grip and core stability.",
+  "aliases": [
+    {
+      "text": "one-handed kettlebell curls",
+      "kind": "common"
+    },
+    {
+      "text": "single-arm kettlebell curl",
+      "kind": "common"
+    },
+    {
+      "text": "one-arm kettlebell curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "supinated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "supination"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "kettlebell"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and your core braced.",
+      "Hold a kettlebell by the handle in one hand with your arm extended down at your side, palm facing forward or slightly inward."
+    ],
+    "steps": [
+      "Keep your upper arm pinned close to your torso and flex at the elbow to curl the kettlebell upward.",
+      "Contract your biceps firmly at the top of the movement as the weight approaches shoulder height.",
+      "Lower the kettlebell in a controlled arc back to full elbow extension."
+    ],
+    "breathing": "Exhale as you curl the kettlebell upward and inhale as you lower it with control.",
+    "cues": [
+      "Pin your elbow to your side",
+      "Do not swing your hips",
+      "Control the kettlebell on the way down"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to create momentum to move the weight.",
+        "correction": "Brace your core and stay completely upright, choosing a lighter kettlebell if necessary."
+      },
+      {
+        "fault": "Allowing the elbow to drift excessively forward during the lift.",
+        "correction": "Keep your upper arm vertical and stationary beside your ribs throughout the repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a neutral wrist to prevent excessive strain from the off-center mass of the kettlebell."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

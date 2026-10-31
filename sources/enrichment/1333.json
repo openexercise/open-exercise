@@ -1,0 +1,133 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Wrist Curl",
+  "summary": "An isolation exercise that strengthens the forearm flexors by curling dumbbells upward at the wrists while the forearms remain supported.",
+  "aliases": [
+    {
+      "text": "Forearm Curls (underhand grip)",
+      "kind": "common"
+    },
+    {
+      "text": "Palms-Up Dumbbell Wrist Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Dumbbell Wrist Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Supinated Dumbbell Wrist Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-grip"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "supinated",
+  "grip_width": "shoulder",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "forearm-flexors",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hand-intrinsics",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "wrist",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "bench"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit on a flat bench with your feet flat on the floor, holding a dumbbell in each hand with a supinated (underhand) grip.",
+      "Rest your forearms flat along your thighs or across the bench, allowing your wrists and hands to hang off the edge."
+    ],
+    "steps": [
+      "Lower the dumbbells as far as comfortable by extending your wrists toward the floor.",
+      "Curl your wrists upward as high as possible, contracting the flexor muscles on the underside of your forearms.",
+      "Pause briefly at peak contraction before slowly lowering the weights back to the starting stretch."
+    ],
+    "breathing": "Exhale as you curl the dumbbells up; inhale as you lower them into extension.",
+    "cues": [
+      "Keep your forearms glued to the support.",
+      "Isolate the movement strictly to your wrists.",
+      "Control the descent; do not bounce out of the bottom stretch."
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the forearms or elbows off the support to cheat the weight up.",
+        "correction": "Keep your forearms pinned flat against your thighs or the bench throughout the entire set."
+      },
+      {
+        "fault": "Using excessive momentum and snapping the wrists.",
+        "correction": "Use lighter dumbbells and execute a controlled, deliberate contraction with a brief pause at the top."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid hyperextending the wrist under excessive load to prevent wrist strain or tendon irritation."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "is_exercise": true,
+  "name": "Cable Reverse Fly",
+  "summary": "A standing isolation exercise using dual cables crossing the body to target the posterior deltoids and upper back musculature.",
+  "aliases": [
+    {
+      "text": "Reverse Cable Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse Cable Flye",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Cable Rear Delt Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Rear Delt Crossover",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Cable Reverse Fly",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise",
+      "horizontal-pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-posterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "infraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-minor",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set the pulleys on a dual cable crossover station at or slightly above shoulder height.",
+      "Remove any handles to grip the carabiners directly, or attach single D-handles.",
+      "Stand centered between the pulleys with feet hip-width apart.",
+      "Reach across your body to grab the left cable with your right hand and the right cable with your left hand, crossing the cables in front of you.",
+      "Step back slightly to establish tension, keeping a tall chest and a very slight, fixed bend in your elbows."
+    ],
+    "steps": [
+      "Pull your hands outward and backward in a wide horizontal arc across your chest.",
+      "Squeeze your rear deltoids firmly at the peak of the movement, ensuring your elbows remain locked in their slight bend.",
+      "Slowly reverse the motion under control, returning your arms across your body until you feel a gentle stretch in the back of your shoulders."
+    ],
+    "breathing": "Exhale as you pull your arms out to the sides and inhale as you return to the starting position.",
+    "cues": [
+      "Lead with the elbows, not the hands.",
+      "Keep the elbow angle fixed throughout.",
+      "Pull out wide rather than straight back."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending and extending the elbows like a triceps extension or row.",
+        "correction": "Maintain a fixed, soft bend in the elbows throughout the entire repetition."
+      },
+      {
+        "fault": "Shrugging the shoulders upward toward the ears.",
+        "correction": "Depress the shoulder blades and keep the upper traps relaxed to isolate the rear deltoids."
+      },
+      {
+        "fault": "Using torso momentum to swing the weight back.",
+        "correction": "Brace the core, keep the torso stationary, and reduce the load if necessary."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Select a light to moderate weight to ensure strict joint mechanics and avoid excessive strain on the shoulder joint."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

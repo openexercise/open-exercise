@@ -1,0 +1,176 @@
+{
+  "is_exercise": true,
+  "name": "Feet-Elevated Pike Push-Up",
+  "summary": "An inverted bodyweight pressing variation where the feet rest on an elevated surface to increase loading on the shoulders and triceps.",
+  "aliases": [
+    {
+      "text": "Box Handstand Push-up",
+      "kind": "common"
+    },
+    {
+      "text": "Box Pike Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Elevated Pike Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Bench Pike Push-Up",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "inverted",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "plyo-box",
+        "bench",
+        "chair",
+        "step"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Place your hands shoulder-width apart on the floor about two to three feet in front of a sturdy box or bench.",
+      "Step your feet onto the elevated surface and walk your hands backward until your hips are bent at roughly ninety degrees and stacked directly over your shoulders.",
+      "Engage your core to maintain a neutral spine, keeping your legs straight or slightly soft at the knees."
+    ],
+    "steps": [
+      "Lower your head forward and downward by bending at the elbows, aiming for the crown of your head to touch lightly in front of your hands to form a tripod shape.",
+      "Pause briefly at the bottom without resting your weight on your head.",
+      "Press through your palms to extend your elbows, pushing upward and slightly backward to return your head between your shoulders at full lockout."
+    ],
+    "breathing": "Inhale as you lower down toward the floor, and exhale forcefully as you press back up to the starting position.",
+    "cues": [
+      "Stack hips directly over hands",
+      "Make a triangle with your head and hands",
+      "Push the floor away at the top",
+      "Keep elbows tucked to forty-five degrees"
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbows out excessively wide, shifting stress away from the shoulders onto the joint capsules.",
+        "correction": "Track elbows inward at roughly a forty-five degree angle relative to your torso as you lower."
+      },
+      {
+        "fault": "Lowering the head straight down between the hands instead of forward, reducing range of motion and compromising shoulder mechanics.",
+        "correction": "Lower the crown of your head forward so your hands and head form the points of a triangle at the bottom."
+      },
+      {
+        "fault": "Hips drifting backward away from the hands, turning the movement into an incline horizontal push.",
+        "correction": "Keep your hips pushed forward and stacked vertically over your shoulders throughout the repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the elevated surface is stable and will not slide during the set.",
+        "Do not train to absolute muscle failure where you could collapse onto your head or neck."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Biceps Curl",
+  "summary": "A free-weight isolation exercise that targets the elbow flexors by curling dumbbells with forearm supination.",
+  "aliases": [
+    {
+      "text": "Dumbbell Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Biceps Curls With Dumbbell",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Dumbbell Curl",
+      "kind": "common"
+    },
+    {
+      "text": "DB Curl",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Supinating Dumbbell Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "rotating",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "supination",
+        "pronation"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and a slight bend in your knees.",
+      "Hold a dumbbell in each hand at your sides with arms fully extended and palms facing inward toward your thighs."
+    ],
+    "steps": [
+      "Keeping your upper arms pinned to your sides, bend your elbows to curl the dumbbells upward.",
+      "Rotate your forearms as you lift so your palms face upward by the midpoint of the movement.",
+      "Continue curling until the dumbbells reach shoulder height and your biceps are fully contracted.",
+      "Pause briefly at the peak contraction, then lower the dumbbells under control while rotating your wrists back to the neutral starting position."
+    ],
+    "breathing": "Exhale as you curl the dumbbells up, and inhale as you lower them to the starting position.",
+    "cues": [
+      "Keep your elbows pinned to your ribs.",
+      "Turn your pinkies up at the top.",
+      "Lower under control without swinging."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso or using hip momentum to lift the weights.",
+        "correction": "Brace your core, keep your torso stationary, and reduce the weight if necessary."
+      },
+      {
+        "fault": "Flaring the elbows out or drifting them excessively forward.",
+        "correction": "Keep your upper arms vertical and pinned against the sides of your ribcage throughout the movement."
+      },
+      {
+        "fault": "Cutting the eccentric range of motion short.",
+        "correction": "Lower the dumbbells completely until your elbows reach full extension at the bottom."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid hyperextending the lower back while lifting heavy loads."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

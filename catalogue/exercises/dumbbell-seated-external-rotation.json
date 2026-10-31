@@ -1,0 +1,230 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Seated Dumbbell External Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell External Rotation on Knee",
+      "kind": "common"
+    },
+    {
+      "text": "Poliquin External Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "External Rotation Stretch",
+      "kind": "misspelling"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "infraspinatus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-minor",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "supraspinatus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "external-rotation",
+          "internal-rotation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "rehabilitation",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "rotation"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "bench",
+      "mat"
+    ],
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1835"
+  },
+  "id": "oec:dumbbell-seated-external-rotation",
+  "instructions": {
+    "setup": [
+      "Sit on a flat bench or the floor with one knee raised and bent to approximately 90 degrees.",
+      "Hold a light dumbbell in the working hand and rest the elbow on top of the raised knee.",
+      "Position your upper arm perpendicular to your torso and bend the elbow to a fixed 90-degree angle."
+    ],
+    "steps": [
+      "Maintain a stable, upright posture and stabilize the shoulder blade.",
+      "Rotate your shoulder to raise the dumbbell upward until your forearm is vertical.",
+      "Pause briefly at the top of the movement.",
+      "Slowly lower the dumbbell back down under control until your forearm is roughly parallel to the ground.",
+      "Complete the set and repeat on the opposite side."
+    ],
+    "breathing": "Exhale as you rotate the weight upward and inhale as you lower it under control.",
+    "cues": [
+      "Keep the elbow pinned to the knee",
+      "Pivot cleanly through the shoulder",
+      "Maintain a strict 90-degree elbow bend"
+    ],
+    "common_faults": [
+      {
+        "fault": "Extending the elbow instead of rotating the shoulder",
+        "correction": "Lock the elbow at 90 degrees throughout the entire repetition so only the shoulder rotates."
+      },
+      {
+        "fault": "Shrugging the shoulder or using excessive body English to lift the weight",
+        "correction": "Keep your shoulder blade retracted and depressed, and choose a lighter load."
+      },
+      {
+        "fault": "Rushing through the eccentric phase",
+        "correction": "Lower the dumbbell smoothly over two to three seconds to maintain constant muscular tension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Start with very light weights, as the external rotators are small muscles prone to strain when overloaded."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Dumbbell Seated External Rotation",
+  "previous_ids": [
+    "oec:external-rotation-stretch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: External Rotation Stretch",
+        "url": "https://wger.de/en/exercise/1835/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Croak6728"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-external-rotation"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-external-rotation"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-shoulder-external-rotation"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-side-lying-external-rotation"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:side-lying-dumbbell-external-rotation"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A unilateral rotator cuff exercise performed seated with the elbow braced on the knee to isolate shoulder external rotators."
+}

@@ -1,0 +1,192 @@
+{
+  "is_exercise": true,
+  "name": "Suspension Trainer Oblique Crunch",
+  "summary": "A core exercise performed in a suspended plank position, driving both knees toward alternating elbows to target the obliques and deep abdominals.",
+  "aliases": [
+    {
+      "text": "TRX Oblique Crunch",
+      "kind": "brand"
+    },
+    {
+      "text": "TRX Obliques",
+      "kind": "brand"
+    },
+    {
+      "text": "Suspension Trainer Oblique Knee Tuck",
+      "kind": "common"
+    },
+    {
+      "text": "TRX Knee Tuck to Elbow",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "rotation",
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "prone",
+  "stance_width": "narrow",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "external-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "synergist"
+    },
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion",
+        "rotation"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "suspension-trainer"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Adjust the suspension trainer foot cradles to mid-calf height.",
+      "Place your feet in the cradles, toes pointing down, and assume a rigid high-plank position with your hands stacked directly under your shoulders.",
+      "Engage your glutes and core to establish a flat, neutral spine from head to heels."
+    ],
+    "steps": [
+      "Keeping your feet pressed together, bend your knees and pull them diagonally forward toward the outside of your right elbow.",
+      "Pause momentarily at the peak contraction, squeezing your obliques.",
+      "Extend your legs in a controlled manner back to the starting center plank position without letting your hips sag.",
+      "Repeat the movement by pulling your knees diagonally toward your left elbow, alternating sides each repetition."
+    ],
+    "breathing": "Exhale forcefully as you drive your knees toward your elbow; inhale as you smoothly extend back into the neutral plank.",
+    "cues": [
+      "Press the floor away.",
+      "Knees tight together.",
+      "Drive across to the elbow.",
+      "Lock out the plank each rep."
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging the hips and hyperextending the lower back upon leg extension.",
+        "correction": "Reset into a solid plank every repetition by bracing your core and squeezing your glutes before starting the next tuck."
+      },
+      {
+        "fault": "Piking the hips straight up instead of rotating and driving the knees toward the elbow.",
+        "correction": "Focus on driving the knees diagonally forward across your torso rather than elevating the pelvis toward the ceiling."
+      },
+      {
+        "fault": "Rushing through repetitions using momentum from the swinging straps.",
+        "correction": "Move with deliberate control, pausing briefly at both the tucked position and the fully extended plank."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the anchor point is rated to support your bodyweight and the straps are securely fastened before mounting."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

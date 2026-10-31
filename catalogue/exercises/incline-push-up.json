@@ -1,0 +1,229 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Hands-Elevated Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Pushup",
+      "kind": "common"
+    },
+    {
+      "text": "Elevated Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Push-Ups | Incline",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "bench",
+        "adjustable-bench",
+        "plyo-box",
+        "step"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1111"
+  },
+  "id": "oec:incline-push-up",
+  "instructions": {
+    "setup": [
+      "Place your hands slightly wider than shoulder-width apart on the edge of a sturdy bench or elevated surface.",
+      "Step your feet back until your body forms a straight line from your head to your heels.",
+      "Engage your core and glutes to maintain a rigid plank position."
+    ],
+    "steps": [
+      "Inhale as you lower your chest toward the edge of the elevated surface by bending your elbows.",
+      "Keep your elbows angled at roughly 45 degrees relative to your torso rather than flared out wide.",
+      "Lower yourself until your chest lightly touches or comes just above the edge of the surface.",
+      "Exhale and press firmly through your palms to return to the starting position with elbows extended."
+    ],
+    "breathing": "Inhale smoothly on the descent and exhale forcefully as you press away from the surface.",
+    "cues": [
+      "Body like a plank.",
+      "Lead with the chest, not the chin.",
+      "Screw your hands into the surface."
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging at the hips or hyper-extending the lower back.",
+        "correction": "Squeeze your glutes and brace your abdominals to keep the hips level with the shoulders."
+      },
+      {
+        "fault": "Flaring elbows out perpendicular to the torso.",
+        "correction": "Tuck your elbows to roughly 45 degrees to protect the shoulders and better engage the chest."
+      },
+      {
+        "fault": "Craning the neck forward to reach the bench early.",
+        "correction": "Keep your neck packed in a neutral position with your gaze directed slightly ahead of your hands."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the elevated surface is stable and will not slide away during the exercise."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Incline Push-Up",
+  "previous_ids": [
+    "oec:push-ups-incline"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Push-Ups | Incline",
+        "url": "https://wger.de/en/exercise/1111/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "anon1337"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:push-up"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:push-up"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:wall-push-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "support",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A regression of the standard push-up performed with the hands elevated on a bench or sturdy platform to reduce the percentage of body weight being pressed."
+}

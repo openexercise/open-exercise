@@ -1,0 +1,172 @@
+{
+  "is_exercise": true,
+  "name": "Single-Arm Cable Lateral Raise",
+  "summary": "An isolation exercise that uses a low cable pulley to target the lateral deltoid with continuous resistance throughout the movement.",
+  "aliases": [
+    {
+      "text": "Cable Single-Arm Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Unilateral Cable Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Cable Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Cable One-Arm Side Lateral Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-lateral",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "supraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set the cable pulley to its lowest position and attach a single D-handle.",
+      "Stand sideways to the pulley with your feet hip-width apart.",
+      "Reach across your body with the outside arm to grip the handle with a neutral or overhand grip.",
+      "Stand tall with a slight bend in the working elbow and hold the machine upright with your non-working hand for balance."
+    ],
+    "steps": [
+      "Raise your working arm out to the side in a smooth arc until your elbow and hand are at shoulder height.",
+      "Pause briefly at the top to contract the lateral deltoid.",
+      "Lower the cable slowly under control back across your body to the starting position.",
+      "Complete the desired reps, then turn around and repeat with the other arm."
+    ],
+    "breathing": "Exhale as you raise the cable out to the side; inhale as you lower it back down.",
+    "cues": [
+      "Lead with the elbow.",
+      "Keep the wrist relaxed and below the elbow.",
+      "Stay upright without leaning or swinging."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to generate momentum.",
+        "correction": "Reduce the weight and hold the upright cable post to anchor your body in place."
+      },
+      {
+        "fault": "Shrugging the shoulder excessively with the upper traps.",
+        "correction": "Keep your shoulder blade depressed and focus on driving the elbow outward rather than upward."
+      },
+      {
+        "fault": "Raising the arm well above shoulder level.",
+        "correction": "Stop when your upper arm reaches roughly parallel to the floor to keep tension on the deltoid."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Keep the working elbow soft, never hyperextended, to protect the elbow joint."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

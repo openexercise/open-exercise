@@ -1,0 +1,207 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Lying Triceps Kickback",
+      "kind": "common"
+    },
+    {
+      "text": "Chest-Supported Dumbbell Triceps Kickback",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Dumbbell Triceps Kickback",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Incline Triceps Kickback",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1490"
+  },
+  "id": "oec:dumbbell-incline-triceps-kickback",
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to a moderate incline (around 45 to 60 degrees).",
+      "Hold a dumbbell in each hand with a neutral grip (palms facing inward).",
+      "Lie chest-down against the incline pad with your feet firmly planted on the floor.",
+      "Pull your elbows up and back alongside your torso until your upper arms are roughly parallel to your torso."
+    ],
+    "steps": [
+      "Keep your upper arms locked in place and extend your elbows, pressing the dumbbells backward.",
+      "Contract your triceps firmly at the top of the movement when your arms reach full extension.",
+      "Lower the dumbbells under control back to a 90-degree elbow bend without letting your upper arms drop."
+    ],
+    "breathing": "Exhale as you extend your elbows back; inhale as you return the dumbbells to the starting position.",
+    "cues": [
+      "Pin your elbows to your sides",
+      "Only move the forearms",
+      "Squeeze your triceps at the lockout"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the upper arms forward and back to gain momentum.",
+        "correction": "Lock your upper arms stationary against your ribs so only your forearms hinge at the elbow."
+      },
+      {
+        "fault": "Dropping the elbows below torso level during the set.",
+        "correction": "Engage your rear delts and upper back to hold your elbows high throughout the entire range of motion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use moderate to light weights to avoid excessive strain on the shoulder joint and elbow tendon."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Incline Triceps Kickback",
+  "previous_ids": [
+    "oec:lying-triceps-kickback"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Lying Triceps Kickback",
+        "url": "https://wger.de/en/exercise/1490/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Moffi"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-triceps-kickback"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-triceps-kickback"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-triceps-kickback"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "prone"
+  },
+  "status": "active",
+  "summary": "An isolation exercise that targets the triceps by extending the elbows while supported chest-down on an incline bench."
+}

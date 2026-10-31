@@ -1,0 +1,155 @@
+{
+  "is_exercise": true,
+  "name": "Cable Triceps Pushdown",
+  "summary": "An isolation exercise using a high cable pulley and bar attachment to target the triceps through elbow extension.",
+  "aliases": [
+    {
+      "text": "Cable Pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "Triceps Pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "Straight Bar Cable Pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Tricep Pushdown",
+      "kind": "misspelling"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "narrow",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "anconeus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach a straight or angled bar to a high cable pulley.",
+      "Grasp the bar with an overhand (pronated) grip, roughly shoulder-width or slightly narrower.",
+      "Step close to the cable, hinge forward slightly at the hips, brace your core, and pin your upper arms tight to your ribs."
+    ],
+    "steps": [
+      "Begin with your elbows fully flexed at roughly chest height while keeping your upper arms stationary.",
+      "Push the bar straight down by extending your elbows until your arms are fully locked out.",
+      "Squeeze your triceps firmly at the bottom of the movement.",
+      "Control the bar back up to the starting position under tension, allowing full elbow flexion without letting your upper arms drift forward."
+    ],
+    "breathing": "Exhale as you push the bar down into full extension, and inhale as you return to the starting position.",
+    "cues": [
+      "Glue your elbows to your sides",
+      "Snap the arms straight at the bottom",
+      "Control the weight on the way up"
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring or drifting the elbows forward and backward during repetitions.",
+        "correction": "Lock your upper arms against your torso and move strictly at the elbow joint."
+      },
+      {
+        "fault": "Using torso momentum or leaning heavily over the bar to press the weight down.",
+        "correction": "Reduce the load and maintain a steady, slightly hinged torso posture throughout the set."
+      },
+      {
+        "fault": "Cutting the range of motion short at the top or bottom.",
+        "correction": "Allow full flexion at the top for a deep stretch and reach complete extension at the bottom."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the attachment carabiner is fully locked before loading the cable."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

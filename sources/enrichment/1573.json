@@ -1,0 +1,172 @@
+{
+  "is_exercise": true,
+  "name": "Ab Wheel Rollout",
+  "summary": "An anti-extension core exercise performed by rolling a wheel forward from a kneeling position to challenge the anterior trunk muscles.",
+  "aliases": [
+    {
+      "text": "Ab Wheel",
+      "kind": "common"
+    },
+    {
+      "text": "Ab Roller",
+      "kind": "common"
+    },
+    {
+      "text": "Ab Roller Rollout",
+      "kind": "common"
+    },
+    {
+      "text": "Kneeling Ab Wheel Rollout",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "kneeling",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "external-oblique",
+      "role": "synergist"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "synergist"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-long-head",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "downward-rotation",
+        "protraction"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "ab-wheel"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Kneel on a padded mat with knees hip-width apart.",
+      "Grasp the handles of the ab wheel firmly with an overhand grip, positioning it directly beneath your shoulders with your arms straight."
+    ],
+    "steps": [
+      "Brace your core and tuck your pelvis slightly to establish a neutral to hollow spine position.",
+      "Slowly roll the wheel forward in a controlled motion, extending your hips and shoulders toward the floor while keeping your abdominals fully engaged.",
+      "Roll out as far as your strength allows without letting your lower back sag into hyperextension.",
+      "Pull through your lats and contract your abdominal wall to roll the wheel back toward your knees until you return to the starting position."
+    ],
+    "breathing": "Inhale deeply as you roll forward into extension, and exhale forcefully as you pull the wheel back beneath your shoulders.",
+    "cues": [
+      "Keep your ribs pulled down toward your hips",
+      "Don't let your lower back collapse",
+      "Pull back with your core, not by sitting onto your heels"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lumbar hyperextension during the rollout.",
+        "correction": "Shorten the range of motion and maintain posterior pelvic tilt to keep tension on the abdominals rather than the spine."
+      },
+      {
+        "fault": "Leading the return by shifting the hips backward first.",
+        "correction": "Initiate the return simultaneously through the shoulders and trunk rather than breaking at the hips."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Stop rollout progression well before the point where spinal extension occurs.",
+        "Individuals with existing lower back pathology should master static anti-extension drills before attempting wheel rollouts."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

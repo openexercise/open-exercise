@@ -1,0 +1,168 @@
+{
+  "is_exercise": true,
+  "name": "Cable Low-to-High Fly",
+  "summary": "A standing cable fly variation where the arms pull diagonally upward and inward to target the clavicular head of the pectoralis major.",
+  "aliases": [
+    {
+      "text": "Low-to-High Cable Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Low Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Low Cable Crossover",
+      "kind": "common"
+    },
+    {
+      "text": "Low-to-High Cable Crossover",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Upper Chest Fly",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-chest-fly"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "supinated",
+  "stance_kind": "staggered",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "horizontal-adduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "upward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set both pulleys to the lowest position on a dual-cable station and attach single D-handles.",
+      "Grasp a handle in each hand with palms facing forward or slightly upward.",
+      "Step forward into a staggered stance to create tension on the cables, keeping the chest proud and torso upright with a slight forward lean."
+    ],
+    "steps": [
+      "Start with arms extending down and slightly behind the torso, elbows soft with a slight fixed bend.",
+      "Sweep the hands upward and inward in a wide arc until they meet around chest to chin height.",
+      "Squeeze the upper chest firmly at peak contraction for a brief pause.",
+      "Slowly lower the handles along the same arc back to the starting stretch under control."
+    ],
+    "breathing": "Exhale while sweeping the cables upward together; inhale as you slowly lower them back down.",
+    "cues": [
+      "Lead with the inside of your elbows.",
+      "Hug an imaginary tree upward.",
+      "Keep the elbow angle locked throughout."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending and extending the elbows excessively, turning the fly into a bicep curl.",
+        "correction": "Maintain a fixed, slight bend in the elbows from start to finish."
+      },
+      {
+        "fault": "Using excessive body swing and momentum from the hips to heave the weight up.",
+        "correction": "Brace your core, maintain a steady staggered stance, and use only shoulder movement."
+      },
+      {
+        "fault": "Shrugging the shoulders upward toward the ears at the top of the movement.",
+        "correction": "Keep your shoulder blades depressed and focus on driving the humerus across the upper chest."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not allow the cables to aggressively overstretch your shoulders behind your body at the bottom of the movement."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Lateral-to-Front Raises",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Lateral to Anterior Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell L-to-F Raise",
+      "kind": "abbreviation"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-lateral",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "supraspinatus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "abduction",
+          "adduction",
+          "flexion",
+          "extension",
+          "horizontal-adduction",
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "downward-rotation",
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "351"
+  },
+  "id": "oec:dumbbell-lateral-to-front-raise",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and a slight bend in your knees.",
+      "Hold a dumbbell in each hand at your sides with a pronated or neutral-to-pronated grip.",
+      "Set your shoulder blades back and down and brace your core."
+    ],
+    "steps": [
+      "With a soft bend in your elbows, raise the dumbbells out to your sides until they reach shoulder height.",
+      "Keeping your arms extended and parallel to the floor, sweep the dumbbells forward across your chest until they meet directly in front of your shoulders.",
+      "Lower the dumbbells with control down the front of your thighs.",
+      "Reverse the movement by raising the dumbbells straight out in front to shoulder height.",
+      "Sweep the dumbbells outward in a reverse fly motion back to the lateral position at shoulder level.",
+      "Lower the dumbbells slowly back down to your sides to complete one repetition."
+    ],
+    "breathing": "Inhale before initiating the raise, exhale as you sweep the dumbbells across and during peak concentric phases, maintaining steady breaths throughout the sequence.",
+    "cues": [
+      "Lead with your elbows on the lateral raise.",
+      "Keep the weights at shoulder level during the horizontal sweep.",
+      "Do not lean back or swing the hips."
+    ],
+    "common_faults": [
+      {
+        "fault": "Using excessive momentum or arching the lower back to swing the weights up.",
+        "correction": "Select lighter dumbbells, keep the ribcage down, and brace the core firmly."
+      },
+      {
+        "fault": "Letting the arms drop significantly below shoulder height during the horizontal transition.",
+        "correction": "Pause momentarily at the top of the raise and actively hold the deltoids engaged while sweeping across."
+      },
+      {
+        "fault": "Shrugging the shoulders toward the ears excessively.",
+        "correction": "Depress the shoulder blades before lifting and avoid raising the arms higher than shoulder level."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use significantly lighter dumbbells than standard lateral or front raises due to prolonged time under tension and long lever arm."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Lateral to Front Raise",
+  "previous_ids": [
+    "oec:lateral-to-front-raises"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Lateral-to-Front Raises",
+        "url": "https://wger.de/en/exercise/351/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "nate303303"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-lateral-raise"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-front-raise"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-lateral-and-front-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-lateral-and-front-raise"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A dumbbell shoulder combination movement that flows from a lateral raise into horizontal adduction, lowers into a front raise, and reverses the sequence."
+}

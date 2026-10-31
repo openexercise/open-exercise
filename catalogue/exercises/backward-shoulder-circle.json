@@ -1,0 +1,202 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Backward Shoulder Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse Shoulder Circle",
+      "kind": "common"
+    },
+    {
+      "text": "Backward Elbow Circle",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-posterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "circumduction",
+          "extension",
+          "external-rotation"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "elevation",
+          "depression",
+          "retraction"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1005"
+  },
+  "id": "oec:backward-shoulder-circle",
+  "instructions": {
+    "setup": [
+      "Stand or sit upright with your spine neutral and shoulders relaxed.",
+      "Place your fingertips lightly on top of your shoulders with your elbows pointing out to the sides."
+    ],
+    "steps": [
+      "Trace large, smooth circles backward with your elbows, moving them forward, upward, backward, and downward.",
+      "Squeeze your shoulder blades together and down as your elbows pass through the rear and bottom of the circle.",
+      "Continue circling backward in a continuous, controlled rhythm for the desired repetitions or duration."
+    ],
+    "breathing": "Breathe smoothly and continuously, inhaling as the chest opens and exhaling as the elbows cycle forward.",
+    "cues": [
+      "Lead with the elbows",
+      "Open the chest",
+      "Pinch your shoulder blades on the way back"
+    ],
+    "common_faults": [
+      {
+        "fault": "Arching the lower back to compensate for limited shoulder mobility.",
+        "correction": "Brace your core and keep your ribcage down throughout the movement."
+      },
+      {
+        "fault": "Rushing through a small, jerky range of motion.",
+        "correction": "Slow down and actively draw the largest smooth circle possible with your elbows."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you feel sharp pain or pinching in the shoulder, reduce the diameter of the circle or stop."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Backward Shoulder Circle",
+  "previous_ids": [
+    "oec:backward-shoulder-rotation"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Backward shoulder rotation",
+        "url": "https://wger.de/en/exercise/1005/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:backward-arm-circle"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:backward-arm-circle"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A dynamic mobility exercise where the shoulders and elbows trace backward circular paths to warm up the shoulder girdle and improve range of motion."
+}

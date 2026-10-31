@@ -1,0 +1,189 @@
+{
+  "is_exercise": true,
+  "name": "T-Bar Row",
+  "summary": "A bent-over compound row performed straddling a barbell or dedicated apparatus to build back thickness and strength.",
+  "aliases": [
+    {
+      "text": "T Bar Row",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Barbell T-Bar Row",
+      "kind": "common"
+    },
+    {
+      "text": "Corner Row",
+      "kind": "common"
+    },
+    {
+      "text": "Landmine T-Bar Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "bent-over",
+  "grip_orientation": "neutral",
+  "grip_width": "narrow",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell",
+        "landmine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "weight-plate"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Anchor one end of a barbell into a landmine sleeve or a corner, and load weight plates onto the working end.",
+      "Straddle the barbell facing away from the anchor point with your feet shoulder-width apart.",
+      "Hinge at the hips and slightly bend your knees until your torso is angled at approximately 45 degrees relative to the floor.",
+      "Slip a V-handle attachment under the barbell shaft just beneath the weight collar and grasp it with both hands in a neutral grip."
+    ],
+    "steps": [
+      "Brace your core, maintain a neutral spine, and lift the plates slightly off the floor to establish the starting position.",
+      "Row the barbell upward toward your lower chest or upper abdomen by driving your elbows backward and retracting your shoulder blades.",
+      "Squeeze your upper and middle back firmly at the peak of the movement without rocking your torso.",
+      "Lower the weight smoothly under control until your arms are fully extended."
+    ],
+    "breathing": "Inhale as you lower the weight, and exhale forcefully as you pull the bar toward your torso.",
+    "cues": [
+      "Drive your elbows toward the ceiling",
+      "Keep your chest proud and your spine locked",
+      "Pull with your back, not your hips"
+    ],
+    "common_faults": [
+      {
+        "fault": "Using excessive hip thrust to heave the weight upward",
+        "correction": "Keep your torso stationary at 45 degrees and focus on moving the weight solely with your arms and back."
+      },
+      {
+        "fault": "Rounding the lower back under load",
+        "correction": "Set a strong hip hinge with an engaged core and chest elevated before initiating the pull."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use smaller diameter plates (such as 25 lb or 10 kg plates) to allow a greater range of motion without bumping your chest prematurely.",
+        "Stop the set if your lower back fatigues and starts flexing."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Incline W Curl",
+  "summary": "An incline dumbbell curl performed with the arms externally rotated outward to form a W shape at peak contraction, emphasizing the short head of the biceps.",
+  "aliases": [
+    {
+      "text": "Incline Dumbbell W Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Seated W Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Incline W Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell W Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "incline_degrees": 60,
+  "grip_orientation": "supinated",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-short-head",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-long-head",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "supination"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "external-rotation",
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "adjustable-bench"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an incline of approximately 60 degrees.",
+      "Sit back against the pad with your head and torso supported and feet planted flat on the floor.",
+      "Hold a dumbbell in each hand with your arms hanging fully extended at your sides.",
+      "Externally rotate your shoulders so that your palms face outward and away from your torso at a roughly 45-degree angle."
+    ],
+    "steps": [
+      "Keeping your upper arms stationary, curl both dumbbells diagonally upward and outward toward your shoulders.",
+      "Pause and squeeze your biceps at the top of the movement, where your arms and torso resemble the letter W.",
+      "Lower the dumbbells under strict control along the same diagonal path until your elbows are fully extended."
+    ],
+    "breathing": "Exhale as you curl the weights upward and inhale as you lower them under control.",
+    "cues": [
+      "Keep elbows pinned in space.",
+      "Curl out and up, not straight forward.",
+      "Control the eccentric down to a complete stretch."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the elbows forward or arching off the bench to assist the lift.",
+        "correction": "Keep your back firmly against the bench pad and ensure elbow flexion is the only movement occurring."
+      },
+      {
+        "fault": "Allowing the hands to drift inward into a conventional curl.",
+        "correction": "Maintain external rotation throughout each repetition so the dumbbells track along an outward diagonal line."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a moderate weight to avoid excessive strain on the biceps tendon and anterior shoulder in an externally rotated position."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

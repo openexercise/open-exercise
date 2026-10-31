@@ -1,0 +1,148 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Side Bend",
+  "summary": "A unilateral core exercise performed standing with a dumbbell in one hand to train lateral flexion of the spine and strengthen the obliques.",
+  "aliases": [
+    {
+      "text": "Standing Dumbbell Side Bend",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Oblique Side Bend",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "lateral-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "external-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadratus-lumborum",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "lateral-flexion"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "lateral-flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand upright with feet hip-width apart.",
+      "Hold a dumbbell in one hand at your side with an overhand neutral grip and arm fully extended.",
+      "Place your opposite hand behind your head or resting on your hip.",
+      "Brace your core and align your hips and shoulders facing straight forward."
+    ],
+    "steps": [
+      "Lower the dumbbell down along your outer thigh by flexing your spine strictly to the weighted side.",
+      "Descend until you feel a deep stretch in the opposite oblique, keeping your hips stationary.",
+      "Contract the opposite side obliques and quadratus lumborum to pull your torso back upright.",
+      "Continue past neutral slightly to achieve a peak contraction on the working side before returning to the start.",
+      "Complete all repetitions on one side before switching the dumbbell to the opposite hand."
+    ],
+    "breathing": "Inhale as you laterally flex toward the weighted side; exhale as you contract and pull your torso back upright.",
+    "cues": [
+      "Move purely side-to-side between two panes of glass.",
+      "Keep your hips locked in place.",
+      "Pull with the opposite waistline."
+    ],
+    "common_faults": [
+      {
+        "fault": "Holding dumbbells in both hands simultaneously.",
+        "correction": "Hold only one dumbbell at a time; holding two creates a counterweight that removes tension from the working muscles."
+      },
+      {
+        "fault": "Twisting or leaning forward at the hips.",
+        "correction": "Maintain pure lateral flexion strictly in the frontal plane without rotating the torso or flexing forward."
+      },
+      {
+        "fault": "Using momentum or excessive range of motion that compromises spinal control.",
+        "correction": "Move slowly through a controlled range of motion without jerking the weight up."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessively heavy loads that cause sudden lateral shearing forces on the lumbar spine."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

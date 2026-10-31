@@ -1,0 +1,164 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Forearm Flexor Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Wrist Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "forearm-flexors",
+        "role": "stretched"
+      },
+      {
+        "muscle": "hand-intrinsics",
+        "role": "stretched"
+      },
+      {
+        "muscle": "pronators",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "wrist",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "fingers",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "2686"
+  },
+  "id": "oec:wrist-flexor-stretch",
+  "instructions": {
+    "setup": [
+      "Stand or sit upright with your shoulders relaxed.",
+      "Extend one arm straight out in front of you at shoulder height with your palm facing away or upward, fingers pointing toward the floor."
+    ],
+    "steps": [
+      "Use your opposite hand to gently grasp the fingers and palm of the extended hand.",
+      "Slowly pull the hand and fingers back toward your body until you feel a gentle stretch along the underside of your forearm and wrist.",
+      "Maintain the stretch for the prescribed duration while keeping the elbow straight.",
+      "Release slowly and repeat on the opposite arm."
+    ],
+    "breathing": "Breathe smoothly and deeply throughout the hold, relaxing into the stretch on every exhale.",
+    "cues": [
+      "Keep the elbow straight",
+      "Gentle pressure across the palm",
+      "Keep the shoulder relaxed and down"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the working elbow, which reduces tension on the forearm flexors.",
+        "correction": "Keep the arm fully locked out in front of you throughout the stretch."
+      },
+      {
+        "fault": "Pulling aggressively only on the fingertips rather than distributing tension across the hand.",
+        "correction": "Place your assisting hand across the fingers and palm to evenly distribute the stretch without straining individual joints."
+      },
+      {
+        "fault": "Hunching the shoulder up toward the ear.",
+        "correction": "Actively depress and relax the shoulder blades down away from the ears."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not aggressively force the wrist into extension; stop immediately if you feel numbness, tingling, or sharp nerve sensation in the wrist or fingers."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Wrist Flexor Stretch",
+  "previous_ids": [
+    "oec:wrist-stretch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Wrist Stretch",
+        "url": "https://wger.de/en/exercise/2686/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "tobias08"
+      }
+    ]
+  },
+  "setup": {
+    "position": "standing"
+  },
+  "status": "active",
+  "summary": "A static stretch targeting the forearm flexor muscles and anterior wrist tissues by extending the wrist and fingers with the elbow straight."
+}

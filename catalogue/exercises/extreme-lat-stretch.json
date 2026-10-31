@@ -1,0 +1,193 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "DC Lat Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Doggcrapp Lat Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Loaded Lat Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Loaded Hanging Lat Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stretched"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "stretched"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "stretched"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "elevation",
+          "upward-rotation"
+        ]
+      },
+      {
+        "joint": "fingers",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "not-applicable",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "dip-belt",
+      "weight-plate",
+      "strap"
+    ],
+    "required": [
+      [
+        "pull-up-bar"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1921"
+  },
+  "id": "oec:extreme-lat-stretch",
+  "instructions": {
+    "setup": [
+      "If loading the stretch, secure a weight plate to a dip belt around your waist.",
+      "Stand beneath a sturdy pull-up bar and take a wide overhand grip, using lifting straps if needed to ensure grip failure does not cut the stretch short.",
+      "Step off the platform or bench to suspend your full bodyweight."
+    ],
+    "steps": [
+      "Allow your shoulders to fully elevate and let your lats elongate completely under deadweight.",
+      "Keep your chest lifted slightly and drop your head between your shoulders to deepen the stretch.",
+      "Hold the fully lengthened position steadily without swinging or bouncing for the intended duration.",
+      "Step back onto the platform or carefully place your feet down to exit the stretch safely."
+    ],
+    "breathing": "Maintain slow, deep, diaphragmatic breathing throughout the hold, using long exhalations to sink deeper into the stretch.",
+    "cues": [
+      "Let the shoulders touch your ears",
+      "Breathe into the sides of your ribcage",
+      "Stay relaxed and hang heavy"
+    ],
+    "common_faults": [
+      {
+        "fault": "Actively engaging the back and pulling upward instead of allowing a passive dead hang.",
+        "correction": "Fully relax the shoulder girdle and allow the weight to pull your arms straight overhead."
+      },
+      {
+        "fault": "Losing grip before the target duration is reached.",
+        "correction": "Use lifting straps to secure your hands to the bar so grip strength is not the limiting factor."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not jump down abruptly after the stretch; ensure a secure step or bench is directly beneath you.",
+        "Avoid adding heavy external load until you can comfortably tolerate long bodyweight hangs."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "bodyweight-plus-external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "load",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Extreme Lat Stretch",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Extreme Lat Stretch",
+        "url": "https://wger.de/en/exercise/1921/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "wide"
+    },
+    "load_position": "hip",
+    "position": "hanging",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "An intense, prolonged hanging stretch designed to place the latissimus dorsi under maximum passive tension."
+}

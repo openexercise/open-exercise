@@ -1,0 +1,131 @@
+# Enrichment report
+
+What merging did to the wger snapshot. Every line here needs a person's eye.
+
+## Merged because they got the same canonical name
+
+- `oec:alternating-dumbbell-curl`: Alternating Biceps Curls With Dumbbell; Alternating Dumbbell Curl
+- `oec:back-extension`: Hyperextensions; Lower Back Extensions
+- `oec:barbell-back-squat`: Squats; Barbell Full Squat
+- `oec:barbell-bench-press`: Bench Press; Supine press
+- `oec:barbell-bent-over-row`: Bent Over Rowing; Barbell Row (Overhand)
+- `oec:barbell-clean-and-press`: Barbell Clean and press; Clean and Press
+- `oec:barbell-incline-bench-press`: Incline Bench Press - Barbell; Supino inclinado
+- `oec:barbell-overhead-press`: Overhead Press; Overhead Barbell Press
+- `oec:barbell-reverse-curl`: Reverse Curl; Reverse Grip Barbell Curls
+- `oec:barbell-reverse-grip-row`: Bent Over Rowing Reverse; Barbell Row (Underhand)
+- `oec:barbell-romanian-deadlift`: Romanian Deadlift; Barbell Romanian Deadlift (RDL)
+- `oec:barbell-snatch`: Snatch; Snatch OL
+- `oec:barbell-wrist-curl`: Barbell Wrist Curl; Curl De Muñeca Con Barra
+- `oec:bird-dog`: Quadriped Arm and Leg Raise; Bird Dog; Kneeling Superman
+- `oec:bodyweight-forward-lunge`: Bodyweight lunge HD; Unilateral Lunges
+- `oec:bodyweight-split-squat`: Split squats left; Split squats right
+- `oec:bulgarian-split-squat`: Bulgarian split squats left; Bulgarian split squats right
+- `oec:cable-biceps-curl`: Biceps Curl With Cable; Straight Bar Cable Curls
+- `oec:cable-chest-fly`: Fly With Cable; Cable Fly Middle Chest
+- `oec:cable-close-grip-seated-row`: Long-Pulley, Narrow; Seated V-Grip Row
+- `oec:cable-crossover`: Cable Cross-over; Cable Fly Lower Chest
+- `oec:cable-front-raise`: Straight Bar Cable Front Raise; Front Raise (Cable); Cable Front Raise with a small bar
+- `oec:cable-lateral-raise`: Side Lateral Raise (Cable); Side lateral raise - Front (Cable); High-Cable Lateral Raise
+- `oec:cable-low-to-high-fly`: Low Pulley Cable Fly; Cable Fly Upper Chest
+- `oec:cable-neutral-grip-lat-pulldown`: Neutral-grip chest pulldown; Neutral Grip Lat Pulldown
+- `oec:cable-seated-row`: Long-Pulley (low Row); Rowing seated, narrow grip; Seated Cable Row
+- `oec:cable-single-arm-lat-pulldown`: Single arm row; Single-Arm Lat Pulldown
+- `oec:cable-single-arm-triceps-pushdown`: One Arm Triceps Extensions on Cable; Cable Triceps Press
+- `oec:cable-straight-arm-pulldown`: Straight-arm Pull Down (bar Attachment); High-pulley pullover; Straight-Arm Pulldown (Cable)
+- `oec:cable-triceps-pushdown`: Triceps Extensions on Cable; Triceps Extensions on Cable With Bar; Tricep Pushdown on Cable; Triceps Pushdown
+- `oec:chin-up`: Chin Up; Reverse-grip pull-ups
+- `oec:close-grip-push-up`: Close-grip Press-ups; Triceps push up
+- `oec:cross-body-shoulder-stretch`: Delt Stretch; Cross-Body Stretch
+- `oec:crunch`: Crunches; Abdominal Crunch
+- `oec:decline-crunch`: Incline Crunches; Negative Crunches
+- `oec:diaphragmatic-breathing`: Deep breathing (standing or seated); Diaphragmatic Breathing; Relaxed Diaphragmatic Breathing
+- `oec:dumbbell-biceps-curl`: Biceps Curls With Dumbbell; Standing Bicep Curl; Biceps Curl
+- `oec:dumbbell-lateral-raise`: Lateral Raises; Shoulder Raise (Dumbbell); Dumbbell Lateral Raise
+- `oec:dumbbell-overhead-triceps-extension`: Dumbbell Triceps Extension; Triceps Overhead (Dumbbell)
+- `oec:dumbbell-scaption`: Dumbbell Scaption; 45° lateral raises
+- `oec:dumbbell-side-bend`: Side Crunch; Side Dumbbell Trunk Flexion; Side bend; Dumbbell Side Bend
+- `oec:dumbbell-side-lying-external-rotation`: Lying Rotator Cuff Exercise; Side-lying External Rotation
+- `oec:dumbbell-triceps-kickback`: Tricep Dumbbell Kickback; Patadas traseras; Bent-Over Dumbbell Triceps Extension
+- `oec:dumbbell-wrist-curl`: Wrist curl, dumbbells; Forearm Curls (underhand grip)
+- `oec:floor-dip`: Floor dips; Bench Dips On Floor HD
+- `oec:foam-roller-it-band`: Foam Roller Iliotibial band; Foam Roll IT Band
+- `oec:glute-bridge`: Glute Bridge; Hip Raise, Lying
+- `oec:hack-squat-calf-raise`: Calf Raises on Hackenschmitt Machine; Calf Raise using Hack Squat Machine
+- `oec:half-kneeling-hip-flexor-stretch`: Solo Hip Flexor Stretch; Hip Flexor Stretch
+- `oec:hanging-leg-raise`: Hanging Leg Raises; Leg raises pull up bar
+- `oec:incline-dumbbell-y-raise`: Chest-Supported Rear Delt Raise; Incline DB Y-Raise
+- `oec:inverted-row`: Inverted Rows; Australian pull-ups
+- `oec:isometric-neck-lateral-flexion`: Left neck stretch; Right neck stretch
+- `oec:jump-rope`: Skipping - Standard; Jump rope: basic jumps
+- `oec:jumping-jack`: Jumping Jacks; Jumping Jack HD
+- `oec:kegel`: Kegel Exercise; Controlled Kegels
+- `oec:kettlebell-swing`: 2 Handed Kettlebell Swing; Kettlebell Swings; Kettlebell Swing
+- `oec:l-sit`: L Hold; L-sit
+- `oec:leg-press-calf-raise`: Calf Press Using Leg Press Machine; Leg Press Toe Press
+- `oec:levator-scapulae-stretch`: Left levator scapulae stretch; Right levator scapulae stretch
+- `oec:lying-leg-curl`: Leg Curl; Leg Curls (laying)
+- `oec:lying-leg-raise`: Leg Raise; Leg Raises, Lying
+- `oec:machine-chest-fly`: Butterfly; Machine chest fly; Pec Deck
+- `oec:machine-chest-press`: Chest Press; Leverage Machine Chest Press; Seated Bench Press; Flat Machine Press; Machine Chest Press
+- `oec:machine-crunch`: Crunches on Machine; 3008 Abdominal Crunch
+- `oec:machine-hip-abduction`: Seated Hip Abduction; Machine Hip Abduction
+- `oec:machine-incline-chest-press`: Legend Incline Bench Press; Machine Incline Chest Press
+- `oec:machine-lateral-raise`: Machine Lateral Raise; Machine Side Lateral Raises
+- `oec:machine-reverse-fly`: Butterfly Reverse; Pec deck rear delt fly
+- `oec:machine-seated-calf-raise`: Sitting Calf Raises; Machine Seated Calf Raise
+- `oec:machine-shoulder-press`: Diagonal Shoulder Press; Shoulder Press, on Machine
+- `oec:meadows-row`: Meadows Row; Perpendicular Unilateral Landmine Row
+- `oec:neck-roll`: Clockwise neck circles; Counterclockwise neck circles
+- `oec:overhead-triceps-stretch`: Triceps stretch left; Triceps stretch right
+- `oec:parallel-bar-support-hold`: Parallel Bar Hold; Isometria alle parallele
+- `oec:pendulum-squat`: Pendular hack; Pendulum Squat
+- `oec:pike-push-up`: Pike Push Ups; Vpushup
+- `oec:pistol-squat`: Pistol Squat; Pistol squats right
+- `oec:plank`: Plank; Front Plank
+- `oec:pull-up-hold`: Horizontal traction isometry; Pull-up Isometric Hold
+- `oec:quadruped-thoracic-rotation`: Quadruped thoracic rotation left; Quadruped thoracic rotation right
+- `oec:reverse-grip-lat-pulldown`: Underhand Lat Pull Down; Inverted Lat Pull Down
+- `oec:running`: Run; Zone 2 Running
+- `oec:russian-twist`: Russian Twist; Core Rotation
+- `oec:seated-leg-curl`: Leg Curls (sitting); Machine Seated Leg Curl
+- `oec:seated-single-leg-hamstring-stretch`: Single Leg Hamstring Stretch; Hamstring Stretch
+- `oec:side-plank`: Side Plank; Side plank right
+- `oec:single-arm-cable-lateral-raise`: Cable Lateral Raises (Single Arm); Unilateral Cable Lateral Raise
+- `oec:single-arm-dumbbell-preacher-curl`: Single-arm Preacher Curl; Preacher Curl - Externally Rotated
+- `oec:single-arm-dumbbell-row`: Bent Over Dumbbell Rows (Single Arm); One-Arm Heavy Row; One-Arm Dumbbell Row; Dumbbell single arm row
+- `oec:single-leg-glute-bridge`: Single Leg Glute Bridge; Unilateral Hip Thrust
+- `oec:single-leg-standing-calf-raise`: Calf raises, one legged; Calf raises, right leg; Calf raises, left leg
+- `oec:smith-machine-incline-bench-press`: Incline Bench Press - MP; Smith Machine Slight Incline Press
+- `oec:smith-machine-squat`: Squats on Multipress; Smith machine squat
+- `oec:squat-thrust`: Squat Thrust; 4-count burpees
+- `oec:stair-climber`: ClimbMill; Stair Master
+- `oec:standing-elevated-hamstring-stretch`: Elevated Hamstring Stretch; 90/90 Hamstring / Barre-Style Stretch
+- `oec:standing-quadriceps-stretch`: Quad Stretch; Quadriceps Stretch
+- `oec:standing-soleus-stretch`: Standing Soleus Stretch; Soleus / Achilles Stretch
+- `oec:suspension-trainer-row`: Rowing with TRX band; TRX Rows
+- `oec:swimming`: Swimming 50m sprints; Schwimmen; Controlled Brisk Swim
+- `oec:t-bar-row`: Rowing, T-bar; T-Bar row
+- `oec:wall-calf-stretch`: Supported Calf Stretch; Wall Calf Stretch
+- `oec:wall-sit`: Wall Squat; Wall-sit
+- `oec:wall-slide`: Wall Slides; Serratus Wall Slide Stretch
+- `oec:wide-grip-lat-pulldown`: Wide-grip Pulldown; Jalón al pecho con agarre ancho
+
+## Set aside as not being exercises
+
+- Row (wger 508, was `oec:row`)
+- Upper External Oblique (wger 688, was `oec:upper-external-oblique`)
+- Lying Dumbbell Row SS Seated Shrug (wger 923, was `oec:lying-dumbbell-row-ss-seated-shrug`)
+- Bag training (wger 1092, was `oec:bag-training`)
+- Rest (for timed workouts) (wger 1114, was `oec:rest-for-timed-workouts`)
+- Wall Drills (wger 1196, was `oec:wall-drills`)
+- Leg and hip stretch (wger 1589, was `oec:leg-and-hip-stretch`)
+- Guided or free meditation (wger 1592, was `oec:guided-or-free-meditation`)
+- Blaze (wger 1630, was `oec:blaze`)
+- Neutral-grip pull-ups or TRX rows (wger 1738, was `oec:neutral-grip-pull-ups-or-trx-rows`)
+- Banded Shoulder Drills (wger 1838, was `oec:banded-shoulder-drills`)
+- Limber 11 (wger 1949, was `oec:limber-11`)
+- Boxing (wger 2542, was `oec:boxing`)
+- Machine Dip or Triceps Extension (wger 2634, was `oec:machine-dip-or-triceps-extension`)
+- Radio Taiso (wger 2671, was `oec:radio-taiso`)
+- biceps (wger 2697, was `oec:biceps`)

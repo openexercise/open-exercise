@@ -1,0 +1,159 @@
+{
+  "is_exercise": true,
+  "name": "Dead Hang",
+  "summary": "An isometric hang from an overhead bar or edge used to develop grip strength, decompress the spine, and stretch the upper body.",
+  "aliases": [
+    {
+      "text": "Deadhang",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Passive Hang",
+      "kind": "common"
+    },
+    {
+      "text": "Bar Hang",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "mobility",
+      "rehabilitation",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-grip",
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "hanging",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "forearm-flexors",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hand-intrinsics",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stretched"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "fingers",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "elevation"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "pull-up-bar"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "dip-belt",
+    "weight-vest"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand beneath a secure overhead pull-up bar or grip a stable edge.",
+      "Grasp the bar with an overhand, roughly shoulder-width grip, wrapping your thumbs securely around it.",
+      "Step or lower off the platform so your full body weight is suspended by your hands with feet clear of the floor."
+    ],
+    "steps": [
+      "Allow your arms to fully straighten and let your shoulders elevate naturally toward your ears.",
+      "Relax your torso, hips, and legs, letting gravity gently traction your spine and shoulders.",
+      "Maintain a firm, unbroken grip on the bar for the target duration.",
+      "Carefully step back onto the platform or floor to finish the set."
+    ],
+    "breathing": "Breathe slowly and deeply into the abdomen throughout the hold to encourage relaxation and decompression.",
+    "cues": [
+      "White knuckles on the bar",
+      "Relax through the spine",
+      "Breathe into the belly"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging or kicking the legs during the hang.",
+        "correction": "Cross your ankles and keep your lower body still and relaxed beneath your hands."
+      },
+      {
+        "fault": "Actively pulling through the elbows or scapulae.",
+        "correction": "Let your arms extend completely and allow your shoulders to rise passively toward your ears."
+      },
+      {
+        "fault": "Dropping abruptly from full height when grip fatigues.",
+        "correction": "Dismount in a controlled manner before your grip fails completely to avoid jarring your joints."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the bar or edge is securely mounted and capable of supporting your weight.",
+        "Keep a stepping stool or box nearby if you cannot easily reach the floor."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

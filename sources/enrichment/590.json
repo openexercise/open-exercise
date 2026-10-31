@@ -1,0 +1,133 @@
+{
+  "is_exercise": true,
+  "name": "Machine Seated Calf Raise",
+  "summary": "A seated isolation exercise that targets the soleus muscle by performing ankle plantarflexion against a padded knee lever.",
+  "aliases": [
+    {
+      "text": "Seated Calf Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Sitting Calf Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Machine Calf Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-ankle"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "soleus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "tibialis-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "peroneals",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "plate-loaded-machine",
+        "selectorized-machine"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit on the machine and position the balls of your feet on the lower foot platform with your heels hanging off the edge.",
+      "Adjust the thigh pad so it rests comfortably across the lower portion of your thighs, just above your knees.",
+      "Disengage the safety latch by lifting your heels slightly and moving the lever out of the way."
+    ],
+    "steps": [
+      "Lower your heels in a slow, controlled manner until you feel a deep stretch in your calves.",
+      "Pause briefly at the bottom to eliminate elastic bounce.",
+      "Drive through the balls of your feet to press your heels as high as possible into full plantarflexion.",
+      "Squeeze your calves at the peak contraction for a second before descending into the next repetition."
+    ],
+    "breathing": "Exhale as you press upward onto the balls of your feet; inhale as you lower your heels into the stretch.",
+    "cues": [
+      "Push straight through the big toe",
+      "Pause at the bottom stretch",
+      "Full extension at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bouncing out of the bottom of the movement using the Achilles tendon reflex rather than muscular force.",
+        "correction": "Pause for one to two seconds at the bottom of each rep to remove the stretch reflex."
+      },
+      {
+        "fault": "Cutting the range of motion short at either the top or bottom.",
+        "correction": "Lower the heels completely for a full stretch and push up until the ankles are fully extended."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the thigh pad is securely locked before dismounting at the end of the set."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

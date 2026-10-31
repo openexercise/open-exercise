@@ -1,0 +1,225 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Prone Superman",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Back Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Superman Hold",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "erector-spinae",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "multifidus",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "rehabilitation",
+      "strength"
+    ],
+    "movement_patterns": [
+      "spinal-extension"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "636"
+  },
+  "id": "oec:superman",
+  "instructions": {
+    "setup": [
+      "Lie face down on a mat with your legs straight and feet hip-width apart.",
+      "Extend your arms fully overhead with your thumbs pointing upward and palms facing each other.",
+      "Keep your neck in a neutral position with your gaze directed toward the floor."
+    ],
+    "steps": [
+      "Engage your glutes and lower back to smoothly raise your chest, arms, and thighs off the floor simultaneously.",
+      "Hold the elevated contraction at the top for a brief pause while keeping your limbs elongated.",
+      "Slowly lower your arms, chest, and legs back to the starting position under control."
+    ],
+    "breathing": "Inhale to prepare, exhale as you raise your limbs into extension, and inhale smoothly as you lower back down.",
+    "cues": [
+      "Think about reaching long rather than just lifting high",
+      "Squeeze your glutes to lift the legs",
+      "Keep your eyes on the floor to protect your neck"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the cervical spine by craning the neck upward.",
+        "correction": "Keep your gaze directed at the floor and chin slightly tucked throughout the movement."
+      },
+      {
+        "fault": "Bending the knees to lift the feet instead of extending through the hips.",
+        "correction": "Keep your legs straight and focus on lifting the thighs off the floor using your glutes."
+      },
+      {
+        "fault": "Using fast, uncontrolled momentum to bounce off the floor.",
+        "correction": "Move smoothly with a controlled tempo and pause briefly at the top of each repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Individuals with acute lumbar spine pain should limit the range of motion or consult a clinician before performing spinal hyperextension."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Superman",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Superman",
+        "url": "https://wger.de/en/exercise/636/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "baldurmen"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:prisoner-superman"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-back-extension"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "prone",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A bodyweight exercise performed lying prone where the arms and legs are raised simultaneously to strengthen the posterior chain."
+}

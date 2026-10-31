@@ -1,0 +1,182 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Wide-Grip Upright Row",
+  "summary": "A standing vertical pull performed with a wide overhand grip on a barbell, targeting the lateral deltoids and upper back.",
+  "aliases": [
+    {
+      "text": "Wide-Grip Barbell Upright Row",
+      "kind": "common"
+    },
+    {
+      "text": "Wide-Grip Upright Row",
+      "kind": "common"
+    },
+    {
+      "text": "EZ-Bar Wide-Grip Upright Row",
+      "kind": "common"
+    },
+    {
+      "text": "Front Pull Wide",
+      "kind": "misspelling"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-lateral",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell",
+        "ez-bar"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart, holding a barbell or EZ-bar with an overhand (pronated) grip roughly one and a half times shoulder width.",
+      "Let the bar hang at arm's length against your upper thighs with shoulders set down and back and your core braced."
+    ],
+    "steps": [
+      "Initiate the movement by leading upward with your elbows out to the sides.",
+      "Pull the barbell smoothly along the front of your torso until it reaches lower-to-mid chest level and your upper arms are approximately parallel to the floor.",
+      "Pause briefly at the peak of the contraction, keeping the elbows higher than your wrists.",
+      "Lower the barbell under control back down your torso to the starting position."
+    ],
+    "breathing": "Exhale as you pull the bar up toward your chest, and inhale as you lower it with control.",
+    "cues": [
+      "Lead with the elbows.",
+      "Keep the bar skimming close to the shirt.",
+      "Stop at mid-chest."
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling the bar too high toward the chin",
+        "correction": "Stop when upper arms reach roughly parallel to the floor (mid-chest bar height) to avoid subacromial shoulder impingement."
+      },
+      {
+        "fault": "Using a narrow grip",
+        "correction": "Widen your grip beyond shoulder width to bias the lateral deltoids and provide a safer scapular movement arc."
+      },
+      {
+        "fault": "Swinging the torso for momentum",
+        "correction": "Keep your glutes and core tight, lifting strictly using shoulder abduction and elbow flexion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you experience anterior shoulder pinching, reduce the lifting height to lower chest level or perform the movement using an EZ-bar to alleviate wrist and shoulder strain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

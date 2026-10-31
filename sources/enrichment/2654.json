@@ -1,0 +1,167 @@
+{
+  "is_exercise": true,
+  "name": "Cobra Pose",
+  "summary": "A prone yoga posture that gently extends the spine, opens the chest, and stretches the anterior trunk.",
+  "aliases": [
+    {
+      "text": "Bhujangasana",
+      "kind": "common"
+    },
+    {
+      "text": "Cobra Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Gentle Cobra",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "yoga",
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "spinal-extension",
+      "stretch"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "muscles": [
+    {
+      "muscle": "erector-spinae",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "multifidus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stretched"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "stretched"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie face down on the floor or an exercise mat with your legs extended straight behind you, tops of the feet resting on the ground.",
+      "Place your hands flat on the floor underneath your shoulders, keeping your elbows tucked close into your ribcage."
+    ],
+    "steps": [
+      "Press the tops of your feet, thighs, and pelvis firmly into the floor.",
+      "Inhale and begin gently lifting your chest off the floor by engaging your back extensors and lightly pressing into your hands.",
+      "Draw your shoulder blades down and back, keeping a soft bend in your elbows so your pelvis remains grounded.",
+      "Hold the stretch comfortably while extending smoothly through the thoracic spine rather than crunching the lower back.",
+      "Exhale and slowly lower your torso back down to the floor."
+    ],
+    "breathing": "Inhale as you lift and lengthen your spine upward, then breathe slowly and smoothly through your nose while holding the position.",
+    "cues": [
+      "Roll your shoulders down away from your ears",
+      "Lengthen forward and up, don't just bend backward",
+      "Keep your hips glued to the mat"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the pelvis and thighs off the floor, turning the pose into an upward-facing dog before the spine is ready.",
+        "correction": "Keep your pelvis anchored to the floor and only lift your chest as high as comfortable."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears and jamming the neck.",
+        "correction": "Actively pull your shoulder blades down your back and keep the back of your neck long."
+      },
+      {
+        "fault": "Compressing the lumbar spine by pushing excessively with the arms.",
+        "correction": "Use your back muscles to initiate the lift and distribute the extension evenly across the upper back."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid deep extension if you have active acute lower back pain, disc herniations, or spinal stenosis."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

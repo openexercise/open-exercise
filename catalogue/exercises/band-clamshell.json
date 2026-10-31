@@ -1,0 +1,204 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Banded Clamshell",
+      "kind": "common"
+    },
+    {
+      "text": "Resistance Band Clamshell",
+      "kind": "common"
+    },
+    {
+      "text": "Band Clam",
+      "kind": "common"
+    },
+    {
+      "text": "Clamshell with Band",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-medius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-minimus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "piriformis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "tensor-fasciae-latae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "abduction",
+          "external-rotation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "isolation-hip-abduction"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "mini-band",
+        "resistance-band"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1842"
+  },
+  "id": "oec:band-clamshell",
+  "instructions": {
+    "setup": [
+      "Loop a resistance band around both legs, positioning it just above your knees.",
+      "Lie on your side on the floor with your head supported by your lower arm or a pad.",
+      "Bend your hips to about 45 degrees and your knees to about 90 degrees, stacking your hips, knees, and feet directly on top of each other."
+    ],
+    "steps": [
+      "Keeping your feet glued together and your pelvis completely steady, rotate your top knee upward into the air against band resistance.",
+      "Pause for a moment at the top of the movement, focusing on a strong contraction in the outer glute.",
+      "Slowly lower the top knee back to touch the bottom knee while maintaining control against the band tension."
+    ],
+    "breathing": "Exhale as you lift the knee against the band tension; inhale as you lower back to the starting position.",
+    "cues": [
+      "Keep feet glued together.",
+      "Keep hips stacked vertically.",
+      "Squeeze the side of your hip at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling the pelvis backward during the lift to gain extra height.",
+        "correction": "Keep your pelvis perpendicular to the floor and only raise the knee as far as your hip can externally rotate without twisting your spine."
+      },
+      {
+        "fault": "Separating the feet during the repetition.",
+        "correction": "Maintain light, continuous contact between the soles of your feet throughout the entire movement."
+      },
+      {
+        "fault": "Allowing the band to snap the knee down quickly on the eccentric phase.",
+        "correction": "Resist the band tension and lower the knee smoothly over a two- to three-second count."
+      }
+    ],
+    "safety": {
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "elastic"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "band-tension",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Band Clamshell",
+  "previous_ids": [
+    "oec:banded-clamshell"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Banded Clamshell",
+        "url": "https://wger.de/en/exercise/1842/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Croak6728"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:clamshell"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:side-lying-hip-abduction"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:fire-hydrant"
+    }
+  ],
+  "setup": {
+    "position": "side-lying"
+  },
+  "status": "active",
+  "summary": "A side-lying hip exercise using a resistance band looped around the thighs to strengthen the gluteal abductors and external rotators."
+}

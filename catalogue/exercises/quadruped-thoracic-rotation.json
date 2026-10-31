@@ -1,0 +1,236 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Quadruped T-Spine Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Hands and Knees Thoracic Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "All-Fours T-Spine Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Quadruped thoracic rotation left",
+      "kind": "common"
+    },
+    {
+      "text": "Quadruped thoracic rotation right",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "external-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "rotation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "protraction"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "rotation"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1028,1029"
+  },
+  "id": "oec:quadruped-thoracic-rotation",
+  "instructions": {
+    "setup": [
+      "Start on all fours with your wrists stacked directly beneath your shoulders and your knees beneath your hips.",
+      "Engage your core to maintain a neutral, flat spine from pelvis to neck.",
+      "Place one hand behind your head or neck with the elbow pointed outward, keeping the supporting arm firmly planted."
+    ],
+    "steps": [
+      "Rotate your upper torso down and inward, pointing the elevated elbow toward your opposite wrist or floor.",
+      "Reverse the movement by rotating your upper torso open toward the ceiling, driving the elbow upward as far as comfortable without shifting your hips.",
+      "Pause momentarily at the top of the rotation.",
+      "Smoothly return to the starting position and repeat for the desired number of repetitions before switching sides."
+    ],
+    "breathing": "Inhale as you rotate down across your body, and exhale as you rotate open toward the ceiling.",
+    "cues": [
+      "Keep hips square to the floor",
+      "Rotate through your ribcage, not your lower back",
+      "Push the floor away with the supporting hand",
+      "Follow your elbow with your eyes"
+    ],
+    "common_faults": [
+      {
+        "fault": "Shifting hips side to side to cheat rotation.",
+        "correction": "Keep your pelvis level and stationary; sit hips slightly back toward your heels if needed to lock the lumbar spine."
+      },
+      {
+        "fault": "Pulling on the neck with the raised hand.",
+        "correction": "Rest your fingertips lightly behind your head without applying any forward or sideways pressure."
+      },
+      {
+        "fault": "Collapsing into the supporting shoulder.",
+        "correction": "Actively press into the floor through the supporting palm to keep the chest proud and shoulder stable."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Move in a slow, controlled manner and avoid forcing rotational end range."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Quadruped Thoracic Rotation",
+  "previous_ids": [
+    "oec:quadruped-thoracic-rotation-left",
+    "oec:quadruped-thoracic-rotation-right"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Quadruped thoracic rotation left",
+        "url": "https://wger.de/en/exercise/1028/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "tinman"
+      },
+      {
+        "title": "wger: Quadruped thoracic rotation right",
+        "url": "https://wger.de/en/exercise/1029/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "tinman"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:half-kneeling-open-book"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:half-kneeling-thoracic-rotation"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-thoracic-rotation"
+    }
+  ],
+  "setup": {
+    "position": "quadruped",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A quadruped mobility exercise that develops rotational range of motion in the thoracic spine while stabilizing the lumbar spine and pelvis."
+}

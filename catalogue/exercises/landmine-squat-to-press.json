@@ -1,0 +1,257 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Landmine Thruster",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Landmine Squat to Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "squat",
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "mixed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "weight-plate"
+    ],
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "landmine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1829"
+  },
+  "id": "oec:landmine-squat-to-press",
+  "instructions": {
+    "setup": [
+      "Secure one end of a barbell into a landmine attachment and load the desired weight onto the free end.",
+      "Stand facing the barbell with feet shoulder-width apart and toes angled slightly outward.",
+      "Cup the tip of the barbell sleeve securely with both hands held tightly against your upper chest just below chin height."
+    ],
+    "steps": [
+      "Brace your core and lower into a squat by bending at the hips and knees until your thighs are at least parallel to the floor.",
+      "Drive aggressively through your mid-foot and heels to reverse direction and stand up explosively.",
+      "Transfer the momentum from your legs into your upper body, pressing the barbell upward and forward in an arc along the landmine's fixed path.",
+      "Reach full extension overhead while slightly leaning forward into the bar at the top.",
+      "Lower the barbell under control back to your chest as you reset your posture for the next repetition."
+    ],
+    "breathing": "Inhale and brace your trunk before descending into the squat, then exhale forcefully as you drive out of the bottom and press overhead.",
+    "cues": [
+      "Legs drive the bar up",
+      "Stay tall through the torso",
+      "Lean into the finish"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pressing early with the arms before extending the hips and knees.",
+        "correction": "Ensure your lower body provides the initial upward propulsion before initiating the arm press."
+      },
+      {
+        "fault": "Excessive hyperextension of the lumbar spine at lockout.",
+        "correction": "Keep your ribcage pinned down and lean slightly forward into the barbell at the top of the press."
+      },
+      {
+        "fault": "Knees caving inward during the squat descent or drive.",
+        "correction": "Actively push your knees outward in line with your toes throughout the squat."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the landmine base is solidly anchored and will not slip during aggressive forward pressing."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Landmine Squat to Press",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Landmine Squat to Press",
+        "url": "https://wger.de/en/exercise/1829/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "beagle"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-thruster"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-thruster"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-thruster"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-thruster"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:landmine-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "narrow"
+    },
+    "load_position": "chest",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A full-body compound exercise combining a front-loaded landmine squat with an explosive overhead press."
+}

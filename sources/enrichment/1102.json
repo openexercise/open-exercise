@@ -1,0 +1,154 @@
+{
+  "is_exercise": true,
+  "name": "Alternating Reverse Lunge",
+  "summary": "A dynamic bodyweight lower-body exercise where you step backward into a lunge on alternating legs, targeting the quadriceps and glutes while placing less stress on the knees than forward lunges.",
+  "aliases": [
+    {
+      "text": "Alternate Back Lunges",
+      "kind": "common"
+    },
+    {
+      "text": "Alternating Backward Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Alternating Step-Back Lunge",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "weight-vest"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and your hands on your hips or held together in front of your chest.",
+      "Brace your core and keep your gaze directed forward."
+    ],
+    "steps": [
+      "Take a controlled step backward with one leg onto the ball of that foot.",
+      "Lower your hips straight down until both knees are bent to approximately ninety degrees, with the back knee hovering just above the floor.",
+      "Drive through the midfoot and heel of the front leg to push yourself back up to the starting position.",
+      "Repeat the movement by stepping backward with the opposite leg, alternating sides with each repetition."
+    ],
+    "breathing": "Inhale as you step back and lower your body; exhale as you press through the front foot to return to standing.",
+    "cues": [
+      "Chest up, torso upright.",
+      "Drive through the front heel.",
+      "Drop the back knee straight down."
+    ],
+    "common_faults": [
+      {
+        "fault": "Stepping backward directly in line with the front foot, compromising balance.",
+        "correction": "Keep feet roughly hip-width apart as if stepping along railroad tracks rather than a tightrope."
+      },
+      {
+        "fault": "Allowing the front knee to collapse inward (valgus).",
+        "correction": "Actively track the front knee in line with the second and third toes throughout the descent and ascent."
+      },
+      {
+        "fault": "Banging the rear knee into the floor.",
+        "correction": "Control the eccentric descent and stop just above the floor."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain an upright torso to minimize shear stress on the lower back and knees."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

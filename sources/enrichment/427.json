@@ -1,0 +1,154 @@
+{
+  "is_exercise": true,
+  "name": "Decline Crunch",
+  "summary": "An abdominal exercise performed on a decline bench that isolates spinal flexion against gravity.",
+  "aliases": [
+    {
+      "text": "Negative Crunches",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Negative Crunch",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Decline Bench Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Decline Abdominal Crunch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "adjustable-bench",
+        "bench"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "weight-plate",
+    "medicine-ball"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Adjust a decline bench to the desired angle and secure your lower legs snugly beneath the padded rollers.",
+      "Lie back with your head lower than your hips, resting your back fully on the pad.",
+      "Cross your arms across your chest or place your fingertips lightly beside your temples without interlacing your fingers behind your head."
+    ],
+    "steps": [
+      "Contract your abdominals to curl your ribcage toward your pelvis, lifting your head and shoulder blades off the bench.",
+      "Pause at the top of the movement for a brief contraction, keeping tension on your abdominal wall.",
+      "Lower your torso back down in a slow, controlled eccentric motion until your shoulder blades touch the pad, then immediately begin the next repetition without resting."
+    ],
+    "breathing": "Exhale as you curl your torso upward against gravity; inhale smoothly as you lower your body down.",
+    "cues": [
+      "Roll your ribs toward your belt buckle",
+      "Keep your neck neutral",
+      "Control the downward descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the upper body up using hip flexor momentum rather than abdominal contraction.",
+        "correction": "Focus on curling the spine vertebrae by vertebrae and keep your lower back in contact with or close to the pad."
+      },
+      {
+        "fault": "Pulling on the back of the neck with the hands.",
+        "correction": "Cross your arms across your chest or keep your fingertips gently touching your ears."
+      },
+      {
+        "fault": "Dropping quickly on the eccentric phase without muscular tension.",
+        "correction": "Resist gravity on the way down, taking two to three seconds to return to the starting position."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the decline bench leg-catch rollers are fully locked and securely pinned before lying back."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "is_exercise": true,
+  "name": "Cable Single-Arm Lat Pulldown",
+  "summary": "A unilateral vertical pulling exercise performed on a high cable pulley to target the latissimus dorsi and elbow flexors while challenging core stability.",
+  "aliases": [
+    {
+      "text": "Single-Arm Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Unilateral Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable Pulldown",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "neutral",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "adduction",
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "downward-rotation",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable",
+        "selectorized-machine"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "bench"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach a single D-handle to the high pulley of a lat pulldown or cable station.",
+      "Adjust the thigh pads so your legs are firmly secured beneath them when seated.",
+      "Grasp the handle with one hand using a neutral grip, sit down with feet flat on the floor, and allow your working arm to extend fully overhead."
+    ],
+    "steps": [
+      "Initiate the movement by depressing your shoulder blade and driving your elbow down toward your hip.",
+      "Pull the handle down smoothly along the side of your body until your elbow reaches your ribcage and your lat is fully contracted.",
+      "Pause briefly at the bottom without twisting or leaning your torso.",
+      "Control the handle back up to the starting position, allowing the scapula to elevate and the lat to stretch fully under control."
+    ],
+    "breathing": "Exhale as you pull the handle down, and inhale as you return the weight to the overhead position.",
+    "cues": [
+      "Drive your elbow down into your back pocket.",
+      "Keep your chest proud and your ribs locked down.",
+      "Do not rotate your torso to heave the weight."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the torso toward the working side to complete the repetition.",
+        "correction": "Brace the core and keep the shoulders square throughout the entire set."
+      },
+      {
+        "fault": "Leading the pull with the forearm and bicep instead of the back.",
+        "correction": "Depress the scapula first and focus on driving the elbow down rather than pulling with the hand."
+      },
+      {
+        "fault": "Cutting the range of motion short at the top.",
+        "correction": "Allow the arm to reach full extension and the shoulder blade to elevate for a complete stretch on the lat."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the thigh pad holds your lower body securely to prevent being lifted out of the seat."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

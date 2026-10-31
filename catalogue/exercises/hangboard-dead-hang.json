@@ -1,0 +1,238 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Fingerboard Dead Hang",
+      "kind": "common"
+    },
+    {
+      "text": "Hangboard Hang",
+      "kind": "common"
+    },
+    {
+      "text": "Fingerboard Hang",
+      "kind": "common"
+    },
+    {
+      "text": "20mm Edge Hang",
+      "kind": "common"
+    },
+    {
+      "text": "Fingerboard 20 mm edge",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "forearm-flexors",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hand-intrinsics",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "fingers",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "retraction",
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "sport",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-grip",
+      "climb",
+      "vertical-pull"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "step",
+      "plyo-box"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "820"
+  },
+  "id": "oec:hangboard-dead-hang",
+  "instructions": {
+    "setup": [
+      "Stand underneath a securely mounted hangboard, using a stable step or box if needed to reach the edges comfortably.",
+      "Place four fingers of each hand onto the specified edge (such as a 20 mm edge) using an open-hand or strict half-crimp grip.",
+      "Align your wrists straight beneath your hands and position your shoulders directly below your grip."
+    ],
+    "steps": [
+      "Smoothly transfer your full body weight onto your fingers by stepping off the box or bending your knees.",
+      "Actively engage your shoulder girdle by pulling your shoulder blades down and back, maintaining a slight micro-bend in your elbows.",
+      "Hold the hang completely motionless for the targeted duration, keeping your core braced to prevent swinging.",
+      "Step back onto the platform smoothly before your grip fails completely."
+    ],
+    "breathing": "Breathe continuously and rhythmically throughout the hold without holding your breath.",
+    "cues": [
+      "Active shoulders, long neck.",
+      "Micro-bend in the elbows.",
+      "Keep wrists flat and straight.",
+      "Open-hand or half-crimp, no thumb wrap."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hanging completely passively on cold joints with relaxed shoulders up around the ears.",
+        "correction": "Actively depress and retract the scapulae to engage the upper back and protect the shoulder joints."
+      },
+      {
+        "fault": "Using a full closed-crimp grip with the thumb wrapped over the fingers.",
+        "correction": "Use an open-hand or strict half-crimp grip to avoid excessive mechanical stress on finger tendons and A2 pulleys."
+      },
+      {
+        "fault": "Hanging until sudden, complete failure and falling onto the floor.",
+        "correction": "End the set with one to two seconds in reserve and step down under control."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure thorough full-body and finger-specific warm-ups before hanging on small edges.",
+        "Discontinue immediately if you feel sharp, localized pain in the finger joints or pulleys."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Hangboard Dead Hang",
+  "previous_ids": [
+    "oec:fingerboard-20-mm-edge"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Fingerboard 20 mm edge",
+        "url": "https://wger.de/en/exercise/820/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "marcelbader"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:dead-hang"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:dead-hang"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:hangboard-pull-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "hanging"
+  },
+  "status": "active",
+  "summary": "A static bodyweight hang performed on a climbing hangboard edge to develop isometric finger and forearm grip strength."
+}

@@ -1,0 +1,245 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Butterfly Reverse",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse Pec Deck",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse Pec Deck Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Rear Delt Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Reverse Fly Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Pec deck rear delt fly",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-posterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "infraspinatus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "teres-minor",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "pull",
+      "horizontal-pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "139,1775"
+  },
+  "id": "oec:machine-reverse-fly",
+  "instructions": {
+    "setup": [
+      "Adjust the machine handles fully back so they start in front of you.",
+      "Set the seat height so that your hands grip the handles at or slightly below shoulder level.",
+      "Sit facing the chest pad with your torso firmly supported and feet flat on the floor.",
+      "Grasp the handles with a neutral or pronated grip and maintain a slight, fixed bend in your elbows."
+    ],
+    "steps": [
+      "Pull the handles out and back in a wide arc using your rear deltoids.",
+      "Continue horizontally until your upper arms are in line with your torso, pausing briefly at peak contraction.",
+      "Slowly reverse the motion under control, returning the handles to the starting position without letting the weight stack slam."
+    ],
+    "breathing": "Exhale as you pull the handles outward and inhale as you return to the starting position.",
+    "cues": [
+      "Lead with your elbows.",
+      "Keep your chest glued to the pad.",
+      "Do not shrug your shoulders upward."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively bending and extending the elbows during the movement.",
+        "correction": "Lock a slight bend in your elbows at the start and keep the angle constant throughout the entire repetition."
+      },
+      {
+        "fault": "Shrugging the shoulders toward the ears.",
+        "correction": "Depress your shoulder blades and keep your neck relaxed to keep tension on the rear delts rather than the upper traps."
+      },
+      {
+        "fault": "Arching the lower back and pulling the chest off the pad to heave the weight.",
+        "correction": "Lower the weight and maintain firm contact between your sternum and the chest support."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not overextend your shoulders past the plane of your torso, as this places unnecessary stress on the front shoulder capsule."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Machine Reverse Fly",
+  "previous_ids": [
+    "oec:butterfly-reverse",
+    "oec:pec-deck-rear-delt-fly"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Butterfly Reverse",
+        "url": "https://wger.de/en/exercise/139/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      },
+      {
+        "title": "wger: Pec deck rear delt fly",
+        "url": "https://wger.de/en/exercise/1775/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "eufvksruh"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-reverse-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-rear-delt-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:standing-cable-reverse-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-bent-over-reverse-fly"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:dumbbell-bent-over-reverse-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-seated-rear-delt-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:single-arm-cable-rear-delt-fly"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A seated machine isolation exercise targeting the posterior deltoids and upper back musculature through horizontal shoulder abduction."
+}

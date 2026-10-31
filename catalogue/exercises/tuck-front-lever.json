@@ -1,0 +1,215 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Front Lever Tuck",
+      "kind": "common"
+    },
+    {
+      "text": "Tucked Front Lever",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-long-head",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "pull",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "resistance-band"
+    ],
+    "required": [
+      [
+        "pull-up-bar",
+        "gymnastic-rings"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1214"
+  },
+  "id": "oec:tuck-front-lever",
+  "instructions": {
+    "setup": [
+      "Grasp a pull-up bar with an overhand (pronated) grip, hands spaced shoulder-width apart.",
+      "Hang with your arms fully extended and engage your shoulders by depressing the scapulae downward."
+    ],
+    "steps": [
+      "Pull your knees tightly into your chest into a compact tucked position.",
+      "Pull down through straight arms using your lats to rotate your body backward until your back is parallel to the floor.",
+      "Maintain straight elbows, depressed shoulders, and a flat horizontal back.",
+      "Hold the horizontal position for the target duration, then lower under control back to a hang."
+    ],
+    "breathing": "Maintain continuous, shallow diaphragmatic breathing while bracing your core throughout the hold.",
+    "cues": [
+      "Push the bar down toward your hips",
+      "Lock the elbows completely straight",
+      "Keep the knees glued to the chest",
+      "Level your back with the floor"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the elbows to compensate for lat weakness.",
+        "correction": "Keep the elbows completely locked; regress to banded tuck holds or active hangs if arm extension cannot be maintained."
+      },
+      {
+        "fault": "Hips sagging below shoulder height.",
+        "correction": "Pull down harder through the shoulders and tuck the knees tighter to raise the pelvis in line with the shoulders."
+      },
+      {
+        "fault": "Excessive thoracic rounding and internally collapsed shoulders.",
+        "correction": "Depress and slightly retract your shoulder blades to keep the chest proud and upper back stable."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the pull-up bar or suspension anchor is securely fastened before inverting.",
+        "Exit the hold immediately if elbow tendon pain or sudden shoulder strain occurs."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Tuck Front Lever",
+  "previous_ids": [
+    "oec:front-lever-tuck"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Front lever tuck",
+        "url": "https://wger.de/en/exercise/1214/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "clafal"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:front-lever"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "hanging"
+  },
+  "status": "active",
+  "summary": "An isometric calisthenics hold where the torso is suspended horizontally beneath a bar with the knees tucked tightly to the chest."
+}

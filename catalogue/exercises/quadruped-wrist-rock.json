@@ -1,0 +1,171 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "wrist rocks",
+      "kind": "common"
+    },
+    {
+      "text": "kneeling wrist rock",
+      "kind": "common"
+    },
+    {
+      "text": "quadruped wrist stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "forearm-flexors",
+        "role": "stretched"
+      },
+      {
+        "muscle": "forearm-extensors",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "wrist",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "2680"
+  },
+  "id": "oec:quadruped-wrist-rock",
+  "instructions": {
+    "setup": [
+      "Start on your hands and knees in a quadruped position on a firm surface or exercise mat.",
+      "Place your hands directly beneath your shoulders with fingers spread wide and pointing straight forward.",
+      "Keep your knees directly under your hips and your spine in a neutral, relaxed alignment."
+    ],
+    "steps": [
+      "Keep the palms and finger pads firmly pressed into the floor with arms straight.",
+      "Slowly shift your body weight forward so your shoulders move past your wrists, increasing wrist extension until a gentle stretch is felt in the forearms.",
+      "Pause briefly at the end of your comfortable range.",
+      "Gently rock your hips and torso backward to relieve the tension and return to the starting position."
+    ],
+    "breathing": "Breathe smoothly and continuously, exhaling as you rock forward into the stretch and inhaling as you rock back.",
+    "cues": [
+      "Root the palms",
+      "Elbows locked",
+      "Move smoothly without forcing"
+    ],
+    "common_faults": [
+      {
+        "fault": "Heels of the hands peeling off the floor",
+        "correction": "Keep the base of the palms glued to the ground and limit the forward range of motion."
+      },
+      {
+        "fault": "Bending the elbows during the forward rock",
+        "correction": "Maintain straight arms so the movement occurs at the wrist joint rather than compensating at the elbow."
+      },
+      {
+        "fault": "Forcing into sharp joint pain",
+        "correction": "Shift only as far forward as comfortable; back off immediately if you feel joint pinching."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid aggressive loading if you have acute wrist pain, carpal tunnel syndrome, or a recent sprain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Quadruped Wrist Rock",
+  "previous_ids": [
+    "oec:wrist-rocks"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Wrist rocks",
+        "url": "https://wger.de/en/exercise/2680/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "nalhilal"
+      }
+    ]
+  },
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "quadruped",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A dynamic quadruped mobility drill that gently loads and stretches the wrists and forearms through controlled forward and backward rocking."
+}

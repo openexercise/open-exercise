@@ -1,0 +1,197 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Preacher Curl Isometric",
+      "kind": "common"
+    },
+    {
+      "text": "Preacher Curl Isometric Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Isometric Preacher Hold",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "preacher-bench"
+      ],
+      [
+        "ez-bar",
+        "barbell",
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2539"
+  },
+  "id": "oec:isometric-preacher-curl",
+  "instructions": {
+    "setup": [
+      "Adjust the seat of the preacher bench so the top of the pad rests comfortably beneath your armpits.",
+      "Grasp the bar or dumbbells with an underhand grip about shoulder-width apart.",
+      "Firmly position the backs of your upper arms flat against the angled pad with your feet planted."
+    ],
+    "steps": [
+      "Curl the weight up to the target angle, typically around 90 degrees of elbow flexion where tension is highest.",
+      "Hold this static position rigidly for the prescribed duration while maintaining continuous tension in the biceps.",
+      "Carefully lower the weight back down to the rack or starting rest position once the interval is complete."
+    ],
+    "breathing": "Breathe continuously and steadily throughout the hold without holding your breath.",
+    "cues": [
+      "Glue upper arms to the pad",
+      "Lock your wrists straight",
+      "Breathe through the burn"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the elbows off the pad to reduce leverage.",
+        "correction": "Keep the upper arms completely flush against the preacher pad throughout the hold."
+      },
+      {
+        "fault": "Allowing the wrists to hyperextend under the load.",
+        "correction": "Maintain a neutral or slightly flexed wrist to protect the joint and sustain forearm tension."
+      },
+      {
+        "fault": "Holding the weight too close to vertical lockup where joint compression unloads the biceps.",
+        "correction": "Hold at roughly a right angle to keep peak muscular tension on the elbow flexors."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a manageable load to avoid excessive strain on the distal biceps tendon, especially near full extension."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Isometric Preacher Curl",
+  "previous_ids": [
+    "oec:preacher-curl-isometric"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Preacher Curl Isometric",
+        "url": "https://wger.de/en/exercise/2539/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "HexoctusEngineering"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:ez-bar-preacher-curl"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-preacher-curl"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated",
+      "width": "shoulder"
+    },
+    "position": "seated",
+    "range": "pause"
+  },
+  "status": "active",
+  "summary": "An isolation exercise that builds biceps and brachialis strength by holding an elbow-flexed position against resistance on a preacher bench."
+}

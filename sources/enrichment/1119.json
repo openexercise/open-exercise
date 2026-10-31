@@ -1,0 +1,163 @@
+{
+  "is_exercise": true,
+  "name": "Machine Close-Grip Row",
+  "summary": "A seated compound machine exercise targeting the lats and upper back using a narrow grip.",
+  "aliases": [
+    {
+      "text": "Close-Grip Machine Row",
+      "kind": "common"
+    },
+    {
+      "text": "Narrow-Grip Machine Row",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Close-Grip Machine Row",
+      "kind": "common"
+    },
+    {
+      "text": "Remo en maquina agarre estrecho",
+      "kind": "regional"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "neutral",
+  "grip_width": "narrow",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so that the close-grip handles are aligned with your lower rib cage or mid-torso.",
+      "If the machine has a chest pad, adjust it so your arms are fully extended at the start with the weight stack slightly disengaged.",
+      "Sit upright with your feet planted firmly on the floor or footrests, and grasp the narrow handles."
+    ],
+    "steps": [
+      "Initiate the pull by driving your elbows backward tight against your ribs while retracting your shoulder blades.",
+      "Continue pulling until your hands reach the sides of your torso, squeezing your back muscles firmly.",
+      "Reverse the motion under control, extending your arms and allowing your scapulae to protract slightly for a full stretch.",
+      "Repeat for the desired number of repetitions without letting the weight stack slam between reps."
+    ],
+    "breathing": "Exhale as you pull the handles toward your torso; inhale as you return the handles to the starting position.",
+    "cues": [
+      "Drive the elbows back.",
+      "Keep your chest tall.",
+      "Pinch your shoulder blades at the finish."
+    ],
+    "common_faults": [
+      {
+        "fault": "Leaning back excessively to generate momentum.",
+        "correction": "Keep your torso stable and upright, letting the back muscles do the work rather than rocking."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears.",
+        "correction": "Depress your shoulders and focus on pulling low toward the waist."
+      },
+      {
+        "fault": "Flaring elbows out wide.",
+        "correction": "Keep the elbows tucked close to your ribcage to maximize lat recruitment with the close grip."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain control of the weight stack throughout the entire range of motion to avoid sudden strain on the shoulders or spine."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

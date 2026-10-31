@@ -1,0 +1,140 @@
+{
+  "is_exercise": true,
+  "name": "Cable Cross Triceps Extension",
+  "summary": "A triceps isolation exercise performed using dual crossed high cables to extend the elbows along the natural line of the upper arms.",
+  "aliases": [
+    {
+      "text": "Cross-Cable Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Dual Cable Cross Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "High Cable Cross Tricep Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Cross-Over Triceps Extension",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "anconeus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set two cable pulleys at or slightly above head height without handles (or with single D-handles).",
+      "Stand centered between the pulleys facing away from the stacks, cross your arms to grasp the left cable with your right hand and the right cable with your left hand.",
+      "Step slightly forward into a stable hip-width stance, allowing your upper arms to align with the angle of the cables at your sides."
+    ],
+    "steps": [
+      "Lock your upper arms in place pinned slightly forward and outward from your torso.",
+      "Extend both elbows downward and slightly outward along the path of the cables until your arms are fully locked out.",
+      "Squeeze your triceps firmly at peak contraction for a brief pause.",
+      "Control the weight back under tension by flexing your elbows until your forearms pass roughly ninety degrees."
+    ],
+    "breathing": "Exhale as you extend your elbows into lockout; inhale as you return to the flexed position.",
+    "cues": [
+      "Lock your elbows in space.",
+      "Push down and out along the cables.",
+      "Control the stretch at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Drifting the shoulders forward and backward during reps.",
+        "correction": "Keep the upper arms stationary; movement should only occur at the elbow joint."
+      },
+      {
+        "fault": "Letting the elbows flare excessively out of line with the cable angle.",
+        "correction": "Align your upper arm angle directly with the direction of the cable line of pull."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not hyperextend the elbows abruptly under heavy loads."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

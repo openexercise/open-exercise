@@ -1,0 +1,154 @@
+{
+  "is_exercise": true,
+  "name": "Cable EZ-Bar Reverse Curl",
+  "summary": "A cable isolation exercise that targets the brachialis and brachioradialis using a pronated grip on an EZ-bar attachment.",
+  "aliases": [
+    {
+      "text": "Reverse EZ-Bar Cable Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Reverse EZ-Bar Curl",
+      "kind": "common"
+    },
+    {
+      "text": "EZ-Bar Cable Reverse Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Reverse Curl",
+      "kind": "common"
+    },
+    {
+      "text": "SZ-Bar Cable Curl",
+      "kind": "regional"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "brachioradialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-extensors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach an EZ-bar to a low pulley cable station.",
+      "Stand facing the machine with feet hip-width apart and a slight bend in your knees.",
+      "Grasp the bar with a pronated (overhand) grip on the angled portions of the bar.",
+      "Stand fully upright with your arms extended downward, shoulders retracted, and elbows tucked close to your torso."
+    ],
+    "steps": [
+      "Keeping your upper arms stationary against your sides, curl the bar upward by flexing your elbows.",
+      "Continue lifting until your forearms are nearly vertical and you achieve a strong contraction in the forearms and upper arms.",
+      "Pause briefly at the top while keeping your wrists rigid and neutral.",
+      "Lower the bar smoothly along the same path under control until your elbows are fully extended."
+    ],
+    "breathing": "Exhale as you curl the bar upward and inhale as you lower it back down.",
+    "cues": [
+      "Keep elbows pinned to your ribs",
+      "Lock your wrists straight",
+      "Control the weight on the way down"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to use momentum to move the weight.",
+        "correction": "Brace your core and keep your upper body still throughout the entire movement."
+      },
+      {
+        "fault": "Allowing the elbows to drift forward or flare out.",
+        "correction": "Keep your upper arms stationary and tightly tucked to ensure the stress stays on the elbow flexors."
+      },
+      {
+        "fault": "Letting the wrists extend back or flex excessively under load.",
+        "correction": "Keep your wrists firmly locked in a neutral alignment with your forearms."
+      }
+    ],
+    "safety": {
+      "precautions": [],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

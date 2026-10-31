@@ -1,0 +1,160 @@
+{
+  "is_exercise": true,
+  "name": "Foam Roller Upper Back",
+  "summary": "A self-myofascial release technique using a foam roller to mobilize the thoracic spine and reduce tension in the upper back musculature.",
+  "aliases": [
+    {
+      "text": "Blackroll",
+      "kind": "brand"
+    },
+    {
+      "text": "Thoracic Spine Foam Rolling",
+      "kind": "common"
+    },
+    {
+      "text": "Upper Back Foam Roll",
+      "kind": "common"
+    },
+    {
+      "text": "Foam Rolling - Upper Back",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "not-applicable",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "erector-spinae",
+      "role": "stretched"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "stretched"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "stretched"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "stretched"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "foam-roller"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit on the floor with your knees bent and feet planted flat at hip-width.",
+      "Position the foam roller horizontally behind you, resting against your mid-back just below the shoulder blades.",
+      "Support the weight of your head with your hands interlaced behind your neck, elbows drawn inward."
+    ],
+    "steps": [
+      "Engage your core and press through your feet to lift your hips slightly off the floor.",
+      "Push and pull with your legs to slowly roll back and forth along your upper back, from mid-back to the top of your shoulder blades.",
+      "Pause and take slow, deep breaths over tender areas or tight spots for several seconds.",
+      "Carefully lower your hips back to the floor to finish the bout."
+    ],
+    "breathing": "Breathe slowly and rhythmically, exhaling to relax into areas of muscle tightness.",
+    "cues": [
+      "Support the neck",
+      "Stay on the rib cage",
+      "Roll slow and smooth",
+      "Breathe through tender spots"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling onto the unsupported lower back (lumbar spine).",
+        "correction": "Keep the roller confined to the rib-supported thoracic cage, from mid-back to the top of the shoulders."
+      },
+      {
+        "fault": "Yanking on the head or straining the neck.",
+        "correction": "Gently cradle the head in your hands to support neck alignment without pulling your chin into your chest."
+      },
+      {
+        "fault": "Rolling too rapidly using momentum.",
+        "correction": "Move slowly and deliberately, pausing to allow tight tissue to adapt to the pressure."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid rolling directly over the unsupported lumbar spine or cervical vertebrae."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

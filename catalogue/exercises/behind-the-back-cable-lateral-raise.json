@@ -1,0 +1,226 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Behind the Back Cable Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Behind-the-Back Cable Side Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable Lateral Raise Behind Back",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-lateral",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "supraspinatus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1807"
+  },
+  "id": "oec:behind-the-back-cable-lateral-raise",
+  "instructions": {
+    "setup": [
+      "Set a cable pulley to its lowest position and attach a single D-handle.",
+      "Stand with the working side facing away from the pulley tower.",
+      "Reach behind your back with the working hand and grip the handle with an overhand grip.",
+      "Take a small step away to create tension on the cable, maintaining an upright torso with a slight bend in the working elbow."
+    ],
+    "steps": [
+      "Raise your working arm out to the side in the frontal plane until it reaches roughly shoulder height.",
+      "Pause briefly at the top while keeping tension focused on the side of the shoulder.",
+      "Lower the handle slowly under control along the same path behind your lower back.",
+      "Complete the set, then switch sides and repeat."
+    ],
+    "breathing": "Exhale as you raise the cable out to the side, and inhale as you lower it back down.",
+    "cues": [
+      "Lead with the elbow",
+      "Reach out toward the walls",
+      "Keep your shoulders down and neck long"
+    ],
+    "common_faults": [
+      {
+        "fault": "Using torso momentum or swinging to initiate the pull.",
+        "correction": "Keep your core braced and torso stationary throughout the entire rep."
+      },
+      {
+        "fault": "Excessively shrugging the shoulder toward the ear.",
+        "correction": "Depress the shoulder blades before initiating abduction and focus on raising from the lateral deltoid."
+      },
+      {
+        "fault": "Allowing the cable to rub aggressively against the spine or hips.",
+        "correction": "Position your stance slightly forward so the cable tracks cleanly across the back."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessive loads that compromise shoulder mechanics or cause torso twisting."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Behind-the-Back Cable Lateral Raise",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Behind the Back Cable Lateral Raise",
+        "url": "https://wger.de/en/exercise/1807/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "LEBRERO"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-behind-the-back-lateral-raise"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:cable-lateral-raise"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:cable-single-arm-lateral-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-lateral-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-leaning-lateral-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-lateral-raise"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral isolation exercise targeting the lateral deltoid by abducting the arm with a cable running behind the torso."
+}

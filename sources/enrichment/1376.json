@@ -1,0 +1,168 @@
+{
+  "is_exercise": true,
+  "name": "Recumbent Bike",
+  "summary": "A low-impact cardiovascular exercise performed in a reclined seated position that emphasizes the lower body while reducing spinal load.",
+  "aliases": [
+    {
+      "text": "Recumbent Cycling",
+      "kind": "common"
+    },
+    {
+      "text": "Recumbent Stationary Bike",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "cycle"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "tibialis-anterior",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "stationary-bike"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "distance",
+        "resistance-level",
+        "cadence",
+        "speed",
+        "power",
+        "heart-rate",
+        "calories",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "distance",
+        "duration"
+      ],
+      "optional": [
+        "resistance-level",
+        "cadence",
+        "speed",
+        "power",
+        "heart-rate",
+        "calories",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit back into the bucket seat with your lumbar spine supported firmly against the backrest.",
+      "Adjust the seat distance forward or backward so that when one pedal is at its furthest point, your knee retains a slight bend without hyperextending.",
+      "Place the balls of your feet securely on the pedals and fasten the foot straps if available."
+    ],
+    "steps": [
+      "Grip the side handles lightly and begin pedaling smoothly forward.",
+      "Push through the midfoot and heel during the extension phase while actively pulling back through the bottom of the stroke.",
+      "Maintain an even, continuous pedal cadence against the selected resistance level throughout the workout duration."
+    ],
+    "breathing": "Breathe in a continuous, rhythmic pattern matched to your pedal strokes, avoiding holding your breath.",
+    "cues": [
+      "Keep a soft bend in the knee at full extension",
+      "Pedal in smooth circles",
+      "Keep your back resting comfortably against the pad"
+    ],
+    "common_faults": [
+      {
+        "fault": "Seat positioned too far back, causing knee hyperextension and rocking hips.",
+        "correction": "Move the seat closer until there is a 10- to 15-degree bend in the knee at maximum leg extension."
+      },
+      {
+        "fault": "Seat positioned too close, causing excessive knee flexion and anterior knee strain.",
+        "correction": "Slide the seat back so your knees do not travel excessively close to your chest at the top of the pedal revolution."
+      },
+      {
+        "fault": "Pedaling solely with the toes or pointing toes excessively downward.",
+        "correction": "Keep your feet relatively neutral and push through the ball of the foot and midfoot."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the seat adjustment pin is fully locked in place before starting your workout.",
+        "Stop pedaling gradually rather than suddenly halting against flywheel momentum."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

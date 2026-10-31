@@ -1,0 +1,254 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "TRX Row",
+      "kind": "brand"
+    },
+    {
+      "text": "Suspension Row",
+      "kind": "common"
+    },
+    {
+      "text": "TRX Inverted Row",
+      "kind": "brand"
+    },
+    {
+      "text": "Rowing with TRX band",
+      "kind": "common"
+    },
+    {
+      "text": "TRX Rows",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "depression"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "weight-vest"
+    ],
+    "required": [
+      [
+        "suspension-trainer"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "674,959"
+  },
+  "id": "oec:suspension-trainer-row",
+  "instructions": {
+    "setup": [
+      "Secure the suspension trainer to an overhead anchor point.",
+      "Grasp both handles with a neutral grip and walk your feet forward so your body leans back at a comfortable angle.",
+      "Extend your arms fully, keeping your body in a rigid, straight line from head to heels with engaged glutes and abdominals."
+    ],
+    "steps": [
+      "Initiate the movement by retracting your shoulder blades and pulling your elbows back past your torso.",
+      "Continue pulling until your chest meets or passes between the handles, pausing briefly at the peak contraction.",
+      "Lower your body under control by extending your arms and allowing your shoulder blades to protract until you return to the starting position."
+    ],
+    "breathing": "Exhale as you pull your chest toward the handles; inhale with control as you lower back down.",
+    "cues": [
+      "Lead with your chest, not your hips.",
+      "Drive your elbows straight back.",
+      "Hold a rigid plank from head to heel."
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging at the hips or thrusting the pelvis forward to initiate the pull.",
+        "correction": "Squeeze the glutes and brace the core to maintain a straight plank alignment throughout the entire repetition."
+      },
+      {
+        "fault": "Shrugging the shoulders upward toward the ears during the pull.",
+        "correction": "Keep the shoulders depressed away from the ears and focus on driving the elbows backward."
+      },
+      {
+        "fault": "Losing tension at the bottom of the movement by releasing shoulder control.",
+        "correction": "Maintain active shoulder engagement and a braced torso even at full arm extension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Verify that the suspension anchor point is rated for full body weight before leaning into the straps."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Suspension Trainer Row",
+  "previous_ids": [
+    "oec:rowing-with-trx-band",
+    "oec:trx-rows"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Rowing with TRX band",
+        "url": "https://wger.de/en/exercise/674/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Skadi"
+      },
+      {
+        "title": "wger: TRX Rows",
+        "url": "https://wger.de/en/exercise/959/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "clafal"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:inverted-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:ring-incline-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-standing-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "shoulder"
+    },
+    "position": "inverted",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A bodyweight horizontal pull performed on suspension straps that develops the upper back, latissimus dorsi, and core stability."
+}

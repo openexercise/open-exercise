@@ -1,0 +1,257 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "High Row",
+      "kind": "common"
+    },
+    {
+      "text": "Half-Kneeling Cable Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Half-Kneeling Cable High Row",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable High Row",
+      "kind": "common"
+    },
+    {
+      "text": "Kneeling Cable High Row",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "retraction",
+          "downward-rotation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "horizontal-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1492"
+  },
+  "id": "oec:half-kneeling-cable-high-row",
+  "instructions": {
+    "setup": [
+      "Set a cable pulley to a high setting and attach a single D-handle.",
+      "Assume a half-kneeling position facing the machine, resting the knee on the working side on the floor and planting the opposite foot flat in front with the knee bent at ninety degrees.",
+      "Grasp the handle with the working hand using a neutral grip, and allow the cable tension to extend your arm forward and upward to stretch the lat while keeping your torso upright and braced."
+    ],
+    "steps": [
+      "Initiate the pull by depressing your shoulder blade and driving your elbow down and back toward your hip.",
+      "Pull the handle down smoothly until your elbow is tight against your side, squeezing your lat at the end of the range of motion.",
+      "Pause briefly at peak contraction without twisting your torso.",
+      "Slowly extend your arm along the same diagonal path to return the weight stack, allowing the shoulder blade to upwardly rotate and stretch the lat.",
+      "Complete all prescribed repetitions on one side before switching knee and hand positions to work the opposite side."
+    ],
+    "breathing": "Exhale as you pull your elbow down toward your hip, and inhale as you return the handle to the overhead starting position.",
+    "cues": [
+      "Drive your elbow into your back pocket.",
+      "Lead with the elbow, not the hand.",
+      "Keep your ribs down and torso squared."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the torso to assist in pulling the load.",
+        "correction": "Brace your abdominals and glutes to keep your shoulders and hips square throughout the repetition."
+      },
+      {
+        "fault": "Initiating the pull with the bicep rather than the back.",
+        "correction": "Depress the shoulder blade first and focus on elbow drive rather than curling the wrist or forearm."
+      },
+      {
+        "fault": "Arching the lower back excessively at the bottom of the pull.",
+        "correction": "Squeeze the glute of the kneeling leg and engage your core to maintain a neutral spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a foam pad or exercise mat under the down knee to prevent joint discomfort."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Half-Kneeling Cable High Row",
+  "previous_ids": [
+    "oec:high-row"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: High Row",
+        "url": "https://wger.de/en/exercise/1492/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "aahuja"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:single-arm-cable-high-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:single-arm-cable-high-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-half-kneeling-single-arm-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:half-kneeling-single-arm-lat-pulldown"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "half-kneeling",
+    "range": "full",
+    "stance": {
+      "kind": "split"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral pulling exercise performed from a half-kneeling stance that targets the latissimus dorsi and upper back through a diagonal high-to-low pulling path."
+}

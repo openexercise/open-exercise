@@ -1,0 +1,172 @@
+{
+  "is_exercise": true,
+  "name": "One-Arm Push-Up",
+  "summary": "An advanced calisthenics variation where a push-up is performed on a single arm, placing immense unilateral demand on the chest, triceps, anterior shoulder, and core stabilizers.",
+  "aliases": [
+    {
+      "text": "one armed push-ups",
+      "kind": "common"
+    },
+    {
+      "text": "single-arm push-up",
+      "kind": "common"
+    },
+    {
+      "text": "one-handed push-up",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "anti-rotation",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "advanced"
+  },
+  "position": "prone",
+  "stance_width": "wide",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "horizontal-adduction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Begin in a high plank position with your feet set wide apart—at least shoulder-width or wider—to provide a stable base of support.",
+      "Place your working hand beneath the center of your chest or slightly inside your shoulder line.",
+      "Tuck your non-working arm securely behind your lower back or brace it tight against your thigh.",
+      "Brace your core, squeeze your glutes, and square your hips and shoulders toward the floor."
+    ],
+    "steps": [
+      "Inhale and lower your torso under control by bending the working elbow, keeping it tucked at roughly a 45-degree angle relative to your torso.",
+      "Descend until your chest is just above the floor, actively resisting the rotational pull that tries to twist your hips.",
+      "Exhale and press forcefully through your working palm, extending your elbow and driving back up to the starting plank position without excessive torso rotation."
+    ],
+    "breathing": "Inhale deeply as you lower yourself toward the floor, hold briefly at the bottom, and exhale forcefully as you press yourself back up.",
+    "cues": [
+      "Screw your hand into the floor.",
+      "Keep your shoulders and hips parallel to the ground.",
+      "Squeeze your glutes and brace your abs hard against the twist."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive hip twist or tilting open to the side.",
+        "correction": "Widen your foot stance further and vigorously brace your obliques to keep your pelvis squared to the floor."
+      },
+      {
+        "fault": "Flaring the working elbow straight out to ninety degrees.",
+        "correction": "Keep your elbow angled closer to your ribs (around 45 degrees) to protect the shoulder joint."
+      },
+      {
+        "fault": "Sagging through the lower back and hips.",
+        "correction": "Maintain strong glute and abdominal tension throughout the entire range of motion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Requires significant shoulder and wrist stability; regress to an elevated surface or incline push-up if you cannot control the descent."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

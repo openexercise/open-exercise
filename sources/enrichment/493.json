@@ -1,0 +1,164 @@
+{
+  "is_exercise": true,
+  "name": "EZ-Bar Reverse Curl",
+  "summary": "An isolation arm exercise performed with a pronated grip on an EZ-curl bar to emphasize the brachioradialis and brachialis.",
+  "aliases": [
+    {
+      "text": "Reverse Bar Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse EZ-Bar Curl",
+      "kind": "common"
+    },
+    {
+      "text": "EZ-Bar Reverse Biceps Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "brachioradialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-extensors",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "ez-bar"
+      ]
+    },
+    {
+      "any_of": [
+        "weight-plate"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Load an EZ-bar to the appropriate weight and secure it with collars.",
+      "Stand upright with feet hip-width apart and knees slightly unlocked.",
+      "Grasp the outer downward-sloping ridges of the bar with a full overhand, pronated grip at approximately shoulder width.",
+      "Let the bar rest against the front of your thighs with your arms extended and elbows kept close to your torso."
+    ],
+    "steps": [
+      "Keeping your upper arms pinned to your sides, curl the bar upward by flexing your elbows.",
+      "Continue raising the bar until your forearms are nearly vertical and you achieve a strong contraction in the forearms and upper arms.",
+      "Pause briefly at the top while keeping your wrists firm and neutral.",
+      "Lower the bar under control along the same path back to the starting position until your elbows are fully extended."
+    ],
+    "breathing": "Exhale as you curl the bar upward, and inhale as you lower it with control.",
+    "cues": [
+      "Keep elbows pinned to your ribs.",
+      "Maintain stiff wrists throughout the movement.",
+      "Control the descent without swinging."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to generate momentum.",
+        "correction": "Brace your core and reduce the load so the movement is driven solely by elbow flexion."
+      },
+      {
+        "fault": "Flaring the elbows outward during the curl.",
+        "correction": "Keep your elbows tucked beside your ribcage throughout the entire rep."
+      },
+      {
+        "fault": "Allowing the wrists to collapse into excessive flexion or extension.",
+        "correction": "Lock your wrists in a neutral or slightly extended alignment to protect the joint and maximize forearm tension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use collars to prevent weight plates from shifting on the angled bar sleeves."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

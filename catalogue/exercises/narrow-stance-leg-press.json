@@ -1,0 +1,213 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Close-Stance Leg Press",
+      "kind": "common"
+    },
+    {
+      "text": "Narrow Leg Press",
+      "kind": "common"
+    },
+    {
+      "text": "Leg Presses (narrow)",
+      "kind": "misspelling"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "leg-press-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "373"
+  },
+  "id": "oec:narrow-stance-leg-press",
+  "instructions": {
+    "setup": [
+      "Sit securely in the leg press seat with your back and glutes firmly against the backrest.",
+      "Place your feet near the center or lower portion of the sled platform, spaced about 3 to 6 inches apart, with toes pointing slightly outward or straight forward.",
+      "Release the safety handles and extend your legs to take the weight, keeping a slight unlock in the knees at the top."
+    ],
+    "steps": [
+      "Inhale and slowly lower the sled by bending at the hips and knees, allowing your knees to track in line with your feet.",
+      "Descend until your knees are bent to approximately 90 degrees or as deep as possible without your pelvis or lower back lifting off the backrest.",
+      "Press through the entire foot, driving through the midfoot and heels, to extend your legs back to the starting position without forcefully locking out your knees."
+    ],
+    "breathing": "Inhale as you lower the sled under control, and exhale as you press the sled away.",
+    "cues": [
+      "Keep your lower back glued to the pad.",
+      "Track knees in line with your toes.",
+      "Do not lock out your knees at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Buttocks or lower back curling off the backrest at bottom position (butt wink).",
+        "correction": "Limit the depth to where your pelvis remains firmly supported and neutral on the seat pad."
+      },
+      {
+        "fault": "Hyperextending and locking out the knees forcefully at the top of each rep.",
+        "correction": "Stop just short of total knee lockout to maintain muscular tension and protect the knee joints."
+      },
+      {
+        "fault": "Heels lifting off the platform during the descent.",
+        "correction": "Ensure your feet are positioned high enough on the footplate to keep full contact with your heels throughout the repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the mechanical safety stops are set at a height that prevents the sled from crushing you if failure occurs.",
+        "Keep hands on the support handles to anchor your upper body and monitor the safety catch levers."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "load",
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Narrow-Stance Leg Press",
+  "previous_ids": [
+    "oec:leg-presses-narrow"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Leg Presses (narrow)",
+        "url": "https://wger.de/en/exercise/373/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:leg-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:leg-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-hack-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:wide-stance-leg-press"
+    }
+  ],
+  "setup": {
+    "position": "seated",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "narrow"
+    }
+  },
+  "status": "active",
+  "summary": "A machine-based lower-body compound press performed with feet placed close together to emphasize the quadriceps."
+}

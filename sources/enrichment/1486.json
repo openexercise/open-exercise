@@ -1,0 +1,166 @@
+{
+  "is_exercise": true,
+  "name": "Cable Alternating High Row",
+  "summary": "A standing cable exercise where you alternately row a high pulley downward and back toward your torso.",
+  "aliases": [
+    {
+      "text": "Alternating High Cable Row",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Alternating Cable High Row",
+      "kind": "common"
+    },
+    {
+      "text": "High Cable Alternating Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull",
+      "anti-rotation"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "stance_kind": "staggered",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "depression",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set a cable pulley to a high position above head height and attach a single D-handle.",
+      "Grip the handle with one hand and take a step back from the cable stack into a stable, staggered stance.",
+      "Extend your working arm upward along the line of the cable, bracing your core and keeping your chest tall."
+    ],
+    "steps": [
+      "Drive your elbow down and back toward your hip, retracting your shoulder blade as you pull the handle to your lower ribcage.",
+      "Pause momentarily at peak contraction while resisting excessive torso twist.",
+      "Control the weight back to the fully extended starting position under tension.",
+      "Switch hands and shift your stance to repeat the movement on the opposite side."
+    ],
+    "breathing": "Exhale as you pull the cable toward your torso and inhale as you return the arm to full extension.",
+    "cues": [
+      "Drive the elbow to your hip pocket.",
+      "Keep your chest proud and resist twisting.",
+      "Control the stretch at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive torso rotation and momentum to move the load.",
+        "correction": "Brace your core and keep your shoulders relatively square, using the back muscles to pull rather than swinging your torso."
+      },
+      {
+        "fault": "Shrugging the shoulder toward the ear during the pull.",
+        "correction": "Depress your shoulder blade and lead the movement by driving the elbow downward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a solid staggered stance to avoid being pulled off balance by the cable."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

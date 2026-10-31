@@ -1,0 +1,238 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "flexed-arm hang",
+      "kind": "common"
+    },
+    {
+      "text": "isometric pull-up hold",
+      "kind": "common"
+    },
+    {
+      "text": "chin-over-bar hold",
+      "kind": "common"
+    },
+    {
+      "text": "horizontal traction isometry",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Pull-up Isometric Hold",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "adduction",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "retraction",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "fingers",
+        "actions": [
+          "flexion",
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "resistance-band",
+      "weight-vest",
+      "dip-belt"
+    ],
+    "required": [
+      [
+        "pull-up-bar"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1101,1537"
+  },
+  "id": "oec:pull-up-hold",
+  "instructions": {
+    "setup": [
+      "Stand under a pull-up bar and grasp it with an overhand (pronated) grip, about shoulder-width apart.",
+      "Step onto a box or jump up to position your chest near the bar and clear your chin fully above bar height."
+    ],
+    "steps": [
+      "Drive your elbows down and back while retracting and depressing your shoulder blades.",
+      "Brace your core and squeeze your glutes and legs together to prevent swinging.",
+      "Hold the chin-over-bar position rigidly for the target duration.",
+      "Lower yourself under control to a dead hang or step back down onto the box."
+    ],
+    "breathing": "Take short, controlled breaths while maintaining abdominal bracing throughout the hold.",
+    "cues": [
+      "Elbows down into your back pockets",
+      "Chest up to the bar",
+      "Keep the core braced and legs tight"
+    ],
+    "common_faults": [
+      {
+        "fault": "Reaching and hyperextending the neck to clear the chin over the bar.",
+        "correction": "Keep the cervical spine neutral and focus on elevating the chest to clear the bar."
+      },
+      {
+        "fault": "Allowing the shoulders to shrug up toward the ears.",
+        "correction": "Actively depress the scapulae, pulling the shoulders down away from the ears."
+      },
+      {
+        "fault": "Swinging or flailing the legs to maintain height.",
+        "correction": "Squeeze the legs and glutes together in a hollow-body position to eliminate swinging."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the pull-up bar is securely anchored and has adequate clearance.",
+        "Place a stable step or box underneath if you cannot safely jump up or step down."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Pull-Up Hold",
+  "previous_ids": [
+    "oec:horizontal-traction-isometry",
+    "oec:pull-up-isometric-hold"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Horizontal traction isometry",
+        "url": "https://wger.de/en/exercise/1101/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "clafal"
+      },
+      {
+        "title": "wger: Pull-up Isometric Hold",
+        "url": "https://wger.de/en/exercise/1537/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "DiscoCop"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:pull-up"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:chin-up-hold"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "hanging"
+  },
+  "status": "active",
+  "summary": "An isometric bodyweight exercise where you hold the top position of a pull-up with your chin cleared over the bar."
+}

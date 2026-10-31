@@ -1,0 +1,141 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Frog Pump",
+  "summary": "A glute bridge variation performed supine with the soles of the feet pressed together to emphasize glute contraction while extending the hips against a dumbbell.",
+  "aliases": [
+    {
+      "text": "Dumbbell Frog Press",
+      "kind": "common"
+    },
+    {
+      "text": "Weighted Frog Pump",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Frog Bridge",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "load_position": "hip",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a mat with your knees bent and flared outward.",
+      "Bring the soles of your feet together, pulling your heels comfortably toward your groin.",
+      "Place a dumbbell horizontally across your lower pelvis, securing it firmly with both hands."
+    ],
+    "steps": [
+      "Tuck your chin slightly and brace your core.",
+      "Drive the edges of your feet together into the floor as you extend your hips upward.",
+      "Lift your pelvis until your hips reach full extension, squeezing your glutes hard at the top.",
+      "Lower your hips under control back to the floor before beginning the next repetition."
+    ],
+    "breathing": "Exhale as you press your hips upward and contract your glutes; inhale as you lower back down.",
+    "cues": [
+      "Press the soles of your feet firmly together.",
+      "Tuck your ribs and chin to avoid overarching your back.",
+      "Drive through the glutes, not the lower back."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lumbar spine at the top of the movement.",
+        "correction": "Keep your ribs pulled down, tuck your chin toward your chest, and stop lifting once your glutes fully contract."
+      },
+      {
+        "fault": "Allowing the knees to cave inward during the press.",
+        "correction": "Actively keep the knees flared open with the bottoms of the feet pressed together throughout the set."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a towel or pad under the dumbbell if it causes uncomfortable pressure on the pelvic bones."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

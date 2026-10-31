@@ -1,0 +1,224 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Cable Pull Through",
+      "kind": "common"
+    },
+    {
+      "text": "Glute Cable Pull-Through",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "biceps-femoris",
+        "role": "synergist"
+      },
+      {
+        "muscle": "semitendinosus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "semimembranosus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ],
+      [
+        "strap"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1751"
+  },
+  "id": "oec:cable-pull-through",
+  "instructions": {
+    "setup": [
+      "Attach a double-rope handle to the lowest setting on a cable pulley.",
+      "Straddle the cable facing directly away from the machine.",
+      "Grip the rope handles between your legs and take two to three steps forward to lift the weight stack and establish tension.",
+      "Set your feet shoulder-width apart with toes pointing slightly outward, maintaining a tall, braced torso with straight arms."
+    ],
+    "steps": [
+      "Unlock your knees slightly and push your hips straight back toward the machine.",
+      "Allow your torso to hinge forward naturally while keeping your spine neutral and the rope tracking between your thighs.",
+      "Descend until you feel a strong stretch in your hamstrings without rounding your lower back.",
+      "Drive through your heels and extend your hips forward to return to the starting standing position.",
+      "Lock out your hips and squeeze your glutes firmly at the top without hyperextending your lower back."
+    ],
+    "breathing": "Inhale as you hinge and push your hips backward; exhale forcefully as you drive your hips forward to lock out.",
+    "cues": [
+      "Reach back with your pockets.",
+      "Arms are just ropes; drive with your hips.",
+      "Stand tall, don't lean back at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Squatting the weight down instead of hinging at the hips.",
+        "correction": "Keep your shins relatively vertical and focus on sending your hips backward rather than dropping them toward the floor."
+      },
+      {
+        "fault": "Pulling the rope with the arms or shoulders.",
+        "correction": "Keep your arms extended and relaxed, using your hands only as hooks while the glutes and hamstrings drive the movement."
+      },
+      {
+        "fault": "Hyperextending the lumbar spine at lockout.",
+        "correction": "Finish the rep by squeezing the glutes and bracing the abs to achieve a straight, vertical line from head to heels."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure your footing is secure and non-slip so the cable does not pull you backward off balance."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable Pull-Through",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Cable pull through",
+        "url": "https://wger.de/en/exercise/1751/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "manuher89"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:bodyweight-hip-hinge"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:kettlebell-swing"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-romanian-deadlift"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:kettlebell-swing"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "narrow"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A cable hip hinge movement performed facing away from a low pulley to load the glutes and hamstrings through horizontal resistance."
+}

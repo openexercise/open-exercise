@@ -1,0 +1,220 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Freestyle Stroke and Roll",
+      "kind": "common"
+    },
+    {
+      "text": "Front-to-Back Roll Drill",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "external-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "rotation"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "extension",
+          "adduction",
+          "internal-rotation"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "sport",
+      "cardio",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "swim",
+      "rotation"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "pool"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2485"
+  },
+  "id": "oec:stroke-and-roll-drill",
+  "instructions": {
+    "setup": [
+      "Position yourself at the pool wall in a streamlined push-off stance."
+    ],
+    "steps": [
+      "Push off the wall into a streamlined prone glide and begin a steady flutter kick.",
+      "Take two to three continuous freestyle arm strokes.",
+      "As you finish a stroke, initiate a continuous full-body rotation from the hips and core to roll 180 degrees onto your back.",
+      "Float and kick on your back for two to three calm breaths while keeping your hips high and spine aligned.",
+      "Rotate smoothly back onto your stomach using your core and immediately resume freestyle stroking.",
+      "Repeat the sequence across the pool, rolling alternately to each side."
+    ],
+    "breathing": "Exhale steadily in the water during prone strokes, and take calm, full inhalations while floating on your back.",
+    "cues": [
+      "Rotate like a log from the hips, not just the neck.",
+      "Keep kicking continuously through the turn.",
+      "Press your chest gently down on your back to keep hips high."
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the head out of the water to initiate the roll.",
+        "correction": "Keep the head aligned with the spine and drive the rotation through the torso and hips."
+      },
+      {
+        "fault": "Stopping the flutter kick during the transition onto the back.",
+        "correction": "Maintain a gentle, steady kick throughout the entire roll to prevent the legs and hips from sinking."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure familiarity with basic water safety and back-floating comfort before attempting in deep water."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "distance"
+        ],
+        "optional": [
+          "duration",
+          "rpe",
+          "heart-rate"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "distance",
+          "rpe",
+          "heart-rate"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Stroke-and-Roll Drill",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Stroke-and-Roll Drill",
+        "url": "https://wger.de/en/exercise/2485/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:freestyle-swimming"
+    }
+  ],
+  "setup": {
+    "position": "prone"
+  },
+  "status": "active",
+  "summary": "A swimming technique drill alternating between freestyle strokes and rolling onto the back to practice integrated full-body longitudinal rotation and relaxed breathing."
+}

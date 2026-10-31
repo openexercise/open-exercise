@@ -1,0 +1,200 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Butchers Block Stretch",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Bench Prayer Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Kneeling Lat and Triceps Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Elbows-on-Bench Lat Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stretched"
+      },
+      {
+        "muscle": "triceps-long-head",
+        "role": "stretched"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "stretched"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "stretched"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "mobility-drill"
+    ],
+    "mechanics": "not-applicable",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "bench",
+        "plyo-box",
+        "chair"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1710"
+  },
+  "id": "oec:butcher-s-block-stretch",
+  "instructions": {
+    "setup": [
+      "Kneel on the floor facing a flat bench or box, placing a mat under your knees if needed for comfort.",
+      "Place both elbows shoulder-width apart on the edge of the bench with your palms pressed together or holding a light dowel."
+    ],
+    "steps": [
+      "Shift your hips back toward your heels while allowing your head and chest to drop between your arms toward the floor.",
+      "Bend your elbows deeply to bring your hands back toward the base of your neck or upper back.",
+      "Hold the position while maintaining deep, controlled breathing, feeling the stretch through the lats, triceps, and upper back.",
+      "Carefully lift your chest and bring your hands forward to release the tension."
+    ],
+    "breathing": "Breathe slowly and deeply through your nose, using each exhalation to sink gently deeper into the stretch without forcing it.",
+    "cues": [
+      "Sink chest toward the floor",
+      "Elbows stay fixed on the bench",
+      "Thumbs reach for your upper back",
+      "Lengthen your spine without arching your lower back"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively arching the lower back to compensate for stiff shoulders.",
+        "correction": "Brace your core gently and keep your ribcage down, focusing extension through the mid-to-upper back."
+      },
+      {
+        "fault": "Allowing elbows to flare excessively wide.",
+        "correction": "Maintain elbows at shoulder width throughout the hold to keep the stretch centered on the lats and triceps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Discontinue the stretch if you experience sharp anterior shoulder impingement or pain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Butcher's Block Stretch",
+  "previous_ids": [
+    "oec:butchers-block-stretch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Butchers Block Stretch",
+        "url": "https://wger.de/en/exercise/1710/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Croak6728"
+      }
+    ]
+  },
+  "setup": {
+    "position": "kneeling",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A kneeling mobility stretch performed with elbows elevated on a bench to open the latissimus dorsi, triceps, and thoracic spine."
+}

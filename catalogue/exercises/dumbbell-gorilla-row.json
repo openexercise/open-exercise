@@ -1,0 +1,268 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Alternating Dumbbell Gorilla Row",
+      "kind": "common"
+    },
+    {
+      "text": "Alternative DB Gorilla rows",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Gorilla Row",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "hinge",
+      "anti-rotation"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "mixed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1501"
+  },
+  "id": "oec:dumbbell-gorilla-row",
+  "instructions": {
+    "setup": [
+      "Place two dumbbells parallel to each other on the floor about shoulder-width apart.",
+      "Stand straddling the dumbbells with feet wider than shoulder-width.",
+      "Hinge at the hips and bend your knees deeply into a low athletic stance until you can grip both dumbbell handles with a neutral grip.",
+      "Brace your core, flatten your back, and keep your chest proud."
+    ],
+    "steps": [
+      "Press down firmly into the floor through the non-working dumbbell to establish stability.",
+      "Row the working dumbbell upward toward your hip, leading with your elbow and retracting your shoulder blade.",
+      "Lower the dumbbell under control until it rests flat on the floor.",
+      "Immediately switch active sides, pressing into the returned dumbbell while rowing the opposite side upward."
+    ],
+    "breathing": "Inhale to brace your trunk before each pull, exhale as you row the dumbbell up, and inhale smoothly as you return it to the floor.",
+    "cues": [
+      "Push into the ground with the resting bell.",
+      "Drive the elbow toward the ribcage.",
+      "Keep hips low and back flat.",
+      "Resist twisting through the shoulders."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding the lumbar spine to reach the weights.",
+        "correction": "Bend the knees deeper and hinge at the hips, or elevate the dumbbells on low blocks if mobility is limited."
+      },
+      {
+        "fault": "Excessively twisting the torso during the pull.",
+        "correction": "Brace the abdominal wall and actively press the resting dumbbell into the floor to counteract rotational forces."
+      },
+      {
+        "fault": "Standing up between repetitions.",
+        "correction": "Maintain the deep hinged stance throughout the entire set without allowing your hips to rise."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the dumbbells have flat sides or are stable so they do not roll when supporting downward pressure."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Dumbbell Gorilla Row",
+  "previous_ids": [
+    "oec:alternative-db-gorilla-rows"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Alternative DB Gorilla rows",
+        "url": "https://wger.de/en/exercise/1501/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "JohnPreston"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-bent-over-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-bent-over-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:pendlay-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:single-arm-dumbbell-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "shoulder"
+    },
+    "position": "bent-over",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "wide"
+    }
+  },
+  "status": "active",
+  "summary": "An alternating bent-over row performed from a deep hip hinge with dumbbells resting on the floor between repetitions."
+}

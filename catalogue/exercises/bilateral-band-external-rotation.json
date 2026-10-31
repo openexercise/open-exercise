@@ -1,0 +1,212 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Band pull-apart with external rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Band No Money",
+      "kind": "common"
+    },
+    {
+      "text": "No Money drill",
+      "kind": "common"
+    },
+    {
+      "text": "Standing bilateral band external rotation",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "infraspinatus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-minor",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "external-rotation"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "depression"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "mobility",
+      "strength"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "resistance-band",
+        "mini-band"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1826"
+  },
+  "id": "oec:bilateral-band-external-rotation",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and shoulders relaxed down and back.",
+      "Bend both elbows to 90 degrees and tuck your upper arms lightly against your ribs.",
+      "Hold the resistance band in both hands with palms facing upward (supinated) and thumbs pointing outward, establishing light pre-tension."
+    ],
+    "steps": [
+      "Keeping your elbows firmly pinned to your sides, rotate your forearms outward away from each other.",
+      "Gently squeeze your shoulder blades together as your hands travel outward to full comfortable external rotation.",
+      "Hold the peak contraction for one to two seconds.",
+      "Slowly reverse the movement under control back to the starting position without letting the band lose tension."
+    ],
+    "breathing": "Exhale as you rotate your hands outward against the resistance, and inhale as you return to the starting position.",
+    "cues": [
+      "Keep elbows glued to your ribs",
+      "Open your hands like a book",
+      "Lead outward with the thumbs",
+      "Squeeze the shoulder blades back and down"
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring elbows away from the torso to gain extra range.",
+        "correction": "Keep upper arms tightly adducted against your ribcage; place rolled towels between your elbows and ribs if needed to ensure contact."
+      },
+      {
+        "fault": "Overarching the lower back to compensate for limited shoulder mobility.",
+        "correction": "Brace your abdominals and keep your ribs drawn down throughout the rotation."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears.",
+        "correction": "Actively depress your scapulae away from your ears before and during the movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a light resistance band to avoid straining the delicate rotator cuff muscles."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "elastic"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "band-tension",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Bilateral Band External Rotation",
+  "previous_ids": [
+    "oec:band-pull-apart-with-external-rotation"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Band pull-apart with external rotation",
+        "url": "https://wger.de/en/exercise/1826/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "beagle"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:side-lying-dumbbell-external-rotation"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A standing band exercise targeting the infraspinatus, teres minor, and scapular retractors through shoulder external rotation with elbows pinned to the sides."
+}

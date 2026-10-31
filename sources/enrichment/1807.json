@@ -1,0 +1,156 @@
+{
+  "is_exercise": true,
+  "name": "Behind-the-Back Cable Lateral Raise",
+  "summary": "A unilateral isolation exercise targeting the lateral deltoid by abducting the arm with a cable running behind the torso.",
+  "aliases": [
+    {
+      "text": "Behind the Back Cable Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Behind-the-Back Cable Side Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable Lateral Raise Behind Back",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-lateral",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "supraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set a cable pulley to its lowest position and attach a single D-handle.",
+      "Stand with the working side facing away from the pulley tower.",
+      "Reach behind your back with the working hand and grip the handle with an overhand grip.",
+      "Take a small step away to create tension on the cable, maintaining an upright torso with a slight bend in the working elbow."
+    ],
+    "steps": [
+      "Raise your working arm out to the side in the frontal plane until it reaches roughly shoulder height.",
+      "Pause briefly at the top while keeping tension focused on the side of the shoulder.",
+      "Lower the handle slowly under control along the same path behind your lower back.",
+      "Complete the set, then switch sides and repeat."
+    ],
+    "breathing": "Exhale as you raise the cable out to the side, and inhale as you lower it back down.",
+    "cues": [
+      "Lead with the elbow",
+      "Reach out toward the walls",
+      "Keep your shoulders down and neck long"
+    ],
+    "common_faults": [
+      {
+        "fault": "Using torso momentum or swinging to initiate the pull.",
+        "correction": "Keep your core braced and torso stationary throughout the entire rep."
+      },
+      {
+        "fault": "Excessively shrugging the shoulder toward the ear.",
+        "correction": "Depress the shoulder blades before initiating abduction and focus on raising from the lateral deltoid."
+      },
+      {
+        "fault": "Allowing the cable to rub aggressively against the spine or hips.",
+        "correction": "Position your stance slightly forward so the cable tracks cleanly across the back."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessive loads that compromise shoulder mechanics or cause torso twisting."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

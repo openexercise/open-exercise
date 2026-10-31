@@ -1,0 +1,183 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Balasana",
+      "kind": "common"
+    },
+    {
+      "text": "Prayer Pose",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stretched"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "yoga",
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "mobility-drill"
+    ],
+    "mechanics": "not-applicable",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat",
+      "yoga-block"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1002"
+  },
+  "id": "oec:child-s-pose",
+  "instructions": {
+    "setup": [
+      "Start on your hands and knees in a tabletop position on an exercise mat.",
+      "Bring your big toes together to touch and spread your knees out hip-width apart or slightly wider."
+    ],
+    "steps": [
+      "Exhale and shift your hips back and down toward your heels.",
+      "Walk your hands out forward in front of you, extending your arms fully.",
+      "Lower your chest toward the floor and rest your forehead gently onto the mat.",
+      "Hold the position, relaxing your shoulders, neck, and lower back into the stretch.",
+      "To exit, slowly walk your hands back under your shoulders and press yourself up to a seated kneeling position."
+    ],
+    "breathing": "Breathe slowly and deeply through your nose, expanding your ribcage and lower back with each inhalation, and sinking deeper into the stretch with each exhalation.",
+    "cues": [
+      "Hips to heels",
+      "Walk fingertips forward",
+      "Melt chest toward the floor",
+      "Breathe into the lower back"
+    ],
+    "common_faults": [
+      {
+        "fault": "Forcing the hips to touch the heels despite tight hips or knee discomfort.",
+        "correction": "Place a folded blanket or yoga block between your calves and glutes to provide comfortable support."
+      },
+      {
+        "fault": "Holding tension in the neck and shoulders.",
+        "correction": "Allow your forehead to rest fully on the floor or a yoga block, and soften your elbows slightly if your shoulders are restricted."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid deep, forceful flexion if experiencing acute knee pain; widen the knee stance or place a cushion behind the knees."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Child's Pose",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Child's pose",
+        "url": "https://wger.de/en/exercise/1002/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "setup": {
+    "grip": {
+      "orientation": "pronated"
+    },
+    "position": "kneeling"
+  },
+  "status": "active",
+  "summary": "A resting yoga stretch performed on the knees with hips shifted back to the heels and arms extended forward to lengthen the spine, hips, and shoulders."
+}

@@ -1,0 +1,183 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Bench Press",
+  "summary": "A foundational upper-body compound lift performed lying supine on a flat bench, lowering a barbell to the chest and pressing it to full arm extension.",
+  "aliases": [
+    {
+      "text": "Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Flat Barbell Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Flat Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Press",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Supine Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy",
+      "powerlifting"
+    ],
+    "movement_patterns": [
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "supine",
+  "incline_degrees": 0,
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "chest",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "adjustable-bench"
+      ]
+    },
+    {
+      "any_of": [
+        "power-rack",
+        "squat-rack"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Lie flat on the bench with your eyes aligned directly under the racked barbell.",
+      "Plant your feet firmly on the floor and retract your shoulder blades, pinning them firmly against the pad.",
+      "Grip the bar with a full, closed pronated grip slightly wider than shoulder width.",
+      "Unrack the bar and stabilize it directly over your mid-chest with straight arms."
+    ],
+    "steps": [
+      "Inhale, brace your core, and lower the barbell in a controlled descent toward your lower chest.",
+      "Keep your elbows tucked at roughly a 45- to 75-degree angle relative to your torso.",
+      "Lightly touch your sternum without resting the weight or bouncing it off your ribcage.",
+      "Drive your feet into the floor and press the bar upward along a slight backward arc until your elbows lock out over your upper chest."
+    ],
+    "breathing": "Take a deep breath and brace your torso before initiating the descent, then exhale forcefully as you drive through the sticking point toward the top.",
+    "cues": [
+      "Screw your shoulders into the bench",
+      "Bend the bar",
+      "Drive through the floor"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bouncing the bar off the chest.",
+        "correction": "Maintain muscular control throughout the descent and achieve a brief, gentle touch on the sternum."
+      },
+      {
+        "fault": "Excessively flaring the elbows to 90 degrees.",
+        "correction": "Tuck the elbows slightly toward the ribs to protect the shoulder joint and recruit the chest efficiently."
+      },
+      {
+        "fault": "Lifting the glutes off the bench.",
+        "correction": "Keep your hips planted securely on the bench while driving force into the floor with your legs."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Always wrap your thumbs fully around the barbell rather than using a thumbless false grip.",
+        "Set rack safety pins just below chest level if training without a spotter."
+      ],
+      "spotter": "recommended",
+      "safeties": true
+    }
+  }
+}

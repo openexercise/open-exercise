@@ -1,0 +1,133 @@
+{
+  "is_exercise": true,
+  "name": "Diaphragmatic Breathing",
+  "summary": "A foundational breathwork drill performed supine to promote deep diaphragmatic expansion and down-regulate the nervous system.",
+  "aliases": [
+    {
+      "text": "Relaxed Diaphragmatic Breathing",
+      "kind": "common"
+    },
+    {
+      "text": "Belly Breathing",
+      "kind": "common"
+    },
+    {
+      "text": "Abdominal Breathing",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "mobility",
+      "yoga"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "not-applicable",
+    "force": "not-applicable",
+    "kinetic_chain": "not-applicable",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "muscles": [
+    {
+      "muscle": "transversus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "synergist"
+    },
+    {
+      "muscle": "multifidus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps"
+      ]
+    },
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie comfortably on your back with knees bent and feet flat on the floor, or with legs extended over a bolster.",
+      "Place one hand on your upper chest and the other hand on your abdomen just below the ribcage.",
+      "Relax your shoulders, neck, and jaw, maintaining a neutral spine."
+    ],
+    "steps": [
+      "Inhale slowly through your nose, directing the air deep into your abdomen so that the hand on your belly rises while the hand on your chest stays relatively still.",
+      "Pause briefly at the top of the inhalation without straining.",
+      "Exhale slowly and smoothly through pursed lips or your nose, feeling the hand on your abdomen gently fall as your belly relaxes inward."
+    ],
+    "breathing": "Inhale deeply into the abdomen for three to four seconds, pause briefly, and exhale smoothly for four to six seconds.",
+    "cues": [
+      "Breathe into your stomach, not your shoulders",
+      "Expand the ribcage three-hundred-sixty degrees",
+      "Keep the chest still and neck relaxed"
+    ],
+    "common_faults": [
+      {
+        "fault": "Chest and shoulder elevation during inhalation.",
+        "correction": "Focus on keeping the upper hand still while guiding movement into the lower hand on your abdomen."
+      },
+      {
+        "fault": "Forcefully pushing the abdominal wall out rather than letting incoming air expand it naturally.",
+        "correction": "Inhale gently and smoothly, allowing the diaphragm to naturally expand the belly."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you feel lightheaded, return to normal tidal breathing and rest."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

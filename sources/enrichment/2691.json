@@ -1,0 +1,166 @@
+{
+  "is_exercise": true,
+  "name": "Pike Hold",
+  "summary": "An isometric bodyweight exercise where the hips are held high in an inverted V-shape to build overhead shoulder strength and core stability.",
+  "aliases": [
+    {
+      "text": "Floor Pike Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Pike Plank",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "inverted",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "elevation",
+        "upward-rotation",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Begin in a high plank position on the floor with hands planted shoulder-width apart and fingers spread wide.",
+      "Walk your feet toward your hands, lifting your hips toward the ceiling until your body forms an inverted V shape."
+    ],
+    "steps": [
+      "Press the floor away aggressively through your palms to fully elevate and protract your shoulder blades.",
+      "Keep your arms straight and lock your elbows while aligning your torso with your arms as closely as mobility permits.",
+      "Engage your abdominals and hip flexors to maintain the pike angle at your hips.",
+      "Hold the position firmly for the targeted duration without letting your shoulders sag or elbows bend.",
+      "Step your feet back out into a plank or lower your knees gently to the floor to finish."
+    ],
+    "breathing": "Maintain steady, rhythmic breathing through the nose and mouth while keeping your core braced.",
+    "cues": [
+      "Push the floor away",
+      "Hips to the ceiling",
+      "Lock your elbows",
+      "Look toward your toes"
+    ],
+    "common_faults": [
+      {
+        "fault": "Passive shoulder collapse",
+        "correction": "Actively press through the hands to keep the shoulder blades elevated toward the ears throughout the hold."
+      },
+      {
+        "fault": "Soft or bent elbows",
+        "correction": "Fully extend the arms and squeeze the triceps to lock the elbow joints."
+      },
+      {
+        "fault": "Walking feet too far out, turning the hold into a plank",
+        "correction": "Walk feet inward as far as hamstring flexibility allows to stack the hips higher over the shoulders."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Warm up wrists and shoulders thoroughly before performing overhead bodyweight supports.",
+        "Step down safely if experiencing sharp wrist discomfort or acute shoulder fatigue."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

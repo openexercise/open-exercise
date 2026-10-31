@@ -1,0 +1,130 @@
+{
+  "is_exercise": true,
+  "name": "Neck Lateral Flexion",
+  "summary": "A gentle cervical mobility exercise that mobilizes the neck and stretches the lateral cervical musculature by tilting the ear toward the shoulder.",
+  "aliases": [
+    {
+      "text": "Head Tilts",
+      "kind": "common"
+    },
+    {
+      "text": "Lateral Neck Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Neck Side Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Cervical Lateral Flexion",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "lateral-flexion",
+      "mobility-drill",
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "sternocleidomastoid",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "levator-scapulae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "splenius",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "lateral-flexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": []
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "per-side",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit upright on a chair or stand tall with feet hip-width apart.",
+      "Relax your shoulders down away from your ears and keep your eyes facing forward with your head in a neutral position."
+    ],
+    "steps": [
+      "Slowly lower your right ear toward your right shoulder until you feel a gentle stretch along the left side of your neck.",
+      "Pause for a moment at the end of your comfortable range without forcing the movement.",
+      "Smoothly return your head back to the upright, neutral position.",
+      "Repeat the motion on the left side, bringing your left ear toward your left shoulder, then return to neutral."
+    ],
+    "breathing": "Inhale as you pass through center and exhale smoothly as you tilt your head to the side.",
+    "cues": [
+      "Ear to shoulder, not shoulder to ear.",
+      "Keep shoulders anchored down.",
+      "Move smoothly without jerking."
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulder upward to meet the head.",
+        "correction": "Actively keep both shoulders depressed and relaxed throughout the movement."
+      },
+      {
+        "fault": "Rotating or flexing the neck forward during the tilt.",
+        "correction": "Keep your gaze straight ahead and move purely in the side-to-side plane."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Move only through a pain-free range of motion; discontinue immediately if you experience sharp pain, radiating tingling, numbness, or dizziness."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

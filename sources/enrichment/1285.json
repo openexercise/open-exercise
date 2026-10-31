@@ -1,0 +1,171 @@
+{
+  "is_exercise": true,
+  "name": "Butt Kick",
+  "summary": "A dynamic running drill where the heels are rapidly driven toward the glutes to warm up the hamstrings and reinforce quick knee flexion.",
+  "aliases": [
+    {
+      "text": "Butt Kicks",
+      "kind": "common"
+    },
+    {
+      "text": "Bum Kicks",
+      "kind": "common"
+    },
+    {
+      "text": "Heel Flicks",
+      "kind": "common"
+    },
+    {
+      "text": "Talons Fesses",
+      "kind": "regional"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "conditioning",
+      "calisthenics",
+      "plyometric"
+    ],
+    "movement_patterns": [
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "ballistic"
+    ],
+    "level": "beginner"
+  },
+  "position": "moving",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "hamstrings",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "calves",
+      "role": "synergist"
+    },
+    {
+      "muscle": "glutes",
+      "role": "synergist"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "stretched"
+    },
+    {
+      "muscle": "abdominals",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "heart-rate",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "distance",
+        "duration"
+      ],
+      "optional": [
+        "heart-rate",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and arms relaxed at your sides bent at 90 degrees.",
+      "Engage your core and maintain an upright posture with a very slight forward lean from the ankles."
+    ],
+    "steps": [
+      "Push off the ball of one foot and forcefully flex the knee, driving that heel straight up toward your glute.",
+      "Land lightly on the ball of the foot while immediately driving the opposite heel up toward the glute.",
+      "Maintain a quick, rhythmic cadence either in place or traveling forward, pumping your arms in sync with your legs."
+    ],
+    "breathing": "Breathe rhythmically and continuously in time with your stride cadence.",
+    "cues": [
+      "Heels to butt",
+      "Stay light on your toes",
+      "Keep thighs pointed down",
+      "Quick feet"
+    ],
+    "common_faults": [
+      {
+        "fault": "Kicking the knees forward into high knees instead of flexing straight back.",
+        "correction": "Focus on driving the heel directly beneath your hip up to touch the glute while keeping the thigh pointing predominantly downward."
+      },
+      {
+        "fault": "Excessive forward torso bend.",
+        "correction": "Brace the abdominals and keep your chest lifted, maintaining a tall posture throughout the movement."
+      },
+      {
+        "fault": "Landing heavy on flat feet or heels.",
+        "correction": "Stay springy and land softly on the balls of your feet."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure adequate floor traction to prevent slipping when performing at high speed."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

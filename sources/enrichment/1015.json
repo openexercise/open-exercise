@@ -1,0 +1,146 @@
+{
+  "is_exercise": true,
+  "name": "Neck Roll",
+  "summary": "A gentle cervical mobility exercise performing controlled circles through the neck's full comfortable range of motion.",
+  "aliases": [
+    {
+      "text": "Neck Circle",
+      "kind": "common"
+    },
+    {
+      "text": "Clockwise neck circles",
+      "kind": "common"
+    },
+    {
+      "text": "Head Roll",
+      "kind": "common"
+    },
+    {
+      "text": "Head Circle",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "isolation-neck",
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "sternocleidomastoid",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "splenius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "levator-scapulae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deep-neck-flexors",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "circumduction",
+        "flexion",
+        "extension",
+        "lateral-flexion",
+        "rotation"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "chair",
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit tall in a chair or cross-legged on the floor with your shoulders relaxed and down away from your ears.",
+      "Gently drop your chin toward your chest without forcing the stretch."
+    ],
+    "steps": [
+      "Slowly roll your right ear toward your right shoulder.",
+      "Continue the smooth circle by gently tipping your head back to look toward the ceiling, avoiding aggressive backward compression.",
+      "Trace the circle over to the left side, bringing your left ear toward your left shoulder.",
+      "Complete the revolution by returning your chin to the starting position at your chest.",
+      "Repeat for the desired repetitions, then reverse direction."
+    ],
+    "breathing": "Breathe smoothly and continuously, exhaling as the chin rolls forward and inhaling as the head tilts backward.",
+    "cues": [
+      "Slow and controlled",
+      "Keep shoulders down",
+      "Draw a smooth circle with the crown of your head"
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulders up toward the ears",
+        "correction": "Actively depress and relax the shoulder blades throughout the movement."
+      },
+      {
+        "fault": "Moving too quickly or using momentum",
+        "correction": "Slow the motion down to maintain full muscular control and avoid joint irritation."
+      },
+      {
+        "fault": "Forcing aggressive hyperextension of the neck",
+        "correction": "Keep the backward roll gentle and elongated rather than hinging sharply backward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Stop immediately if you experience sharp pain, dizziness, or tingling down your arms."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

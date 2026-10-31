@@ -1,0 +1,203 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Clam to Reverse Clam",
+      "kind": "common"
+    },
+    {
+      "text": "Elevated Clamshell to Reverse Clamshell",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-medius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-minimus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hip-rotators",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "tensor-fasciae-latae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "external-rotation",
+          "internal-rotation",
+          "abduction"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "mobility",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "rotation",
+      "isolation-hip-abduction"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "2449"
+  },
+  "id": "oec:clamshell-to-reverse-clamshell",
+  "instructions": {
+    "setup": [
+      "Lie on your side on the floor or a mat with your knees bent to roughly 90 degrees and hips flexed to about 45 degrees.",
+      "Stack your shoulders, hips, and knees directly on top of each other, resting your head on your bottom arm or a pillow.",
+      "Engage your core to ensure your pelvis stays perpendicular to the floor."
+    ],
+    "steps": [
+      "Elevate your entire top leg slightly so it hovers above the bottom leg.",
+      "Rotate the top hip outward to lift the knee while keeping the ankles touching or aligned (clamshell).",
+      "Reverse the motion by internally rotating the hip, bringing the top knee down toward the bottom knee while swinging the top foot and ankle upward (reverse clamshell).",
+      "Smoothly alternate between opening the knee and opening the foot without letting the top leg rest on the bottom leg."
+    ],
+    "breathing": "Breathe continuously and steadily, exhaling during the end-range rotation on each movement.",
+    "cues": [
+      "Keep the pelvis completely still.",
+      "Rotate from the hip socket, not the spine.",
+      "Knee high, then foot high."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling the pelvis backward during the clamshell phase.",
+        "correction": "Keep the top hip stacked directly over the bottom hip, limiting knee lift to what your hip joint can achieve without spinal rotation."
+      },
+      {
+        "fault": "Letting the top leg collapse and rest between transitions.",
+        "correction": "Maintain continuous muscular tension by keeping the top limb suspended throughout the set."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Work within a pain-free range of motion, especially during internal rotation if experiencing hip impingement symptoms."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Clamshell to Reverse Clamshell",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Clamshell to Reverse Clamshell",
+        "url": "https://wger.de/en/exercise/2449/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "TobiasFalk"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:clamshell"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:clamshell"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:reverse-clamshell"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:reverse-clamshell"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:clamshell"
+    }
+  ],
+  "setup": {
+    "position": "side-lying"
+  },
+  "status": "active",
+  "summary": "A side-lying bodyweight drill alternating hip external and internal rotation to target the gluteal and deep hip musculature."
+}

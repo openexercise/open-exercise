@@ -1,0 +1,197 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Cable Tricep Kickback",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable Triceps Kickback",
+      "kind": "common"
+    },
+    {
+      "text": "Bent-Over Cable Triceps Kickback",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "anconeus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1509"
+  },
+  "id": "oec:cable-triceps-kickback",
+  "instructions": {
+    "setup": [
+      "Set the cable pulley to roughly waist or low height and attach a single handle or grip the bare cable ball.",
+      "Hinge forward at the hips with a flat back and a staggered stance, facing the pulley or slightly offset.",
+      "Grasp the cable with one hand and draw your upper arm up so it rests parallel to your torso, pinning your elbow tight against your side."
+    ],
+    "steps": [
+      "Keeping your upper arm completely stationary, extend your elbow to push the cable backward.",
+      "Continue extending until your arm is fully straight and pause briefly to contract the triceps.",
+      "Slowly bend your elbow to return the forearm to the starting position without letting the upper arm drop."
+    ],
+    "breathing": "Exhale as you extend the arm backward, and inhale as you return to the bent-arm position.",
+    "cues": [
+      "Lock your upper arm in place",
+      "Hinge only at the elbow",
+      "Squeeze the back of your arm at full extension"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the upper arm back and forth to generate momentum.",
+        "correction": "Keep the humerus pinned parallel to your torso and move strictly through the elbow joint."
+      },
+      {
+        "fault": "Dropping the elbow toward the floor between repetitions.",
+        "correction": "Engage the upper back and rear deltoid to maintain an elevated upper-arm position throughout the entire set."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not overextend or hyperextend the elbow under heavy load."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Cable Triceps Kickback",
+  "previous_ids": [
+    "oec:cable-tricep-kickback"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Cable Tricep Kickback",
+        "url": "https://wger.de/en/exercise/1509/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Expenses7000"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-triceps-kickback"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-triceps-kickback"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "bent-over",
+    "range": "full",
+    "stance": {
+      "kind": "staggered"
+    }
+  },
+  "status": "active",
+  "summary": "A bent-over unilateral isolation exercise using a cable to extend the elbow against continuous resistance, targeting the triceps."
+}

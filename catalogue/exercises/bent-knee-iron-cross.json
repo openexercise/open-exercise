@@ -1,0 +1,187 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Supine Bent-Knee Iron Cross",
+      "kind": "common"
+    },
+    {
+      "text": "Bent-Knee Windshield Wiper",
+      "kind": "common"
+    },
+    {
+      "text": "Bent-Knee Trunk Rotation",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "external-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stretched"
+      },
+      {
+        "muscle": "quadratus-lumborum",
+        "role": "stretched"
+      },
+      {
+        "muscle": "piriformis",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "rotation"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "rotation"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "internal-rotation",
+          "external-rotation"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "rotation",
+      "mobility-drill"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1953"
+  },
+  "id": "oec:bent-knee-iron-cross",
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on an exercise mat.",
+      "Extend your arms straight out to your sides at shoulder level with your palms pressed firmly against the floor.",
+      "Lift your feet and bend your hips and knees to approximately 90 degrees in a tabletop position."
+    ],
+    "steps": [
+      "Keeping your knees and ankles pinned together, smoothly lower both legs to one side toward the floor.",
+      "Maintain contact between both shoulder blades and the floor as your hips and lower torso rotate.",
+      "Just before touching the floor, engage your core and obliques to reverse direction and return to the center.",
+      "Rotate your knees smoothly to the opposite side to complete one alternating repetition."
+    ],
+    "breathing": "Inhale as you rotate your legs toward the floor, and exhale through your mouth as your core pulls them back to center.",
+    "cues": [
+      "Glue your shoulders to the floor",
+      "Knees pinned together",
+      "Control the descent with your abs"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the opposite shoulder to lift off the floor during the twist.",
+        "correction": "Limit the rotational range of motion to only as far as you can keep both shoulder blades pinned down."
+      },
+      {
+        "fault": "Separating the knees or letting the legs slide out of position.",
+        "correction": "Squeeze the knees and ankles together throughout the entire arc to maintain unified pelvic rotation."
+      },
+      {
+        "fault": "Using ballistic momentum rather than controlled muscular effort.",
+        "correction": "Move at a deliberate, controlled tempo, pausing momentarily at the end range before reversing."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forcing your knees all the way to the floor if you experience sharp lower back or hip discomfort."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Bent-Knee Iron Cross",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Bent-knee Iron Cross",
+        "url": "https://wger.de/en/exercise/1953/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Pete-E automation"
+      }
+    ]
+  },
+  "setup": {
+    "position": "supine"
+  },
+  "status": "active",
+  "summary": "A supine dynamic mobility exercise that rotates the bent legs side to side to mobilize the lumbar spine, hips, and lower back."
+}

@@ -1,0 +1,237 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Parallettes Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Parallel Bar Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Push-Ups on Parallettes",
+      "kind": "common"
+    },
+    {
+      "text": "Push-Ups | Parallettes",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "weight-vest"
+    ],
+    "required": [
+      [
+        "parallettes"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1113"
+  },
+  "id": "oec:parallette-push-up",
+  "instructions": {
+    "setup": [
+      "Place two parallette bars parallel to each other on a non-slip surface, roughly shoulder-width apart.",
+      "Grip the bars firmly with a neutral grip and step your feet back into a full plank position.",
+      "Brace your core, squeeze your glutes, and establish a straight line from your head to your heels with your arms fully extended."
+    ],
+    "steps": [
+      "Lower your body under control by bending your elbows, keeping them angled roughly 45 degrees relative to your torso.",
+      "Descend until your chest passes below the level of the bars, achieving a comfortable stretch across the chest and shoulders.",
+      "Press powerfully through your palms, extending the elbows and driving your body back up to the starting plank position.",
+      "Actively push through the top to allow the shoulder blades to smoothly protract at full lockout."
+    ],
+    "breathing": "Inhale as you lower down past the handles; exhale forcefully as you press back up to the top.",
+    "cues": [
+      "Elbows at forty-five degrees",
+      "Chest through the bars",
+      "Maintain a rigid plank"
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging hips or hyperextending the lower back during the press.",
+        "correction": "Actively squeeze your glutes and pull your ribcage down to keep the pelvis neutral throughout."
+      },
+      {
+        "fault": "Flaring the elbows out perpendicular to the torso.",
+        "correction": "Tuck your elbows to roughly 45 degrees to protect the shoulder joints and emphasize the chest."
+      },
+      {
+        "fault": "Descending too deep into pain or uncontrolled shoulder internal rotation.",
+        "correction": "Only lower to a depth where shoulders remain stable and pain-free, gradually expanding the active range of motion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the parallettes are resting on a stable, non-slick surface so they do not tip or slide outward.",
+        "Do not force an extreme deficit depth if you experience anterior shoulder discomfort."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Parallette Push-Up",
+  "previous_ids": [
+    "oec:push-ups-parallettes"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Push-Ups | Parallettes",
+        "url": "https://wger.de/en/exercise/1113/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "anon1337"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:deficit-push-up"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:deficit-push-up"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-push-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "shoulder"
+    },
+    "position": "prone",
+    "range": "deficit",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A push-up variation performed gripping parallettes to allow a neutral wrist position and a deeper range of motion."
+}

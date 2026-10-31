@@ -1,0 +1,256 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Close-Grip Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "CGBP",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Narrow-Grip Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Bench Press Narrow Grip",
+      "kind": "common"
+    },
+    {
+      "text": "close grip bench",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "extension",
+          "horizontal-adduction",
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy",
+      "powerlifting"
+    ],
+    "movement_patterns": [
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "bench"
+      ],
+      [
+        "power-rack",
+        "squat-rack"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "76"
+  },
+  "id": "oec:barbell-close-grip-bench-press",
+  "instructions": {
+    "setup": [
+      "Lie flat on the bench with your eyes directly under the racked barbell.",
+      "Plant your feet firmly on the floor and retract your shoulder blades into the bench.",
+      "Grasp the bar with a full, pronated grip roughly shoulder-width apart, ensuring your hands are far enough apart to prevent excessive wrist strain.",
+      "Unrack the barbell and establish full elbow lockout over your lower chest and shoulders."
+    ],
+    "steps": [
+      "Inhale, brace your core, and lower the bar in a controlled path toward the lower sternum.",
+      "Keep your elbows tucked at roughly a 30 to 45-degree angle relative to your torso as the bar descends.",
+      "Touch the lower chest lightly without bouncing the weight.",
+      "Drive forcefully through your palms to press the bar straight up to lockout, exhaling past the sticking point."
+    ],
+    "breathing": "Inhale deeply and hold your breath to brace before lowering the bar, then exhale forcefully as you press past the sticking point near the top.",
+    "cues": [
+      "Elbows tucked close to ribs",
+      "Bend the bar across your palms",
+      "Push through the base of the hands"
+    ],
+    "common_faults": [
+      {
+        "fault": "Gripping the bar with hands too close together, placing severe torque on the wrists and elbows.",
+        "correction": "Set your grip approximately shoulder-width apart so your forearms remain nearly vertical at the bottom."
+      },
+      {
+        "fault": "Flaring the elbows out wide during the press.",
+        "correction": "Tuck the elbows toward your torso at roughly a 30- to 45-degree angle to keep the load on the triceps and spare the shoulders."
+      },
+      {
+        "fault": "Bouncing the bar aggressively off the sternum.",
+        "correction": "Lower the bar under control and make gentle contact with the chest before initiating the press."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use safety catches set just below chest level when benching in a power rack.",
+        "Never use a thumbless (suicide) grip on the barbell."
+      ],
+      "spotter": "recommended",
+      "safeties": true
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Close-Grip Bench Press",
+  "previous_ids": [
+    "oec:bench-press-narrow-grip"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Bench Press Narrow Grip",
+        "url": "https://wger.de/en/exercise/76/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-close-grip-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:smith-machine-close-grip-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-hex-press"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:close-grip-push-up"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:diamond-push-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "incline_degrees": 0,
+    "position": "supine",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A flat barbell bench press performed with a shoulder-width grip to shift emphasis onto the triceps and anterior deltoids."
+}

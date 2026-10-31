@@ -1,0 +1,215 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Dumbbell Isometric Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Lateral Raise Isometric",
+      "kind": "common"
+    },
+    {
+      "text": "Isometric Side Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Lateral Hold",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-lateral",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "supraspinatus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2538"
+  },
+  "id": "oec:dumbbell-lateral-raise-hold",
+  "instructions": {
+    "setup": [
+      "Stand upright with feet hip-width apart, holding a light dumbbell in each hand at your sides.",
+      "Maintain a soft bend in your knees, brace your core, and set your shoulders down and slightly back."
+    ],
+    "steps": [
+      "Raise the dumbbells out to your sides in the scapular plane with a slight bend in the elbows until your arms are parallel to the floor.",
+      "Hold the dumbbells motionless at shoulder height for the designated target duration.",
+      "Lower the weights slowly and under complete control back to your sides once the time expires."
+    ],
+    "breathing": "Breathe continuously and rhythmically throughout the hold without holding your breath.",
+    "cues": [
+      "Reach toward the walls.",
+      "Keep shoulders depressed away from the ears.",
+      "Stay tall and do not lean back."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive shrugging of the upper traps to hold the position.",
+        "correction": "Keep your shoulder blades depressed and focus on engaging the mid-shoulder rather than hiking your traps."
+      },
+      {
+        "fault": "Arching the lower back to compensate for shoulder fatigue.",
+        "correction": "Keep the glutes and abdominals braced to maintain a neutral spine throughout the hold."
+      },
+      {
+        "fault": "Arms sagging significantly below shoulder level during the hold.",
+        "correction": "End the set when parallel position can no longer be maintained, or reduce the dumbbell weight."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use significantly lighter dumbbells than standard dynamic lateral raises to protect the shoulder joint."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Dumbbell Lateral Raise Hold",
+  "previous_ids": [
+    "oec:lateral-raise-isometric"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Lateral Raise Isometric",
+        "url": "https://wger.de/en/exercise/2538/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "HexoctusEngineering"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-lateral-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-crucifix-hold"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An isolation exercise where dumbbells are held statically at shoulder height to build lateral deltoid strength and muscular endurance."
+}

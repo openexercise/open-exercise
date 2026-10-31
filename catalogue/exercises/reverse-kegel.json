@@ -1,0 +1,174 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Gentle Reverse Kegels",
+      "kind": "common"
+    },
+    {
+      "text": "Gentle Reverse Kegel",
+      "kind": "common"
+    },
+    {
+      "text": "Pelvic Floor Drop",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "transversus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "multifidus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "not-applicable",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "2655"
+  },
+  "id": "oec:reverse-kegel",
+  "instructions": {
+    "setup": [
+      "Lie comfortably on your back with your knees bent and feet flat on the floor in a hook-lying position.",
+      "Rest one hand on your chest and the other on your lower abdomen, ensuring your neck, shoulders, and glutes are completely relaxed."
+    ],
+    "steps": [
+      "Inhale slowly and deeply through your nose, directing the air down into your lower belly and pelvic basin.",
+      "Consciously allow the pelvic floor muscles to lengthen, drop, and expand downward and outward without forcing or straining.",
+      "Hold the open, relaxed sensation gently at the top of the inhalation for a brief pause.",
+      "Exhale passively through your mouth, letting the abdomen and pelvic floor naturally recoil back to neutral resting tone without actively squeezing."
+    ],
+    "breathing": "Inhale deeply to expand and release the pelvic floor, and exhale passively without actively contracting the muscles.",
+    "cues": [
+      "Breathe down into your sitting bones",
+      "Drop and release, do not push",
+      "Keep glutes and thighs completely loose"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bearing down or forcefully straining as if having a bowel movement.",
+        "correction": "Focus on passive relaxation and gentle outward expansion with the breath rather than forceful downward pressure."
+      },
+      {
+        "fault": "Tensing the glutes, adductors, or abdominal wall.",
+        "correction": "Ensure your buttocks and legs remain entirely soft and unsupported by muscle effort throughout the breath cycle."
+      },
+      {
+        "fault": "Breathing shallowly into the upper chest.",
+        "correction": "Place your hands on your lower ribs and belly to guide expansion into the 360-degree lower cylinder."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Stop and consult a pelvic floor physical therapist if you experience sharp pain or increased pelvic pressure."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps"
+        ]
+      },
+      {
+        "required": [
+          "reps",
+          "duration"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Reverse Kegel",
+  "previous_ids": [
+    "oec:gentle-reverse-kegels"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Gentle Reverse Kegels",
+        "url": "https://wger.de/en/exercise/2655/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:diaphragmatic-breathing"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:supported-deep-squat-breathing"
+    }
+  ],
+  "setup": {
+    "position": "supine"
+  },
+  "status": "active",
+  "summary": "A pelvic floor relaxation exercise that uses diaphragmatic breathing to release tension and lengthen the pelvic floor muscles."
+}

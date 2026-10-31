@@ -1,0 +1,250 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Bent High Pulls",
+      "kind": "common"
+    },
+    {
+      "text": "Bent-Over Dumbbell High Pull",
+      "kind": "common"
+    },
+    {
+      "text": "Bent-Over Dumbbell High Row",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-posterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "infraspinatus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-abduction",
+          "external-rotation"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "upward-rotation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "79"
+  },
+  "id": "oec:dumbbell-bent-over-high-pull",
+  "instructions": {
+    "setup": [
+      "Stand with your feet hip-width apart, holding a dumbbell in each hand using an overhand (pronated) grip.",
+      "Hinge at your hips with a slight bend in your knees, lowering your torso until it is roughly 45 degrees to the floor while maintaining a flat back.",
+      "Let the dumbbells hang naturally below your shoulders with arms fully extended."
+    ],
+    "steps": [
+      "Initiate the pull by driving your elbows up and out wide to the sides.",
+      "Pull the dumbbells toward your upper chest, keeping your elbows higher than your wrists throughout the ascent.",
+      "Squeeze your shoulder blades together at the top of the motion for a brief pause.",
+      "Lower the dumbbells under control back to the starting hanging position."
+    ],
+    "breathing": "Exhale as you pull the dumbbells up toward your chest; inhale as you lower them with control.",
+    "cues": [
+      "Lead with the elbows high and wide.",
+      "Pinch your shoulder blades at the top.",
+      "Keep your torso still and brace your core."
+    ],
+    "common_faults": [
+      {
+        "fault": "Using excessive body English or standing up to heave the weights.",
+        "correction": "Reduce the dumbbell weight and keep your hip hinge stationary throughout the set."
+      },
+      {
+        "fault": "Pulling elbows in close to the torso like a standard row.",
+        "correction": "Flare your elbows out wide perpendicular to your torso to target the upper back and rear delts."
+      },
+      {
+        "fault": "Rounding the lower back.",
+        "correction": "Maintain an active hip hinge with an engaged core and neutral spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessively heavy loads that compromise lumbar spinal alignment."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Bent-Over High Pull",
+  "previous_ids": [
+    "oec:bent-high-pulls"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Bent High Pulls",
+        "url": "https://wger.de/en/exercise/79/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "lakerbeezel"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-bent-over-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-face-pull"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-rear-delt-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-upper-back-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "load_position": "at-sides",
+    "position": "bent-over",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A bent-over dumbbell pull targeting the upper back, rear deltoids, and trapezius by pulling with high, flared elbows."
+}

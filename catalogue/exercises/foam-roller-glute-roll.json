@@ -1,0 +1,192 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Foam Roller Gluteus",
+      "kind": "common"
+    },
+    {
+      "text": "Glute Foam Rolling",
+      "kind": "common"
+    },
+    {
+      "text": "Foam Roll Glutes",
+      "kind": "common"
+    },
+    {
+      "text": "Glute SMR",
+      "kind": "abbreviation"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stretched"
+      },
+      {
+        "muscle": "piriformis",
+        "role": "stretched"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "not-applicable",
+    "force": "not-applicable",
+    "kinetic_chain": "not-applicable",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "foam-roller"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1859"
+  },
+  "id": "oec:foam-roller-glute-roll",
+  "instructions": {
+    "setup": [
+      "Sit directly on top of a foam roller placed horizontally on the floor.",
+      "Support your upper body by placing your hands flat on the floor behind the roller.",
+      "Cross the ankle of the targeted leg over the opposite knee in a figure-four position to expose the deep gluteal tissues.",
+      "Slightly shift your body weight toward the side of the crossed leg."
+    ],
+    "steps": [
+      "Use your supporting foot and hands to slowly roll back and forth from the top of the iliac crest down to the sit bone.",
+      "Scan the muscle belly slowly for areas of localized tightness or tenderness.",
+      "When a tender trigger point is found, pause on the spot for twenty to thirty seconds while breathing deeply until tension decreases.",
+      "Perform small, controlled oscillating rolls over the area before switching to the other side."
+    ],
+    "breathing": "Breathe continuously and deeply, exhaling slowly to encourage the gluteal muscles to relax over the roller.",
+    "cues": [
+      "Keep the chest open and support weight with the hands.",
+      "Cross the ankle to stretch and expose the deep hip rotators.",
+      "Roll slowly; avoid rushing over tender spots."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling too rapidly across the muscle.",
+        "correction": "Move at a slow, deliberate pace of about one inch per second to allow soft tissue adaptation."
+      },
+      {
+        "fault": "Holding your breath due to discomfort.",
+        "correction": "Ease off the pressure by supporting more weight through your hands and maintain steady, relaxed breathing."
+      },
+      {
+        "fault": "Rolling directly over bony landmarks such as the greater trochanter or sacrum.",
+        "correction": "Keep the roller centered on the soft muscular tissue between the hip crest and hip joint."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid rolling over unhealed muscle tears, acute bursitis, or severe sciatic nerve pain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Foam Roller Glute Roll",
+  "previous_ids": [
+    "oec:foam-roller-gluteus"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Foam Roller Gluteus",
+        "url": "https://wger.de/en/exercise/1859/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Davidgj32"
+      }
+    ]
+  },
+  "setup": {
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A self-myofascial release technique using a foam roller to alleviate tension and improve tissue quality in the gluteal muscles."
+}

@@ -1,0 +1,193 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Forward Arm Circles",
+      "kind": "common"
+    },
+    {
+      "text": "Arm Circles Forward",
+      "kind": "common"
+    },
+    {
+      "text": "Arm Circle",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "circumduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "elevation",
+          "depression",
+          "upward-rotation",
+          "downward-rotation",
+          "protraction",
+          "retraction"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "994"
+  },
+  "id": "oec:forward-arm-circle",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and a neutral spine.",
+      "Extend both arms straight out to the sides or down at your sides with elbows soft but extended."
+    ],
+    "steps": [
+      "Initiate a smooth circular motion with both arms moving in a forward direction.",
+      "Trace controlled circles through a full, pain-free range of motion, passing through flexion, adduction, and extension.",
+      "Maintain a steady, rhythmic pace while keeping the torso still and core engaged."
+    ],
+    "breathing": "Breathe continuously and rhythmically throughout the movement without holding your breath.",
+    "cues": [
+      "Keep ribs down and core brace engaged.",
+      "Move from the shoulders, not the torso.",
+      "Maintain smooth, controlled circles."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive arching of the lower back as the arms pass overhead.",
+        "correction": "Brace the abdominals and keep the ribs tucked to maintain a neutral spine."
+      },
+      {
+        "fault": "Shrugging the shoulders excessively up toward the ears.",
+        "correction": "Allow natural scapular movement without forcing a sustained shrug."
+      },
+      {
+        "fault": "Bending the elbows to compensate for limited shoulder mobility.",
+        "correction": "Keep the arms long and reduce the circle diameter if full range causes elbow flexion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you feel shoulder impingement or sharp pain, decrease the size of the circles or stop the movement."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Forward Arm Circle",
+  "previous_ids": [
+    "oec:forward-arm-circles"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Forward arm circles",
+        "url": "https://wger.de/en/exercise/994/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:forward-shoulder-circle"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A dynamic shoulder mobility exercise where the arms perform continuous circular rotations forward to warm up the shoulder girdle."
+}

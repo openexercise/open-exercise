@@ -1,0 +1,147 @@
+{
+  "is_exercise": true,
+  "name": "Band Scapular Retraction",
+  "summary": "A postural and rehabilitative exercise using an anchored resistance band to isolate scapular retraction and strengthen the upper back.",
+  "aliases": [
+    {
+      "text": "Banded Scapular Retraction",
+      "kind": "common"
+    },
+    {
+      "text": "Resistance Band Scapular Retraction",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Band Scapular Retraction",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "mobility",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rotator-cuff",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "resistance-band"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "band-tension",
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "elastic",
+  "load_convention": "not-applicable",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Anchor a resistance band to a sturdy upright at chest or shoulder height.",
+      "Face the anchor point and loop the band around your upper arm or hold it firmly in hand with the elbow bent to roughly ninety degrees.",
+      "Step back until there is light tension on the band with your arm reaching forward and shoulder protracted."
+    ],
+    "steps": [
+      "Without twisting your torso or flexing the elbow further, glide your shoulder blade straight back toward your spine.",
+      "Pause and squeeze the shoulder blade tightly for one to two seconds at peak retraction.",
+      "Slowly allow the band to pull your shoulder blade forward into controlled protraction."
+    ],
+    "breathing": "Exhale as you retract the shoulder blade; inhale as you return to the starting position under control.",
+    "cues": [
+      "Move the shoulder blade, not the spine.",
+      "Keep your shoulders down away from your ears.",
+      "Pinch a pencil between your shoulder blades."
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulder upward during retraction.",
+        "correction": "Actively depress the shoulder girdle and keep the upper traps relaxed."
+      },
+      {
+        "fault": "Rotating the torso to pull the band back.",
+        "correction": "Brace your core and keep your chest facing directly forward throughout the movement."
+      },
+      {
+        "fault": "Bending the arm to pull with the bicep instead of moving the scapula.",
+        "correction": "Lock the elbow angle and focus entirely on gliding the shoulder blade backward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the resistance band is securely anchored before stepping back into tension."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

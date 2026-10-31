@@ -1,0 +1,149 @@
+{
+  "is_exercise": true,
+  "name": "Machine Chest Press",
+  "summary": "A seated compound machine exercise that targets the pectoral muscles, anterior deltoids, and triceps with guided stability.",
+  "aliases": [
+    {
+      "text": "Chest Press Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Machine Chest Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so that the machine handles align horizontally with mid-to-lower chest level.",
+      "Sit back firmly against the back pad with your feet flat on the floor.",
+      "If equipped, depress the foot assist pedal to bring the handles forward into a comfortable starting position.",
+      "Grasp the handles with an overhand or neutral grip and retract your shoulder blades against the pad."
+    ],
+    "steps": [
+      "Release the foot pedal smoothly while holding the handles with tension on your chest.",
+      "Press the handles away by extending your elbows and squeezing your chest.",
+      "Push until your arms are fully extended without aggressively locking out your elbows or letting your shoulders roll forward.",
+      "Slowly reverse the movement, controlling the weight back until your chest experiences a full stretch."
+    ],
+    "breathing": "Exhale as you press the handles forward, and inhale as you lower the weight back under control.",
+    "cues": [
+      "Keep your chest proud against the pad",
+      "Drive through your palms",
+      "Don't let the shoulders roll forward at the finish"
+    ],
+    "common_faults": [
+      {
+        "fault": "Setting the seat too low, causing the handles to align with the neck and overstressing the shoulders.",
+        "correction": "Raise the seat so the handles align directly with the middle or lower line of the pectoral muscles."
+      },
+      {
+        "fault": "Protraction and shrugging shoulders off the back pad at full extension.",
+        "correction": "Keep your shoulder blades pulled back and down against the pad throughout the entire range of motion."
+      },
+      {
+        "fault": "Letting the weight stack slam down between repetitions.",
+        "correction": "Maintain continuous muscular tension and stop just short of the weight plates touching at the bottom."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use the foot-assist pedal if available to protect the shoulders when entering and exiting heavy sets."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

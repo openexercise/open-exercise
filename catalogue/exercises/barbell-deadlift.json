@@ -1,0 +1,275 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "Conventional Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Conventional Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "DL",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Deadlifts",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "trapezius",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "fingers",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "powerlifting",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "strap"
+    ],
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "weight-plate"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "184"
+  },
+  "id": "oec:barbell-deadlift",
+  "instructions": {
+    "setup": [
+      "Stand facing the loaded barbell with feet hip-width apart, toes pointing slightly outward.",
+      "Position the bar over mid-foot, approximately one inch away from your shins.",
+      "Hinge at the hips and grip the barbell just outside your legs using a double-overhand or mixed grip.",
+      "Bring your shins forward until they make light contact with the bar without rolling it forward.",
+      "Set your chest up, pull the slack out of the barbell, and brace your core firmly."
+    ],
+    "steps": [
+      "Drive through the floor with your mid-foot and heels while maintaining a neutral spine.",
+      "Keep the bar traveling close to your shins and thighs as your knees and hips extend simultaneously.",
+      "Stand fully upright, locking out your hips and knees without hyperextending your lower back.",
+      "Hinge at the hips and push them back to guide the bar down along your thighs.",
+      "Once the bar clears your knees, bend them to return the plates to the floor in a controlled manner."
+    ],
+    "breathing": "Inhale deeply into your abdomen and brace against a closed glottis before initiating the pull; exhale once you reach the lockout or after the bar is safely returned to the floor.",
+    "cues": [
+      "Push the floor away",
+      "Pull the slack out of the bar",
+      "Keep the bar glued to your legs",
+      "Stand tall, do not lean back"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding the lumbar spine under load.",
+        "correction": "Pull the slack out of the bar, brace the abdominal wall hard, and lower the training weight if spinal position cannot be maintained."
+      },
+      {
+        "fault": "Bar drifting away from the body during the ascent.",
+        "correction": "Engage the lats by thinking of squeezing oranges in your armpits to keep the bar tracking directly over mid-foot."
+      },
+      {
+        "fault": "Hips shooting up before the chest rises.",
+        "correction": "Push through the quads off the floor while maintaining a constant torso angle until the bar passes the knees."
+      },
+      {
+        "fault": "Hyperextending the lower back at the top lockout.",
+        "correction": "Finish the lift by squeezing the glutes to achieve neutral hip extension rather than leaning backward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure standard-diameter bumper or iron plates are used so the starting height is correct off the floor.",
+        "Clear collars and floor space around the lifting area to avoid tripping hazards."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Deadlift",
+  "previous_ids": [
+    "oec:deadlifts"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Deadlifts",
+        "url": "https://wger.de/en/exercise/184/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:trap-bar-deadlift"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-sumo-deadlift"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:kettlebell-deadlift"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:dumbbell-deadlift"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:barbell-rack-pull"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-deficit-deadlift"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A foundational compound lift where a loaded barbell is pulled from the floor to hip height through coordinated hip and knee extension."
+}

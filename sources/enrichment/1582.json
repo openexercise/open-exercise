@@ -1,0 +1,159 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Side-Lying Internal Rotation",
+  "summary": "A unilateral isolation exercise targeting the subscapularis and anterior shoulder stabilizers to build rotator cuff strength and joint integrity.",
+  "aliases": [
+    {
+      "text": "Side-Lying Dumbbell Internal Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Side-Lying Internal Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Side-Lying Shoulder Internal Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Side-Laying Interior Rotation",
+      "kind": "misspelling"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "strength"
+    ],
+    "movement_patterns": [
+      "rotation"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "side-lying",
+  "grip_orientation": "neutral",
+  "muscles": [
+    {
+      "muscle": "subscapularis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "internal-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Lie on your side on a flat bench with your bottom arm bent at a 90-degree angle at the elbow.",
+      "Position yourself near the edge so your bottom forearm can hang freely below the bench level.",
+      "Grasp a light dumbbell with a neutral grip in the bottom hand and keep the elbow tucked close against your side."
+    ],
+    "steps": [
+      "Lower the dumbbell under control toward the floor by externally rotating the shoulder as far as comfortably tolerated.",
+      "Rotate the upper arm internally to pull the dumbbell up toward your abdomen until the forearm is perpendicular to the floor.",
+      "Pause briefly at the top to contract the internal rotators without twisting your torso.",
+      "Lower the dumbbell smoothly back to the starting stretch."
+    ],
+    "breathing": "Inhale as you lower the weight toward the floor; exhale as you rotate the dumbbell upward toward your stomach.",
+    "cues": [
+      "Keep the elbow pinned to your ribcage",
+      "Rotate smoothly without rocking your torso",
+      "Move the forearm like a door on a hinge"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling the torso backward or forward to move the weight.",
+        "correction": "Keep your hips and shoulders stacked vertically throughout the entire movement."
+      },
+      {
+        "fault": "Extending or flexing the elbow during rotation.",
+        "correction": "Maintain a strict 90-degree bend at the elbow so movement only occurs at the glenohumeral joint."
+      },
+      {
+        "fault": "Using excessively heavy weight.",
+        "correction": "Select very light dumbbells; the rotator cuff muscles respond best to controlled, high-quality contractions."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forcing end-range external rotation if you experience anterior shoulder pain or impingement."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

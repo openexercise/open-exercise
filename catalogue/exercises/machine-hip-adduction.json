@@ -1,0 +1,194 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Seated Hip Adduction",
+      "kind": "common"
+    },
+    {
+      "text": "Hip Adductor Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Inner Thigh Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Adductor",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "adductor-magnus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-longus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-brevis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gracilis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectineus",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "adduction"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-hip-adduction"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "12"
+  },
+  "id": "oec:machine-hip-adduction",
+  "instructions": {
+    "setup": [
+      "Sit upright in the adductor machine with your back flat against the backrest.",
+      "Adjust the lever to set the leg pads outward to a comfortable, deep groin stretch.",
+      "Place the inner side of your knees and lower thighs against the padded levers with your feet resting on the foot supports."
+    ],
+    "steps": [
+      "Grip the handles at your sides to keep your hips firmly planted in the seat.",
+      "Squeeze your knees inward toward each other in a controlled, smooth motion.",
+      "Bring the pads together until they lightly touch or achieve full hip adduction.",
+      "Pause momentarily at the peak contraction, then slowly reverse the movement under control back to the starting stretch."
+    ],
+    "breathing": "Exhale as you squeeze your thighs together; inhale as you slowly return to the widened position.",
+    "cues": [
+      "Squeeze through your inner thighs",
+      "Control the stretch on the way out",
+      "Keep your pelvis pinned to the backrest"
+    ],
+    "common_faults": [
+      {
+        "fault": "Letting the weight plates crash at the bottom of the movement.",
+        "correction": "Maintain continuous muscular tension and stop just before the weight stack touches down."
+      },
+      {
+        "fault": "Setting the machine arms too wide and overstretching the groin tendons.",
+        "correction": "Adjust the starting range to a comfortable stretch that allows controlled movement without joint strain."
+      },
+      {
+        "fault": "Using torso momentum or lifting the hips out of the seat to force the pads together.",
+        "correction": "Keep your upper body completely still against the back pad and use only the inner thigh musculature."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Warm up thoroughly and avoid excessive initial abduction angles to prevent groin strains."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Machine Hip Adduction",
+  "previous_ids": [
+    "oec:seated-hip-adduction"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Seated Hip Adduction",
+        "url": "https://wger.de/en/exercise/12/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "flori"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-hip-adduction"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:copenhagen-plank"
+    }
+  ],
+  "setup": {
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A seated machine exercise that strengthens the inner thighs by drawing the legs together against resistance."
+}

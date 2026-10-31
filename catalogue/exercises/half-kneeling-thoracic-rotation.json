@@ -1,0 +1,228 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "1/2 Kneeling Thoracic Rotation",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Half-Kneeling T-Spine Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Half-Kneeling Wall Windmill",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "external-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "multifidus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "rotation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "rotation"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat",
+      "wall",
+      "foam-roller",
+      "yoga-block"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1966"
+  },
+  "id": "oec:half-kneeling-thoracic-rotation",
+  "instructions": {
+    "setup": [
+      "Assume a half-kneeling position with the front hip and knee bent at 90 degrees and the back knee resting on the floor directly beneath the hips.",
+      "Optionally set up adjacent to a wall with the lead knee pressed lightly against a foam roller pinned to the wall to keep the hips square.",
+      "Extend both arms straight out in front of your chest with palms together."
+    ],
+    "steps": [
+      "Keeping the hips and pelvis pinned firmly in place, open the arm closest to the back leg or wall in a sweeping horizontal arc.",
+      "Follow your moving hand with your eyes, rotating your mid-back and ribcage as far as comfortably possible without shifting the hips.",
+      "Pause momentarily at the end-range of thoracic rotation.",
+      "Smoothly reverse the path to return both hands together in front of your chest.",
+      "Complete the desired repetitions on one side before switching your stance to the opposite side."
+    ],
+    "breathing": "Exhale as you rotate open and expand the chest; inhale as you return to the starting position.",
+    "cues": [
+      "Rotate through the ribs, not the hips.",
+      "Track your thumb with your eyes.",
+      "Keep the front knee tracking straight forward without flaring."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating through the lumbar spine and pelvis instead of the thoracic cage.",
+        "correction": "Squeeze the glute of the trailing leg and brace the core to lock the pelvis square facing forward."
+      },
+      {
+        "fault": "Letting the front knee collapse inward or outward during the reach.",
+        "correction": "Actively drive the front foot down and keep the knee aligned over the second toe, or pin a foam roller against a wall to enforce alignment."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Place a folded mat or cushion under the rear knee if kneeling causes discomfort."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Half-Kneeling Thoracic Rotation",
+  "previous_ids": [
+    "oec:1-2-kneeling-thoracic-rotation"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: 1/2 Kneeling Thoracic Rotation",
+        "url": "https://wger.de/en/exercise/1966/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "amwang4"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:quadruped-thoracic-rotation"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:half-kneeling-open-book"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:quadruped-thoracic-rotation"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-thoracic-rotation"
+    }
+  ],
+  "setup": {
+    "position": "half-kneeling"
+  },
+  "status": "active",
+  "summary": "A dynamic mobility exercise performed in a half-kneeling stance to improve thoracic spine rotational range of motion while stabilizing the pelvis and lumbar spine."
+}

@@ -1,0 +1,170 @@
+{
+  "is_exercise": true,
+  "name": "Fingertip Push-Up",
+  "summary": "An advanced push-up variation performed supported on the fingertips to build hand, finger, and forearm integrity alongside upper-body pressing strength.",
+  "aliases": [
+    {
+      "text": "Finger Pushup",
+      "kind": "common"
+    },
+    {
+      "text": "Finger Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Fingertip Pushup",
+      "kind": "common"
+    },
+    {
+      "text": "Flexão de dedo",
+      "kind": "regional"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "advanced"
+  },
+  "position": "prone",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "hand-intrinsics",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "fingers",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Assume a standard high plank position with feet hip-width apart and your body in a rigid, straight line.",
+      "Lift your palms off the floor, distributing your upper-body weight across all ten fingertips and thumbs.",
+      "Spread your fingers wide in an arched claw position, ensuring the finger joints are firm and not hyperextending."
+    ],
+    "steps": [
+      "Lower your chest toward the floor by bending the elbows backward at roughly a 45-degree angle to your torso.",
+      "Descend until your chest hovers just above the ground while keeping the fingers rigid and arched.",
+      "Press through your fingertips and straighten your arms to return to the starting plank position.",
+      "Lock out the elbows and fully protract the shoulder blades at the top before beginning the next repetition."
+    ],
+    "breathing": "Inhale as you lower your body toward the floor, and exhale forcefully as you press back up to the lockout.",
+    "cues": [
+      "Claw the floor",
+      "Keep finger joints rigid",
+      "Body like a plank"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing finger joints to collapse into hyperextension under body weight.",
+        "correction": "Maintain a strong dome shape with your hands and regress to kneeling fingertip holds if the fingers buckle."
+      },
+      {
+        "fault": "Sagging at the hips or hyper-extending the lumbar spine.",
+        "correction": "Brace the abdominals and squeeze the glutes to keep the entire body rigid from head to heels."
+      },
+      {
+        "fault": "Flaring elbows directly out to the sides.",
+        "correction": "Tuck elbows to roughly a 45-degree angle relative to the ribs to protect the shoulders."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Requires significant connective tissue conditioning in the hands; build up from kneeling fingertip planks before performing full repetitions."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

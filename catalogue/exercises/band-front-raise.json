@@ -1,0 +1,208 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Resistance Band Front Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Banded Front Raise",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-lateral",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "resistance-band"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2622"
+  },
+  "id": "oec:band-front-raise",
+  "instructions": {
+    "setup": [
+      "Stand upright with your feet hip-width apart, securely pinning the center of a resistance band under midfoot.",
+      "Grip the ends or handles of the band in front of your thighs with a pronated grip and a slight unlock in the elbows."
+    ],
+    "steps": [
+      "Brace your core and keep your torso tall.",
+      "Raise your arms forward in front of your body until your hands reach shoulder level.",
+      "Pause briefly at the top to emphasize peak contraction.",
+      "Lower your arms back down to the starting position in a controlled motion against the resistance of the band."
+    ],
+    "breathing": "Exhale as you raise your arms forward and inhale as you lower them under control.",
+    "cues": [
+      "Lead with the knuckles",
+      "Keep the torso still and resist leaning back",
+      "Fight the band on the way down"
+    ],
+    "common_faults": [
+      {
+        "fault": "Using momentum or leaning backward to heave the band upward",
+        "correction": "Brace the abdominals and reduce band tension so movement occurs strictly at the shoulder joint."
+      },
+      {
+        "fault": "Excessive shrugging of the shoulders during the raise",
+        "correction": "Keep your shoulder blades depressed and focus tension on the anterior deltoids."
+      },
+      {
+        "fault": "Allowing the band to snap the arms down quickly without control",
+        "correction": "Resist the elastic tension through a slow, deliberate eccentric descent."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the band is firmly anchored under your feet before beginning to prevent it from slipping out."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "elastic"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "band-tension"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Band Front Raise",
+  "previous_ids": [
+    "oec:banded-front-raise"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Banded Front Raise",
+        "url": "https://wger.de/en/exercise/2622/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "trs1800"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-front-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-front-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-front-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:plate-front-raise"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A shoulder isolation exercise using an elastic band to target the anterior deltoids."
+}

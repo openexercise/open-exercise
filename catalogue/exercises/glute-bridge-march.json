@@ -1,0 +1,237 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Hip Bridge",
+      "kind": "common"
+    },
+    {
+      "text": "Bridge March",
+      "kind": "common"
+    },
+    {
+      "text": "Hip Bridge March",
+      "kind": "common"
+    },
+    {
+      "text": "Glute Bridge with Leg Extension",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension",
+          "flexion",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "rehabilitation",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "hinge",
+      "anti-rotation"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "mixed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1906"
+  },
+  "id": "oec:glute-bridge-march",
+  "instructions": {
+    "setup": [
+      "Lie supine on the floor or an exercise mat with your knees bent and feet flat, hip-width apart.",
+      "Rest your arms flat on the floor at your sides with palms facing down.",
+      "Engage your abdominals and drive through your heels to raise your hips until your torso and thighs form a straight diagonal line."
+    ],
+    "steps": [
+      "Firmly press the stance heel into the floor and squeeze the stance glute to keep your pelvis level.",
+      "Lift the opposite foot off the floor, bringing that knee up toward your chest while keeping your hips fully extended.",
+      "Pause briefly at the top without allowing the pelvis to dip or rotate.",
+      "Lower the foot smoothly back to the floor to return to the bilateral bridge.",
+      "Repeat the movement with the opposite leg, alternating sides with each repetition."
+    ],
+    "breathing": "Exhale as you lift the leg into the march, and inhale smoothly as you lower the foot back to the floor.",
+    "cues": [
+      "Drive through the stance heel",
+      "Keep your belt buckle level",
+      "Squeeze your glutes at the top",
+      "Brace your abs"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pelvis sagging or tilting when one foot is lifted off the floor.",
+        "correction": "Squeeze the glute on the grounded side and brace your core firmly before lifting the moving leg."
+      },
+      {
+        "fault": "Hyperextending the lower back instead of extending through the hips.",
+        "correction": "Maintain a braced rib cage and stop hip elevation once your thighs and torso form a straight line."
+      },
+      {
+        "fault": "Rushing through the march and relying on momentum.",
+        "correction": "Slow the tempo down and hold the single-leg position for a distinct one-second pause on each side."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Keep the neck relaxed and the weight supported across your upper back and shoulders, not on the cervical spine."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Glute Bridge March",
+  "previous_ids": [
+    "oec:hip-bridge"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Hip Bridge",
+        "url": "https://wger.de/en/exercise/1906/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "cybro"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:glute-bridge"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:glute-bridge"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:glute-bridge-hold"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:single-leg-glute-bridge"
+    }
+  ],
+  "setup": {
+    "position": "supine",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A bodyweight core and posterior-chain exercise performed by holding a glute bridge while alternately lifting each leg to challenge unilateral hip extension and pelvic stability."
+}

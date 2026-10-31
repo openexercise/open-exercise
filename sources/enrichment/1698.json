@@ -1,0 +1,193 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Bent-Over Row",
+  "summary": "A compound free-weight pulling exercise performed in a hinged position to strengthen the back and hip stabilizers.",
+  "aliases": [
+    {
+      "text": "Barbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Bent Over Row",
+      "kind": "common"
+    },
+    {
+      "text": "Bent-Over Barbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Overhand Barbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Row (Overhand)",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "bent-over",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "weight-plate",
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand with feet hip-width apart and mid-foot directly beneath a loaded barbell.",
+      "Hinge at the hips with a slight bend in the knees, maintaining a neutral spine until your torso is roughly 45 degrees to nearly parallel to the floor.",
+      "Grasp the bar with a double-overhand (pronated) grip slightly wider than shoulder width, letting the arms hang fully extended."
+    ],
+    "steps": [
+      "Brace your core and pull your shoulder blades back as you drive your elbows toward the ceiling.",
+      "Pull the barbell smoothly toward your lower ribcage or upper abdomen, keeping your elbows close to your torso.",
+      "Squeeze your shoulder blades together at the top of the stroke for a brief contraction.",
+      "Lower the barbell under control until your arms are fully extended and your scapulae protracted, keeping your torso angle fixed."
+    ],
+    "breathing": "Inhale and brace your abdomen before initiating the pull; exhale as you complete the row or lower the weight under control.",
+    "cues": [
+      "Drive your elbows back and up.",
+      "Keep your chest proud and spine rigid.",
+      "Pull to your belly button, not your neck."
+    ],
+    "common_faults": [
+      {
+        "fault": "Using excessive body momentum or standing up during each repetition.",
+        "correction": "Reduce the load and lock your torso angle in place throughout the entire set."
+      },
+      {
+        "fault": "Rounding the lumbar spine under load.",
+        "correction": "Hinge at the hips, brace your core, and maintain a flat, neutral spine before initiating the row."
+      },
+      {
+        "fault": "Flaring the elbows excessively wide.",
+        "correction": "Tuck the elbows roughly 30 to 45 degrees from the sides to bias the lats and protect the shoulders."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid letting the spine flex under heavy loads; set the bar down if posture breaks down."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

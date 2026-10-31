@@ -1,0 +1,227 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "YTWL Exercise",
+      "kind": "common"
+    },
+    {
+      "text": "YTWL Raise",
+      "kind": "common"
+    },
+    {
+      "text": "YTWLs",
+      "kind": "common"
+    },
+    {
+      "text": "Bent-Over Y-T-W-L",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "trapezius-lower",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "infraspinatus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "teres-minor",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "upward-rotation",
+          "depression"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "abduction",
+          "horizontal-abduction",
+          "external-rotation",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "rehabilitation",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "horizontal-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "dumbbell",
+      "weight-plate",
+      "adjustable-bench"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1885"
+  },
+  "id": "oec:bent-over-ytwl",
+  "instructions": {
+    "setup": [
+      "Stand with your feet hip-width apart and knees soft.",
+      "Hinge at the hips until your torso is angled at approximately 45 degrees or nearly parallel to the floor, maintaining a neutral spine.",
+      "Let your arms hang straight down naturally with your thumbs pointing upward."
+    ],
+    "steps": [
+      "Perform the 'Y': Raise both straight arms diagonally forward at roughly a 45-degree angle from the torso with thumbs pointing toward the ceiling, pause briefly to squeeze the lower traps, then lower.",
+      "Perform the 'T': Raise both straight arms out laterally to the sides perpendicular to your body, squeezing the shoulder blades together, then lower under control.",
+      "Perform the 'W': Pull your elbows up and back while bending the elbows to 90 degrees, externally rotating the shoulders to form a 'W' shape with your arms, pause, then lower.",
+      "Perform the 'L': Keep elbows bent at 90 degrees and pinned near your ribs, then rotate your forearms upward and backward around the elbow axis into external rotation before returning to the start."
+    ],
+    "breathing": "Breathe smoothly and continuously throughout the complex, exhaling on each lift and inhaling as you lower.",
+    "cues": [
+      "Lead with your thumbs",
+      "Move from the shoulder blades, not just the hands",
+      "Keep your neck neutral and spine flat"
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulders up toward the ears with the upper trapezius.",
+        "correction": "Keep the shoulders pulled down away from the ears and initiate the movement by retracting and depressing the scapulae."
+      },
+      {
+        "fault": "Rounding the lower back during the hinge.",
+        "correction": "Brace the core, hinge deeply at the hips, and maintain a flat, neutral spine throughout all letter positions."
+      },
+      {
+        "fault": "Using heavy weights and swinging through momentum.",
+        "correction": "Perform the movement unweighted or with micro-weights, moving strictly under control with brief isometric holds at peak contraction."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If maintaining a bent-over hinge causes lower back fatigue, perform the sequence lying prone on an incline bench."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Bent-Over YTWL",
+  "previous_ids": [
+    "oec:ytwl-exercise"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: YTWL Exercise",
+        "url": "https://wger.de/en/exercise/1885/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "teus_ergaster"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:prone-ytw-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:prone-y-t-w-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:standing-i-y-t-raise"
+    }
+  ],
+  "setup": {
+    "position": "bent-over",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A bent-over scapular prehab and mobility sequence cycling through Y, T, W, and L arm positions to strengthen the upper back and rotator cuff."
+}

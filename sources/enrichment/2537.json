@@ -1,0 +1,193 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Isometric Overhead Press",
+  "summary": "An isometric pressing exercise where a barbell is driven upward against immovable rack pins or held statically at a specific point in the pressing range.",
+  "aliases": [
+    {
+      "text": "Isometric Overhead Press",
+      "kind": "common"
+    },
+    {
+      "text": "Overhead Press Isometric",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Overhead Press Isometric",
+      "kind": "common"
+    },
+    {
+      "text": "Isometric Pin Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "overhead",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "power-rack"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "weight-plate"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "load",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Set the safety pins in a power rack at your desired joint angle or sticking point, typically around eye level or forehead level.",
+      "Place a barbell beneath the pins, or set another pair of pins to rest the bar immediately below the working pins.",
+      "Step up to the bar with a hip-width stance, grip the bar just outside shoulder width with a full pronated grip, and position your forearms vertically under the bar.",
+      "Brace your core, squeeze your glutes, and pull your chin back slightly."
+    ],
+    "steps": [
+      "Drive the barbell upward firmly into the safety pins.",
+      "Once solid contact is made, ramp up to the prescribed maximal or submaximal pressing effort against the immovable pins.",
+      "Maintain strict full-body tension, keeping your ribcage pinned down and glutes locked for the full duration of the hold.",
+      "Steadily reduce pushing effort, lower the bar off the pins, and step back carefully."
+    ],
+    "breathing": "Take a deep diaphragmatic breath and brace before building force, using short and controlled breaths behind your braced core if holding for longer durations.",
+    "cues": [
+      "Push the ceiling away",
+      "Squeeze glutes to protect the low back",
+      "Ribs down, core locked",
+      "Drive elbows straight up"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lumbar spine while driving into the pins.",
+        "correction": "Squeeze the glutes hard and brace the abs to maintain a neutral spine throughout the push."
+      },
+      {
+        "fault": "Flaring the elbows excessively wide during the hold.",
+        "correction": "Keep elbows slightly in front of the bar in the scapular plane to optimize shoulder mechanics."
+      },
+      {
+        "fault": "Abruptly jerking into the pins rather than ramping force smoothly.",
+        "correction": "Make firm contact with the pins first, then progressively drive into maximum effort to protect the joints."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the rack is securely anchored or counterweighted before performing maximal isometric contractions against safety pins.",
+        "Avoid letting your head drift too far forward or tilting the neck back aggressively while exerting maximum effort."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  }
+}

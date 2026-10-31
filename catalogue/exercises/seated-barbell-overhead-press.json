@@ -1,0 +1,282 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Seated Barbell Shoulder Press",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Overhead Press",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Military Press",
+      "kind": "common"
+    },
+    {
+      "text": "Seated OHP",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "OHP Barbell",
+      "kind": "common"
+    },
+    {
+      "text": "Overhead press Barbell",
+      "kind": "common"
+    },
+    {
+      "text": "Military Press with Barbell",
+      "kind": "common"
+    },
+    {
+      "text": "Shoulder Press, Barbell",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-lateral",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "adjustable-bench",
+        "bench"
+      ],
+      [
+        "squat-rack",
+        "power-rack"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "566"
+  },
+  "id": "oec:seated-barbell-overhead-press",
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an upright or steep incline (roughly 75 to 85 degrees) inside a rack.",
+      "Position the barbell on J-hooks at roughly chin height when seated.",
+      "Sit back firmly against the pad with your feet planted flat on the floor.",
+      "Grip the bar slightly wider than shoulder width with a full pronated grip, resting the bar across the heels of your palms.",
+      "Unrack the barbell and hold it at upper chest height just below your chin, with elbows slightly forward of the bar."
+    ],
+    "steps": [
+      "Brace your core and press the barbell vertically upward in a smooth, controlled path.",
+      "Tuck your chin slightly as the bar passes your face, then push your head back to neutral as the bar clears your forehead.",
+      "Lock out your elbows overhead with the bar positioned directly over your shoulders.",
+      "Lower the barbell under control back to collarbone level, tracking your elbows slightly in front of your torso."
+    ],
+    "breathing": "Inhale and brace your core at the bottom before pressing, and exhale as you reach full lockout overhead.",
+    "cues": [
+      "Press through your palms",
+      "Tuck the chin, then push through",
+      "Elbows slightly forward, not flared",
+      "Keep upper back pinned to the pad"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively arching the lower back away from the bench.",
+        "correction": "Keep your core tight and your hips and upper back firmly pressed against the backrest."
+      },
+      {
+        "fault": "Flaring the elbows straight out to the sides.",
+        "correction": "Keep your elbows tucked about 30 to 45 degrees in the scapular plane to protect the shoulder joint."
+      },
+      {
+        "fault": "Bouncing the bar off the chest.",
+        "correction": "Control the descent and pause briefly at collarbone level before pressing upward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Set safety pins in the rack just below chin level to catch the barbell if a rep is missed.",
+        "Avoid using a false or thumbless grip to prevent the bar from slipping."
+      ],
+      "spotter": "recommended",
+      "safeties": true
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Seated Barbell Overhead Press",
+  "previous_ids": [
+    "oec:shoulder-press-barbell"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Shoulder Press, Barbell",
+        "url": "https://wger.de/en/exercise/566/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-overhead-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-overhead-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-dumbbell-overhead-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-dumbbell-shoulder-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:smith-machine-overhead-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "incline_degrees": 85,
+    "load_position": "front-rack",
+    "position": "seated",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A compound upper-body pressing exercise performed seated on an upright or near-vertical bench to build shoulder and triceps strength while minimizing lower-body contribution."
+}

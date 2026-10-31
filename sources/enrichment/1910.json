@@ -1,0 +1,177 @@
+{
+  "is_exercise": true,
+  "name": "Bird Dog",
+  "summary": "A quadruped core-stability exercise where opposite arm and leg are extended simultaneously while maintaining a neutral spine.",
+  "aliases": [
+    {
+      "text": "Kneeling Superman",
+      "kind": "common"
+    },
+    {
+      "text": "Quadruped Bird Dog",
+      "kind": "common"
+    },
+    {
+      "text": "Opposite Arm Leg Reach",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "rehabilitation",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "anti-rotation",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "mixed",
+    "laterality": "contralateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "quadruped",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "multifidus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "protraction",
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "per-side",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Position yourself on hands and knees on a mat with your wrists directly beneath your shoulders and knees under your hips.",
+      "Align your spine in neutral and gently brace your abdomen while looking directly down at the floor."
+    ],
+    "steps": [
+      "Simultaneously extend one arm straight forward and the opposite leg straight back until both limbs are roughly parallel to the floor.",
+      "Pause at the top of the reach, squeezing the glute of the extended leg while keeping your pelvis and shoulders squared to the ground.",
+      "Slowly lower your hand and knee back to the starting quadruped position under full control.",
+      "Complete the desired repetitions or hold duration before alternating to the opposite side."
+    ],
+    "breathing": "Exhale as you reach the limbs outward; inhale smoothly as you return to the starting position while keeping the abdominal brace engaged.",
+    "cues": [
+      "Reach long, not high.",
+      "Keep hips level like a table.",
+      "Brace your core to prevent sagging."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lower back to kick the leg excessively high.",
+        "correction": "Raise the leg only to hip level and focus on squeezing the glute rather than arching the lumbar spine."
+      },
+      {
+        "fault": "Rotating the hips outward and tilting the pelvis.",
+        "correction": "Keep both hip points facing directly toward the floor throughout the reach."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a neutral cervical spine by keeping the eyes focused on the floor rather than looking upward."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

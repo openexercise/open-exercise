@@ -1,0 +1,160 @@
+{
+  "is_exercise": true,
+  "name": "Hanging Leg Raise",
+  "summary": "A calisthenics core exercise performed by hanging from an overhead bar and raising straight legs to horizontal or above through hip and lumbar flexion.",
+  "aliases": [
+    {
+      "text": "Hanging Straight Leg Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Pull-Up Bar Leg Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "hanging",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "synergist"
+    },
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "fingers",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "pull-up-bar"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Grasp the pull-up bar with an overhand grip roughly shoulder-width apart.",
+      "Hang at full arm extension with your shoulders actively depressed and your core engaged to prevent swinging."
+    ],
+    "steps": [
+      "Keeping your legs straight and feet together, contract your abdominals and hip flexors to raise your legs forward.",
+      "Continue raising your legs until they are at least parallel to the floor, actively rounding your pelvis upward to engage the lower abdominals.",
+      "Pause briefly at the top of the movement under full control.",
+      "Lower your legs slowly back to the starting dead-hang position without swinging."
+    ],
+    "breathing": "Exhale as you raise your legs toward horizontal and inhale smoothly as you lower them.",
+    "cues": [
+      "Tuck your tailbone toward your chest at the top",
+      "No swinging",
+      "Control the descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Using momentum and swinging the torso to kick the legs up",
+        "correction": "Reset to a complete dead hang between reps and lift with muscular control rather than momentum."
+      },
+      {
+        "fault": "Only flexing at the hips without curling the pelvis upward",
+        "correction": "Ensure your pelvis tilts posteriorly at the top to fully contract the rectus abdominis."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure your grip is secure on the bar before initiating the movement.",
+        "Bend your knees slightly if hamstring tightness pulls your lower back excessively."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

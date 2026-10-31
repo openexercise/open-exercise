@@ -1,0 +1,202 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Sit and Reach",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Forward Bend",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Toe Touch",
+      "kind": "common"
+    },
+    {
+      "text": "Paschimottanasana",
+      "kind": "regional"
+    },
+    {
+      "text": "Seated Toe Touches",
+      "kind": "common"
+    },
+    {
+      "text": "Sit \u0026 Reach",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "hamstrings",
+        "role": "stretched"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "yoga"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "spinal-flexion",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat",
+      "strap"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1394"
+  },
+  "id": "oec:seated-forward-fold",
+  "instructions": {
+    "setup": [
+      "Sit upright on the floor with both legs fully extended straight in front of you.",
+      "Keep your feet together with your toes pulled back toward your shins in dorsiflexion.",
+      "Root your sit bones into the floor and lengthen your spine upward."
+    ],
+    "steps": [
+      "Hinge at your hips to reach your chest forward over your thighs.",
+      "Reach your hands along your legs toward your shins, ankles, or feet without forcing your range.",
+      "Allow your upper back to round naturally once maximal hip hinge is reached, relaxing your head and neck.",
+      "Hold the stretch at a comfortable point of tension while taking deep, steady breaths.",
+      "Slowly walk your hands back up your legs to return to an upright seated position."
+    ],
+    "breathing": "Inhale to lengthen your spine, and exhale to relax deeper into the forward fold.",
+    "cues": [
+      "Lead with your chest, not your forehead",
+      "Hinge from the hips first",
+      "Keep the kneecaps pointing straight up"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively rounding the upper back while knees bend to grab the toes.",
+        "correction": "Prioritize hip flexion over reaching the feet; bend the knees slightly or hold the shins while keeping the torso long."
+      },
+      {
+        "fault": "Aggressively bouncing or pulling on the feet into painful ranges.",
+        "correction": "Maintain a smooth, static hold and let your breath facilitate gradual relaxation into the stretch."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Individuals with acute lumbar disc herniations should keep the spine relatively neutral and avoid forced end-range lumbar flexion."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Seated Forward Fold",
+  "previous_ids": [
+    "oec:sit-reach"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Sit \u0026 Reach",
+        "url": "https://wger.de/en/exercise/1394/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "captive0592"
+      }
+    ]
+  },
+  "setup": {
+    "position": "seated",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "narrow"
+    }
+  },
+  "status": "active",
+  "summary": "A seated flexibility exercise that stretches the hamstrings, glutes, and spinal extensors by folding the torso forward over straight legs."
+}

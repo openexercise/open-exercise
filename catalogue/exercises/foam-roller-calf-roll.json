@@ -1,0 +1,184 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Calves foam roller",
+      "kind": "common"
+    },
+    {
+      "text": "foam rolling calves",
+      "kind": "common"
+    },
+    {
+      "text": "foam roll calves",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gastrocnemius",
+        "role": "stretched"
+      },
+      {
+        "muscle": "soleus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "not-applicable",
+    "force": "not-applicable",
+    "kinetic_chain": "not-applicable",
+    "laterality": "bilateral",
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "foam-roller"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1854"
+  },
+  "id": "oec:foam-roller-calf-roll",
+  "instructions": {
+    "setup": [
+      "Sit on the floor with your legs extended straight in front of you.",
+      "Place a foam roller underneath your lower calves just above your Achilles tendons.",
+      "Place your hands on the floor beside or slightly behind your hips to support your body weight."
+    ],
+    "steps": [
+      "Press down through your hands to elevate your hips slightly off the floor, transferring body weight onto the roller.",
+      "Slowly roll the foam roller upward along the lower leg, moving from just above the Achilles tendon toward the base of the knee.",
+      "Rotate your feet slightly inward and outward to target both the medial and lateral heads of the calf.",
+      "When a tender or tight trigger point is found, pause for several seconds while taking deep breaths, optionally pointing and flexing your toes to floss the muscle tissue.",
+      "Gently roll back toward the lower calves and repeat for the desired duration."
+    ],
+    "breathing": "Breathe slowly and deeply throughout the movement, avoiding holding your breath when rolling over tender spots.",
+    "cues": [
+      "Keep shoulders depressed away from your ears.",
+      "Roll slowly and deliberately.",
+      "Turn toes in and out to hit every angle.",
+      "Pause and breathe into tight areas."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling directly behind the knee joint.",
+        "correction": "Stop the roller just below the popliteal crease; avoid applying direct compression into the back of the knee joint."
+      },
+      {
+        "fault": "Rolling too quickly.",
+        "correction": "Perform slow, controlled passes across the tissue to allow the nervous system and musculature to relax."
+      },
+      {
+        "fault": "Slumping into the shoulders and rounding the upper back excessively.",
+        "correction": "Press firmly through the hands and maintain an active chest and engaged shoulder girdle."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid rolling directly over bones or joints.",
+        "Discontinue if you experience sharp, shooting, or nerve pain down the leg or foot."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Foam Roller Calf Roll",
+  "previous_ids": [
+    "oec:calves-foam-roller"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Calves foam roller",
+        "url": "https://wger.de/en/exercise/1854/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Davidgj32"
+      }
+    ]
+  },
+  "setup": {
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A self-myofascial release technique using a foam roller to reduce tension and improve tissue mobility in the calf muscles."
+}

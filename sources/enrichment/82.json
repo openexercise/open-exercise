@@ -1,0 +1,172 @@
+{
+  "is_exercise": true,
+  "name": "Seated Dumbbell Bent-Over Lateral Raise",
+  "summary": "An isolation exercise performed seated and hinged forward to target the posterior deltoids and upper back musculature.",
+  "aliases": [
+    {
+      "text": "Seated Bent-Over Dumbbell Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Dumbbell Rear Delt Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Dumbbell Rear Delt Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Dumbbell Reverse Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Bent-over Lateral Raises",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise",
+      "pull",
+      "horizontal-pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "pronated",
+  "stance_width": "narrow",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-posterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "infraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-minor",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "chair"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit on the edge of a flat bench with your feet flat on the floor and positioned close together.",
+      "Hold a dumbbell in each hand and hinge forward at the hips until your torso rests on or is close to your thighs.",
+      "Let the weights hang below your thighs with your palms facing each other or facing backward, maintaining a slight, fixed bend in your elbows."
+    ],
+    "steps": [
+      "Raise your arms out to the sides in a wide arc by driving your elbows upward and outward.",
+      "Continue raising until your upper arms are roughly parallel to the floor, focusing on contracting the rear deltoids.",
+      "Pause briefly at the top of the movement without shrugging your shoulders.",
+      "Lower the dumbbells under control along the same wide path back to the starting hanging position."
+    ],
+    "breathing": "Exhale as you raise the dumbbells out to the sides, and inhale as you lower them under control.",
+    "cues": [
+      "Lead with the elbows",
+      "Reach wide toward the walls",
+      "Keep your chest anchored to your thighs"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso upward to heave the weights up with momentum.",
+        "correction": "Keep your chest firmly pressed against or resting over your thighs throughout the entire set."
+      },
+      {
+        "fault": "Bending the elbows excessively and turning the raise into a row.",
+        "correction": "Lock your elbows in a slight, fixed bend and focus on sweeping your arms wide."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears, shifting tension to the upper traps.",
+        "correction": "Keep your shoulder blades depressed away from your ears as you sweep your arms outward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Select light to moderate weights to ensure strict execution and prevent excessive neck or lower back strain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

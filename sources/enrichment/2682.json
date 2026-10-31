@@ -1,0 +1,170 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Cyclist Squat",
+  "summary": "A narrow-stance, heel-elevated dumbbell squat that maximizes knee flexion and upright torso posture to target the quadriceps.",
+  "aliases": [
+    {
+      "text": "Dumbbell Heel-Elevated Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Heel-Elevated Dumbbell Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Cyclist Squat with Dumbbells",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "narrow",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "weight-plate",
+        "step"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Place a sturdy elevation, such as weight plates or a slant board, on the floor.",
+      "Hold a dumbbell in each hand at your sides with arms fully extended.",
+      "Step onto the elevation with your heels raised and the balls of your feet on the floor, adopting a narrow, hip-width or narrower stance."
+    ],
+    "steps": [
+      "Inhale, brace your core, and keep your torso as upright as possible.",
+      "Descend by bending at the knees and hips, allowing your knees to travel freely forward over your toes.",
+      "Lower yourself until your thighs reach at least parallel to the floor or your hamstrings contact your calves.",
+      "Drive through the midfoot and balls of your feet to reverse the movement and extend your knees and hips back to the starting position.",
+      "Exhale as you approach full standing extension."
+    ],
+    "breathing": "Inhale and brace your core before descending, holding tension through the bottom, and exhale as you drive back to the top.",
+    "cues": [
+      "Stay tall through your torso.",
+      "Push your knees forward over your toes.",
+      "Control the descent without bouncing at the bottom."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hinging excessively at the hips and leaning forward.",
+        "correction": "Maintain an upright torso and emphasize forward knee travel to load the quadriceps."
+      },
+      {
+        "fault": "Letting the heels slip off the elevated surface.",
+        "correction": "Ensure your heels are firmly planted on the plate or wedge before beginning each rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the heel-elevation surface is stable and will not slide during the movement.",
+        "Maintain control of the descent to avoid excessive compressive stress at the knee joint."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "is_exercise": true,
+  "name": "Prone Towel Pulldown",
+  "summary": "A bodyweight back exercise performed face down on the floor, pulling a taut towel toward the chest while holding trunk extension.",
+  "aliases": [
+    {
+      "text": "Towel Superman",
+      "kind": "common"
+    },
+    {
+      "text": "Superman Towel Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Towel Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Superman with Towel Pull",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "spinal-extension"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "adduction",
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "depression",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "strap"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie face down on the floor or an exercise mat with your legs extended straight behind you.",
+      "Grasp a towel or strap with an overhand grip wider than shoulder-width, holding your arms extended overhead.",
+      "Engage your glutes and lower back to elevate your chest slightly off the floor, keeping your neck neutral."
+    ],
+    "steps": [
+      "Pull outward on the towel with both hands to create continuous lateral tension.",
+      "Drive your elbows down and back toward your ribs, pulling the towel in toward your upper chest.",
+      "Squeeze your shoulder blades down and together at the bottom of the movement.",
+      "Slowly extend your arms back overhead under control while maintaining outward tension on the towel."
+    ],
+    "breathing": "Inhale as you extend your arms overhead, and exhale forcefully as you pull the towel down toward your chest.",
+    "cues": [
+      "Rip the towel apart",
+      "Drive elbows to hips",
+      "Keep chest proud, gaze down"
+    ],
+    "common_faults": [
+      {
+        "fault": "Losing tension on the towel",
+        "correction": "Actively pull outward with your hands throughout the entire rep to keep the lats and upper back engaged."
+      },
+      {
+        "fault": "Hyperextending the cervical spine",
+        "correction": "Keep your gaze directed toward the floor rather than looking up to protect the neck."
+      },
+      {
+        "fault": "Shrugging the shoulders toward the ears",
+        "correction": "Depress your scapulae and think about pulling your elbows down into your back pockets."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not excessively arch the lower back if prone extension causes lumbar discomfort."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

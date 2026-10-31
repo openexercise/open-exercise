@@ -1,0 +1,212 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Glute Kickback Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Glute Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Machine Kickback",
+      "kind": "common"
+    },
+    {
+      "text": "Glute Kickback (Machine)",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1723"
+  },
+  "id": "oec:machine-glute-kickback",
+  "instructions": {
+    "setup": [
+      "Adjust the machine's chest, abdominal, or arm pads to align your hip joint with the machine's axis of rotation.",
+      "Grasp the machine handles firmly and brace your core.",
+      "Place the sole of your working foot or the back of your lower thigh securely against the movement pad, with the non-working foot firmly planted on the platform."
+    ],
+    "steps": [
+      "Brace your abdominals and drive through your heel to push the lever arm straight back into full hip extension.",
+      "Pause for a second at peak contraction, focusing on squeezing the working glute.",
+      "Lower the weight back to the starting position in a controlled motion without letting the weight stack touch down between reps."
+    ],
+    "breathing": "Exhale as you press the pad backward into extension; inhale as you slowly return to the starting position.",
+    "cues": [
+      "Drive through the heel",
+      "Lock your torso in place",
+      "Squeeze the glute at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lumbar spine at peak extension to gain extra range of motion.",
+        "correction": "Brace the abdominals firmly and only extend as far as the hip joint allows without arching the lower back."
+      },
+      {
+        "fault": "Swinging the leg and relying on momentum rather than controlled muscular effort.",
+        "correction": "Control the tempo, pause briefly at peak contraction, and use a deliberate 2-to-3 second eccentric return."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a neutral spine throughout the movement to protect the lower back."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Machine Glute Kickback",
+  "previous_ids": [
+    "oec:glute-kickback-machine"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Glute Kickback (Machine)",
+        "url": "https://wger.de/en/exercise/1723/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "barry"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-glute-kickback"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:band-glute-kickback"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:donkey-kick"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-donkey-kick"
+    }
+  ],
+  "setup": {
+    "position": "standing"
+  },
+  "status": "active",
+  "summary": "An isolation exercise that targets the gluteus maximus by driving one leg backward against machine resistance."
+}

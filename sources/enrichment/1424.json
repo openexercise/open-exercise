@@ -1,0 +1,143 @@
+{
+  "is_exercise": true,
+  "name": "Machine Biceps Curl",
+  "summary": "A seated isolation exercise that targets the elbow flexors using a machine for controlled resistance throughout the movement.",
+  "aliases": [
+    {
+      "text": "Biceps Curl Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Bicep Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Machine Biceps Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Preacher Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "supinated",
+  "grip_width": "shoulder",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so that the axis of rotation of the machine aligns directly with your elbow joints.",
+      "Sit facing the machine and rest your upper arms flush against the support pad with your chest supported.",
+      "Grasp the handles with an underhand (supinated) grip."
+    ],
+    "steps": [
+      "Contract your biceps to curl the handles toward your shoulders.",
+      "Squeeze firmly at peak contraction without lifting your elbows off the pad.",
+      "Lower the handles in a controlled manner until your arms are nearly fully extended, maintaining tension on the biceps."
+    ],
+    "breathing": "Exhale as you curl the handles upward and inhale as you lower the weight.",
+    "cues": [
+      "Pin your elbows to the pad",
+      "Squeeze at the top",
+      "Control the descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the elbows or chest off the pad to generate momentum.",
+        "correction": "Keep your torso braced and upper arms glued to the pad throughout the entire repetition."
+      },
+      {
+        "fault": "Misaligning the elbow joint with the machine's pivot point.",
+        "correction": "Adjust the seat height so your elbows sit directly in line with the machine's axis of rotation."
+      },
+      {
+        "fault": "Letting the weight stack slam between repetitions by cutting the eccentric short.",
+        "correction": "Lower the weight slowly under full control until the arms reach near-full extension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid aggressive hyperextension of the elbows at the bottom of the movement under load."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

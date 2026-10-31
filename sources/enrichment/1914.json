@@ -1,0 +1,171 @@
+{
+  "is_exercise": true,
+  "name": "Parallel Bar Support Hold",
+  "summary": "An isometric calisthenics exercise where the body is supported on parallel bars with locked elbows and active shoulder depression.",
+  "aliases": [
+    {
+      "text": "Dip Support Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Parallel Bar Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Dip Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Isometria alle parallele",
+      "kind": "regional"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "support",
+  "grip_orientation": "neutral",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "trapezius-lower",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-minor",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dip-station",
+        "parallettes"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "weight-vest",
+    "dip-belt"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Mount the parallel bars or dip station by placing a hand on each bar using a neutral grip.",
+      "Jump or press yourself up until your arms are fully extended and your feet are clear of the floor or footrests."
+    ],
+    "steps": [
+      "Depress your shoulders forcefully downward, actively pushing the bars away to create maximum distance between your ears and shoulders.",
+      "Maintain straight, locked-out elbows without hyper-extending.",
+      "Brace your core and squeeze your glutes, keeping your legs straight or slightly crossed underneath you in a stable hollow-body posture.",
+      "Hold this rigid position for the target duration before safely stepping or lowering down."
+    ],
+    "breathing": "Breathe smoothly and continuously into the diaphragm while maintaining constant abdominal and shoulder tension.",
+    "cues": [
+      "Push the floor away",
+      "Long neck, shoulders down",
+      "Lock the elbows and brace"
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulders upward toward the ears (passive hang).",
+        "correction": "Actively press down through the hands to engage the lower traps and depress the scapulae."
+      },
+      {
+        "fault": "Allowing the elbows to bend under fatigue.",
+        "correction": "Keep the elbows fully extended and contract the triceps throughout the hold."
+      },
+      {
+        "fault": "Arching the lower back excessively.",
+        "correction": "Engage the abdominals and squeeze the glutes to keep the pelvis neutral."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the bars are securely anchored and spaced appropriately to shoulder width.",
+        "Terminate the hold before losing scapular depression to protect the shoulders from excessive passive stress."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

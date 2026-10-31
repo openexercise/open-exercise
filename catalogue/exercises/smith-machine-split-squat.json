@@ -1,0 +1,210 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Smith Split Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Smith Machine Static Lunge",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "smith-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1593"
+  },
+  "id": "oec:smith-machine-split-squat",
+  "instructions": {
+    "setup": [
+      "Set the Smith machine bar to roughly mid-chest height and position the safety stoppers at an appropriate depth.",
+      "Step under the bar and rest it across your upper trapezius, grasping it firmly with an overhand grip.",
+      "Step one foot forward and the other back into a split stance, hip-width apart for balance, and unhook the bar by rotating the wrists."
+    ],
+    "steps": [
+      "Lower your body under control by bending both knees until the front thigh is approximately parallel to the floor and the rear knee hovers just above the ground.",
+      "Drive through the midfoot and heel of the front foot to extend the hips and knees back to the starting position.",
+      "Complete the desired repetitions on one side, re-rack the bar or switch foot placement, and repeat with the opposite leg forward."
+    ],
+    "breathing": "Inhale as you descend into the split squat; exhale forcefully as you drive up through the front leg.",
+    "cues": [
+      "Drive through the front heel",
+      "Keep torso tall",
+      "Track front knee over toes"
+    ],
+    "common_faults": [
+      {
+        "fault": "Positioning feet in a tight single line, compromising balance.",
+        "correction": "Maintain hip-width separation between the feet in the split stance."
+      },
+      {
+        "fault": "Pushing primarily off the back foot rather than loading the front leg.",
+        "correction": "Keep roughly 70-80% of your body weight centered over the front leg."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Set the safety catches to just below your lowest working depth before loading weight."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Smith Machine Split Squat",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Smith Machine Split Squat",
+        "url": "https://wger.de/en/exercise/1593/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "workout@rooven.anonaddy.me"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:bodyweight-split-squat"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:bodyweight-split-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-split-squat"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "load_position": "high-bar",
+    "position": "split-stance",
+    "range": "full",
+    "stance": {
+      "kind": "split",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral lower-body compound exercise using a Smith machine to build quadriceps and glute strength with high stability."
+}

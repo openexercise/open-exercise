@@ -1,0 +1,185 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Renegade Row",
+  "summary": "An alternating row performed from a high plank position that challenges upper-back pulling strength and anti-rotational core stability.",
+  "aliases": [
+    {
+      "text": "Renegade Row",
+      "kind": "common"
+    },
+    {
+      "text": "Plank Row",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Plank Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "anti-rotation",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "mixed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "support",
+  "grip_orientation": "neutral",
+  "grip_width": "shoulder",
+  "stance_width": "wide",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell",
+        "kettlebell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Place two hex dumbbells on the floor about shoulder-width apart.",
+      "Assume a high plank position with your hands gripping the dumbbell handles directly under your shoulders.",
+      "Set your feet wider than shoulder-width apart to create a stable base of support and brace your core."
+    ],
+    "steps": [
+      "Firmly press one dumbbell into the floor while maintaining a rigid, level torso.",
+      "Row the opposite dumbbell upward toward your lower ribcage, driving with the elbow and keeping the arm close to your side.",
+      "Pause briefly at the top without rotating your hips or shoulders.",
+      "Lower the dumbbell with control back to the floor.",
+      "Transfer your weight smoothly and repeat the movement on the opposite arm."
+    ],
+    "breathing": "Inhale to brace your core before initiating the pull, exhale as you row the weight up, and inhale as you lower it back to the floor.",
+    "cues": [
+      "Square hips to the floor",
+      "Drive the elbow back, not out",
+      "Push the floor away with the support arm"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive hip rotation and torso twisting during the pull.",
+        "correction": "Widen your foot stance and reduce the weight to maintain a parallel pelvis throughout the movement."
+      },
+      {
+        "fault": "Sagging or over-arching through the lower back.",
+        "correction": "Squeeze your glutes and pull your ribs toward your pelvis to maintain a neutral spine."
+      },
+      {
+        "fault": "Using round dumbbells that roll easily.",
+        "correction": "Use flat-sided hex dumbbells or flat-bottom kettlebells to provide a stable, safe base."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the dumbbells are stable before placing full bodyweight on them to prevent wrist rolling."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Seated Band Row",
+      "kind": "common"
+    },
+    {
+      "text": "Floor Band Row",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Resistance Band Row",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "resistance-band"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2635"
+  },
+  "id": "oec:resistance-band-seated-row",
+  "instructions": {
+    "setup": [
+      "Sit upright on the floor or an exercise mat with your legs extended in front of you and a slight, soft bend in your knees.",
+      "Loop the center of a resistance band securely around the midfoot or arches of both feet.",
+      "Grasp each end of the band with arms fully extended, taking up tension so there is no slack."
+    ],
+    "steps": [
+      "Sit tall with your chest lifted and brace your core.",
+      "Pull the band handles toward your lower ribs by driving your elbows straight back.",
+      "Squeeze your shoulder blades together at full contraction while keeping your torso stationary.",
+      "Slowly extend your arms back to the starting position under control, resisting the band's pull."
+    ],
+    "breathing": "Exhale as you pull the band toward your torso and inhale as you return to the starting position.",
+    "cues": [
+      "Lead with the elbows.",
+      "Proud chest throughout.",
+      "Squeeze the shoulder blades back."
+    ],
+    "common_faults": [
+      {
+        "fault": "Leaning back excessively to gain momentum.",
+        "correction": "Keep your torso braced and upright throughout the movement without rocking backward."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears.",
+        "correction": "Depress the shoulder blades and focus on pulling low toward the hips or ribcage."
+      },
+      {
+        "fault": "Band slipping off the feet.",
+        "correction": "Anchor the band securely across the arches of the feet and maintain active ankle dorsiflexion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the resistance band is free of tears and securely positioned across the midfoot before pulling."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "elastic"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "band-tension",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Resistance Band Seated Row",
+  "previous_ids": [
+    "oec:seated-band-row"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Seated Band Row",
+        "url": "https://wger.de/en/exercise/2635/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "trs1800"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-seated-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-close-grip-seated-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-seated-row"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:cable-seated-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "shoulder"
+    },
+    "position": "seated",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A seated horizontal pulling exercise using a resistance band looped around the feet to strengthen the back and biceps."
+}

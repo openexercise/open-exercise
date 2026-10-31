@@ -1,0 +1,161 @@
+{
+  "is_exercise": true,
+  "name": "Suspension Trainer Hammer Curl",
+  "summary": "A bodyweight elbow flexion exercise using a suspension trainer with a neutral grip to target the brachialis, brachioradialis, and biceps while maintaining a rigid core.",
+  "aliases": [
+    {
+      "text": "TRX Hammer Curl",
+      "kind": "brand"
+    },
+    {
+      "text": "Suspension Hammer Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "brachialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "suspension-trainer"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Anchor the suspension trainer securely overhead and adjust the straps to mid-length.",
+      "Face the anchor point, grasp the handles with a neutral grip (palms facing each other), and walk your feet forward to lean back at a comfortable angle.",
+      "Extend your arms fully in front of your chest and brace your abs and glutes to form a straight line from head to heels."
+    ],
+    "steps": [
+      "Keeping your upper arms elevated and parallel to the floor, bend your elbows to pull your temples toward the handles.",
+      "Maintain the neutral grip throughout the movement without rotating your wrists.",
+      "Squeeze your forearms and upper arms forcefully at the top of the curl.",
+      "Slowly extend your elbows under control to return to the straight-arm starting plank."
+    ],
+    "breathing": "Exhale as you flex your elbows and pull your body up; inhale as you slowly lower back down.",
+    "cues": [
+      "Keep elbows high and fixed",
+      "Palms face inward throughout",
+      "Body stays in a rigid plank",
+      "Curl your hands to your temples"
+    ],
+    "common_faults": [
+      {
+        "fault": "Dropping the elbows into a row rather than an elbow flexion isolation.",
+        "correction": "Keep upper arms pointed forward and parallel to the floor; do not pull your elbows back past your torso."
+      },
+      {
+        "fault": "Sagging at the hips or thrusting the pelvis upward.",
+        "correction": "Engage your glutes and core to keep the entire torso completely straight throughout the set."
+      },
+      {
+        "fault": "Pronating or supinating the wrists during the curl.",
+        "correction": "Keep palms facing directly toward each other through both the concentric and eccentric phases."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the anchor point is rated to hold full body weight.",
+        "Set your feet with non-slip footwear to prevent sliding during the lean."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

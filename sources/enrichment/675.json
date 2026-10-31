@@ -1,0 +1,220 @@
+{
+  "is_exercise": true,
+  "name": "Turkish Get-Up",
+  "summary": "A full-body movement transitioning from supine to standing and back down while stabilizing a weight locked out overhead.",
+  "aliases": [
+    {
+      "text": "TGU",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Dumbbell Turkish Get-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Kettlebell Turkish Get-Up",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "mobility",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "anti-rotation",
+      "anti-lateral-flexion",
+      "lunge",
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "mixed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "supine",
+  "load_position": "overhead",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "rotator-cuff",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "rotation",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension",
+        "abduction",
+        "rotation"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell",
+        "kettlebell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": []
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Lie supine on the floor with the weight pressed vertically in one hand, arm fully locked out.",
+      "Bend the knee on the loaded side and place that foot flat on the floor close to your hip.",
+      "Extend the opposite arm and leg out at roughly a 45-degree angle from your torso."
+    ],
+    "steps": [
+      "Roll onto the elbow of the free arm while driving through the foot of the bent leg, keeping your eyes on the weight.",
+      "Transition from the elbow up onto the palm of your supporting hand, keeping the loaded arm vertical and wrist neutral.",
+      "Bridge your hips upward and sweep the straight leg back under your hips, placing that knee on the floor directly beneath you.",
+      "Hinge back slightly and bring your torso upright into a half-kneeling position, loaded arm still locked straight overhead.",
+      "Drive through both feet to stand up completely into a tall, balanced stance with feet side by side.",
+      "Step back with the opposite leg into a reverse lunge until the back knee gently touches the floor.",
+      "Hinge at the hip and place your free hand on the floor, sweep the back leg forward through the gap, and lower your hips to the floor.",
+      "Lower down from hand to elbow and return smoothly to the flat supine starting position with the arm still vertical."
+    ],
+    "breathing": "Breathe continuously with controlled, shallow breaths under high intra-abdominal pressure at transitions; exhale forcefully during the standing drive.",
+    "cues": [
+      "Keep your eyes glued to the weight.",
+      "Pack the working shoulder down away from the ear.",
+      "Stack wrist, elbow, and shoulder in a vertical pillar.",
+      "Take each position step-by-step without rushing."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the loaded elbow or losing shoulder packing during transitions.",
+        "correction": "Actively lock the elbow out and think of punching the ceiling throughout the entire rep."
+      },
+      {
+        "fault": "Looking away from the weight while standing or sweeping the leg.",
+        "correction": "Maintain visual contact with the weight from the floor until you reach the half-kneeling upright position."
+      },
+      {
+        "fault": "Rushing through the intermediate positions.",
+        "correction": "Pause momentarily at each step: elbow, tall sit, hip bridge, knee sweep, half-kneeling, and stand."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Clear ample floor space around you in case you need to bail the weight safely away from your body.",
+        "Master the movement with bodyweight or a light shoe balanced on your fist before adding load."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

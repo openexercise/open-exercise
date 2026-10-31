@@ -1,0 +1,215 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Single-Arm Cable Triceps Pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Cable Pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Triceps Pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "Cable One-Arm Pushdown",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "anconeus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1969"
+  },
+  "id": "oec:single-arm-cable-pushdown",
+  "instructions": {
+    "setup": [
+      "Set the cable pulley to a high position and attach a single D-handle.",
+      "Stand facing or slightly angled to the cable stack with feet hip-width apart and knees slightly bent.",
+      "Grasp the handle with a pronated or neutral grip, pull the elbow tight against your side, and brace your core."
+    ],
+    "steps": [
+      "Keep your upper arm pinned to your ribcage and extend your elbow downward until your arm is fully straight.",
+      "Squeeze your triceps forcefully at full lockout for a brief pause.",
+      "Control the weight back up by bending at the elbow until your forearm reaches approximately parallel or slightly above.",
+      "Complete the desired repetitions, then switch hands and repeat for the opposite arm."
+    ],
+    "breathing": "Exhale as you push down to full extension, and inhale as you return the handle to the top.",
+    "cues": [
+      "Pin your elbow to your ribs.",
+      "Move only from the elbow down.",
+      "Squeeze the triceps at the bottom.",
+      "Resist the cable on the way up."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the upper arm to swing forward and backward during repetitions.",
+        "correction": "Keep the upper arm locked vertically at your side throughout the set."
+      },
+      {
+        "fault": "Leaning over the handle and using bodyweight to push the load down.",
+        "correction": "Maintain an upright, braced posture and reduce the load if necessary."
+      },
+      {
+        "fault": "Cutting the range of motion short at either the bottom or top.",
+        "correction": "Fully extend the elbow at the bottom and allow a deep stretch at the top without your elbow drifting."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid hyperextending or forcefully snapping the elbow into extension under heavy loads."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Single-Arm Cable Pushdown",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Single-arm cable pushdown",
+        "url": "https://wger.de/en/exercise/1969/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "evtimovgeorg"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-triceps-pushdown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-triceps-pushdown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-rope-triceps-pushdown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-single-arm-triceps-pushdown"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral cable isolation exercise targeting the triceps brachii through elbow extension."
+}

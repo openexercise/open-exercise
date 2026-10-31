@@ -1,0 +1,149 @@
+{
+  "is_exercise": true,
+  "name": "Wrist Roller",
+  "summary": "A forearm and grip isolation exercise performed by winding and unwinding a weighted cord around a dowel or roller implement.",
+  "aliases": [
+    {
+      "text": "Standing Rope Forearm",
+      "kind": "common"
+    },
+    {
+      "text": "Forearm Roller",
+      "kind": "common"
+    },
+    {
+      "text": "Wrist Roller Extension and Flexion",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "isolation-grip"
+    ],
+    "mechanics": "isolation",
+    "force": "mixed",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "forearm-flexors",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "forearm-extensors",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "wrist",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "weight-plate"
+      ]
+    },
+    {
+      "any_of": [
+        "strap"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Attach a weight plate securely to the end of the wrist roller cord.",
+      "Stand tall with feet hip-width apart, holding the roller dowel with both hands in a shoulder-width pronated grip.",
+      "Extend your arms straight forward at shoulder height, allowing the weight to hang freely near the floor."
+    ],
+    "steps": [
+      "Alternate rolling each wrist upward, winding the cord onto the bar until the weight reaches the top.",
+      "Reverse the motion under complete control, unwinding the cord one wrist rotation at a time until the plate returns to the starting position."
+    ],
+    "breathing": "Breathe continuously and evenly throughout the continuous rolling motion.",
+    "cues": [
+      "Keep your arms locked straight out.",
+      "Isolate the motion to your wrists rather than swinging your body.",
+      "Control the descent; do not let the cord free-fall."
+    ],
+    "common_faults": [
+      {
+        "fault": "Letting the elbows bend and collapse toward the torso.",
+        "correction": "Maintain straight arms extended forward throughout the set, or rest the roller across rack pins if shoulder fatigue limits forearm training."
+      },
+      {
+        "fault": "Allowing the weight to rapidly spin downward uncontrolled.",
+        "correction": "Actively brake and unwind each revolution alternately with both hands."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the cord is tightly knotted and verified secure before lifting the weight off the floor."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

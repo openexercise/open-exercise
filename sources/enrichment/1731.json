@@ -1,0 +1,162 @@
+{
+  "is_exercise": true,
+  "name": "Cable Front Raise",
+  "summary": "An isolation exercise that targets the anterior deltoid by raising a low cable attachment in front of the body under constant tension.",
+  "aliases": [
+    {
+      "text": "Cable Front Shoulder Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Front Cable Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-lateral",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set the cable pulley to its lowest position and attach a straight bar or dual-handled rope.",
+      "Straddle the cable facing away from the machine, or stand facing it, gripping the handle with an overhand grip.",
+      "Stand tall with feet hip-width apart, knees slightly soft, and arms extended downward with a slight bend in the elbows."
+    ],
+    "steps": [
+      "Brace your core and raise the attachment forward in a controlled arc until your arms are roughly parallel to the floor.",
+      "Pause briefly at the top to emphasize contraction in the front of the shoulders.",
+      "Lower the attachment with control along the same path back to the starting position without letting the stack slam."
+    ],
+    "breathing": "Exhale as you raise the cable forward; inhale as you lower it back down with control.",
+    "cues": [
+      "Lead with the knuckles",
+      "Keep a soft bend in the elbows",
+      "Don't lean back to initiate the lift"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso and leaning back to generate momentum.",
+        "correction": "Reduce the load and keep your core braced to isolate movement entirely to the shoulder joint."
+      },
+      {
+        "fault": "Raising the arms excessively high above eye level.",
+        "correction": "Stop when the arms are roughly parallel to the floor or shoulder height to keep tension on the anterior deltoid."
+      },
+      {
+        "fault": "Locking the elbows out aggressively.",
+        "correction": "Maintain a fixed, slight bend in the elbows throughout the entire movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessive loads that force hyperextension of the lumbar spine."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

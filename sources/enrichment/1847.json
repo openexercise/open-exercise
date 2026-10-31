@@ -1,0 +1,172 @@
+{
+  "is_exercise": true,
+  "name": "Straddle L-Sit",
+  "summary": "An advanced bodyweight isometric hold where the body is supported on the hands with the legs held straight and spread wide parallel to the floor.",
+  "aliases": [
+    {
+      "text": "Straddle Sit",
+      "kind": "common"
+    },
+    {
+      "text": "Straddle L-Sit Hold",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "anti-extension",
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "advanced"
+  },
+  "position": "support",
+  "grip_orientation": "neutral",
+  "muscles": [
+    {
+      "muscle": "iliopsoas",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-minor",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "protraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "parallettes",
+    "mat",
+    "yoga-block"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit on the floor with your legs spread apart in a wide straddle.",
+      "Place your hands on the floor between your thighs, positioned just in front of your hips with fingers pointing forward or slightly outward.",
+      "Fully extend your knees and point your toes."
+    ],
+    "steps": [
+      "Depress your shoulders downward and press firmly through your palms to lock out your elbows.",
+      "Contract your abdominals and hip flexors vigorously to lift your hips and both legs completely off the floor.",
+      "Hold your legs horizontally off the ground in the wide straddle position for the target duration.",
+      "Lower your hips and legs back to the floor with control."
+    ],
+    "breathing": "Maintain shallow, rhythmic breaths while keeping strong abdominal brace throughout the isometric hold.",
+    "cues": [
+      "Push the floor away",
+      "Lock the knees and point the toes",
+      "Compress your chest toward your hips"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the knees to make the hold easier",
+        "correction": "Actively flex the quadriceps to keep the knees completely locked out; use elevated surfaces like parallettes if clearance is insufficient."
+      },
+      {
+        "fault": "Shrugging the shoulders upward toward the ears",
+        "correction": "Actively depress the scapulae downward by driving the hands hard into the floor."
+      },
+      {
+        "fault": "Heels touching or dragging on the floor",
+        "correction": "Lean slightly forward and squeeze the hip flexors harder to compress the torso and elevate the legs."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure adequate wrist mobility and warm up thoroughly before loading straight wrists on the floor; use parallettes or push-up handles if experiencing wrist discomfort."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Bent-Over Row to External Rotation",
+  "summary": "A posterior shoulder and rotator cuff exercise combining a high row with shoulder external rotation in a hip-hinge position.",
+  "aliases": [
+    {
+      "text": "Bent-Over Row to External Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Bent-Over Cuban Row",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Row to External Rotation",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "rehabilitation",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "horizontal-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "bent-over",
+  "grip_orientation": "pronated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "infraspinatus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-minor",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-abduction",
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "bench"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Hold a light dumbbell in each hand using a pronated grip.",
+      "Hinge at the hips until your torso is nearly parallel to the floor, maintaining a neutral spine and soft knees.",
+      "Allow your arms to hang straight down beneath your shoulders."
+    ],
+    "steps": [
+      "Row the dumbbells upward by driving your elbows out to shoulder height until your upper arms are in line with your torso and elbows are bent at ninety degrees.",
+      "Keeping your upper arms stationary, externally rotate at your shoulders to raise the dumbbells until your forearms are parallel to the floor.",
+      "Pause briefly at the top to squeeze your upper back and rotator cuff.",
+      "Internally rotate your shoulders back under control until your forearms point toward the floor.",
+      "Lower your arms back to the starting hanging position."
+    ],
+    "breathing": "Inhale as you hang at the bottom, exhale as you row and rotate upward, and inhale as you reverse the movement.",
+    "cues": [
+      "Lead with the elbows, finish with the hands.",
+      "Keep elbows locked at ninety degrees during the rotation.",
+      "Use light weights to maintain strict control."
+    ],
+    "common_faults": [
+      {
+        "fault": "Using momentum or jerking the torso upward.",
+        "correction": "Select lighter weights and keep your torso angle fixed throughout the entire repetition."
+      },
+      {
+        "fault": "Dropping the elbows during the rotation phase.",
+        "correction": "Keep your upper arms parallel to the floor at shoulder level while rotating through the shoulder joint."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using heavy loads, as the rotator cuff muscles are small and vulnerable to strain when overloaded in external rotation."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

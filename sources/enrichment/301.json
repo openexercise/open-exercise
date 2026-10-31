@@ -1,0 +1,153 @@
+{
+  "is_exercise": true,
+  "name": "Back Extension",
+  "summary": "A posterior-chain exercise performed on an angled or horizontal bench that strengthens the erector spinae, glutes, and hamstrings.",
+  "aliases": [
+    {
+      "text": "Hyperextension",
+      "kind": "common"
+    },
+    {
+      "text": "Roman Chair Back Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Roman Chair Hyperextension",
+      "kind": "common"
+    },
+    {
+      "text": "45-Degree Back Extension",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "calisthenics",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "support",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "erector-spinae",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "roman-chair",
+        "ghd"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "weight-plate",
+    "dumbbell"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "load",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight-plus-external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Position yourself in the Roman chair or back extension apparatus with your feet secured flat against the footplate and your Achilles tendons snug against the rear pads.",
+      "Adjust the hip pad height so the top edge rests just below your anterior superior iliac spine, allowing full flexion at the hips without curling the lumbar spine over the pad.",
+      "Cross your arms over your chest or place your fingertips lightly behind your ears, keeping your neck in a neutral position aligned with your torso."
+    ],
+    "steps": [
+      "Hinge forward at the hips, lowering your torso in a slow, controlled descent until you feel a moderate stretch in the hamstrings.",
+      "Engage your glutes and hamstrings to drive your hips into the pad, raising your torso back up.",
+      "Ascend until your torso forms a straight line from your ankles through your shoulders, pausing briefly at the top without hyperextending the lower back.",
+      "Lower under control back to the starting stretch to complete the repetition."
+    ],
+    "breathing": "Inhale deeply as you lower your torso toward the floor; exhale forcefully as you extend your hips and raise your torso back to the top.",
+    "cues": [
+      "Hinge from the hips, not the waist",
+      "Squeeze glutes at the top",
+      "Crown of head to the ceiling"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lumbar spine at the peak of the movement.",
+        "correction": "Stop when your body forms a straight line from heels to shoulders; avoid arching backward past neutral."
+      },
+      {
+        "fault": "Setting the thigh pad too high, locking the pelvis and forcing movement through spinal flexion.",
+        "correction": "Lower the pad so your hip crease is completely clear of the top edge, allowing free hip articulation."
+      },
+      {
+        "fault": "Using momentum or swinging violently to raise the torso.",
+        "correction": "Move smoothly with a controlled cadence, focusing on deliberate glute and hamstring contraction."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the support pins are fully locked in place before loading your weight onto the apparatus.",
+        "Maintain a neutral spine if you experience disc-related lower-back irritation."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

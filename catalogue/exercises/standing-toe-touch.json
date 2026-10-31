@@ -1,0 +1,187 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Toe Touch",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Forward Bend",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Forward Fold",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "hamstrings",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "yoga-block",
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1390"
+  },
+  "id": "oec:standing-toe-touch",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width or slightly narrower and parallel to each other.",
+      "Keep a soft, micro-bend in the knees rather than hyperextending them.",
+      "Engage your core lightly and let your arms relax at your sides."
+    ],
+    "steps": [
+      "Inhale to lengthen the spine, then exhale as you hinge forward at the hips, leading with the chest.",
+      "Allow your torso to fold over your legs, letting your arms, neck, and head hang relaxed toward the floor.",
+      "Reach your fingertips toward your shins, toes, or the floor, depending on your current flexibility.",
+      "Hold the position at a comfortable stretch point without bouncing.",
+      "To exit, soften your knees slightly, engage your glutes, and slowly unroll your spine back up to a standing position."
+    ],
+    "breathing": "Breathe deeply and rhythmically, using each exhalation to sink slightly deeper into the stretch without forcing it.",
+    "cues": [
+      "Hinge at the hips first",
+      "Keep a micro-bend in the knees",
+      "Relax your head and neck",
+      "Breathe into the back of your legs"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending or locking out the knees aggressively.",
+        "correction": "Maintain a soft micro-bend in the knees to protect the joint capsules and shift tension to the muscle bellies."
+      },
+      {
+        "fault": "Bouncing dynamically to force your hands to touch the floor.",
+        "correction": "Hold a steady, static stretch and allow tension to release gradually through breathing."
+      },
+      {
+        "fault": "Bending entirely from the lower back without hinging at the pelvis.",
+        "correction": "Push the hips backward as you initiate the descent so the movement is driven by hip flexion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Individuals with active lumbar disc herniations should avoid deep spinal flexion and instead maintain a flatter back while hinging."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Standing Toe Touch",
+  "previous_ids": [
+    "oec:toe-touch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Toe Touch",
+        "url": "https://wger.de/en/exercise/1390/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "captive0592"
+      }
+    ]
+  },
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A fundamental posterior chain stretch performed by hinging at the hips and reaching toward the feet while standing."
+}

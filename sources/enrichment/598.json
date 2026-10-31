@@ -1,0 +1,156 @@
+{
+  "is_exercise": true,
+  "name": "Smith Machine Close-Grip Bench Press",
+  "summary": "A guided horizontal pressing exercise using a shoulder-width grip on a Smith machine to emphasize the triceps.",
+  "aliases": [
+    {
+      "text": "Smith Machine Close Grip Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Smith Machine Narrow Grip Bench Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "supine",
+  "incline_degrees": 0,
+  "grip_orientation": "pronated",
+  "grip_width": "narrow",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "horizontal-adduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "smith-machine"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "adjustable-bench"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Position a flat bench inside the Smith machine so that the bar aligns directly over your lower chest.",
+      "Set the safety catches just below your planned bottom position.",
+      "Lie flat on the bench, plant your feet firmly on the floor, and retract your shoulder blades.",
+      "Grip the bar with an overhand grip approximately shoulder-width apart, keeping your wrists stacked directly over your forearms."
+    ],
+    "steps": [
+      "Rotate the bar to unhook it from the safety pins and establish full elbow extension over your chest.",
+      "Lower the bar under control toward your lower sternum, tucking your elbows close to your torso at roughly a 30- to 45-degree angle.",
+      "Pause briefly just above the chest without letting the bar bounce.",
+      "Press the bar straight up along the guided track by extending your elbows until your arms are locked out.",
+      "Rotate the bar to re-engage the safety hooks upon completing the set."
+    ],
+    "breathing": "Inhale as you lower the bar to your chest, and exhale forcefully as you press upward.",
+    "cues": [
+      "Tuck the elbows close to your ribs.",
+      "Stack wrists over forearms.",
+      "Push through the palms."
+    ],
+    "common_faults": [
+      {
+        "fault": "Gripping the bar with hands too close together (hands touching).",
+        "correction": "Use a shoulder-width grip to protect the wrists and shoulders while still maximizing triceps involvement."
+      },
+      {
+        "fault": "Flaring elbows excessively wide.",
+        "correction": "Keep elbows tucked inward toward the sides of your ribcage throughout the movement."
+      },
+      {
+        "fault": "Misaligning the bench with the fixed track.",
+        "correction": "Ensure the bar descends directly over the lower sternum to avoid unnecessary shoulder strain."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Always adjust the Smith machine safety stops to chest height before loading heavy weight.",
+        "Avoid using a thumbless (suicide) grip on the bar."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Triceps Kickback",
+  "summary": "An isolation exercise performed bent over with a dumbbell to extend the elbow and target the triceps brachii in its shortened position.",
+  "aliases": [
+    {
+      "text": "Dumbbell Kickback",
+      "kind": "common"
+    },
+    {
+      "text": "Triceps Kickback",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Dumbbell Triceps Kickback",
+      "kind": "common"
+    },
+    {
+      "text": "Patadas traseras",
+      "kind": "regional"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "bent-over",
+  "grip_orientation": "neutral",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "anconeus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "bench"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Place your non-working knee and hand on a flat bench to support your torso parallel to the floor.",
+      "Hold a dumbbell in your working hand with a neutral grip.",
+      "Pull your upper arm up so it is parallel with your torso and pin your elbow tightly to your side."
+    ],
+    "steps": [
+      "Keeping your upper arm completely stationary, extend your elbow until your arm is fully straight behind you.",
+      "Pause briefly at peak contraction, squeezing your triceps.",
+      "Lower the dumbbell under control by flexing your elbow back to a ninety-degree angle."
+    ],
+    "breathing": "Exhale as you extend your arm backward, and inhale as you return the dumbbell to the starting position.",
+    "cues": [
+      "Pin your elbow to your ribs.",
+      "Move only at the elbow.",
+      "Pause and squeeze at full lockout."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the upper arm to generate momentum.",
+        "correction": "Keep your shoulder locked and upper arm parallel to the torso throughout the entire set."
+      },
+      {
+        "fault": "Dropping the elbow below the torso.",
+        "correction": "Maintain your elbow elevated high enough that full extension places maximum tension on the triceps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessively heavy weights that compromise strict elbow-isolation mechanics."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

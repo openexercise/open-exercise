@@ -1,0 +1,216 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Snatch",
+  "summary": "An Olympic weightlifting movement in which a barbell is lifted from the floor to an overhead lockout in one continuous, explosive motion caught in a full squat.",
+  "aliases": [
+    {
+      "text": "Snatch",
+      "kind": "common"
+    },
+    {
+      "text": "Olympic Snatch",
+      "kind": "common"
+    },
+    {
+      "text": "Full Snatch",
+      "kind": "common"
+    },
+    {
+      "text": "Squat Snatch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "olympic-weightlifting",
+      "power",
+      "strength"
+    ],
+    "movement_patterns": [
+      "olympic-lift",
+      "hinge",
+      "squat",
+      "vertical-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "advanced"
+  },
+  "position": "standing",
+  "grip_orientation": "hook",
+  "grip_width": "snatch",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "overhead",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "elevation",
+        "upward-rotation"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "abduction",
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand with feet hip-width apart and midfoot directly under the barbell.",
+      "Grip the bar with a wide snatch grip using a hook grip, fingers wrapped over the thumbs.",
+      "Lower your hips, keep your chest upright, retract your shoulder blades, and ensure your shoulders are slightly ahead of the bar with back flat."
+    ],
+    "steps": [
+      "Initiate the first pull by pushing the floor away through the whole foot, keeping the torso angle constant until the bar passes the knees.",
+      "Accelerate into the second pull as the bar reaches mid-thigh, violently extending hips, knees, and ankles while shrugging the shoulders upward.",
+      "Pull yourself aggressively under the barbell as it reaches maximum elevation, transitioning your feet outward into a squat stance.",
+      "Receive the bar overhead with locked elbows in a deep overhead squat position.",
+      "Stabilize the weight in the bottom position, then stand fully upright by driving through the heels until hips and knees are locked."
+    ],
+    "breathing": "Take a deep breath and brace the core tightly before initiating the pull from the floor; hold the brace through the catch, exhaling as you stand to completion.",
+    "cues": [
+      "Push the floor away",
+      "Keep the bar close",
+      "Punch the ceiling in the catch",
+      "Stand tall before dumping"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the barbell outward in a loop away from the body during the pull.",
+        "correction": "Keep elbows high and outside during the turnover, brushing the bar close against the thighs and hips."
+      },
+      {
+        "fault": "Soft or unlocked elbows upon catching the bar overhead (pressing out).",
+        "correction": "Punch aggressively upward into the barbell and lock out the arms before absorbing the weight into the squat."
+      },
+      {
+        "fault": "Hips rising faster than the shoulders off the floor.",
+        "correction": "Maintain a consistent torso angle during the first pull by driving through the legs rather than lifting with the back."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use bumper plates on a dedicated lifting platform to allow safe bailing of missed attempts.",
+        "Practice dumping the barbell forward and backward safely before handling heavy loads.",
+        "Do not use lifting straps during maximal competition-style lifts where an overhead bailout might be necessary."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

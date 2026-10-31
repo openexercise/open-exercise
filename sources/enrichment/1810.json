@@ -1,0 +1,159 @@
+{
+  "is_exercise": true,
+  "name": "Sphinx Pose",
+  "summary": "A gentle prone yoga backbend that stretches the anterior trunk and promotes thoracic and lumbar spinal extension.",
+  "aliases": [
+    {
+      "text": "Sphinx",
+      "kind": "common"
+    },
+    {
+      "text": "Salamba Bhujangasana",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "yoga",
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "spinal-extension",
+      "mobility-drill"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stretched"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "load_convention": "not-applicable",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie face down on a mat with your legs extended straight behind you, hip-width apart, and the tops of your feet resting flat on the floor.",
+      "Position your elbows directly under your shoulders with your forearms parallel to each other, pointing straight forward, and palms flat on the ground."
+    ],
+    "steps": [
+      "Press your forearms and palms firmly into the floor to lift your chest and upper abdomen off the ground.",
+      "Draw your shoulders down and away from your ears while pulling your chest forward between your arms.",
+      "Lengthen your neck and gaze forward or slightly downward, distributing the extension evenly through your spine.",
+      "Hold the position statically for the target duration while breathing deeply and steadily."
+    ],
+    "breathing": "Breathe smoothly and deeply into your belly and lower ribs, maintaining a relaxed cadence throughout the hold.",
+    "cues": [
+      "Pull the floor toward your hips with your forearms.",
+      "Broaden through your collarbones.",
+      "Lengthen your spine forward rather than crunching into your lower back."
+    ],
+    "common_faults": [
+      {
+        "fault": "Sinking into the shoulders and letting the neck collapse.",
+        "correction": "Actively push the floor away through your forearms to depress the scapulae and create space around your neck."
+      },
+      {
+        "fault": "Excessively hyperextending the neck to look at the ceiling.",
+        "correction": "Keep the back of your neck long and direct your gaze naturally forward or slightly toward the floor."
+      },
+      {
+        "fault": "Pinching the lower back by dumping all movement into the lumbar spine.",
+        "correction": "Gently press your pubic bone into the floor and focus on pulling your chest forward to create thoracic extension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Discontinue or decrease the height of the lift if you experience sharp compression or pain in the lumbar spine."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

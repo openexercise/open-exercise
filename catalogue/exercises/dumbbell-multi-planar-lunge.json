@@ -1,0 +1,259 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "3D Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Clock Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Clock Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Around-the-World Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Multi-Directional Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Multiplanar Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell 3D Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "3D lunge warmup",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductors",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension",
+          "abduction",
+          "adduction",
+          "internal-rotation",
+          "external-rotation"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "subtalar",
+        "actions": [
+          "inversion",
+          "eversion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "mobility",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1115"
+  },
+  "id": "oec:dumbbell-multi-planar-lunge",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart, holding a light dumbbell in each hand at your sides with a neutral grip.",
+      "Brace your core, draw your shoulders slightly back, and fix your gaze straight ahead."
+    ],
+    "steps": [
+      "Step forward into a front lunge, lowering until your back knee hovers just off the floor, then push forcefully back to the starting position.",
+      "Step directly out to the side into a lateral lunge, sitting your hips back over the working heel while keeping the trailing leg straight, then drive back to center.",
+      "Step backward at a diagonal angle into a reverse lunge, descend with control, and push back to the starting stance.",
+      "Continue cycling through the target directional sequence, then repeat the pattern on the opposite leg."
+    ],
+    "breathing": "Inhale as you step out and lower into each lunge; exhale forcefully as you push through your foot to return to standing.",
+    "cues": [
+      "Chest stays tall",
+      "Push the floor away",
+      "Knee tracks over toes"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the lead knee to cave inward during lateral or diagonal lunges.",
+        "correction": "Actively press the knee outward so it tracks in line with your second and third toes."
+      },
+      {
+        "fault": "Rounding the lower back or collapsing the torso forward when lunging.",
+        "correction": "Maintain an upright torso by bracing your abdominals and keeping your chest lifted."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure a wide, clear perimeter of floor space in all directions before beginning.",
+        "Use light loads to prioritize balance and multi-planar joint control over heavy resistance."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Multi-Planar Lunge",
+  "previous_ids": [
+    "oec:3d-lunge-warmup"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: 3D lunge warmup",
+        "url": "https://wger.de/en/exercise/1115/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "philip"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:dumbbell-lunge"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:dumbbell-lateral-lunge"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A dynamic lower-body exercise that moves through sagittal, frontal, and transverse planes by lunging in multiple directions with dumbbells held at the sides."
+}

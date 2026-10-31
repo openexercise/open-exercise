@@ -1,0 +1,153 @@
+{
+  "is_exercise": true,
+  "name": "Bodyweight Split Squat",
+  "summary": "A stationary lower-body compound movement performed in a staggered stance to build unilateral leg strength and balance.",
+  "aliases": [
+    {
+      "text": "Split Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Static Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Bodyweight Static Lunge",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "split-stance",
+  "stance_width": "hip",
+  "stance_kind": "split",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand upright with your feet hip-width apart.",
+      "Take a comfortable stride forward with one foot, keeping your feet aligned on parallel tracks rather than on a tightrope.",
+      "Distribute your weight primarily on the front foot with the heel firmly planted, while resting on the ball of the back foot.",
+      "Keep your torso upright with your hands placed on your hips or held in front of your chest."
+    ],
+    "steps": [
+      "Descend by bending both knees simultaneously, lowering your hips straight down toward the floor.",
+      "Continue descending until your back knee gently approaches or lightly touches the ground, forming roughly 90-degree angles at both knees.",
+      "Drive through the front heel and midfoot to push yourself back up to the starting position without moving your feet.",
+      "Complete the desired repetitions on one side before switching to the opposite stance."
+    ],
+    "breathing": "Inhale as you lower your body toward the floor, and exhale forcefully as you press back up to the top.",
+    "cues": [
+      "Drop straight down like an elevator, not forward like an escalator.",
+      "Keep your front heel glued to the floor.",
+      "Stay on train tracks to maintain balance."
+    ],
+    "common_faults": [
+      {
+        "fault": "Stance aligned in a single line (tightrope stance), leading to instability.",
+        "correction": "Keep feet separated to hip-width horizontally to maintain a broad base of support."
+      },
+      {
+        "fault": "Drifting excessively forward onto the front toes, lifting the front heel.",
+        "correction": "Focus on lowering your back knee straight down and keeping pressure evenly distributed through the front tripod foot."
+      },
+      {
+        "fault": "Slamming the back knee into the floor.",
+        "correction": "Control the descent and hover the trailing knee just above the floor or place a mat underneath."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Hold onto a sturdy support or wall for balance if stability is limited."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

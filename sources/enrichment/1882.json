@@ -1,0 +1,159 @@
+{
+  "is_exercise": true,
+  "name": "Cable Lateral Raise",
+  "summary": "An isolation exercise that targets the lateral deltoid using a cable machine for continuous tension throughout shoulder abduction.",
+  "aliases": [
+    {
+      "text": "High-Cable Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Cable Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Side Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Waist-Height Cable Lateral Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-lateral",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "supraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set the cable pulley to waist or hip height and attach a single D-handle.",
+      "Stand sideways to the cable tower with your feet hip-width apart.",
+      "Reach across your body with the far arm and grip the handle with your palm facing down or inward.",
+      "Step away from the machine until tension is placed on the cable, keeping an upright posture and a soft bend in the working elbow."
+    ],
+    "steps": [
+      "Raise your arm out to the side in a wide arc, leading slightly with the elbow until your upper arm reaches shoulder height.",
+      "Pause briefly at the top to emphasize peak contraction on the lateral deltoid.",
+      "Lower the cable smoothly under control along the same path back across your torso to the starting position."
+    ],
+    "breathing": "Exhale as you raise your arm outward, and inhale as you lower the weight back to your side.",
+    "cues": [
+      "Reach outward toward the wall rather than lifting upward.",
+      "Lead with the elbow, not the wrist.",
+      "Keep your shoulders depressed and traps relaxed."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso or using momentum to jerk the cable upward.",
+        "correction": "Brace the core, maintain an upright stance, and reduce the weight to isolate the shoulder."
+      },
+      {
+        "fault": "Shrugging the neck and engaging excessive upper trapezius.",
+        "correction": "Keep the shoulder blade down and avoid raising the arm higher than shoulder level."
+      },
+      {
+        "fault": "Bending and extending the elbow dynamically like a curl or press.",
+        "correction": "Lock a slight bend in the elbow and maintain that exact angle throughout the entire movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid lifting past parallel if you experience pinching or discomfort in the subacromial space."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

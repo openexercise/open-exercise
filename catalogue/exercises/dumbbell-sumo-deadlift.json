@@ -1,0 +1,245 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "DB Sumo Deadlift",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Sumo Dumbbell Deadlift",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "fingers",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "yoga-block",
+      "step"
+    ],
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1088"
+  },
+  "id": "oec:dumbbell-sumo-deadlift",
+  "instructions": {
+    "setup": [
+      "Stand over a dumbbell set vertically on the floor with your feet wider than shoulder-width apart and toes pointed out at roughly 30 to 45 degrees.",
+      "Hinge at your hips and bend your knees while keeping your chest lifted and spine neutral.",
+      "Grasp the top weighted end of the dumbbell firmly with both hands using an overhand or interlocking grip."
+    ],
+    "steps": [
+      "Brace your core, engage your lats, and push the floor away through your midfoot and heels.",
+      "Extend your knees and hips simultaneously to stand tall, keeping the dumbbell close to your center of gravity.",
+      "Squeeze your glutes at the top of the movement without hyperextending your lower back.",
+      "Hinge at the hips and bend the knees tracking in line with your toes to lower the dumbbell under control back to the floor."
+    ],
+    "breathing": "Inhale and brace your abdomen before initiating the pull, hold your breath through the hardest part of the lift, and exhale as you reach lockout.",
+    "cues": [
+      "Push the floor apart.",
+      "Keep your chest proud.",
+      "Knees track over toes."
+    ],
+    "common_faults": [
+      {
+        "fault": "Knees collapsing inward during the ascent.",
+        "correction": "Actively push your knees outward in the direction of your angled toes throughout the entire lift."
+      },
+      {
+        "fault": "Rounding the spine to reach the dumbbell.",
+        "correction": "Maintain a flat back by sitting the hips down and back; elevate the dumbbell on a small block or plate if hip mobility limits depth."
+      },
+      {
+        "fault": "Leaning back excessively at the top of the lift.",
+        "correction": "Finish the movement by locking the hips straight beneath the torso with glute contraction, avoiding lumbar hyperextension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure your footwear provides adequate traction to prevent feet from sliding outward in the wide stance.",
+        "Avoid letting the torso tip forward excessively to minimize shear forces on the lumbar spine."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Sumo Deadlift",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dumbbell sumo deadlift",
+        "url": "https://wger.de/en/exercise/1088/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "philip"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-deadlift"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:kettlebell-sumo-deadlift"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-sumo-deadlift"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-sumo-deadlift"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "narrow"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "sumo"
+    }
+  },
+  "status": "active",
+  "summary": "A wide-stance deadlift variation performed with a single dumbbell that emphasizes the glutes, adductors, and quadriceps with reduced lower back shear."
+}

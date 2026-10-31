@@ -1,0 +1,216 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Dumbbell Chest Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Flat Dumbbell Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Bench Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Fly With Dumbbells",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-chest-fly"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "bench",
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "238"
+  },
+  "id": "oec:dumbbell-fly",
+  "instructions": {
+    "setup": [
+      "Sit on a flat bench with a dumbbell resting on each knee.",
+      "Lie back smoothly, using your knees to help kick the dumbbells into position over your chest.",
+      "Plant your feet firmly on the floor, retract your shoulder blades, and press the dumbbells up with palms facing each other and a slight bend in your elbows."
+    ],
+    "steps": [
+      "Maintain a fixed, slight bend in your elbows as you lower the dumbbells out to your sides in a wide arc.",
+      "Lower the weights under control until you feel a comfortable stretch across your chest, keeping your elbows level with your torso.",
+      "Contract your chest muscles to reverse the movement, bringing the dumbbells back up along the same wide arc until they meet above your chest."
+    ],
+    "breathing": "Inhale as you lower the dumbbells out to the sides; exhale as you draw them back together over your chest.",
+    "cues": [
+      "Hug a wide tree barrel.",
+      "Lock your elbows at a soft angle.",
+      "Lead with your elbows, not your hands."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending and extending the elbows excessively, turning the fly into a press.",
+        "correction": "Fix a slight bend in the elbows from the start and maintain that exact angle throughout the entire range."
+      },
+      {
+        "fault": "Overstretching the shoulder joint by dropping the elbows too far below the bench.",
+        "correction": "Stop the descent once your elbows reach torso depth or when a comfortable chest stretch is achieved."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not use excessively heavy loads that compromise shoulder stability at the bottom of the stretch.",
+        "To finish, bring the dumbbells to your chest and sit up, or drop them carefully to the sides if using safety mats."
+      ],
+      "spotter": "recommended"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Fly",
+  "previous_ids": [
+    "oec:fly-with-dumbbells"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Fly With Dumbbells",
+        "url": "https://wger.de/en/exercise/238/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-chest-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-chest-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-cable-fly"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "shoulder"
+    },
+    "position": "supine",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An isolation exercise performed lying supine on a flat bench to target the pectorals through horizontal adduction."
+}

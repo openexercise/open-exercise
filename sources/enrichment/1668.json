@@ -1,0 +1,152 @@
+{
+  "is_exercise": true,
+  "name": "Cable Single-Arm Overhead Triceps Extension",
+  "summary": "An isolation exercise that targets the triceps, particularly emphasizing the long head, by extending the elbow overhead against cable resistance.",
+  "aliases": [
+    {
+      "text": "One Arm Overhead Cable Tricep Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Cable One-Arm Overhead Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Overhead Cable Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable Overhead Triceps Extension",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "staggered",
+  "load_position": "overhead",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "triceps-long-head",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-lateral-head",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-medial-head",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "anconeus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set the cable pulley to a low position, either attaching a single handle or gripping the cable ball directly.",
+      "Face away from the pulley tower, grab the cable with one hand, and press it directly overhead.",
+      "Adopt a comfortable staggered stance to provide stability and brace your core."
+    ],
+    "steps": [
+      "Keeping your upper arm vertical and close to your head, slowly bend your elbow to lower the cable behind your head until your triceps are fully stretched.",
+      "Pause briefly at the bottom of the movement without letting your upper arm drift forward.",
+      "Contract your triceps to extend your forearm upward until your elbow is fully extended overhead.",
+      "Complete the desired repetitions on one side before switching hands."
+    ],
+    "breathing": "Inhale as you lower the weight behind your head, and exhale as you extend your arm overhead.",
+    "cues": [
+      "Pin your upper arm in place",
+      "Reach deep behind your neck for a full stretch",
+      "Squeeze your triceps at lockout"
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbow out wide or moving the upper arm back and forth during the rep.",
+        "correction": "Keep your upper arm relatively fixed in space, allowing movement only at the elbow joint."
+      },
+      {
+        "fault": "Arching the lower back to assist the press.",
+        "correction": "Brace your abdominals and use a staggered stance to keep the spine neutral."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessive loads that compromise shoulder stability or strain the elbow joint."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "is_exercise": true,
+  "name": "Horse Stance",
+  "summary": "An isometric bodyweight squat held in an ultra-wide stance to build lower-body endurance, adductor strength, and hip mobility.",
+  "aliases": [
+    {
+      "text": "Horse Riding Stance",
+      "kind": "common"
+    },
+    {
+      "text": "Ma Bu",
+      "kind": "regional"
+    },
+    {
+      "text": "Kiba Dachi",
+      "kind": "regional"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "flexibility",
+      "mobility",
+      "strength"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "stance_width": "sumo",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "reps",
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand with your feet spaced significantly wider than shoulder width, roughly two shoulder widths apart.",
+      "Point your toes forward or slightly flared outward no more than 30 degrees, keeping your feet firmly planted.",
+      "Hold your hands in front of your chest, at your hips, or extended forward for counter-balance."
+    ],
+    "steps": [
+      "Lower your hips by bending your knees and opening your hips outward until your thighs approach parallel to the floor.",
+      "Keep your torso as upright as possible with your spine neutral and pelvis tucked slightly under.",
+      "Hold this deep static position for the prescribed duration while actively pressing your knees outward in line with your feet.",
+      "Press through your whole foot to stand back up smoothly to complete the hold."
+    ],
+    "breathing": "Maintain steady, rhythmic diaphragmatic breathing throughout the isometric hold without holding your breath.",
+    "cues": [
+      "Knees track over toes",
+      "Stay tall in the torso",
+      "Sink hips deep",
+      "Root feet into the floor"
+    ],
+    "common_faults": [
+      {
+        "fault": "Knees caving inward under fatigue.",
+        "correction": "Actively push your knees outward to track directly over your feet throughout the hold."
+      },
+      {
+        "fault": "Excessive forward torso lean.",
+        "correction": "Engage your core, lift your chest, and keep your pelvis underneath your shoulders."
+      },
+      {
+        "fault": "Squatting too shallow.",
+        "correction": "Work toward getting your thighs parallel to the floor, reducing hold duration if necessary to maintain proper depth."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Exit the hold immediately if experiencing sharp pain in the adductors, knees, or hips."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

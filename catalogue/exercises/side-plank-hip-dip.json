@@ -1,0 +1,197 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Dynamic Side Plank",
+      "kind": "common"
+    },
+    {
+      "text": "Side Plank Dip",
+      "kind": "common"
+    },
+    {
+      "text": "Side Plank Hip Lift",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "external-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadratus-lumborum",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "lateral-flexion"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "abduction",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "lateral-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1288"
+  },
+  "id": "oec:side-plank-hip-dip",
+  "instructions": {
+    "setup": [
+      "Lie on your side with legs extended and feet stacked or staggered for balance.",
+      "Place your bottom elbow directly beneath your shoulder with your forearm flat on the floor.",
+      "Engage your core and press into your forearm and feet to raise your hips until your body forms a straight line from head to ankles."
+    ],
+    "steps": [
+      "In a slow, controlled motion, lower your bottom hip toward the floor without resting your weight completely on the ground.",
+      "Contract your bottom-side obliques and hip to press your hips upward, returning to the neutral plank alignment or slightly higher.",
+      "Pause briefly at the top before beginning the next descent.",
+      "Complete all repetitions on one side before switching to the opposite side."
+    ],
+    "breathing": "Inhale as you lower your hips toward the floor; exhale forcefully as you drive your hips upward.",
+    "cues": [
+      "Elbow stacked under shoulder",
+      "Stay in one flat plane",
+      "Squeeze the bottom waist at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the chest and hips forward or backward.",
+        "correction": "Keep your shoulders, hips, and ankles stacked perpendicularly to the floor throughout the movement."
+      },
+      {
+        "fault": "Allowing the supporting shoulder to shrug up toward the ear.",
+        "correction": "Actively press the floor away through your forearm to maintain a stable, active shoulder girdle."
+      },
+      {
+        "fault": "Using momentum to bounce the hips off the floor.",
+        "correction": "Control the descent, stopping just above the floor, and drive up smoothly using muscular contraction."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid if you have acute shoulder impingement or pain supporting weight on the elbow."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Side Plank Hip Dip",
+  "previous_ids": [
+    "oec:dynamic-side-plank"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dynamic side plank",
+        "url": "https://wger.de/en/exercise/1288/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "painDpice"
+      }
+    ]
+  },
+  "setup": {
+    "position": "side-lying"
+  },
+  "status": "active",
+  "summary": "A dynamic bodyweight core exercise that strengthens the obliques, quadratus lumborum, and hip abductors by lowering and elevating the hips from a side plank position."
+}

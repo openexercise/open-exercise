@@ -1,0 +1,159 @@
+{
+  "is_exercise": true,
+  "name": "Pendulum Squat",
+  "summary": "A machine-based squat variation utilizing a swinging counterbalanced lever arm to heavily load the quadriceps through a deep range of motion with reduced lumbar strain.",
+  "aliases": [
+    {
+      "text": "Pendulum Hack Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Pendulum Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Pendular Hack",
+      "kind": "misspelling"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "vastus-lateralis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "vastus-medialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "plate-loaded-machine"
+      ]
+    },
+    {
+      "any_of": [
+        "weight-plate"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Step onto the footplate and press your entire back and hips firmly against the back pad.",
+      "Settle your shoulders beneath the shoulder pads and place your feet roughly shoulder-width apart on the platform.",
+      "Extend your hips and knees to take the weight off the stops, then rotate or pull the safety release handle outward."
+    ],
+    "steps": [
+      "Inhale, brace your core, and keep your head and torso firmly pinned against the backrest.",
+      "Control the descent by bending at your knees and hips, allowing your knees to travel forward over your toes along the machine's curved path.",
+      "Lower yourself smoothly until your thighs reach or break parallel with the footplate while keeping your heels flat.",
+      "Drive through your midfoot to push the platform away, extending your knees and hips back to the starting position without locking out aggressively."
+    ],
+    "breathing": "Inhale and brace your torso before descending, then exhale forcefully as you drive through the sticking point back toward the top.",
+    "cues": [
+      "Keep back glued to the pad",
+      "Drive knees forward over toes",
+      "Push the floor away through midfoot"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the pelvis to tuck and lift off the back pad at the bottom of the rep.",
+        "correction": "Limit your depth to the range where your hips remain in full contact with the backrest."
+      },
+      {
+        "fault": "Heels peeling up off the footplate during deep knee flexion.",
+        "correction": "Reposition your feet slightly higher on the platform to accommodate your ankle mobility."
+      },
+      {
+        "fault": "Hyperextending and slamming the knees into lockout at the top.",
+        "correction": "Reverse the motion just short of complete knee lockout to maintain constant tension on the quadriceps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Test and verify the height of the safety stop mechanism before loading heavy plates.",
+        "Keep one hand close to the safety catch lever to quickly re-engage the stops if muscular failure occurs."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

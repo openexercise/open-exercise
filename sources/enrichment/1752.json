@@ -1,0 +1,155 @@
+{
+  "is_exercise": true,
+  "name": "Cable Lateral Raise",
+  "summary": "A standing isolation exercise targeting the lateral deltoid using a low cable pulley.",
+  "aliases": [
+    {
+      "text": "Cable Side Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Side Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Low Cable Lateral Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-lateral",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "supraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set a cable pulley to the lowest setting and attach a single D-handle.",
+      "Stand sideways to the cable machine with feet hip-width apart.",
+      "Grasp the handle with the far arm, letting the cable cross in front of your body with a slight bend in your working elbow."
+    ],
+    "steps": [
+      "Raise your arm out to the side in a smooth arc until your elbow reaches shoulder height.",
+      "Pause briefly at the top to emphasize contraction on the lateral deltoid.",
+      "Lower the handle with control along the same path back to the starting position."
+    ],
+    "breathing": "Exhale as you raise your arm outward, and inhale as you lower the weight under control.",
+    "cues": [
+      "Lead with your elbow.",
+      "Keep your shoulders down away from your ears.",
+      "Resist the weight on the way down."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to generate momentum.",
+        "correction": "Brace your core and use a lighter load to isolate the shoulder."
+      },
+      {
+        "fault": "Excessively shrugging the shoulder toward the ear.",
+        "correction": "Keep your scapula depressed and focus on reaching out wide rather than straight up."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid raising the arm significantly above shoulder level if it produces anterior shoulder pinching."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

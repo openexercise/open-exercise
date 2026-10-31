@@ -1,0 +1,21 @@
+{
+  "vocabulary": "joints",
+  "version": 0,
+  "description": "Joints and joint complexes whose movement defines an exercise.",
+  "terms": [
+    {"id": "cervical-spine", "label": "Cervical spine"},
+    {"id": "thoracic-spine", "label": "Thoracic spine"},
+    {"id": "lumbar-spine", "label": "Lumbar spine"},
+    {"id": "scapulothoracic", "label": "Shoulder blade"},
+    {"id": "glenohumeral", "label": "Shoulder"},
+    {"id": "elbow", "label": "Elbow"},
+    {"id": "radioulnar", "label": "Forearm"},
+    {"id": "wrist", "label": "Wrist"},
+    {"id": "fingers", "label": "Fingers"},
+    {"id": "hip", "label": "Hip"},
+    {"id": "knee", "label": "Knee"},
+    {"id": "ankle", "label": "Ankle"},
+    {"id": "subtalar", "label": "Subtalar"},
+    {"id": "toes", "label": "Toes"}
+  ]
+}

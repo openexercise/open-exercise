@@ -1,0 +1,181 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Pause Bench Press",
+  "summary": "A barbell bench press variation featuring a deliberate motionless pause on the chest to build reversal strength and eliminate the stretch reflex.",
+  "aliases": [
+    {
+      "text": "Pause Bench",
+      "kind": "common"
+    },
+    {
+      "text": "Paused Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Pause Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Paused Bench Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "powerlifting",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "supine",
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "chest",
+  "range": "pause",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rotator-cuff",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "depression",
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "adjustable-bench"
+      ]
+    },
+    {
+      "any_of": [
+        "power-rack",
+        "squat-rack"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Lie supine on the bench with your eyes directly under the racked barbell.",
+      "Plant your feet firmly into the floor and grasp the bar with an even, pronated grip slightly wider than shoulder width.",
+      "Retract and depress your scapulae into the bench, establish a stable arch in your thoracic spine, unrack the bar, and stabilize it directly over your chest with elbows locked."
+    ],
+    "steps": [
+      "Inhale deeply into your belly and lower the barbell in a controlled descent toward your lower sternum.",
+      "Bring the bar to a complete, motionless halt lightly touching your chest while maintaining full muscular tension.",
+      "Hold the pause for the designated duration (typically one to two seconds) without allowing the bar to sink or rest on your ribs.",
+      "Drive your feet into the floor and forcefully press the bar back up along a slight diagonal arc to the starting lockout position."
+    ],
+    "breathing": "Take a deep breath and brace your core before descending, hold your breath through the pause and the initial press, and exhale forcefully as you pass the sticking point near lockout.",
+    "cues": [
+      "Bend the bar across your chest.",
+      "Stay tight during the pause.",
+      "Push yourself away from the bar into the bench."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bouncing the bar or sinking it deeply into the sternum to gain momentum.",
+        "correction": "Bring the bar to a dead stop on the chest while maintaining active tension in your lats and chest."
+      },
+      {
+        "fault": "Relaxing upper-back tightness and losing scapular retraction during the pause.",
+        "correction": "Keep your shoulder blades squeezed together and actively pin them into the bench pad throughout the entire rep."
+      },
+      {
+        "fault": "Lifting the hips off the bench when initiating the press.",
+        "correction": "Channel leg drive horizontally back toward your head rather than vertically upward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure safety pins are set at the correct height just below your arched chest height so the bar can be safely escaped if missed.",
+        "Avoid using a thumbless (suicide) grip."
+      ],
+      "spotter": "recommended",
+      "safeties": true
+    }
+  }
+}

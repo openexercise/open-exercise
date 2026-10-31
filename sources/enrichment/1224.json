@@ -1,0 +1,138 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Drag Curl",
+  "summary": "A biceps curl variation where the dumbbells are pulled straight up along the torso by actively driving the elbows backward.",
+  "aliases": [
+    {
+      "text": "Dumbbell drag curls",
+      "kind": "common"
+    },
+    {
+      "text": "DB drag curl",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "supinated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart, holding a dumbbell in each hand with an underhand (supinated) grip.",
+      "Let your arms hang straight down with the dumbbells resting against your upper thighs."
+    ],
+    "steps": [
+      "Initiate the movement by driving your elbows backward and upward behind your torso.",
+      "Flex your elbows to pull the dumbbells straight upward, keeping the weights in close contact with your abdomen and chest throughout the ascent.",
+      "Squeeze your biceps hard at the peak of the movement around upper chest height.",
+      "Lower the dumbbells along the same vertical path, allowing your elbows to return forward to the starting position."
+    ],
+    "breathing": "Exhale as you drag the dumbbells upward; inhale as you lower them with control.",
+    "cues": [
+      "Drag the weights up your shirt.",
+      "Elbows back, not forward.",
+      "Keep tension on the biceps at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the elbows forward as in a traditional curl.",
+        "correction": "Actively pull the elbows backward throughout the rep so the path of the dumbbells is purely vertical."
+      },
+      {
+        "fault": "Using torso momentum or leaning back.",
+        "correction": "Keep your core tight, ribs down, and spine neutral without arching backward."
+      }
+    ],
+    "safety": {
+      "precautions": [],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

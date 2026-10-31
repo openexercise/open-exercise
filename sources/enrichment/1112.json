@@ -1,0 +1,175 @@
+{
+  "is_exercise": true,
+  "name": "Decline Push-Up",
+  "summary": "A bodyweight pressing exercise performed with the feet elevated on a bench or box to place greater emphasis on the upper chest and anterior deltoids.",
+  "aliases": [
+    {
+      "text": "Feet-Elevated Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Decline Pushup",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "prone",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "bench",
+        "plyo-box",
+        "step",
+        "chair"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat",
+    "weight-vest"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Place your hands flat on the floor slightly wider than shoulder-width apart.",
+      "Step your feet backward one at a time and elevate them onto a stable bench, box, or step.",
+      "Engage your core, glutes, and quadriceps to form a rigid, straight line from your heels to your head with arms fully extended."
+    ],
+    "steps": [
+      "Inhale and lower your chest toward the floor by bending your elbows at roughly a 45-degree angle to your torso.",
+      "Descend until your chest nearly touches the ground or reaches full depth without breaking spinal alignment.",
+      "Exhale and press firmly through your palms to extend your elbows and return to the starting plank position."
+    ],
+    "breathing": "Inhale smoothly as you lower down, and exhale forcefully as you press back up to the top.",
+    "cues": [
+      "Keep your body stiff like a board.",
+      "Arrow shape with your elbows, not a T.",
+      "Push the floor away through your palms."
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging hips or hyperextending the lower back during the press.",
+        "correction": "Squeeze your glutes and brace your abdominals tightly throughout the entire repetition."
+      },
+      {
+        "fault": "Flaring elbows excessively out to the sides.",
+        "correction": "Tuck your elbows to roughly 45 degrees relative to your torso to protect the shoulders."
+      },
+      {
+        "fault": "Reaching with the chin instead of achieving full range of motion with the chest.",
+        "correction": "Maintain a neutral neck and aim to bring your chest, not your face, closest to the floor."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the elevated surface is stable and will not slip or slide backward under pressure."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

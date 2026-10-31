@@ -1,0 +1,239 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Dumbbell Forward Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Dumbbell Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Lunges Standing",
+      "kind": "common"
+    },
+    {
+      "text": "DB Lunge",
+      "kind": "abbreviation"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "205"
+  },
+  "id": "oec:dumbbell-lunge",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart holding a dumbbell in each hand at your sides with a neutral grip.",
+      "Engage your core, pull your shoulders back slightly, and look straight ahead."
+    ],
+    "steps": [
+      "Take a controlled step forward with one leg, planting your lead foot flat on the floor.",
+      "Lower your hips directly downward by bending both knees until your back knee hovers just above the floor and your front thigh is roughly parallel to the ground.",
+      "Push forcefully through the heel and midfoot of your lead leg to return smoothly to the upright starting position.",
+      "Repeat on the opposite leg or continue on the same side as prescribed."
+    ],
+    "breathing": "Inhale as you step forward and lower your body; exhale forcefully as you drive back up to the starting position.",
+    "cues": [
+      "Drop the back knee straight down",
+      "Stay tall through your torso",
+      "Drive back off the front midfoot"
+    ],
+    "common_faults": [
+      {
+        "fault": "Stepping in a straight line as if on a tightrope, causing loss of balance.",
+        "correction": "Maintain your hip-width stance as you step forward, stepping as if on railroad tracks."
+      },
+      {
+        "fault": "Collapsing the front knee inward during the descent or pushback.",
+        "correction": "Actively track your lead knee in line with your second toe throughout the rep."
+      },
+      {
+        "fault": "Leaning excessively forward and allowing the front heel to lift.",
+        "correction": "Keep your chest upright and maintain firm contact across your entire front foot."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid violently banging your rear knee into the floor.",
+        "Ensure adequate clear floor space in front of you before starting the set."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Dumbbell Lunge",
+  "previous_ids": [
+    "oec:dumbbell-lunges-standing"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dumbbell Lunges Standing",
+        "url": "https://wger.de/en/exercise/205/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:forward-lunge"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:bodyweight-forward-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-forward-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:kettlebell-forward-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-reverse-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-walking-lunge"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral lower-body compound exercise where you step forward into a lunge with dumbbells held at your sides and push back to a standing position."
+}

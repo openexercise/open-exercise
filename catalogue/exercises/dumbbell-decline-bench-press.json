@@ -1,0 +1,215 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Decline Dumbbell Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Decline Dumbbell Press",
+      "kind": "common"
+    },
+    {
+      "text": "Decline DB Bench Press",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Decline Bench Press Dumbbell",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-abdominal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-bench",
+        "bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "186"
+  },
+  "id": "oec:dumbbell-decline-bench-press",
+  "instructions": {
+    "setup": [
+      "Secure your legs under the ankle pads of a decline bench set to roughly a 15 to 30-degree angle.",
+      "Sit upright with a dumbbell resting on each thigh.",
+      "Lie back onto the bench, bringing the dumbbells to the sides of your lower chest with wrists neutral and elbows tucked at roughly a 45-degree angle to your torso."
+    ],
+    "steps": [
+      "Press the dumbbells upward and slightly inward in a smooth arc until your arms are extended over your lower chest, without clashing the weights together at the top.",
+      "Pause briefly at full extension while maintaining tension across the chest.",
+      "Lower the dumbbells under control until you feel a comfortable stretch across your pectorals, with your forearms remaining vertical throughout the descent."
+    ],
+    "breathing": "Inhale as you lower the weights toward your chest; exhale forcefully as you press them to lockout.",
+    "cues": [
+      "Drive your elbows together at the top.",
+      "Keep your shoulder blades retracted and pinned to the bench.",
+      "Keep forearms vertical under the dumbbells."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbows out perpendicular to the torso.",
+        "correction": "Tuck the elbows to approximately 45 degrees relative to the ribs to protect the shoulder joint."
+      },
+      {
+        "fault": "Collapsing into excessive shoulder extension at the bottom.",
+        "correction": "Stop the descent once the dumbbells reach chest level and forearms remain vertical."
+      },
+      {
+        "fault": "Banging the dumbbells together at lockout.",
+        "correction": "Bring the weights together using chest contraction without allowing them to make contact."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Take care when dismounting; at the end of the set, bring the weights to your thighs before sitting up, or carefully drop them to the floor if using safe drop mats.",
+        "Ensure your shins and ankles are firmly locked into the roller pads before lying back."
+      ],
+      "spotter": "recommended"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Decline Bench Press",
+  "previous_ids": [
+    "oec:decline-bench-press-dumbbell"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Decline Bench Press Dumbbell",
+        "url": "https://wger.de/en/exercise/186/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-decline-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-decline-chest-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "supine"
+  },
+  "status": "active",
+  "summary": "A dumbbell pressing variation performed on a decline bench, targeting the lower and sternal heads of the chest with reduced anterior shoulder stress."
+}

@@ -1,0 +1,215 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Prisoner Bodyweight Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Hands-Behind-Head Squat",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1208"
+  },
+  "id": "oec:prisoner-squat",
+  "instructions": {
+    "setup": [
+      "Stand tall with your feet shoulder-width apart, toes angled slightly outward.",
+      "Place your fingers lightly behind your head or behind your ears with your elbows pulled back wide.",
+      "Engage your upper back to keep your chest lifted and posture upright."
+    ],
+    "steps": [
+      "Initiate the descent by breaking simultaneously at the hips and knees, sitting down and back.",
+      "Lower yourself until your hip crease drops to or just below the top of your knees, ensuring your knees track in line with your toes.",
+      "Maintain active thoracic extension, keeping your elbows flared wide rather than letting them fold forward.",
+      "Drive through your midfoot and heel to push the floor away, extending your hips and knees fully at the top."
+    ],
+    "breathing": "Inhale as you descend into the squat; exhale forcefully as you drive out of the hole to the top.",
+    "cues": [
+      "Elbows back",
+      "Proud chest",
+      "Knees track over toes",
+      "Push the floor away"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling on the back of the neck with the hands, causing cervical spine flexion.",
+        "correction": "Rest fingertips lightly against the temples or behind the ears without interlacing fingers tightly or yanking forward."
+      },
+      {
+        "fault": "Elbows collapsing forward during the descent.",
+        "correction": "Actively squeeze the shoulder blades together throughout the entire range of motion to keep elbows pointing out to the sides."
+      },
+      {
+        "fault": "Excessive forward torso lean or rounding of the back.",
+        "correction": "Brace the core, keep the chest up, and sink between your hips rather than hinging excessively forward."
+      }
+    ],
+    "safety": {
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Prisoner Squat",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Prisoner Squat",
+        "url": "https://wger.de/en/exercise/1208/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "lxmx"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:bodyweight-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:bodyweight-squat"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A bodyweight squat performed with hands behind the head to encourage an upright posture and thoracic extension."
+}

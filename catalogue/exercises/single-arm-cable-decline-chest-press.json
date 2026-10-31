@@ -1,0 +1,218 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Cable Chest Press - Decline",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Decline Cable Press",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Cable Decline Press",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Single-Arm Decline Cable Chest Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-abdominal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "adduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1656"
+  },
+  "id": "oec:single-arm-cable-decline-chest-press",
+  "instructions": {
+    "setup": [
+      "Set a cable pulley to shoulder height or slightly higher and attach a single D-handle.",
+      "Grasp the handle with one hand and step forward into a staggered stance, facing away from the stack.",
+      "Brace your non-working hand against the cable column or your forward hip for stability, holding the working hand close to the lower chest with your elbow bent."
+    ],
+    "steps": [
+      "Press the handle downward and inward across your torso along a slight decline path until your elbow reaches full extension.",
+      "Squeeze your chest at the bottom of the movement without rotating your hips or shoulders.",
+      "Slowly bend your elbow and allow the cable to pull your hand back toward your chest under control.",
+      "Complete the set, then switch sides and repeat."
+    ],
+    "breathing": "Exhale as you press the cable forward and down, and inhale as you return to the starting position.",
+    "cues": [
+      "Press down and toward your midline",
+      "Lock your ribcage and brace your core",
+      "Keep your shoulders square"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive torso rotation during the press",
+        "correction": "Brace firmly with your free hand and keep your chest facing forward throughout the movement."
+      },
+      {
+        "fault": "Pressing straight out rather than on a decline",
+        "correction": "Direct the pressing path slightly downward toward the level of your lower chest and navel."
+      },
+      {
+        "fault": "Letting the shoulder shrug up toward the ear",
+        "correction": "Depress your scapula and keep the shoulder packed down before initiating the press."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Keep your wrists neutral to prevent joint strain when loaded by the cable."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Single-Arm Cable Decline Chest Press",
+  "previous_ids": [
+    "oec:cable-chest-press-decline"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Cable Chest Press - Decline",
+        "url": "https://wger.de/en/exercise/1656/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Shiladree"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-decline-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-decline-chest-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "staggered"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral standing press using a high cable pulley to target the lower pectorals with enhanced core bracing."
+}

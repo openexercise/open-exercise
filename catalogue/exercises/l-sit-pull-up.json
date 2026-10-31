@@ -1,0 +1,226 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "L-Sit Pull-ups",
+      "kind": "common"
+    },
+    {
+      "text": "L Pull-Up",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "adduction",
+          "extension"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "downward-rotation",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "advanced"
+  },
+  "equipment": {
+    "required": [
+      [
+        "pull-up-bar"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1741"
+  },
+  "id": "oec:l-sit-pull-up",
+  "instructions": {
+    "setup": [
+      "Grip an overhead pull-up bar with an overhand, pronated grip slightly wider than shoulder-width.",
+      "Hang with arms fully extended and engage your shoulders away from your ears.",
+      "Raise your legs forward with knees completely straight and toes pointed until they are parallel to the floor, forming a ninety-degree angle with your torso."
+    ],
+    "steps": [
+      "Maintain the rigid horizontal leg position while pulling your elbows down and back toward your ribs.",
+      "Pull smoothly until your chin clears the height of the bar, avoiding any swinging or dropping of the legs.",
+      "Pause briefly at the top without allowing your knees to bend.",
+      "Lower yourself under control back to a full dead hang, keeping your legs held strictly parallel to the floor throughout the descent."
+    ],
+    "breathing": "Inhale before initiating the pull, exhale during the ascent as you clear the bar, and inhale smoothly as you lower down.",
+    "cues": [
+      "Toes pointed and legs locked.",
+      "Keep thighs parallel to the ground.",
+      "Pull chest to bar without kicking."
+    ],
+    "common_faults": [
+      {
+        "fault": "Dropping the legs below parallel during the pull.",
+        "correction": "Actively flex the hip flexors and abdominals to hold the ninety-degree L-sit throughout both concentric and eccentric phases."
+      },
+      {
+        "fault": "Kicking the legs to generate upward momentum.",
+        "correction": "Perform the movement strictly from a dead stop, focusing on pulling power rather than kipping."
+      },
+      {
+        "fault": "Bending the knees to make the hold easier.",
+        "correction": "Squeeze the quadriceps to keep knees fully locked; if flexibility or strength is lacking, regress to a tuck L-sit pull-up."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the pull-up bar is securely mounted and has sufficient clearance in front for extended legs.",
+        "Do not compromise shoulder stability by relaxing completely into a passive dead hang between reps."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "L-Sit Pull-Up",
+  "previous_ids": [
+    "oec:l-sit-pull-ups"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: L-Sit Pull-ups",
+        "url": "https://wger.de/en/exercise/1741/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Happy"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:pull-up"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:pull-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "hanging",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "An advanced vertical pull variation that combines a strict pull-up with an isometric leg raise, challenging both the pulling musculature and the core."
+}

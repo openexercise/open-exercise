@@ -1,0 +1,157 @@
+{
+  "is_exercise": true,
+  "name": "Alternating Heel Touch",
+  "summary": "A supine bodyweight core exercise targeting the obliques through alternating lateral flexion of the torso.",
+  "aliases": [
+    {
+      "text": "Heel Touches",
+      "kind": "common"
+    },
+    {
+      "text": "Penguin Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Penguins",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Heel Touch",
+      "kind": "common"
+    },
+    {
+      "text": "Heel Taps",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "lateral-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "external-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deep-neck-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "lateral-flexion",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "lateral-flexion",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie face-up on an exercise mat with your knees bent and your feet flat on the floor, spaced hip-width apart.",
+      "Position your feet roughly one to two hand lengths away from your glutes.",
+      "Rest your arms along your sides, palms facing inward or down toward the floor."
+    ],
+    "steps": [
+      "Engage your abdominals and lift your head and shoulder blades slightly off the floor, keeping your lower back in contact with the mat.",
+      "Laterally flex your torso to the right, sliding your right hand along the floor until your fingertips touch your right heel.",
+      "Pause briefly to contract the right oblique, then reverse the motion smoothly back through center.",
+      "Without lowering your shoulders to the floor, laterally flex your torso to the left and touch your left heel with your left hand.",
+      "Return through center and continue alternating sides in a controlled cadence."
+    ],
+    "breathing": "Maintain rhythmic breathing, exhaling as you reach toward each heel and inhaling as you cross through center.",
+    "cues": [
+      "Rib cage to hip bone",
+      "Shoulders off the mat",
+      "Smooth side glide"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling from the neck or excessively tucking the chin to the chest.",
+        "correction": "Keep space between your chin and chest, letting the upper abdominals hold the torso elevated."
+      },
+      {
+        "fault": "Placing the feet too close or too far away, preventing proper oblique engagement.",
+        "correction": "Adjust foot distance so that reaching your heel requires full torso lateral flexion without hip shifting."
+      },
+      {
+        "fault": "Letting the shoulder blades rest between repetitions.",
+        "correction": "Maintain continuous isometric flexion in the upper abdominals throughout the set."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid this exercise if loaded lateral spinal flexion exacerbates active lower-back or disc issues."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Decline Bench Leg Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Decline Lying Leg Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Bench Leg Raise",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "synergist"
+      },
+      {
+        "muscle": "tensor-fasciae-latae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "spinal-flexion",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "ankle-weight"
+    ],
+    "required": [
+      [
+        "adjustable-bench",
+        "bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1889"
+  },
+  "id": "oec:decline-leg-raise",
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to a decline angle.",
+      "Lie supine on the bench with your head at the elevated end.",
+      "Reach overhead and firmly grasp the bench handle, pad, or sides of the bench for stability.",
+      "Extend your legs fully down the slope of the bench with your feet together."
+    ],
+    "steps": [
+      "Brace your core and flex your hips to lift your legs smoothly upward.",
+      "As your legs reach vertical, curl your pelvis upward off the bench into spinal flexion to maximize abdominal recruitment.",
+      "Pause briefly at the top while contracting your core.",
+      "Lower your pelvis back onto the bench, then lower your legs under control until they hover just above the bench surface."
+    ],
+    "breathing": "Inhale as you lower your legs with control; exhale forcefully as you curl your hips and raise your legs.",
+    "cues": [
+      "Roll your pelvis off the bench at the top",
+      "Keep the descent slow and controlled",
+      "Do not let your lower back hyper-arch at the bottom"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the legs up using momentum rather than muscular control.",
+        "correction": "Initiate the movement deliberately and eliminate swinging between repetitions."
+      },
+      {
+        "fault": "Only flexing the hips without lifting the pelvis off the bench.",
+        "correction": "Roll your hips off the pad toward your ribs at the top to fully engage the rectus abdominis."
+      },
+      {
+        "fault": "Letting the lower back aggressively arch away from the pad at the bottom.",
+        "correction": "Only lower your legs as far as you can maintain active core bracing without lumbar hyperextension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you experience lower back pain, reduce the decline angle or perform the exercise with slightly bent knees."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Decline Leg Raise",
+  "previous_ids": [
+    "oec:decline-bench-leg-raise"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Decline Bench Leg Raise",
+        "url": "https://wger.de/en/exercise/1889/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "nishant0712"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:lying-leg-raise"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:lying-leg-raise"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:hanging-leg-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:captain-s-chair-leg-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:lying-leg-raise"
+    }
+  ],
+  "setup": {
+    "position": "supine",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "An abdominal exercise performed lying supine on a decline bench where the legs and pelvis are raised against gravity."
+}

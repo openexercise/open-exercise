@@ -1,0 +1,167 @@
+{
+  "is_exercise": true,
+  "name": "Standing I-Y-T Raise",
+  "summary": "A bodyweight shoulder and postural mobility exercise combining overhead, diagonal, and lateral arm raises.",
+  "aliases": [
+    {
+      "text": "Arm Raises (T/Y/I)",
+      "kind": "common"
+    },
+    {
+      "text": "Standing T-Y-I Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Y-T-I Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Standing I-Y-T Drill",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "rehabilitation",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise",
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-lateral",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "supraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction",
+        "flexion",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "retraction",
+        "elevation",
+        "depression"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "dumbbell"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and knees soft.",
+      "Brace your core, draw your ribs down, and let your arms hang naturally at your sides with thumbs pointing forward."
+    ],
+    "steps": [
+      "Raise both arms directly forward and overhead into an 'I' position until fully elevated, then lower with control to your sides.",
+      "Raise both arms at roughly a 45-degree angle from your torso into a 'Y' position with thumbs pointing up and back, then lower smoothly.",
+      "Raise both arms directly out to the sides into a 'T' position until parallel with the floor, squeezing your shoulder blades together, then return to the starting position."
+    ],
+    "breathing": "Inhale as you raise your arms in each direction to support thoracic extension, and exhale as you lower them.",
+    "cues": [
+      "Lead with your thumbs.",
+      "Keep shoulders down away from your ears.",
+      "Do not arch your lower back."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lumbar spine to gain overhead range of motion.",
+        "correction": "Keep your abdominals braced and ribcage pulled down throughout all three positions."
+      },
+      {
+        "fault": "Shrugging the upper traps excessively during the raises.",
+        "correction": "Focus on depressing your scapulae and lifting via mid and lower trap activation rather than shrugging."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Move through a pain-free range of motion if you experience shoulder impingement."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

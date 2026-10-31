@@ -1,0 +1,162 @@
+{
+  "is_exercise": true,
+  "name": "Quadruped Thoracic Rotation",
+  "summary": "A quadruped mobility exercise that develops rotational range of motion in the thoracic spine while stabilizing the lumbar spine and pelvis.",
+  "aliases": [
+    {
+      "text": "Quadruped T-Spine Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Hands and Knees Thoracic Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "All-Fours T-Spine Rotation",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "rotation"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "quadruped",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "external-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "rotation"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "protraction"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "load_convention": "not-applicable",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Start on all fours with your wrists stacked directly beneath your shoulders and your knees beneath your hips.",
+      "Engage your core to maintain a neutral, flat spine from pelvis to neck.",
+      "Place one hand behind your head or neck with the elbow pointed outward, keeping the supporting arm firmly planted."
+    ],
+    "steps": [
+      "Rotate your upper torso down and inward, pointing the elevated elbow toward your opposite wrist or floor.",
+      "Reverse the movement by rotating your upper torso open toward the ceiling, driving the elbow upward as far as comfortable without shifting your hips.",
+      "Pause momentarily at the top of the rotation.",
+      "Smoothly return to the starting position and repeat for the desired number of repetitions before switching sides."
+    ],
+    "breathing": "Inhale as you rotate down across your body, and exhale as you rotate open toward the ceiling.",
+    "cues": [
+      "Keep hips square to the floor",
+      "Rotate through your ribcage, not your lower back",
+      "Push the floor away with the supporting hand",
+      "Follow your elbow with your eyes"
+    ],
+    "common_faults": [
+      {
+        "fault": "Shifting hips side to side to cheat rotation.",
+        "correction": "Keep your pelvis level and stationary; sit hips slightly back toward your heels if needed to lock the lumbar spine."
+      },
+      {
+        "fault": "Pulling on the neck with the raised hand.",
+        "correction": "Rest your fingertips lightly behind your head without applying any forward or sideways pressure."
+      },
+      {
+        "fault": "Collapsing into the supporting shoulder.",
+        "correction": "Actively press into the floor through the supporting palm to keep the chest proud and shoulder stable."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Move in a slow, controlled manner and avoid forcing rotational end range."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Reverse Cable Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Reverse Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Cable Rear Delt Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Rear Delt Raise",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-posterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "infraspinatus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "teres-minor",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise",
+      "horizontal-pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "822"
+  },
+  "id": "oec:cable-rear-delt-fly",
+  "instructions": {
+    "setup": [
+      "Set dual cable pulleys at roughly eye-to-shoulder height without attachments, gripping the rubber stoppers or bare cables.",
+      "Grasp the left cable with your right hand and the right cable with your left hand so the cables cross directly in front of you.",
+      "Step back slightly to establish tension, keeping your feet hip-width apart and maintaining an upright torso with a soft bend in the knees."
+    ],
+    "steps": [
+      "Maintain a slight, fixed bend in your elbows and extend your arms in front of your chest.",
+      "Pull your hands out and back in a wide horizontal arc until your upper arms are aligned with your torso.",
+      "Pause briefly at peak contraction to squeeze the rear deltoids.",
+      "Slowly reverse the motion under control, allowing your hands to cross back over in front of your chest to feel a stretch."
+    ],
+    "breathing": "Exhale as you pull the cables outward and backward; inhale as you slowly return to the starting crossed position.",
+    "cues": [
+      "Lead with the back of the hands, not the elbows.",
+      "Keep the elbow bend fixed throughout.",
+      "Spread the cables wide rather than just pulling back."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive elbow bending, turning the isolation fly into a row.",
+        "correction": "Lock a slight bend into the elbows and maintain that fixed angle through the entire range of motion."
+      },
+      {
+        "fault": "Shrugging the shoulders upward toward the ears.",
+        "correction": "Depress the shoulder blades and focus on pulling horizontally across rather than upward."
+      },
+      {
+        "fault": "Using torso momentum or leaning backward to initiate the pull.",
+        "correction": "Brace the core, keep the torso stationary, and reduce the working weight."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid over-extending the arms past the plane of the torso to protect the shoulder joint."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable Rear Delt Fly",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Cable Rear Delt Fly",
+        "url": "https://wger.de/en/exercise/822/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "cshep442"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-reverse-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-bent-over-reverse-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-reverse-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:standing-cable-reverse-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:band-pull-apart"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An upper-body cable isolation movement targeting the posterior deltoids through shoulder horizontal abduction."
+}

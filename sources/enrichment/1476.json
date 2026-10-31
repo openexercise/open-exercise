@@ -1,0 +1,132 @@
+{
+  "is_exercise": true,
+  "name": "Butterfly Sit-Up",
+  "summary": "A bodyweight sit-up performed with the soles of the feet together and knees flared wide to reduce hip flexor recruitment and target the abdominals.",
+  "aliases": [
+    {
+      "text": "CrossFit Sit-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Baddha Konasana Sit-Up",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie supine on the floor or an exercise mat, optionally placing an abdominal mat under your lower back.",
+      "Bring the soles of your feet together and let your knees fall open to the sides in a butterfly position.",
+      "Extend your arms overhead so your hands touch the floor behind your head."
+    ],
+    "steps": [
+      "Contract your abdominals and swing your arms forward to initiate the ascent.",
+      "Roll your spine off the floor and flex at the hips until your torso reaches a fully upright position.",
+      "Touch the floor in front of your toes or touch your feet with both hands.",
+      "Reverse the movement by unrolling your spine under control until your back and arms return to the floor overhead."
+    ],
+    "breathing": "Exhale as you sit up to the top, and inhale as you lower yourself back to the floor.",
+    "cues": [
+      "Soles together, knees out",
+      "Roll up vertebrae by vertebrae",
+      "Touch the floor behind, touch the toes in front"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the knees to collapse inward during the movement.",
+        "correction": "Keep the hips externally rotated and knees flared outward throughout the entire repetition."
+      },
+      {
+        "fault": "Slamming the spine onto the floor on the descent.",
+        "correction": "Control the lowering phase by rolling down through the spine rather than flopping backward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Individuals with lower back discomfort may benefit from using a contoured abdominal mat to support the lumbar spine."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

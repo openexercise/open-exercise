@@ -1,0 +1,205 @@
+{
+  "is_exercise": true,
+  "name": "Medicine Ball Slam",
+  "summary": "An explosive full-body conditioning exercise where a non-bouncing medicine ball or slam ball is driven overhead and propelled forcefully into the floor.",
+  "aliases": [
+    {
+      "text": "Ball Slams",
+      "kind": "common"
+    },
+    {
+      "text": "Med Ball Slam",
+      "kind": "common"
+    },
+    {
+      "text": "Slam Ball Slam",
+      "kind": "common"
+    },
+    {
+      "text": "Overhead Medicine Ball Slam",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "power",
+      "conditioning",
+      "plyometric"
+    ],
+    "movement_patterns": [
+      "throw",
+      "spinal-flexion",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "overhead",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "external-oblique",
+      "role": "synergist"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "slam-ball",
+        "medicine-ball"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration",
+        "load"
+      ],
+      "optional": [
+        "reps",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet shoulder-width apart, holding a slam ball or non-bouncing medicine ball at chest level.",
+      "Brace the core and soften the knees to establish a balanced base."
+    ],
+    "steps": [
+      "Reach full triple extension by driving through the balls of your feet, extending hips and knees while raising the ball directly overhead.",
+      "Aggressively throw the ball down toward the floor between your feet by flexing your hips and core powerfully.",
+      "Hinge at the hips and bend your knees to follow through, finishing in a partial squat position.",
+      "Catch or scoop the ball immediately from the floor using a squat pattern, and smoothly transition into the next repetition."
+    ],
+    "breathing": "Inhale deeply as you extend upward and reach overhead; exhale forcefully through pursed lips as you slam the ball into the floor.",
+    "cues": [
+      "Reach tall through the toes",
+      "Slam through the floor",
+      "Squat to retrieve"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding solely through the lumbar spine to pick up or slam the ball without bending the hips and knees.",
+        "correction": "Hinge at the hips and bend the knees to absorb the slam and safely retrieve the ball."
+      },
+      {
+        "fault": "Using a high-bounce medicine ball without anticipating the rebound.",
+        "correction": "Use a designated dead-bounce slam ball, or keep your head back and hands ready to catch any rebound."
+      },
+      {
+        "fault": "Only using the arms rather than generating power from the entire body.",
+        "correction": "Coordinate the slam by aggressively snapping the hips back and crunching the torso downward with the arms following through."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Verify the rebound characteristics of the ball before throwing with maximal force to prevent facial impact.",
+        "Ensure the floor surface is flat and free of debris."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

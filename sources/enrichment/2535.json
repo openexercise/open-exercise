@@ -1,0 +1,144 @@
+{
+  "is_exercise": true,
+  "name": "Isometric Leg Extension",
+  "summary": "An isometric isolation exercise where the quadriceps contract against fixed resistance without movement at the knee joint.",
+  "aliases": [
+    {
+      "text": "Leg Extension Isometric Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Leg Extension Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Isometric Quad Extension",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "isolation-knee-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "range": "pause",
+  "muscles": [
+    {
+      "muscle": "rectus-femoris",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "vastus-lateralis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "vastus-medialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "vastus-intermedius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit on the leg extension machine with your back firmly against the backrest.",
+      "Align your knee joints with the machine's axis of rotation.",
+      "Position the shin pad across the lower shins just above the ankles, and grip the side handles firmly."
+    ],
+    "steps": [
+      "Extend your knees to the prescribed joint angle (commonly 45 to 60 degrees of flexion).",
+      "Hold this fixed position under tension against the resistance for the targeted duration.",
+      "Maintain steady quadriceps contraction without letting your hips lift or the weight drop.",
+      "Carefully lower the weight back to the starting rest position under control once the hold is complete."
+    ],
+    "breathing": "Breathe continuously and evenly throughout the hold; avoid holding your breath.",
+    "cues": [
+      "Lock your hips down into the seat",
+      "Squeeze your quads hard",
+      "Stay motionless at the target angle"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the pelvis and lower back off the seat to leverage body weight.",
+        "correction": "Grip the machine handles firmly to anchor your hips firmly into the cushion throughout the hold."
+      },
+      {
+        "fault": "Holding breath and bearing down during the contraction.",
+        "correction": "Maintain rhythmic, controlled diaphragmatic breathing for the duration of the set."
+      },
+      {
+        "fault": "Allowing the leg position to drift downward as fatigue sets in.",
+        "correction": "Hold a steady target joint angle; terminate the set when you can no longer maintain the required angle."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If using for patellar tendon rehabilitation, perform holds at mid-range angles (typically 45-60 degrees of knee flexion) rather than full terminal extension to reduce patellofemoral joint stress."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

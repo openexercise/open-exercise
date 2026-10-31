@@ -1,0 +1,205 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Utthita Balasana",
+      "kind": "common"
+    },
+    {
+      "text": "Child's Pose with Arms Extended",
+      "kind": "common"
+    },
+    {
+      "text": "Extended Arm Child's Pose",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stretched"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "stretched"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "abduction"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility",
+      "yoga"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "not-applicable",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat",
+      "yoga-block"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "2652"
+  },
+  "id": "oec:extended-child-s-pose",
+  "instructions": {
+    "setup": [
+      "Kneel on an exercise mat with your knees set wider than hip-width apart and your big toes touching.",
+      "Sit back so your glutes rest on or near your heels."
+    ],
+    "steps": [
+      "Hinge at the hips and walk your hands straight out in front of you along the floor.",
+      "Lower your torso between your thighs until your forehead rests comfortably on the mat or a block.",
+      "Extend your arms fully, pressing your palms into the floor while simultaneously sinking your hips back toward your heels.",
+      "Hold the position for the prescribed duration while maintaining slow, relaxed breathing.",
+      "To exit, slowly walk your hands back toward your knees and sit upright."
+    ],
+    "breathing": "Breathe deeply and smoothly into the back and sides of your ribcage, using each exhale to sink deeper into the hips and shoulders.",
+    "cues": [
+      "Crawl the fingertips forward",
+      "Sink hips toward heels",
+      "Let the chest melt to the floor",
+      "Relax the neck"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively lifting the hips off the heels to reach farther forward.",
+        "correction": "Prioritize anchoring your hips down toward your heels rather than overreaching with your hands."
+      },
+      {
+        "fault": "Shrugging the shoulders up into the ears with excessive muscular tension.",
+        "correction": "Keep space between your shoulders and ears while allowing the upper back and lats to passively lengthen."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you experience knee or ankle pain from deep flexion, place a rolled towel behind the knees or under the tops of the feet for support."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Extended Child's Pose",
+  "previous_ids": [
+    "oec:extended-arm-child-s-pose"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Extended Arm Child's Pose",
+        "url": "https://wger.de/en/exercise/2652/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "kneeling",
+    "stance": {
+      "kind": "parallel",
+      "width": "wide"
+    }
+  },
+  "status": "active",
+  "summary": "A resting yoga stretch performed from kneeling with the hips back toward the heels and arms reaching forward to decompress the spine, shoulders, and hips."
+}

@@ -1,0 +1,174 @@
+{
+  "is_exercise": true,
+  "name": "Incline Dumbbell Overhead Press",
+  "summary": "An overhead pressing variation performed seated on an incline bench that targets the anterior deltoids, upper chest, and triceps.",
+  "aliases": [
+    {
+      "text": "Incline OHP DB",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Incline Dumbbell Shoulder Press",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Incline Overhead Press",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Incline Shoulder Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "incline_degrees": 45,
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "overhead",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-lateral",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rotator-cuff",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "adjustable-bench"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an incline (around 45 to 60 degrees).",
+      "Sit back firmly against the pad with feet flat on the floor.",
+      "Bring the dumbbells to shoulder height, with elbows angled forward at roughly 45 degrees in the scapular plane and palms facing forward or slightly inward."
+    ],
+    "steps": [
+      "Press the dumbbells upward along a natural arc until your arms are fully extended overhead without clanging the weights together.",
+      "Lower the dumbbells in a controlled motion until your upper arms are approximately parallel to your shoulders or you feel a comfortable stretch in your deltoids.",
+      "Pause briefly at the bottom before initiating the next repetition."
+    ],
+    "breathing": "Inhale as you lower the dumbbells to shoulder level, and exhale forcefully as you press them overhead.",
+    "cues": [
+      "Press up and slightly back.",
+      "Keep elbows tucked slightly inside the shoulders.",
+      "Drive your feet into the floor."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbows straight out to the sides.",
+        "correction": "Tuck the elbows roughly 30 to 45 degrees into the scapular plane to protect the shoulder joints."
+      },
+      {
+        "fault": "Excessively arching the lower back off the bench.",
+        "correction": "Brace your core and keep your lower back flush against the back support."
+      },
+      {
+        "fault": "Banging the dumbbells together at lockout.",
+        "correction": "Press in a smooth upward path and stop just before the weights touch."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not drop heavy dumbbells from the top position; bring them back to your knees before standing up."
+      ],
+      "spotter": "recommended",
+      "safeties": false
+    }
+  }
+}

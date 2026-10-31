@@ -1,0 +1,166 @@
+{
+  "is_exercise": true,
+  "name": "Pike Push-Up",
+  "summary": "A bodyweight pressing exercise performed in an inverted V-position that targets the shoulders and triceps.",
+  "aliases": [
+    {
+      "text": "V-Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "V Pushup",
+      "kind": "common"
+    },
+    {
+      "text": "Inverted V Push-Up",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "inverted",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation",
+        "protraction"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Start in a push-up position with hands flat on the floor slightly wider than shoulder-width.",
+      "Walk your feet forward toward your hands while driving your hips up into the air, creating an inverted V-shape with your body.",
+      "Distribute your weight onto the balls of your feet and your palms, maintaining a neutral spine and straight legs."
+    ],
+    "steps": [
+      "Lower the crown of your head diagonally forward toward the floor by bending your elbows.",
+      "Descend until your head gently hovers just above or taps the floor slightly in front of your hands, forming a tripod shape.",
+      "Press firmly through your palms to push yourself upward and backward.",
+      "Extend your arms fully to return to the apex of the inverted V-position."
+    ],
+    "breathing": "Inhale as you lower your head toward the floor, and exhale forcefully as you press back up to the starting position.",
+    "cues": [
+      "Form a tripod with your head and hands at the bottom",
+      "Keep hips high and pike sharp throughout",
+      "Push your head through the window at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring elbows directly out to the sides.",
+        "correction": "Tuck elbows inward at roughly a 45-degree angle to the torso to protect the shoulder joint."
+      },
+      {
+        "fault": "Dropping hips into a standard push-up plane during the movement.",
+        "correction": "Keep your hips high and fixed in the pike position so the pressing angle remains overhead."
+      },
+      {
+        "fault": "Lowering the head straight down between the hands instead of forward.",
+        "correction": "Shift your shoulders forward during the descent so your head lands in front of your hands in a tripod pattern."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid placing excessive direct pressure on the crown of the head upon touching the floor.",
+        "Ensure wrists are sufficiently warmed up before loading them in this inverted angle."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

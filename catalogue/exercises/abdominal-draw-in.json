@@ -1,0 +1,185 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Abdominal Drawing-In Maneuver",
+      "kind": "common"
+    },
+    {
+      "text": "ADIM",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Transverse Abdominis Activation",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Stomach Vacuum",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "transversus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "multifidus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "strength",
+      "pilates"
+    ],
+    "movement_patterns": [
+      "anti-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "not-applicable",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1828"
+  },
+  "id": "oec:abdominal-draw-in",
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a comfortable surface with your knees bent and feet flat on the floor, hip-width apart.",
+      "Rest your arms comfortably at your sides, or place your fingertips just inside your hip bones to feel the deep abdominal muscles contract.",
+      "Establish a neutral spine position with a slight, natural arch in your lower back."
+    ],
+    "steps": [
+      "Take a relaxed breath in to prepare.",
+      "Gently draw your navel inward toward your spine without flattening your lower back completely against the floor or tilting your pelvis.",
+      "Hold the contraction while continuing to breathe shallowly and smoothly.",
+      "Slowly release the tension and relax the abdominal wall before beginning the next hold."
+    ],
+    "breathing": "Breathe continuously and evenly throughout the hold; do not hold your breath to maintain tension.",
+    "cues": [
+      "Draw the belly button toward the spine",
+      "Keep the pelvis completely still",
+      "Breathe through the hold",
+      "Narrow your waistline"
+    ],
+    "common_faults": [
+      {
+        "fault": "Flattening the lower back by forcefully tucking the pelvis into a posterior tilt.",
+        "correction": "Maintain a quiet, neutral pelvis throughout; the movement should come from drawing the abdominal wall inward, not moving the spine."
+      },
+      {
+        "fault": "Holding breath (Valsalva maneuver) instead of isolating the muscle.",
+        "correction": "Practice taking gentle, rhythmic breaths into the ribs while keeping the lower abdomen drawn inward."
+      },
+      {
+        "fault": "Overactivating the superficial rectus abdominis or bracing outward.",
+        "correction": "Focus on a subtle inward drawing sensation rather than a hard bearing-down or crunching motion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure no pain or discomfort is felt in the lower back or neck; avoid performing with excessive force."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Abdominal Draw-In",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Abdominal Draw-In",
+        "url": "https://wger.de/en/exercise/1828/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "beagle"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:abdominal-bracing"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:dead-bug"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:supine-toe-tap"
+    }
+  ],
+  "setup": {
+    "position": "supine",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A foundational core stability exercise targeting the transversus abdominis by drawing the navel toward the spine from a hook-lying position."
+}

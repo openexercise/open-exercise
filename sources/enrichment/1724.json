@@ -1,0 +1,150 @@
+{
+  "is_exercise": true,
+  "name": "Cable Hip Adduction",
+  "summary": "A standing isolation exercise that targets the inner thigh adductor muscles using cable resistance attached to the ankle.",
+  "aliases": [
+    {
+      "text": "Standing Cable Hip Adduction",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Adduction",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Adduction (Cable)",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "isolation-hip-adduction"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_kind": "single-leg",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "adductor-longus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gracilis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectineus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "adductor-brevis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "adduction"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    },
+    {
+      "any_of": [
+        "strap"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach an ankle cuff to a low pulley cable and secure it around the ankle closest to the machine.",
+      "Step away slightly so there is tension on the cable, standing upright with the working leg slightly abducted.",
+      "Grip the cable machine frame with your hand for balance, keeping your torso tall and hips square."
+    ],
+    "steps": [
+      "Pull your cuffed leg smoothly across the midline of your body and in front of the supporting leg.",
+      "Pause momentarily at the point of peak adduction, squeezing the inner thigh.",
+      "Slowly return the working leg to the starting position under control, resisting the cable tension."
+    ],
+    "breathing": "Exhale as you adduct the leg across your body; inhale as you slowly return to the starting position.",
+    "cues": [
+      "Pull from the inner thigh",
+      "Keep your hips square",
+      "Stand tall and avoid leaning"
+    ],
+    "common_faults": [
+      {
+        "fault": "Leaning the torso to generate momentum.",
+        "correction": "Keep the spine upright and brace the core so movement occurs strictly at the hip joint."
+      },
+      {
+        "fault": "Swinging the leg ballistically.",
+        "correction": "Perform the movement smoothly with a controlled eccentric return."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Hold onto the cable upright to maintain steady balance throughout the set."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

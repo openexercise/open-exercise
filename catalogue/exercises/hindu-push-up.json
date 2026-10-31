@@ -1,0 +1,218 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Dand",
+      "kind": "regional"
+    },
+    {
+      "text": "Hindu Pushup",
+      "kind": "common"
+    },
+    {
+      "text": "Dive Bomber Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Hindu Pushups",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "extension",
+          "horizontal-adduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "upward-rotation",
+          "depression"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1080"
+  },
+  "id": "oec:hindu-push-up",
+  "instructions": {
+    "setup": [
+      "Place your hands shoulder-width apart on the floor and step your feet back wider than hip-width.",
+      "Push your hips up and back into an inverted V-shape, keeping your arms and legs relatively straight and head neutral between your arms."
+    ],
+    "steps": [
+      "Bend your elbows and lower your chest toward the floor in a sweeping forward arc, skimming just above the ground between your hands.",
+      "Press through your palms to extend your arms, driving your chest forward and upward into an extended posture with hips low.",
+      "Push back directly through your shoulders and hips to return smoothly to the initial inverted V-position."
+    ],
+    "breathing": "Inhale as you swoop down and scoop the chest forward; exhale as you push up into spinal extension and press your hips back to the start.",
+    "cues": [
+      "Dive under a low fence and press tall.",
+      "Keep the swooping motion fluid and controlled.",
+      "Do not let the lower back collapse without abdominal support."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring elbows excessively wide during the swoop.",
+        "correction": "Keep elbows tracking back at approximately a 45-degree angle to protect the shoulders."
+      },
+      {
+        "fault": "Hyperextending the lumbar spine passively instead of actively extending through the whole back.",
+        "correction": "Engage the glutes and abdominals as the hips drop so the extension is shared across the entire thoracic spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Requires adequate shoulder mobility and spinal extension; avoid aggressive arching if prone to low-back or shoulder impingement symptoms."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Hindu Push-Up",
+  "previous_ids": [
+    "oec:hindu-pushups"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Hindu Pushups",
+        "url": "https://wger.de/en/exercise/1080/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Imobard"
+      }
+    ]
+  },
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "prone",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A dynamic bodyweight pushing variation that swoops the torso from an inverted V-position down through a low push-up and up into a spinal extension."
+}

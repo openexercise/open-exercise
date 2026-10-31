@@ -1,0 +1,160 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Drop Curl",
+  "summary": "An alternating biceps curl variation where both dumbbells begin contracted at the top, and one arm lowers and curls while the opposite arm maintains an isometric hold.",
+  "aliases": [
+    {
+      "text": "Drop Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Curl with Isometric Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Alternating Dumbbell Curl with Isometric Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Isometric Hold Dumbbell Biceps Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "supinated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "chest",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "supination",
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart holding a dumbbell in each hand.",
+      "Curl both dumbbells up to chest height into full contraction, elbows pinned close to your sides.",
+      "Brace your core and maintain a supinated grip on both dumbbells."
+    ],
+    "steps": [
+      "Keep one arm locked in the contracted top position.",
+      "Lower the working dumbbell under control until your arm is fully extended.",
+      "Curl the weight smoothly back up to the top contracted position.",
+      "Hold that side at the top and immediately repeat the lowering and curling movement with the opposite arm.",
+      "Continue alternating arms for the prescribed number of repetitions per side."
+    ],
+    "breathing": "Inhale as you lower one dumbbell, and exhale forcefully as you curl it back up to meet the holding arm.",
+    "cues": [
+      "Freeze the holding arm",
+      "Lower with control",
+      "Keep elbows pinned"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the non-working arm to drift downward during the set.",
+        "correction": "Actively squeeze the biceps of the static arm to keep the dumbbell firmly at chest height."
+      },
+      {
+        "fault": "Swinging the torso to lift the working dumbbell.",
+        "correction": "Keep your glutes and core tight to eliminate any momentum from the hips or lower back."
+      },
+      {
+        "fault": "Flaring the elbows outward.",
+        "correction": "Keep your upper arms tucked alongside your ribs throughout both the dynamic and isometric phases."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Choose a lighter load than standard curls, as the continuous isometric tension increases fatigue rapidly."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

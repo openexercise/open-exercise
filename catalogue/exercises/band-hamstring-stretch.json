@@ -1,0 +1,175 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Lying Hamstring Stretch with Band",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Band Hamstring Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Resistance Band Hamstring Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "hamstrings",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "stretched"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "resistance-band",
+        "strap"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1870"
+  },
+  "id": "oec:band-hamstring-stretch",
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a mat with your legs extended.",
+      "Loop the center of a resistance band or strap around the ball of one foot.",
+      "Grasp both ends of the band firmly with your hands, keeping your elbows resting near the floor."
+    ],
+    "steps": [
+      "Gently pull on the band to raise the leg upward toward the ceiling, keeping the knee extended or with a slight micro-bend.",
+      "Continue elevating the leg until you feel a comfortable stretch along the back of the thigh and calf without lifting your hips off the floor.",
+      "Keep the opposite leg resting flat on the ground or bend that knee with the foot flat if you feel strain in your lower back.",
+      "Hold the position statically for the target duration, then slowly lower the leg under control and switch sides."
+    ],
+    "breathing": "Breathe deeply and rhythmically, exhaling to encourage muscle relaxation as you settle into the stretch.",
+    "cues": [
+      "Keep your tailbone pinned to the mat.",
+      "Reach long through your heel.",
+      "Relax your neck and shoulders."
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the pelvis or lower back off the floor to pull the leg closer.",
+        "correction": "Keep both hips firmly grounded on the floor and only raise the leg as far as hamstring flexibility allows."
+      },
+      {
+        "fault": "Forcibly locking the knee into hyperextension.",
+        "correction": "Maintain a soft micro-bend in the knee to place tension across the muscle belly rather than stressing the posterior joint capsule."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid aggressive tugging on the band; stretch only to the point of mild tension, never sharp or tingling nerve pain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Band Hamstring Stretch",
+  "previous_ids": [
+    "oec:lying-hamstring-stretch-with-band"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Lying Hamstring Stretch with Band",
+        "url": "https://wger.de/en/exercise/1870/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Davidgj32"
+      }
+    ]
+  },
+  "setup": {
+    "position": "supine",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A supine stretch targeting the hamstrings and calves by using a resistance band looped around the foot to gently assist hip flexion."
+}

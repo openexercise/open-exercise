@@ -1,0 +1,153 @@
+{
+  "is_exercise": true,
+  "name": "Machine Chest Fly",
+  "summary": "A seated machine exercise that isolates the pectoralis major through horizontal adduction of the arms against guided resistance.",
+  "aliases": [
+    {
+      "text": "Pec Deck Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Pec Deck",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Machine Fly",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-chest-fly"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "neutral",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "coracobrachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-short-head",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so the handles or pads align with mid-to-lower chest level.",
+      "Sit back firmly against the pad with feet flat on the floor.",
+      "Grasp the handles or position forearms against the pads, maintaining a slight, fixed bend in your elbows."
+    ],
+    "steps": [
+      "Contract your chest to bring your hands together in an arc in front of your sternum.",
+      "Squeeze the chest muscles firmly at peak contraction for a brief pause.",
+      "Control the handles backward along the same arc until you feel a comfortable stretch across the pectorals."
+    ],
+    "breathing": "Exhale as you bring the handles together; inhale as you slowly return to the stretched starting position.",
+    "cues": [
+      "Hug a wide barrel",
+      "Lead with your inner elbows",
+      "Keep shoulders pinned back into the pad"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the shoulders to shrug or roll forward at peak contraction.",
+        "correction": "Keep your shoulder blades retracted and depressed against the backrest throughout the rep."
+      },
+      {
+        "fault": "Bending and extending the elbows excessively, turning the movement into a press.",
+        "correction": "Maintain a soft, locked elbow angle throughout the entire range of motion."
+      },
+      {
+        "fault": "Overstretching the shoulder joint by allowing the arms to travel too far back.",
+        "correction": "Adjust the machine's starting range of motion so your elbows do not travel past the plane of your torso."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use the machine's foot-release pedal if available to safely get into and out of the starting position."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

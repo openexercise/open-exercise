@@ -1,0 +1,174 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Seal Row",
+  "summary": "A chest-supported horizontal barbell row performed lying face-down on an elevated bench to isolate the upper back without lower-back strain.",
+  "aliases": [
+    {
+      "text": "Seal Row",
+      "kind": "common"
+    },
+    {
+      "text": "Bench Pull",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Barbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Barbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Rowing, Lying on Bench",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "prone",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set up a dedicated seal row bench or elevate a flat bench securely on stable blocks or pins within a rack.",
+      "Place a loaded barbell underneath the bench directly beneath your chest.",
+      "Lie face down on the bench with your forehead or chin near the edge and your torso fully supported.",
+      "Reach down and grasp the barbell with a pronated grip, slightly wider than shoulder width."
+    ],
+    "steps": [
+      "Engage your upper back and take the slack out of the bar, keeping your neck in a neutral alignment.",
+      "Pull the bar vertically upward by driving your elbows toward the ceiling and retracting your shoulder blades.",
+      "Continue pulling until the barbell lightly touches the underside of the bench.",
+      "Pause momentarily at the top to maximally contract your back muscles.",
+      "Lower the barbell under control back to a full dead hang with elbows extended."
+    ],
+    "breathing": "Inhale before initiating the pull, hold your breath during the initial effort, and exhale as you lower the barbell back to the starting hang.",
+    "cues": [
+      "Lead with the elbows.",
+      "Pinch your shoulder blades around the bench.",
+      "Keep your chest glued to the pad."
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the chest or hyperextending the lower back off the bench to gain momentum.",
+        "correction": "Keep your sternum pressed firmly into the bench throughout the entire repetition."
+      },
+      {
+        "fault": "Cutting the range of motion short at the top or bottom.",
+        "correction": "Ensure the bar reaches the underside of the bench and return to a full hang with extended arms on every rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the bench elevation is completely stable and cannot tip or slide when loaded."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

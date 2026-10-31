@@ -1,0 +1,236 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Stiff-Legged Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "Stiff Leg Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "SLDL",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Stiff-Legged Deadlifts",
+      "kind": "common"
+    },
+    {
+      "text": "stiff legged deadlift",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "hamstrings",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "trapezius",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "strap",
+      "weight-plate"
+    ],
+    "required": [
+      [
+        "barbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "627"
+  },
+  "id": "oec:barbell-stiff-leg-deadlift",
+  "instructions": {
+    "setup": [
+      "Stand with feet hip-width apart and the barbell over mid-foot.",
+      "Hinge at the hips with minimal knee bend and grip the bar just outside your shins using a double-overhand or mixed grip.",
+      "Flatten your back, engage your lats to pull the slack out of the bar, and keep your hips set higher than in a conventional deadlift."
+    ],
+    "steps": [
+      "Drive your feet through the floor and push your hips forward while maintaining a fixed, slight bend in the knees.",
+      "Extend your hips fully at the top of the lift without hyperextending the lower back.",
+      "Lower the bar under control by pushing your hips backward, keeping the barbell close to your legs until the plates touch the floor or you reach full hamstring stretch.",
+      "Reset your tension briefly on the floor before starting the next repetition."
+    ],
+    "breathing": "Inhale and brace your core at the bottom before pulling, hold your breath through the hardest portion, and exhale near the top of the repetition.",
+    "cues": [
+      "Push the floor away.",
+      "Hips back, knees soft but fixed.",
+      "Keep the bar tight to your shins.",
+      "Squeeze your glutes to finish."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding the lumbar spine to reach the floor.",
+        "correction": "Only hinge as far as hamstring flexibility allows while maintaining a neutral, braced spine."
+      },
+      {
+        "fault": "Squatting the weight up by excessively bending the knees.",
+        "correction": "Keep your knees fixed at a high angle throughout the movement to keep tension primarily on the hamstrings."
+      },
+      {
+        "fault": "Letting the barbell drift forward away from the body.",
+        "correction": "Engage your lats to keep the bar tracking directly over mid-foot against your shins and thighs."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forcefully locking out the knees into hyperextension under load.",
+        "Maintain spinal neutrality and abandon the repetition if lower back form breaks down."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "rir",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Stiff-Leg Deadlift",
+  "previous_ids": [
+    "oec:stiff-legged-deadlifts"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Stiff-legged Deadlifts",
+        "url": "https://wger.de/en/exercise/627/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "tuckerm"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-deadlift"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-romanian-deadlift"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A hip-hinge deadlift variation performed with relatively straight knees and elevated hips to heavily target the hamstrings and posterior chain."
+}

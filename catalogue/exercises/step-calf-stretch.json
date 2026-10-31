@@ -1,0 +1,177 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Heel Drop Calf Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Calf Stretch off a Step",
+      "kind": "common"
+    },
+    {
+      "text": "Stair Calf Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gastrocnemius",
+        "role": "stretched"
+      },
+      {
+        "muscle": "soleus",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "subtalar",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "isolation-ankle"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "wall"
+    ],
+    "required": [
+      [
+        "step",
+        "plyo-box",
+        "weight-plate"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2666"
+  },
+  "id": "oec:step-calf-stretch",
+  "instructions": {
+    "setup": [
+      "Place the ball of one foot securely on the edge of a step, sturdy box, or raised plate.",
+      "Lightly hold onto a railing, wall, or upright structure for balance.",
+      "Keep the non-working foot resting on the step or hanging free with minimal weight."
+    ],
+    "steps": [
+      "Keep the working knee extended (straight but not hyperextended) to emphasize the gastrocnemius.",
+      "Slowly lower the heel downward off the edge of the step until a gentle to moderate stretch is felt along the back of the lower leg.",
+      "Hold the position smoothly without bouncing for the intended duration.",
+      "Step back up to neutral and repeat on the opposite leg."
+    ],
+    "breathing": "Breathe slowly and rhythmically throughout the hold, exhaling into a slightly deeper stretch as tension releases.",
+    "cues": [
+      "Heavy heel sinking straight down",
+      "Keep the ankle tracking straight",
+      "Maintain a tall, upright posture"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bouncing or pulsing at the bottom of the stretch.",
+        "correction": "Hold a steady, static position to prevent invoking the stretch reflex and straining the Achilles tendon."
+      },
+      {
+        "fault": "Letting the ankle collapse inward (excessive pronation).",
+        "correction": "Keep the weight evenly distributed across the ball of the foot and drop the heel straight down."
+      },
+      {
+        "fault": "Bending the knee when attempting to stretch the upper calf.",
+        "correction": "Keep the knee extended to target the gastrocnemius; only bend the knee if deliberately targeting the deeper soleus muscle."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the step or box is completely stable and slip-resistant before placing weight onto it.",
+        "Maintain light hand contact with a solid surface to eliminate balance loss."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Step Calf Stretch",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Step Calf Stretch",
+        "url": "https://wger.de/en/exercise/2666/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "trs1800"
+      }
+    ]
+  },
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "single-leg",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A static lower-leg flexibility exercise performed by lowering the heel off the edge of a raised surface to lengthen the calf muscles."
+}

@@ -1,0 +1,194 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Crossbody Leg Swings",
+      "kind": "common"
+    },
+    {
+      "text": "Side-to-Side Leg Swing",
+      "kind": "common"
+    },
+    {
+      "text": "Frontal Plane Leg Swing",
+      "kind": "common"
+    },
+    {
+      "text": "Lateral Leg Swings",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-medius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductors",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "tensor-fasciae-latae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-minimus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "abduction",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "swing"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "wall"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1395"
+  },
+  "id": "oec:lateral-leg-swing",
+  "instructions": {
+    "setup": [
+      "Stand tall facing a sturdy wall, rail, or support at roughly arm's length.",
+      "Place both hands lightly on the support for balance and shift your weight onto one support leg, keeping a soft bend in the knee."
+    ],
+    "steps": [
+      "Swing the working leg across the front of your body toward the opposite side in a smooth, controlled arc.",
+      "Allow the leg to reverse momentum and swing outward to the same side into hip abduction.",
+      "Continue swinging rhythmically back and forth, gradually increasing range of motion as the hip loosens up.",
+      "Complete the desired repetitions, then switch legs."
+    ],
+    "breathing": "Breathe continuously and rhythmically throughout the movement without holding your breath.",
+    "cues": [
+      "Keep your torso tall and facing forward.",
+      "Move from the hip, not the lower back.",
+      "Start with small swings and build range naturally."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive lateral torso tilting or side-bending to create false range.",
+        "correction": "Brace the core and keep the shoulders level; limit the swing to the range your hip can achieve."
+      },
+      {
+        "fault": "Over-rotating the pelvis and torso during the swing.",
+        "correction": "Keep both hips squared forward toward your support throughout."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid violently forcing the leg beyond comfortable active range to protect the adductors and hip joint."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Lateral Leg Swing",
+  "previous_ids": [
+    "oec:crossbody-leg-swings"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Crossbody Leg Swings",
+        "url": "https://wger.de/en/exercise/1395/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "captive0592"
+      }
+    ]
+  },
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "single-leg"
+    }
+  },
+  "status": "active",
+  "summary": "A dynamic mobility exercise where one leg swings across the midline and out to the side to mobilize the hips, adductors, and abductors."
+}

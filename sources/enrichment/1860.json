@@ -1,0 +1,136 @@
+{
+  "is_exercise": true,
+  "name": "Foam Rolling Adductor",
+  "summary": "A self-myofascial release technique using a foam roller to alleviate tension across the inner thigh musculature.",
+  "aliases": [
+    {
+      "text": "Foam Roller Adductors",
+      "kind": "common"
+    },
+    {
+      "text": "Adductor Foam Rolling",
+      "kind": "common"
+    },
+    {
+      "text": "Inner Thigh Foam Rolling",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "not-applicable",
+    "force": "not-applicable",
+    "kinetic_chain": "not-applicable",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "muscles": [
+    {
+      "muscle": "adductors",
+      "role": "stretched"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "abduction",
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "foam-roller"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "load_convention": "not-applicable",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie face down on an exercise mat supported on your forearms in a low plank position.",
+      "Place a foam roller parallel to your torso on one side.",
+      "Abduct the target leg to roughly 90 degrees and rest the inner thigh on top of the foam roller just above the knee."
+    ],
+    "steps": [
+      "Shift your weight onto the roller while maintaining abdominal tension to keep your spine neutral.",
+      "Slowly roll your body sideways to move the roller along your inner thigh toward your groin.",
+      "Pause and hold pressure on any particularly tender or tight trigger points for 20 to 30 seconds.",
+      "Slowly roll back down toward the top of the knee, stopping just before the knee joint.",
+      "Repeat for the desired duration, then switch to the opposite leg."
+    ],
+    "breathing": "Breathe smoothly and deeply, exhaling slowly when holding pressure on tender spots.",
+    "cues": [
+      "Keep your core braced to avoid sagging the lower back.",
+      "Relax the working leg so the roller can penetrate the muscle.",
+      "Stop before rolling onto the knee joint or pubic bone."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive lumbar extension and pelvis sagging toward the floor.",
+        "correction": "Brace your core and stay actively pressed through your forearms to maintain a neutral spine."
+      },
+      {
+        "fault": "Rolling too rapidly over tight areas.",
+        "correction": "Move slowly and deliberately, pausing on tender spots to allow tissue relaxation."
+      },
+      {
+        "fault": "Tensing the target leg muscles against the pressure.",
+        "correction": "Let the working thigh stay as relaxed as possible while using your arms and non-working leg to modulate body weight."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid applying direct pressure over the knee joint, pubic bone, or femoral artery in the deep groin."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

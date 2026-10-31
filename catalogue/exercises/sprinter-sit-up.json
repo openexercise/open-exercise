@@ -1,0 +1,211 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Splinter Sit-ups",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Sprinter Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Runner's Sit-Up",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "obliques",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion",
+          "rotation"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "flexion",
+          "rotation"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "spinal-flexion",
+      "rotation"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "607"
+  },
+  "id": "oec:sprinter-sit-up",
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on an exercise mat with legs extended straight.",
+      "Bend your elbows to 90 degrees with your forearms pointing upward, mimicking a running arm carriage."
+    ],
+    "steps": [
+      "Brace your core and forcefully sit up, rolling through your spine.",
+      "Simultaneously drive one knee toward your chest while driving the opposite elbow forward, mimicking a sprinter's stride.",
+      "Pause momentarily at the top with your chest tall and core fully engaged.",
+      "Lower your torso and leg under control back to the starting position.",
+      "Immediately repeat the movement on the opposite side, alternating sides with each repetition."
+    ],
+    "breathing": "Exhale forcefully as you sit up and drive the knee, and inhale smoothly as you lower back down.",
+    "cues": [
+      "Drive the opposite knee and elbow together.",
+      "Roll up through the spine rather than flinging your neck.",
+      "Control the descent back to the floor."
+    ],
+    "common_faults": [
+      {
+        "fault": "Using excessive momentum or yanking the neck forward.",
+        "correction": "Initiate the movement by contracting the abdominals and curling the ribcage toward the pelvis."
+      },
+      {
+        "fault": "Crashing down onto the lower back during the eccentric phase.",
+        "correction": "Resist gravity and unroll your spine vertebrae-by-vertebra back onto the floor."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid this exercise if you have acute lower back pain exacerbated by combined spinal flexion and rotation."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Sprinter Sit-Up",
+  "previous_ids": [
+    "oec:splinter-sit-ups"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Splinter Sit-ups",
+        "url": "https://wger.de/en/exercise/607/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "djblitzd"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:sit-up"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:sit-up"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:bicycle-crunch"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:twisting-sit-up"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:bicycle-crunch"
+    }
+  ],
+  "setup": {
+    "position": "supine"
+  },
+  "status": "active",
+  "summary": "A dynamic bodyweight core exercise that combines a full sit-up with a running stride motion to target the abdominals, obliques, and hip flexors."
+}

@@ -1,0 +1,272 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Overhead Squat",
+      "kind": "common"
+    },
+    {
+      "text": "OHS",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Barbell OHS",
+      "kind": "abbreviation"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "olympic-weightlifting",
+      "strength",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "advanced"
+  },
+  "equipment": {
+    "optional": [
+      "squat-rack",
+      "power-rack"
+    ],
+    "required": [
+      [
+        "barbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "441"
+  },
+  "id": "oec:barbell-overhead-squat",
+  "instructions": {
+    "setup": [
+      "Grip the barbell using a wide snatch grip and press or jerk it directly overhead.",
+      "Lock out the elbows fully and push up actively against the bar with your shoulders.",
+      "Position your feet shoulder-width apart with toes turned slightly outward and brace your core."
+    ],
+    "steps": [
+      "Descend by breaking at the hips and knees simultaneously while keeping your chest tall and the bar centered over midfoot.",
+      "Squat down until the hip crease descends below the tops of the knees, ensuring elbows remain locked.",
+      "Drive through the whole foot to stand up, pressing actively into the barbell throughout the ascent.",
+      "Return to a fully locked-out standing position before beginning the next repetition."
+    ],
+    "breathing": "Take a deep breath and brace firmly into the abdomen before descending; hold pressure through the turn and exhale once past the sticking point on the ascent.",
+    "cues": [
+      "Push the bar to the ceiling",
+      "Armpits facing forward",
+      "Squat straight down between your ankles"
+    ],
+    "common_faults": [
+      {
+        "fault": "Letting the bar drift forward during the descent.",
+        "correction": "Push up actively into the barbell and maintain thoracic extension to keep the load stacked over midfoot."
+      },
+      {
+        "fault": "Soft or bending elbows under load.",
+        "correction": "Actively lock out the triceps and elevate the shoulder blades continuously."
+      },
+      {
+        "fault": "Collapsing knees inward during the squat.",
+        "correction": "Track your knees in line with your toes and open the hips as you sink into the bottom."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform on a lifting platform using bumper plates so the barbell can be safely dumped forward or backward if balance is lost.",
+        "Never perform with a spotter behind or in front of the lifter."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Overhead Squat",
+  "previous_ids": [
+    "oec:overhead-squat"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Overhead Squat",
+        "url": "https://wger.de/en/exercise/441/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "geraldbaeck"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-back-squat"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:barbell-back-squat"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:barbell-front-squat"
+    },
+    {
+      "type": "part-of",
+      "target": "oec:barbell-snatch"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "snatch"
+    },
+    "load_position": "overhead",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A high-skill compound movement where a barbell is locked out overhead with a wide grip while performing a deep squat."
+}

@@ -1,0 +1,136 @@
+{
+  "is_exercise": true,
+  "name": "Machine Hip Abduction",
+  "summary": "A seated machine exercise that isolates the hip abductors by pushing the thighs outward against resistance.",
+  "aliases": [
+    {
+      "text": "Seated Machine Hip Abduction",
+      "kind": "common"
+    },
+    {
+      "text": "Hip Abductor Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Hip Abduction",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-hip-abduction"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "gluteus-medius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-minimus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "piriformis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "abduction",
+        "horizontal-abduction"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit back firmly against the backrest of the hip abduction machine.",
+      "Adjust the starting lever so the padded leg supports rest against the outside of your knees or thighs at an inward position that provides a comfortable stretch.",
+      "Place your feet flat on the footrests and hold the machine handles for stability."
+    ],
+    "steps": [
+      "Press your thighs outward against the pads in a smooth, controlled motion.",
+      "Open your legs as wide as comfortably possible, contracting your outer hips and glutes at peak abduction.",
+      "Pause briefly at the end range of motion.",
+      "Slowly bring your legs back to the starting position without letting the weight stack slam."
+    ],
+    "breathing": "Exhale as you press your legs outward; inhale as you return to the start position.",
+    "cues": [
+      "Push through the outer knees, not the feet",
+      "Keep your pelvis pinned to the seat",
+      "Control the eccentric return"
+    ],
+    "common_faults": [
+      {
+        "fault": "Using momentum or jerking the weight stack",
+        "correction": "Slow down the repetition tempo and pause briefly at peak contraction."
+      },
+      {
+        "fault": "Lifting the lower back or hips off the seat pad",
+        "correction": "Grip the handles firmly and keep your glutes and lower back pressed against the seat."
+      },
+      {
+        "fault": "Allowing the weight stack to slam between repetitions",
+        "correction": "Maintain muscular tension throughout the eccentric phase and reverse before the weights touch down."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid setting the initial range of motion excessively narrow if it causes groin or hip impingement."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

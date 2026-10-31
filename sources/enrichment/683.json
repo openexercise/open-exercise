@@ -1,0 +1,180 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Power Clean",
+  "summary": "An explosive Olympic weightlifting movement where a barbell is pulled from the floor and received across the shoulders in a partial squat.",
+  "aliases": [
+    {
+      "text": "Power Clean",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "olympic-weightlifting",
+      "power",
+      "strength"
+    ],
+    "movement_patterns": [
+      "olympic-lift",
+      "hinge",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "elevation",
+        "upward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "weight-plate"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand with feet hip-width apart and the barbell over midfoot.",
+      "Hinge at the hips and bend the knees to grip the bar just outside the shins using a pronated or hook grip.",
+      "Flatten the back, pull the chest up, and pull the slack out of the bar with arms fully extended."
+    ],
+    "steps": [
+      "Initiate the first pull by pushing through the floor with your legs, keeping your torso angle constant until the bar clears the knees.",
+      "As the bar reaches mid-thigh, violently extend your hips, knees, and ankles while performing an aggressive shoulder shrug.",
+      "Pull yourself under the bar, shifting your feet slightly wider and rotating your elbows quickly forward and high.",
+      "Receive the bar on the front deltoids in a quarter-to-half squat, keeping the hips above parallel.",
+      "Stand up fully to complete the repetition, then lower or drop the bar safely to the platform."
+    ],
+    "breathing": "Inhale and brace your core before pulling from the floor; exhale forcefully after securing the catch or standing up.",
+    "cues": [
+      "Push the floor away",
+      "Keep the bar close",
+      "Fast elbows on the catch",
+      "Jump and shrug"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling primarily with the arms before full hip extension",
+        "correction": "Keep arms straight like ropes until triple extension is reached, allowing the lower body to generate the upward momentum."
+      },
+      {
+        "fault": "Catching the bar with low, pointing-down elbows",
+        "correction": "Aggressively whip the elbows forward and up to create a solid shelf across the front deltoids."
+      },
+      {
+        "fault": "Letting the bar drift forward away from the body",
+        "correction": "Engage the lats to sweep the bar back toward the thighs during the pull."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use bumper plates on a lifting platform to allow for safe dropping if a lift is missed.",
+        "Ensure sufficient wrist and thoracic mobility for a secure front rack position."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

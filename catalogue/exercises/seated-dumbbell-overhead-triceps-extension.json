@@ -1,0 +1,238 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Seated Triceps Press",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Overhead Dumbbell Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell French Press",
+      "kind": "common"
+    },
+    {
+      "text": "Overhead Dumbbell Triceps Extension",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-long-head",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-lateral-head",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-medial-head",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "anconeus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "bench",
+        "adjustable-bench",
+        "chair"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "549"
+  },
+  "id": "oec:seated-dumbbell-overhead-triceps-extension",
+  "instructions": {
+    "setup": [
+      "Sit upright on a bench, ideally one with a low back support, with your feet planted flat on the floor.",
+      "Safely hoist a dumbbell to your shoulder, then press it overhead using both hands.",
+      "Form a diamond or cup shape with your hands against the underside of the top dumbbell plate, wrapping your thumbs around the handle."
+    ],
+    "steps": [
+      "Keep your upper arms vertical and close to your head.",
+      "Inhale as you bend your elbows, lowering the dumbbell smoothly in an arc behind your head until your forearms pass parallel.",
+      "Pause briefly at the bottom to feel a deep stretch in the triceps.",
+      "Exhale and extend your elbows to press the dumbbell back up to the starting position without locking your elbows harshly."
+    ],
+    "breathing": "Inhale on the descent as the triceps stretch; exhale as you extend your elbows to return to the top.",
+    "cues": [
+      "Keep elbows pointing forward, not flared wide.",
+      "Brace your core to keep your lower back against the pad.",
+      "Move only at the elbow joint."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbows excessively outward during the movement.",
+        "correction": "Tuck the elbows slightly inward and keep upper arms relatively stationary."
+      },
+      {
+        "fault": "Arching the lumbar spine to push the weight up.",
+        "correction": "Engage the abdominals, keep your ribcage down, and firmly support your back against the pad."
+      },
+      {
+        "fault": "Cutting the range of motion short at the bottom.",
+        "correction": "Lower the dumbbell until your elbows reach roughly 90 degrees or slightly deeper to maximize the stretch on the long head."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure a secure grip under the top weight plate before raising the dumbbell over your head.",
+        "Avoid letting the weight drop behind your neck abruptly."
+      ],
+      "spotter": "recommended"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Seated Dumbbell Overhead Triceps Extension",
+  "previous_ids": [
+    "oec:seated-triceps-press"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Seated Triceps Press",
+        "url": "https://wger.de/en/exercise/549/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "richmr2174@gmail.com"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-overhead-triceps-extension"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-overhead-triceps-extension"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:ez-bar-overhead-triceps-extension"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:incline-dumbbell-triceps-extension"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "overhead",
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "An overhead isolation exercise that targets the triceps, emphasizing the long head by stretching it across the flexed shoulder."
+}

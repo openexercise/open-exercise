@@ -1,0 +1,179 @@
+{
+  "is_exercise": true,
+  "name": "Mountain Climber",
+  "summary": "A dynamic bodyweight movement performed from a high plank position, rapidly driving the knees toward the chest to build core stability and cardiovascular endurance.",
+  "aliases": [
+    {
+      "text": "Mountain climbers",
+      "kind": "common"
+    },
+    {
+      "text": "Running planks",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "conditioning",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "anti-extension",
+      "crawl"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "iliopsoas",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "heart-rate",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Place your hands flat on the floor directly beneath your shoulders with fingers spread slightly.",
+      "Extend your legs behind you onto the balls of your feet, establishing a solid high plank position.",
+      "Brace your core, squeeze your glutes, and maintain a straight line from your head to your heels."
+    ],
+    "steps": [
+      "Drive one knee forward toward your chest in a straight line without letting your hips pike upward.",
+      "Quickly switch legs by extending the front leg back while simultaneously driving the opposite knee toward your chest.",
+      "Continue alternating legs in a smooth, rhythmic running motion while keeping your shoulders stacked over your wrists."
+    ],
+    "breathing": "Breathe continuously and rhythmically throughout the set, avoiding holding your breath.",
+    "cues": [
+      "Hands glued under shoulders",
+      "Hips down",
+      "Drive knees to chest",
+      "Pace your rhythm"
+    ],
+    "common_faults": [
+      {
+        "fault": "Piking the hips up into a pike or downward dog position.",
+        "correction": "Keep your core braced and shoulders directly over your wrists to maintain a flat plank profile."
+      },
+      {
+        "fault": "Letting the lower back sag into hyperextension.",
+        "correction": "Engage your abdominal wall and slightly tuck your pelvis to keep the lumbar spine neutral."
+      },
+      {
+        "fault": "Bouncing aggressively off the toes, rocking the upper body forward and back.",
+        "correction": "Isolate the movement to the lower body, keeping the torso and shoulder girdle completely stable."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the floor surface is non-slip so your hands and feet do not slide during dynamic movement."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

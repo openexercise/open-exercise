@@ -1,0 +1,164 @@
+{
+  "is_exercise": true,
+  "name": "Standing Cable Reverse Fly",
+  "summary": "A standing cable isolation exercise that targets the posterior deltoids and upper back musculature through horizontal shoulder abduction.",
+  "aliases": [
+    {
+      "text": "Cable Reverse Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Cable Rear Delt Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Rear Delt Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Rear Delt Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-posterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "infraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-minor",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set both pulleys on a dual-cable column to roughly chest height without attachments, or with single handles attached.",
+      "Stand centered between the pulleys facing the machine.",
+      "Reach across your body to grab the left cable with your right hand and the right cable with your left hand, crossing the cables in front of you.",
+      "Take a step back to create tension on the cables, standing upright with feet hip-width apart and a slight, fixed bend in your elbows."
+    ],
+    "steps": [
+      "Initiate the movement by pulling your arms out and back in a wide arc at chest height.",
+      "Continue opening your arms until your hands are aligned with your shoulders, focusing on squeezing the rear deltoids.",
+      "Pause briefly at peak contraction without arching your lower back.",
+      "Slowly return the cables to the crossed starting position in front of your chest under complete control."
+    ],
+    "breathing": "Exhale as you pull the cables outward; inhale as you control the cables back to the starting position.",
+    "cues": [
+      "Lead with the elbows out wide.",
+      "Keep a soft bend in the elbows throughout the rep.",
+      "Do not shrug your shoulders toward your ears.",
+      "Move the arms, not the torso."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending and extending the elbows to turn the movement into a triceps extension or row.",
+        "correction": "Lock a slight bend in your elbows and maintain that angle throughout the entire repetition."
+      },
+      {
+        "fault": "Using torso momentum or excessively arching the lower back to pull the weight.",
+        "correction": "Brace your core, keep an upright posture, and reduce the weight stack if your torso moves."
+      },
+      {
+        "fault": "Excessive shrugging and upper trapezius dominance.",
+        "correction": "Depress the shoulder blades and pull horizontally directly in line with your shoulders."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not allow the cables to yank your arms across your body into extreme cross-body stretch under heavy load."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

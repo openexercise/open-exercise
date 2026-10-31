@@ -1,0 +1,228 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Dumbbell Bicep Curl to Press",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Biceps Curl to Overhead Press",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Curl to Press",
+      "kind": "common"
+    },
+    {
+      "text": "DB Curl to Press",
+      "kind": "abbreviation"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-lateral",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      },
+      {
+        "joint": "radioulnar",
+        "actions": [
+          "supination",
+          "pronation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "mixed",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1226"
+  },
+  "id": "oec:dumbbell-curl-to-overhead-press",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart holding a dumbbell in each hand at your sides.",
+      "Brace your core and allow your arms to hang naturally with palms facing your torso."
+    ],
+    "steps": [
+      "Curl the dumbbells upward toward shoulder height, supinating your forearms so your palms face inward or backward at the top of the curl.",
+      "Smoothly transition into the press by rotating your hands outward and pressing the dumbbells overhead until your arms are fully extended.",
+      "Lower the dumbbells back to shoulder height under control.",
+      "Reverse the curl by lowering the dumbbells down to your sides in a controlled eccentric tempo."
+    ],
+    "breathing": "Inhale before curling, exhale as you complete the press overhead, and inhale while lowering the weights back down.",
+    "cues": [
+      "Curl, transition, press",
+      "Lock down your ribs",
+      "Control the descent on both phases"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to curl heavy weight.",
+        "correction": "Select a load you can curl strictly without hip momentum or backward lean."
+      },
+      {
+        "fault": "Hyperextending the lower back during the overhead press.",
+        "correction": "Squeeze the glutes and brace the abs to maintain a neutral spine throughout the press."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using momentum to transition between the curl and press to protect the shoulder joint."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Curl to Overhead Press",
+  "previous_ids": [
+    "oec:dumbbell-bicep-curl-to-press"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dumbbell bicep curl to press",
+        "url": "https://wger.de/en/exercise/1226/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Lynn_McIntyre"
+      }
+    ]
+  },
+  "setup": {
+    "grip": {
+      "orientation": "rotating",
+      "width": "shoulder"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A combination movement that curls dumbbells to shoulder level and immediately presses them overhead."
+}

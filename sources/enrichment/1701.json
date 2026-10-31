@@ -1,0 +1,185 @@
+{
+  "is_exercise": true,
+  "name": "Single-Arm Dumbbell Row",
+  "summary": "A unilateral horizontal pulling exercise that builds back strength and lat development while challenging core anti-rotation.",
+  "aliases": [
+    {
+      "text": "One-Arm Dumbbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Row",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm DB Row",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "One-Arm Heavy Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "anti-rotation"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "bent-over",
+  "grip_orientation": "neutral",
+  "stance_kind": "staggered",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "bench"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Place your non-working knee and hand firmly on a flat bench to support your torso, or hinge at the hips with your non-working hand braced against a stable support.",
+      "Ensure your spine is neutral, chest proud, and hips squared to the floor.",
+      "Grip a dumbbell with your working hand using a neutral grip, letting the arm hang fully extended below your shoulder."
+    ],
+    "steps": [
+      "Initiate the pull by retracting your shoulder blade and driving your elbow backward toward your hip.",
+      "Pull the dumbbell smoothly until your upper arm is roughly parallel to your torso, keeping your elbow tucked close to your side.",
+      "Pause briefly at the top to contract your back muscles without twisting through your torso.",
+      "Lower the dumbbell in a controlled arc back to full extension, allowing the scapula to gently protract at the bottom."
+    ],
+    "breathing": "Inhale at the bottom or as you lower the weight, and exhale forcefully as you row the dumbbell toward your hip.",
+    "cues": [
+      "Pull through your elbow, not your hand.",
+      "Drive your elbow toward your pocket.",
+      "Keep your shoulders level and avoid twisting."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive torso rotation to heave the weight up.",
+        "correction": "Keep your chest facing the floor throughout the movement; lighten the load if momentum is required."
+      },
+      {
+        "fault": "Pulling the dumbbell up toward the chest or shoulder instead of the hip.",
+        "correction": "Row in a slight J-curve toward your hip to maximize lat engagement and avoid excessive upper-trap shrugging."
+      },
+      {
+        "fault": "Cutting the range of motion short at the bottom.",
+        "correction": "Allow your arm and shoulder blade to reach full extension at the bottom for a thorough stretch of the lats."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a neutral spine and avoid rounding the lower back while supporting your weight."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

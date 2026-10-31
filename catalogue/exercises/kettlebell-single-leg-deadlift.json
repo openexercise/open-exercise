@@ -1,0 +1,237 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Kettlebell One Legged Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Leg Kettlebell Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "Kettlebell SLDL",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "One-Leg Kettlebell Deadlift",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "foot-intrinsics",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "subtalar",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy",
+      "balance"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "dumbbell"
+    ],
+    "required": [
+      [
+        "kettlebell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1641"
+  },
+  "id": "oec:kettlebell-single-leg-deadlift",
+  "instructions": {
+    "setup": [
+      "Stand tall holding a kettlebell in one hand with an overhand grip.",
+      "Shift your body weight onto the working leg (typically contralateral to the hand holding the weight) and soften the working knee slightly.",
+      "Engage your core and pull your shoulders down and back to keep your spine neutral."
+    ],
+    "steps": [
+      "Hinge at the hips, pushing your hips straight back while allowing your torso to lean forward.",
+      "Extend your free leg straight behind you in line with your torso as a counterweight, keeping the hips square to the floor.",
+      "Lower the kettlebell under control until you feel a moderate stretch in the working hamstring and your torso is near parallel to the floor.",
+      "Drive through the midfoot and heel of the standing leg, extending the hip to return to the tall starting position.",
+      "Squeeze the glute at the top of the rep before beginning the next repetition."
+    ],
+    "breathing": "Inhale and brace your core as you hinge forward; exhale as you drive through your hip to return to the standing position.",
+    "cues": [
+      "Keep the belt buckle facing the floor.",
+      "Reach the back heel straight to the wall behind you.",
+      "Slight bend in the knee, hinge at the hip."
+    ],
+    "common_faults": [
+      {
+        "fault": "Opening or rotating the non-working hip toward the ceiling.",
+        "correction": "Keep the toes of the rear foot pointed directly toward the floor to keep the pelvis level."
+      },
+      {
+        "fault": "Rounding the spine to reach the kettlebell to the floor.",
+        "correction": "Maintain a neutral spine and only lower as far as your hamstring flexibility allows without flexing the lumbar spine."
+      },
+      {
+        "fault": "Excessively bending the standing knee like a squat.",
+        "correction": "Unlock the knee once, then keep that angle fixed while hinging strictly at the hip."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Establish balance with bodyweight or a kickstand stance before loading with heavy weight.",
+        "Clear floor space around you in case of a loss of balance."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Kettlebell Single-Leg Deadlift",
+  "previous_ids": [
+    "oec:kettlebell-one-legged-deadlift"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Kettlebell One Legged Deadlift",
+        "url": "https://wger.de/en/exercise/1641/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "AlucardEvil40"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:single-leg-romanian-deadlift"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-single-leg-deadlift"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:kettlebell-deadlift"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "single-leg"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral hip-hinge variation holding a kettlebell that develops posterior chain strength, balance, and pelvic stability."
+}

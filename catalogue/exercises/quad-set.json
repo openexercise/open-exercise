@@ -1,0 +1,196 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "isometric quad set",
+      "kind": "common"
+    },
+    {
+      "text": "quadriceps setting",
+      "kind": "common"
+    },
+    {
+      "text": "quad sets",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "vastus-medialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "vastus-lateralis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "vastus-intermedius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "prime-mover"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-knee-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "2617"
+  },
+  "id": "oec:quad-set",
+  "instructions": {
+    "setup": [
+      "Sit upright with your back supported or lie flat on your back on a firm, comfortable surface.",
+      "Extend the target leg straight out in front of you with the toes pointing toward the ceiling.",
+      "Keep the other leg comfortably relaxed or bent at the knee."
+    ],
+    "steps": [
+      "Contract the quadriceps muscles on the front of your thigh, pressing the back of your knee down toward the floor.",
+      "Focus on drawing your kneecap upward toward your hip as you sustain the contraction.",
+      "Hold the maximal voluntary contraction for the prescribed duration.",
+      "Gradually release the contraction and relax the thigh fully before starting the next repetition."
+    ],
+    "breathing": "Breathe continuously and evenly throughout the hold; do not hold your breath during the isometric contraction.",
+    "cues": [
+      "Press the back of the knee down",
+      "Pull your kneecap toward your hip",
+      "Squeeze the thigh tight"
+    ],
+    "common_faults": [
+      {
+        "fault": "Holding the breath during the isometric hold",
+        "correction": "Maintain slow, steady breathing throughout each contraction."
+      },
+      {
+        "fault": "Lifting the heel off the floor",
+        "correction": "Keep the heel resting on the surface; focus on pressing the knee downward rather than lifting the leg."
+      },
+      {
+        "fault": "Overusing the gluteal or hamstring muscles instead of the quadriceps",
+        "correction": "Keep your buttocks relaxed and focus entirely on squeezing the muscles on the front of the thigh."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform smoothly without sharp, sudden contractions if recovering from acute knee surgery or injury"
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Quad Set",
+  "previous_ids": [
+    "oec:quad-sets"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Quad Sets",
+        "url": "https://wger.de/en/exercise/2617/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "aboksz"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:band-terminal-knee-extension"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:isometric-leg-extension"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:leg-extension"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:isometric-leg-extension"
+    }
+  ],
+  "setup": {
+    "position": "supine"
+  },
+  "status": "active",
+  "summary": "An isometric knee extension exercise performed seated or supine to activate and strengthen the quadriceps muscles."
+}

@@ -1,0 +1,246 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Sumo Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "Sumo DL",
+      "kind": "abbreviation"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "trapezius",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "fingers",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "powerlifting",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "strap"
+    ],
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "weight-plate"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "630"
+  },
+  "id": "oec:barbell-sumo-deadlift",
+  "instructions": {
+    "setup": [
+      "Stand behind a loaded barbell with feet set wide, toes pointed outward at approximately 30 to 45 degrees.",
+      "Position your shins close to the barbell so it crosses over midfoot.",
+      "Push your knees outward in line with your toes, drop your hips down and forward, and reach straight down inside your knees to grip the bar with arms perpendicular to the floor.",
+      "Engage your lats, pull the slack out of the barbell, and brace your core with your chest proud and spine neutral."
+    ],
+    "steps": [
+      "Drive the floor away by pushing through the whole foot and spreading the floor apart.",
+      "Keep your chest upright and maintain knee alignment over the toes as the bar breaks off the floor.",
+      "As the bar passes the knees, forcefully drive your hips forward into full extension to lock out standing tall.",
+      "Lower the bar under control along the same path by hinging at the hips and bending the knees until the plates touch the floor."
+    ],
+    "breathing": "Take a deep diaphragmatic breath into your belly and brace firmly before initiating the pull, exhaling past lockout or once the bar returns to the floor.",
+    "cues": [
+      "Spread the floor with your feet.",
+      "Pull the slack out before lifting.",
+      "Chest up, hips close to the bar."
+    ],
+    "common_faults": [
+      {
+        "fault": "Knees collapsing inward during the initial drive off the floor.",
+        "correction": "Actively push your knees outward in the direction of your toes before and during the pull."
+      },
+      {
+        "fault": "Hips shooting up first, turning the movement into a stiff-legged conventional deadlift.",
+        "correction": "Wedge your hips closer to the bar at setup, pull chest tall, and push the floor away rather than pulling back with the upper body."
+      },
+      {
+        "fault": "Allowing the barbell to drift away from the shins.",
+        "correction": "Engage your latissimus dorsi to pull the barbell back against the legs throughout the entire range of motion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure standard-diameter plates are used so the starting height is correct.",
+        "Maintain a neutral spine under heavy loads; avoid excessive lumbar flexion or over-extending the lower back at lockout."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Sumo Deadlift",
+  "previous_ids": [
+    "oec:sumo-deadlift"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Sumo Deadlift",
+        "url": "https://wger.de/en/exercise/630/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "magdy"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-deadlift"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-deadlift"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:trap-bar-deadlift"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:dumbbell-sumo-deadlift"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:kettlebell-sumo-deadlift"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "mixed",
+      "width": "shoulder"
+    },
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "sumo"
+    }
+  },
+  "status": "active",
+  "summary": "A wide-stance deadlift variation targeting the glutes, adductors, and quadriceps while allowing a more upright torso posture."
+}

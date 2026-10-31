@@ -1,0 +1,154 @@
+{
+  "is_exercise": true,
+  "name": "Neck Roll",
+  "summary": "A gentle cervical mobility drill moving the head in a controlled circular motion through flexion, lateral flexion, and extension.",
+  "aliases": [
+    {
+      "text": "Neck Circle",
+      "kind": "common"
+    },
+    {
+      "text": "Head Roll",
+      "kind": "common"
+    },
+    {
+      "text": "Counterclockwise Neck Circles",
+      "kind": "common"
+    },
+    {
+      "text": "Clockwise Neck Circles",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "stretch",
+      "isolation-neck"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "sternocleidomastoid",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "splenius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "levator-scapulae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deep-neck-flexors",
+      "role": "synergist"
+    },
+    {
+      "muscle": "upper-cervical-extensors",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "circumduction",
+        "flexion",
+        "extension",
+        "lateral-flexion",
+        "rotation"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit or stand tall with an upright posture and relaxed shoulders.",
+      "Drop your chin smoothly toward your chest to begin in cervical flexion."
+    ],
+    "steps": [
+      "Slowly roll your head toward one shoulder, bringing the ear toward the shoulder without elevating it.",
+      "Continue the smooth circle by gently tilting your head back into mild extension.",
+      "Roll your head across to the opposite shoulder into lateral flexion.",
+      "Bring your chin back down toward the center of your chest to complete one full revolution.",
+      "Complete the target number of revolutions in one direction, then reverse and repeat."
+    ],
+    "breathing": "Breathe continuously and evenly, avoiding holding your breath as the head circles.",
+    "cues": [
+      "Draw large, smooth circles with the crown of your head",
+      "Keep shoulders down and still",
+      "Move smoothly without forcing range"
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulders upward toward the ears",
+        "correction": "Keep your shoulder blades depressed and relaxed throughout the entire movement."
+      },
+      {
+        "fault": "Moving rapidly or with jerking motions",
+        "correction": "Perform the circles in a slow, controlled cadence to safely mobilize the cervical spine."
+      },
+      {
+        "fault": "Aggressively hyperextending the neck backwards",
+        "correction": "Lengthen through the back of the neck and pass through extension gently without compressing the cervical joints."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Stop immediately if you experience dizziness, numbness, tingling, or sharp pain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

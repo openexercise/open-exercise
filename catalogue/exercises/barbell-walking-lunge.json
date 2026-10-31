@@ -1,0 +1,255 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Barbell Lunges Walking",
+      "kind": "common"
+    },
+    {
+      "text": "Walking Barbell Lunge",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "lunge",
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "squat-rack",
+        "power-rack"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "802"
+  },
+  "id": "oec:barbell-walking-lunge",
+  "instructions": {
+    "setup": [
+      "Unrack a barbell from a squat rack across your upper traps, securing it with an overhand grip wider than shoulder-width.",
+      "Step back clear of the rack, stand tall with your feet hip-width apart, and brace your core."
+    ],
+    "steps": [
+      "Take a controlled, exaggerated step forward with one leg, keeping your feet hip-width apart on separate tracks.",
+      "Lower your hips under control until your back knee gently taps or hovers just above the floor and your front thigh is roughly parallel to the ground.",
+      "Drive firmly through the heel and midfoot of the lead leg to extend your hip and knee.",
+      "Bring the trailing foot smoothly forward in one fluid motion into the next step, repeating the lunge on the opposite side."
+    ],
+    "breathing": "Inhale as you step forward and descend, and exhale forcefully as you drive up out of the lunge.",
+    "cues": [
+      "Stay on train tracks, not a tightrope.",
+      "Chest tall and proud.",
+      "Drive through the front heel."
+    ],
+    "common_faults": [
+      {
+        "fault": "Stepping in a straight line as if on a balance beam, causing loss of lateral balance.",
+        "correction": "Keep your stride hip-width apart to create a stable base of support."
+      },
+      {
+        "fault": "Letting the lead knee cave inward (valgus collapse) on the descent or drive.",
+        "correction": "Track your lead knee directly in line with your middle toes throughout the movement."
+      },
+      {
+        "fault": "Banging the trailing knee violently into the floor.",
+        "correction": "Control the eccentric descent and stop when the rear knee gently touches or hovers an inch off the floor."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure an open, non-slip pathway completely free of plates, clips, and other gym equipment before beginning the set.",
+        "Maintain an upright torso to prevent excessive shear on the lumbar spine."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "distance",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Walking Lunge",
+  "previous_ids": [
+    "oec:barbell-lunges-walking"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Barbell Lunges Walking",
+        "url": "https://wger.de/en/exercise/802/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:forward-lunge"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:barbell-forward-lunge"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:dumbbell-walking-lunge"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-forward-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-forward-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-walking-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-reverse-lunge"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "wide"
+    },
+    "load_position": "high-bar",
+    "position": "moving",
+    "range": "full",
+    "stance": {
+      "kind": "split",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A dynamic lower-body compound exercise where you step forward continuously with a barbell across the upper back, challenging leg strength, unilateral stability, and hip extension."
+}

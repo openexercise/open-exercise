@@ -1,0 +1,242 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Bodyweight Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Forward Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Front Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Air Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Bodyweight lunge HD",
+      "kind": "common"
+    },
+    {
+      "text": "Unilateral Lunges",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1324,1907"
+  },
+  "id": "oec:bodyweight-forward-lunge",
+  "instructions": {
+    "setup": [
+      "Stand tall with your feet hip-width apart and your toes pointing forward.",
+      "Place your hands on your hips or clasp them loosely in front of your chest for balance.",
+      "Engage your core and maintain an upright posture with your shoulders back."
+    ],
+    "steps": [
+      "Take a controlled step forward with one leg, keeping your feet aligned with your hips.",
+      "Lower your hips straight down until both knees are bent to approximately 90 degrees and the back knee hovers just above the floor.",
+      "Push firmly through the heel and midfoot of your lead leg to drive back up to the starting position.",
+      "Complete all repetitions on one side before switching, or alternate legs as programmed."
+    ],
+    "breathing": "Inhale as you step forward and lower into the lunge, and exhale forcefully as you press back to the starting position.",
+    "cues": [
+      "Stay on train tracks, not a tightrope.",
+      "Drop straight down rather than leaning forward.",
+      "Keep the front heel glued to the floor."
+    ],
+    "common_faults": [
+      {
+        "fault": "Stepping with feet directly in line, leading to loss of balance.",
+        "correction": "Maintain hip-width spacing between your left and right feet throughout the stride."
+      },
+      {
+        "fault": "Letting the front heel lift off the ground as the knee drifts excessively forward.",
+        "correction": "Take a slightly longer stride and focus on keeping pressure centered over the front midfoot and heel."
+      },
+      {
+        "fault": "Collapsing the front knee inward (valgus collapse) during descent or ascent.",
+        "correction": "Actively track the front kneecap over the second toe throughout the movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forcefully slamming the trailing knee into the floor; lower with control."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Bodyweight Forward Lunge",
+  "previous_ids": [
+    "oec:bodyweight-lunge-hd",
+    "oec:unilateral-lunges"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Bodyweight lunge HD",
+        "url": "https://wger.de/en/exercise/1324/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "hektkaso"
+      },
+      {
+        "title": "wger: Unilateral Lunges",
+        "url": "https://wger.de/en/exercise/1907/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "cybro"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:forward-lunge"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:bodyweight-split-squat"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-forward-lunge"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:kettlebell-forward-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:reverse-lunge"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A foundational lower-body bodyweight exercise that builds unilateral leg strength, hip stability, and balance."
+}

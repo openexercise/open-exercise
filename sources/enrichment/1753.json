@@ -1,0 +1,154 @@
+{
+  "is_exercise": true,
+  "name": "Cable Behind-the-Back Lateral Raise",
+  "summary": "A unilateral shoulder isolation exercise where a low cable passes behind the body to target the lateral deltoid through abduction.",
+  "aliases": [
+    {
+      "text": "Behind-the-Back Cable Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Behind-the-Back Cable Side Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Side lateral raise - Back (Cable)",
+      "kind": "misspelling"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-lateral",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "supraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set the cable pulley to its lowest position and attach a single D-handle or cuff.",
+      "Stand facing away from the weight stack with the pulley directly behind your non-working side.",
+      "Reach behind your back with the working hand to grasp the handle, allowing the cable to cross behind your hips.",
+      "Take a small step forward to clear your glutes and place tension on the cable, keeping an upright posture with a slight soft bend in the working elbow."
+    ],
+    "steps": [
+      "Initiate the movement by raising your working arm out to the side away from your body in the scapular plane.",
+      "Continue raising until your elbow and hand reach approximately shoulder height.",
+      "Pause momentarily at the top to accentuate the contraction in the side deltoid.",
+      "Lower the handle slowly under control along the same path back to the starting position behind your hips."
+    ],
+    "breathing": "Exhale as you raise the arm out to the side; inhale smoothly as you lower the weight back behind you.",
+    "cues": [
+      "Lead with the elbow, not the wrist.",
+      "Reach out toward the walls rather than straight up.",
+      "Keep the torso stationary and resist twisting toward the cable."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso or using momentum to bounce the weight up.",
+        "correction": "Reduce the load, brace the core, and execute the rep with a strict, controlled tempo."
+      },
+      {
+        "fault": "Shrugging excessively with the upper traps before deltoid abduction begins.",
+        "correction": "Keep the shoulder blade depressed at the start and focus on pushing the elbow outward."
+      },
+      {
+        "fault": "Letting the cable drag across clothing or catch on the glutes.",
+        "correction": "Step slightly farther forward so the cable travels freely behind your hips."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid raising the arm excessively above shoulder level if you experience anterior shoulder impingement or pain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

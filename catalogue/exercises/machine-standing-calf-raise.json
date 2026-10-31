@@ -1,0 +1,213 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Standing Calf Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Machine Calf Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Calf Raises",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gastrocnemius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "tibialis-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "peroneals",
+        "role": "synergist"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-ankle"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "622"
+  },
+  "id": "oec:machine-standing-calf-raise",
+  "instructions": {
+    "setup": [
+      "Adjust the shoulder pads so that you must slightly bend your knees to step underneath them.",
+      "Place the balls of your feet on the edge of the foot block with your heels hanging off.",
+      "Straighten your knees to lift the weight stack, disengage the safety lever if present, and align your torso vertically with a braced core."
+    ],
+    "steps": [
+      "Lower your heels smoothly below the level of the block until you feel a deep stretch in your calves.",
+      "Pause briefly at the bottom to eliminate the stretch-shortening reflex.",
+      "Drive through the balls of your feet to press upward into full plantarflexion, lifting your heels as high as possible.",
+      "Squeeze your calves at the peak contraction for one to two seconds before lowering under control."
+    ],
+    "breathing": "Exhale as you press onto your toes; inhale as you lower your heels into the stretch.",
+    "cues": [
+      "Drive through the big toes.",
+      "Keep knees extended but unlocked.",
+      "Pause at the bottom, squeeze at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bouncing out of the bottom position using the Achilles tendon reflex instead of muscular effort.",
+        "correction": "Incorporate a deliberate one-second pause at the bottom of each repetition."
+      },
+      {
+        "fault": "Bending and extending the knees to turn the movement into a squat-assist.",
+        "correction": "Keep your knees held in a fixed, nearly straight position throughout the entire set."
+      },
+      {
+        "fault": "Cutting the range of motion short at either the stretch or the peak contraction.",
+        "correction": "Use a load that permits full ankle dorsiflexion and complete elevation onto the balls of your feet."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure your footwear provides reliable traction on the edge of the foot block to prevent slipping."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Machine Standing Calf Raise",
+  "previous_ids": [
+    "oec:standing-calf-raises"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Standing Calf Raises",
+        "url": "https://wger.de/en/exercise/622/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:standing-calf-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-standing-calf-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:hack-squat-calf-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:leg-press-calf-raise"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An ankle isolation exercise performed on a dedicated machine to build the calves through loaded plantarflexion."
+}

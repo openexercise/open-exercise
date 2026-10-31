@@ -1,0 +1,248 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Triceps Pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Triceps Extensions on Cable",
+      "kind": "common"
+    },
+    {
+      "text": "Triceps Extensions on Cable With Bar",
+      "kind": "common"
+    },
+    {
+      "text": "Tricep Pushdown on Cable",
+      "kind": "common"
+    },
+    {
+      "text": "tricep pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "triceps pressdown",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "anconeus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "659,660,805,1185"
+  },
+  "id": "oec:cable-triceps-pushdown",
+  "instructions": {
+    "setup": [
+      "Attach a bar or rope handle to a high cable pulley.",
+      "Stand facing the pulley with feet hip-width apart and a slight forward torso lean.",
+      "Grasp the handle, pin your elbows close to your ribcage, and bring forearms just above parallel to the floor."
+    ],
+    "steps": [
+      "Extend your elbows smoothly by pushing the attachment straight down toward your thighs.",
+      "Squeeze your triceps firmly at full extension without locking the elbows aggressively.",
+      "Control the handle as it rises back up until your elbows reach approximately ninety degrees of flexion."
+    ],
+    "breathing": "Exhale as you push the cable down into extension, and inhale as you return to the starting position.",
+    "cues": [
+      "Pin your elbows to your sides.",
+      "Move only at the elbows.",
+      "Control the weight on the way up."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the elbows to drift forward and backward during the movement.",
+        "correction": "Lock the upper arms firmly against the ribcage so movement occurs strictly at the elbow joint."
+      },
+      {
+        "fault": "Using excessive body momentum or pressing downward with the chest and shoulders.",
+        "correction": "Maintain a stable torso angle and reduce the load to ensure the triceps drive the movement."
+      },
+      {
+        "fault": "Cutting the range of motion short at the top or bottom.",
+        "correction": "Allow full flexion to at least ninety degrees at the elbow and push to complete extension on every rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid hyperextending or snapping the elbow joint at the bottom of the rep."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable Triceps Pushdown",
+  "previous_ids": [
+    "oec:triceps-extensions-on-cable",
+    "oec:triceps-extensions-on-cable-with-bar",
+    "oec:tricep-pushdown-on-cable",
+    "oec:triceps-pushdown"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Triceps Extensions on Cable",
+        "url": "https://wger.de/en/exercise/659/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      },
+      {
+        "title": "wger: Triceps Extensions on Cable With Bar",
+        "url": "https://wger.de/en/exercise/660/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      },
+      {
+        "title": "wger: Tricep Pushdown on Cable",
+        "url": "https://wger.de/en/exercise/805/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "cshep442"
+      },
+      {
+        "title": "wger: Triceps Pushdown",
+        "url": "https://wger.de/en/exercise/1185/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "anto.kreegyr"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-rope-triceps-pushdown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:ez-bar-skull-crusher"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-lying-triceps-extension"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An isolation exercise that targets the triceps by extending the elbows against cable resistance."
+}

@@ -1,0 +1,164 @@
+{
+  "is_exercise": true,
+  "name": "Neutral-Grip Pull-Up",
+  "summary": "A bodyweight vertical pull performed on parallel handles that targets the lats and elbow flexors while reducing shoulder and wrist strain.",
+  "aliases": [
+    {
+      "text": "Neutral Grip Chin-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Parallel-Grip Pull-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Hammer-Grip Pull-Up",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "hanging",
+  "grip_orientation": "neutral",
+  "grip_width": "shoulder",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "downward-rotation",
+        "retraction"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "pull-up-bar"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "resistance-band",
+    "dip-belt"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Grasp parallel pull-up handles with palms facing each other at approximately shoulder width.",
+      "Hang with arms fully extended into a dead hang while keeping your core braced and legs straight or crossed at the ankles."
+    ],
+    "steps": [
+      "Initiate the pull by depressing and retracting your shoulder blades.",
+      "Drive your elbows down and back toward your ribs, pulling your chest up toward the handles.",
+      "Continue pulling until your chin clearly passes above the height of your hands.",
+      "Pause briefly at the top to squeeze your back muscles.",
+      "Lower yourself under control back to a full dead hang with arms completely extended."
+    ],
+    "breathing": "Inhale at the bottom or as you begin, and exhale forcefully as you pull your chest to the handles.",
+    "cues": [
+      "Elbows to your back pockets.",
+      "Lead with your chest.",
+      "Pull from a dead hang every rep."
+    ],
+    "common_faults": [
+      {
+        "fault": "Kicking the legs or kipping to generate momentum.",
+        "correction": "Keep your core tight, squeeze your glutes, and perform the movement strictly with your upper body."
+      },
+      {
+        "fault": "Cutting the bottom range of motion short without fully extending the arms.",
+        "correction": "Lower all the way down until your elbows are completely straight before starting the next rep."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears at the top of the pull.",
+        "correction": "Keep the shoulders pulled down away from your ears throughout the entire ascent."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the pull-up station or bar handles are stable and securely fastened before hanging."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

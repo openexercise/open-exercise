@@ -1,0 +1,223 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Unilateral Cross Body Cable Pull Down",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Cross-Body Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cross-Body Cable Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Cross-Body Cable Straight-Arm Pulldown",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-posterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "infraspinatus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "depression"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "pull",
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "strap"
+    ],
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1795"
+  },
+  "id": "oec:single-arm-cable-cross-body-pulldown",
+  "instructions": {
+    "setup": [
+      "Adjust the cable pulley to a high position above head height.",
+      "Stand at a slight diagonal or side-on to the cable column with a stable, staggered stance.",
+      "Reach across your body with the working arm and grasp the handle or cable end using a neutral or light overhand grip."
+    ],
+    "steps": [
+      "Maintaining a fixed, slight bend in the elbow, pull the cable diagonally down and across your body.",
+      "Sweep your arm backward past your torso, focusing on squeezing the posterior shoulder and lat.",
+      "Pause briefly at peak contraction.",
+      "Slowly reverse the movement along the same path under control until you feel a gentle stretch across the rear shoulder.",
+      "Complete the desired number of repetitions before switching sides."
+    ],
+    "breathing": "Exhale as you pull the cable down and back across your torso; inhale as you return the weight to the top.",
+    "cues": [
+      "Keep the elbow angle locked throughout the rep.",
+      "Lead the movement with the back of the shoulder.",
+      "Brace your core to prevent twisting through the torso."
+    ],
+    "common_faults": [
+      {
+        "fault": "Turning the movement into a row by flexing and extending the elbow.",
+        "correction": "Keep a soft, fixed elbow position so the motion is driven entirely by the shoulder joint."
+      },
+      {
+        "fault": "Excessively rotating the spine to heave the weight down.",
+        "correction": "Brace the abdominal wall and keep the hips and torso square, moving only the arm and shoulder blade."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Select a controllable load to maintain scapular and spinal stability throughout the set."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Single-Arm Cable Cross-Body Pulldown",
+  "previous_ids": [
+    "oec:unilateral-cross-body-cable-pull-down"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: unilateral cross body cable pull down",
+        "url": "https://wger.de/en/exercise/1795/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-single-arm-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-single-arm-cross-body-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-single-arm-lat-pulldown"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "staggered",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral cable exercise that targets the posterior shoulder and upper back by pulling the arm across the body in a high-to-low sweeping motion."
+}

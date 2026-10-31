@@ -1,0 +1,180 @@
+{
+  "is_exercise": true,
+  "name": "Side Kick with Kickboard",
+  "summary": "A swimming drill performed on one's side with a kickboard to develop body alignment, flutter kicking efficiency, and bilateral breathing mechanics.",
+  "aliases": [
+    {
+      "text": "Side-Kick Breathing (Kickboard)",
+      "kind": "common"
+    },
+    {
+      "text": "Kickboard Side Kick",
+      "kind": "common"
+    },
+    {
+      "text": "Side Flutter Kick with Kickboard",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "sport",
+      "conditioning",
+      "cardio"
+    ],
+    "movement_patterns": [
+      "swim"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "side-lying",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "rotation"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "pool"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "distance"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "distance",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Enter the pool and hold a kickboard with your lead hand.",
+      "Push off the wall on your side at a roughly 90-degree angle to the surface of the water, extending your lead arm forward with the board.",
+      "Rest your trailing arm flat along your top hip and thigh, keeping your head neutral with the bottom ear resting against your lead shoulder."
+    ],
+    "steps": [
+      "Propel yourself forward using a steady, compact flutter kick driven from your hips.",
+      "Keep your body aligned on its side, maintaining a stable core and horizontal body position in the water.",
+      "When ready to breathe, gently rotate your head toward the ceiling just enough to clear your mouth from the water while keeping the lower ear in contact with your arm.",
+      "Inhale smoothly, then rotate your face back down toward the bottom of the pool while exhaling continuously.",
+      "Maintain rhythmic kicking throughout the length of the pool before switching sides."
+    ],
+    "breathing": "Exhale continuously underwater into the pool and inhale quickly through the mouth when rotating your head upward to clear the surface.",
+    "cues": [
+      "Kick from the hips, not the knees.",
+      "Keep one ear glued to the lead arm.",
+      "Stay strictly on your side without rolling flat."
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the head out of the water to breathe instead of rotating.",
+        "correction": "Keep the bottom ear submerged against your lead arm and rotate only enough to clear your mouth at the water line."
+      },
+      {
+        "fault": "Bending the knees excessively while kicking.",
+        "correction": "Generate the flutter kick primarily from the hips with long legs and relaxed, pointed toes."
+      },
+      {
+        "fault": "Rotating flat onto the stomach during propulsion.",
+        "correction": "Engage your obliques and core to maintain a stacked hip and shoulder position on your side."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform only in pools where swimming drills are safe and supervised by a lifeguard.",
+        "Ensure clear lane space to avoid collisions with other swimmers while focused on alignment."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

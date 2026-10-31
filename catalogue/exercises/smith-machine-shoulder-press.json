@@ -1,0 +1,244 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Smith machine overhead press",
+      "kind": "common"
+    },
+    {
+      "text": "seated Smith press",
+      "kind": "common"
+    },
+    {
+      "text": "Smith overhead press",
+      "kind": "common"
+    },
+    {
+      "text": "Smith Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-lateral",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "abduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "smith-machine"
+      ],
+      [
+        "adjustable-bench",
+        "bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "916"
+  },
+  "id": "oec:smith-machine-shoulder-press",
+  "instructions": {
+    "setup": [
+      "Place an adjustable bench set to a steep incline (around 75 to 85 degrees) directly inside the Smith machine.",
+      "Align the bench so the bar path clears just in front of your face and descends toward your upper chest or chin.",
+      "Sit back firmly against the pad with feet flat on the floor.",
+      "Grip the bar slightly wider than shoulder width using a pronated grip and rotate the bar to unhook it from the safety catches."
+    ],
+    "steps": [
+      "Lower the bar under control until it reaches roughly chin or upper-chest level, keeping your elbows slightly forward rather than flared out wide.",
+      "Pause briefly at the bottom without resting the bar on your chest.",
+      "Press the bar vertically along the track until your arms are fully extended overhead without violently locking out the elbows.",
+      "Repeat for the desired number of repetitions, then rotate the bar to re-engage the safety catches."
+    ],
+    "breathing": "Inhale as you lower the bar under control, and exhale as you press it overhead.",
+    "cues": [
+      "Keep elbows tucked slightly forward.",
+      "Drive through the palms.",
+      "Stay planted into the back pad."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbows straight out laterally.",
+        "correction": "Tuck the elbows roughly 30 to 45 degrees forward in the scapular plane to protect the shoulder joint."
+      },
+      {
+        "fault": "Positioning the bench too far forward or backward relative to the bar.",
+        "correction": "Adjust the bench position so the bar descends comfortably just in front of your nose to your upper chest without requiring excessive neck extension."
+      },
+      {
+        "fault": "Excessively arching the lower back off the bench.",
+        "correction": "Keep your core braced and maintain firm contact between your mid-to-lower back and the support pad."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Always set the Smith machine safety stop pins just below your lowest planned range of motion."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Smith Machine Shoulder Press",
+  "previous_ids": [
+    "oec:smith-press"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Smith Press",
+        "url": "https://wger.de/en/exercise/916/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "novadani"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:seated-barbell-overhead-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-shoulder-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-barbell-overhead-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-dumbbell-shoulder-press"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:smith-machine-overhead-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "incline_degrees": 80,
+    "load_position": "overhead",
+    "position": "seated",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A seated vertical pressing exercise using a Smith machine to target the anterior deltoids and triceps with fixed-track stability."
+}

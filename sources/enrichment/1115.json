@@ -1,0 +1,199 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Multi-Planar Lunge",
+  "summary": "A dynamic lower-body exercise that moves through sagittal, frontal, and transverse planes by lunging in multiple directions with dumbbells held at the sides.",
+  "aliases": [
+    {
+      "text": "3D Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Clock Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Clock Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Around-the-World Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Multi-Directional Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Multiplanar Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell 3D Lunge",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "mobility",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductors",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension",
+        "abduction",
+        "adduction",
+        "internal-rotation",
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "subtalar",
+      "actions": [
+        "inversion",
+        "eversion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart, holding a light dumbbell in each hand at your sides with a neutral grip.",
+      "Brace your core, draw your shoulders slightly back, and fix your gaze straight ahead."
+    ],
+    "steps": [
+      "Step forward into a front lunge, lowering until your back knee hovers just off the floor, then push forcefully back to the starting position.",
+      "Step directly out to the side into a lateral lunge, sitting your hips back over the working heel while keeping the trailing leg straight, then drive back to center.",
+      "Step backward at a diagonal angle into a reverse lunge, descend with control, and push back to the starting stance.",
+      "Continue cycling through the target directional sequence, then repeat the pattern on the opposite leg."
+    ],
+    "breathing": "Inhale as you step out and lower into each lunge; exhale forcefully as you push through your foot to return to standing.",
+    "cues": [
+      "Chest stays tall",
+      "Push the floor away",
+      "Knee tracks over toes"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the lead knee to cave inward during lateral or diagonal lunges.",
+        "correction": "Actively press the knee outward so it tracks in line with your second and third toes."
+      },
+      {
+        "fault": "Rounding the lower back or collapsing the torso forward when lunging.",
+        "correction": "Maintain an upright torso by bracing your abdominals and keeping your chest lifted."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure a wide, clear perimeter of floor space in all directions before beginning.",
+        "Use light loads to prioritize balance and multi-planar joint control over heavy resistance."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

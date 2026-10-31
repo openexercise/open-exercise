@@ -1,0 +1,241 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "scaption",
+      "kind": "common"
+    },
+    {
+      "text": "dumbbell scapular plane raise",
+      "kind": "common"
+    },
+    {
+      "text": "dumbbell scaption raise",
+      "kind": "common"
+    },
+    {
+      "text": "full can exercise",
+      "kind": "common"
+    },
+    {
+      "text": "45° lateral raises",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-lateral",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "supraspinatus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "infraspinatus",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "abduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "rehabilitation",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1602,1754"
+  },
+  "id": "oec:dumbbell-scaption",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet shoulder-width apart and your core braced.",
+      "Hold a dumbbell in each hand at your sides with a neutral grip (thumbs pointing up or forward) and elbows slightly unlocked."
+    ],
+    "steps": [
+      "Raise both dumbbells upward in the scapular plane, approximately 30 to 45 degrees forward of straight out to the sides.",
+      "Continue lifting until your hands reach shoulder height.",
+      "Pause briefly at the peak of the movement, maintaining control through the shoulder girdle.",
+      "Lower the dumbbells smoothly along the same diagonal path back to the starting position."
+    ],
+    "breathing": "Exhale as you raise the dumbbells; inhale smoothly as you lower them.",
+    "cues": [
+      "Thumbs angled toward the ceiling.",
+      "Lift in a shallow V-shape.",
+      "Keep shoulders down away from your ears."
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting strictly straight in front or directly out to the side.",
+        "correction": "Move along the natural scapular plane, roughly 30 to 45 degrees forward of the frontal plane."
+      },
+      {
+        "fault": "Swinging the torso or using momentum to lift the weights.",
+        "correction": "Select lighter dumbbells and maintain a strict, stable upright posture."
+      },
+      {
+        "fault": "Excessive shrugging of the upper traps at the top of the lift.",
+        "correction": "Keep your shoulder blades depressed and focus on upward rotation rather than pure shrugging."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessively heavy weights that cause form breakdown or impingement symptoms."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Scaption",
+  "previous_ids": [
+    "oec:45-lateral-raises"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dumbbell Scaption",
+        "url": "https://wger.de/en/exercise/1602/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "zdelko"
+      },
+      {
+        "title": "wger: 45° lateral raises",
+        "url": "https://wger.de/en/exercise/1754/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-lateral-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-lateral-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-front-raise"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A shoulder raise performed in the scapular plane with dumbbells to strengthen the deltoids, rotator cuff, and periscapular stabilizers."
+}

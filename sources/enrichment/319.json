@@ -1,0 +1,154 @@
+{
+  "is_exercise": true,
+  "name": "Jogging",
+  "summary": "A continuous, moderate-paced running gait performed for cardiovascular conditioning and aerobic endurance.",
+  "aliases": [
+    {
+      "text": "Slow Running",
+      "kind": "common"
+    },
+    {
+      "text": "Easy Run",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "moving",
+  "muscles": [
+    {
+      "muscle": "gastrocnemius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "soleus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "tibialis-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "treadmill"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "distance",
+        "duration"
+      ],
+      "optional": [
+        "pace",
+        "heart-rate",
+        "calories",
+        "cadence",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "heart-rate",
+        "calories",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "load_convention": "not-applicable",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart, arms relaxed at your sides, and gaze forward.",
+      "Engage your core lightly and maintain an upright posture with a slight lean forward from the ankles."
+    ],
+    "steps": [
+      "Push off the ground with one foot, driving the opposite knee slightly forward in a controlled stride.",
+      "Land lightly beneath your center of mass with a midfoot strike, allowing the knee and ankle to absorb the impact.",
+      "Immediately transition to pushing off into the next stride, alternating legs in a fluid, rhythmic cycle.",
+      "Swing your arms naturally in opposition to your legs with elbows bent at approximately ninety degrees."
+    ],
+    "breathing": "Breathe rhythmically and naturally through your nose and mouth at a conversational pace.",
+    "cues": [
+      "Stay tall with a slight forward lean",
+      "Land softly under your hips",
+      "Keep your shoulders relaxed"
+    ],
+    "common_faults": [
+      {
+        "fault": "Overstriding by reaching the foot far in front of the body with a heavy heel strike.",
+        "correction": "Shorten your stride and aim for a higher cadence so your feet land directly beneath your hips."
+      },
+      {
+        "fault": "Hunching the shoulders and tensing the upper body.",
+        "correction": "Drop your shoulders away from your ears and keep your hands loosely cupped."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Wear well-fitted running shoes with adequate support and cushioning.",
+        "Increase weekly distance and duration gradually to prevent overuse injuries."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

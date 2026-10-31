@@ -1,0 +1,174 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Bent-Over Face Pull",
+  "summary": "A bent-over horizontal pull targeting the rear deltoids, upper back, and rotator cuff by pulling dumbbells toward the face with high elbows and external shoulder rotation.",
+  "aliases": [
+    {
+      "text": "Bent-Over Dumbbell Face Pull",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Dumbbell Face Pull",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "bent-over",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-posterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "infraspinatus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-minor",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-abduction",
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall holding a light dumbbell in each hand with an overhand grip.",
+      "Hinge forward at the hips with a flat back and soft knees until your torso is roughly 45 degrees to nearly parallel to the floor.",
+      "Allow your arms to hang naturally beneath your shoulders."
+    ],
+    "steps": [
+      "Initiate the movement by retracting your shoulder blades and pulling your elbows wide and high.",
+      "Rotate your forearms upward as you pull so the dumbbells finish outside your ears or temples at the top of the range.",
+      "Pause briefly at peak contraction, actively squeezing your upper back and rear shoulders.",
+      "Lower the dumbbells under control back to the hanging starting position, feeling a stretch across your upper back."
+    ],
+    "breathing": "Inhale as you lower the dumbbells; exhale forcefully as you pull and externally rotate toward your face.",
+    "cues": [
+      "Lead with the knuckles and elbows, not the forearms.",
+      "Show your hands to the ceiling at the top.",
+      "Keep your chest proud and spine neutral throughout."
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling the dumbbells into the chest or abdomen like a standard bent-over row.",
+        "correction": "Flare your elbows wide and pull toward your eye line to prioritize the rear delts and external rotators."
+      },
+      {
+        "fault": "Using excessive body momentum or bouncing the torso to heave the weight up.",
+        "correction": "Select lighter dumbbells and maintain a rigid, stationary hip hinge throughout each repetition."
+      },
+      {
+        "fault": "Failing to externally rotate at the top, leaving the forearms hanging low.",
+        "correction": "Actively rotate your wrists and thumbs backward so the dumbbells end beside your ears with forearms roughly vertical."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use conservative loading to avoid stressing the rotator cuff tendons and compromising spinal stability.",
+        "Maintain a neutral lumbar spine to prevent lower-back strain while in the hinged position."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

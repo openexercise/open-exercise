@@ -1,0 +1,236 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Chest-Supported Cable Pullover",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Cable Pullover",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Bench Cable Pullover",
+      "kind": "common"
+    },
+    {
+      "text": "Rope Pullover/row",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Pullover Row",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-long-head",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "downward-rotation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ],
+      [
+        "adjustable-bench",
+        "bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1634"
+  },
+  "id": "oec:cable-incline-pullover",
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an incline of 30 to 45 degrees, facing toward a high cable pulley.",
+      "Attach a rope attachment to the cable pulley.",
+      "Straddle the bench and lean your chest firmly against the incline pad, taking hold of the rope handles with a neutral grip.",
+      "Allow your arms to extend overhead toward the pulley so tension is placed on the lats."
+    ],
+    "steps": [
+      "Set your shoulder blades down and pull through your elbows, driving your hands downward and back in a sweeping arc toward your hips.",
+      "Keep a slight, fixed bend in your elbows throughout the pull without curling or rowing the weight.",
+      "Squeeze your lats forcefully as your hands reach the sides of your thighs.",
+      "Slowly reverse the motion under control, returning the rope overhead until you feel a full stretch through your back."
+    ],
+    "breathing": "Exhale as you sweep the rope downward toward your hips, and inhale as you return the cable overhead into the stretched position.",
+    "cues": [
+      "Chest pinned to the pad",
+      "Sweep to your pockets",
+      "Drive with the elbows"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively bending and extending the elbows, turning the exercise into a triceps pressdown or row.",
+        "correction": "Lock a soft bend in the elbows from the start and maintain that exact angle throughout the entire rep."
+      },
+      {
+        "fault": "Shrugging the shoulders upward during the pull.",
+        "correction": "Depress the shoulder blades before beginning the stroke and keep the shoulders pulled down away from the ears."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the bench is securely anchored and cannot slide toward the cable stack under load."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable Incline Pullover",
+  "previous_ids": [
+    "oec:rope-pullover-row"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Rope Pullover/row",
+        "url": "https://wger.de/en/exercise/1634/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Rottekongen"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-rope-straight-arm-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-straight-arm-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cross-bench-dumbbell-pullover"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-pullover"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-pullover"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-pullover"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "shoulder"
+    },
+    "incline_degrees": 45,
+    "position": "prone"
+  },
+  "status": "active",
+  "summary": "An isolation exercise that targets the latissimus dorsi by sweeping a cable attachment down toward the hips while chest-supported on an incline bench."
+}

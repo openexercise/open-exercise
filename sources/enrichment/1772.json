@@ -1,0 +1,114 @@
+{
+  "is_exercise": true,
+  "name": "Reverse Crunch",
+  "summary": "A supine bodyweight core exercise where the pelvis is curled off the floor toward the ribs to target the abdominals.",
+  "aliases": [
+    {
+      "text": "pelvic tilt crunch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a mat with your arms resting at your sides, palms pressed into the floor.",
+      "Bend your knees to approximately 90 degrees and lift your feet slightly off the floor."
+    ],
+    "steps": [
+      "Contract your abdominals to curl your pelvis off the floor, bringing your knees toward your chest.",
+      "Pause for a brief contraction at the top as your lower back lifts off the floor.",
+      "Lower your pelvis back to the starting position in a slow, controlled manner without letting your lower back arch off the mat."
+    ],
+    "breathing": "Exhale as you curl your hips toward your chest; inhale as you slowly return to the starting position.",
+    "cues": [
+      "Roll your pelvis toward your ribs",
+      "Control the descent",
+      "Don't swing your legs"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the legs to generate momentum rather than curling the pelvis.",
+        "correction": "Keep your knee angle fixed and focus entirely on posterior pelvic tilt and rolling the hips up."
+      },
+      {
+        "fault": "Allowing the lumbar spine to hyperextend at the bottom of the movement.",
+        "correction": "Stop the descent before your lower back peels off the floor and maintain core engagement throughout."
+      }
+    ],
+    "safety": {
+      "precautions": [],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

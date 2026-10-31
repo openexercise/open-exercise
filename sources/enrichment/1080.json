@@ -1,0 +1,168 @@
+{
+  "is_exercise": true,
+  "name": "Hindu Push-Up",
+  "summary": "A dynamic bodyweight pushing variation that swoops the torso from an inverted V-position down through a low push-up and up into a spinal extension.",
+  "aliases": [
+    {
+      "text": "Dand",
+      "kind": "regional"
+    },
+    {
+      "text": "Hindu Pushup",
+      "kind": "common"
+    },
+    {
+      "text": "Dive Bomber Push-Up",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "prone",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "extension",
+        "horizontal-adduction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "upward-rotation",
+        "depression"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Place your hands shoulder-width apart on the floor and step your feet back wider than hip-width.",
+      "Push your hips up and back into an inverted V-shape, keeping your arms and legs relatively straight and head neutral between your arms."
+    ],
+    "steps": [
+      "Bend your elbows and lower your chest toward the floor in a sweeping forward arc, skimming just above the ground between your hands.",
+      "Press through your palms to extend your arms, driving your chest forward and upward into an extended posture with hips low.",
+      "Push back directly through your shoulders and hips to return smoothly to the initial inverted V-position."
+    ],
+    "breathing": "Inhale as you swoop down and scoop the chest forward; exhale as you push up into spinal extension and press your hips back to the start.",
+    "cues": [
+      "Dive under a low fence and press tall.",
+      "Keep the swooping motion fluid and controlled.",
+      "Do not let the lower back collapse without abdominal support."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring elbows excessively wide during the swoop.",
+        "correction": "Keep elbows tracking back at approximately a 45-degree angle to protect the shoulders."
+      },
+      {
+        "fault": "Hyperextending the lumbar spine passively instead of actively extending through the whole back.",
+        "correction": "Engage the glutes and abdominals as the hips drop so the extension is shared across the entire thoracic spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Requires adequate shoulder mobility and spinal extension; avoid aggressive arching if prone to low-back or shoulder impingement symptoms."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

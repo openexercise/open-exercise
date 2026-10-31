@@ -1,0 +1,222 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Dumbbell Calf Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Standing DB Calf Raise",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Dumbbell or Machine Calf Raise",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gastrocnemius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "soleus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "tibialis-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "peroneals",
+        "role": "synergist"
+      },
+      {
+        "muscle": "foot-intrinsics",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "subtalar",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "isolation-ankle"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "step",
+      "weight-plate"
+    ],
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2644"
+  },
+  "id": "oec:dumbbell-standing-calf-raise",
+  "instructions": {
+    "setup": [
+      "Hold a dumbbell in each hand with arms hanging naturally at your sides.",
+      "Stand tall with feet hip-width apart and toes pointing straight ahead, optionally placing the balls of your feet on a raised ledge or weight plate for greater range of motion.",
+      "Keep your knees straight but unlocked and maintain an upright torso."
+    ],
+    "steps": [
+      "Press through the balls of your feet to raise your heels as high as possible.",
+      "Pause briefly at the top of the contraction, squeezing your calf muscles.",
+      "Lower your heels under control back to the starting position until you feel a full stretch."
+    ],
+    "breathing": "Exhale as you press up onto your toes; inhale as you slowly lower your heels.",
+    "cues": [
+      "Push straight up through the big toes.",
+      "Control the descent; do not bounce out of the bottom.",
+      "Keep the knees stable without bending them to generate momentum."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bouncing at the bottom of the movement.",
+        "correction": "Pause for a split second at the bottom stretch before initiating the next repetition to eliminate the stretch reflex."
+      },
+      {
+        "fault": "Bending the knees to assist the lift.",
+        "correction": "Keep the knees extended throughout to maintain tension on the gastrocnemius."
+      },
+      {
+        "fault": "Rolling onto the outer edges of the feet.",
+        "correction": "Drive primarily through the balls of the feet and big toes to keep ankle alignment neutral."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If performing off an elevated surface, ensure the ledge is stable to prevent slipping."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Standing Calf Raise",
+  "previous_ids": [
+    "oec:dumbbell-or-machine-calf-raise"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dumbbell or Machine Calf Raise",
+        "url": "https://wger.de/en/exercise/2644/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:standing-calf-raise"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:standing-calf-raise"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-calf-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-standing-calf-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:leg-press-calf-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:hack-squat-calf-raise"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A lower-leg isolation exercise performed by holding dumbbells at your sides and elevating your heels to strengthen the calves."
+}

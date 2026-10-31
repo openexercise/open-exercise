@@ -1,0 +1,241 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Side Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Dumbbell Side Bend",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Side Flexion",
+      "kind": "common"
+    },
+    {
+      "text": "Side bends",
+      "kind": "common"
+    },
+    {
+      "text": "Side Dumbbell Trunk Flexion",
+      "kind": "common"
+    },
+    {
+      "text": "Side bend",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "external-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadratus-lumborum",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "lateral-flexion"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "lateral-flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "lateral-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "kettlebell",
+      "weight-plate"
+    ],
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "576,577,1188,1650"
+  },
+  "id": "oec:dumbbell-side-bend",
+  "instructions": {
+    "setup": [
+      "Stand upright with your feet hip-width apart and knees soft.",
+      "Hold a dumbbell in one hand at your side with an arm hanging straight and a neutral grip.",
+      "Place your free hand behind your head or resting on your opposite hip."
+    ],
+    "steps": [
+      "Keeping your hips square and shoulders facing forward, slowly bend your torso laterally toward the weighted side until you feel a gentle stretch in the opposite flank.",
+      "Contract the obliques on the unweighted side to pull your torso smoothly back to the upright position.",
+      "Optionally continue slightly past vertical into a modest lateral contraction, then return to center under control.",
+      "Complete all repetitions on one side before switching the dumbbell to the opposite hand."
+    ],
+    "breathing": "Inhale as you laterally lower the weight down the side of your thigh, and exhale as you contract your obliques to return upright.",
+    "cues": [
+      "Bend directly sideways without leaning forward or twisting.",
+      "Move strictly from the spine while keeping your pelvis stationary.",
+      "Pull with your opposite waist to stand tall."
+    ],
+    "common_faults": [
+      {
+        "fault": "Holding dumbbells in both hands simultaneously, which creates a counterbalance and eliminates tension on the target muscles.",
+        "correction": "Hold only one dumbbell at a time so your lateral core must work against an asymmetrical load."
+      },
+      {
+        "fault": "Rotating the hips or flexing forward at the waist during the bend.",
+        "correction": "Move strictly within the frontal plane as if sliding your back along a flat wall."
+      },
+      {
+        "fault": "Using excessive momentum or over-bending past an active, pain-free range of motion.",
+        "correction": "Use a controlled tempo and lower the dumbbell only as far as comfortable lateral spinal flexion allows."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid aggressive overbending or bouncing at the bottom of the movement to protect the lumbar spine."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Dumbbell Side Bend",
+  "previous_ids": [
+    "oec:side-crunch",
+    "oec:side-dumbbell-trunk-flexion",
+    "oec:side-bend"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Side Crunch",
+        "url": "https://wger.de/en/exercise/576/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "kwrindy"
+      },
+      {
+        "title": "wger: Side Dumbbell Trunk Flexion",
+        "url": "https://wger.de/en/exercise/577/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "GiglioRosso"
+      },
+      {
+        "title": "wger: Side bend",
+        "url": "https://wger.de/en/exercise/1188/view-base",
+        "license": "CC-BY-SA-4.0"
+      },
+      {
+        "title": "wger: Dumbbell Side Bend",
+        "url": "https://wger.de/en/exercise/1650/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "AlucardEvil40"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-side-bend"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:standing-side-crunch"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "suitcase",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A standing lateral trunk exercise targeting the obliques and quadratus lumborum by flexing and extending the spine laterally against single-sided resistance."
+}

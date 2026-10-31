@@ -1,0 +1,224 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Finger Pushup",
+      "kind": "common"
+    },
+    {
+      "text": "Finger Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Fingertip Pushup",
+      "kind": "common"
+    },
+    {
+      "text": "Flexão de dedo",
+      "kind": "regional"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "hand-intrinsics",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "fingers",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "advanced"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1217"
+  },
+  "id": "oec:fingertip-push-up",
+  "instructions": {
+    "setup": [
+      "Assume a standard high plank position with feet hip-width apart and your body in a rigid, straight line.",
+      "Lift your palms off the floor, distributing your upper-body weight across all ten fingertips and thumbs.",
+      "Spread your fingers wide in an arched claw position, ensuring the finger joints are firm and not hyperextending."
+    ],
+    "steps": [
+      "Lower your chest toward the floor by bending the elbows backward at roughly a 45-degree angle to your torso.",
+      "Descend until your chest hovers just above the ground while keeping the fingers rigid and arched.",
+      "Press through your fingertips and straighten your arms to return to the starting plank position.",
+      "Lock out the elbows and fully protract the shoulder blades at the top before beginning the next repetition."
+    ],
+    "breathing": "Inhale as you lower your body toward the floor, and exhale forcefully as you press back up to the lockout.",
+    "cues": [
+      "Claw the floor",
+      "Keep finger joints rigid",
+      "Body like a plank"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing finger joints to collapse into hyperextension under body weight.",
+        "correction": "Maintain a strong dome shape with your hands and regress to kneeling fingertip holds if the fingers buckle."
+      },
+      {
+        "fault": "Sagging at the hips or hyper-extending the lumbar spine.",
+        "correction": "Brace the abdominals and squeeze the glutes to keep the entire body rigid from head to heels."
+      },
+      {
+        "fault": "Flaring elbows directly out to the sides.",
+        "correction": "Tuck elbows to roughly a 45-degree angle relative to the ribs to protect the shoulders."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Requires significant connective tissue conditioning in the hands; build up from kneeling fingertip planks before performing full repetitions."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Fingertip Push-Up",
+  "previous_ids": [
+    "oec:finger-pushup"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Finger Pushup",
+        "url": "https://wger.de/en/exercise/1217/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:push-up"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:push-up"
+    }
+  ],
+  "setup": {
+    "position": "prone",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An advanced push-up variation performed supported on the fingertips to build hand, finger, and forearm integrity alongside upper-body pressing strength."
+}

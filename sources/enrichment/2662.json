@@ -1,0 +1,184 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Pause Squat",
+  "summary": "A barbell back squat variation performed with a deliberate multi-second pause in the bottom position to eliminate the stretch reflex and build concentric starting strength.",
+  "aliases": [
+    {
+      "text": "Paused Squats",
+      "kind": "common"
+    },
+    {
+      "text": "Pause Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Paused Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Pause Back Squat",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "powerlifting",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "high-bar",
+  "range": "pause",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "squat-rack",
+        "power-rack"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Step under the barbell resting on a squat rack at upper-chest height, placing the bar securely across your upper trapezius or rear deltoids.",
+      "Grip the bar firmly, brace your midsection, unrack the bar by extending your legs, and step back two to three paces.",
+      "Set your feet roughly shoulder-width apart with toes angled slightly outward, maintaining an upright torso."
+    ],
+    "steps": [
+      "Inhale deeply into your belly and brace your core.",
+      "Break simultaneously at the hips and knees to descend under control until your hip crease drops below the top of your knees.",
+      "Come to a complete, motionless stop in the bottom position for the prescribed count (typically one to three seconds) while maintaining full muscular tension.",
+      "Drive aggressively through your midfoot, extending your hips and knees to return to the starting standing position.",
+      "Lock out your hips and knees under control before beginning the next repetition."
+    ],
+    "breathing": "Take a large diaphragmatic breath and brace before descending, hold your breath firmly throughout the pause and initial ascent, and exhale through pursed lips near lockout.",
+    "cues": [
+      "Freeze, don't relax.",
+      "Stay tight in the hole.",
+      "Drive the floor away out of the pause."
+    ],
+    "common_faults": [
+      {
+        "fault": "Losing core and upper-back tightness during the pause at the bottom.",
+        "correction": "Treat the pause as an active isometric hold; maintain intra-abdominal pressure and active tension in the back rather than resting on your joints."
+      },
+      {
+        "fault": "Bouncing out of the hole or cutting the pause short.",
+        "correction": "Bring the barbell to a definite, motionless stop and count full seconds before initiating the concentric drive."
+      },
+      {
+        "fault": "Shifting weight forward onto the toes when driving up out of the pause.",
+        "correction": "Keep your full foot glued to the ground and push evenly through midfoot throughout the pause and drive."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Set safety pins or spotter straps in the rack just below your bottom squat depth.",
+        "Use lower loads than your standard back squat to account for the loss of stretch reflex and prolonged time under tension."
+      ],
+      "spotter": "recommended",
+      "safeties": true
+    }
+  }
+}

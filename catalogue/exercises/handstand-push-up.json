@@ -1,0 +1,245 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "HSPU",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Freestanding Handstand Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Vertical Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Inverted Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Handstand Pushup",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-lateral",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "abduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "elevation",
+          "upward-rotation",
+          "depression",
+          "downward-rotation"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "balance"
+    ],
+    "movement_patterns": [
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "advanced"
+  },
+  "equipment": {
+    "optional": [
+      "mat",
+      "parallettes"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "282"
+  },
+  "id": "oec:handstand-push-up",
+  "instructions": {
+    "setup": [
+      "Place your hands shoulder-width apart on the floor with fingers splayed and slightly turned out.",
+      "Kick up into a stable, freestanding handstand with a straight, hollow-body alignment and fully extended arms.",
+      "Grip the floor actively with your fingertips and brace your core and glutes to maintain balance."
+    ],
+    "steps": [
+      "Inhale and lower yourself with control by bending your elbows, shifting your shoulders slightly forward to create a tripod shape between your head and hands.",
+      "Continue descending until the crown of your head lightly touches the floor or reaches full controlled depth.",
+      "Exhale and press powerfully through your palms, extending the elbows and pushing your head back between your shoulders.",
+      "Lock out your arms at the top, returning to a vertical, hollow handstand position."
+    ],
+    "breathing": "Inhale smoothly as you lower your head toward the floor, and exhale forcefully as you press back up to lockout.",
+    "cues": [
+      "Grip the floor with your fingertips",
+      "Elbows track at 45 degrees, not flared wide",
+      "Head moves forward into a tripod position",
+      "Push the floor away at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring elbows directly out to the sides.",
+        "correction": "Keep elbows tucked inward at roughly a 45-degree angle to protect the shoulders and produce optimal pressing leverage."
+      },
+      {
+        "fault": "Overarching the lower back into a banana handstand.",
+        "correction": "Squeeze your glutes, draw your ribs down toward your pelvis, and maintain a tight hollow-body core."
+      },
+      {
+        "fault": "Lowering the head straight down between the hands instead of forward.",
+        "correction": "Shift your body forward so your head lands in front of your hands, forming a stable triangular base."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure adequate clearance around you to bail safely via a pirouette roll or cartwheel exit.",
+        "Do not collapse onto the head or neck under fatigue."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Handstand Push-Up",
+  "previous_ids": [
+    "oec:handstand-pushup"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Handstand Pushup",
+        "url": "https://wger.de/en/exercise/282/view-base",
+        "license": "CC0-1.0",
+        "author": "BFad07"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:pike-push-up"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:feet-elevated-pike-push-up"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-overhead-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "inverted"
+  },
+  "status": "active",
+  "summary": "An advanced bodyweight vertical press performed from a freestanding inverted position to build shoulder, tricep, and core strength alongside balance."
+}

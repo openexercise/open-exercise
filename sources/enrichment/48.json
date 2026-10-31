@@ -1,0 +1,137 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Reverse Wrist Curl",
+  "summary": "An isolation exercise that targets the forearm extensors by extending the wrists with an overhand grip while the forearms rest on a bench or thighs.",
+  "aliases": [
+    {
+      "text": "Barbell Palms-Down Wrist Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Overhand Barbell Wrist Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse Barbell Wrist Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-grip"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "forearm-extensors",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "hand-intrinsics",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "wrist",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell",
+        "ez-bar"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "chair"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit on a flat bench with your feet flat on the floor.",
+      "Grip a barbell with a shoulder-width, overhand (pronated) grip.",
+      "Rest your forearms flat along your thighs or across the bench, positioning your wrists just past your knees or the bench edge so your hands can move freely."
+    ],
+    "steps": [
+      "Lower the barbell as far as comfortable by flexing your wrists downward toward the floor.",
+      "Extend your wrists upward, raising the barbell as high as possible while keeping your forearms pinned in place.",
+      "Pause briefly at the peak contraction, then lower the bar under control back to the starting stretch."
+    ],
+    "breathing": "Exhale as you curl the barbell upward and inhale as you lower it back down.",
+    "cues": [
+      "Keep forearms glued down",
+      "Knuckles to the ceiling",
+      "Control the descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the forearms or elbows off the support surface to use arm momentum.",
+        "correction": "Keep your forearms firmly pressed into the bench or your thighs throughout the entire set."
+      },
+      {
+        "fault": "Using excessively heavy weight leading to a cut range of motion.",
+        "correction": "Use lighter weight that allows full wrist flexion and extension without joint strain."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not allow the bar to roll out of your fingers; maintain a firm overhand grip throughout the movement."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

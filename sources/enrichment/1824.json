@@ -1,0 +1,148 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Tate Press",
+  "summary": "A supine triceps extension variation performed on a flat bench by flexing the elbows outward and lowering the dumbbells to the chest.",
+  "aliases": [
+    {
+      "text": "Tate Press",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Elbows-Out Extension",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy",
+      "powerlifting"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "supine",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "chest",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "anconeus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "adjustable-bench"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Lie flat on a bench holding a dumbbell in each hand, resting your feet firmly on the floor.",
+      "Press the dumbbells to full lockout above your chest with a pronated grip (palms facing toward your feet).",
+      "Bring the inner heads of the dumbbells close together over your sternum."
+    ],
+    "steps": [
+      "Bend your elbows outward to the sides while keeping your upper arms relatively stationary.",
+      "Lower the inner heads of the dumbbells until they lightly touch the center of your chest.",
+      "Pause briefly without letting the weight rest on your torso.",
+      "Contract your triceps and extend your elbows to press the dumbbells back up to the starting position."
+    ],
+    "breathing": "Inhale as you lower the weights to your chest, and exhale as you extend your elbows back to lockout.",
+    "cues": [
+      "Flare elbows out to the sides.",
+      "Touch the chest gently, don't rest.",
+      "Lead with the pinkies on the press."
+    ],
+    "common_faults": [
+      {
+        "fault": "Turning the movement into a close-grip bench press by dropping the elbows down rather than flaring them out.",
+        "correction": "Keep the upper arms locked in position and let the elbows point directly outward to isolate the triceps."
+      },
+      {
+        "fault": "Bouncing the dumbbell heads off the sternum.",
+        "correction": "Control the descent and lightly touch the chest under active muscular tension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use moderate loads to prevent excessive strain on the elbow joints.",
+        "Do not let the dumbbells drop or bounce against your sternum."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

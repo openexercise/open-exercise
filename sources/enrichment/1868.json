@@ -1,0 +1,177 @@
+{
+  "is_exercise": true,
+  "name": "Lunge with Twist",
+  "summary": "A dynamic mobility exercise combining a forward lunge with thoracic spine rotation to mobilize the hips, spine, and core.",
+  "aliases": [
+    {
+      "text": "Lunge with Twist Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Lunge with Torso Twist",
+      "kind": "common"
+    },
+    {
+      "text": "Walking Lunge with Twist",
+      "kind": "common"
+    },
+    {
+      "text": "Forward Lunge with Spinal Twist",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "lunge",
+      "rotation",
+      "mobility-drill",
+      "stretch"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "split-stance",
+  "stance_width": "hip",
+  "stance_kind": "split",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "obliques",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "stretched"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "stretched"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "rotation"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "total",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and your hands clasped together in front of your chest or arms extended forward.",
+      "Engage your core and maintain an upright posture."
+    ],
+    "steps": [
+      "Take a controlled step forward with one leg and lower into a lunge until both knees are bent to approximately 90 degrees.",
+      "Keeping your hips stable and facing forward, slowly rotate your torso across the front thigh as far as comfortable.",
+      "Hold the twisted position briefly to feel the stretch through the hip flexor of the back leg and the mid-back.",
+      "Rotate your torso back to the center position.",
+      "Push through the heel of the front foot to return to the starting standing position, then repeat on the opposite side."
+    ],
+    "breathing": "Inhale as you step into the lunge, exhale as you twist your torso across your front leg, and inhale as you return to center.",
+    "cues": [
+      "Keep your hips square as you twist",
+      "Rotate from the mid-back, not the hips",
+      "Front knee tracks over mid-foot"
+    ],
+    "common_faults": [
+      {
+        "fault": "Letting the front knee collapse inward during the torso rotation.",
+        "correction": "Actively press the front knee outward to keep it aligned over the second toe throughout the twist."
+      },
+      {
+        "fault": "Over-twisting through the lumbar spine and pelvic shift.",
+        "correction": "Lock your hips facing forward and initiate the rotation from your ribcage and thoracic spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform with controlled tempo to avoid balance loss during the rotational phase."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

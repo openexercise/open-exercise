@@ -1,0 +1,249 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Squats on Multipress",
+      "kind": "regional"
+    },
+    {
+      "text": "Multipress Squat",
+      "kind": "regional"
+    },
+    {
+      "text": "Smith Machine Back Squat",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "smith-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "341,1747"
+  },
+  "id": "oec:smith-machine-squat",
+  "instructions": {
+    "setup": [
+      "Set the Smith machine bar at roughly upper-chest height and set the safety stops just below your target squat depth.",
+      "Step under the bar, placing it across your upper trapezius, and grasp it firmly with both hands outside shoulder width.",
+      "Position your feet shoulder-width apart slightly in front of the bar's vertical line, with toes pointed slightly outward.",
+      "Extend your legs to lift the bar and rotate the bar with your wrists to unhook it from the safety pegs."
+    ],
+    "steps": [
+      "Inhale, brace your core, and initiate the descent by bending simultaneously at the hips and knees.",
+      "Lower yourself under control until your thighs are at least parallel to the floor.",
+      "Push forcefully through your midfoot and heels to reverse the motion, extending your hips and knees.",
+      "Return to the starting upright position without aggressively locking out your knees.",
+      "At the end of the set, rotate your wrists forward to re-engage the safety hooks onto the machine."
+    ],
+    "breathing": "Inhale and brace your core before descending, hold through the bottom turn, and exhale as you drive back to the top.",
+    "cues": [
+      "Brace your core tight",
+      "Push the floor away",
+      "Knees track over toes"
+    ],
+    "common_faults": [
+      {
+        "fault": "Placing feet directly underneath or behind the bar, leading to excessive forward torso lean and heel lifting.",
+        "correction": "Step the feet a few inches forward so you can sit down into the squat while keeping your heels firmly planted."
+      },
+      {
+        "fault": "Knees caving inward during the upward drive.",
+        "correction": "Actively push your knees outward in line with your toes throughout the movement."
+      },
+      {
+        "fault": "Failing to set the safety stoppers on the machine.",
+        "correction": "Always set the mechanical safety stops just below your lowest depth before loading working weight."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Always adjust the Smith machine safety stops to catch the bar in case of failure.",
+        "Ensure the wrist rotation to re-rack is familiar before using heavy loads."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Smith Machine Squat",
+  "previous_ids": [
+    "oec:squats-on-multipress"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Squats on Multipress",
+        "url": "https://wger.de/en/exercise/341/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      },
+      {
+        "title": "wger: Smith machine squat",
+        "url": "https://wger.de/en/exercise/1747/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Tierrasverdes"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-back-squat"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-back-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-back-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-hack-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:pendulum-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:leg-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "wide"
+    },
+    "load_position": "high-bar",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A squat variation performed using a Smith machine to train the quadriceps and glutes with a fixed, guided bar path."
+}

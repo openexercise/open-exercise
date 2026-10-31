@@ -1,0 +1,168 @@
+{
+  "is_exercise": true,
+  "name": "Front Lever Pull-Up",
+  "summary": "An advanced calisthenics exercise where you hold a horizontal front lever and pull your chest up to the bar or rings.",
+  "aliases": [
+    {
+      "text": "Front Lever Row",
+      "kind": "common"
+    },
+    {
+      "text": "FL Pull-Up",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "advanced"
+  },
+  "position": "hanging",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "depression"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "pull-up-bar",
+        "gymnastic-rings"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "resistance-band"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Grip a pull-up bar or gymnastics rings with an overhand, shoulder-width grip.",
+      "Engage your lats and core to raise your entire body into a fully horizontal front lever position, parallel to the floor from shoulders to heels."
+    ],
+    "steps": [
+      "Maintain a rigid horizontal body line as you drive your elbows back and pull your hips and chest upward toward the bar.",
+      "Continue pulling until your lower chest or abdomen touches or nears the bar.",
+      "Lower yourself under full control back into the straight-arm front lever position without breaking body alignment."
+    ],
+    "breathing": "Inhale as you stabilize into the lever; exhale forcefully as you pull your chest to the bar, and inhale as you lower.",
+    "cues": [
+      "Drive elbows toward the hips",
+      "Squeeze glutes and point toes",
+      "Keep the body completely flat"
+    ],
+    "common_faults": [
+      {
+        "fault": "Piking at the hips to reduce the lever arm.",
+        "correction": "Squeeze the glutes and core to keep a completely straight line from ankles to shoulders throughout the pull."
+      },
+      {
+        "fault": "Dropping the hips below the shoulders during the concentric phase.",
+        "correction": "Actively pull down with the lats and maintain abdominal tension so the torso and legs rise together."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the pull-up bar or ceiling mount is securely anchored.",
+        "Master the static front lever hold before attempting dynamic rows."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

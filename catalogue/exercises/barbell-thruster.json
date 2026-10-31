@@ -1,0 +1,263 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Thruster",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-lateral",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "abduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "elevation",
+          "upward-rotation"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "conditioning",
+      "strength",
+      "power"
+    ],
+    "movement_patterns": [
+      "squat",
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "mixed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "squat-rack",
+      "power-rack"
+    ],
+    "required": [
+      [
+        "barbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "650"
+  },
+  "id": "oec:barbell-thruster",
+  "instructions": {
+    "setup": [
+      "Clean the barbell from the floor or unrack it onto your shoulders in a front-rack position.",
+      "Grip the bar slightly wider than shoulder-width with your elbows forward and high.",
+      "Position your feet shoulder-width apart with your toes angled slightly outward.",
+      "Brace your core and ensure your chest remains tall."
+    ],
+    "steps": [
+      "Descend into a full front squat by pushing your hips back and bending your knees until your hip crease drops below your knees.",
+      "Drive aggressively out of the bottom of the squat through your mid-foot and heels.",
+      "Use the upward momentum of the squat extension to launch the barbell off your shoulders as your hips and knees fully extend.",
+      "Press the barbell overhead to full elbow lockout, finishing with the bar directly aligned over your heels and head pushed slightly forward.",
+      "Lower the barbell under control back to the front rack while immediately breaking at the hips and knees to cycle directly into the next repetition."
+    ],
+    "breathing": "Inhale and brace your core at the top or on the descent, and exhale forcefully as you drive out of the squat and lock out overhead.",
+    "cues": [
+      "Drive through your heels.",
+      "Use the legs to launch the bar.",
+      "Fast elbows into the rack."
+    ],
+    "common_faults": [
+      {
+        "fault": "Pressing before hip extension is complete, turning the movement into a squat followed by a strict press.",
+        "correction": "Wait until your hips and knees reach full violent extension before pressing with your arms."
+      },
+      {
+        "fault": "Dropping the elbows and rounding the upper back during the squat descent.",
+        "correction": "Keep your elbows lifted high and your chest upright to maintain a solid front-rack shelf."
+      },
+      {
+        "fault": "Catching the descending barbell on the shoulders with rigid legs.",
+        "correction": "Cushion the bar's return by breaking immediately at the knees and hips, absorbing the load into the next squat."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure adequate shoulder, thoracic, and wrist mobility before attempting heavy loads.",
+        "Clear the floor around you and be prepared to drop the barbell forward if you fail a rep."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Thruster",
+  "previous_ids": [
+    "oec:thruster"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Thruster",
+        "url": "https://wger.de/en/exercise/650/view-base",
+        "license": "CC0-1.0",
+        "author": "BeLikeWater"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-thruster"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:medicine-ball-wall-ball"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:landmine-squat-to-press"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:medicine-ball-wall-ball"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:landmine-squat-to-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "load_position": "front-rack",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A compound exercise that combines a front squat and an overhead press into a single, fluid movement."
+}

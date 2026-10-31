@@ -1,0 +1,228 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Close-Grip Machine Row",
+      "kind": "common"
+    },
+    {
+      "text": "Narrow-Grip Machine Row",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Close-Grip Machine Row",
+      "kind": "common"
+    },
+    {
+      "text": "Remo en maquina agarre estrecho",
+      "kind": "regional"
+    },
+    {
+      "text": "Remo maquina agarre estrecho",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "downward-rotation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1119"
+  },
+  "id": "oec:machine-close-grip-row",
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so that the close-grip handles are aligned with your lower rib cage or mid-torso.",
+      "If the machine has a chest pad, adjust it so your arms are fully extended at the start with the weight stack slightly disengaged.",
+      "Sit upright with your feet planted firmly on the floor or footrests, and grasp the narrow handles."
+    ],
+    "steps": [
+      "Initiate the pull by driving your elbows backward tight against your ribs while retracting your shoulder blades.",
+      "Continue pulling until your hands reach the sides of your torso, squeezing your back muscles firmly.",
+      "Reverse the motion under control, extending your arms and allowing your scapulae to protract slightly for a full stretch.",
+      "Repeat for the desired number of repetitions without letting the weight stack slam between reps."
+    ],
+    "breathing": "Exhale as you pull the handles toward your torso; inhale as you return the handles to the starting position.",
+    "cues": [
+      "Drive the elbows back.",
+      "Keep your chest tall.",
+      "Pinch your shoulder blades at the finish."
+    ],
+    "common_faults": [
+      {
+        "fault": "Leaning back excessively to generate momentum.",
+        "correction": "Keep your torso stable and upright, letting the back muscles do the work rather than rocking."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears.",
+        "correction": "Depress your shoulders and focus on pulling low toward the waist."
+      },
+      {
+        "fault": "Flaring elbows out wide.",
+        "correction": "Keep the elbows tucked close to your ribcage to maximize lat recruitment with the close grip."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain control of the weight stack throughout the entire range of motion to avoid sudden strain on the shoulders or spine."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Machine Close-Grip Row",
+  "previous_ids": [
+    "oec:remo-maquina-agarre-estrecho"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Remo maquina agarre estrecho",
+        "url": "https://wger.de/en/exercise/1119/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Franpol"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:machine-seated-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-close-grip-seated-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-seated-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "narrow"
+    },
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A seated compound machine exercise targeting the lats and upper back using a narrow grip."
+}

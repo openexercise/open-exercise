@@ -1,0 +1,152 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Biceps Curl",
+  "summary": "A standing free-weight isolation movement targeting the elbow flexors by curling a pair of dumbbells toward the shoulders.",
+  "aliases": [
+    {
+      "text": "Standing Bicep Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Dumbbell Bicep Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Curl",
+      "kind": "common"
+    },
+    {
+      "text": "DB Curl",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "supinated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and knees slightly unlocked.",
+      "Hold a dumbbell in each hand at your sides with your palms facing forward and shoulders pulled back and down."
+    ],
+    "steps": [
+      "Keeping your upper arms pinned by your ribs, flex your elbows to curl the dumbbells upward.",
+      "Lift the weights until your biceps are fully contracted near shoulder height.",
+      "Pause briefly at the top to squeeze the biceps.",
+      "Lower the dumbbells smoothly back to the starting position under control until your arms are fully extended."
+    ],
+    "breathing": "Exhale as you curl the dumbbells up, and inhale as you lower them under control.",
+    "cues": [
+      "Elbows glued to your sides",
+      "Squeeze at the top",
+      "Control the descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso and using hip momentum to lift the dumbbells.",
+        "correction": "Brace your core and keep your torso completely still throughout the set."
+      },
+      {
+        "fault": "Drifting the elbows forward to make the top of the movement easier.",
+        "correction": "Keep your upper arms stationary and perpendicular to the floor."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Select a load that allows full extension without hyperextending the lower back."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

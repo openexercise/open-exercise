@@ -1,0 +1,174 @@
+{
+  "is_exercise": true,
+  "name": "Reverse Plank",
+  "summary": "An isometric bodyweight exercise performed in a rear-support position to build endurance across the posterior chain, shoulders, and core.",
+  "aliases": [
+    {
+      "text": "Back Plank",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Plank",
+      "kind": "common"
+    },
+    {
+      "text": "Purvottanasana",
+      "kind": "common"
+    },
+    {
+      "text": "Upward Plank",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "anti-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "support",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "depression"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit on the floor with your legs fully extended in front of you.",
+      "Place your palms flat on the floor slightly behind and outside your hips, with your fingers pointing forward toward your feet or slightly turned out.",
+      "Engage your core and depress your shoulders away from your ears."
+    ],
+    "steps": [
+      "Press firmly through your palms and heels to drive your hips upward toward the ceiling.",
+      "Lift until your body forms a straight line from your heels to your shoulders.",
+      "Squeeze your glutes, lock out your knees, and open your chest while maintaining a neutral neck position.",
+      "Hold this rigid position for the desired duration without letting your hips sag.",
+      "Controlled, lower your hips back to the floor to finish the hold."
+    ],
+    "breathing": "Breathe continuously and evenly into your diaphragm while maintaining abdominal and glute tension.",
+    "cues": [
+      "Drive hips to the ceiling",
+      "Chest proud, shoulders down",
+      "Squeeze glutes hard"
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging hips due to fatigued or disengaged glutes.",
+        "correction": "Actively contract your glutes and hamstrings to keep the hips in line with the shoulders and ankles."
+      },
+      {
+        "fault": "Hyperextending the neck by dropping the head backward.",
+        "correction": "Keep your neck neutral with the spine, looking upward at a slight forward angle."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears.",
+        "correction": "Actively depress and retract your shoulder blades, pushing the floor away."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If wrist extension causes discomfort, rotate the hands slightly outward or perform the hold on your forearms."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

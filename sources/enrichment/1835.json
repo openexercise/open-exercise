@@ -1,0 +1,162 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Seated External Rotation",
+  "summary": "A unilateral rotator cuff exercise performed seated with the elbow braced on the knee to isolate shoulder external rotators.",
+  "aliases": [
+    {
+      "text": "Seated Dumbbell External Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell External Rotation on Knee",
+      "kind": "common"
+    },
+    {
+      "text": "Poliquin External Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "External Rotation Stretch",
+      "kind": "misspelling"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "rehabilitation",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "rotation"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "neutral",
+  "muscles": [
+    {
+      "muscle": "infraspinatus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-minor",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "supraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "external-rotation",
+        "internal-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "bench",
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit on a flat bench or the floor with one knee raised and bent to approximately 90 degrees.",
+      "Hold a light dumbbell in the working hand and rest the elbow on top of the raised knee.",
+      "Position your upper arm perpendicular to your torso and bend the elbow to a fixed 90-degree angle."
+    ],
+    "steps": [
+      "Maintain a stable, upright posture and stabilize the shoulder blade.",
+      "Rotate your shoulder to raise the dumbbell upward until your forearm is vertical.",
+      "Pause briefly at the top of the movement.",
+      "Slowly lower the dumbbell back down under control until your forearm is roughly parallel to the ground.",
+      "Complete the set and repeat on the opposite side."
+    ],
+    "breathing": "Exhale as you rotate the weight upward and inhale as you lower it under control.",
+    "cues": [
+      "Keep the elbow pinned to the knee",
+      "Pivot cleanly through the shoulder",
+      "Maintain a strict 90-degree elbow bend"
+    ],
+    "common_faults": [
+      {
+        "fault": "Extending the elbow instead of rotating the shoulder",
+        "correction": "Lock the elbow at 90 degrees throughout the entire repetition so only the shoulder rotates."
+      },
+      {
+        "fault": "Shrugging the shoulder or using excessive body English to lift the weight",
+        "correction": "Keep your shoulder blade retracted and depressed, and choose a lighter load."
+      },
+      {
+        "fault": "Rushing through the eccentric phase",
+        "correction": "Lower the dumbbell smoothly over two to three seconds to maintain constant muscular tension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Start with very light weights, as the external rotators are small muscles prone to strain when overloaded."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

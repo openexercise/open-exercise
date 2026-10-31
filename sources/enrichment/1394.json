@@ -1,0 +1,150 @@
+{
+  "is_exercise": true,
+  "name": "Seated Forward Fold",
+  "summary": "A seated flexibility exercise that stretches the hamstrings, glutes, and spinal extensors by folding the torso forward over straight legs.",
+  "aliases": [
+    {
+      "text": "Sit and Reach",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Forward Bend",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Toe Touch",
+      "kind": "common"
+    },
+    {
+      "text": "Paschimottanasana",
+      "kind": "regional"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "yoga"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "spinal-flexion",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "stance_width": "narrow",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "hamstrings",
+      "role": "stretched"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat",
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "load_convention": "not-applicable",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit upright on the floor with both legs fully extended straight in front of you.",
+      "Keep your feet together with your toes pulled back toward your shins in dorsiflexion.",
+      "Root your sit bones into the floor and lengthen your spine upward."
+    ],
+    "steps": [
+      "Hinge at your hips to reach your chest forward over your thighs.",
+      "Reach your hands along your legs toward your shins, ankles, or feet without forcing your range.",
+      "Allow your upper back to round naturally once maximal hip hinge is reached, relaxing your head and neck.",
+      "Hold the stretch at a comfortable point of tension while taking deep, steady breaths.",
+      "Slowly walk your hands back up your legs to return to an upright seated position."
+    ],
+    "breathing": "Inhale to lengthen your spine, and exhale to relax deeper into the forward fold.",
+    "cues": [
+      "Lead with your chest, not your forehead",
+      "Hinge from the hips first",
+      "Keep the kneecaps pointing straight up"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively rounding the upper back while knees bend to grab the toes.",
+        "correction": "Prioritize hip flexion over reaching the feet; bend the knees slightly or hold the shins while keeping the torso long."
+      },
+      {
+        "fault": "Aggressively bouncing or pulling on the feet into painful ranges.",
+        "correction": "Maintain a smooth, static hold and let your breath facilitate gradual relaxation into the stretch."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Individuals with acute lumbar disc herniations should keep the spine relatively neutral and avoid forced end-range lumbar flexion."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

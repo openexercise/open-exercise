@@ -1,0 +1,170 @@
+{
+  "is_exercise": true,
+  "name": "Landmine Press",
+  "summary": "An angled overhead press performed by gripping the end of an anchored barbell with both hands and pressing it upward and forward.",
+  "aliases": [
+    {
+      "text": "Two-Arm Landmine Press",
+      "kind": "common"
+    },
+    {
+      "text": "Bilateral Landmine Press",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Landmine Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "chest",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "protraction"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "landmine"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "weight-plate"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Insert one end of a barbell into a secure landmine swivel or wedge it into a reinforced corner.",
+      "Load the opposite sleeve with the desired weight and secure with a collar.",
+      "Stand facing the loaded end in an athletic shoulder-width stance.",
+      "Cup the very tip of the barbell sleeve with both hands interlaced or stacked, holding it at upper-chest height close to the collarbone with elbows tucked."
+    ],
+    "steps": [
+      "Brace your core, squeeze your glutes, and maintain a slight forward lean that matches the angle of the barbell.",
+      "Press the barbell upward and away along its natural arc until both elbows are fully extended.",
+      "Push actively through your shoulder blades at the top of the movement without overarching your lower back.",
+      "Lower the barbell under control back to the starting position at the upper chest."
+    ],
+    "breathing": "Inhale and brace your abdomen before lowering or while at the chest; exhale forcefully as you press the bar forward and up.",
+    "cues": [
+      "Brace your ribs down",
+      "Press through the collar",
+      "Reach long at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lumbar spine to heave the weight up.",
+        "correction": "Squeeze the glutes, lock the ribcage down, and lean forward slightly into the bar."
+      },
+      {
+        "fault": "Flaring elbows excessively wide to the sides.",
+        "correction": "Keep the elbows tucked at roughly a 45-degree angle in the scapular plane."
+      },
+      {
+        "fault": "Cutting the range of motion short at the top.",
+        "correction": "Extend the elbows fully and allow the scapulae to rotate upward and protract naturally at lockout."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the base of the landmine is securely anchored so it cannot slide during pressing."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Sumo Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Sumo Back Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Wide-Stance Barbell Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Sumo Back Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Sumo Squats",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "abdominals",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension",
+          "abduction",
+          "external-rotation"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "powerlifting",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "weight-plate"
+    ],
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "squat-rack",
+        "power-rack"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "632"
+  },
+  "id": "oec:barbell-sumo-squat",
+  "instructions": {
+    "setup": [
+      "Set the barbell in a rack at mid-chest level.",
+      "Step under the barbell, resting it across your upper back, and grip the bar firmly outside shoulder width.",
+      "Unrack the bar and take one to two controlled steps back.",
+      "Assume a wide stance clearly beyond shoulder width, pointing your toes outward at approximately 30 to 45 degrees.",
+      "Brace your core, keep your chest upright, and align your knees with the angle of your toes."
+    ],
+    "steps": [
+      "Take a deep breath into your abdomen, brace your trunk, and begin the descent by sitting your hips down while pushing your knees outward.",
+      "Lower under control until your thighs reach at least parallel to the floor, maintaining a neutral spine.",
+      "Drive through your mid-foot and heel, pressing the floor apart to ascend.",
+      "Complete the repetition by extending the hips and knees to a fully upright standing position."
+    ],
+    "breathing": "Inhale deeply and brace your core before initiating the descent, holding the air through the bottom turn and exhaling as you complete the ascent.",
+    "cues": [
+      "Spread the floor apart with your feet.",
+      "Track your knees over your toes.",
+      "Stay tall through your torso."
+    ],
+    "common_faults": [
+      {
+        "fault": "Knees caving inward during the ascent.",
+        "correction": "Actively push your knees outward in line with your angled toes throughout the entire movement."
+      },
+      {
+        "fault": "Stance too wide to achieve full depth safely.",
+        "correction": "Bring your feet slightly closer until you can reach parallel without hip joint discomfort or knee collapse."
+      },
+      {
+        "fault": "Excessive forward torso pitch.",
+        "correction": "Keep your chest high and drive your back up into the bar as you reverse out of the bottom."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Set safety catches or pins just below your parallel depth.",
+        "Warm up hip adductors and rotators thoroughly before handling heavy loads."
+      ],
+      "spotter": "recommended",
+      "safeties": true
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Sumo Squat",
+  "previous_ids": [
+    "oec:sumo-squats"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Sumo Squats",
+        "url": "https://wger.de/en/exercise/632/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "sophialj"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-back-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-back-squat"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated"
+    },
+    "load_position": "back",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "sumo"
+    }
+  },
+  "status": "active",
+  "summary": "A wide-stance back squat variation that heavily targets the glutes, adductors, and quadriceps while allowing a more upright torso."
+}

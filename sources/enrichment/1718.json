@@ -1,0 +1,166 @@
+{
+  "is_exercise": true,
+  "name": "Single-Arm Cable High Row",
+  "summary": "A unilateral pulling exercise performed from a high cable pulley to build the lats, upper back, and elbow flexors.",
+  "aliases": [
+    {
+      "text": "Remo alto polea alta",
+      "kind": "regional"
+    },
+    {
+      "text": "One-Arm Cable High Row",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm High Pulley Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "pull",
+      "horizontal-pull",
+      "vertical-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "half-kneeling",
+  "grip_orientation": "neutral",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "depression",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "bench",
+    "adjustable-bench"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set the cable pulley above head height and attach a single D-handle.",
+      "Grasp the handle with one hand and take a half-kneeling or seated position facing the pulley.",
+      "Extend your working arm fully forward and upward along the line of the cable, bracing your core and squaring your shoulders."
+    ],
+    "steps": [
+      "Initiate the pull by depressing your shoulder blade and driving your elbow down and back toward your hip.",
+      "Continue rowing until your hand reaches your lower ribs, squeezing your lat and upper back at the peak contraction.",
+      "Pause briefly, resisting rotation through your torso.",
+      "Slowly extend your arm along the line of the cable under control until your lat is fully stretched.",
+      "Complete the desired repetitions, then repeat on the opposite side."
+    ],
+    "breathing": "Exhale as you pull the handle toward your torso, and inhale as you return the cable to the starting position.",
+    "cues": [
+      "Drive the elbow to your hip pocket.",
+      "Keep your chest proud and square to the cable.",
+      "Pull with your back, not your biceps."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive torso rotation and momentum during the pull.",
+        "correction": "Brace your core firmly and keep your chest squared to isolate the working side."
+      },
+      {
+        "fault": "Shrugging the shoulder toward the ear at peak contraction.",
+        "correction": "Keep the shoulder blade depressed down away from your neck throughout the entire range of motion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a stable base of support to prevent being pulled forward by the cable stack."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

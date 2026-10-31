@@ -1,0 +1,163 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Bradford Press",
+  "summary": "An overhead press variation where dumbbells are pressed just over head height and alternated between front and rear shoulder positions under continuous tension.",
+  "aliases": [
+    {
+      "text": "DB Bradford Press",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "front-rack",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-lateral",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rotator-cuff",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction",
+        "flexion",
+        "horizontal-abduction",
+        "horizontal-adduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "bench",
+    "adjustable-bench"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart holding a dumbbell in each hand.",
+      "Bring the dumbbells to your front clavicles in a standard overhead press rack position with palms facing forward or slightly angled."
+    ],
+    "steps": [
+      "Press the dumbbells upward just high enough to clear the top of your head without locking out your elbows.",
+      "Shift the dumbbells slightly backward over your crown and lower them under control to the sides of your neck behind your head.",
+      "Immediately reverse the movement, pressing the dumbbells just over the top of your head again and returning them to the front rack position to complete one rep."
+    ],
+    "breathing": "Inhale as you lower the weights to each side and exhale smoothly as you press over the top of your head.",
+    "cues": [
+      "Skim the top of your head.",
+      "Maintain continuous tension without locking out.",
+      "Keep your ribs pulled down and glutes tight."
+    ],
+    "common_faults": [
+      {
+        "fault": "Pressing into full overhead lockout.",
+        "correction": "Only press high enough to safely clear the crown of your head to maintain continuous tension on the deltoids."
+      },
+      {
+        "fault": "Excessively hyperextending the lumbar spine when moving behind the head.",
+        "correction": "Brace the abdominals firmly and ensure adequate shoulder mobility before attempting behind-the-head transitions."
+      },
+      {
+        "fault": "Using excessively heavy weights.",
+        "correction": "Select light to moderate dumbbells to maintain smooth, uninterrupted control throughout the arc."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid this exercise if you experience shoulder impingement or lack the active external rotation required to safely handle loads behind the neck."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

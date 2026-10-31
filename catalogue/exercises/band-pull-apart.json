@@ -1,0 +1,220 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Band Pull-Aparts",
+      "kind": "common"
+    },
+    {
+      "text": "Resistance Band Pull-Apart",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-posterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "infraspinatus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "teres-minor",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-abduction",
+          "external-rotation"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "mobility",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "resistance-band",
+        "mini-band"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1380"
+  },
+  "id": "oec:band-pull-apart",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and brace your core.",
+      "Hold a resistance band with an overhand grip about shoulder-width apart, arms extended forward at chest height."
+    ],
+    "steps": [
+      "Maintaining a slight, fixed bend in your elbows, pull your hands horizontally apart until the band contacts your chest.",
+      "Pause momentarily at peak contraction and squeeze your shoulder blades firmly together.",
+      "Reverse the movement with control, maintaining tension on the band as you return your hands to shoulder-width apart."
+    ],
+    "breathing": "Exhale as you pull the band apart across your chest, and inhale as you return to the starting position.",
+    "cues": [
+      "Squeeze your shoulder blades together.",
+      "Keep your shoulders down away from your ears.",
+      "Lead with the back of your hands."
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulders upward during the pull.",
+        "correction": "Keep your upper traps relaxed and actively pull your shoulder blades down."
+      },
+      {
+        "fault": "Extending through the lumbar spine to complete the motion.",
+        "correction": "Brace your core and keep your ribcage pinned down throughout the set."
+      },
+      {
+        "fault": "Bending and extending the elbows to simulate movement.",
+        "correction": "Lock a soft bend in the elbows and pivot exclusively from the shoulders and scapulae."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Inspect the resistance band for tears, cracks, or excessive wear before beginning."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "elastic"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "band-tension",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Band Pull-Apart",
+  "previous_ids": [
+    "oec:band-pull-aparts"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Band pull-aparts",
+        "url": "https://wger.de/en/exercise/1380/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "schwolfar"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-rear-delt-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-reverse-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-bent-over-reverse-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-reverse-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:standing-cable-reverse-fly"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A shoulder and upper-back isolation exercise performed by horizontally pulling an elastic band apart across the chest."
+}

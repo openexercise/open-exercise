@@ -1,0 +1,165 @@
+{
+  "is_exercise": true,
+  "name": "L-Sit",
+  "summary": "An isometric bodyweight exercise where the body is supported on the hands with the torso upright and legs extended straight out in front parallel to the floor.",
+  "aliases": [
+    {
+      "text": "L-Sit Hold",
+      "kind": "common"
+    },
+    {
+      "text": "L Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Floor L-Sit",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "support",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "protraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "parallettes",
+    "yoga-block",
+    "dip-station"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit on the floor with your legs fully extended straight in front of you and feet together.",
+      "Place your palms flat on the floor beside your hips, with fingers pointing forward.",
+      "Engage your core and prepare to push firmly through the ground."
+    ],
+    "steps": [
+      "Press your hands hard into the floor, depressing your shoulders to lift your hips and buttocks off the ground.",
+      "Simultaneously contract your hip flexors and abdominals to lift your legs off the floor, keeping your knees completely locked and toes pointed.",
+      "Hold your legs parallel to the floor with your body forming a sharp ninety-degree L-shape.",
+      "Maintain the hold for the target duration, then lower your hips and legs smoothly back to the floor."
+    ],
+    "breathing": "Breathe continuously with shallow, controlled breaths while maintaining high intra-abdominal tension throughout the hold.",
+    "cues": [
+      "Push the floor away",
+      "Lock your knees",
+      "Point your toes",
+      "Keep shoulders down from your ears"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bent knees during the hold.",
+        "correction": "Actively flex your quadriceps to lock out the knees completely; regress to a tucked or single-leg hold if hip flexor strength or hamstring flexibility is lacking."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears.",
+        "correction": "Actively depress your scapulae by pushing your hands through the floor to create maximum space between your neck and shoulders."
+      },
+      {
+        "fault": "Allowing the hips or feet to drop toward the floor.",
+        "correction": "Engage the lower abdominals and hip flexors harder, pulling the thighs toward the chest to keep the legs at or above hip height."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Warm up the wrists and shoulders thoroughly prior to performing maximum-effort holds.",
+        "If you experience wrist discomfort on the flat floor, use parallettes or push-up handles to keep the wrists neutral."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

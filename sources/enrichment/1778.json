@@ -1,0 +1,180 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Incline Bench Press",
+  "summary": "An upper-body barbell pressing exercise performed on an inclined bench to emphasize the upper chest and anterior shoulders.",
+  "aliases": [
+    {
+      "text": "Incline Barbell Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Supino Inclinado",
+      "kind": "regional"
+    },
+    {
+      "text": "Incline Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "seated",
+  "incline_degrees": 30,
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "chest",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rotator-cuff",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "horizontal-adduction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "upward-rotation"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "adjustable-bench",
+        "bench"
+      ]
+    },
+    {
+      "any_of": [
+        "power-rack",
+        "squat-rack"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an incline between 30 and 45 degrees inside a rack or use an incline bench station.",
+      "Lie back on the bench with your feet planted firmly flat on the floor.",
+      "Retract and depress your shoulder blades, firmly pinning them into the backrest.",
+      "Grasp the barbell with a pronated grip slightly wider than shoulder width."
+    ],
+    "steps": [
+      "Unrack the bar and hold it directly over your upper chest with elbows fully extended.",
+      "Lower the bar under control until it lightly touches your upper chest just below the clavicle.",
+      "Pause momentarily without letting the weight collapse onto your torso.",
+      "Press the bar upward and slightly backward along a smooth bar path back to the starting locked-out position."
+    ],
+    "breathing": "Inhale deeply and brace your core as you lower the barbell, then exhale forcefully as you drive through the sticking point.",
+    "cues": [
+      "Keep your shoulder blades pinched together.",
+      "Tuck elbows slightly rather than flaring them out wide.",
+      "Drive your feet through the floor for stability."
+    ],
+    "common_faults": [
+      {
+        "fault": "Setting the bench angle too steep (above 45 degrees).",
+        "correction": "Keep the bench angle around 30 to 45 degrees to target the upper chest instead of shifting the load entirely to the shoulders."
+      },
+      {
+        "fault": "Excessively arching the lower back and lifting hips off the bench.",
+        "correction": "Maintain glute contact with the seat pad and keep an active core brace throughout the movement."
+      },
+      {
+        "fault": "Flaring elbows directly out at a 90-degree angle to the torso.",
+        "correction": "Tuck elbows to roughly a 45- to 60-degree angle relative to the torso to protect the shoulder joints."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the bench angle is securely locked before loading.",
+        "Avoid bouncing the barbell off your chest."
+      ],
+      "spotter": "recommended",
+      "safeties": true
+    }
+  }
+}

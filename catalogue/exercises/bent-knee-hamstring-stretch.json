@@ -1,0 +1,173 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Bent-Leg Hamstring Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Bent-Knee Hamstring Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Bent-Leg Hamstring Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "hamstrings",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat",
+      "strap"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1840"
+  },
+  "id": "oec:bent-knee-hamstring-stretch",
+  "instructions": {
+    "setup": [
+      "Lie face up on a comfortable mat with both legs fully extended.",
+      "Bend one knee and lift the foot off the floor, bringing the knee toward your torso.",
+      "Clasp both hands behind the back of the working thigh, just below the knee joint."
+    ],
+    "steps": [
+      "Gently pull the thigh closer to your chest while keeping the knee bent at roughly ninety degrees.",
+      "Stop when you feel a gentle, comfortable stretch deep in the back of the upper thigh and hip.",
+      "Hold the position statically, keeping your head, neck, and opposite leg relaxed against the floor.",
+      "Carefully release the leg back down and switch sides."
+    ],
+    "breathing": "Breathe deeply and rhythmically through your nose, using each exhale to release tension.",
+    "cues": [
+      "Keep the opposite leg flat on the ground",
+      "Relax your neck and shoulders onto the mat",
+      "Hold behind the thigh, never directly on the knee joint"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the head and shoulders off the floor to reach the leg",
+        "correction": "Loop a strap or towel behind the thigh so your upper body can remain flat and relaxed."
+      },
+      {
+        "fault": "Allowing the opposite thigh to lift off the floor",
+        "correction": "Keep the non-working leg grounded and actively pressed into the floor to stabilize the pelvis."
+      },
+      {
+        "fault": "Extending the knee and turning the movement into a straight-leg stretch",
+        "correction": "Maintain a flexed knee throughout to focus the stretch on the proximal hamstring fibers."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not aggressively jerk or pull the thigh past the point of mild tension.",
+        "Stop if you feel sharp nerve sensations or numbness radiating down the leg."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Bent-Knee Hamstring Stretch",
+  "previous_ids": [
+    "oec:bent-leg-hamstring-stretch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Bent-Leg Hamstring Stretch",
+        "url": "https://wger.de/en/exercise/1840/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Croak6728"
+      }
+    ]
+  },
+  "setup": {
+    "position": "supine",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A supine stretch that isolates the proximal hamstrings and glutes by drawing a bent leg toward the chest."
+}

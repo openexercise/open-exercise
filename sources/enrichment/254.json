@@ -1,0 +1,159 @@
+{
+  "is_exercise": true,
+  "name": "Plate Front Raise",
+  "summary": "A shoulder isolation exercise where a weight plate is raised forward to shoulder level to target the anterior deltoids.",
+  "aliases": [
+    {
+      "text": "Front Raises with Plates",
+      "kind": "common"
+    },
+    {
+      "text": "Weight Plate Front Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-lateral",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "weight-plate"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and your core braced.",
+      "Grip the outer edges of a weight plate at approximately the 9 and 3 o'clock positions, with palms facing inward toward each other.",
+      "Allow the plate to rest in front of your thighs with a slight, unlocked bend in your elbows."
+    ],
+    "steps": [
+      "Keeping your arms extended and core engaged, raise the plate straight out in front of you in a controlled arc.",
+      "Continue raising until the plate reaches eye or shoulder level.",
+      "Pause briefly at the top while maintaining tension on your shoulders.",
+      "Lower the plate slowly along the same path back to your thighs without swinging."
+    ],
+    "breathing": "Exhale as you raise the plate; inhale as you lower it back to the starting position.",
+    "cues": [
+      "Keep elbows softly bent but rigid.",
+      "Lead with the front of the shoulders, not the hips.",
+      "Control the descent; don't let gravity drop the plate."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso and using momentum to heave the plate upward.",
+        "correction": "Use a lighter plate and keep your glutes and abs braced to stay completely still."
+      },
+      {
+        "fault": "Hyperextending the lower back at the top of the raise.",
+        "correction": "Keep your ribcage pulled down and stop the lift when the plate reaches eye level."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a secure grip on the plate rim to prevent slipping, especially as fatigue sets in."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

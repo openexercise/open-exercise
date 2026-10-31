@@ -1,0 +1,166 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Standing Bent-Knee Calf Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Wall Soleus Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Soleus / Achilles Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "soleus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "tibialis-posterior",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "wall",
+      "chair"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1240,2650"
+  },
+  "id": "oec:standing-soleus-stretch",
+  "instructions": {
+    "setup": [
+      "Stand facing a wall or sturdy support, placing your hands against it at shoulder height for balance.",
+      "Step one foot back into a staggered stance, keeping both feet pointed straight ahead."
+    ],
+    "steps": [
+      "Bend both knees slightly, shifting your weight down and slightly back into the rear leg.",
+      "Keep the rear heel firmly planted on the floor as you sink your hips down and drive the rear knee forward over the toes.",
+      "Hold the stretch in the lower calf and Achilles region of the back leg for the target duration, then switch sides."
+    ],
+    "breathing": "Breathe smoothly and deeply throughout the hold, relaxing into the stretch on each exhale.",
+    "cues": [
+      "Keep the back heel glued to the floor",
+      "Bend both knees",
+      "Sink hips straight down"
+    ],
+    "common_faults": [
+      {
+        "fault": "Straightening the back knee",
+        "correction": "Keep the back knee bent to bias the soleus rather than the gastrocnemius."
+      },
+      {
+        "fault": "Lifting the back heel off the floor",
+        "correction": "Shorten your stance so your heel remains completely in contact with the ground throughout the stretch."
+      },
+      {
+        "fault": "Turning the back foot outward",
+        "correction": "Point both feet directly forward to ensure the stretch acts evenly across the calf."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not bounce or force end-range dorsiflexion if you experience sharp pain in the Achilles tendon or ankle joint."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Standing Soleus Stretch",
+  "previous_ids": [
+    "oec:soleus-achilles-stretch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Standing Soleus Stretch",
+        "url": "https://wger.de/en/exercise/1240/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "erikocobra"
+      },
+      {
+        "title": "wger: Soleus / Achilles Stretch",
+        "url": "https://wger.de/en/exercise/2650/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "setup": {
+    "position": "split-stance",
+    "range": "full",
+    "stance": {
+      "kind": "staggered"
+    }
+  },
+  "status": "active",
+  "summary": "A standing calf stretch performed with a bent knee to isolate the deeper soleus muscle and Achilles tendon."
+}

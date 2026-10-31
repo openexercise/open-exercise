@@ -1,0 +1,131 @@
+{
+  "is_exercise": true,
+  "name": "Tibialis Raise",
+  "summary": "A bodyweight ankle dorsiflexion exercise performed standing on the heels to strengthen the anterior lower leg.",
+  "aliases": [
+    {
+      "text": "Standing Tibialis Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Toe Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Tib Raise",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Tibialis Anterior Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "rehabilitation",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-ankle"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "tibialis-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "peroneals",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "wall"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "tempo",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart on a flat, even surface.",
+      "Keep your knees straight but unlocked and maintain an upright posture.",
+      "If balance is challenging, place your upper back against a wall with your feet placed slightly forward."
+    ],
+    "steps": [
+      "Dorsiflex your ankles by pulling your toes and the balls of your feet upward toward your shins.",
+      "Pivot onto your heels, raising the forefoot as high off the floor as comfortably possible.",
+      "Hold the peak contraction briefly while squeezing the muscles on the front of your shins.",
+      "Lower the balls of your feet smoothly and with control back to the floor without bouncing."
+    ],
+    "breathing": "Exhale as you pull your toes upward toward your shins; inhale as you lower your feet under control.",
+    "cues": [
+      "Toes to shins",
+      "Stay tall",
+      "Pause at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the knees to cheat the range of motion.",
+        "correction": "Keep your knees straight throughout each repetition to isolate dorsiflexion."
+      },
+      {
+        "fault": "Bouncing the feet off the floor rather than using controlled muscle contractions.",
+        "correction": "Lower slowly and pause for a fraction of a second before lifting again."
+      },
+      {
+        "fault": "Hinging excessively at the hips to compensate for balance.",
+        "correction": "Maintain an upright torso, or lean your back lightly against a wall for support."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform near a wall or sturdy support if balance on the heels feels unstable."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Hip Thrust",
+  "summary": "A loaded hip extension exercise performed with the upper back supported on a bench and a barbell across the hips to target the glutes.",
+  "aliases": [
+    {
+      "text": "Hip Thrust",
+      "kind": "common"
+    },
+    {
+      "text": "Glute Thrust",
+      "kind": "common"
+    },
+    {
+      "text": "BB Hip Thrust",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "support",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "hip",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "plyo-box"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit on the floor with your upper back resting against a sturdy bench, positioned just below your shoulder blades.",
+      "Roll a padded barbell directly over your hips so it rests in the hip crease.",
+      "Plant your feet flat on the floor roughly shoulder-width apart, positioned so your shins will be vertical at the top of the movement.",
+      "Grip the bar lightly with both hands to keep it stable on your hips."
+    ],
+    "steps": [
+      "Drive through your heels and extend your hips upward by powerfully contracting your glutes.",
+      "Raise the bar until your hips are fully extended and your thighs, pelvis, and torso form a straight line parallel to the floor.",
+      "Pause briefly at the top to achieve maximum glute contraction, keeping your chin tucked and ribs pulled down.",
+      "Lower your hips under control back toward the floor by hinging at the hips until the plates tap or hover just above the ground."
+    ],
+    "breathing": "Inhale and brace your core at the bottom, then exhale forcefully as you drive the barbell up to full hip lockout.",
+    "cues": [
+      "Drive through the heels.",
+      "Tuck your chin and look forward.",
+      "Squeeze your glutes at the top without arching your lower back."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lumbar spine at the top of the movement.",
+        "correction": "Keep your ribs down, chin tucked, and finish the lockout with a posterior pelvic tilt driven by the glutes rather than arching the lower back."
+      },
+      {
+        "fault": "Placing feet too far forward or too close to the hips.",
+        "correction": "Adjust your stance so that your shins are strictly vertical at full hip extension."
+      },
+      {
+        "fault": "Allowing knees to cave inward during the lift.",
+        "correction": "Actively push your knees outward in line with your toes throughout the entire rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a thick bar pad or folded mat across the hips to protect the pelvic bones from direct bar pressure.",
+        "Ensure the bench is stable and cannot slide backward during hip extension."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

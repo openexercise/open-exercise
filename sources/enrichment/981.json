@@ -1,0 +1,162 @@
+{
+  "is_exercise": true,
+  "name": "Step-Up",
+  "summary": "A unilateral lower-body exercise where you step onto an elevated platform by extending the hip and knee of the leading leg.",
+  "aliases": [
+    {
+      "text": "Box Step-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Bench Step-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Chair Step",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_kind": "single-leg",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "plyo-box",
+        "bench",
+        "step",
+        "chair"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "dumbbell",
+    "kettlebell",
+    "weight-vest"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand upright facing a stable box, bench, or step with feet hip-width apart.",
+      "Place your entire leading foot flat onto the center of the platform so the heel does not hang off the edge."
+    ],
+    "steps": [
+      "Lean slightly forward at the torso to load the lead leg while keeping your spine neutral.",
+      "Drive down through the center of the lead foot to extend the working knee and hip, lifting your body upward.",
+      "Touch the trailing foot lightly to the top of the platform at full hip lockout without shifting full bodyweight onto it.",
+      "Slowly lower yourself back down under control using the lead leg until the trailing foot reaches the floor.",
+      "Complete all repetitions on one side before switching, or alternate legs as programmed."
+    ],
+    "breathing": "Inhale before initiating the ascent, exhale forcefully as you drive up through the lead leg, and inhale again as you lower under control.",
+    "cues": [
+      "Drive through the front heel",
+      "Don't bounce off the floor",
+      "Keep the knee tracking over the toes"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pushing off heavily with the back foot instead of working the lead leg.",
+        "correction": "Keep the trailing ankle dorsiflexed or touch lightly with just the toes, forcing the front leg to do all the work."
+      },
+      {
+        "fault": "Allowing the working knee to collapse inward (valgus).",
+        "correction": "Track the knee actively in line with your middle toes throughout the ascent and descent."
+      },
+      {
+        "fault": "Using a platform that is excessively tall, forcing excessive lumbar flexion or pelvic tilt.",
+        "correction": "Select a step height where the hip does not flex beyond roughly parallel to the knee when the foot is placed on top."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the stepping surface is completely stable, non-slip, and properly anchored before beginning."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

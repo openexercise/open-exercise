@@ -1,0 +1,176 @@
+{
+  "is_exercise": true,
+  "name": "Cable Crossover",
+  "summary": "A standing cable isolation exercise that pulls high-set handles downward across the body to emphasize the lower sternal fibers of the chest.",
+  "aliases": [
+    {
+      "text": "High-to-Low Cable Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Cable High-to-Low Fly",
+      "kind": "common"
+    },
+    {
+      "text": "High-to-Low Cable Crossover",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Decline Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Fly Lower Chest",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Cable Crossover",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-chest-fly",
+      "horizontal-push"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_kind": "staggered",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-abdominal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-minor",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "adduction",
+        "horizontal-adduction",
+        "internal-rotation"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "depression"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach single D-handles to both pulleys of a cable crossover station and adjust them to the highest setting.",
+      "Grasp a handle in each hand, take a step forward into a staggered stance to establish cable tension, and lean your torso slightly forward from the hips.",
+      "Set your arms out to the sides with a slight, fixed bend at the elbows, feeling an initial stretch across your chest."
+    ],
+    "steps": [
+      "Draw your hands downward and together in a wide, sweeping arc toward your lower abdomen.",
+      "Bring the handles together or slightly cross your wrists in front of your hips, actively contracting your chest.",
+      "Pause for one second at peak contraction to squeeze the lower pectorals.",
+      "Slowly reverse the motion under control along the same arc, allowing your arms to open until you feel a full stretch across the chest."
+    ],
+    "breathing": "Exhale as you pull the handles down and together; inhale smoothly as you return to the stretched starting position.",
+    "cues": [
+      "Hug a wide barrel downward",
+      "Lock your elbow angle throughout the motion",
+      "Lead with the wrists and squeeze the lower chest"
+    ],
+    "common_faults": [
+      {
+        "fault": "Turning the fly into a downward press by bending and extending the elbows.",
+        "correction": "Maintain a consistent, slight bend in the elbows from start to finish so movement occurs strictly at the shoulders."
+      },
+      {
+        "fault": "Swinging the torso back and forth to generate momentum.",
+        "correction": "Brace your core, keep the staggered stance anchored, and isolate the movement strictly to your chest and shoulders."
+      },
+      {
+        "fault": "Allowing the cables to hyperextend the shoulders excessively on the return.",
+        "correction": "Control the eccentric phase and stop when your upper arms align with your torso to protect the shoulder joint."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not allow the weight stack to pull your arms behind the plane of your torso uncontrollably."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

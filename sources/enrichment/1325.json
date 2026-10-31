@@ -1,0 +1,183 @@
+{
+  "is_exercise": true,
+  "name": "Lateral Bound",
+  "summary": "A plyometric drill where you explosively push off one foot sideways and stick the landing on the opposite leg to develop lateral power and deceleration control.",
+  "aliases": [
+    {
+      "text": "Lateral Push Off",
+      "kind": "common"
+    },
+    {
+      "text": "Skater Hop",
+      "kind": "common"
+    },
+    {
+      "text": "Skater Jump",
+      "kind": "common"
+    },
+    {
+      "text": "Lateral Single-Leg Bound",
+      "kind": "common"
+    },
+    {
+      "text": "Lateral Bound and Stick",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "plyometric",
+      "power",
+      "balance",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "jump"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "single-leg",
+  "muscles": [
+    {
+      "muscle": "gluteus-medius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "foot-intrinsics",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "abduction",
+        "adduction",
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "subtalar",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "cone"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart on a clear, non-slip surface.",
+      "Shift your weight onto one leg and slightly flex the ankle, knee, and hip into an athletic ready stance.",
+      "Lift the non-weight-bearing foot slightly off the floor, keeping your torso upright and core engaged."
+    ],
+    "steps": [
+      "Hinge slightly at the hip and load your support leg like a compressed spring.",
+      "Explosively push off the floor laterally, driving sideways across your body using your hip and lower leg.",
+      "Land softly on the opposite foot, absorbing the impact by bending through the ankle, knee, and hip in a controlled quarter-squat.",
+      "Pause for one to two seconds to establish complete balance and stability before repeating the bound back in the opposite direction."
+    ],
+    "breathing": "Inhale as you load the stance leg, exhale forcefully during the lateral drive, and breathe steadily while stabilizing the landing.",
+    "cues": [
+      "Push the floor away sideways",
+      "Stick and freeze the landing",
+      "Land quiet and soft",
+      "Knee tracks over toes"
+    ],
+    "common_faults": [
+      {
+        "fault": "Landing with a stiff knee and hip, creating excessive joint impact.",
+        "correction": "Actively absorb force upon landing by flexing through the hip, knee, and ankle into a soft athletic position."
+      },
+      {
+        "fault": "Knee valgus where the landing knee collapses inward.",
+        "correction": "Engage the glutes and keep the landing knee stacked directly over the second toe."
+      },
+      {
+        "fault": "Rushing immediately into the next jump without stabilizing.",
+        "correction": "Hold the landing for a distinct one- to two-second pause to develop deceleration mechanics before bounding again."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure ample floor space free of equipment and slippery surfaces.",
+        "Progress jump distance gradually to ensure landing control before prioritizing power."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

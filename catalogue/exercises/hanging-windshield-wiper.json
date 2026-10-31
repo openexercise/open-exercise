@@ -1,0 +1,225 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Windshield Wiper",
+      "kind": "common"
+    },
+    {
+      "text": "Windshield Wipers",
+      "kind": "common"
+    },
+    {
+      "text": "Hanging Windshield Wipers",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "external-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "synergist"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "rotation",
+          "flexion",
+          "lateral-flexion"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "rotation"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "fingers",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "rotation",
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "transverse",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "advanced"
+  },
+  "equipment": {
+    "required": [
+      [
+        "pull-up-bar"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1743"
+  },
+  "id": "oec:hanging-windshield-wiper",
+  "instructions": {
+    "setup": [
+      "Take an overhand, shoulder-width grip on a sturdy pull-up bar and hang at full arm extension.",
+      "Engage your lats and depress your shoulders to stabilize the upper body.",
+      "Pull your torso slightly back and raise your legs until your toes point straight up toward the bar, holding your body inverted or nearly parallel to the floor."
+    ],
+    "steps": [
+      "Keeping your legs straight and feet pressed together, slowly rotate your hips and lower your legs to one side.",
+      "Lower your legs only as far as you can control without losing your upper-body stability.",
+      "Contract your obliques and core to sweep your legs back up through center and over to the opposite side in a smooth, continuous arc.",
+      "Continue alternating sides for the target rep count before lowering your legs back down with control."
+    ],
+    "breathing": "Exhale as you rotate your legs back upward toward the center; inhale as you lower them under control to each side.",
+    "cues": [
+      "Legs glued together throughout the arc.",
+      "Keep the shoulders locked and stable.",
+      "Control the descent, don't let gravity swing the legs."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging and relying on momentum to flip the legs back and forth.",
+        "correction": "Slow the tempo down and pause momentarily at each edge of the range to ensure active muscular control."
+      },
+      {
+        "fault": "Bending the knees excessively due to lack of hamstring flexibility or core fatigue.",
+        "correction": "Keep the knees locked straight; if full extension is unattainable, practice bent-knee windshield wipers as a regression."
+      },
+      {
+        "fault": "Allowing the upper torso and shoulders to twist out of alignment.",
+        "correction": "Maintain heavy lat activation and a rigid shoulder girdle so that rotation occurs strictly through the hips and torso."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure your grip is secure and dry before initiating the inverted hang to avoid slipping.",
+        "Discontinue if you feel sharp pain in the lower back or shoulders."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Hanging Windshield Wiper",
+  "previous_ids": [
+    "oec:windshield-wipers"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Windshield Wipers",
+        "url": "https://wger.de/en/exercise/1743/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Happy"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:hanging-leg-raise"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:toes-to-bar"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:hanging-leg-raise"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "hanging"
+  },
+  "status": "active",
+  "summary": "An advanced bodyweight core exercise performed by hanging from a pull-up bar, raising the legs vertically, and rotating them side to side in an arc."
+}

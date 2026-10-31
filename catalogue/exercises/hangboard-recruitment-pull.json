@@ -1,0 +1,227 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Recruitment Pulls",
+      "kind": "common"
+    },
+    {
+      "text": "Isometric Hangboard Pull",
+      "kind": "common"
+    },
+    {
+      "text": "Overcoming Isometric Fingerboard Pull",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "forearm-flexors",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "fingers",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "sport",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-grip",
+      "climb",
+      "vertical-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "wall"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1216"
+  },
+  "id": "oec:hangboard-recruitment-pull",
+  "instructions": {
+    "setup": [
+      "Stand directly beneath a securely mounted hangboard with your feet firmly planted on the floor or a stable platform.",
+      "Grip the target edge with one hand using a half-crimp or open-hand grip.",
+      "Position your working arm overhead with a slight bend in the elbow, maintaining an elbow angle between 120 and 150 degrees rather than full lockout."
+    ],
+    "steps": [
+      "Engage your shoulder blade down and back to set your shoulder girdle firmly.",
+      "Gradually ramp up tension through your fingers, arm, and back over one to two seconds until reaching maximal pulling effort.",
+      "Pull downward against the edge as hard as possible while keeping your feet anchored to the floor.",
+      "Maintain maximal effort for three to five seconds without letting your grip position deform.",
+      "Smoothly decrease tension and release the hold."
+    ],
+    "breathing": "Inhale before ramping up tension, then exhale forcefully through pursed lips while sustaining the maximal isometric pull.",
+    "cues": [
+      "Crush the edge",
+      "Pack the shoulder",
+      "Keep the feet anchored"
+    ],
+    "common_faults": [
+      {
+        "fault": "Jerking into the pull abruptly rather than smoothly ramping tension.",
+        "correction": "Take one to two seconds to build up from submaximal to maximal force to protect finger pulleys and connective tissue."
+      },
+      {
+        "fault": "Locking the elbow out fully.",
+        "correction": "Maintain a gentle 120 to 150 degree bend at the elbow to properly engage the upper arm and shoulder musculature."
+      },
+      {
+        "fault": "Letting the shoulder shrug upward into the ear during the pull.",
+        "correction": "Depress and retract the scapula before initiating force, keeping the shoulder active throughout."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure fingers and upper body are thoroughly warmed up before attempting maximal isometric efforts.",
+        "Do not use a full closed crimp with thumb wrapped to minimize stress on the A2 pulley."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Hangboard Recruitment Pull",
+  "previous_ids": [
+    "oec:recruitment-pulls"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Recruitment Pulls",
+        "url": "https://wger.de/en/exercise/1216/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:hangboard-dead-hang"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:hangboard-dead-hang"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated"
+    },
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An overcoming isometric finger-strength exercise performed by pulling at maximal effort with one arm against an unyielding hangboard edge while standing on the floor."
+}

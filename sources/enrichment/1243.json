@@ -1,0 +1,148 @@
+{
+  "is_exercise": true,
+  "name": "Standing Calf Raise",
+  "summary": "A fundamental bodyweight movement that strengthens the gastrocnemius and soleus by raising the heels off the ground.",
+  "aliases": [
+    {
+      "text": "Double Leg Calf Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Heel Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Double Leg Heel Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Bodyweight Calf Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "rehabilitation",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-ankle"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gastrocnemius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "soleus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "tibialis-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "peroneals",
+      "role": "synergist"
+    },
+    {
+      "muscle": "foot-intrinsics",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "toes",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "wall"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with your feet hip-width apart and toes pointing straight ahead.",
+      "Keep your knees straight but unlocked, with your hands resting on your hips or gently against a wall for balance."
+    ],
+    "steps": [
+      "Press through the balls of both feet and lift your heels as high as possible.",
+      "Pause for a moment at the peak contraction while keeping your weight evenly distributed across the base of your toes.",
+      "Lower your heels with control back to the floor until they lightly touch down."
+    ],
+    "breathing": "Exhale as you press onto your toes and inhale as you lower back to the starting position.",
+    "cues": [
+      "Push straight up through the big toes.",
+      "Squeeze the calves hard at the top.",
+      "Control the descent; do not drop."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling onto the outer edges of the feet.",
+        "correction": "Distribute your pressure evenly across the metatarsal heads, specifically driving through the ball of the big toe."
+      },
+      {
+        "fault": "Bending the knees to bounce or generate momentum.",
+        "correction": "Keep the knees extended throughout the set to isolate the triceps surae."
+      },
+      {
+        "fault": "Rushing through reps without a full range of motion.",
+        "correction": "Achieve full plantarflexion at the top with a brief pause, and lower slowly under tension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Place fingertips lightly against a wall or sturdy object if balance is compromised."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

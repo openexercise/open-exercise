@@ -1,0 +1,233 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "commando pull-ups",
+      "kind": "common"
+    },
+    {
+      "text": "Commando Chin-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Offset Grip Pull-Up",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "downward-rotation",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "anti-rotation"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "weight-vest",
+      "dip-belt",
+      "resistance-band"
+    ],
+    "required": [
+      [
+        "pull-up-bar"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "980"
+  },
+  "id": "oec:commando-pull-up",
+  "instructions": {
+    "setup": [
+      "Stand directly beneath a pull-up bar, oriented parallel with the bar overhead.",
+      "Grasp the bar with one hand facing toward you and the other facing away, placed close together or touching along the length of the bar.",
+      "Hang at full arm extension with your core braced and legs straight or crossed at the ankles."
+    ],
+    "steps": [
+      "Depress your scapulae and pull your body upward while shifting your head slightly to one side of the bar.",
+      "Continue pulling until your shoulder touches or clears the level of the bar on that side.",
+      "Lower yourself under control back to a full dead hang.",
+      "Initiate the next repetition, pulling upward while shifting your head to the opposite side of the bar."
+    ],
+    "breathing": "Exhale as you pull your torso upward; inhale as you lower back down under control.",
+    "cues": [
+      "Lead with the chest, not the chin.",
+      "Brace your core to prevent swinging or twisting.",
+      "Alternate sides cleanly on every rep."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive torso rotation during the pull.",
+        "correction": "Brace your abdominals and obliques aggressively to keep the torso traveling vertically without spinning."
+      },
+      {
+        "fault": "Kicking the legs or kipping.",
+        "correction": "Keep the lower body rigid and initiate each pull strictly from the back and arms."
+      },
+      {
+        "fault": "Failing to switch head sides.",
+        "correction": "Ensure an equal count of reps to the left and right side of the bar to maintain balanced muscle development."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the pull-up bar is securely mounted and has sufficient overhead clearance on both sides.",
+        "Switch hand positions (front versus back hand) evenly between sets to balance grip and shoulder stresses."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Commando Pull-Up",
+  "previous_ids": [
+    "oec:commando-pull-ups"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: commando pull-ups",
+        "url": "https://wger.de/en/exercise/980/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "clafal"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:pull-up"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:pull-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "mixed",
+      "width": "narrow"
+    },
+    "position": "hanging",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A bodyweight pull-up variation performed aligned beneath the bar with an offset mixed grip, pulling the head to alternate sides on each repetition."
+}

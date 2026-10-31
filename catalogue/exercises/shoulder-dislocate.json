@@ -1,0 +1,217 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Shoulder Pass-Through",
+      "kind": "common"
+    },
+    {
+      "text": "Shoulder Pass Through",
+      "kind": "common"
+    },
+    {
+      "text": "Shoulder Dislocation",
+      "kind": "common"
+    },
+    {
+      "text": "PVC Pipe Pass-Through",
+      "kind": "common"
+    },
+    {
+      "text": "Band Shoulder Dislocate",
+      "kind": "common"
+    },
+    {
+      "text": "Shoulder dislocates",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major",
+        "role": "stretched"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stretched"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "stretched"
+      },
+      {
+        "muscle": "trapezius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "circumduction",
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "elevation",
+          "depression",
+          "upward-rotation",
+          "downward-rotation",
+          "retraction",
+          "protraction"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "stretch"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "strap",
+        "resistance-band"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1081"
+  },
+  "id": "oec:shoulder-dislocate",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and your core lightly braced.",
+      "Grasp a strap, dowel, or resistance band with a wide pronated overhand grip in front of your thighs.",
+      "Ensure your grip is wide enough to allow full rotation without bending your elbows."
+    ],
+    "steps": [
+      "Keep your arms fully extended as you raise the implement up and overhead.",
+      "Continue rotating through the shoulders, lowering the implement behind your back until it touches your lower back or glutes.",
+      "Reverse the motion along the same path, bringing the implement back overhead and returning to the front of your hips."
+    ],
+    "breathing": "Inhale as you raise your arms overhead, and exhale as you finish lowering behind you and return forward.",
+    "cues": [
+      "Lock your elbows straight throughout.",
+      "Keep your ribs down and glutes squeezed.",
+      "Widen your grip if your arms bend."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the elbows to force the implement around.",
+        "correction": "Widen your hand placement until you can complete the full arc with straight arms."
+      },
+      {
+        "fault": "Excessive arching of the lower back and rib flare as arms go overhead.",
+        "correction": "Brace your abdominals and maintain a neutral pelvis throughout the entire movement."
+      },
+      {
+        "fault": "Rushing through the movement or moving asymmetrically.",
+        "correction": "Perform the rotation slowly and ensure both arms move in unison."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not force through sharp pain in the anterior shoulder; widen your grip or reduce the range of motion as needed."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Shoulder Dislocate",
+  "previous_ids": [
+    "oec:shoulder-dislocates"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Shoulder dislocates",
+        "url": "https://wger.de/en/exercise/1081/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "tinman"
+      }
+    ]
+  },
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "wide"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A dynamic shoulder mobility drill where a light implement or band is moved from the hips overhead and behind the back with straight arms."
+}

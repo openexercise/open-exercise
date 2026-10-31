@@ -1,0 +1,204 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "preacher curl",
+      "kind": "common"
+    },
+    {
+      "text": "ez bar preacher curl",
+      "kind": "common"
+    },
+    {
+      "text": "scott curl",
+      "kind": "common"
+    },
+    {
+      "text": "Preacher Curls",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "ez-bar"
+      ],
+      [
+        "preacher-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "465"
+  },
+  "id": "oec:ez-bar-preacher-curl",
+  "instructions": {
+    "setup": [
+      "Adjust the preacher bench seat height so your armpits rest comfortably over the top edge of the pad and your chest sits firmly against it.",
+      "Grasp the inner angled grips of the EZ-bar with an underhand grip and position your triceps flat against the angled pad."
+    ],
+    "steps": [
+      "Lower the bar under control until your elbows are fully extended without hyperextending.",
+      "Contract your biceps to curl the barbell upward until your forearms are nearly vertical.",
+      "Squeeze your biceps at the peak of contraction, then lower the bar slowly back to the starting position."
+    ],
+    "breathing": "Inhale as you lower the barbell under control; exhale as you curl the weight toward the top.",
+    "cues": [
+      "Keep your upper arms glued to the pad.",
+      "Do not lift your hips off the seat.",
+      "Control the bottom portion of each rep."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the elbows to lift off the pad during the curl.",
+        "correction": "Keep your triceps firmly planted against the pad throughout the entire range of motion."
+      },
+      {
+        "fault": "Hyperextending or bouncing out of the bottom position.",
+        "correction": "Lower the bar smoothly and stop just short of a harsh, locked-out hyperextension under heavy load."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessive loads that force aggressive bouncing at the bottom, which places high strain on the distal biceps tendon."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "EZ-Bar Preacher Curl",
+  "previous_ids": [
+    "oec:preacher-curls"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Preacher Curls",
+        "url": "https://wger.de/en/exercise/465/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "cgoob883"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:ez-bar-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-preacher-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-preacher-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:single-arm-dumbbell-preacher-curl"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated",
+      "width": "shoulder"
+    },
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "An isolated arm exercise where the upper arms are stabilized against a sloped preacher bench to emphasize elbow flexion."
+}

@@ -1,0 +1,169 @@
+{
+  "is_exercise": true,
+  "name": "Smith Machine Incline Bench Press",
+  "summary": "An upper-body compound press performed on an inclined bench using a guided barbell track to target the upper chest, front deltoids, and triceps.",
+  "aliases": [
+    {
+      "text": "Smith Machine Incline Press",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Smith Machine Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Smith Machine Slight Incline Press",
+      "kind": "common"
+    },
+    {
+      "text": "Smith Machine Low Incline Bench Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "incline_degrees": 30,
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rotator-cuff",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "horizontal-adduction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "smith-machine"
+      ]
+    },
+    {
+      "any_of": [
+        "adjustable-bench",
+        "bench"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Position an adjustable bench at a 15- to 30-degree incline directly centered beneath the Smith machine bar.",
+      "Lie back on the bench so the bar aligns directly over your upper chest when lowered.",
+      "Set your feet flat on the floor, retract and depress your shoulder blades into the bench pad, and grasp the bar slightly outside shoulder width with a pronated grip.",
+      "Rotate the bar off the safety hooks and hold it with arms extended over your upper chest."
+    ],
+    "steps": [
+      "Lower the bar under control toward your upper chest, just below the clavicles, keeping your elbows tucked at roughly 45 to 60 degrees from your torso.",
+      "Touch lightly or pause just above the chest without bouncing.",
+      "Press the bar upward in the fixed path until your elbows are extended without unlocking your shoulder blades from the bench.",
+      "At the end of the set, rotate your wrists to engage the safety catches onto the nearest rack pins."
+    ],
+    "breathing": "Inhale as you lower the bar to your chest, brace your core, and exhale forcefully as you press past the sticking point.",
+    "cues": [
+      "Pin your shoulder blades back and down.",
+      "Drive your feet through the floor.",
+      "Squeeze your chest together as you press."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bench placed too far forward or backward, forcing unnatural wrist or shoulder angles.",
+        "correction": "Align the bench so the bar naturally descends directly to the upper chest without crowding the neck or stomach."
+      },
+      {
+        "fault": "Flaring elbows out at 90 degrees to the torso.",
+        "correction": "Tuck your elbows to roughly 45 to 60 degrees to protect the shoulder joint and maintain upper-chest leverage."
+      },
+      {
+        "fault": "Bouncing the bar off the sternum.",
+        "correction": "Control the eccentric descent and maintain continuous muscular tension throughout the turnaround."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the Smith machine safety stoppers are set just below chest height before loading heavy weights."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  }
+}

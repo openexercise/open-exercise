@@ -1,0 +1,169 @@
+{
+  "is_exercise": true,
+  "name": "Bulgarian Split Squat",
+  "summary": "A unilateral lower-body exercise where the rear foot is elevated on a bench or platform to challenge the quads, glutes, and balance of the front leg.",
+  "aliases": [
+    {
+      "text": "Rear-Foot Elevated Split Squat",
+      "kind": "common"
+    },
+    {
+      "text": "RFESS",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Elevated Split Squat",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "lunge",
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "split-stance",
+  "stance_width": "hip",
+  "stance_kind": "split",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "bench",
+        "plyo-box",
+        "step",
+        "chair"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "dumbbell",
+    "kettlebell",
+    "weight-vest"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand about two to three feet in front of a flat bench or sturdy knee-height platform facing away from it.",
+      "Reach one foot back and rest the top of your foot or your toes on the bench.",
+      "Keep your torso upright, your hips square to the front, and your front foot planted firmly on the floor with weight distributed across the midfoot and heel."
+    ],
+    "steps": [
+      "Lower your body under control by bending the front knee and hip, descending until your front thigh is roughly parallel to the ground and your back knee approaches the floor.",
+      "Maintain a slight, natural forward torso lean while bracing your core.",
+      "Drive through the midfoot of your front leg to extend the hip and knee, returning to the starting standing position.",
+      "Complete the desired repetitions on one side before switching legs."
+    ],
+    "breathing": "Inhale as you lower down into the squat, and exhale as you drive through your front foot to return to the top.",
+    "cues": [
+      "Load the front leg",
+      "Drop the back knee straight down",
+      "Keep your front knee tracking over your toes"
+    ],
+    "common_faults": [
+      {
+        "fault": "Stance too narrow, causing the front heel to lift off the floor during the descent.",
+        "correction": "Hop or step the front foot slightly further forward to allow full-foot contact throughout the rep."
+      },
+      {
+        "fault": "Putting too much weight into the rear elevated leg, causing cramping or hip flexor strain.",
+        "correction": "Focus on keeping roughly eighty to ninety percent of your bodyweight loaded onto your lead leg."
+      },
+      {
+        "fault": "Front knee collapsing inward (valgus) during the ascent.",
+        "correction": "Engage the hip abductors and consciously push the knee slightly outward in line with the second and third toes."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the elevation surface is secure and will not slide.",
+        "Maintain balance by fixing your gaze on an immovable point at eye level."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

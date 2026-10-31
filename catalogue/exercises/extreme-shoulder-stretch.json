@@ -1,0 +1,206 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "DC Shoulder Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Doggcrapp Shoulder Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Rack Shoulder Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Behind-the-Back Rack Shoulder Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Extreme Deltoid Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stretched"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "stretched"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "stretched"
+      },
+      {
+        "muscle": "pectoralis-minor",
+        "role": "stretched"
+      },
+      {
+        "muscle": "coracobrachialis",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "hyperextension",
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "anterior-tilt"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "barbell",
+        "smith-machine"
+      ],
+      [
+        "power-rack",
+        "squat-rack",
+        "smith-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1920"
+  },
+  "id": "oec:extreme-shoulder-stretch",
+  "instructions": {
+    "setup": [
+      "Set a barbell in a power rack or Smith machine at approximately chest to shoulder height.",
+      "Stand directly in front of the bar facing away from it.",
+      "Reach both arms straight back and take a pronated grip on the bar, slightly wider than shoulder-width."
+    ],
+    "steps": [
+      "Stand tall, lift your chest, and pull your shoulder blades together.",
+      "Step your feet forward slightly and slowly bend your knees, allowing gravity and your bodyweight to pull your arms upward and backward.",
+      "Lower your hips until you achieve a deep, intense stretch across the front of your shoulders and chest.",
+      "Hold the position statically for the prescribed duration while keeping your arms extended.",
+      "To exit, step back and stand upright to relieve tension on the shoulders before releasing your grip."
+    ],
+    "breathing": "Breathe slowly and deeply, using controlled exhales to keep the chest proud and manage discomfort without tensing up.",
+    "cues": [
+      "Keep the chest proud",
+      "Sink smoothly with gravity",
+      "Do not shrug toward your ears"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding the shoulders forward and collapsing the chest",
+        "correction": "Keep your shoulder blades retracted and chest elevated throughout the stretch to properly target the anterior deltoids."
+      },
+      {
+        "fault": "Dropping down abruptly into the stretch",
+        "correction": "Descend slowly and maintain firm footing so you can support your bodyweight if the stretch becomes too intense."
+      },
+      {
+        "fault": "Excessively arching the lower back to compensate for poor shoulder extension",
+        "correction": "Brace your core gently to keep the lumbar spine neutral while your shoulders extend."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid this stretch if you have anterior shoulder instability, impingement, or a history of shoulder dislocations.",
+        "Always maintain full footing on the floor to regulate the tension on the shoulders."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Extreme Shoulder Stretch",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Extreme Shoulder Stretch",
+        "url": "https://wger.de/en/exercise/1920/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "wide"
+    },
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An intense, bodyweight-loaded stretch for the anterior deltoids and chest performed by holding a fixed barbell behind the back and lowering the hips."
+}

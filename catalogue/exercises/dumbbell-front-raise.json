@@ -1,0 +1,237 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Front Raise",
+      "kind": "common"
+    },
+    {
+      "text": "DB Front Raise",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Dumbbell Anterior Deltoid Raise",
+      "kind": "common"
+    },
+    {
+      "text": "dumbbell front raises",
+      "kind": "common"
+    },
+    {
+      "text": "DB Front Raises",
+      "kind": "common"
+    },
+    {
+      "text": "Front Raises",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-lateral",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "256"
+  },
+  "id": "oec:dumbbell-front-raise",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and knees unlocked.",
+      "Hold a dumbbell in each hand resting against the front of your thighs with a pronated grip (palms facing your body).",
+      "Engage your core, pull your shoulders back slightly, and maintain a soft, fixed bend in your elbows."
+    ],
+    "steps": [
+      "Raise the dumbbells straight out in front of your body in the sagittal plane until your arms are parallel to the floor.",
+      "Pause momentarily at shoulder height while maintaining control and keeping your torso upright.",
+      "Lower the dumbbells smoothly back down to the starting position along the same path."
+    ],
+    "breathing": "Exhale as you raise the dumbbells up to shoulder level, and inhale as you lower them with control.",
+    "cues": [
+      "Lead with your knuckles.",
+      "Lock your torso in place.",
+      "Do not swing the hips."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso and using hip momentum to heave the dumbbells upward.",
+        "correction": "Reduce the load and keep the glutes and abdominals braced to isolate the shoulders."
+      },
+      {
+        "fault": "Hyperextending the lower back at the top of the lift.",
+        "correction": "Maintain a neutral spine and stop raising the dumbbells once they reach eye or shoulder height."
+      },
+      {
+        "fault": "Excessively bending and extending the elbows during the movement.",
+        "correction": "Keep a static, slight bend in the elbows throughout the entire repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid raising the weights significantly above shoulder level if you experience anterior shoulder impingement or pain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Front Raise",
+  "previous_ids": [
+    "oec:front-raises"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Front Raises",
+        "url": "https://wger.de/en/exercise/256/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "Manu, wikipedia"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-front-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:plate-front-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:band-front-raise"
+    },
+    {
+      "type": "part-of",
+      "target": "oec:dumbbell-lateral-and-front-raise"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An isolation exercise that targets the anterior deltoids by raising dumbbells forward to shoulder level."
+}

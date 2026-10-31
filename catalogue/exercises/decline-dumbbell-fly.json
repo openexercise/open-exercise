@@ -1,0 +1,205 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Decline Dumbbell Chest Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Fly With Dumbbells, Decline Bench",
+      "kind": "common"
+    },
+    {
+      "text": "Decline DB Fly",
+      "kind": "abbreviation"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-abdominal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-chest-fly"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-bench",
+        "bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "239"
+  },
+  "id": "oec:decline-dumbbell-fly",
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to a 15 to 30-degree decline and secure your legs under the ankle pads.",
+      "Grasp a dumbbell in each hand using a neutral grip (palms facing each other) and lie back on the bench.",
+      "Press the dumbbells directly over your chest, maintaining a slight, fixed bend in your elbows."
+    ],
+    "steps": [
+      "Lower the dumbbells outward to your sides in a wide, controlled arc, keeping the elbow angle fixed throughout.",
+      "Descend until you feel a gentle stretch across your lower chest and shoulders.",
+      "Engage your pectorals to reverse the motion along the same wide path until the weights return above your chest."
+    ],
+    "breathing": "Inhale smoothly as you lower the dumbbells to open the chest; exhale as you bring the dumbbells back together at the top.",
+    "cues": [
+      "Hug a wide barrel",
+      "Keep elbows slightly bent and locked",
+      "Squeeze the chest at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Turning the fly into a press by excessively bending and extending the elbows.",
+        "correction": "Lock a slight bend in your elbows from start to finish and move solely from the shoulder joint."
+      },
+      {
+        "fault": "Overstretching the shoulders at the bottom.",
+        "correction": "Limit the depth of the descent so your elbows do not drop excessively below bench level."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use moderate loads to prevent anterior shoulder strain.",
+        "Ensure your shins and ankles are firmly locked into the decline bench pads before lifting the weights."
+      ],
+      "spotter": "recommended"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Decline Dumbbell Fly",
+  "previous_ids": [
+    "oec:fly-with-dumbbells-decline-bench"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Fly With Dumbbells, Decline Bench",
+        "url": "https://wger.de/en/exercise/239/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-high-low-crossover"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "supine"
+  },
+  "status": "active",
+  "summary": "An isolation exercise targeting the lower pectoralis major by performing wide arm arcs with dumbbells on a decline bench."
+}

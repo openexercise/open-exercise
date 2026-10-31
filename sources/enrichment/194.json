@@ -1,0 +1,169 @@
+{
+  "is_exercise": true,
+  "name": "Dip",
+  "summary": "A compound bodyweight pushing exercise performed on parallel bars targeting the triceps, chest, and anterior shoulders.",
+  "aliases": [
+    {
+      "text": "Parallel Bar Dip",
+      "kind": "common"
+    },
+    {
+      "text": "Bodyweight Dip",
+      "kind": "common"
+    },
+    {
+      "text": "Chest Dip",
+      "kind": "common"
+    },
+    {
+      "text": "Triceps Dip",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "support",
+  "grip_orientation": "neutral",
+  "grip_width": "shoulder",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-minor",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dip-station",
+        "parallettes"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "dip-belt",
+    "weight-vest",
+    "resistance-band"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Mount the parallel bars with a neutral grip, supporting your full body weight on extended arms.",
+      "Depress your shoulder blades down and away from your ears, engaging your upper back and core.",
+      "Bend your knees slightly or cross your ankles if necessary to clear the floor."
+    ],
+    "steps": [
+      "Inhale and lower your body with control by bending your elbows and allowing your torso to lean slightly forward.",
+      "Descend until your shoulders are slightly below your elbows, or as deep as your shoulder mobility comfortably allows without rounding forward.",
+      "Exhale and press firmly into the bars, extending your elbows to drive back up to the top lockout position."
+    ],
+    "breathing": "Inhale as you lower yourself under control; exhale forcefully as you press back up to full support.",
+    "cues": [
+      "Push the bars through the floor",
+      "Keep shoulders packed down",
+      "Chest proud at the bottom"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the shoulders to shrug up toward the ears and roll forward at the bottom.",
+        "correction": "Actively depress and stabilize the scapulae throughout the entire movement."
+      },
+      {
+        "fault": "Flaring the elbows excessively outward.",
+        "correction": "Keep the elbows tracking backward at roughly a forty-five degree angle relative to your torso."
+      },
+      {
+        "fault": "Cutting the range of motion too short or bouncing out of the bottom.",
+        "correction": "Lower under control until upper arms are at least parallel to the floor, pausing briefly before pressing up."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid descending past your comfortable active shoulder range of motion to protect the anterior joint capsule."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

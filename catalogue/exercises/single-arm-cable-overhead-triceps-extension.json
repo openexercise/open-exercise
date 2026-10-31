@@ -1,0 +1,206 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Neck Extension",
+      "kind": "misspelling"
+    },
+    {
+      "text": "One-Arm Cable Overhead Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Overhead Cable Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm High Cable Triceps Extension",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "anconeus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1717"
+  },
+  "id": "oec:single-arm-cable-overhead-triceps-extension",
+  "instructions": {
+    "setup": [
+      "Set the cable pulley to a high position and attach a single D-handle or use the bare cable ball.",
+      "Grasp the handle with one hand and face directly away from the cable stack.",
+      "Step forward into a stable staggered stance, leaning slightly forward at the hips to allow clearance for the cable.",
+      "Position your upper arm elevated alongside your head, elbow bent with your hand positioned behind your head."
+    ],
+    "steps": [
+      "Keep your upper arm stationary while extending through the elbow to press the cable forward and overhead.",
+      "Squeeze your triceps firmly at full elbow extension without locking out harshly.",
+      "Control the handle back behind your head by bending the elbow through a deep stretch.",
+      "Complete the set, then repeat for the same number of repetitions on the opposite arm."
+    ],
+    "breathing": "Exhale as you extend the elbow, and inhale as you return under control.",
+    "cues": [
+      "Pin your elbow in space",
+      "Move only at the forearm",
+      "Feel the stretch at the bottom"
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbow excessively or letting the upper arm drift forward and backward.",
+        "correction": "Keep your upper arm stabilized alongside your head throughout the entire repetition."
+      },
+      {
+        "fault": "Arching the lower back to compensate for heavy weight.",
+        "correction": "Brace your core and maintain a firm staggered stance with a forward torso lean."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Control the cable tension when turning into and out of the starting position to protect the shoulder joint."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Single-Arm Cable Overhead Triceps Extension",
+  "previous_ids": [
+    "oec:neck-extension"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Neck extension",
+        "url": "https://wger.de/en/exercise/1717/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "polloperro"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-overhead-triceps-extension"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-overhead-triceps-extension"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "overhead",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "staggered"
+    }
+  },
+  "status": "active",
+  "summary": "An isolation exercise that trains the triceps, particularly the long head, by extending the elbow overhead against high cable resistance."
+}

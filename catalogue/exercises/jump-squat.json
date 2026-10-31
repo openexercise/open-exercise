@@ -1,0 +1,238 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Squat Jump",
+      "kind": "common"
+    },
+    {
+      "text": "Squat Jumps",
+      "kind": "common"
+    },
+    {
+      "text": "Bodyweight Jump Squat",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "plyometric",
+      "power",
+      "calisthenics",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "jump",
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "614"
+  },
+  "id": "oec:jump-squat",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet shoulder-width apart and toes pointed slightly outward.",
+      "Engage your core and keep your chest lifted with arms relaxed at your sides or held in front of your chest."
+    ],
+    "steps": [
+      "Hinge at the hips and bend your knees to lower smoothly into a squat until your thighs are roughly parallel to the ground.",
+      "Explosively extend your hips, knees, and ankles simultaneously to launch vertically off the ground.",
+      "Swing your arms upward to assist with momentum and reach maximum height.",
+      "Land softly on the balls of your feet, immediately rolling back onto your heels and absorbing the impact by bending your knees into the next repetition."
+    ],
+    "breathing": "Inhale as you descend into the squat and exhale forcefully as you drive upward into the jump.",
+    "cues": [
+      "Push the floor away explosively",
+      "Land soft like a cat",
+      "Absorb right into the next squat"
+    ],
+    "common_faults": [
+      {
+        "fault": "Landing with stiff, locked knees, sending heavy impact force through the joints.",
+        "correction": "Land softly on the balls of your feet and immediately bend your knees and hips to absorb the impact."
+      },
+      {
+        "fault": "Knees caving inward (valgus collapse) during the takeoff or landing.",
+        "correction": "Actively track your knees in line with your middle toes throughout both the jump and the landing."
+      },
+      {
+        "fault": "Collapsing the torso forward during the squat phase.",
+        "correction": "Keep your chest proud and maintain spinal rigidity with an engaged core."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform on a flat, non-slip, shock-absorbing surface such as a gym mat or rubber flooring rather than concrete."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "height",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps",
+          "heart-rate"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Jump Squat",
+  "previous_ids": [
+    "oec:squat-jumps"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Squat Jumps",
+        "url": "https://wger.de/en/exercise/614/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "OGhTebfCxhexZXuf35mUxV9C--A"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:bodyweight-squat"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:bodyweight-squat"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:tuck-jump"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:box-jump"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A dynamic bodyweight plyometric exercise combining a rapid squat with an explosive vertical jump to build lower-body power."
+}

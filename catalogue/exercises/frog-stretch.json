@@ -1,0 +1,187 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Frog Pose",
+      "kind": "common"
+    },
+    {
+      "text": "Adductor Frog Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Mandukasana",
+      "kind": "regional"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "adductor-magnus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "adductor-longus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gracilis",
+        "role": "stretched"
+      },
+      {
+        "muscle": "adductor-brevis",
+        "role": "stretched"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "abduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1844"
+  },
+  "id": "oec:frog-stretch",
+  "instructions": {
+    "setup": [
+      "Start on all fours on a padded mat or soft surface.",
+      "Lower your forearms to the floor with your elbows positioned under your shoulders.",
+      "Gradually widen your knees as far apart as comfortably possible while keeping your inner feet turned outward and resting on the floor."
+    ],
+    "steps": [
+      "Keep your spine neutral and your core gently engaged to avoid excessive arching in your lower back.",
+      "Slowly shift your hips backward toward your heels until you feel a deep stretch along your inner thighs and groin.",
+      "Hold the position statically, or gently rock your hips forward and backward in a small, controlled range of motion.",
+      "To exit, slowly shift your weight forward onto your forearms and walk your knees back together."
+    ],
+    "breathing": "Breathe deeply and rhythmically, exhaling to relax into the stretch as your hips sink backward.",
+    "cues": [
+      "Knees wide, toes turned out",
+      "Hips back, flat spine",
+      "Breathe into the groin"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively arching the lower back to force the hips deeper.",
+        "correction": "Engage the abdominals to maintain a neutral lumbar spine throughout the stretch."
+      },
+      {
+        "fault": "Spreading the knees beyond a comfortable range of motion too quickly.",
+        "correction": "Ease into the position gradually and use knee padding to avoid sharp joint discomfort."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a folded mat or knee pads if you experience direct pressure pain on the inner knee joints."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Frog Stretch",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Frog Stretch",
+        "url": "https://wger.de/en/exercise/1844/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Croak6728"
+      }
+    ]
+  },
+  "setup": {
+    "position": "quadruped"
+  },
+  "status": "active",
+  "summary": "A quadruped groin stretch that mobilizes the hip joints and increases flexibility in the adductors."
+}

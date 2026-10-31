@@ -1,0 +1,150 @@
+{
+  "is_exercise": true,
+  "name": "Pancake Good Morning",
+  "summary": "A seated hip-hinge mobility exercise performed in a wide straddle to develop active hamstring and adductor flexibility alongside posterior chain strength.",
+  "aliases": [
+    {
+      "text": "Seated Pancake Good Morning",
+      "kind": "common"
+    },
+    {
+      "text": "Straddle Good Morning",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Straddle Good Morning",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility",
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "hinge",
+      "mobility-drill",
+      "stretch"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "seated",
+  "stance_width": "wide",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "erector-spinae",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gracilis",
+      "role": "stretched"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat",
+    "yoga-block"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "tempo",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit tall on the floor in a wide straddle (pancake) position with your knees straight and toes pointing upward.",
+      "If tight hamstrings prevent an upright pelvis, sit on the edge of a yoga block or mat to elevate your hips.",
+      "Interlace your fingers lightly behind your head with elbows held wide, keeping your chest tall and spine extended."
+    ],
+    "steps": [
+      "Hinge forward from the hips, actively tilting your pelvis forward while maintaining a flat, neutral spine.",
+      "Lower your chest toward the floor between your legs until you feel an intense stretch in your adductors and hamstrings without rounding your lower back.",
+      "Pause momentarily at end range, then contract your glutes and lower back muscles to return smoothly to the upright seated position."
+    ],
+    "breathing": "Inhale deeply as you hinge forward toward the floor; exhale as you pull yourself back up to the seated upright position.",
+    "cues": [
+      "Rotate the pelvis, don't round the back",
+      "Chest toward the floor",
+      "Knees locked and toes to the ceiling",
+      "Elbows wide"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding the lumbar spine to reach the floor rather than hinging from the hips.",
+        "correction": "Elevate the hips on a block and limit the range of motion to only what can be achieved with a flat back and anterior pelvic tilt."
+      },
+      {
+        "fault": "Allowing the knees to bend or the feet to roll inward.",
+        "correction": "Actively flex your quadriceps to keep your knees locked and pull your toes backward while pointing your kneecaps straight up."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Move smoothly into the stretch and avoid ballistic bouncing to prevent adductor or hamstring strains."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

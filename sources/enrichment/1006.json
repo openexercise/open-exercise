@@ -1,0 +1,118 @@
+{
+  "is_exercise": true,
+  "name": "Chin Tuck",
+  "summary": "A postural rehabilitation exercise that retracts the head to strengthen deep cervical flexors and lengthen tight upper neck extensors.",
+  "aliases": [
+    {
+      "text": "cervical retraction",
+      "kind": "common"
+    },
+    {
+      "text": "neck retraction",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "isolation-neck",
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deep-neck-flexors",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "sternocleidomastoid",
+      "role": "synergist"
+    },
+    {
+      "muscle": "upper-cervical-extensors",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "flexion",
+        "retraction"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": []
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit or stand tall with an upright posture, shoulders relaxed down and back, looking straight ahead."
+    ],
+    "steps": [
+      "Draw your chin directly backward horizontally, creating a slight double chin, without tilting your head down.",
+      "Hold the retracted position for the designated pause, feeling a gentle stretch at the base of the skull.",
+      "Slowly release back to the neutral starting position under control."
+    ],
+    "breathing": "Breathe naturally and steadily throughout the hold; do not hold your breath.",
+    "cues": [
+      "Slide your head straight back like closing a drawer",
+      "Make a double chin without looking down",
+      "Keep eyes level on the horizon"
+    ],
+    "common_faults": [
+      {
+        "fault": "Flexing the neck downward rather than translating it backward",
+        "correction": "Keep your gaze parallel to the floor; move straight back along a horizontal track."
+      },
+      {
+        "fault": "Shrugging the shoulders upward during retraction",
+        "correction": "Keep your shoulders relaxed and down away from your ears."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forcing movement into pain or tingling sensations down the neck or arms."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "is_exercise": true,
+  "name": "Happy Baby Pose",
+  "summary": "A supine stretch that opens the hips, inner thighs, and groin while gently lengthening the spine.",
+  "aliases": [
+    {
+      "text": "Ananda Balasana",
+      "kind": "regional"
+    },
+    {
+      "text": "Happy Baby",
+      "kind": "common"
+    },
+    {
+      "text": "Blissful Baby Pose",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "yoga",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "mobility-drill"
+    ],
+    "mechanics": "not-applicable",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "muscles": [
+    {
+      "muscle": "adductors",
+      "role": "stretched"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stretched"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "abduction",
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat",
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on an exercise mat with your head and spine fully supported.",
+      "Bend your knees and draw them toward your chest."
+    ],
+    "steps": [
+      "Reach between your knees to grasp the outer edges of your feet with your hands, or hold your ankles if your mobility is limited.",
+      "Open your knees wider than your torso, guiding them down toward your armpits.",
+      "Position your ankles directly over your knees so that your shins are perpendicular to the floor.",
+      "Flex through your heels and gently pull down with your arms, drawing your knees closer to the floor while pressing your tailbone down.",
+      "Hold the position steadily, breathing deeply into your belly and hips.",
+      "Release your grip and gently bring your feet back down to the floor."
+    ],
+    "breathing": "Breathe smoothly and deeply through your nose, using each exhalation to release tension in the hips and groin.",
+    "cues": [
+      "Keep your tailbone pinned to the floor",
+      "Stack ankles directly over knees",
+      "Relax your neck and shoulders"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the tailbone and lower back excessively off the floor.",
+        "correction": "Actively press your sacrum down into the floor to maintain spinal length, holding the shins or using a strap if needed."
+      },
+      {
+        "fault": "Letting the feet collapse inward instead of keeping shins vertical.",
+        "correction": "Stack your ankles directly above your knees so your shins remain vertical to the floor."
+      },
+      {
+        "fault": "Tensing the shoulders and lifting the head off the mat to reach the feet.",
+        "correction": "Keep your head and shoulders relaxed on the ground; grasp your ankles or behind the thighs if you cannot reach your feet comfortably."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forceful pulling if experiencing acute knee or hip joint pain"
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

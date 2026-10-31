@@ -1,0 +1,142 @@
+{
+  "is_exercise": true,
+  "name": "Machine Side Bend",
+  "summary": "A machine-based lateral trunk flexion exercise that isolates the obliques and quadratus lumborum.",
+  "aliases": [
+    {
+      "text": "Side Bends on Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Lateral Flexion",
+      "kind": "common"
+    },
+    {
+      "text": "Selectorized Side Bend",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "lateral-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "external-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadratus-lumborum",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "lateral-flexion"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "lateral-flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the machine seat height so your waist aligns with the machine's axis of rotation.",
+      "Sit upright with your back flat against the backrest and secure your lower body with the thigh pads or foot supports.",
+      "Position the upper-torso resistance pad against the side of your chest or shoulders, depending on machine design.",
+      "Grasp the machine handles lightly to stabilize your upper body without pulling with your arms."
+    ],
+    "steps": [
+      "Initiate the movement by laterally flexing your spine directly to the side against the resistance pad.",
+      "Contract your obliques at the peak of lateral flexion for a brief pause.",
+      "Slowly reverse the movement under control, returning to an upright neutral spine.",
+      "Complete all repetitions for one side before adjusting or turning to train the opposite side."
+    ],
+    "breathing": "Exhale as you laterally flex against the pad; inhale as you slowly return to the upright starting position.",
+    "cues": [
+      "Crunch your ribs toward your hip.",
+      "Move strictly sideways in a single plane.",
+      "Control the return and do not let the weights slam."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the torso instead of laterally flexing.",
+        "correction": "Keep your chest and hips facing straight ahead; focus strictly on bending side-to-side."
+      },
+      {
+        "fault": "Using the arms to pull or push the machine handles.",
+        "correction": "Hold the handles loosely purely for stability; let your trunk musculature do the work."
+      },
+      {
+        "fault": "Using excessive momentum or bouncing the weight stack.",
+        "correction": "Perform the movement slowly with a deliberate pause at peak lateral contraction."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid overextending your lateral range of motion beyond comfortable active flexibility."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

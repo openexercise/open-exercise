@@ -1,0 +1,219 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "PPPU",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Pseudo Planche Pushup",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "depression"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "parallettes",
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1284"
+  },
+  "id": "oec:pseudo-planche-push-up",
+  "instructions": {
+    "setup": [
+      "Begin in a high plank position with your hands placed flat on the floor around ribcage to hip level.",
+      "Turn your hands outward slightly (roughly 30 to 45 degrees) to reduce strain on your wrists.",
+      "Engage your glutes and core to establish a posterior pelvic tilt and a hollow-body shape."
+    ],
+    "steps": [
+      "Shift your weight forward over your hands until your shoulders are significantly in front of your wrists.",
+      "Inhale and lower your body with control, keeping your elbows tucked close to your ribcage and maintaining the forward lean throughout the descent.",
+      "Lower until your chest nearly touches the floor without losing forward lean or core tension.",
+      "Exhale and press forcefully through your palms to return to the starting position.",
+      "Finish each repetition by fully protracting your shoulder blades at the top of the movement."
+    ],
+    "breathing": "Inhale as you lower your body, and exhale as you press back up to full lockout.",
+    "cues": [
+      "Lean forward and stay forward throughout the rep.",
+      "Keep the hollow body; do not let your hips sag.",
+      "Push the floor away and spread your shoulder blades at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Drifting backward during the descent, reducing shoulder load and turning the movement into a regular push-up.",
+        "correction": "Actively project your shoulders forward throughout the entire range of motion, matching your ascent and descent angles."
+      },
+      {
+        "fault": "Losing core tension and hyperextending the lumbar spine.",
+        "correction": "Squeeze the glutes and pull the ribs toward the pelvis to maintain a rigid hollow-body position."
+      },
+      {
+        "fault": "Excessive wrist pain due to poor wrist extension mobility.",
+        "correction": "Turn the fingers outward 45 to 90 degrees or perform the exercise on low parallettes to keep neutral wrists."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Warm up the wrists thoroughly before loading them in extreme extension."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Pseudo Planche Push-Up",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Pseudo Planche Push-up",
+        "url": "https://wger.de/en/exercise/1284/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "vdrb"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:planche-lean"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:tuck-planche"
+    }
+  ],
+  "setup": {
+    "position": "prone",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "narrow"
+    }
+  },
+  "status": "active",
+  "summary": "An advanced push-up variation where hands are positioned near the waist and the body leans forward to heavily load the anterior deltoids and chest."
+}

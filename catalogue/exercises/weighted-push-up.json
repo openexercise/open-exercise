@@ -1,0 +1,240 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Weighted Pushup",
+      "kind": "common"
+    },
+    {
+      "text": "Plate-Loaded Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Weighted push-ups",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "weight-plate",
+        "weight-vest"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1902"
+  },
+  "id": "oec:weighted-push-up",
+  "instructions": {
+    "setup": [
+      "Assume a high plank position on your hands and toes with hands roughly shoulder-width apart.",
+      "Secure external load onto your upper-to-mid back, either by having a partner place a weight plate flat across your shoulder blades or by wearing a snug weight vest.",
+      "Engage your abs, squeeze your glutes, and establish a rigid straight line from your heels to the back of your head."
+    ],
+    "steps": [
+      "Lower your body under control by bending your elbows and allowing your shoulder blades to retract.",
+      "Descend until your chest is within an inch of the floor, keeping your elbows tucked at roughly a 45-degree angle to your torso.",
+      "Press firmly through the floor to extend your arms, pushing your shoulder blades forward into slight protraction at the top."
+    ],
+    "breathing": "Inhale smoothly as you lower toward the floor, and exhale forcefully through the sticking point on the ascent.",
+    "cues": [
+      "Body like a moving plank.",
+      "Arrowhead elbow angle, not a T.",
+      "Push the floor away."
+    ],
+    "common_faults": [
+      {
+        "fault": "Plate placed too low on the lumbar spine causing excessive lumbar extension.",
+        "correction": "Ensure the weight rests centered across the upper back and shoulder blades, not the lower back."
+      },
+      {
+        "fault": "Sagging hips and loss of core tension under load.",
+        "correction": "Squeeze glutes and brace your abdomen tightly before initiating each repetition."
+      },
+      {
+        "fault": "Flaring elbows out ninety degrees to the sides.",
+        "correction": "Tuck elbows slightly toward the ribs to protect the shoulder joints and emphasize the chest and triceps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a partner to place and remove weight plates safely, especially at heavier loads.",
+        "If training alone, a weight vest is safer and more stable than a loose plate."
+      ],
+      "spotter": "recommended"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "kind": "bodyweight-plus-external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Weighted Push-Up",
+  "previous_ids": [
+    "oec:weighted-push-ups"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Weighted push-ups",
+        "url": "https://wger.de/en/exercise/1902/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "nishant0712"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-bench-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "load_position": "back",
+    "position": "prone",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A progressive variation of the standard push-up performed with external resistance loaded on the upper back or torso."
+}

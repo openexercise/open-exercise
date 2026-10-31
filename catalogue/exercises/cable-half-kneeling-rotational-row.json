@@ -1,0 +1,246 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Half-Kneeling Cable Row with Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable Row with Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Half-Kneeling Single-Arm Row with Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable Row /w Rotation (floor)",
+      "kind": "misspelling"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "external-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "depression"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "rotation"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "rotation"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2663"
+  },
+  "id": "oec:cable-half-kneeling-rotational-row",
+  "instructions": {
+    "setup": [
+      "Set a cable pulley to roughly mid-torso or low height and attach a single D-handle.",
+      "Assume a half-kneeling position facing the cable stack, with the knee on the working arm's side resting on the floor and the opposite foot planted flat forward.",
+      "Grasp the handle with an extended arm, allowing your ribcage and thoracic spine to slightly rotate toward the cable stack while keeping your hips squared."
+    ],
+    "steps": [
+      "Initiate the movement by retracting your shoulder blade and pulling the handle toward your lower ribcage.",
+      "Smoothly rotate your thoracic spine and chest toward the pulling side as your elbow drives back.",
+      "Pause briefly at peak contraction with your elbow tucked near your torso and shoulder down.",
+      "Reverse the movement with control, unwinding your torso and fully extending your arm back to the starting reach."
+    ],
+    "breathing": "Inhale as you reach forward into the stretch; exhale forcefully as you rotate and row the handle back.",
+    "cues": [
+      "Rotate through the ribs, not the hips",
+      "Squeeze the glute on the down knee",
+      "Lead with the elbow",
+      "Reach long at the bottom"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swiveling at the hips and lower back instead of rotating through the thoracic spine.",
+        "correction": "Squeeze the rear glute and keep your belt buckle pointed straight ahead throughout the rep."
+      },
+      {
+        "fault": "Shrugging the shoulder toward the ear during the pull.",
+        "correction": "Keep your shoulder down and pull the elbow toward your hip pocket rather than up high."
+      },
+      {
+        "fault": "Using momentum to yank the weight stack.",
+        "correction": "Move smoothly with deliberate control on both the pull and the return phase."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Place a folded mat or pad under the kneeling knee for joint comfort."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Cable Half-Kneeling Rotational Row",
+  "previous_ids": [
+    "oec:single-arm-cable-row-w-rotation-floor"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Single-Arm Cable Row /w Rotation (floor)",
+        "url": "https://wger.de/en/exercise/2663/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "bbk"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-single-arm-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-shotgun-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-single-arm-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "rotating"
+    },
+    "position": "half-kneeling"
+  },
+  "status": "active",
+  "summary": "A unilateral cable row performed from a half-kneeling stance that integrates thoracic rotation with upper-body pulling."
+}

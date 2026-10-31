@@ -1,0 +1,252 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Helms Row",
+      "kind": "common"
+    },
+    {
+      "text": "Chest-Supported Standing Dumbbell Row",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "depression"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "strap"
+    ],
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1303"
+  },
+  "id": "oec:dumbbell-helms-row",
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an incline around 30 to 45 degrees.",
+      "Stand behind the bench with feet hip-width apart and hinge forward so the sternum rests securely against the top edge of the back pad.",
+      "Grasp a dumbbell in each hand with a neutral grip, letting your arms hang fully extended toward the floor with shoulder blades slightly protracted."
+    ],
+    "steps": [
+      "Initiate the pull by retracting your shoulder blades and driving your elbows toward your hips.",
+      "Row the dumbbells up until your elbows pass your torso and your back musculature is fully contracted.",
+      "Pause briefly at the top of the pull without lifting your chest off the bench.",
+      "Lower the dumbbells under control back to the starting hanging position, allowing your shoulder blades to protract at the bottom for a full stretch."
+    ],
+    "breathing": "Inhale before initiating the pull, hold your breath through the concentric effort, and exhale as you lower the weights.",
+    "cues": [
+      "Drive your elbows toward your pockets.",
+      "Keep your sternum glued to the pad.",
+      "Stretch your upper back at the bottom."
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the chest off the bench to use body momentum.",
+        "correction": "Keep firm, continuous contact between your upper sternum and the bench pad throughout the entire set."
+      },
+      {
+        "fault": "Pulling excessively with the arms and shrugging shoulders upward.",
+        "correction": "Lead the movement with scapular retraction and elbow drive while keeping your shoulders depressed away from the ears."
+      },
+      {
+        "fault": "Cutting the eccentric range of motion short.",
+        "correction": "Allow your arms to reach complete extension and let the shoulder blades protract to get a full stretch on the back muscles."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the bench is securely locked at the selected angle before loading weight onto it."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Helms Row",
+  "previous_ids": [
+    "oec:helms-row"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Helms Row",
+        "url": "https://wger.de/en/exercise/1303/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "carlos3c"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:chest-supported-dumbbell-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:chest-supported-dumbbell-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:incline-dumbbell-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-seal-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-bent-over-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "incline_degrees": 45,
+    "load_position": "at-sides",
+    "position": "bent-over",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A chest-supported dumbbell row performed standing and hinged forward with the upper chest braced against the top edge of an incline bench."
+}

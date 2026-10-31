@@ -1,0 +1,187 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Standing Cross-Leg Hamstring Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Crossbody Hamstring Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Crossed-Leg Forward Fold",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-femoris",
+        "role": "stretched"
+      },
+      {
+        "muscle": "semitendinosus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "semimembranosus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "yoga-block",
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1400"
+  },
+  "id": "oec:standing-cross-legged-hamstring-stretch",
+  "instructions": {
+    "setup": [
+      "Stand upright with your feet hip-width apart.",
+      "Cross one foot over and behind the other, planting both feet flat on the floor with toes pointing forward.",
+      "Keep the rear leg straight while allowing a soft, slight bend in the front knee."
+    ],
+    "steps": [
+      "Hinge at your hips and slowly lower your torso toward your knees.",
+      "Reach your hands toward the floor, your shins, or a yoga block until you feel a gentle to moderate stretch along the posterior thigh and outer hip of the back leg.",
+      "Hold the position statically, maintaining balanced weight distribution across both feet.",
+      "Slowly engage your glutes and roll or hinge back up to the starting position, then switch sides."
+    ],
+    "breathing": "Breathe smoothly and deeply throughout the hold, using each exhalation to relax deeper into the stretch without forcing range.",
+    "cues": [
+      "Hinge from the hips before rounding",
+      "Keep the back heel grounded",
+      "Relax your neck and shoulders"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the rear knee, which reduces tension on the targeted hamstring.",
+        "correction": "Keep the back leg fully straight while keeping its heel firmly pressed into the floor."
+      },
+      {
+        "fault": "Bouncing or using momentum to force the reach deeper.",
+        "correction": "Ease into a comfortable stretch threshold and maintain a steady, static hold."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform near a wall or sturdy surface if balance is unstable while folding forward."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Standing Cross-Legged Hamstring Stretch",
+  "previous_ids": [
+    "oec:crossbody-hamstring-stretch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Crossbody Hamstring Stretch",
+        "url": "https://wger.de/en/exercise/1400/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "captive0592"
+      }
+    ]
+  },
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "staggered",
+      "width": "narrow"
+    }
+  },
+  "status": "active",
+  "summary": "A standing flexibility exercise that stretches the hamstrings, glutes, and lateral hip of the rear leg by folding forward with crossed legs."
+}

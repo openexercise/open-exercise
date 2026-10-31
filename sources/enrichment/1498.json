@@ -1,0 +1,156 @@
+{
+  "is_exercise": true,
+  "name": "Neutral-Grip Dumbbell Bench Press",
+  "summary": "A flat dumbbell press performed with palms facing inward and elbows tucked close to the torso to emphasize the triceps and anterior deltoids.",
+  "aliases": [
+    {
+      "text": "Close-Grip Dumbbell Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Elbows Tucked DB Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Parallel-Grip Dumbbell Bench Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "grip_orientation": "neutral",
+  "grip_width": "shoulder",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "chest",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "extension",
+        "horizontal-adduction",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "retraction"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "adjustable-bench"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit on the end of a flat bench with a dumbbell resting upright on each thigh.",
+      "Lie back onto the bench, using your knees to help kick the dumbbells up into position over your chest.",
+      "Plant your feet firmly on the floor, retract your shoulder blades, and rotate your palms so they face each other in a neutral grip."
+    ],
+    "steps": [
+      "Lower the dumbbells under control alongside your torso, keeping your elbows tucked tightly at roughly a 20- to 30-degree angle from your ribs.",
+      "Descend until the dumbbell handles are near your lower chest or upper abdomen and you feel a full stretch in your triceps and chest.",
+      "Press the dumbbells straight up by driving through your palms and extending your elbows until your arms are fully extended over your chest."
+    ],
+    "breathing": "Inhale as you lower the dumbbells to your chest, and exhale forcefully as you press them back to the top.",
+    "cues": [
+      "Keep palms facing each other throughout the rep.",
+      "Graze your ribs with your elbows on the descent.",
+      "Lock out hard with your triceps at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbows outward during the press.",
+        "correction": "Actively keep the upper arms close to your ribcage to maintain the focus on the triceps and protect the shoulders."
+      },
+      {
+        "fault": "Letting the wrists collapse backward under the weight.",
+        "correction": "Squeeze the handles tightly and keep your wrists stacked directly over your forearms."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "When finishing the set, bring your knees up to meet the dumbbells and use their momentum to roll forward into a seated position, or safely drop them to the floor if using rubber bumper plates and mats."
+      ],
+      "spotter": "recommended",
+      "safeties": false
+    }
+  }
+}

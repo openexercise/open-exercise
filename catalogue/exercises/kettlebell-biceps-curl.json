@@ -1,0 +1,222 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Two-Handed Kettlebell Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Kettlebell Horn Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Two-Arm Kettlebell Biceps Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Kettlebell Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Curl with kettlebell two hands",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "radioulnar",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "kettlebell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "974"
+  },
+  "id": "oec:kettlebell-biceps-curl",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and your core braced.",
+      "Grasp a single kettlebell with both hands by the sides of the handle (the horns), letting it hang at arm's length in front of your thighs."
+    ],
+    "steps": [
+      "Keep your upper arms pinned close to your ribs and curl the kettlebell upward toward chest height by flexing your elbows.",
+      "Squeeze your biceps firmly at the top of the movement.",
+      "Lower the kettlebell under control back to full elbow extension."
+    ],
+    "breathing": "Exhale as you curl the kettlebell upward; inhale as you lower it with control.",
+    "cues": [
+      "Elbows glued to ribs",
+      "Chest up, no swinging",
+      "Squeeze at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso and using hip momentum to lift the kettlebell.",
+        "correction": "Brace the glutes and core to keep the torso stationary throughout the curl."
+      },
+      {
+        "fault": "Flaring the elbows outward or allowing them to drift forward.",
+        "correction": "Keep the elbows tucked against your sides so the biceps perform the work."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a firm grip on the horns to prevent the kettlebell from slipping."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Kettlebell Biceps Curl",
+  "previous_ids": [
+    "oec:curl-with-kettlebell-two-hands"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Curl with kettlebell two hands",
+        "url": "https://wger.de/en/exercise/974/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-biceps-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:ez-bar-curl"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-curl"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:kettlebell-single-arm-biceps-curl"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "narrow"
+    },
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A standing bicep isolation exercise holding a single kettlebell with both hands to perform elbow flexion."
+}

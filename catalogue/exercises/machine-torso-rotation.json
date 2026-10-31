@@ -1,0 +1,207 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Rotary Torso Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Rotary Torso",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Trunk Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Rotary Torso",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "external-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "multifidus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "rotation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "rotation"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "rotation"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1374"
+  },
+  "id": "oec:machine-torso-rotation",
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so that your chest or back pads align comfortably with your mid-torso.",
+      "Set the range-of-motion pin to your starting side, allowing a comfortable rotational stretch without straining.",
+      "Sit upright, brace your lower body against the thigh or knee pads, and lightly grip the handles."
+    ],
+    "steps": [
+      "Engage your abdominal wall and brace your core.",
+      "Smoothly rotate your torso across the centerline by contracting your obliques.",
+      "Pause momentarily at the peak contraction without twisting your hips.",
+      "Return under control to the starting position before the weight stack touches down."
+    ],
+    "breathing": "Exhale forcefully as you rotate against the resistance, and inhale smoothly as you return to the starting position.",
+    "cues": [
+      "Turn from the ribs, not the arms",
+      "Lock your hips down",
+      "Control the return"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling or pushing through the arms and shoulders instead of rotating the core",
+        "correction": "Relax the grip and focus on initiating and driving the movement entirely through the oblique muscles."
+      },
+      {
+        "fault": "Allowing the hips and pelvis to slide or twist on the seat",
+        "correction": "Firmly anchor your knees and pelvis against the pads to keep rotation localized to the torso."
+      },
+      {
+        "fault": "Using momentum and letting the weight slam back",
+        "correction": "Select a moderate load and perform slow, controlled repetitions with an emphatic pause at peak rotation."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessive loads or ballistic momentum to minimize shear stress on the lumbar spine.",
+        "Do not force rotation past a comfortable active range of motion."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Machine Torso Rotation",
+  "previous_ids": [
+    "oec:rotary-torso-machine"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Rotary Torso Machine",
+        "url": "https://wger.de/en/exercise/1374/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "6LXBO"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-seated-trunk-rotation"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:cable-seated-trunk-rotation"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-woodchop"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:seated-thoracic-rotation"
+    }
+  ],
+  "setup": {
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A seated machine exercise targeting the obliques through guided trunk rotation against resistance."
+}

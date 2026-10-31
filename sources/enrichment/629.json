@@ -1,0 +1,164 @@
+{
+  "is_exercise": true,
+  "name": "Cable Rope Straight-Arm Pulldown",
+  "summary": "An isolation exercise that targets the latissimus dorsi through shoulder extension using a high-pulley cable and rope attachment.",
+  "aliases": [
+    {
+      "text": "Rope Straight-Arm Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Straight-Arm Cable Pulldown with Rope",
+      "kind": "common"
+    },
+    {
+      "text": "Rope Lat Pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Rope Lat Pulldown",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-long-head",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach a rope attachment to the high pulley of a cable station.",
+      "Grasp each end of the rope with a neutral grip (palms facing inward).",
+      "Take one to two steps back to create tension on the cable.",
+      "Hinge slightly forward at the hips with a flat back, soft knees, and arms extended forward overhead with a slight bend in the elbows."
+    ],
+    "steps": [
+      "Brace your core and initiate the movement by sweeping your hands downward in a wide arc toward your thighs.",
+      "Maintain the fixed, slight bend in your elbows throughout the descent without turning the movement into a triceps pushdown.",
+      "Squeeze your lats firmly at the bottom as your hands reach the sides of your thighs, flaring the rope slightly apart for a deeper contraction.",
+      "Slowly raise your arms back along the same arc to the overhead position, feeling a full stretch in your lats before beginning the next repetition."
+    ],
+    "breathing": "Exhale as you pull the rope down toward your hips; inhale as you slowly return to the stretched starting position.",
+    "cues": [
+      "Pull with your elbows, not your hands.",
+      "Keep the elbows frozen in a soft bend.",
+      "Chest tall and proud at the bottom squeeze."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending and extending the elbows during the movement, turning it into a triceps extension.",
+        "correction": "Lock a slight bend into your elbows from start to finish so that only the shoulder joint moves."
+      },
+      {
+        "fault": "Using excessive body momentum or swinging the torso back and forth.",
+        "correction": "Maintain a stable hip hinge and braced torso throughout each rep, moving only the arms."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the cable attachment is fully secured to the carabiner before initiating load."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

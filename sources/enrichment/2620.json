@@ -1,0 +1,162 @@
+{
+  "is_exercise": true,
+  "name": "Reverse V-Squat",
+  "summary": "A machine-based compound squat performed facing into the pad of a V-squat machine to emphasize the glutes and posterior chain.",
+  "aliases": [
+    {
+      "text": "Face-In V-Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse Hack Squat",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "front-rack",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "plate-loaded-machine",
+        "hack-squat-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Step onto the footplate of the V-squat machine facing toward the backrest pad.",
+      "Position your shoulders firmly beneath the shoulder pads and rest your chest lightly against the chest pad.",
+      "Place your feet roughly shoulder-width apart on the platform with your toes angled slightly outward.",
+      "Extend your hips and knees to lift the carriage and disengage the safety handles."
+    ],
+    "steps": [
+      "Inhale and brace your core, keeping your spine neutral and chest supported.",
+      "Descend by simultaneously hinging at the hips and flexing at the knees, pushing your hips back as the carriage lowers.",
+      "Lower until your thighs are at least parallel to the footplate, or as deep as your hip mobility allows without rounding your lower back.",
+      "Drive through your midfoot and heels, extending your knees and hips smoothly to return to the starting position.",
+      "Stop just short of locking out your knees forcefully at the top."
+    ],
+    "breathing": "Inhale and brace your trunk before descending, and exhale through the sticking point as you drive back to the top.",
+    "cues": [
+      "Sit back into your hips",
+      "Keep full foot contact",
+      "Chest tall against the pad"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the heels off the footplate during the bottom of the rep.",
+        "correction": "Move your feet slightly further up on the platform and distribute weight evenly across your midfoot and heel."
+      },
+      {
+        "fault": "Excessive lumbar flexion or letting the lower back round at the bottom of the movement.",
+        "correction": "Maintain abdominal bracing, keep your chest supported against the pad, and stop just before losing neutral spinal alignment."
+      },
+      {
+        "fault": "Hyperextending the knees forcefully at lockout.",
+        "correction": "Finish the movement with your hips fully extended but maintain soft, controlled knees."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the safety catches are fully disengaged before starting your set and re-engage them securely before stepping off."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

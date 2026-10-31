@@ -1,0 +1,207 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "90/90 Diaphragmatic Breathing",
+      "kind": "common"
+    },
+    {
+      "text": "PRI 90/90 Hip Lift with Breathing",
+      "kind": "common"
+    },
+    {
+      "text": "90-90 Breathing",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "transversus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "not-applicable",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat",
+      "yoga-block"
+    ],
+    "required": [
+      [
+        "wall",
+        "plyo-box",
+        "bench",
+        "chair"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2564"
+  },
+  "id": "oec:90-90-breathing",
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a mat with your feet placed flat against a wall or resting on an elevated surface such as a bench or plyo box.",
+      "Position your hips and knees at ninety-degree angles.",
+      "Rest your arms comfortably at your sides with your palms facing up."
+    ],
+    "steps": [
+      "Gently pull down through your heels to engage your hamstrings and tilt your pelvis backward, flattening your lower back against the floor without lifting your lower back off the ground.",
+      "Inhale slowly and quietly through your nose, expanding your rib cage fully in 360 degrees without arching your back.",
+      "Exhale fully and smoothly through your mouth, feeling your ribs depress and your abdominal wall contract inward.",
+      "Pause for two to three seconds at the end of the full exhalation while maintaining pelvic alignment.",
+      "Repeat for the desired number of breath cycles or timed duration."
+    ],
+    "breathing": "Inhale slowly through the nose into the abdomen and posterior rib cage, then perform a prolonged, complete exhale through pursed lips.",
+    "cues": [
+      "Heels pull down to tuck the pelvis",
+      "Ribs drop down with the exhale",
+      "Breathe 360 degrees into your torso",
+      "Keep neck and shoulders relaxed"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the lower back off the floor into a glute bridge rather than a subtle pelvic tilt.",
+        "correction": "Only drag down with your heels to tuck your tailbone slightly; keep your lower back in flat contact with the mat."
+      },
+      {
+        "fault": "Breathing solely into the upper chest and shrugging the shoulders.",
+        "correction": "Keep your neck relaxed and focus on expanding the lower rib cage and belly on each inhale."
+      },
+      {
+        "fault": "Incomplete exhalation without abdominal engagement.",
+        "correction": "Exhale until all air is emptied to allow the obliques and deep abdominals to fully engage."
+      }
+    ],
+    "safety": {
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "90/90 Breathing",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: 90/90 Breathing",
+        "url": "https://wger.de/en/exercise/2564/view-base",
+        "license": "CC-BY-SA-3.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:diaphragmatic-breathing"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:supported-deep-squat-breathing"
+    }
+  ],
+  "setup": {
+    "position": "supine",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A supine breathing drill performed with hips and knees flexed to ninety degrees to restore rib cage positioning and engage deep core stabilizers."
+}

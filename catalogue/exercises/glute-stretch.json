@@ -1,0 +1,163 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Supine Glute Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Glute Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Figure-Four Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Figure-Four Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "piriformis",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "external-rotation"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "2649"
+  },
+  "id": "oec:glute-stretch",
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a mat with your knees bent and feet flat on the floor.",
+      "Cross your right ankle over your left knee, creating a figure-four shape with your legs."
+    ],
+    "steps": [
+      "Reach through your legs and grasp the back of your left thigh with both hands.",
+      "Gently pull your left thigh toward your chest until you feel a comfortable stretch in your right glute and outer hip.",
+      "Hold the position steadily without bouncing.",
+      "Lower your legs back to the starting position and repeat on the opposite side."
+    ],
+    "breathing": "Breathe slowly and deeply, using each exhalation to help relax deeper into the stretch.",
+    "cues": [
+      "Keep your head and shoulders relaxed on the floor",
+      "Flex the crossed foot to protect your knee",
+      "Pull smoothly without yanking"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the head and upper back off the floor to reach the leg.",
+        "correction": "Keep your head resting flat, or loop a strap or towel around the thigh if your hands cannot reach comfortably."
+      },
+      {
+        "fault": "Twisting the pelvis to force extra range of motion.",
+        "correction": "Keep your hips square and your lower back resting flat against the mat."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not force the knee into excessive rotation if you experience knee discomfort."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Glute Stretch",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Glute Stretch",
+        "url": "https://wger.de/en/exercise/2649/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "setup": {
+    "position": "supine"
+  },
+  "status": "active",
+  "summary": "A static flexibility exercise performed lying on the back to stretch the gluteal muscles and deep hip rotators."
+}

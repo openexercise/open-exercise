@@ -1,0 +1,225 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Cable Rope Hammer Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Cable Hammer Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Hammer Curls on Cable",
+      "kind": "common"
+    },
+    {
+      "text": "Hammercurls on Cable",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "brachialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "radioulnar",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "strap"
+    ],
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "275"
+  },
+  "id": "oec:cable-hammer-curl",
+  "instructions": {
+    "setup": [
+      "Attach a rope or dual handles to the lowest pulley setting of a cable station.",
+      "Grasp the rope with a neutral grip (palms facing each other) near the knotted ends.",
+      "Step back slightly to put tension on the cable, standing upright with feet hip-width apart and elbows pinned to your sides."
+    ],
+    "steps": [
+      "Curl your hands toward your shoulders by flexing the elbows, keeping your upper arms stationary.",
+      "Squeeze your arm muscles firmly at the peak of the contraction without allowing your elbows to drift forward.",
+      "Lower the weight back down slowly under control until your elbows reach full extension."
+    ],
+    "breathing": "Exhale as you curl the weight up, and inhale as you lower it back down.",
+    "cues": [
+      "Keep palms facing each other throughout.",
+      "Pin your elbows to your ribs.",
+      "Control the descent; don't let the stack snap down."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to use momentum to move the weight.",
+        "correction": "Brace your core and maintain a strict, upright posture throughout the entire movement."
+      },
+      {
+        "fault": "Allowing the elbows to drift forward during the curl.",
+        "correction": "Keep your upper arms stationary and tucked close to your torso."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a neutral wrist position to avoid excessive strain on the joint."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable Hammer Curl",
+  "previous_ids": [
+    "oec:hammercurls-on-cable"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Hammercurls on Cable",
+        "url": "https://wger.de/en/exercise/275/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-hammer-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-hammer-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:alternating-dumbbell-hammer-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-cross-body-hammer-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:suspension-trainer-hammer-curl"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An isolation exercise using a low cable pulley and neutral grip to target the elbow flexors, especially the brachialis and brachioradialis."
+}

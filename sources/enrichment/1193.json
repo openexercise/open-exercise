@@ -1,0 +1,157 @@
+{
+  "is_exercise": true,
+  "name": "Russian Twist",
+  "summary": "A seated core exercise that involves rotating the torso from side to side while maintaining a lean back to target the obliques and abdominals.",
+  "aliases": [
+    {
+      "text": "Seated Russian Twist",
+      "kind": "common"
+    },
+    {
+      "text": "Torso Twist",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "rotation"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "external-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "rotation"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat",
+    "dumbbell",
+    "medicine-ball",
+    "weight-plate"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "load",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight-plus-external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit on the floor or an exercise mat with your knees bent and feet flat on the ground.",
+      "Brace your core, maintain a neutral spine, and lean your torso back slightly to roughly a 45-degree angle.",
+      "Clasp your hands together in front of your chest, or hold an optional weight firmly with both hands.",
+      "Optionally raise your feet a few inches off the floor to increase balance and core demand."
+    ],
+    "steps": [
+      "Rotate your torso smoothly to one side, bringing your hands or the weight toward the floor beside your hip.",
+      "Pause briefly under control without letting your lower back collapse or rounding excessively.",
+      "Rotate your torso across the center to the opposite side in a smooth, continuous motion.",
+      "Continue alternating sides for the target rep count or duration."
+    ],
+    "breathing": "Maintain steady, rhythmic breathing throughout the set, exhaling as you rotate to each side and inhaling as you pass through center.",
+    "cues": [
+      "Rotate from the ribs, not just the arms",
+      "Keep chest open and proud",
+      "Lock your hips stable"
+    ],
+    "common_faults": [
+      {
+        "fault": "Moving only the arms from side to side without rotating the ribcage and torso.",
+        "correction": "Ensure your entire upper torso and shoulders turn as a unit so the rotational work is handled by the obliques."
+      },
+      {
+        "fault": "Rounding the lower back excessively into a slumped posture.",
+        "correction": "Keep the chest lifted and hinge slightly at the hips to maintain neutral spinal alignment."
+      },
+      {
+        "fault": "Flailing the legs and shifting the pelvis excessively from side to side.",
+        "correction": "Stabilize your pelvis and lower body; if keeping the feet elevated causes instability, rest your heels lightly on the floor."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid aggressive or ballistic twisting, especially when using added resistance, to protect the lumbar spine."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

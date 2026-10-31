@@ -1,0 +1,154 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Spider Curl",
+  "summary": "A chest-supported curl performed prone on an incline bench to isolate the elbow flexors with the upper arms hanging vertically.",
+  "aliases": [
+    {
+      "text": "Spider Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Incline Dumbbell Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Chest-Supported Dumbbell Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "incline_degrees": 45,
+  "grip_orientation": "supinated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "supination"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "adjustable-bench"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an incline of approximately 45 degrees.",
+      "Straddle the bench and lie prone with your chest securely supported against the pad and your feet firmly planted on the floor.",
+      "Grasp a dumbbell in each hand with an underhand (supinated) grip, letting your arms hang perpendicular to the floor."
+    ],
+    "steps": [
+      "Keeping your upper arms stationary and perpendicular to the floor, curl the dumbbells upward by flexing at the elbows.",
+      "Continue raising the weights until your biceps are fully contracted, pausing briefly at the peak contraction.",
+      "Lower the dumbbells smoothly back down under control until your elbows are fully extended."
+    ],
+    "breathing": "Exhale as you curl the dumbbells toward your shoulders and inhale as you lower them.",
+    "cues": [
+      "Keep upper arms pinned perpendicular to the floor.",
+      "Squeeze biceps hard at the peak.",
+      "Control the descent without swinging."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the upper arms backward during the curl to generate momentum.",
+        "correction": "Keep the humerus vertical throughout the repetition, flexing only at the elbow joint."
+      },
+      {
+        "fault": "Hyperextending the neck to look up while performing the movement.",
+        "correction": "Maintain a neutral cervical spine by gazing slightly forward and down toward the floor."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the bench angle is securely locked before lying against it."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

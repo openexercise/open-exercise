@@ -1,0 +1,232 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Front Wood Chop",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Vertical Wood Chop",
+      "kind": "common"
+    },
+    {
+      "text": "Vertical Wood Chop",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Front Woodchop",
+      "kind": "common"
+    },
+    {
+      "text": "Front Woodchop",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "external-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-long-head",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "downward-rotation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "pull",
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "516"
+  },
+  "id": "oec:cable-front-wood-chop",
+  "instructions": {
+    "setup": [
+      "Set the cable pulley to its highest setting and attach a rope or bar handle.",
+      "Stand facing the cable machine with your feet shoulder-width apart and knees slightly bent.",
+      "Grasp the attachment firmly with both hands overhead, keeping your arms extended with a slight bend in your elbows."
+    ],
+    "steps": [
+      "Brace your core and pull the attachment down directly in front of your body toward your thighs.",
+      "Hinge slightly at the hips and flex your torso forward as your hands pass your chest, focusing on abdominal contraction.",
+      "Pause briefly at the bottom of the movement while actively squeezing your lats and abs.",
+      "Control the weight as it rises, extending your hips and returning your arms smoothly to the overhead starting position."
+    ],
+    "breathing": "Exhale forcefully as you chop downward, and inhale as you return the cable overhead.",
+    "cues": [
+      "Pull with your lats and abs",
+      "Keep your elbow angle locked",
+      "Control the ascent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending and extending the elbows excessively, turning the movement into a triceps pushdown.",
+        "correction": "Maintain a fixed, soft bend in the elbows throughout and drive the movement through shoulder extension and trunk flexion."
+      },
+      {
+        "fault": "Hyperextending the lower back at the top of the movement.",
+        "correction": "Keep your core braced and ribs pulled down even when your arms are fully overhead."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Select a load that allows full control during both the downward pull and the overhead return."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable Front Wood Chop",
+  "previous_ids": [
+    "oec:front-wood-chop"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Front Wood Chop",
+        "url": "https://wger.de/en/exercise/516/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Konsumopfer"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:medicine-ball-slam"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "narrow"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A standing cable exercise performed in the sagittal plane where resistance is pulled downward from an overhead position to engage the abdominals and lats."
+}

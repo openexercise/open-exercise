@@ -1,0 +1,169 @@
+{
+  "is_exercise": true,
+  "name": "Incline Dumbbell Row",
+  "summary": "A chest-supported dumbbell row performed prone on an incline bench to isolate the upper back and lats without loading the lower spine.",
+  "aliases": [
+    {
+      "text": "Chest-Supported Dumbbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Bench Dumbbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Incline Dumbbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Incline Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "grip_orientation": "neutral",
+  "grip_width": "shoulder",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "adjustable-bench",
+        "bench"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an incline of roughly 30 to 45 degrees.",
+      "Straddle the bench and lie face down with your chest firmly supported against the pad.",
+      "Grasp a dumbbell in each hand using a neutral grip, letting your arms hang straight down with your shoulders fully relaxed and protracted."
+    ],
+    "steps": [
+      "Initiate the pull by retracting your shoulder blades and driving your elbows up and back toward your hips.",
+      "Pull the dumbbells until your upper arms are in line with your torso, pausing briefly at peak contraction.",
+      "Lower the dumbbells under control back to the starting position, allowing your shoulder blades to protract at the bottom for a full stretch."
+    ],
+    "breathing": "Exhale as you row the weights upward; inhale smoothly as you lower them.",
+    "cues": [
+      "Drive with the elbows, not your hands.",
+      "Keep your chest glued to the pad.",
+      "Squeeze your shoulder blades together at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the chest off the bench to generate momentum.",
+        "correction": "Keep your sternum pressed firmly into the pad throughout the entire repetition."
+      },
+      {
+        "fault": "Shrugging the shoulders toward the ears during the row.",
+        "correction": "Depress your shoulders and pull your elbows back toward your pockets instead of straight up."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Select weights you can control without arching your neck or extending your spine excessively off the bench."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

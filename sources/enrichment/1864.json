@@ -1,0 +1,153 @@
+{
+  "is_exercise": true,
+  "name": "Ankle Circle",
+  "summary": "A mobility exercise performing controlled circumduction of the foot to improve range of motion and joint health in the ankle.",
+  "aliases": [
+    {
+      "text": "Ankle Roll",
+      "kind": "common"
+    },
+    {
+      "text": "Ankle Circles",
+      "kind": "common"
+    },
+    {
+      "text": "Foot Circles",
+      "kind": "common"
+    },
+    {
+      "text": "Foot Rotations",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "rehabilitation",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "isolation-ankle"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "tibialis-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "peroneals",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "tibialis-posterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "ankle",
+      "actions": [
+        "circumduction",
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "subtalar",
+      "actions": [
+        "inversion",
+        "eversion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "chair",
+    "bench",
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "tempo"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "load_convention": "not-applicable",
+  "reps_counted": "per-side",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit upright on the floor, a chair, or a bench with good posture.",
+      "Elevate one foot off the floor by extending the knee slightly or resting the lower leg across your opposite knee, ensuring the ankle can move freely."
+    ],
+    "steps": [
+      "Slowly trace a large, smooth circle with your toes, moving strictly at the ankle joint.",
+      "Move through maximum comfortable dorsiflexion, eversion, plantarflexion, and inversion.",
+      "Complete the target number of repetitions in one direction, then immediately reverse and rotate the opposite way.",
+      "Lower the leg and repeat the sequence with the other foot."
+    ],
+    "breathing": "Breathe smoothly and rhythmically without holding your breath.",
+    "cues": [
+      "Draw the biggest circle possible with your big toe",
+      "Keep your knee and shin completely still",
+      "Slow down and explore the full range"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating from the hip or knee instead of isolating the ankle.",
+        "correction": "Stabilize your shin with your hands if needed and focus exclusively on movement at the ankle joint."
+      },
+      {
+        "fault": "Rushing through the movement and cutting corners on the circle.",
+        "correction": "Perform each circle deliberately, spending time at the full end-range of each movement phase."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Work within a pain-free range of motion, especially when rehabilitating recent sprains or tendon issues."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

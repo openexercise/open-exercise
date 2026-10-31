@@ -1,0 +1,164 @@
+{
+  "is_exercise": true,
+  "name": "Bodyweight Forward Lunge",
+  "summary": "A fundamental unilateral lower-body exercise where one leg steps forward, lowers until both knees bend, and drives back to the starting position.",
+  "aliases": [
+    {
+      "text": "Forward Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Bodyweight Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Unilateral Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Unilateral Lunges",
+      "kind": "common"
+    },
+    {
+      "text": "Air Lunge",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand upright with feet hip-width apart, shoulders relaxed, and torso tall.",
+      "Place your hands firmly on your hips or clasp them loosely in front of your chest for balance."
+    ],
+    "steps": [
+      "Take a controlled step forward with the working leg, maintaining hip-width spacing between your feet.",
+      "Lower your body under control until both knees are bent at roughly ninety degrees, with the back knee hovering just off the floor.",
+      "Drive firmly through the heel and midfoot of your front leg to push yourself straight back to the starting stance.",
+      "Repeat for the target number of repetitions on one side before switching to the opposite leg."
+    ],
+    "breathing": "Inhale as you step forward and lower down; exhale forcefully as you drive through the front foot to return to the standing position.",
+    "cues": [
+      "Stay on railroad tracks",
+      "Drop straight down",
+      "Push the floor away",
+      "Chest proud"
+    ],
+    "common_faults": [
+      {
+        "fault": "Stepping in-line as if on a tightrope, compromising lateral balance.",
+        "correction": "Keep feet hip-width apart throughout the movement as if standing on parallel railroad tracks."
+      },
+      {
+        "fault": "Allowing the front knee to collapse inward during the descent.",
+        "correction": "Actively track the knee over the second and third toes of the lead foot."
+      },
+      {
+        "fault": "Slamming the rear knee into the floor.",
+        "correction": "Decelerate smoothly and reverse the motion when the trailing knee is about an inch above the ground."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the floor is clean and non-slippery to prevent foot sliding on impact."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

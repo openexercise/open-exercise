@@ -1,0 +1,153 @@
+{
+  "is_exercise": true,
+  "name": "Pelvic Tilt",
+  "summary": "A foundational core and lumbo-pelvic mobility exercise performed supine to develop pelvic control and engage the deep abdominals.",
+  "aliases": [
+    {
+      "text": "Supine Pelvic Tilt",
+      "kind": "common"
+    },
+    {
+      "text": "Posterior Pelvic Tilt",
+      "kind": "common"
+    },
+    {
+      "text": "Pelvic Tilts",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "mobility",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "transversus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "synergist"
+    },
+    {
+      "muscle": "external-oblique",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "posterior-tilt",
+        "anterior-tilt"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie face up on a comfortable mat with your knees bent and feet flat on the floor, positioned hip-width apart.",
+      "Rest your arms comfortably at your sides and allow your lower back to maintain its natural, slight arch."
+    ],
+    "steps": [
+      "Exhale gently and draw your navel inward toward your spine.",
+      "Contract your deep abdominals to roll your pelvis backward, flattening your lower back firmly into the floor.",
+      "Hold the posterior tilt briefly while keeping your glutes and legs relaxed or gently engaged without lifting your hips.",
+      "Inhale and smoothly release the contraction, returning your pelvis and lower back to the neutral starting position."
+    ],
+    "breathing": "Exhale as you tilt your pelvis backward and flatten your spine against the floor; inhale as you release back to neutral.",
+    "cues": [
+      "Flatten the small of your back into the floor.",
+      "Pull your belt buckle toward your ribcage.",
+      "Keep your glutes relaxed; move from your core."
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the hips off the floor into a bridge.",
+        "correction": "Keep your sacrum resting on the ground; only rotate the pelvis without lifting your hips into the air."
+      },
+      {
+        "fault": "Pushing aggressively into the floor with the feet.",
+        "correction": "Focus on driving the movement with abdominal contraction rather than leg extension."
+      },
+      {
+        "fault": "Holding your breath during the contraction.",
+        "correction": "Maintain a continuous, smooth breathing rhythm, exhaling through pursed lips as you tilt."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Move within a pain-free range of motion, avoiding excessive force if you experience acute lower back discomfort."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

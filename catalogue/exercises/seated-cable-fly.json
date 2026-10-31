@@ -1,0 +1,216 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Seated Cable Chest Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Seated Fly",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-short-head",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-chest-fly",
+      "horizontal-push"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ],
+      [
+        "bench",
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1922"
+  },
+  "id": "oec:seated-cable-fly",
+  "instructions": {
+    "setup": [
+      "Position an upright bench centered between two cable columns.",
+      "Adjust both pulleys to roughly chest height when seated.",
+      "Attach single D-handles to each pulley.",
+      "Grasp each handle, sit firmly against the backrest with feet flat on the floor, and hold the handles out to your sides with a slight bend in your elbows."
+    ],
+    "steps": [
+      "Maintain a soft bend at the elbows and keep your chest lifted against the bench pad.",
+      "Bring your hands forward in a wide hugging arc until they meet directly in front of your chest.",
+      "Squeeze your chest muscles firmly at the peak contraction.",
+      "Slowly reverse the motion along the same wide arc until you feel a comfortable stretch in your pecs."
+    ],
+    "breathing": "Exhale as you bring your hands together in front of your chest; inhale as you slowly return to the stretched position.",
+    "cues": [
+      "Hug a wide barrel",
+      "Lead with your elbows and squeeze your inner chest",
+      "Keep your shoulders depressed and pinned back"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pressing the weight instead of flying by excessively bending and extending the elbows.",
+        "correction": "Lock a slight bend into your elbows at the start and keep that angle unchanged throughout the rep."
+      },
+      {
+        "fault": "Allowing the shoulders to shrug up or roll forward off the bench during the contraction.",
+        "correction": "Keep your shoulder blades retracted and depressed against the back pad throughout the set."
+      },
+      {
+        "fault": "Overstretching past shoulder comfort at the back of the movement.",
+        "correction": "Stop the eccentric phase when your hands align roughly with your torso plane."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not let the weight stack pull your arms behind the plane of your shoulders abruptly.",
+        "Bring handles to your chest before sitting back or standing up when mounting and dismounting the weight."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Seated Cable Fly",
+  "previous_ids": [
+    "oec:seated-cable-chest-fly"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Seated Cable chest fly",
+        "url": "https://wger.de/en/exercise/1922/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "shushu"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-chest-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-chest-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-chest-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-crossover"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-fly"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "An isolation exercise that uses dual cable pulleys and an upright bench to target the pectoralis major across a constant resistance curve."
+}

@@ -1,0 +1,176 @@
+{
+  "is_exercise": true,
+  "name": "Typewriter Push-Up",
+  "summary": "An advanced push-up variation where you lower to the bottom position and glide laterally from side to side, placing intense unilateral load and isometric tension on the chest, shoulders, and triceps.",
+  "aliases": [
+    {
+      "text": "Isometric Wipers",
+      "kind": "common"
+    },
+    {
+      "text": "Push-Up Wiper",
+      "kind": "common"
+    },
+    {
+      "text": "Typewriter Pushup",
+      "kind": "common"
+    },
+    {
+      "text": "Side-to-Side Push-Up",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "anti-extension",
+      "anti-rotation"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "frontal",
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "prone",
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "horizontal-abduction",
+        "adduction",
+        "abduction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Begin in a high plank position on the floor with feet hip-width apart and hands placed wider than shoulder-width apart, fingers pointed slightly outward.",
+      "Brace your core, squeeze your glutes, and establish a straight line from your heels through your head."
+    ],
+    "steps": [
+      "Lower your chest down toward the floor as you shift your torso toward one hand, fully bending that elbow while the opposite arm extends almost straight.",
+      "Maintain your chest just an inch or two above the floor as you slide horizontally across to the opposite hand.",
+      "As you reach the opposite side, bend that elbow deeply while straightening the trailing arm.",
+      "Reverse the horizontal glide or press back up to the center depending on the set format, repeating the alternating slides smoothly."
+    ],
+    "breathing": "Inhale as you lower and initiate the lateral shift; maintain controlled, shallow breaths during the glide, and exhale as you press back up to the top.",
+    "cues": [
+      "Stay low like a typewriter carriage.",
+      "Keep your hips level with your shoulders as you slide.",
+      "Brace your abs hard to prevent your lower back from sagging."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rising up in the middle of the transition between sides.",
+        "correction": "Keep your chest pinned at the bottom height throughout the entire horizontal sweep across the floor."
+      },
+      {
+        "fault": "Sagging hips or hyperextending the lumbar spine.",
+        "correction": "Squeeze the glutes and pull the belly button toward the spine to maintain a rigid plank."
+      },
+      {
+        "fault": "Twisting the hips and shoulders unevenly toward the floor.",
+        "correction": "Keep the torso parallel to the ground; only shift left-to-right without rotating the pelvis."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Requires significant shoulder and wrist mobility; warm up the rotator cuff and wrists thoroughly before attempting."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

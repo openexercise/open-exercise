@@ -1,0 +1,156 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Abdominal Vacuum",
+      "kind": "common"
+    },
+    {
+      "text": "Ab Vacuum",
+      "kind": "common"
+    },
+    {
+      "text": "Stomach Vacuum Pose",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "transversus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "not-applicable",
+    "laterality": "bilateral",
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "2673"
+  },
+  "id": "oec:stomach-vacuum",
+  "instructions": {
+    "setup": [
+      "Lie on your back on a flat floor or exercise mat with your knees bent and feet flat on the ground.",
+      "Rest your arms comfortably at your sides and allow your torso to fully relax."
+    ],
+    "steps": [
+      "Take a deep breath in through your nose to expand your abdomen.",
+      "Exhale completely through your mouth, expelling as much air from your lungs as possible.",
+      "Without inhaling, pull your belly button forcefully inward toward your spine, hollowing out your stomach and drawing it up under your ribcage.",
+      "Hold this deep isometric contraction for the prescribed duration while maintaining light, shallow breathing or holding on the exhale.",
+      "Slowly release the contraction and inhale gently to return your abdomen to resting position."
+    ],
+    "breathing": "Completely empty the lungs before drawing the abdomen inward; take shallow sips of air if holding for longer periods without relaxing the inward pull.",
+    "cues": [
+      "Belly button to spine",
+      "Suck the stomach up under the ribs",
+      "Exhale all air completely"
+    ],
+    "common_faults": [
+      {
+        "fault": "Holding breath with lungs full of air.",
+        "correction": "Ensure a complete, forceful exhalation before drawing the stomach inward."
+      },
+      {
+        "fault": "Arching the lower back off the ground.",
+        "correction": "Keep the pelvis neutral and the lower back flat or gently settled against the floor."
+      },
+      {
+        "fault": "Flexing the ribcage forward like doing a crunch.",
+        "correction": "Keep the chest still and shoulders relaxed, isolating the movement entirely to the deep abdominal wall."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform on an empty stomach to avoid gastrointestinal discomfort or nausea."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Stomach Vacuum",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Stomach Vacuum",
+        "url": "https://wger.de/en/exercise/2673/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "TimoteoG"
+      }
+    ]
+  },
+  "setup": {
+    "position": "supine"
+  },
+  "status": "active",
+  "summary": "An isometric core exercise focused on drawing the abdominal wall inward to target the deep transverse abdominis."
+}

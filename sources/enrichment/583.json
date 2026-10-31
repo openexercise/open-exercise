@@ -1,0 +1,170 @@
+{
+  "is_exercise": true,
+  "name": "Side-to-Side Push-Up",
+  "summary": "A push-up variation where the body descends over one hand at a time to overload each side alternately.",
+  "aliases": [
+    {
+      "text": "Side to Side Push Ups",
+      "kind": "common"
+    },
+    {
+      "text": "Side to Side Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Shifting Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Lateral Push-Up",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push",
+      "anti-rotation",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "prone",
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Set up in a high plank position on the floor with your hands slightly wider than standard push-up width.",
+      "Engage your core, squeeze your glutes, and establish a straight line from your head to your heels."
+    ],
+    "steps": [
+      "Shift your weight toward your right side as you bend your elbows, lowering your chest directly over your right hand.",
+      "Press firmly into the floor to return your torso back to the centered top plank position.",
+      "Lower your chest directly over your left hand on the next repetition.",
+      "Press back up to the starting center position and continue alternating sides for each rep."
+    ],
+    "breathing": "Inhale as you lower toward one side and exhale forcefully as you press back up to the center.",
+    "cues": [
+      "Chest over hand.",
+      "Stay rigid like a plank.",
+      "Drive straight through the palm."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hips rotating or sagging toward the floor during the descent.",
+        "correction": "Squeeze the glutes and brace the abdominals to keep the pelvis level throughout the movement."
+      },
+      {
+        "fault": "Flaring the working elbow out perpendicular to the torso.",
+        "correction": "Keep the working elbow tracking at roughly a forty-five degree angle relative to your ribs."
+      },
+      {
+        "fault": "Rushing through the center transition without establishing full lockout.",
+        "correction": "Return completely to the symmetrical plank position before shifting to the other side."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not compromise shoulder alignment by forcing excessive depth if wrist or anterior shoulder discomfort occurs."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

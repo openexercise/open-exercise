@@ -1,0 +1,208 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Machine glute extension",
+      "kind": "common"
+    },
+    {
+      "text": "Glute-ham developer hip extension",
+      "kind": "common"
+    },
+    {
+      "text": "GHR hip extension",
+      "kind": "abbreviation"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "biceps-femoris",
+        "role": "synergist"
+      },
+      {
+        "muscle": "semitendinosus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "semimembranosus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "weight-plate",
+      "weight-vest"
+    ],
+    "required": [
+      [
+        "ghd"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1132"
+  },
+  "id": "oec:ghd-hip-extension",
+  "instructions": {
+    "setup": [
+      "Adjust the GHD footplate so your pelvis hangs completely off the front edge of the thigh pads, allowing full hip flexion without spinal rounding.",
+      "Step into the machine, secure your ankles tightly between the roller pads, and press your feet flat against the footplate.",
+      "Position your thighs on the support pad, brace your core, and cross your arms over your chest."
+    ],
+    "steps": [
+      "Hinge forward at the hips to lower your torso toward the floor while maintaining a completely neutral spine.",
+      "Descend until you feel a deep stretch in your hamstrings and glutes, stopping before your lower back begins to flex.",
+      "Drive your hips into the pad and contract your glutes and hamstrings to raise your torso back to horizontal.",
+      "Pause momentarily in full hip extension in line with your legs, avoiding hyperextension of the lower back."
+    ],
+    "breathing": "Inhale as you hinge down under control; exhale forcefully as you drive your hips into the pad and return to the horizontal position.",
+    "cues": [
+      "Hinge only at the hips.",
+      "Lock your spine rigid like a plank.",
+      "Squeeze the glutes to finish horizontal."
+    ],
+    "common_faults": [
+      {
+        "fault": "Positioning the pad too far forward across the pelvis, which blocks hip hinge and turns the movement into spinal flexion and extension.",
+        "correction": "Adjust the foot carriage so the front edge of the pad sits at your upper thighs, leaving your hip crease completely free to bend."
+      },
+      {
+        "fault": "Hyperextending the lumbar spine at the top of the rep instead of finishing with glute contraction.",
+        "correction": "Stop raising your torso once your body forms a straight line from your shoulders through your hips and ankles."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the footplate adjustment pins are fully engaged and locked before mounting the machine.",
+        "Discontinue the movement if you experience sharp lower back strain rather than glute and hamstring fatigue."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "bodyweight-plus-external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "load",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "GHD Hip Extension",
+  "previous_ids": [
+    "oec:machine-glute-extension"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Machine glute extension",
+        "url": "https://wger.de/en/exercise/1132/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Franpol"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:back-extension"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:back-extension"
+    }
+  ],
+  "setup": {
+    "position": "prone",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A posterior-chain hip hinge performed on a glute-ham developer with a rigid spine to isolate the glutes and hamstrings."
+}

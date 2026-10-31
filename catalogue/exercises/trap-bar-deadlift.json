@@ -1,0 +1,241 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Trap Bar Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Hex Bar Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "Hex Bar Squat",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge",
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "trap-bar"
+      ],
+      [
+        "weight-plate"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1803"
+  },
+  "id": "oec:trap-bar-deadlift",
+  "instructions": {
+    "setup": [
+      "Stand inside the trap bar with your feet positioned hip- to shoulder-width apart.",
+      "Hinge at the hips and bend your knees until you can grasp the center of the neutral handles.",
+      "Flatten your back, lift your chest, and pull tension into the handles to remove slack from the bar.",
+      "Set your gaze slightly forward and brace your abdominal wall."
+    ],
+    "steps": [
+      "Drive your feet through the floor, extending your knees and hips simultaneously.",
+      "Stand fully upright, locking out your hips and knees without leaning back.",
+      "Hinge at the hips and bend the knees to lower the bar in a controlled path back to the floor.",
+      "Allow the plates to come to a dead stop on the floor before starting the next rep."
+    ],
+    "breathing": "Inhale and brace your core tightly before breaking the floor, exhaling as you reach the top lockout position.",
+    "cues": [
+      "Push the floor away",
+      "Chest proud, long arms",
+      "Stand tall at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Gripping too far forward or backward on the handles, causing the bar to tilt during the lift.",
+        "correction": "Center your hands on the handles so the bar stays level as it leaves the floor."
+      },
+      {
+        "fault": "Hyperextending the lumbar spine at lockout instead of finishing with hip extension.",
+        "correction": "Squeeze your glutes to finish tall with your ribcage stacked directly above your pelvis."
+      },
+      {
+        "fault": "Allowing the knees to collapse inward during the drive phase.",
+        "correction": "Actively push your knees outward in line with your toes throughout the ascent."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a neutral spine throughout the pull and avoid rounding your lower back under heavy loads."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Trap Bar Deadlift",
+  "previous_ids": [
+    "oec:trap-bar-squat"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Trap Bar Squat",
+        "url": "https://wger.de/en/exercise/1803/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "kmcalderwood"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-deadlift"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-deadlift"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "shoulder"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A compound lower-body lift performed inside a hexagonal bar that distributes load closer to the body's center of mass than a traditional barbell pull."
+}

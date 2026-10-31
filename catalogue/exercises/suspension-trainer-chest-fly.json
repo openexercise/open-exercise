@@ -1,0 +1,245 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "TRX Chest Fly",
+      "kind": "brand"
+    },
+    {
+      "text": "Suspension Chest Fly",
+      "kind": "common"
+    },
+    {
+      "text": "TRX Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Suspended Crosses",
+      "kind": "common"
+    },
+    {
+      "text": "croci",
+      "kind": "common"
+    },
+    {
+      "text": "sospensione",
+      "kind": "common"
+    },
+    {
+      "text": "trx",
+      "kind": "common"
+    },
+    {
+      "text": "Suspended crossess",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-chest-fly",
+      "anti-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "suspension-trainer",
+        "gymnastic-rings"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "927"
+  },
+  "id": "oec:suspension-trainer-chest-fly",
+  "instructions": {
+    "setup": [
+      "Anchor the suspension trainer securely and lengthen the straps to roughly mid-calf or knee height.",
+      "Stand facing away from the anchor point holding the handles with a neutral grip.",
+      "Step your feet back into an inclined plank position with arms extended in front of your chest, keeping a slight, rigid bend in the elbows."
+    ],
+    "steps": [
+      "Inhale and open your arms out to the sides in a wide arc, lowering your body forward under control.",
+      "Continue opening your arms until you feel a comfortable, deep stretch across your chest, maintaining the slight fixed bend in your elbows.",
+      "Exhale and squeeze your chest muscles to bring the handles back together, reversing the arc to return to the starting plank position."
+    ],
+    "breathing": "Inhale as you open your arms and lower your body; exhale forcefully through your mouth as you bring the handles together.",
+    "cues": [
+      "Hug a tree on the way up.",
+      "Keep the elbows frozen in a soft bend.",
+      "Maintain a rigid plank from head to heels."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending and straightening the elbows like a push-up.",
+        "correction": "Lock the elbows in a slightly bent position throughout the entire repetition so movement only occurs at the shoulders."
+      },
+      {
+        "fault": "Sagging at the hips or hyper-extending the lower back.",
+        "correction": "Engage the glutes and brace the abs to maintain a straight line from heels to head."
+      },
+      {
+        "fault": "Stretching the arms too far back past the plane of the torso.",
+        "correction": "Limit the eccentric stretch to a comfortable depth where you can reverse the motion without placing excessive strain on the anterior shoulder capsule."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the anchor point and suspension straps are fully tested for bodyweight support before leaning in.",
+        "Adjust exercise intensity easily by moving feet forward (more upright) to decrease difficulty or backward to increase it."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Suspension Trainer Chest Fly",
+  "previous_ids": [
+    "oec:suspended-crossess"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Suspended crossess",
+        "url": "https://wger.de/en/exercise/927/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-chest-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-chest-fly"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-fly"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A bodyweight chest isolation exercise performed using a suspension trainer to challenge horizontal shoulder adduction and core stability."
+}

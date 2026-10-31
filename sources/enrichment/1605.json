@@ -1,0 +1,176 @@
+{
+  "is_exercise": true,
+  "name": "Copenhagen Plank",
+  "summary": "An advanced side plank variation where the top leg rests on an elevated surface to target the hip adductors and lateral core stabilizers.",
+  "aliases": [
+    {
+      "text": "Copenhagen Adduction Exercise",
+      "kind": "common"
+    },
+    {
+      "text": "Adductor Side Plank",
+      "kind": "common"
+    },
+    {
+      "text": "Copenhagen Side Plank",
+      "kind": "common"
+    },
+    {
+      "text": "Copenhagen Hip Adduction",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "calisthenics",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "isolation-hip-adduction",
+      "anti-lateral-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "side-lying",
+  "muscles": [
+    {
+      "muscle": "adductor-longus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gracilis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "quadratus-lumborum",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "bench",
+        "plyo-box",
+        "step"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie on your side perpendicular to a flat bench, propping your upper body on your bottom forearm with your elbow directly beneath your shoulder.",
+      "Place the inside of your top foot and lower leg firmly on top of the bench.",
+      "Position your bottom leg straight underneath the bench."
+    ],
+    "steps": [
+      "Press down through the top foot and bottom forearm to elevate your hips off the floor.",
+      "Lift the bottom leg off the ground so that it hovers beneath the bench, directly underneath your top leg.",
+      "Hold your torso, hips, and legs in a rigid, straight line for the prescribed duration.",
+      "Lower your hips under control to the floor before switching to the opposite side."
+    ],
+    "breathing": "Maintain steady, rhythmic breathing throughout the hold while keeping your core braced.",
+    "cues": [
+      "Crush the bench with your top leg",
+      "Lock your hips in a straight line",
+      "Don't let your hips sag or rotate"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the hips to sag downward toward the floor.",
+        "correction": "Actively drive the top leg into the bench and brace the obliques to keep the pelvis aligned."
+      },
+      {
+        "fault": "Rotating the hips forward or backward out of the frontal plane.",
+        "correction": "Keep your chest and hips squared directly forward, stacking your shoulders and pelvis vertically."
+      },
+      {
+        "fault": "Placing too long of a lever arm before building adequate adductor strength, causing knee strain.",
+        "correction": "Regress the movement by supporting your top leg at the knee rather than at the ankle."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you experience groin or knee pain, shorten the lever arm by resting the knee or mid-shin on the bench instead of the foot."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

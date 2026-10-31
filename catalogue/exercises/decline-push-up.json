@@ -1,0 +1,238 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Feet-Elevated Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Decline Pushup",
+      "kind": "common"
+    },
+    {
+      "text": "Push-Ups | Decline",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat",
+      "weight-vest"
+    ],
+    "required": [
+      [
+        "bench",
+        "plyo-box",
+        "step",
+        "chair"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1112"
+  },
+  "id": "oec:decline-push-up",
+  "instructions": {
+    "setup": [
+      "Place your hands flat on the floor slightly wider than shoulder-width apart.",
+      "Step your feet backward one at a time and elevate them onto a stable bench, box, or step.",
+      "Engage your core, glutes, and quadriceps to form a rigid, straight line from your heels to your head with arms fully extended."
+    ],
+    "steps": [
+      "Inhale and lower your chest toward the floor by bending your elbows at roughly a 45-degree angle to your torso.",
+      "Descend until your chest nearly touches the ground or reaches full depth without breaking spinal alignment.",
+      "Exhale and press firmly through your palms to extend your elbows and return to the starting plank position."
+    ],
+    "breathing": "Inhale smoothly as you lower down, and exhale forcefully as you press back up to the top.",
+    "cues": [
+      "Keep your body stiff like a board.",
+      "Arrow shape with your elbows, not a T.",
+      "Push the floor away through your palms."
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging hips or hyperextending the lower back during the press.",
+        "correction": "Squeeze your glutes and brace your abdominals tightly throughout the entire repetition."
+      },
+      {
+        "fault": "Flaring elbows excessively out to the sides.",
+        "correction": "Tuck your elbows to roughly 45 degrees relative to your torso to protect the shoulders."
+      },
+      {
+        "fault": "Reaching with the chin instead of achieving full range of motion with the chest.",
+        "correction": "Maintain a neutral neck and aim to bring your chest, not your face, closest to the floor."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the elevated surface is stable and will not slip or slide backward under pressure."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Decline Push-Up",
+  "previous_ids": [
+    "oec:push-ups-decline"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Push-Ups | Decline",
+        "url": "https://wger.de/en/exercise/1112/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "anon1337"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-incline-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:incline-dumbbell-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-incline-chest-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "prone",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A bodyweight pressing exercise performed with the feet elevated on a bench or box to place greater emphasis on the upper chest and anterior deltoids."
+}

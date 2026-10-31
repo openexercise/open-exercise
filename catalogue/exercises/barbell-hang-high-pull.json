@@ -1,0 +1,263 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "High Pull",
+      "kind": "common"
+    },
+    {
+      "text": "Hang High Pull",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell High Pull",
+      "kind": "common"
+    },
+    {
+      "text": "Hang Clean High Pull",
+      "kind": "common"
+    },
+    {
+      "text": "Clean High Pull from Hang",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-lateral",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "elevation",
+          "upward-rotation"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "abduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "power",
+      "olympic-weightlifting",
+      "strength"
+    ],
+    "movement_patterns": [
+      "hinge",
+      "vertical-pull",
+      "olympic-lift"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "ballistic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "strap",
+      "weight-plate"
+    ],
+    "required": [
+      [
+        "barbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "289"
+  },
+  "id": "oec:barbell-hang-high-pull",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart, gripping the barbell with a double-overhand or hook grip just outside shoulder width.",
+      "Engage your lats, brace your core, and set your shoulders slightly ahead of the bar.",
+      "Hinge at the hips and slightly bend your knees to lower the bar to just below the kneecaps while maintaining a neutral spine."
+    ],
+    "steps": [
+      "Rapidly initiate the pull by driving your feet into the floor and extending your hips and knees explosively.",
+      "As you reach full extension, aggressively shrug your shoulders and allow your ankles to plantarflex.",
+      "Direct the momentum upward, allowing your elbows to bend high and outside until the barbell reaches mid-to-upper chest height.",
+      "Guide the bar back down smoothly under control into the hang position or floor to reset for the next repetition."
+    ],
+    "breathing": "Inhale and brace your trunk before descending into the hang, and exhale forcefully as you explode through triple extension.",
+    "cues": [
+      "Jump through the floor.",
+      "Shrug hard and fast.",
+      "Keep elbows high and wide.",
+      "Keep the bar close to your shirt."
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling primarily with the arms rather than driving momentum through the hips and legs.",
+        "correction": "Treat the arms as ropes until triple extension is achieved; let the lower body generate the upward momentum before bending the elbows."
+      },
+      {
+        "fault": "Swinging the barbell outward away from the body in an arc.",
+        "correction": "Keep the lats engaged and drive elbows up and outward to keep the bar traveling vertically along the torso."
+      },
+      {
+        "fault": "Rounding the lower back in the hang position.",
+        "correction": "Maintain an arched, braced spine and hinge deeply through the hips without collapsing the chest."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use bumper plates when available so the bar can be safely dropped if balance is lost.",
+        "Do not compromise bar path to pull higher; focus on hip drive rather than pulling the wrists above the elbows."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Hang High Pull",
+  "previous_ids": [
+    "oec:high-pull"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: High Pull",
+        "url": "https://wger.de/en/exercise/289/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "Mahoney"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-clean"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-power-clean"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-power-clean"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An explosive Olympic-lifting derivative where the lifter extends the hips, knees, and ankles from a hang position to violently accelerate a barbell upward to chest height."
+}

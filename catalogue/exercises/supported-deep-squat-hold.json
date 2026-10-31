@@ -1,0 +1,204 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Assisted Deep Squat Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Pole-Assisted Deep Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Assisted Squat Hold",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "soleus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "stretched"
+      },
+      {
+        "muscle": "tibialis-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "external-rotation"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "squat",
+      "mobility-drill",
+      "stretch"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "squat-rack",
+        "power-rack",
+        "suspension-trainer",
+        "wall"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2696"
+  },
+  "id": "oec:supported-deep-squat-hold",
+  "instructions": {
+    "setup": [
+      "Stand facing a sturdy upright support, such as a squat rack post or suspension trainer handles, with feet roughly shoulder-width apart.",
+      "Turn your toes slightly outward to match your natural hip anatomy.",
+      "Grasp the support firmly at roughly chest height."
+    ],
+    "steps": [
+      "Use your arms for support as you push your hips back and bend your knees to sink down into a deep squat.",
+      "Descend until your hips are below your knees while keeping your heels flat on the floor.",
+      "Hold the bottom position with a tall, upright chest and relaxed hips.",
+      "Maintain the static hold for the target duration, using the support to keep your balance and prevent collapsing.",
+      "Pull gently with your arms and drive through your midfoot to stand back up."
+    ],
+    "breathing": "Breathe smoothly and deeply into your belly to encourage your hips and pelvic floor to relax into the bottom position.",
+    "cues": [
+      "Heels flat",
+      "Chest tall",
+      "Knees track over toes",
+      "Sink into the hips"
+    ],
+    "common_faults": [
+      {
+        "fault": "Heels lifting off the ground.",
+        "correction": "Widen your stance slightly, turn the toes out more, and lean back into the support to keep the entire foot planted."
+      },
+      {
+        "fault": "Excessively rounding the spine into a slouched posture.",
+        "correction": "Pull your chest through your shoulders and maintain a proud, neutral spine using the support."
+      },
+      {
+        "fault": "Knees collapsing inward.",
+        "correction": "Actively push your knees outward in line with your middle toes."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the anchor or rack is completely stable and will not tip under your body weight.",
+        "Do not bounce aggressively at terminal hip or knee flexion."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Supported Deep Squat Hold",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Supported Deep Squat Hold",
+        "url": "https://wger.de/en/exercise/2696/view-base",
+        "license": "CC0-1.0",
+        "author": "Original exercise instructions prepared for nalhilal"
+      }
+    ]
+  },
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A lower-body mobility drill where you hold a sturdy support to comfortably sit and remain in a full-depth squat."
+}

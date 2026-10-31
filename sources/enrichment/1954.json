@@ -1,0 +1,147 @@
+{
+  "is_exercise": true,
+  "name": "Rollover to V-Sit",
+  "summary": "A dynamic mobility drill that transitions from a supine spinal rollover into a wide-leg seated forward fold to mobilize the spine, hamstrings, and adductors.",
+  "aliases": [
+    {
+      "text": "Roll-Overs into V-Sits",
+      "kind": "common"
+    },
+    {
+      "text": "Rollovers into V-Sits",
+      "kind": "common"
+    },
+    {
+      "text": "Plow to V-Sit",
+      "kind": "common"
+    },
+    {
+      "text": "Plow to Straddle Reach",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "stretch",
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "hamstrings",
+      "role": "stretched"
+    },
+    {
+      "muscle": "adductors",
+      "role": "stretched"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stretched"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "abduction"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit on an exercise mat with your legs extended in front of you.",
+      "Ensure you have ample clear floor space behind your head to roll backward safely."
+    ],
+    "steps": [
+      "Lie back and use controlled momentum to roll your hips and legs up and over your shoulders toward the floor behind your head.",
+      "Pause briefly at the end range of the rollover, supporting your upper body across your shoulder blades without loading the neck.",
+      "Roll smoothly forward through your spine back into a seated position.",
+      "As you return to sitting, spread your legs wide into a straddle (V-sit) position.",
+      "Hinge at your hips and reach both hands forward between your legs to dynamically stretch your hamstrings and adductors.",
+      "Bring your legs back together and smoothly initiate the next rollover."
+    ],
+    "breathing": "Inhale as you roll backward over your shoulders, and exhale completely as you roll forward and reach into the V-sit stretch.",
+    "cues": [
+      "Roll onto your shoulders, not your neck.",
+      "Smooth momentum, no slamming.",
+      "Spread wide and reach long through your hips."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling directly onto the cervical spine and putting heavy pressure on the neck.",
+        "correction": "Bear your weight across the upper back and shoulder blades, keeping your neck relaxed and free of load."
+      },
+      {
+        "fault": "Excessively rounding the lower back during the forward reach instead of hinging at the hips.",
+        "correction": "Focus on tilting your pelvis forward and reaching from the hips to emphasize the hamstring and adductor stretch."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Individuals with cervical spine issues, disc herniations, or acute lower-back pain should avoid this exercise or limit the backward range of motion."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

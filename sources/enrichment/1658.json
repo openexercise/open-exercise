@@ -1,0 +1,118 @@
+{
+  "is_exercise": true,
+  "name": "Single-Arm Dumbbell Preacher Curl",
+  "summary": "An isolated bicep curl performed one arm at a time against a preacher bench pad to minimize shoulder involvement and enforce strict elbow flexion.",
+  "aliases": [
+    {
+      "text": "Preacher Curl - Externally Rotated",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Dumbbell Preacher Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Preacher Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": ["hypertrophy", "strength"],
+    "movement_patterns": ["isolation-elbow-flexion"],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": ["sagittal"],
+    "contraction": ["dynamic"],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "supinated",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": ["flexion", "extension"]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": ["supination"]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": ["dumbbell"]
+    },
+    {
+      "any_of": ["preacher-bench"]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": ["reps", "load"],
+      "optional": ["rpe"]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the preacher bench seat height so your armpit rests comfortably near the top of the angled pad.",
+      "Grasp a dumbbell with one hand in an underhand (supinated) grip.",
+      "Rest the back of your upper arm flush against the pad, extending your arm downward while bracing your non-working arm or body on the frame."
+    ],
+    "steps": [
+      "Inhale and curl the dumbbell upward by flexing your elbow while keeping your upper arm firmly against the pad.",
+      "Squeeze your biceps at the peak of contraction just before your forearm reaches vertical.",
+      "Lower the dumbbell under control, uncurling your arm until you reach a full extension without hyperextending the elbow.",
+      "Complete all repetitions on one side before switching to the opposite arm."
+    ],
+    "breathing": "Exhale as you curl the weight upward and inhale as you lower it under control.",
+    "cues": [
+      "Keep the armpit pinned to the top of the pad.",
+      "Do not let the upper arm lift off the bench.",
+      "Control the descent; do not bounce out of the bottom."
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the elbow off the pad during the curl.",
+        "correction": "Keep your upper arm firmly pressed against the bench pad throughout the entire set to isolate the elbow flexors."
+      },
+      {
+        "fault": "Hyperextending or dropping into the bottom lockout with excessive speed.",
+        "correction": "Lower the dumbbell under strict control and decelerate gently into full extension to protect the biceps tendon."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid aggressive bouncing or hyperextension at full extension to minimize strain on the distal biceps tendon."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

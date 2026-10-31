@@ -1,0 +1,227 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Medicine ball twist",
+      "kind": "common"
+    },
+    {
+      "text": "Med ball Russian twist",
+      "kind": "common"
+    },
+    {
+      "text": "Weighted Russian twist",
+      "kind": "common"
+    },
+    {
+      "text": "Seated medicine ball trunk twist",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "external-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "rotation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "rotation"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "medicine-ball",
+        "slam-ball"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1089"
+  },
+  "id": "oec:medicine-ball-russian-twist",
+  "instructions": {
+    "setup": [
+      "Sit on an exercise mat with knees bent and feet flat on the floor or lightly elevated for an added challenge.",
+      "Hold a medicine ball with both hands close to your chest or slightly extended in front of your torso.",
+      "Lean back slightly until your torso is at roughly a 45-degree angle with the floor, keeping your spine neutral and core braced."
+    ],
+    "steps": [
+      "Rotate your torso smoothly to one side, bringing the medicine ball toward the floor beside your hip.",
+      "Pause briefly under control without letting the ball slam into the ground.",
+      "Rotate your torso back through the center and across to the opposite side to complete one rep."
+    ],
+    "breathing": "Breathe continuously, exhaling as you rotate to the side and inhaling as you cross through the center.",
+    "cues": [
+      "Turn your shoulders, not just your arms",
+      "Keep your chest proud and spine long",
+      "Control the rotation without momentum"
+    ],
+    "common_faults": [
+      {
+        "fault": "Moving only the arms from side to side without rotating the ribcage and torso.",
+        "correction": "Focus on driving the movement by rotating your chest and shoulders, allowing your hands to simply follow the torso."
+      },
+      {
+        "fault": "Excessively rounding the lumbar spine.",
+        "correction": "Maintain a flat back and proud chest, hinging from the hips to sit at the 45-degree incline."
+      },
+      {
+        "fault": "Excessive leg swaying or hip shifting.",
+        "correction": "Anchor your feet to the floor or squeeze your knees together to keep the lower body stable throughout the movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid aggressively twisting under heavy loads if you have a history of lumbar disc pathology."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration",
+          "load"
+        ],
+        "optional": [
+          "reps",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Medicine Ball Russian Twist",
+  "previous_ids": [
+    "oec:medicine-ball-twist"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Medicine ball twist",
+        "url": "https://wger.de/en/exercise/1089/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "clafal"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:russian-twist"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:russian-twist"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "chest",
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A seated core exercise where the torso rotates side to side holding a medicine ball to target the obliques and abdominals."
+}

@@ -1,0 +1,160 @@
+{
+  "is_exercise": true,
+  "name": "Wall Push-Up",
+  "summary": "An entry-level push-up regression performed standing against a wall to train horizontal pushing mechanics under reduced load.",
+  "aliases": [
+    {
+      "text": "Wall Pushup",
+      "kind": "common"
+    },
+    {
+      "text": "Wall Press-Up",
+      "kind": "regional"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "rehabilitation",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "wall"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand facing a flat, sturdy wall about arm's length away with your feet hip-width apart.",
+      "Place your palms flat against the wall roughly at shoulder height and shoulder-width apart.",
+      "Step your feet back slightly so your body forms a straight line from your heels to the crown of your head, engaging your core and glutes."
+    ],
+    "steps": [
+      "Inhale as you bend your elbows and lower your chest toward the wall under control.",
+      "Keep your elbows tracking at roughly a 45-degree angle to your torso, maintaining a rigid plank position.",
+      "Lower until your nose or chest gently approaches the wall without resting on it.",
+      "Exhale and press firmly through your palms to extend your elbows and return to the starting position."
+    ],
+    "breathing": "Inhale as you lower toward the wall, and exhale as you push back to the start.",
+    "cues": [
+      "Body like a plank.",
+      "Lead with the chest, not the nose.",
+      "Press the wall away."
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging at the hips or arching the lower back.",
+        "correction": "Squeeze your glutes and brace your abdominals to keep a straight line from head to heels."
+      },
+      {
+        "fault": "Flaring elbows out to 90 degrees.",
+        "correction": "Tuck your elbows to an arrow shape, about 45 degrees from your ribs."
+      },
+      {
+        "fault": "Reaching forward with the head or chin to reach the wall early.",
+        "correction": "Keep your neck in neutral alignment and move your entire torso as a single unit."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure your footwear provides adequate grip on the floor to prevent your feet from slipping backward."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "is_exercise": true,
+  "name": "Weighted Crunch",
+  "summary": "An abdominal isolation exercise performed supine, curling the upper spine toward the pelvis while holding an external load.",
+  "aliases": [
+    {
+      "text": "Dumbbell Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Plate Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Weighted Abdominal Crunch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "chest",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "weight-plate",
+        "dumbbell",
+        "medicine-ball"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Lie supine on a floor or exercise mat with your knees bent at roughly 90 degrees and feet flat on the floor.",
+      "Securely hold a weight plate or dumbbell against your upper chest with both hands.",
+      "Tuck your chin slightly and press your lower back gently toward the floor."
+    ],
+    "steps": [
+      "Contract your abdominals to curl your shoulders and upper back off the floor, bringing your ribcage toward your pelvis.",
+      "Pause briefly at the peak of the contraction, keeping tension on the abdominal wall.",
+      "Lower your upper torso under control until your shoulder blades lightly touch the floor, then immediately begin the next repetition."
+    ],
+    "breathing": "Exhale forcefully as you curl upward, and inhale as you lower your torso back to the floor.",
+    "cues": [
+      "Ribs to pelvis",
+      "Curl, don't sit up",
+      "Keep the weight glued to your chest"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling on the neck or excessively flexing the cervical spine.",
+        "correction": "Keep your neck in a neutral posture with the chin slightly tucked, focusing on bending through the ribcage."
+      },
+      {
+        "fault": "Turning the movement into a full sit-up driven by hip flexors.",
+        "correction": "Only lift the shoulder blades and upper back off the mat; keep the lower back anchored to the floor."
+      },
+      {
+        "fault": "Using momentum or bouncing off the floor.",
+        "correction": "Perform the movement smoothly with a distinct pause at the top and a controlled descent."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Start with a light weight to ensure proper spinal flexion mechanics without straining the neck or lower back."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

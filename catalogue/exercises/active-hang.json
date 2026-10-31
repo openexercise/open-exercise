@@ -1,0 +1,212 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Active Bar Hang",
+      "kind": "common"
+    },
+    {
+      "text": "Active Shoulder Hang",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "fingers",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "mobility",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "pull-up-bar"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2690"
+  },
+  "id": "oec:active-hang",
+  "instructions": {
+    "setup": [
+      "Grasp an overhead pull-up bar with an overhand grip roughly shoulder-width apart.",
+      "Step or lower off the platform into a full hang with straight arms and feet off the floor."
+    ],
+    "steps": [
+      "Actively pull your shoulder blades down away from your ears without bending your elbows.",
+      "Brace your core and squeeze your glutes lightly to maintain a stable, hollow body position.",
+      "Hold this active shoulder-depressed position for the target duration.",
+      "Carefully lower your shoulder blades into a relaxed hang or step down to conclude the set."
+    ],
+    "breathing": "Maintain steady, rhythmic breathing through your diaphragm while keeping your core braced and shoulders packed.",
+    "cues": [
+      "Shoulders away from the ears",
+      "Keep the elbows locked straight",
+      "Pencil between the shoulder blades",
+      "Stay long and hollow through your torso"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the elbows to pull the body upward.",
+        "correction": "Keep your arms completely straight; the movement should come entirely from scapular depression."
+      },
+      {
+        "fault": "Allowing shoulders to shrug up to the ears (collapsing into a passive dead hang).",
+        "correction": "Continuously engage your lats and mid-back to keep space between your shoulders and ears."
+      },
+      {
+        "fault": "Excessive arching of the lower back.",
+        "correction": "Engage your abs and point your toes slightly forward to keep a neutral spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the bar is secure and can support your full body weight.",
+        "Step down safely rather than dropping from excessive heights if grip fatigue sets in."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Active Hang",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Active Hang",
+        "url": "https://wger.de/en/exercise/2690/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "nalhilal"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:arch-hang"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:scapular-pull-up"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:pull-up"
+    },
+    {
+      "type": "part-of",
+      "target": "oec:pull-up"
+    },
+    {
+      "type": "part-of",
+      "target": "oec:scapular-pull-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "hanging"
+  },
+  "status": "active",
+  "summary": "An isometric bodyweight hold from an overhead bar with shoulders actively depressed and stabilized."
+}

@@ -1,0 +1,221 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Butt Kicks",
+      "kind": "common"
+    },
+    {
+      "text": "Bum Kicks",
+      "kind": "common"
+    },
+    {
+      "text": "Heel Flicks",
+      "kind": "common"
+    },
+    {
+      "text": "Talons Fesses",
+      "kind": "regional"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "hamstrings",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "calves",
+        "role": "synergist"
+      },
+      {
+        "muscle": "glutes",
+        "role": "synergist"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "stretched"
+      },
+      {
+        "muscle": "abdominals",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "conditioning",
+      "calisthenics",
+      "plyometric"
+    ],
+    "movement_patterns": [
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "ballistic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1285"
+  },
+  "id": "oec:butt-kick",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and arms relaxed at your sides bent at 90 degrees.",
+      "Engage your core and maintain an upright posture with a very slight forward lean from the ankles."
+    ],
+    "steps": [
+      "Push off the ball of one foot and forcefully flex the knee, driving that heel straight up toward your glute.",
+      "Land lightly on the ball of the foot while immediately driving the opposite heel up toward the glute.",
+      "Maintain a quick, rhythmic cadence either in place or traveling forward, pumping your arms in sync with your legs."
+    ],
+    "breathing": "Breathe rhythmically and continuously in time with your stride cadence.",
+    "cues": [
+      "Heels to butt",
+      "Stay light on your toes",
+      "Keep thighs pointed down",
+      "Quick feet"
+    ],
+    "common_faults": [
+      {
+        "fault": "Kicking the knees forward into high knees instead of flexing straight back.",
+        "correction": "Focus on driving the heel directly beneath your hip up to touch the glute while keeping the thigh pointing predominantly downward."
+      },
+      {
+        "fault": "Excessive forward torso bend.",
+        "correction": "Brace the abdominals and keep your chest lifted, maintaining a tall posture throughout the movement."
+      },
+      {
+        "fault": "Landing heavy on flat feet or heels.",
+        "correction": "Stay springy and land softly on the balls of your feet."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure adequate floor traction to prevent slipping when performing at high speed."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps",
+          "heart-rate",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "distance",
+          "duration"
+        ],
+        "optional": [
+          "heart-rate",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Butt Kick",
+  "previous_ids": [
+    "oec:talons-fesses"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Talons fesses",
+        "url": "https://wger.de/en/exercise/1285/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "painDpice"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:running"
+    }
+  ],
+  "setup": {
+    "position": "moving",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A dynamic running drill where the heels are rapidly driven toward the glutes to warm up the hamstrings and reinforce quick knee flexion."
+}

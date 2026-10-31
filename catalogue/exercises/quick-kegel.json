@@ -1,0 +1,141 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Quick Kegels",
+      "kind": "common"
+    },
+    {
+      "text": "Pelvic Floor Quick Flick",
+      "kind": "common"
+    },
+    {
+      "text": "Kegel Quick Flick",
+      "kind": "common"
+    },
+    {
+      "text": "Rapid Kegel",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "transversus-abdominis",
+        "role": "synergist"
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "conditioning"
+    ],
+    "mechanics": "isolation",
+    "kinetic_chain": "not-applicable",
+    "laterality": "bilateral",
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "2640"
+  },
+  "id": "oec:quick-kegel",
+  "instructions": {
+    "setup": [
+      "Lie comfortably on your back with your knees bent and feet flat on the floor.",
+      "Rest your arms by your sides and ensure your abdominal, gluteal, and thigh muscles are completely relaxed."
+    ],
+    "steps": [
+      "Quickly contract and draw the pelvic floor muscles inward and upward as if stopping the flow of urine.",
+      "Squeeze firmly for one second without bearing down or tensing your buttocks.",
+      "Immediately let go, allowing the pelvic floor muscles to fully relax back to baseline for one to two seconds before starting the next rep."
+    ],
+    "breathing": "Breathe normally throughout the set; do not hold your breath during the contractions.",
+    "cues": [
+      "Squeeze and lift",
+      "Fully let go between reps",
+      "Keep glutes and belly soft"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bearing down or pushing outward instead of pulling upward.",
+        "correction": "Focus on an inward and upward drawing sensation, never straining downward."
+      },
+      {
+        "fault": "Clenching the glutes, thighs, or upper abdominals.",
+        "correction": "Keep your outer body completely relaxed and isolate only the pelvic base."
+      },
+      {
+        "fault": "Skipping the relaxation phase between contractions.",
+        "correction": "Ensure a brief, distinct pause where the muscles fully release before initiating the next squeeze."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not routinely perform this exercise while urinating, as interrupting flow can increase the risk of incomplete bladder emptying."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Quick Kegel",
+  "previous_ids": [
+    "oec:quick-kegels"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Quick Kegels",
+        "url": "https://wger.de/en/exercise/2640/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "setup": {
+    "position": "supine"
+  },
+  "status": "active",
+  "summary": "A rapid pelvic floor contraction exercise performed with quick squeezes and releases to train fast-twitch neuromuscular control."
+}

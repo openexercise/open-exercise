@@ -1,0 +1,240 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Shotgun Row",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Low Cable Row",
+      "kind": "common"
+    },
+    {
+      "text": "Standing One-Arm Cable Row",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "depression"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "radioulnar",
+        "actions": [
+          "supination"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "anti-rotation"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "562"
+  },
+  "id": "oec:cable-shotgun-row",
+  "instructions": {
+    "setup": [
+      "Attach a single D-handle to a cable pulley set to the lowest position.",
+      "Grasp the handle with one hand and step back into a stable split stance with the foot opposite your working arm forward.",
+      "Hinge slightly forward at the hips while keeping your chest proud and core braced."
+    ],
+    "steps": [
+      "Allow your working arm to extend fully toward the pulley, letting the scapula gently protract to stretch the lat.",
+      "Initiate the pull by retracting your shoulder blade and driving your elbow down and back toward your hip.",
+      "Rotate your forearm as you pull, turning your palm upward into supination as the handle approaches your torso.",
+      "Pause briefly at peak contraction, squeezing the lat without twisting your torso.",
+      "Lower the weight with control by reversing the motion, extending the arm and rotating back to the starting position."
+    ],
+    "breathing": "Exhale as you row the handle toward your hip, and inhale as you return the cable under control.",
+    "cues": [
+      "Drive your elbow to your hip pocket.",
+      "Turn the palm up as you pull.",
+      "Keep your shoulders and hips square."
+    ],
+    "common_faults": [
+      {
+        "fault": "Over-rotating the torso to heave the weight back.",
+        "correction": "Brace the core and keep the chest facing forward, isolating movement to the arm and shoulder blade."
+      },
+      {
+        "fault": "Flaring the elbow out wide away from the body.",
+        "correction": "Keep the elbow path tight to your ribs to direct tension into the lower and mid lat."
+      },
+      {
+        "fault": "Shrugging the shoulder toward the ear during the row.",
+        "correction": "Keep the shoulder depressed and pull down and back rather than upward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a stable split stance to prevent losing balance as fatigue sets in."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Cable Shotgun Row",
+  "previous_ids": [
+    "oec:shotgun-row"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Shotgun Row",
+        "url": "https://wger.de/en/exercise/562/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "cal.zabel"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-single-arm-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-half-kneeling-rotational-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "rotating"
+    },
+    "position": "split-stance",
+    "range": "full",
+    "stance": {
+      "kind": "split"
+    }
+  },
+  "status": "active",
+  "summary": "A standing unilateral cable row performed from a split stance, rotating the grip from neutral or pronated to supinated to target the lats."
+}

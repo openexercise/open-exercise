@@ -1,0 +1,253 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Single-Leg Calf Raise",
+      "kind": "common"
+    },
+    {
+      "text": "One-Legged Calf Raise",
+      "kind": "common"
+    },
+    {
+      "text": "One-Leg Calf Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Leg Heel Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Unilateral Calf Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Calf raises, one legged",
+      "kind": "common"
+    },
+    {
+      "text": "Calf raises, right leg",
+      "kind": "common"
+    },
+    {
+      "text": "Calf raises, left leg",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gastrocnemius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "soleus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "tibialis-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "peroneals",
+        "role": "synergist"
+      },
+      {
+        "muscle": "foot-intrinsics",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "toes",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength",
+      "calisthenics",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "isolation-ankle"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "step",
+      "dumbbell",
+      "wall"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "702,1021,1203"
+  },
+  "id": "oec:single-leg-standing-calf-raise",
+  "instructions": {
+    "setup": [
+      "Stand on one foot on a flat surface or place the ball of the foot on the edge of an elevated step with the heel hanging off.",
+      "Bend or hook the non-working leg behind the working ankle.",
+      "Lightly place a hand on a wall or stable support to maintain balance."
+    ],
+    "steps": [
+      "Lower your heel under control until you feel a deep, comfortable stretch in the calf.",
+      "Press straight down through the ball of your foot and big toe to raise your heel as high as possible into full plantarflexion.",
+      "Squeeze your calf at the peak contraction for a brief pause.",
+      "Lower slowly back down to the fully stretched position.",
+      "Complete the desired repetitions, then switch to the opposite leg."
+    ],
+    "breathing": "Exhale as you press upward onto the ball of your foot; inhale smoothly as you lower your heel.",
+    "cues": [
+      "Drive through the big toe",
+      "Pause and squeeze at the top",
+      "Slow on the descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bouncing out of the bottom stretch to use elastic recoil from the Achilles tendon.",
+        "correction": "Pause for one second at the bottom of each repetition to ensure pure muscular effort."
+      },
+      {
+        "fault": "Rolling the ankle outward onto the pinky toe.",
+        "correction": "Distribute your weight evenly across the forefoot, pressing firmly through the first metatarsal head and big toe."
+      },
+      {
+        "fault": "Bending the working knee during the ascent.",
+        "correction": "Keep the knee extended with a soft lock throughout the entire set to maximize gastrocnemius involvement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure you have a sturdy surface to touch for balance so you do not lose footing."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "bodyweight-plus-external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "load",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Single-Leg Standing Calf Raise",
+  "previous_ids": [
+    "oec:calf-raises-one-legged",
+    "oec:calf-raises-right-leg",
+    "oec:calf-raises-left-leg"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Calf raises, one legged",
+        "url": "https://wger.de/en/exercise/702/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "McMarcel13"
+      },
+      {
+        "title": "wger: Calf raises, right leg",
+        "url": "https://wger.de/en/exercise/1021/view-base",
+        "license": "CC-BY-SA-4.0"
+      },
+      {
+        "title": "wger: Calf raises, left leg",
+        "url": "https://wger.de/en/exercise/1203/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "wakanda90"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:standing-calf-raise"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:standing-calf-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:standing-calf-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-standing-calf-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-standing-calf-raise"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "single-leg",
+      "width": "narrow"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral calf isolation exercise performed standing on one leg to build lower-leg strength, hypertrophy, and ankle stability."
+}

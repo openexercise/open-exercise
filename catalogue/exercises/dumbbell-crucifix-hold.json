@@ -1,0 +1,211 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Crucifix Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Axe Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Lateral Hold",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-lateral",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "supraspinatus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "strongman"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "31"
+  },
+  "id": "oec:dumbbell-crucifix-hold",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet shoulder-width apart, holding a dumbbell in each hand at your sides.",
+      "Brace your core, squeeze your glutes, and retract your shoulder blades slightly."
+    ],
+    "steps": [
+      "Raise the dumbbells straight out to your sides until your arms are parallel to the floor, forming a T-shape with your body.",
+      "Lock your elbows with only a slight microbend and keep your wrists straight.",
+      "Hold this position statically for the prescribed duration while maintaining a rigid torso.",
+      "Lower the weights smoothly back to your sides under control when the set is complete."
+    ],
+    "breathing": "Maintain steady, rhythmic breathing throughout the hold without letting your ribs flare or bracing drop.",
+    "cues": [
+      "Reach long through your knuckles",
+      "Stay tall and do not lean back",
+      "Keep shoulders down away from your ears"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lower back to keep the weights elevated.",
+        "correction": "Brace your abdominal muscles and squeeze your glutes to maintain a neutral spine."
+      },
+      {
+        "fault": "Allowing the arms to sag below parallel.",
+        "correction": "End the set once you can no longer keep your arms at shoulder height, or reduce the dumbbell weight."
+      },
+      {
+        "fault": "Excessively shrugging the shoulders upward.",
+        "correction": "Depress your scapulae and focus on driving the hold through the side deltoids."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Start with very light weights, as the long lever arm creates high torque at the shoulder joint."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Dumbbell Crucifix Hold",
+  "previous_ids": [
+    "oec:axe-hold"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Axe Hold",
+        "url": "https://wger.de/en/exercise/31/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "GrosseHund"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-lateral-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-lateral-raise-hold"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated"
+    },
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "An isometric shoulder exercise where dumbbells are held abducted at shoulder level to build lateral deltoid and upper-back endurance."
+}

@@ -1,0 +1,167 @@
+{
+  "is_exercise": true,
+  "name": "Pistol Squat",
+  "summary": "An advanced bodyweight squat performed on one leg with the opposite leg extended horizontally forward.",
+  "aliases": [
+    {
+      "text": "Single-Leg Squat",
+      "kind": "common"
+    },
+    {
+      "text": "One-Legged Squat",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "balance"
+    ],
+    "movement_patterns": [
+      "squat",
+      "balance"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "advanced"
+  },
+  "position": "standing",
+  "stance_kind": "single-leg",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "tibialis-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "kettlebell",
+    "plyo-box",
+    "suspension-trainer"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall on one leg with the foot firmly planted and facing forward.",
+      "Extend the opposite leg straight out in front of you, keeping the quad engaged and foot clear of the ground.",
+      "Reach both arms forward at shoulder height to help counterbalance your bodyweight."
+    ],
+    "steps": [
+      "Inhale, brace your core, and initiate the squat by bending simultaneously at the hip and knee of the working leg.",
+      "Descend smoothly under control, letting your knee travel forward over your toes while keeping the non-working leg fully elevated off the floor.",
+      "Continue descending until your hamstring contacts your calf at full depth while keeping the heel of the standing foot flat.",
+      "Drive down forcefully through the midfoot and heel to reverse the movement.",
+      "Extend the working hip and knee fully to return to the tall starting position, then repeat or switch sides."
+    ],
+    "breathing": "Inhale and brace your core as you descend, then exhale forcefully as you drive out of the bottom position.",
+    "cues": [
+      "Keep your heel pinned to the floor",
+      "Reach forward with your hands to counterbalance",
+      "Squeeze the non-working quad to keep that leg high",
+      "Drive the knee in line with your middle toes"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the heel of the working foot to peel off the floor during the descent.",
+        "correction": "Improve ankle dorsiflexion mobility or elevate the heel slightly on a small plate until full range is achieved."
+      },
+      {
+        "fault": "Letting the non-working leg drag or touch the floor.",
+        "correction": "Actively flex the hip and squeeze the quadriceps of the free leg to keep it parallel to the ground, or practice off a raised box."
+      },
+      {
+        "fault": "Excessive knee valgus (the standing knee collapsing inward under load).",
+        "correction": "Push the knee slightly outward tracking over your toes and engage the gluteus medius throughout the rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid bouncing or crashing into the bottom position to protect the knee joint.",
+        "Ensure adequate ankle dorsiflexion before attempting full depth reps unassisted."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "is_exercise": true,
+  "name": "Smith Machine High-Incline Bench Press",
+  "summary": "An incline press performed on a steep bench angle within a Smith machine, heavily emphasizing the anterior deltoids and clavicular head of the pecs.",
+  "aliases": [
+    {
+      "text": "High-Incline Smith Machine Press",
+      "kind": "common"
+    },
+    {
+      "text": "Smith Machine Steep Incline Press",
+      "kind": "common"
+    },
+    {
+      "text": "Smith Machine 60-Degree Bench Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "incline_degrees": 60,
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-lateral",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "horizontal-adduction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "protraction"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "smith-machine"
+      ]
+    },
+    {
+      "any_of": [
+        "adjustable-bench"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Position an adjustable bench inside the Smith machine at a steep 45-to-60-degree angle.",
+      "Align the bench so that the bar descends directly across the clavicle and upper chest.",
+      "Sit back firmly against the pad with feet flat on the floor, and grip the bar slightly wider than shoulder-width with an overhand grip.",
+      "Set the machine safety stops just below your expected bottom position, then unrack the bar by rotating your wrists."
+    ],
+    "steps": [
+      "Inhale and lower the bar in a controlled path toward your upper chest and collarbone.",
+      "Pause momentarily just above the chest without letting the bar crash into your collarbone or bounce.",
+      "Press the bar up along the fixed track by driving through your palms until your elbows are nearly fully extended.",
+      "Re-rack the bar safely into the catches upon completing the set."
+    ],
+    "breathing": "Inhale smoothly as you lower the bar, and exhale forcefully as you press upward through the sticking point.",
+    "cues": [
+      "Elbows tracked under wrists",
+      "Chest tall into the bar",
+      "Drive through the heels of the hands"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bench positioned too far forward or backward, forcing severe shoulder internal rotation or crowding the face.",
+        "correction": "Adjust the bench forward or backward so the bar touches cleanly at the collarbone or high chest without awkward joint angles."
+      },
+      {
+        "fault": "Excessively arching the lower back to turn the press into a flat bench press.",
+        "correction": "Keep the hips and lower back in contact with the pad to ensure the anterior deltoids and upper pecs perform the work."
+      },
+      {
+        "fault": "Flaring elbows completely perpendicular to the torso, placing high stress on the glenohumeral joint.",
+        "correction": "Tuck elbows slightly to roughly a 45-to-60-degree angle relative to your sides throughout the movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Always engage and verify the Smith machine safety stop collars at a height that prevents the bar from pinning your chest or neck in the event of failure."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  }
+}

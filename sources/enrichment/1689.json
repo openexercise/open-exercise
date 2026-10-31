@@ -1,0 +1,158 @@
+{
+  "is_exercise": true,
+  "name": "Cable Chest Fly",
+  "summary": "A standing cable isolation exercise that targets the pectoralis major through horizontal shoulder adduction.",
+  "aliases": [
+    {
+      "text": "Cable Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Middle Cable Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Cable Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Fly Middle Chest",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-chest-fly"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_kind": "staggered",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-short-head",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set both cable pulleys at approximately mid-chest height.",
+      "Grasp a single-hand handle in each hand with palms facing forward or toward each other.",
+      "Step forward into a staggered stance to establish balance, keeping an upright torso with a slight forward lean from the ankles."
+    ],
+    "steps": [
+      "Start with your arms extended out to your sides with a slight, fixed bend in the elbows until you feel a comfortable stretch in the chest.",
+      "Bring both handles together in a wide hugging arc across the front of your chest until your hands nearly touch.",
+      "Squeeze your chest firmly at the peak contraction for a brief pause.",
+      "Control the handles back along the same wide path until you reach the stretched position, resisting the cable tension."
+    ],
+    "breathing": "Inhale as you open your arms and stretch the chest; exhale as you bring your hands together in front.",
+    "cues": [
+      "Hug a wide tree",
+      "Lock your elbow angle",
+      "Squeeze through your chest, not your hands"
+    ],
+    "common_faults": [
+      {
+        "fault": "Turning the fly into a press by excessively bending and extending the elbows.",
+        "correction": "Keep a fixed, soft bend in your elbows throughout the entire movement."
+      },
+      {
+        "fault": "Overextending the arms backward past the shoulder plane, placing excessive stress on the anterior joint capsule.",
+        "correction": "Stop the eccentric phase when your hands align roughly with your torso and you feel an active stretch in the pecs."
+      },
+      {
+        "fault": "Swinging the torso to create momentum.",
+        "correction": "Brace the core, maintain a solid staggered stance, and keep the torso stationary."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid letting the cables yank the shoulders back beyond an active, comfortable range of motion."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Incline Bench Press - MP",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Multipower Incline Bench Press",
+      "kind": "brand"
+    },
+    {
+      "text": "Smith Machine Incline Press",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Smith Machine Press",
+      "kind": "common"
+    },
+    {
+      "text": "Smith Machine Slight Incline Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "horizontal-adduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "upward-rotation"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "weight-plate"
+    ],
+    "required": [
+      [
+        "smith-machine"
+      ],
+      [
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "539,925"
+  },
+  "id": "oec:smith-machine-incline-bench-press",
+  "instructions": {
+    "setup": [
+      "Position an incline bench set to approximately 30 to 45 degrees inside the Smith machine.",
+      "Align the bench so the bar lowers directly across your upper chest, just below the collarbones.",
+      "Lie back on the bench, retract and depress your shoulder blades, and plant your feet firmly on the floor.",
+      "Grasp the bar with a pronated grip slightly wider than shoulder-width, rotating the hooks to unrack the bar."
+    ],
+    "steps": [
+      "Lower the bar under control toward your upper chest, maintaining tucked elbows at roughly a 45-degree angle to your torso.",
+      "Touch lightly or pause just above the clavicular area without letting the bar bounce or rest on your chest.",
+      "Press the bar upward explosively along the fixed track until your arms are extended but not harshly locked out.",
+      "Rotate the wrists to re-rack the bar securely onto the safety catches at the end of the set."
+    ],
+    "breathing": "Inhale as you lower the bar to your chest, and exhale forcefully as you press past the sticking point.",
+    "cues": [
+      "Drive through the palms",
+      "Keep your upper back pinned to the bench",
+      "Tuck elbows slightly rather than flaring"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bench aligned too far forward or backward relative to the bar track.",
+        "correction": "Adjust the bench position before loading weight so the bar tracks comfortably to the upper sternum without straining the shoulders."
+      },
+      {
+        "fault": "Excessive elbow flaring at ninety degrees.",
+        "correction": "Keep elbows tucked to approximately 45–60 degrees relative to your sides to protect the rotator cuff."
+      },
+      {
+        "fault": "Excessive arching of the lower back.",
+        "correction": "Maintain firm foot pressure and a natural lumbar arch while keeping your glutes and upper back glued to the bench pad."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Set the mechanical safety stops on the Smith machine to chest level before beginning your sets."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Smith Machine Incline Bench Press",
+  "previous_ids": [
+    "oec:incline-bench-press-mp",
+    "oec:smith-machine-slight-incline-press"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Incline Bench Press - MP",
+        "url": "https://wger.de/en/exercise/539/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      },
+      {
+        "title": "wger: Smith Machine Slight Incline Press",
+        "url": "https://wger.de/en/exercise/925/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "novadani"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-incline-bench-press"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-incline-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-incline-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:incline-dumbbell-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-incline-chest-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "wide"
+    },
+    "incline_degrees": 30,
+    "load_position": "chest",
+    "position": "seated",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "An upper-body compound press performed on an inclined bench inside a Smith machine, targeting the upper pectorals and anterior deltoids with guided bar stabilization."
+}

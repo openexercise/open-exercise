@@ -1,0 +1,125 @@
+{
+  "is_exercise": true,
+  "name": "Standing Quadriceps Stretch",
+  "summary": "A standing static stretch targeting the anterior thigh and hip flexors by flexing one knee and drawing the heel toward the glutes.",
+  "aliases": [
+    {
+      "text": "Standing Quad Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Quadriceps Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Flamingo Stretch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_kind": "single-leg",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "stretched"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "wall",
+    "chair",
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand upright with feet hip-width apart.",
+      "If needed for balance, place one hand lightly against a sturdy wall or chair."
+    ],
+    "steps": [
+      "Shift your weight onto one supporting leg.",
+      "Bend the opposite knee and bring your heel toward your glutes.",
+      "Grasp your ankle or the top of your foot with the hand on the same side.",
+      "Align both knees next to each other and gently tuck your pelvis under to extend the hip.",
+      "Hold the stretch comfortably without arching your lower back, then slowly release and switch sides."
+    ],
+    "breathing": "Breathe slowly and evenly, deepening the stretch slightly on each exhalation.",
+    "cues": [
+      "Keep knees glued together",
+      "Tuck the tailbone",
+      "Stand tall through the chest"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the stretched knee to drift out to the side or forward.",
+        "correction": "Keep the thighs parallel and pointing directly toward the floor."
+      },
+      {
+        "fault": "Hyperextending the lower back to pull the foot higher.",
+        "correction": "Keep your core engaged and maintain a neutral pelvis with a slight posterior tilt."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forcefully yanking on the ankle to prevent excessive stress on the knee joint."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

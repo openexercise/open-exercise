@@ -1,0 +1,214 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Butterfly Superman",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Prisoner Back Extension",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "erector-spinae",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-abduction",
+          "external-rotation"
+        ]
+      },
+      {
+        "joint": "cervical-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "spinal-extension"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1908"
+  },
+  "id": "oec:prisoner-superman",
+  "instructions": {
+    "setup": [
+      "Lie face down on a mat with your legs extended straight behind you.",
+      "Place your hands behind your head with fingers lightly touching or interlaced, pointing your elbows out wide to the sides."
+    ],
+    "steps": [
+      "Engage your glutes and core to anchor your lower body against the floor.",
+      "Contract your spinal erectors and upper back to lift your chest and upper ribs off the floor.",
+      "Simultaneously draw your elbows upward toward the ceiling, actively retracting your shoulder blades.",
+      "Hold the contraction at the top for a brief pause while keeping your neck neutral.",
+      "Lower your chest and upper body slowly back to the starting position."
+    ],
+    "breathing": "Exhale as you raise your chest and elbows off the floor; inhale as you lower with control.",
+    "cues": [
+      "Lead with the chest, not the chin",
+      "Pull elbows toward the ceiling",
+      "Keep eyes focused down at the mat"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling on the back of the neck with the hands, causing excessive cervical flexion or strain.",
+        "correction": "Rest fingertips lightly against the temples or occiput without pulling on the head."
+      },
+      {
+        "fault": "Hyperextending the neck by looking straight ahead or upward.",
+        "correction": "Maintain a packed neck and keep your gaze directed at the floor throughout the repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forceful spinal hyperextension if experiencing acute lower back irritation."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Prisoner Superman",
+  "previous_ids": [
+    "oec:butterfly-superman"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Butterfly Superman",
+        "url": "https://wger.de/en/exercise/1908/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "cybro"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:superman"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:superman"
+    }
+  ],
+  "setup": {
+    "position": "prone",
+    "stance": {
+      "kind": "parallel"
+    }
+  },
+  "status": "active",
+  "summary": "A bodyweight prone back extension performed with hands behind the head to strengthen the erector spinae, rhomboids, and lower trapezius."
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "external_ids": {
+    "wger": "2634"
+  },
+  "id": "oec:machine-dip-or-triceps-extension",
+  "measurement": {
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ]
+      }
+    ]
+  },
+  "name": "Machine Dip or Triceps Extension",
+  "provenance": {
+    "license": "CC-BY-SA-4.0",
+    "sources": [
+      {
+        "title": "wger: Machine Dip or Triceps Extension",
+        "url": "https://wger.de/en/exercise/2634/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "status": "deprecated"
+}

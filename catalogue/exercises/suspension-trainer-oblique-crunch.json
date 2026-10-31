@@ -1,0 +1,241 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "TRX Oblique Crunch",
+      "kind": "brand"
+    },
+    {
+      "text": "TRX Obliques",
+      "kind": "brand"
+    },
+    {
+      "text": "Suspension Trainer Oblique Knee Tuck",
+      "kind": "common"
+    },
+    {
+      "text": "TRX Knee Tuck to Elbow",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "external-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "synergist"
+      },
+      {
+        "muscle": "tensor-fasciae-latae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion",
+          "rotation"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "rotation",
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "suspension-trainer"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1259"
+  },
+  "id": "oec:suspension-trainer-oblique-crunch",
+  "instructions": {
+    "setup": [
+      "Adjust the suspension trainer foot cradles to mid-calf height.",
+      "Place your feet in the cradles, toes pointing down, and assume a rigid high-plank position with your hands stacked directly under your shoulders.",
+      "Engage your glutes and core to establish a flat, neutral spine from head to heels."
+    ],
+    "steps": [
+      "Keeping your feet pressed together, bend your knees and pull them diagonally forward toward the outside of your right elbow.",
+      "Pause momentarily at the peak contraction, squeezing your obliques.",
+      "Extend your legs in a controlled manner back to the starting center plank position without letting your hips sag.",
+      "Repeat the movement by pulling your knees diagonally toward your left elbow, alternating sides each repetition."
+    ],
+    "breathing": "Exhale forcefully as you drive your knees toward your elbow; inhale as you smoothly extend back into the neutral plank.",
+    "cues": [
+      "Press the floor away.",
+      "Knees tight together.",
+      "Drive across to the elbow.",
+      "Lock out the plank each rep."
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging the hips and hyperextending the lower back upon leg extension.",
+        "correction": "Reset into a solid plank every repetition by bracing your core and squeezing your glutes before starting the next tuck."
+      },
+      {
+        "fault": "Piking the hips straight up instead of rotating and driving the knees toward the elbow.",
+        "correction": "Focus on driving the knees diagonally forward across your torso rather than elevating the pelvis toward the ceiling."
+      },
+      {
+        "fault": "Rushing through repetitions using momentum from the swinging straps.",
+        "correction": "Move with deliberate control, pausing briefly at both the tucked position and the fully extended plank."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the anchor point is rated to support your bodyweight and the straps are securely fastened before mounting."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Suspension Trainer Oblique Crunch",
+  "previous_ids": [
+    "oec:trx-obliques"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: TRX Obliques",
+        "url": "https://wger.de/en/exercise/1259/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "cynomops"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:captain-s-chair-oblique-knee-raise"
+    }
+  ],
+  "setup": {
+    "position": "prone",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "narrow"
+    }
+  },
+  "status": "active",
+  "summary": "A core exercise performed in a suspended plank position, driving both knees toward alternating elbows to target the obliques and deep abdominals."
+}

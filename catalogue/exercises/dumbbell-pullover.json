@@ -1,0 +1,213 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "DB Pullover",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Straight-Arm Dumbbell Pullover",
+      "kind": "common"
+    },
+    {
+      "text": "Pullover",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-long-head",
+        "role": "synergist"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "downward-rotation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "bench",
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1273"
+  },
+  "id": "oec:dumbbell-pullover",
+  "instructions": {
+    "setup": [
+      "Lie lengthwise along a flat bench with your head near the end, feet flat on the floor.",
+      "Grasp a single dumbbell with both hands, forming a diamond with your palms pressing flat against the underside of the inner weight plate.",
+      "Press the dumbbell directly over your chest with your arms extended and a slight, fixed bend in your elbows."
+    ],
+    "steps": [
+      "Inhale and slowly lower the dumbbell in an arc backward over your head, keeping the elbow bend angle unchanged.",
+      "Continue lowering until you feel a comfortable stretch in your lats and chest, typically when your upper arms are aligned with your torso.",
+      "Pause briefly in the stretched position without letting your ribs flare excessively.",
+      "Exhale and pull the dumbbell back along the same arc to the starting position above your chest by contracting your lats and pecs."
+    ],
+    "breathing": "Inhale deeply as you lower the weight back into the stretch to help expand the ribcage; exhale powerfully as you pull the dumbbell back over your chest.",
+    "cues": [
+      "Keep elbows softly unlocked and frozen in place.",
+      "Pull through your armpits, not your hands.",
+      "Keep your ribcage down to avoid hyperextending your lower back."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending and straightening the elbows during the movement, turning it into a triceps extension.",
+        "correction": "Lock a slight bend into your elbows at setup and maintain that exact angle throughout the entire repetition."
+      },
+      {
+        "fault": "Excessively arching the lower back off the bench to reach further backward.",
+        "correction": "Brace your core to keep your lower back in neutral contact with the bench, stopping the stretch at your active shoulder mobility."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not use a slippery grip; ensure hands securely support the dumbbell plate overhead.",
+        "Work within a pain-free range of shoulder flexion, especially if you have a history of impingement or shoulder instability."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Pullover",
+  "previous_ids": [
+    "oec:pullover"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Pullover",
+        "url": "https://wger.de/en/exercise/1273/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "3leh"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-incline-pullover"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-straight-arm-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-pullover"
+    }
+  ],
+  "setup": {
+    "load_position": "overhead",
+    "position": "supine",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A supine upper-body exercise that moves a dumbbell overhead in an arc to stretch and strengthen the lats, pectorals, and triceps."
+}

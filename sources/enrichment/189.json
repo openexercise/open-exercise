@@ -1,0 +1,192 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Deficit Deadlift",
+  "summary": "A conventional barbell deadlift performed while standing on an elevated platform or weight plate to increase range of motion and leg drive off the floor.",
+  "aliases": [
+    {
+      "text": "Deficit Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "Deficit Barbell Deadlift",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "powerlifting",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "deficit",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "trapezius",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "weight-plate",
+        "step",
+        "plyo-box"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Place a low platform, stable mat, or bumper plate on the floor 1 to 3 inches high.",
+      "Position a loaded barbell in front of the platform so it rests directly over the midfoot when standing.",
+      "Step onto the platform with feet hip-width apart.",
+      "Hinge at the hips and bend your knees deeper than usual to grip the barbell just outside your legs using a double overhand, hook, or mixed grip.",
+      "Engage your lats to pull the slack out of the bar, bringing your chest up while maintaining a neutral spine."
+    ],
+    "steps": [
+      "Drive through the whole foot, extending knees and hips simultaneously to break the bar off the floor.",
+      "Keep the bar tracking close to your shins and thighs throughout the pull.",
+      "Lock out at the top by fully extending the hips and knees into a tall, standing position without hyperextending the lower back.",
+      "Lower the bar under control by hinging backward at the hips until the plates touch the floor."
+    ],
+    "breathing": "Take a deep diaphragmatic breath and brace your core tightly before pulling, exhaling after passing lockout or upon returning the bar to the floor.",
+    "cues": [
+      "Push the floor away",
+      "Chest tall and proud",
+      "Keep the bar glued to your legs",
+      "Pull the slack before you lift"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive lumbar rounding caused by trying to compensate for the deeper deficit range of motion.",
+        "correction": "Reduce the platform height to one that matches your active hip mobility, or set the hips slightly lower while bracing hard."
+      },
+      {
+        "fault": "Hips shooting up before the chest moves off the floor.",
+        "correction": "Push through the floor with your quads and ensure the shoulders and hips rise at the same rate initially."
+      },
+      {
+        "fault": "Letting the barbell drift away from the body.",
+        "correction": "Actively contract the lats to keep the bar in continuous contact with your shins and thighs."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Keep the platform height modest (typically 1 to 2 inches); deficits exceeding 3 inches usually break spinal mechanics without additional benefit.",
+        "Ensure the standing platform is completely stable, slip-resistant, and wide enough for your full foot."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

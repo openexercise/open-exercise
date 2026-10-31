@@ -1,0 +1,159 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Lateral Raise",
+  "summary": "An isolation exercise that builds shoulder width by raising dumbbells out to the sides to target the lateral deltoids.",
+  "aliases": [
+    {
+      "text": "Shoulder Raise (Dumbbell)",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Shoulder Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Side Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Side Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "DB Lateral Raise",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-lateral",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "supraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart, holding a dumbbell in each hand at your sides or resting lightly against your outer thighs.",
+      "Set a soft, fixed bend in your elbows and brace your core with your chest proud."
+    ],
+    "steps": [
+      "Raise the dumbbells outward and upward in the plane of the scapula until your upper arms are approximately parallel to the floor.",
+      "Pause briefly at shoulder height, keeping your hands level with or slightly below your elbows.",
+      "Lower the dumbbells under control back to the starting position without letting them swing."
+    ],
+    "breathing": "Exhale as you raise the dumbbells out to the sides, and inhale as you lower them with control.",
+    "cues": [
+      "Lead with your elbows.",
+      "Reach out toward the walls rather than straight up.",
+      "Keep your shoulders depressed away from your ears."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso or using leg drive to propel the dumbbells upward.",
+        "correction": "Reduce the load and keep your torso stationary throughout the entire repetition."
+      },
+      {
+        "fault": "Shrugging the neck and upper traps excessively to lift the weights.",
+        "correction": "Keep your shoulder blades pulled down and focus the effort entirely on the lateral deltoids."
+      },
+      {
+        "fault": "Raising the hands significantly higher than the elbows.",
+        "correction": "Ensure your elbows lead the movement and remain aligned with or slightly above your wrists."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid aggressive internal rotation with pinkies raised excessively high, which can cause shoulder impingement."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

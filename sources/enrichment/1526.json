@@ -1,0 +1,221 @@
+{
+  "is_exercise": true,
+  "name": "Ski Ergometer",
+  "summary": "A full-body cardiovascular exercise that mimics double-poling cross-country skiing using high-cable flywheel resistance.",
+  "aliases": [
+    {
+      "text": "SkiErg",
+      "kind": "brand"
+    },
+    {
+      "text": "Ski Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Nordic Ski Ergometer",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "hinge",
+      "vertical-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "mixed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "ski-ergometer"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "distance",
+        "calories",
+        "pace",
+        "power",
+        "heart-rate",
+        "cadence",
+        "resistance-level"
+      ]
+    },
+    {
+      "required": [
+        "distance",
+        "duration"
+      ],
+      "optional": [
+        "calories",
+        "pace",
+        "power",
+        "heart-rate",
+        "cadence",
+        "resistance-level"
+      ]
+    },
+    {
+      "required": [
+        "calories",
+        "duration"
+      ],
+      "optional": [
+        "distance",
+        "pace",
+        "power",
+        "heart-rate",
+        "cadence",
+        "resistance-level"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand facing the ski ergometer with feet hip-width apart, positioned roughly one to two feet back from the flywheel housing.",
+      "Reach overhead and grasp both handles with a firm, neutral grip, letting your elbows soften slightly and rising slightly onto the balls of your feet."
+    ],
+    "steps": [
+      "Initiate the drive by engaging your core and pulling the handles downward while hinging at the hips and bending your knees.",
+      "Drive your arms straight down and past your hips, finishing the stroke with your hands just past your thighs in a partial squat and hinge.",
+      "Extend your hips and knees while smoothly allowing the flywheel cords to retract your arms back overhead to the starting position.",
+      "Repeat the cycle continuously in a smooth, rhythmic cadence."
+    ],
+    "breathing": "Exhale forcefully as you crunch down and complete the pull stroke; inhale smoothly as you rise and return your arms overhead.",
+    "cues": [
+      "Hinge with your hips, don't just pull with your arms",
+      "Use your core to drive down",
+      "Finish past the pockets",
+      "Stand tall to reload"
+    ],
+    "common_faults": [
+      {
+        "fault": "Relying entirely on upper-body pulling without hinging the hips or engaging the core.",
+        "correction": "Initiate each stroke by hinging at the hips and flexing the trunk so bodyweight accelerates the pull."
+      },
+      {
+        "fault": "Deep squatting instead of hinging, placing excessive stress on the knees and wasting energy.",
+        "correction": "Push your hips backward with a soft knee bend rather than dropping straight down into a full squat."
+      },
+      {
+        "fault": "Letting cords snap back uncontrollably overhead without maintaining tension.",
+        "correction": "Control the recovery stroke by fluidly rising with the cables so tension remains smooth."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure your feet remain planted on the platform or non-slip flooring to prevent slipping during high-intensity intervals."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

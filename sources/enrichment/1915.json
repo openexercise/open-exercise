@@ -1,0 +1,137 @@
+{
+  "is_exercise": true,
+  "name": "Fire Hydrant",
+  "summary": "A bodyweight quadruped exercise that targets the hip abductors and external rotators while challenging core stability.",
+  "aliases": [
+    {
+      "text": "Quadruped Hip Abduction",
+      "kind": "common"
+    },
+    {
+      "text": "Dirty Dog",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "mobility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "isolation-hip-abduction"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "quadruped",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-medius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-minimus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "piriformis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "abduction",
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat",
+    "mini-band",
+    "ankle-weight"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Start on all fours on an exercise mat, with hands directly under your shoulders and knees under your hips.",
+      "Flatten your back into a neutral spine and brace your core so your hips are level and stable."
+    ],
+    "steps": [
+      "Keeping your knee bent at ninety degrees, raise one leg out to the side away from your midline.",
+      "Lift until your thigh is roughly parallel to the floor, without rotating your torso or shifting your hips excessively.",
+      "Pause briefly at the top to squeeze the glute.",
+      "Lower the knee smoothly back to the starting position without resting your weight fully between reps."
+    ],
+    "breathing": "Exhale as you lift the leg away from the body; inhale as you return to the starting position.",
+    "cues": [
+      "Keep the pelvis square to the floor.",
+      "Move from the hip, not the lower back.",
+      "Imagine balancing a glass of water on your lower back."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the spine or flaring the ribcage to lift the leg higher.",
+        "correction": "Limit the range of motion to what your hip joint can achieve while keeping your back flat and shoulders level."
+      },
+      {
+        "fault": "Shifting all body weight entirely onto the supporting side hip.",
+        "correction": "Press firmly through both hands and keep the supporting hip stacked directly over the grounded knee."
+      }
+    ],
+    "safety": {
+      "precautions": [],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

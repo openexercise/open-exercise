@@ -1,0 +1,134 @@
+{
+  "is_exercise": true,
+  "name": "Half-Kneeling Hip Flexor Stretch",
+  "summary": "A static mobility exercise performed in a half-kneeling position to stretch the iliopsoas and rectus femoris of the rear leg.",
+  "aliases": [
+    {
+      "text": "Hip Flexor Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Kneeling Hip Flexor Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Lunge Hip Flexor Stretch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "not-applicable",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "half-kneeling",
+  "stance_width": "hip",
+  "stance_kind": "split",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "iliopsoas",
+      "role": "stretched"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "stretched"
+    },
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "load_convention": "not-applicable",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Assume a half-kneeling position with one knee resting on the floor directly beneath your hip and the other foot planted flat out front, forming 90-degree angles at both knees.",
+      "Maintain an upright posture with your hands resting on your hips or front thigh."
+    ],
+    "steps": [
+      "Engage your abdominals and actively squeeze the glute of the kneeling leg to tilt your pelvis slightly backward into a neutral or posterior position.",
+      "Gently shift your weight forward into your front foot just until you feel a firm stretch along the front of the trailing hip and thigh.",
+      "Breathe steadily and hold this position without allowing your lower back to arch.",
+      "Carefully ease out of the stretch, reposition, and repeat on the opposite leg."
+    ],
+    "breathing": "Breathe smoothly and deeply throughout the hold, using each exhalation to relax deeper into the stretch without losing pelvic alignment.",
+    "cues": [
+      "Tuck your tailbone under",
+      "Squeeze the trailing glute",
+      "Stay tall through your spine",
+      "Shift the hips, do not arch the back"
+    ],
+    "common_faults": [
+      {
+        "fault": "Arching the lumbar spine to create an illusion of forward movement.",
+        "correction": "Keep your ribcage down and brace your core so the movement comes exclusively from hip extension rather than lower-back extension."
+      },
+      {
+        "fault": "Lurching too far forward and losing pelvic control.",
+        "correction": "Only glide forward an inch or two; initiating the stretch with glute activation and a posterior pelvic tilt produces tension with minimal forward travel."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a padded exercise mat or cushion beneath the kneeling knee if you experience discomfort on hard flooring."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

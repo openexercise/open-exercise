@@ -1,0 +1,168 @@
+{
+  "is_exercise": true,
+  "name": "Wide-Grip Lat Pulldown",
+  "summary": "A seated cable vertical pulling exercise performed with a wide overhand grip to build the latissimus dorsi and upper back.",
+  "aliases": [
+    {
+      "text": "Jalón al pecho con agarre ancho",
+      "kind": "common"
+    },
+    {
+      "text": "Wide-Grip Cable Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Front Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Wide-Grip Pulldown",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "adduction",
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "downward-rotation",
+        "depression",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable",
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the machine's thigh pad so your legs are firmly wedged underneath with feet flat on the floor.",
+      "Stand up to grip the long bar with a pronated (overhand) grip slightly wider than shoulder width, usually just outside the bar's bends.",
+      "Sit down, anchoring your thighs snugly under the pads, and allow your arms to extend fully overhead with a slight backward lean of five to ten degrees."
+    ],
+    "steps": [
+      "Initiate the movement by drawing your shoulder blades down and back.",
+      "Pull the bar down toward your upper chest by driving your elbows down toward your back pockets.",
+      "Touch or bring the bar close to your clavicle while keeping your chest lifted and spine neutral.",
+      "Pause briefly at the bottom, then slowly extend your arms under control back to the fully stretched starting position."
+    ],
+    "breathing": "Inhale before initiating the pull, exhale as you draw the bar to your chest, and inhale as you return the bar overhead.",
+    "cues": [
+      "Drive your elbows to your back pockets.",
+      "Lead with the chest.",
+      "Control the stretch at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive torso swing and leaning back to heave the weight down.",
+        "correction": "Maintain a stable torso with only a slight natural backward lean, using the lats rather than momentum."
+      },
+      {
+        "fault": "Pulling the bar behind the neck.",
+        "correction": "Always pull the bar down in front of your face toward your upper sternum to protect the cervical spine and shoulders."
+      },
+      {
+        "fault": "Cutting the range of motion short at the top.",
+        "correction": "Allow your arms to fully extend and your scapulae to upwardly rotate for a full stretch on the lats each rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the thigh support is locked securely to keep you anchored to the seat during heavy sets."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "is_exercise": true,
+  "name": "BOSU Single-Leg Balance",
+  "summary": "An isometric balance drill performed on the dome of a BOSU ball to develop foot, ankle, and hip stability.",
+  "aliases": [
+    {
+      "text": "Single-Leg BOSU Balance",
+      "kind": "common"
+    },
+    {
+      "text": "BOSU Single-Leg Stand",
+      "kind": "common"
+    },
+    {
+      "text": "One-Leg BOSU Balance",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "balance",
+      "rehabilitation",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "balance"
+    ],
+    "mechanics": "not-applicable",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "stance_kind": "single-leg",
+  "muscles": [
+    {
+      "muscle": "foot-intrinsics",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "tibialis-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "peroneals",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "subtalar",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "bosu"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Place the BOSU ball dome-side up on a flat, non-slip surface.",
+      "Step one foot onto the center apex of the dome, orienting your toes straight ahead.",
+      "Fix your gaze on an unmoving focal point at eye level to assist with stability."
+    ],
+    "steps": [
+      "Shift your body weight onto the stance leg and lift the opposite foot off the ground.",
+      "Slightly unlock your stance knee rather than locking it out completely.",
+      "Keep your pelvis level and your torso upright with arms out to your sides for counterbalance.",
+      "Hold the position for the target duration while actively stabilizing through the foot and ankle.",
+      "Step down carefully and repeat on the opposite leg."
+    ],
+    "breathing": "Breathe smoothly and rhythmically throughout the hold without holding your breath.",
+    "cues": [
+      "Soft knee, strong arch.",
+      "Level hips.",
+      "Lock your eyes on one spot."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the standing knee.",
+        "correction": "Keep a subtle micro-bend in the working knee to engage the surrounding musculature."
+      },
+      {
+        "fault": "Letting the hip of the free leg drop or hike excessively.",
+        "correction": "Engage the stance-leg gluteus medius to keep the pelvis square and parallel to the floor."
+      },
+      {
+        "fault": "Positioning the foot off-center on the dome.",
+        "correction": "Place the center of your foot directly over the bullseye of the dome to distribute weight evenly."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure clear space around the BOSU ball in case you need to step off unexpectedly.",
+        "Beginners should position the BOSU near a wall or sturdy bar for touch support."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

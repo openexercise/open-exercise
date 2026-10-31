@@ -1,0 +1,215 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Side Bridge",
+      "kind": "common"
+    },
+    {
+      "text": "Forearm Side Plank",
+      "kind": "common"
+    },
+    {
+      "text": "Side plank right",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "obliques",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadratus-lumborum",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "anti-lateral-flexion",
+      "anti-rotation"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "580,1019"
+  },
+  "id": "oec:side-plank",
+  "instructions": {
+    "setup": [
+      "Lie on your side on the floor with your legs straight and feet stacked or staggered.",
+      "Prop your upper body up on your bottom forearm, positioning your elbow directly beneath your shoulder.",
+      "Rest your top hand on your hip or extend it toward the ceiling."
+    ],
+    "steps": [
+      "Engage your core and press into your bottom forearm and the outer edge of your foot to raise your hips off the floor.",
+      "Align your head, torso, hips, and feet into a straight, rigid diagonal line.",
+      "Hold the elevated position for the prescribed duration while actively pressing the floor away through your bottom shoulder.",
+      "Lower your hips gently back to the floor under control, then switch sides."
+    ],
+    "breathing": "Breathe continuously and rhythmically throughout the hold without allowing your abdominal brace to relax.",
+    "cues": [
+      "Push the floor away through your elbow.",
+      "Keep hips high and square.",
+      "Make a straight line from ears to ankles."
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging hips toward the floor.",
+        "correction": "Actively contract the bottom oblique and glute to keep the pelvis elevated in a straight line."
+      },
+      {
+        "fault": "Elbow placed too far forward or away from the body.",
+        "correction": "Position the elbow directly beneath the shoulder before lifting to protect the joint."
+      },
+      {
+        "fault": "Rotating the hips or torso forward toward the floor.",
+        "correction": "Keep your chest open and your hips stacked vertically throughout the hold."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Individuals with active shoulder impingement or pain should modify by performing the movement from the knees or avoiding lateral loading."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Side Plank",
+  "previous_ids": [
+    "oec:side-plank-right"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Side Plank",
+        "url": "https://wger.de/en/exercise/580/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "http://www.bodybuilding.com/"
+      },
+      {
+        "title": "wger: Side plank right",
+        "url": "https://wger.de/en/exercise/1019/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:suitcase-carry"
+    },
+    {
+      "type": "part-of",
+      "target": "oec:t-push-up"
+    }
+  ],
+  "setup": {
+    "position": "side-lying"
+  },
+  "status": "active",
+  "summary": "An isometric bodyweight core exercise that strengthens the obliques, quadratus lumborum, and lateral hip stabilizers."
+}

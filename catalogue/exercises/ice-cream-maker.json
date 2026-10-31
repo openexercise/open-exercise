@@ -1,0 +1,224 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Front Lever Ice Cream Maker",
+      "kind": "common"
+    },
+    {
+      "text": "Pull-Up Ice Cream Maker",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-long-head",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "anti-extension",
+      "vertical-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "advanced"
+  },
+  "equipment": {
+    "required": [
+      [
+        "pull-up-bar",
+        "gymnastic-rings"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1248"
+  },
+  "id": "oec:ice-cream-maker",
+  "instructions": {
+    "setup": [
+      "Hang from a pull-up bar with an overhand, shoulder-width grip.",
+      "Pull yourself up into the top position of a pull-up with your chin over the bar and core fully braced."
+    ],
+    "steps": [
+      "Maintain a rigid, straight bodyline from shoulders to feet by squeezing your glutes and abs.",
+      "Push the bar forward and extend your elbows to lower your torso backward until your body reaches a horizontal front lever position.",
+      "Pause momentarily parallel to the floor with arms nearly straight.",
+      "Pull through your lats and bend your elbows to return smoothly to the top of the pull-up position."
+    ],
+    "breathing": "Inhale as you lower your body into the horizontal lever position, and exhale forcefully as you pull back up.",
+    "cues": [
+      "Keep body straight as a board",
+      "Drive the bar down into your hips",
+      "Do not let the hips sag"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending at the hips (piking) during the transition.",
+        "correction": "Squeeze the glutes and core to maintain a completely straight line from shoulders to ankles."
+      },
+      {
+        "fault": "Dropping the hips below horizontal in the lever.",
+        "correction": "Engage the lats aggressively to hold the torso level with the ground before pulling back up."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure adequate baseline strength in both full pull-ups and front lever holds before attempting dynamic transitions."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Ice Cream Maker",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Ice cream maker",
+        "url": "https://wger.de/en/exercise/1248/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "clafal"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:pull-up"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:tuck-front-lever"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:front-lever"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:front-lever-pull-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "hanging"
+  },
+  "status": "active",
+  "summary": "An advanced calisthenics exercise transitioning repeatedly between the top position of a pull-up and a horizontal front lever."
+}

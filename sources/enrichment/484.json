@@ -1,0 +1,193 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Rack Pull",
+  "summary": "A partial-range deadlift performed with the barbell resting on power rack pins or blocks, targeting the posterior chain and lockout strength.",
+  "aliases": [
+    {
+      "text": "Rack Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "Rack Pull",
+      "kind": "common"
+    },
+    {
+      "text": "Pin Pull",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "powerlifting",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "pin",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "power-rack",
+        "squat-rack"
+      ]
+    },
+    {
+      "any_of": [
+        "weight-plate"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set the safety pins in a power rack so the barbell rests just below or just above knee height.",
+      "Load the barbell and step up to it with your feet hip-width apart and mid-foot directly under the bar.",
+      "Hinge at the hips, bend your knees slightly, and grasp the barbell just outside your legs with an overhand or mixed grip.",
+      "Pull the slack out of the bar, engage your lats, flatten your back, and brace your core."
+    ],
+    "steps": [
+      "Drive your feet into the floor and extend your hips and knees simultaneously to lift the barbell off the pins.",
+      "Stand fully erect by squeezing your glutes at the top without hyperextending your lower back.",
+      "Hinge forward at the hips and lower the barbell under control back onto the pins.",
+      "Come to a complete stop on the pins before initiating the next repetition."
+    ],
+    "breathing": "Inhale deeply into your belly and brace before pulling; exhale once you reach the lockout or after lowering the bar back onto the pins.",
+    "cues": [
+      "Pull the slack out of the bar before you lift.",
+      "Push the floor away through your heels and mid-foot.",
+      "Drive your hips forward to lock out.",
+      "Keep the bar tight against your thighs throughout."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lumbar spine at lockout.",
+        "correction": "Finish the lift by squeezing the glutes into full hip extension without leaning your torso backward."
+      },
+      {
+        "fault": "Bouncing the barbell aggressively off the safety pins.",
+        "correction": "Bring the bar to a dead stop on the pins between reps to eliminate momentum and protect equipment."
+      },
+      {
+        "fault": "Allowing the upper or lower back to round under heavy loads.",
+        "correction": "Engage the lats to pack the shoulders and brace the core firmly prior to initiating the pull."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the rack is securely anchored or stable enough to support heavy loads on the safety pins.",
+        "Be aware that slamming heavy weights on rigid pins can damage barbells; use rubber-coated or strap safeties when available."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  }
+}

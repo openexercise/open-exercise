@@ -1,0 +1,146 @@
+{
+  "is_exercise": true,
+  "name": "Roman Chair Crunch",
+  "summary": "An abdominal exercise performed on a Roman chair that targets the rectus abdominis through controlled spinal flexion while the lower body is anchored.",
+  "aliases": [
+    {
+      "text": "Hyperextension Bench Crunch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "seated",
+  "range": "partial",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "external-oblique",
+      "role": "synergist"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "synergist"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "roman-chair",
+        "ghd"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "weight-plate"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit on the Roman chair facing upward with your thighs supported by the main pad and your ankles firmly secured beneath the roller pads.",
+      "Cross your arms over your chest or lightly place your fingertips beside your ears without pulling on your neck.",
+      "Engage your core and lean back slightly until your torso forms a straight line with your thighs."
+    ],
+    "steps": [
+      "Exhale and curl your ribcage down toward your pelvis by flexing your spine, squeezing your abdominals hard at the peak of the contraction.",
+      "Pause momentarily at peak flexion while keeping your hips stable.",
+      "Inhale and slowly uncurl your spine, returning to the starting semi-reclined alignment without hyperextending your lower back."
+    ],
+    "breathing": "Exhale forcefully as you curl the torso upward; inhale smoothly as you lower back down under control.",
+    "cues": [
+      "Ribs to hips",
+      "Curl, don't hinge",
+      "Keep tension on the abs throughout"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso by hinging at the hips instead of flexing the spine.",
+        "correction": "Keep your hip angle relatively fixed and focus exclusively on curling your ribcage toward your pelvis."
+      },
+      {
+        "fault": "Hyperextending the lower back excessively at the bottom of each repetition.",
+        "correction": "Stop descending once your torso is parallel with your thighs to maintain continuous abdominal engagement and protect the lumbar spine."
+      },
+      {
+        "fault": "Yanking on the neck with hands behind the head.",
+        "correction": "Cross your arms across your chest or keep your fingertips gently resting at your temples."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure ankle pads are securely locked in position before leaning back into the movement."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

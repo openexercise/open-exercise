@@ -1,0 +1,240 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Cable Lateral Raises (Single Arm)",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Cable Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable Side Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Single-Arm Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Unilateral Cable Lateral Raise",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-lateral",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "supraspinatus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1378,1707"
+  },
+  "id": "oec:single-arm-cable-lateral-raise",
+  "instructions": {
+    "setup": [
+      "Set the cable pulley to its lowest position or around mid-shin height and attach a single D-handle.",
+      "Stand with the working side turned away from the cable tower, or position the cable so the line of pull crosses in front of or behind your body.",
+      "Grasp the handle with the outside hand and hold the cable upright or machine frame with the non-working hand for stability.",
+      "Stand tall with a slight bend in your working elbow and a stable hip-width stance."
+    ],
+    "steps": [
+      "Raise your working arm out to the side in the scapular plane until your hand is roughly level with your shoulder.",
+      "Pause briefly at the top to accentuate the contraction in the lateral deltoid.",
+      "Lower the handle smoothly along the same arc back toward the starting position, resisting the cable's pull.",
+      "Complete the target repetitions, then switch sides and repeat."
+    ],
+    "breathing": "Exhale as you raise the cable out to your side; inhale smoothly as you lower it under control.",
+    "cues": [
+      "Lead with the elbow",
+      "Pour the water at the top",
+      "Keep your torso completely quiet"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso or using hip momentum to initiate the raise.",
+        "correction": "Hold the machine tower with the free hand, brace the core, and select a lighter weight that allows pure shoulder abduction."
+      },
+      {
+        "fault": "Shrugging the shoulder excessively with the upper trapezius.",
+        "correction": "Keep your shoulder blade depressed and think of reaching outward toward the wall rather than straight upward."
+      },
+      {
+        "fault": "Bending and extending the elbow dynamically during the rep.",
+        "correction": "Lock a slight, comfortable bend in your elbow from start to finish so the movement occurs solely at the shoulder joint."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid raising the arm higher than shoulder height if you experience impingement or shoulder pain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Single-Arm Cable Lateral Raise",
+  "previous_ids": [
+    "oec:cable-lateral-raises-single-arm",
+    "oec:unilateral-cable-lateral-raise"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Cable Lateral Raises (Single Arm)",
+        "url": "https://wger.de/en/exercise/1378/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "carlos3c"
+      },
+      {
+        "title": "wger: Unilateral Cable Lateral Raise",
+        "url": "https://wger.de/en/exercise/1707/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "polloperro"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-lateral-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-lateral-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-single-arm-lateral-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-lateral-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-lateral-raise"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An isolation exercise that uses a low cable pulley to provide continuous tension across the shoulder during lateral abduction."
+}

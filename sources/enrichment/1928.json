@@ -1,0 +1,175 @@
+{
+  "is_exercise": true,
+  "name": "Cable Close-Grip Seated Row",
+  "summary": "A seated compound cable exercise using a close-grip handle to build mid-back thickness, lats, and elbow flexors.",
+  "aliases": [
+    {
+      "text": "Seated V-Grip Row",
+      "kind": "common"
+    },
+    {
+      "text": "V-Bar Cable Row",
+      "kind": "common"
+    },
+    {
+      "text": "Close-Grip Cable Row",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Cable Row with V-Bar",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "neutral",
+  "grip_width": "narrow",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "depression"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable",
+        "selectorized-machine"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach a V-grip (double-D) handle to a low pulley cable station.",
+      "Sit on the bench, place your feet against the footrests with knees slightly bent, and grasp the handles with a neutral grip.",
+      "Push back with your legs to establish a tall, upright torso with a slight natural arch in the lower back and arms fully extended."
+    ],
+    "steps": [
+      "Initiate the pull by retracting your shoulder blades and driving your elbows straight back alongside your ribcage.",
+      "Pull the handle into your lower abdomen while keeping your chest lifted and torso upright.",
+      "Pause momentarily at peak contraction to squeeze your mid-back and lats.",
+      "Control the weight back to the starting position under tension, allowing your shoulder blades to protract slightly without rounding your lower back."
+    ],
+    "breathing": "Exhale as you row the handle into your abdomen, and inhale as you return the weight smoothly to full arm extension.",
+    "cues": [
+      "Drive the elbows back, not the hands.",
+      "Keep the chest proud throughout.",
+      "Control the stretch on the way out."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive torso swinging and momentum to initiate the row.",
+        "correction": "Keep your torso stationary near vertical and let the arms and back perform the work."
+      },
+      {
+        "fault": "Shrugging the shoulders upward toward the ears during the pull.",
+        "correction": "Keep your shoulders depressed and drive your elbows down and back."
+      },
+      {
+        "fault": "Fully locking out knees with rounded lumbar spine during the eccentric phase.",
+        "correction": "Maintain a soft knee bend and brace your core to keep a neutral spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid letting the weight stack slam or pulling your lower back into extreme flexion when reaching forward."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

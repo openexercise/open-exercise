@@ -1,0 +1,25 @@
+{
+  "vocabulary": "metrics",
+  "version": 0,
+  "description": "What can be recorded about one set of an exercise. The unit is the canonical unit for data exchange.",
+  "terms": [
+    {"id": "reps", "label": "Repetitions", "definition": "Count of completed repetitions."},
+    {"id": "load", "label": "Load", "definition": "Kilograms; see the load object for what the number means."},
+    {"id": "duration", "label": "Duration", "definition": "Seconds."},
+    {"id": "distance", "label": "Distance", "definition": "Metres."},
+    {"id": "height", "label": "Height", "definition": "Metres, such as box height."},
+    {"id": "speed", "label": "Speed", "definition": "Metres per second."},
+    {"id": "pace", "label": "Pace", "definition": "Seconds per kilometre."},
+    {"id": "power", "label": "Power", "definition": "Watts."},
+    {"id": "energy", "label": "Energy", "definition": "Kilojoules."},
+    {"id": "calories", "label": "Calories", "definition": "Kilocalories, as a machine reports them."},
+    {"id": "heart-rate", "label": "Heart rate", "definition": "Beats per minute."},
+    {"id": "cadence", "label": "Cadence", "definition": "Cycles per minute."},
+    {"id": "incline", "label": "Incline", "definition": "Percent grade."},
+    {"id": "resistance-level", "label": "Resistance level", "definition": "A machine setting without a unit."},
+    {"id": "band-tension", "label": "Band tension", "definition": "A named band colour or level."},
+    {"id": "rpe", "label": "RPE", "definition": "Rate of perceived exertion, 1 to 10."},
+    {"id": "rir", "label": "RIR", "definition": "Repetitions in reserve."},
+    {"id": "tempo", "label": "Tempo", "definition": "Eccentric, pause, concentric and top pause in seconds, as in 3-1-1-0."}
+  ]
+}

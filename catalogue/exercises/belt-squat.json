@@ -1,0 +1,204 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Machine Belt Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Hip Belt Squat",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy",
+      "rehabilitation",
+      "powerlifting"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "dip-belt"
+    ],
+    "required": [
+      [
+        "plate-loaded-machine",
+        "selectorized-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1935"
+  },
+  "id": "oec:belt-squat",
+  "instructions": {
+    "setup": [
+      "Secure the belt comfortably around your hips and attach it to the machine's loading arm or cable.",
+      "Step onto the platform with a shoulder-width stance, toes angled slightly outward.",
+      "Stand tall to take the tension of the weight, then release the machine's safety lever if equipped.",
+      "Lightly hold the machine handles or support posts for balance if needed, without pulling with your arms."
+    ],
+    "steps": [
+      "Initiate the descent by bending simultaneously at the hips and knees, sitting down between your thighs.",
+      "Lower under control until your hip crease is at or below the top of your knees.",
+      "Drive firmly through your mid-foot to reverse the motion, extending your knees and hips back to the starting standing position."
+    ],
+    "breathing": "Inhale and brace your core before descending, then exhale as you press back up to the top.",
+    "cues": [
+      "Sit between your knees",
+      "Drive through the whole foot",
+      "Let the hips carry the load"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling heavily with the arms on the support handles.",
+        "correction": "Use the handles only for light fingertip balance; let your legs do all of the work."
+      },
+      {
+        "fault": "Positioning the belt too high around the lumbar spine.",
+        "correction": "Wear the belt low across the hips and sacrum so the line of pull remains through the pelvis."
+      },
+      {
+        "fault": "Cutting depth short due to machine cable or lever bottoming out.",
+        "correction": "Adjust the chain or strap length so the weight stack or lever does not hit the floor before reaching full squat depth."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the belt attachment and carabiner are fully closed and rated for heavy loads.",
+        "Always engage the machine safety catch before unhooking the belt."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Belt Squat",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Belt Squat",
+        "url": "https://wger.de/en/exercise/1935/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-back-squat"
+    }
+  ],
+  "setup": {
+    "load_position": "hip",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A squat variation loading the pelvis via a belt attached to a cable or lever machine, targeting the lower body without spinal compression."
+}

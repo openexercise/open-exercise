@@ -1,0 +1,146 @@
+{
+  "is_exercise": true,
+  "name": "Cable Glute Kickback",
+  "summary": "A standing isolation exercise that uses a low-pulley cable and ankle cuff to target the gluteus maximus through hip extension.",
+  "aliases": [
+    {
+      "text": "Cable Hip Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Glute Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Cable Glute Kickback",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_kind": "single-leg",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    },
+    {
+      "any_of": [
+        "strap"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set the cable pulley to its lowest position and attach an ankle cuff.",
+      "Fasten the cuff securely around the working ankle and face the cable tower.",
+      "Step back slightly to create tension on the cable, plant the non-working foot firmly, and grip the machine frame for upper-body support with a slight forward torso lean."
+    ],
+    "steps": [
+      "Brace your core and keep the working knee soft but fixed.",
+      "Extend your hip backward by contracting the glute, driving the heel behind you without arching your lower back.",
+      "Squeeze the glute firmly at the peak of contraction for a brief pause.",
+      "Slowly return the leg forward under control to the starting position before beginning the next repetition."
+    ],
+    "breathing": "Exhale as you kick backward against resistance; inhale as you return the leg to the start.",
+    "cues": [
+      "Drive through the heel",
+      "Lock your lower back in place",
+      "Squeeze the glute, not the spine"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive arching of the lower back at the top of the movement",
+        "correction": "Brace the abdominals tightly and limit the range of motion to where the hip extends without spinal hyperextension."
+      },
+      {
+        "fault": "Swinging the leg using momentum rather than muscular contraction",
+        "correction": "Control both the concentric kick and the eccentric return with a deliberate tempo."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid heavy loads that force spinal compensation."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

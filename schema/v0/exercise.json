@@ -1,0 +1,335 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openexercise.org/schema/v0/exercise.json",
+  "title": "Open Exercise Schema v0: exercise",
+  "description": "One exercise: what it is, what it works, what it needs, how to do it, how to record it, and where the information came from. Draft; may change until v1.",
+  "type": "object",
+  "required": ["id", "name", "measurement"],
+  "additionalProperties": false,
+  "patternProperties": { "^x-[a-z0-9-]+$": {} },
+  "properties": {
+    "$schema": { "const": "https://openexercise.org/schema/v0/exercise.json" },
+    "id": { "$ref": "#/$defs/id" },
+    "name": { "type": "string", "minLength": 1, "description": "The canonical English name, in title case." },
+    "summary": { "type": "string", "description": "One plain sentence saying what the exercise is." },
+    "status": {
+      "enum": ["active", "deprecated", "replaced"],
+      "default": "active",
+      "description": "deprecated records stay resolvable and should not be offered for new logs. replaced records also name replaced_by."
+    },
+    "replaced_by": { "$ref": "#/$defs/id" },
+    "previous_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/id" },
+      "description": "IDs that once meant this exercise. A consumer holding one of these resolves it to this record."
+    },
+    "aliases": { "type": "array", "items": { "$ref": "#/$defs/alias" } },
+    "classification": { "$ref": "#/$defs/classification" },
+    "setup": { "$ref": "#/$defs/setup" },
+    "anatomy": { "$ref": "#/$defs/anatomy" },
+    "equipment": { "$ref": "#/$defs/equipment" },
+    "measurement": { "$ref": "#/$defs/measurement" },
+    "instructions": { "$ref": "#/$defs/instructions" },
+    "relations": { "type": "array", "items": { "$ref": "#/$defs/relation" } },
+    "energy": { "$ref": "#/$defs/energy" },
+    "external_ids": {
+      "type": "object",
+      "description": "This exercise's identifier in other systems, keyed by a registered system name (see the spec) or x-<name>.",
+      "additionalProperties": { "type": "string" }
+    },
+    "media": { "type": "array", "items": { "$ref": "#/$defs/media" } },
+    "translations": {
+      "type": "object",
+      "description": "Text in other languages, keyed by BCP 47 tag.",
+      "propertyNames": { "pattern": "^[a-z]{2,3}(-[A-Za-z0-9]{2,8})*$" },
+      "additionalProperties": { "$ref": "#/$defs/translation" }
+    },
+    "provenance": { "$ref": "#/$defs/provenance" }
+  },
+  "if": { "properties": { "status": { "const": "replaced" } }, "required": ["status"] },
+  "then": { "required": ["replaced_by"] },
+  "else": { "not": { "required": ["replaced_by"] } },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*:[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "namespace:slug. oec: is the Open Exercise Catalogue. Anyone else uses their own namespace."
+    },
+    "term": {
+      "type": "string",
+      "pattern": "^(x-)?[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "A term from the named vocabulary, or x-<term> for a private one."
+    },
+    "alias": {
+      "type": "object",
+      "required": ["text"],
+      "additionalProperties": false,
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "lang": { "type": "string", "default": "en" },
+        "kind": { "enum": ["common", "abbreviation", "regional", "brand", "misspelling", "legacy"], "default": "common" }
+      }
+    },
+    "classification": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "modalities": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/term" }, "description": "From vocab modalities, most important first." },
+        "movement_patterns": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/term" }, "description": "From vocab movement-patterns, most important first." },
+        "mechanics": { "enum": ["compound", "isolation", "not-applicable"], "description": "compound moves two or more joints under the working effort." },
+        "force": { "enum": ["push", "pull", "static", "mixed", "not-applicable"], "description": "Direction of the working effort relative to the body." },
+        "kinetic_chain": { "enum": ["open", "closed", "mixed", "not-applicable"], "description": "closed means the far end of the limb is fixed; open means it moves freely." },
+        "laterality": { "enum": ["bilateral", "unilateral", "alternating", "contralateral", "not-applicable"] },
+        "planes": { "type": "array", "uniqueItems": true, "items": { "enum": ["sagittal", "frontal", "transverse"] } },
+        "contraction": { "type": "array", "uniqueItems": true, "items": { "enum": ["dynamic", "isometric", "eccentric-emphasis", "ballistic"] } },
+        "level": { "enum": ["beginner", "intermediate", "advanced"], "description": "Technical demand, not how heavy it can be." },
+        "tags": { "type": "array", "uniqueItems": true, "items": { "type": "string" } }
+      }
+    },
+    "setup": {
+      "type": "object",
+      "description": "The facets that tell this variation apart from its siblings. Leave out what the exercise does not fix.",
+      "additionalProperties": false,
+      "properties": {
+        "position": { "enum": ["standing", "seated", "supine", "prone", "side-lying", "kneeling", "half-kneeling", "quadruped", "hanging", "support", "split-stance", "inverted", "bent-over", "moving"] },
+        "incline_degrees": { "type": "number", "minimum": -90, "maximum": 90, "description": "Bench or body angle: positive incline, negative decline." },
+        "grip": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "orientation": { "enum": ["pronated", "supinated", "neutral", "mixed", "hook", "false", "rotating"] },
+            "width": { "enum": ["narrow", "shoulder", "wide", "snatch"] }
+          }
+        },
+        "stance": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "width": { "enum": ["narrow", "hip", "shoulder", "wide", "sumo"] },
+            "kind": { "enum": ["parallel", "staggered", "split", "single-leg", "tandem"] }
+          }
+        },
+        "load_position": { "enum": ["high-bar", "low-bar", "front-rack", "overhead", "goblet", "suitcase", "racked", "at-sides", "hip", "chest", "back", "feet", "zercher"] },
+        "range": { "enum": ["full", "partial", "pause", "deficit", "pin", "box"] }
+      }
+    },
+    "anatomy": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "muscles": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["muscle", "role"],
+            "additionalProperties": false,
+            "properties": {
+              "muscle": { "$ref": "#/$defs/term" },
+              "role": {
+                "enum": ["prime-mover", "synergist", "stabilizer", "stretched"],
+                "description": "prime-mover does most of the work; synergist assists; stabilizer holds position; stretched is the target of a stretch."
+              }
+            }
+          }
+        },
+        "joints": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["joint", "actions"],
+            "additionalProperties": false,
+            "properties": {
+              "joint": { "$ref": "#/$defs/term" },
+              "actions": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/$defs/term" } }
+            }
+          }
+        }
+      }
+    },
+    "equipment": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "required": {
+          "type": "array",
+          "description": "All of these groups, one of each group's items: [[\"barbell\"], [\"squat-rack\", \"power-rack\"]]. Empty means no equipment at all.",
+          "items": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/$defs/term" } }
+        },
+        "optional": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/term" } }
+      }
+    },
+    "measurement": {
+      "type": "object",
+      "description": "How to record a set, so two apps store the same effort as the same numbers.",
+      "required": ["profiles"],
+      "additionalProperties": false,
+      "properties": {
+        "profiles": {
+          "type": "array",
+          "minItems": 1,
+          "description": "Ways to record a set, the usual one first.",
+          "items": {
+            "type": "object",
+            "required": ["required"],
+            "additionalProperties": false,
+            "properties": {
+              "required": { "type": "array", "uniqueItems": true, "minItems": 1, "items": { "$ref": "#/$defs/term" }, "description": "Metrics that make a set of this profile meaningful." },
+              "optional": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/term" } }
+            }
+          }
+        },
+        "load": { "$ref": "#/$defs/load" },
+        "reps_counted": { "enum": ["total", "per-side", "not-applicable"], "description": "What one rep means when the sides work separately." },
+        "duration_counted": { "enum": ["total", "per-side", "not-applicable"] },
+        "records": {
+          "type": "object",
+          "description": "Which computed numbers make sense for this exercise.",
+          "additionalProperties": false,
+          "properties": {
+            "e1rm": { "type": "boolean", "description": "An estimated one-rep max means something here." },
+            "volume": { "type": "boolean", "description": "Load times reps is a fair measure of work." }
+          }
+        }
+      }
+    },
+    "load": {
+      "type": "object",
+      "required": ["kind"],
+      "additionalProperties": false,
+      "description": "What the load number means. Without this, a logged 50 could be either hand or the whole bar.",
+      "properties": {
+        "kind": {
+          "enum": ["external", "bodyweight", "bodyweight-plus-external", "bodyweight-minus-assistance", "elastic", "none"],
+          "description": "external: the number is the weight. bodyweight: no number is logged. bodyweight-plus-external: the number is what was added. bodyweight-minus-assistance: the number is what was taken off. elastic: tension varies through the rep."
+        },
+        "convention": {
+          "enum": ["total", "per-implement", "per-side", "weight-stack", "not-applicable"],
+          "description": "total is everything moved, bar included. per-implement is one of two dumbbells. per-side is one side of a plate-loaded machine or sled. weight-stack is the number on the pin."
+        },
+        "implements": { "type": "integer", "minimum": 1, "description": "How many implements are moved at once." },
+        "bodyweight_fraction": {
+          "type": "object",
+          "required": ["value", "source"],
+          "additionalProperties": false,
+          "description": "Fraction of body mass moved. Only with a citation; never estimated.",
+          "properties": {
+            "value": { "type": "number", "exclusiveMinimum": 0, "maximum": 1 },
+            "source": { "type": "string", "format": "uri" }
+          }
+        }
+      }
+    },
+    "instructions": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "setup": { "type": "array", "items": { "type": "string" }, "description": "Getting into position." },
+        "steps": { "type": "array", "items": { "type": "string" }, "description": "One rep or one bout, in order." },
+        "breathing": { "type": "string" },
+        "cues": { "type": "array", "items": { "type": "string" }, "description": "Short phrases a coach would say." },
+        "common_faults": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["fault", "correction"],
+            "additionalProperties": false,
+            "properties": { "fault": { "type": "string" }, "correction": { "type": "string" } }
+          }
+        },
+        "safety": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "precautions": { "type": "array", "items": { "type": "string" } },
+            "spotter": { "enum": ["required", "recommended", "not-needed"] },
+            "safeties": { "type": "boolean", "description": "Should be done with rack safeties or equivalent when heavy." }
+          }
+        }
+      }
+    },
+    "relation": {
+      "type": "object",
+      "required": ["type", "target"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "enum": ["variation-of", "regression-of", "progression-of", "substitute-for", "antagonist-of", "part-of", "same-as"],
+          "description": "Read as: this exercise <type> target. regression-of means this is easier than the target."
+        },
+        "target": { "$ref": "#/$defs/id" },
+        "note": { "type": "string" }
+      }
+    },
+    "energy": {
+      "type": "object",
+      "required": ["met", "source"],
+      "additionalProperties": false,
+      "description": "Metabolic cost. Only with a citation.",
+      "properties": {
+        "met": { "type": "number", "exclusiveMinimum": 0 },
+        "source": { "type": "string", "format": "uri" }
+      }
+    },
+    "media": {
+      "type": "object",
+      "required": ["kind", "url", "license"],
+      "additionalProperties": false,
+      "properties": {
+        "kind": { "enum": ["image", "video", "animation", "illustration", "model-3d"] },
+        "url": { "type": "string", "format": "uri" },
+        "view": { "enum": ["front", "side", "back", "top", "start", "end", "sequence"] },
+        "alt": { "type": "string" },
+        "license": { "type": "string" },
+        "author": { "type": "string" }
+      }
+    },
+    "translation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string" },
+        "summary": { "type": "string" },
+        "aliases": { "type": "array", "items": { "type": "string" } },
+        "instructions": { "$ref": "#/$defs/instructions" }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "license": { "type": "string", "description": "SPDX identifier of this record." },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["title"],
+            "additionalProperties": false,
+            "properties": {
+              "title": { "type": "string" },
+              "url": { "type": "string", "format": "uri" },
+              "license": { "type": "string" },
+              "author": { "type": "string" }
+            }
+          }
+        },
+        "review": {
+          "type": "object",
+          "required": ["status"],
+          "additionalProperties": false,
+          "properties": {
+            "status": { "enum": ["unreviewed", "machine-generated", "community-reviewed", "expert-reviewed"] },
+            "model": { "type": "string", "description": "The model, when machine-generated." },
+            "at": { "type": "string", "format": "date" },
+            "by": { "type": "string" }
+          }
+        },
+        "generated": {
+          "type": "array",
+          "description": "JSON pointers (RFC 6901) to values a machine produced and no person has checked. Remove a pointer once a person has.",
+          "items": { "type": "string", "pattern": "^(/[^/]*)*$" }
+        }
+      }
+    }
+  }
+}

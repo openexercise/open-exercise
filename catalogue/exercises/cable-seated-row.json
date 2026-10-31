@@ -1,0 +1,271 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Seated Cable Row",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Low Row",
+      "kind": "common"
+    },
+    {
+      "text": "Low Pulley Row",
+      "kind": "common"
+    },
+    {
+      "text": "Long-Pulley Row",
+      "kind": "regional"
+    },
+    {
+      "text": "Long-Pulley (low Row)",
+      "kind": "common"
+    },
+    {
+      "text": "Rowing seated, narrow grip",
+      "kind": "common"
+    },
+    {
+      "text": "cable row",
+      "kind": "common"
+    },
+    {
+      "text": "seated row",
+      "kind": "common"
+    },
+    {
+      "text": "low row",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "downward-rotation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable",
+        "selectorized-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "394,512,1117"
+  },
+  "id": "oec:cable-seated-row",
+  "instructions": {
+    "setup": [
+      "Sit on the bench facing the low pulley and place your feet securely on the footrests with knees slightly bent.",
+      "Hinge slightly forward at the hips to grasp the handle, then sit upright with an erect spine, braced core, and arms fully extended."
+    ],
+    "steps": [
+      "Initiate the pull by retracting your shoulder blades and driving your elbows straight back alongside your ribcage.",
+      "Pull the handle firmly toward your lower abdomen while keeping your torso upright and stationary.",
+      "Pause briefly at peak contraction, squeezing your shoulder blades together.",
+      "Control the weight back under tension until your arms are fully extended and shoulders protracted forward slightly."
+    ],
+    "breathing": "Exhale as you pull the handle into your abdomen, and inhale as you return the weight stack.",
+    "cues": [
+      "Lead with the elbows, not the hands.",
+      "Chest proud and shoulders down.",
+      "Keep the torso stable; do not swing."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso backward and forward to generate momentum.",
+        "correction": "Keep your hips locked and maintain a stationary, upright spine throughout the movement."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears during the pull.",
+        "correction": "Depress your scapulae and keep your traps relaxed before driving the elbows back."
+      },
+      {
+        "fault": "Rounding the lower back when reaching forward.",
+        "correction": "Maintain a neutral spine and stop reaching forward once your arms are fully extended."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid hyperextending the lumbar spine under heavy loads."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable Seated Row",
+  "previous_ids": [
+    "oec:long-pulley-low-row",
+    "oec:rowing-seated-narrow-grip",
+    "oec:seated-cable-row"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Long-Pulley (low Row)",
+        "url": "https://wger.de/en/exercise/394/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      },
+      {
+        "title": "wger: Rowing seated, narrow grip",
+        "url": "https://wger.de/en/exercise/512/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      },
+      {
+        "title": "wger: Seated Cable Row",
+        "url": "https://wger.de/en/exercise/1117/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Franpol"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-bent-over-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-seated-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:chest-supported-dumbbell-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-bent-over-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:t-bar-row"
+    }
+  ],
+  "setup": {
+    "position": "seated",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A seated cable pull targeting the latissimus dorsi, middle back, and elbow flexors."
+}

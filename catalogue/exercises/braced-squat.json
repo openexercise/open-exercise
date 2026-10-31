@@ -1,0 +1,225 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Counterbalance Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Plate Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Plate Counterbalance Squat",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "weight-plate",
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "124"
+  },
+  "id": "oec:braced-squat",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet approximately shoulder-width apart and toes angled slightly outward.",
+      "Grip the sides of a weight plate with both hands and extend your arms straight out in front of your chest at shoulder height.",
+      "Engage your core and set your shoulder blades down and back."
+    ],
+    "steps": [
+      "Initiate the movement by unlocking the hips and knees simultaneously, sitting back and down while keeping your arms extended.",
+      "Descend until your thighs reach at least parallel to the floor, maintaining an upright torso with the plate acting as a counterbalance.",
+      "Pause briefly in the hole without losing tension.",
+      "Drive through your midfoot and heels to reverse the movement and stand back up to full hip and knee extension."
+    ],
+    "breathing": "Inhale and brace your midsection before descending, hold during the descent, and exhale forcefully as you drive out of the bottom.",
+    "cues": [
+      "Reach the plate forward as you sit back.",
+      "Chest tall, arms parallel to the floor.",
+      "Spread the floor with your feet."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the arms to drop toward the hips during the squat.",
+        "correction": "Maintain the plate actively elevated at shoulder level throughout the entire repetition."
+      },
+      {
+        "fault": "Knees caving inward (valgus collapse) during the ascent.",
+        "correction": "Actively track knees over your middle toes as you descend and push back up."
+      },
+      {
+        "fault": "Using excessively heavy weight that causes shoulder fatigue or spinal flexion.",
+        "correction": "Use a light-to-moderate plate; the load is intended to provide balance and core bracing, not to max out arm strength."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Select a load light enough that you can hold it horizontally with extended arms for the full duration of the set without shoulder strain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Braced Squat",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Braced Squat",
+        "url": "https://wger.de/en/exercise/124/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "sevae"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-goblet-squat"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:bodyweight-squat"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A squat variation performed while holding a weight plate straight out in front of the chest to challenge anterior core stability and provide a counterbalance."
+}

@@ -1,0 +1,248 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Pallof Press",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Cable Pallof Press",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Anti-Rotation Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "internal-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "external-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "anti-rotation"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "resistance-band"
+    ],
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1194"
+  },
+  "id": "oec:cable-pallof-press",
+  "instructions": {
+    "setup": [
+      "Set a cable pulley to chest height and attach a single D-handle.",
+      "Stand perpendicular to the cable machine, holding the handle with both hands clasped around it.",
+      "Step away from the stack to create tension and assume an athletic, shoulder-width stance with knees slightly bent."
+    ],
+    "steps": [
+      "Begin with the hands held tight against the center of the chest.",
+      "Brace the core and press the handle straight out in front of the sternum until arms are fully extended.",
+      "Pause for one to two seconds at full lockout, resisting any rotational pull toward the weight stack.",
+      "Slowly bring the hands back to the chest with control to complete the rep."
+    ],
+    "breathing": "Inhale with hands at the chest, brace, and exhale steadily as you press forward and maintain the lockout.",
+    "cues": [
+      "Lock your hips forward.",
+      "Press in a straight line.",
+      "Do not let the cable twist you."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the shoulders or pelvis toward the machine during the press.",
+        "correction": "Square your hips and shoulders forward and reduce the load if rotation occurs."
+      },
+      {
+        "fault": "Pressing on an upward or downward angle.",
+        "correction": "Ensure the pulley is at sternum height and press directly forward in a horizontal line."
+      },
+      {
+        "fault": "Rushing through reps without pausing at full extension.",
+        "correction": "Hold lockout for at least one second where the lever arm and anti-rotational challenge are highest."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessive loads that force the lumbar spine into twisting under tension."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      },
+      {
+        "required": [
+          "duration",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Cable Pallof Press",
+  "previous_ids": [
+    "oec:pallof-press"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Pallof Press",
+        "url": "https://wger.de/en/exercise/1194/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "prevail90"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:plank-reach"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "chest",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A standing anti-rotation core exercise where a cable handle is pressed directly forward from the chest, challenging the trunk to resist rotational forces."
+}

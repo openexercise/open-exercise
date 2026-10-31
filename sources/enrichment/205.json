@@ -1,0 +1,167 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Lunge",
+  "summary": "A unilateral lower-body compound exercise where you step forward into a lunge with dumbbells held at your sides and push back to a standing position.",
+  "aliases": [
+    {
+      "text": "Dumbbell Forward Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Dumbbell Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Lunges Standing",
+      "kind": "common"
+    },
+    {
+      "text": "DB Lunge",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart holding a dumbbell in each hand at your sides with a neutral grip.",
+      "Engage your core, pull your shoulders back slightly, and look straight ahead."
+    ],
+    "steps": [
+      "Take a controlled step forward with one leg, planting your lead foot flat on the floor.",
+      "Lower your hips directly downward by bending both knees until your back knee hovers just above the floor and your front thigh is roughly parallel to the ground.",
+      "Push forcefully through the heel and midfoot of your lead leg to return smoothly to the upright starting position.",
+      "Repeat on the opposite leg or continue on the same side as prescribed."
+    ],
+    "breathing": "Inhale as you step forward and lower your body; exhale forcefully as you drive back up to the starting position.",
+    "cues": [
+      "Drop the back knee straight down",
+      "Stay tall through your torso",
+      "Drive back off the front midfoot"
+    ],
+    "common_faults": [
+      {
+        "fault": "Stepping in a straight line as if on a tightrope, causing loss of balance.",
+        "correction": "Maintain your hip-width stance as you step forward, stepping as if on railroad tracks."
+      },
+      {
+        "fault": "Collapsing the front knee inward during the descent or pushback.",
+        "correction": "Actively track your lead knee in line with your second toe throughout the rep."
+      },
+      {
+        "fault": "Leaning excessively forward and allowing the front heel to lift.",
+        "correction": "Keep your chest upright and maintain firm contact across your entire front foot."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid violently banging your rear knee into the floor.",
+        "Ensure adequate clear floor space in front of you before starting the set."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

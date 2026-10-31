@@ -1,0 +1,177 @@
+{
+  "is_exercise": true,
+  "name": "Cool-Down Swim",
+  "summary": "An easy-paced swim performed at low intensity to gradually lower heart rate and promote active recovery.",
+  "aliases": [
+    {
+      "text": "Warm-Down Swim",
+      "kind": "common"
+    },
+    {
+      "text": "Recovery Swim",
+      "kind": "common"
+    },
+    {
+      "text": "Easy Swim",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "swim"
+    ],
+    "mechanics": "compound",
+    "force": "mixed",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "extension",
+        "adduction",
+        "internal-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "pool"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "distance",
+        "heart-rate",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "distance",
+        "duration"
+      ],
+      "optional": [
+        "heart-rate",
+        "pace",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Enter the pool safely and position yourself in your lane to begin swimming."
+    ],
+    "steps": [
+      "Push off the wall into an easy, relaxed stroke such as freestyle, backstroke, or breaststroke.",
+      "Swim with minimal effort, emphasizing long, smooth glides and gentle propulsion.",
+      "Breathe easily and rhythmically without straining or holding your breath.",
+      "Continue swimming until your breathing settles and your heart rate returns closer to baseline."
+    ],
+    "breathing": "Breathe smoothly and rhythmically without breath-holding, allowing ventilation to slow down naturally.",
+    "cues": [
+      "Long and relaxed strokes",
+      "Emphasize the glide",
+      "Let your heart rate drop"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swimming at too fast or aggressive a pace.",
+        "correction": "Slow your stroke rate down and prioritize smooth relaxation over speed."
+      },
+      {
+        "fault": "Holding tension in the neck and shoulders.",
+        "correction": "Relax your upper body and allow the water to support your head and torso."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Swim only in designated swimming areas with active lifeguard coverage or safety personnel present.",
+        "Exit the pool if you experience extreme fatigue, cramping, or lightheadedness."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

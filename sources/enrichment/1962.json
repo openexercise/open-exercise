@@ -1,0 +1,168 @@
+{
+  "is_exercise": true,
+  "name": "Step Jack",
+  "summary": "A low-impact jumping jack variation where one foot steps out laterally at a time while raising both arms overhead.",
+  "aliases": [
+    {
+      "text": "Side Step Jack",
+      "kind": "common"
+    },
+    {
+      "text": "Low Impact Jumping Jack",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "isolation-hip-abduction",
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "mixed",
+    "laterality": "alternating",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "narrow",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "deltoid-lateral",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-minimus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "calves",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "abduction",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "heart-rate",
+        "calories"
+      ]
+    },
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet together and arms resting comfortably at your sides.",
+      "Engage your core and keep your chest lifted with a slight, soft bend in your knees."
+    ],
+    "steps": [
+      "Step your right foot out to the side while simultaneously sweeping both arms out and overhead.",
+      "Tap the right toe lightly, then step the right foot back to center as you lower your arms to your sides.",
+      "Immediately step your left foot out to the opposite side while raising your arms overhead once again.",
+      "Return the left foot to center and continue alternating sides in a smooth, continuous rhythm."
+    ],
+    "breathing": "Breathe rhythmically throughout, inhaling as you step out and exhaling as you return to center.",
+    "cues": [
+      "Light on your toes",
+      "Big arm sweeps overhead",
+      "Keep a steady rhythm"
+    ],
+    "common_faults": [
+      {
+        "fault": "Slumping or leaning excessively toward the stepping side.",
+        "correction": "Keep your torso upright and core braced rather than shifting your entire upper body laterally."
+      },
+      {
+        "fault": "Cutting the arm path short.",
+        "correction": "Bring your hands all the way overhead with full shoulder abduction on each repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Wear supportive athletic footwear to prevent slipping on smooth surfaces."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

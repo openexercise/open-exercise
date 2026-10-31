@@ -1,0 +1,155 @@
+{
+  "is_exercise": true,
+  "name": "Russian Twist",
+  "summary": "A seated bodyweight core exercise that trains rotational trunk control and hip flexor endurance by twisting the torso from side to side with elevated feet.",
+  "aliases": [
+    {
+      "text": "Core Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Russian Twist",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Trunk Rotation",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "rotation"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "external-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "rotation"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit on the floor or an exercise mat with your knees bent and feet flat.",
+      "Lean your torso back to roughly a 45-degree angle while maintaining a neutral, braced spine.",
+      "Lift your feet slightly off the floor to balance on your sit bones, and hold your hands together in front of your chest."
+    ],
+    "steps": [
+      "Rotate your torso to one side, bringing your hands toward the floor beside your hip.",
+      "Pause briefly under control, engaging your obliques.",
+      "Rotate your torso smoothly across the center to the opposite side to complete one repetition per side.",
+      "Continue alternating sides in a controlled, rhythmic cadence."
+    ],
+    "breathing": "Exhale as you rotate to each side, and take a brief inhale as your torso passes through the center.",
+    "cues": [
+      "Turn your shoulders, not just your hands.",
+      "Keep your chest proud and spine tall.",
+      "Keep your knees steady and hips square."
+    ],
+    "common_faults": [
+      {
+        "fault": "Moving only the arms while keeping the torso stationary.",
+        "correction": "Initiate the movement by turning your ribcage and shoulders so the abdominal wall performs the rotation."
+      },
+      {
+        "fault": "Excessively rounding the lower back.",
+        "correction": "Hinge back from the hips with a braced core and neutral lumbar spine rather than slumping into lumbar flexion."
+      },
+      {
+        "fault": "Swinging the legs erratically from side to side.",
+        "correction": "Engage your hip flexors and lower abs to stabilize the lower body, keeping your knees relatively still."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you experience lower back discomfort, place your heels lightly on the ground to reduce shear stress on the lumbar spine."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

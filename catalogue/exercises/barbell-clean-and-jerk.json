@@ -1,0 +1,268 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Clean and Jerk",
+      "kind": "common"
+    },
+    {
+      "text": "C\u0026J",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Clean and Jerk OL",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "abduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "elevation",
+          "upward-rotation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "olympic-weightlifting",
+      "power",
+      "strength"
+    ],
+    "movement_patterns": [
+      "olympic-lift",
+      "vertical-push",
+      "squat",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "advanced"
+  },
+  "equipment": {
+    "optional": [
+      "weight-plate"
+    ],
+    "required": [
+      [
+        "barbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1446"
+  },
+  "id": "oec:barbell-clean-and-jerk",
+  "instructions": {
+    "setup": [
+      "Stand with feet hip-width apart, the barbell over the midfoot, and grip the bar just outside the shins using a hook grip.",
+      "Lower the hips, pull the chest tall, brace the core, and engage the lats to establish a flat, rigid spine."
+    ],
+    "steps": [
+      "Push through the floor with your legs to lift the bar smoothly past the knees while maintaining the back angle.",
+      "As the bar passes the mid-thigh, explosively extend the hips, knees, and ankles while shrugging the shoulders upward.",
+      "Pull yourself rapidly under the barbell, catching it across the front deltoids in a full front squat with elbows pointed forward.",
+      "Stand up out of the squat to complete the clean, briefly pausing to adjust your grip and stance for the jerk.",
+      "Dip straight down a few inches by flexing the knees, then explosively drive upward through the heels.",
+      "Drive yourself underneath the bar into a split or power jerk stance, locking the arms out forcefully overhead.",
+      "Recover by stepping the front foot halfway back, then bringing the rear foot forward to stand fully upright with the bar stabilized overhead.",
+      "Lower or drop the barbell under control back to the platform."
+    ],
+    "breathing": "Take a deep breath and brace the core before the initial pull; hold tension through the clean and front squat, exhale at the top, take another deep breath before the jerk dip, and exhale after securing lockout overhead.",
+    "cues": [
+      "Leg drive off the floor",
+      "Fast elbows on the catch",
+      "Dip straight down",
+      "Punch the bar and punch the floor"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling early with the arms during the second pull.",
+        "correction": "Keep the arms long and loose like ropes until triple extension of the hips, knees, and ankles is completed."
+      },
+      {
+        "fault": "Collapsing forward during the jerk dip.",
+        "correction": "Keep the torso strictly vertical and dip straight down into the heels rather than hinging at the hips."
+      },
+      {
+        "fault": "Pressing out the jerk with soft elbows.",
+        "correction": "Drop aggressively underneath the bar and lock the elbows instantly upon receiving the weight overhead."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform on a dedicated lifting platform with bumper plates.",
+        "Learn how to safely miss and bail the barbell both forward and backward."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Clean and Jerk",
+  "previous_ids": [
+    "oec:clean-and-jerk-ol"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Clean and Jerk OL",
+        "url": "https://wger.de/en/exercise/1446/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "M9"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:barbell-clean"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:barbell-clean-and-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "hook",
+      "width": "shoulder"
+    },
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A full Olympic weightlifting movement where a barbell is lifted explosively from the floor to the shoulders, then driven overhead to full lockout."
+}

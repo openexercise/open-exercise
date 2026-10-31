@@ -1,0 +1,157 @@
+{
+  "is_exercise": true,
+  "name": "Cossack Squat",
+  "summary": "A deep lateral squat variation performed from a wide stance that builds unilateral leg strength and frontal-plane hip mobility.",
+  "aliases": [
+    {
+      "text": "Side Squat",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "mobility",
+      "strength"
+    ],
+    "movement_patterns": [
+      "squat",
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "stance_width": "wide",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gracilis",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension",
+        "abduction"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "kettlebell",
+    "dumbbell"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand with feet set significantly wider than shoulder width, with toes pointing slightly outward.",
+      "Extend your arms forward for balance or hold your hands together at chest height.",
+      "Engage your core and maintain an upright, tall posture."
+    ],
+    "steps": [
+      "Shift your weight to one side and squat down through that hip and knee while keeping the opposite leg straight.",
+      "Allow the straight leg to rotate onto its heel with toes pointing upward as you sink deep into the squat.",
+      "Descend until your working hip is as low as comfortable, ideally below parallel, while keeping the working heel flat on the floor.",
+      "Drive through the working foot to extend the hip and knee, returning smoothly to the starting wide stance.",
+      "Repeat on the opposite side or complete all reps on one side before switching."
+    ],
+    "breathing": "Inhale as you descend into the squat; exhale forcefully as you drive back up to the starting position.",
+    "cues": [
+      "Keep the working heel glued to the floor.",
+      "Turn the straight-leg toes toward the ceiling.",
+      "Stay tall through your chest."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the heel of the squatting leg to peel off the floor.",
+        "correction": "Work within your available ankle dorsiflexion or elevate the heel slightly while improving mobility."
+      },
+      {
+        "fault": "Excessive forward torso collapse and rounding of the lower back.",
+        "correction": "Keep your chest proud and extend your arms forward as a counterbalance."
+      },
+      {
+        "fault": "Bending the trailing knee during the descent.",
+        "correction": "Keep the non-working leg locked in full extension and actively rotate the foot onto the heel."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Descend only as deep as your hip and adductor mobility comfortably allows to avoid groin strains."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

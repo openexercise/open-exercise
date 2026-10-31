@@ -1,0 +1,229 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "DB Underhand bench press",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse-Grip Dumbbell Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Underhand Dumbbell Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Supinated Dumbbell Bench Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "horizontal-adduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "bench",
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1497"
+  },
+  "id": "oec:dumbbell-reverse-grip-bench-press",
+  "instructions": {
+    "setup": [
+      "Sit on the edge of a flat bench with a dumbbell resting upright on each knee.",
+      "Lie back smoothly, kicking the dumbbells up to chest level.",
+      "Rotate your wrists so your palms face toward your face and shoulders (fully supinated).",
+      "Plant your feet firmly on the floor and retract your shoulder blades into the bench."
+    ],
+    "steps": [
+      "Tuck your elbows close to your torso at approximately a thirty to forty-five degree angle from your ribs.",
+      "Lower the dumbbells under control until the handles are level with your lower chest.",
+      "Press the dumbbells upward and slightly inward, locking out your arms while maintaining the supinated wrist orientation.",
+      "Pause briefly at full lockout before beginning the next descent."
+    ],
+    "breathing": "Inhale as you lower the weights toward your lower chest; exhale forcefully as you press them to lockout.",
+    "cues": [
+      "Keep your palms facing you throughout the lift",
+      "Tuck elbows toward your ribs",
+      "Drive through your palms and keep wrists rigid"
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbows outward away from the body.",
+        "correction": "Keep elbows tucked close to the ribcage to maintain the mechanical advantage and protect the shoulders."
+      },
+      {
+        "fault": "Letting the wrists collapse backward into hyperextension.",
+        "correction": "Squeeze the handles tightly and keep knuckles stacked directly over wrists and forearms."
+      },
+      {
+        "fault": "Accidentally rotating to a neutral or pronated grip during the press.",
+        "correction": "Actively maintain the underhand grip orientation from the bottom of the movement through full lockout."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Start with lighter dumbbells than your standard bench press to master the wrist and elbow tracking."
+      ],
+      "spotter": "recommended"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Reverse-Grip Bench Press",
+  "previous_ids": [
+    "oec:db-underhand-bench-press"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: DB Underhand bench press",
+        "url": "https://wger.de/en/exercise/1497/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "JohnPreston"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-reverse-grip-bench-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated",
+      "width": "shoulder"
+    },
+    "incline_degrees": 0,
+    "load_position": "chest",
+    "position": "supine",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A dumbbell bench press variation performed with palms facing the face to shift emphasis toward the upper chest and triceps while easing shoulder stress."
+}

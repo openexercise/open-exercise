@@ -1,0 +1,175 @@
+{
+  "is_exercise": true,
+  "name": "Cycling",
+  "summary": "A continuous cardiovascular exercise propelling an outdoor bicycle through alternating pedal strokes.",
+  "aliases": [
+    {
+      "text": "biking",
+      "kind": "common"
+    },
+    {
+      "text": "bicycle riding",
+      "kind": "common"
+    },
+    {
+      "text": "bike ride",
+      "kind": "common"
+    },
+    {
+      "text": "road cycling",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning",
+      "sport"
+    ],
+    "movement_patterns": [
+      "cycle"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "neutral",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "calves",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hip-flexors",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "abdominals",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "bicycle"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "distance",
+        "duration"
+      ],
+      "optional": [
+        "speed",
+        "power",
+        "cadence",
+        "heart-rate",
+        "energy",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "heart-rate",
+        "energy",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Adjust the saddle height so that when the pedal is at the lowest point of the stroke, your knee maintains a slight bend (around 25–30 degrees).",
+      "Mount the bicycle, place the balls of your feet on the pedals, and grip the handlebars with relaxed hands, keeping your elbows unlocked."
+    ],
+    "steps": [
+      "Push down through the lead pedal to initiate forward momentum.",
+      "Alternate driving each pedal downward through hip and knee extension, transitioning smoothly into knee flexion as the pedal rounds the bottom and returns upward.",
+      "Maintain a smooth, continuous pedaling rhythm and steer to maintain balance and path trajectory."
+    ],
+    "breathing": "Breathe rhythmically in sync with your pedaling cadence, increasing ventilation naturally as intensity rises.",
+    "cues": [
+      "Pedal in smooth circles",
+      "Keep elbows soft",
+      "Relax your shoulders",
+      "Maintain a steady cadence"
+    ],
+    "common_faults": [
+      {
+        "fault": "Saddle adjusted too low, causing excessive knee flexion and anterior joint strain.",
+        "correction": "Raise the saddle until your leg is almost fully extended with a subtle bend at the bottom of the stroke."
+      },
+      {
+        "fault": "Mashing down on the pedals in too hard of a gear at a very low cadence.",
+        "correction": "Shift into an easier gear to sustain a smooth pedaling rate around 80 to 90 RPM."
+      },
+      {
+        "fault": "Locking the elbows and tensing the upper body.",
+        "correction": "Keep a soft bend in your arms to absorb road vibration and lower your shoulders away from your ears."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Always wear an approved, properly fitted helmet.",
+        "Follow local road laws and use appropriate lights and reflective gear when riding in low light."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

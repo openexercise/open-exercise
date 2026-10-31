@@ -1,0 +1,179 @@
+{
+  "is_exercise": true,
+  "name": "Cable Front Wood Chop",
+  "summary": "A standing cable exercise performed in the sagittal plane where resistance is pulled downward from an overhead position to engage the abdominals and lats.",
+  "aliases": [
+    {
+      "text": "Front Wood Chop",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Vertical Wood Chop",
+      "kind": "common"
+    },
+    {
+      "text": "Vertical Wood Chop",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Front Woodchop",
+      "kind": "common"
+    },
+    {
+      "text": "Front Woodchop",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "pull",
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "grip_width": "narrow",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "external-oblique",
+      "role": "synergist"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-long-head",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set the cable pulley to its highest setting and attach a rope or bar handle.",
+      "Stand facing the cable machine with your feet shoulder-width apart and knees slightly bent.",
+      "Grasp the attachment firmly with both hands overhead, keeping your arms extended with a slight bend in your elbows."
+    ],
+    "steps": [
+      "Brace your core and pull the attachment down directly in front of your body toward your thighs.",
+      "Hinge slightly at the hips and flex your torso forward as your hands pass your chest, focusing on abdominal contraction.",
+      "Pause briefly at the bottom of the movement while actively squeezing your lats and abs.",
+      "Control the weight as it rises, extending your hips and returning your arms smoothly to the overhead starting position."
+    ],
+    "breathing": "Exhale forcefully as you chop downward, and inhale as you return the cable overhead.",
+    "cues": [
+      "Pull with your lats and abs",
+      "Keep your elbow angle locked",
+      "Control the ascent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending and extending the elbows excessively, turning the movement into a triceps pushdown.",
+        "correction": "Maintain a fixed, soft bend in the elbows throughout and drive the movement through shoulder extension and trunk flexion."
+      },
+      {
+        "fault": "Hyperextending the lower back at the top of the movement.",
+        "correction": "Keep your core braced and ribs pulled down even when your arms are fully overhead."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Select a load that allows full control during both the downward pull and the overhead return."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

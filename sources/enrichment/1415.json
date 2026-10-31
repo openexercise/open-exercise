@@ -1,0 +1,134 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Crunch",
+  "summary": "A weighted crunch variation where a dumbbell is held across the chest to progressively overload the rectus abdominis during spinal flexion.",
+  "aliases": [
+    {
+      "text": "dumbbell crunches",
+      "kind": "common"
+    },
+    {
+      "text": "weighted crunch with dumbbell",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "chest",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Lie supine on the floor or an exercise mat with your knees bent and feet flat on the ground roughly hip-width apart.",
+      "Hold a single dumbbell horizontally against the center of your chest with both hands."
+    ],
+    "steps": [
+      "Brace your core and draw your ribcage down toward your pelvis.",
+      "Curl your head, shoulders, and upper back off the floor, rounding through the spine while keeping your lower back in contact with the mat.",
+      "Pause for a brief contraction at the top of the crunch.",
+      "Slowly lower your shoulders back to the starting position under control."
+    ],
+    "breathing": "Exhale forcefully as you curl upward to maximize abdominal contraction; inhale as you lower your upper back to the floor.",
+    "cues": [
+      "Ribs to hips",
+      "Keep the dumbbell tight to your chest",
+      "Roll up, don't jerk"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the entire lower back off the floor into a sit-up.",
+        "correction": "Focus on curling only the thoracic spine and shoulder blades off the floor while keeping the lower back anchored."
+      },
+      {
+        "fault": "Using momentum or throwing the weight forward.",
+        "correction": "Keep the dumbbell pressed firmly against your chest and perform the movement with slow, deliberate spinal flexion."
+      },
+      {
+        "fault": "Excessive neck straining or jutting the chin forward.",
+        "correction": "Keep the chin slightly tucked in a neutral position relative to the torso throughout the repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not allow the dumbbell to shift onto your throat or neck."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

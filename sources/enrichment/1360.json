@@ -1,0 +1,178 @@
+{
+  "is_exercise": true,
+  "name": "Double Kettlebell Clean and Press",
+  "summary": "A full-body ballistic and strength movement combining a hip hinge clean into the front rack with an overhead press using two kettlebells.",
+  "aliases": [
+    {
+      "text": "Double KB Clean and Press",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Kettlebell Clean and Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "power",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "hinge",
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "mixed",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "ballistic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "grip_width": "shoulder",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "overhead",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "abduction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "kettlebell"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Place two kettlebells on the floor about a foot in front of you, spaced roughly shoulder-width apart.",
+      "Stand with feet shoulder-width apart, hinge at the hips with a flat back, and grip both handles with thumbs pointed slightly backward or toward each other."
+    ],
+    "steps": [
+      "Hike the kettlebells back between your legs high in the groin.",
+      "Snap your hips forward into full extension, using the momentum to float the kettlebells upward close to your torso.",
+      "Tuck your elbows and smoothly rotate your hands around the bells to catch them softly in the front rack position on your chest and forearms.",
+      "Pause momentarily in the rack, brace your abs, squeeze your glutes, and press both kettlebells vertically until your arms are fully locked out overhead.",
+      "Lower the kettlebells under control back to the rack position.",
+      "Drop the kettlebells smoothly into the backswing between your legs and repeat for the desired number of repetitions."
+    ],
+    "breathing": "Inhale as you hike the kettlebells, exhale sharply as you stand and clean them into the rack, inhale briefly to brace, and exhale as you press overhead.",
+    "cues": [
+      "Drive from the hips, not the arms.",
+      "Tame the arc on the clean to avoid banging your wrists.",
+      "Lock your glutes and abs before pressing."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the kettlebells to swing too far outward and crash onto the forearms in the rack.",
+        "correction": "Keep the kettlebells close to your ribs as they travel upward and spear your hands through the handles."
+      },
+      {
+        "fault": "Hyperextending the lower back during the overhead press.",
+        "correction": "Squeeze your glutes and brace your core tightly to keep your pelvis neutral and ribs pulled down."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure adequate overhead mobility before pressing heavy pairs of kettlebells.",
+        "Clear ample floor space around you in case you need to safely drop the bells."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

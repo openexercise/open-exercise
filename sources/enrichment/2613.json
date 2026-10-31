@@ -1,0 +1,139 @@
+{
+  "is_exercise": true,
+  "name": "90-90 Hip Switch",
+  "summary": "A seated mobility drill that transitions both legs between internal and external hip rotation in a 90-90 position.",
+  "aliases": [
+    {
+      "text": "90/90 Hip Switches",
+      "kind": "common"
+    },
+    {
+      "text": "90/90 Hip Rotations",
+      "kind": "common"
+    },
+    {
+      "text": "Shin Box Switch",
+      "kind": "common"
+    },
+    {
+      "text": "Seated 90-90 Hip Rotation",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "gluteus-medius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "piriformis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-minimus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "internal-rotation",
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit on the floor with your torso upright and your legs arranged in a 90-90 position: one lead leg in front with hip and knee bent to 90 degrees, and the trail leg out to the side with hip and knee bent to 90 degrees.",
+      "Keep your heels planted on the floor with toes pulled slightly toward your shins.",
+      "Hold your hands clasped in front of your chest, or place your hands lightly behind your hips on the floor for support if needed."
+    ],
+    "steps": [
+      "Initiate the movement by opening the back knee outward while keeping both heels anchored to the floor.",
+      "Allow the front knee to follow as your hips rotate across the center.",
+      "Rotate both legs completely to the opposite side until you settle into a mirrored 90-90 position.",
+      "Pause briefly in the end range, then reverse the motion to switch back."
+    ],
+    "breathing": "Inhale as you transition across the middle and exhale as you settle tall into each 90-90 end position.",
+    "cues": [
+      "Drive knees wide apart through the middle.",
+      "Pencil between heels: keep your heels anchored in place.",
+      "Stay tall through your spine."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively rounding the lower back and collapsing the chest.",
+        "correction": "Sit tall by actively bracing your trunk and place your hands on the floor behind you if hip mobility limits upright sitting."
+      },
+      {
+        "fault": "Shuffling or dragging the feet across the floor rather than pivoting on the heels.",
+        "correction": "Fix your heels in place and pivot cleanly on your heel pads throughout the entire rotation."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forcing the hips or knees into painful end ranges; reduce the range of motion if you experience knee or groin discomfort."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

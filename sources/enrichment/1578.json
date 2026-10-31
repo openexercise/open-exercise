@@ -1,0 +1,157 @@
+{
+  "is_exercise": true,
+  "name": "Bodyweight Hip Hinge",
+  "summary": "A foundational bodyweight movement pattern drill that teaches posterior weight shifting and hip extension while maintaining a neutral spine.",
+  "aliases": [
+    {
+      "text": "Hip Hinge",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Hip Hinge",
+      "kind": "common"
+    },
+    {
+      "text": "Hip Hinge Drill",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "hinge",
+      "mobility-drill"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "wall"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "tempo",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart, toes pointing forward or slightly outward.",
+      "Softly unlock your knees without actively bending them into a squat.",
+      "Place your hands on your hips, across your chest, or behind your head, and brace your core."
+    ],
+    "steps": [
+      "Initiate the movement by pushing your pelvis directly backward as if trying to touch a wall behind you with your glutes.",
+      "Allow your torso to lean forward naturally under control while maintaining a flat, neutral spine.",
+      "Hinge until you feel a deep stretch in your hamstrings and your torso reaches roughly a 45-degree angle to parallel, keeping your shins nearly vertical.",
+      "Drive your feet through the floor and push your hips forward to return to the upright starting position, squeezing your glutes at the top."
+    ],
+    "breathing": "Inhale as you hinge backward and load the hamstrings; exhale as you extend the hips back up to standing.",
+    "cues": [
+      "Push your hips straight back",
+      "Shins stay vertical",
+      "Keep the spine long and neutral",
+      "Squeeze the glutes to stand"
+    ],
+    "common_faults": [
+      {
+        "fault": "Squatting the movement by bending the knees excessively and letting them drift forward.",
+        "correction": "Keep shins vertical and focus on sending the hips backward rather than downward."
+      },
+      {
+        "fault": "Rounding the lumbar or thoracic spine to reach lower.",
+        "correction": "Brace the abdominals, keep your chest proud, and stop the descent once hip flexion reaches its active end range."
+      },
+      {
+        "fault": "Hyperextending the lower back at the top lockout.",
+        "correction": "Finish the rep by squeezing the glutes into neutral alignment directly over the heels without leaning backward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not force depth beyond your active hamstring flexibility; stop when spinal neutrality begins to compromise."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

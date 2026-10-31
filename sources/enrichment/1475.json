@@ -1,0 +1,176 @@
+{
+  "is_exercise": true,
+  "name": "Black Widow Knee Slide",
+  "summary": "A dynamic plank variation where one knee drives diagonally to the opposite elbow and slides up toward the armpit, heavily targeting the rectus abdominis and obliques.",
+  "aliases": [
+    {
+      "text": "Black Widow Knee Slides",
+      "kind": "common"
+    },
+    {
+      "text": "Black Widow Plank",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "spinal-flexion",
+      "rotation",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "support",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "external-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion",
+        "rotation"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "flexion",
+        "rotation"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Begin in a high plank position with your hands directly under your shoulders and your fingers spread.",
+      "Set your feet hip-width apart and establish full-body tension from your heels to your head.",
+      "Push actively into the floor to protract your shoulder blades and brace your core."
+    ],
+    "steps": [
+      "Drive one knee diagonally across your body toward the opposite elbow.",
+      "Make contact with the back of the forearm or elbow and slide your knee upward toward the tricep and armpit as you round your spine into maximal flexion.",
+      "Pause for a moment at the top of the slide, squeezing the abdominals and obliques intensely.",
+      "Control the knee back down the arm and return the foot to the starting plank position.",
+      "Repeat the movement on the opposite side, alternating for the desired number of repetitions."
+    ],
+    "breathing": "Exhale forcefully as you drive and slide the knee upward to maximize abdominal contraction; inhale as you return to the plank.",
+    "cues": [
+      "Push the floor away to dome the upper back.",
+      "Cross, touch, and slide.",
+      "Tuck your pelvis and crunch hard at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging the hips during the plank transition.",
+        "correction": "Maintain glute and abdominal tension to keep your pelvis in neutral between reps."
+      },
+      {
+        "fault": "Rushing the movement and kicking the knee forward without sliding.",
+        "correction": "Slow the tempo, establish contact on the lower arm, and deliberately drag the knee upward."
+      },
+      {
+        "fault": "Letting the shoulders drift backward behind the wrists.",
+        "correction": "Keep your weight centered over your hands throughout the entire rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid this exercise if you experience acute lower back pain during forced flexion or twisting."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

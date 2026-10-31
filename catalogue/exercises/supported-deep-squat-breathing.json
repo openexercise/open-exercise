@@ -1,0 +1,223 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Assisted Deep Squat Breathing",
+      "kind": "common"
+    },
+    {
+      "text": "Pole Squat Breathing",
+      "kind": "common"
+    },
+    {
+      "text": "Squat Hold with Respiration",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "transversus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "soleus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stretched"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "rehabilitation",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "squat",
+      "stretch"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "power-rack",
+        "squat-rack",
+        "suspension-trainer",
+        "wall"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2646"
+  },
+  "id": "oec:supported-deep-squat-breathing",
+  "instructions": {
+    "setup": [
+      "Stand facing a sturdy upright support, such as a power rack post or suspension trainer straps.",
+      "Grasp the support firmly at mid-chest height with both hands.",
+      "Set your feet roughly shoulder-width apart with toes turned slightly outward."
+    ],
+    "steps": [
+      "Descend into a full, deep squat, using the support to offset balance and control your depth.",
+      "Allow your hips to sink between your heels while keeping your feet flat on the floor.",
+      "Let your spine relax into a gentle, natural curve rather than forcing strict lumbar hyperextension.",
+      "Inhale slowly through your nose, focusing on directing air into your back and lower ribcage.",
+      "Exhale fully and passively through your mouth, letting your pelvis and pelvic floor sink deeper as the ribs depress.",
+      "Hold the position while cycling smooth, diaphragmatic breaths for the desired duration or breath count."
+    ],
+    "breathing": "Inhale deeply through the nose to expand the posterior ribcage, then exhale slowly and completely through the mouth to empty the lungs.",
+    "cues": [
+      "Breathe into the back pockets",
+      "Heels heavy on the floor",
+      "Long, full exhales"
+    ],
+    "common_faults": [
+      {
+        "fault": "Heels lifting off the ground",
+        "correction": "Shift your center of mass back slightly using the hand support to ensure your entire foot remains firmly planted."
+      },
+      {
+        "fault": "Excessive arching of the lower back",
+        "correction": "Relax the spinal erectors and allow a slight natural lumbar flexion to open the posterior pelvic outlet."
+      },
+      {
+        "fault": "Shallow chest breathing",
+        "correction": "Focus on driving the breath downward and into the posterior ribs rather than elevating the shoulders."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the support implement is anchored and fully capable of bearing body weight.",
+        "Discontinue if experiencing sharp knee or hip impingement pain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Supported Deep Squat Breathing",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Supported Deep Squat Breathing",
+        "url": "https://wger.de/en/exercise/2646/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:90-90-breathing"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:diaphragmatic-breathing"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "support",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A mobility and respiration drill where you hold a stable anchor in a deep squat to encourage pelvic floor relaxation and posterior ribcage expansion."
+}

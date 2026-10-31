@@ -1,0 +1,227 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Reverse Snow Angel",
+      "kind": "common"
+    },
+    {
+      "text": "Floor Snow Angel",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Angel",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "trapezius-middle",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "depression",
+          "downward-rotation",
+          "upward-rotation"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-abduction",
+          "adduction",
+          "abduction",
+          "internal-rotation",
+          "external-rotation"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "mobility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "mobility-drill"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1215"
+  },
+  "id": "oec:prone-snow-angel",
+  "instructions": {
+    "setup": [
+      "Lie face down on a mat with your legs extended straight behind you and toes resting on the floor.",
+      "Extend your arms fully overhead with your thumbs pointing up or palms facing the floor.",
+      "Tuck your chin slightly so your neck remains neutral, with your forehead hovering just above the mat."
+    ],
+    "steps": [
+      "Engage your mid-back to lift your hands, forearms, and chest slightly off the floor.",
+      "Keeping your arms straight and hovering, sweep them smoothly out to the sides in a wide arc toward your hips.",
+      "As your hands approach your outer thighs, squeeze your shoulder blades down and back, rotating your thumbs outward if comfortable.",
+      "Reverse the sweep along the same circular path back to the overhead starting position without letting your hands touch the ground."
+    ],
+    "breathing": "Exhale as you sweep your arms down toward your hips and contract your back; inhale as you return them overhead.",
+    "cues": [
+      "Keep hands hovering off the floor throughout the sweep.",
+      "Pull your shoulder blades into your back pockets as your hands reach your hips.",
+      "Keep your neck long and eyes looking down."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lower back to create height instead of moving from the shoulders and thoracic spine.",
+        "correction": "Squeeze your glutes and brace your abdomen into the floor to lock the lumbar spine in neutral, lifting primarily through the arms and shoulder blades."
+      },
+      {
+        "fault": "Shrugging the shoulders upward toward the ears during the overhead sweep.",
+        "correction": "Keep active depression in the scapulae, keeping the shoulders drawn away from the ears throughout the repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Individuals with acute shoulder impingement should reduce range of motion or avoid sweeping into excessive overhead flexion if pain occurs."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Prone Snow Angel",
+  "previous_ids": [
+    "oec:reverse-snow-angel"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Reverse Snow Angel",
+        "url": "https://wger.de/en/exercise/1215/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "mike6426"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:wall-angel"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:wall-angel"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:prone-y-t-w-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:prone-ytw-raise"
+    }
+  ],
+  "setup": {
+    "position": "prone",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A bodyweight postural exercise performed lying face down, sweeping the arms from overhead to the hips to strengthen scapular stabilizers and upper-back musculature."
+}

@@ -1,0 +1,210 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Deep Breathing",
+      "kind": "common"
+    },
+    {
+      "text": "Belly Breathing",
+      "kind": "common"
+    },
+    {
+      "text": "Abdominal Breathing",
+      "kind": "common"
+    },
+    {
+      "text": "Deep breathing (standing or seated)",
+      "kind": "common"
+    },
+    {
+      "text": "Relaxed Diaphragmatic Breathing",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "transversus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "external-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "mobility",
+      "yoga"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "not-applicable",
+    "force": "not-applicable",
+    "kinetic_chain": "not-applicable",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "chair",
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1591,1940,2657"
+  },
+  "id": "oec:diaphragmatic-breathing",
+  "instructions": {
+    "setup": [
+      "Sit upright in a chair with your feet flat on the floor, or stand tall with feet hip-width apart.",
+      "Relax your shoulders, neck, and jaw.",
+      "Place one hand on your upper chest and the other on your abdomen just below the ribcage to monitor movement."
+    ],
+    "steps": [
+      "Inhale slowly and deeply through your nose, allowing your abdomen to expand outward three-dimensionally while keeping your chest relatively still.",
+      "Pause briefly at the top of the inhalation without straining.",
+      "Exhale slowly and completely through your mouth or nose, feeling your abdomen gently draw inward toward your spine.",
+      "Repeat for the desired duration or breath count, maintaining a steady, relaxed rhythm."
+    ],
+    "breathing": "Breathe slowly and rhythmically, emphasizing a full diaphragmatic expansion on the inhale and a controlled, complete exhale.",
+    "cues": [
+      "Breathe into your stomach, not your shoulders",
+      "Expand the ribs 360 degrees",
+      "Keep the upper chest relaxed"
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulders and initiating the breath primarily from the upper chest.",
+        "correction": "Consciously depress and relax your shoulder girdle, directing the air downward so only the bottom hand moves on the inhale."
+      },
+      {
+        "fault": "Hyperextending the lower back during inhalation.",
+        "correction": "Keep your pelvis and ribcage stacked in neutral without overarching your lumbar spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you feel lightheaded or dizzy, pause the drill and resume normal spontaneous breathing."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps"
+        ]
+      },
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Diaphragmatic Breathing",
+  "previous_ids": [
+    "oec:deep-breathing-standing-or-seated",
+    "oec:relaxed-diaphragmatic-breathing"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Deep breathing (standing or seated)",
+        "url": "https://wger.de/en/exercise/1591/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "MrAlfaRobot"
+      },
+      {
+        "title": "wger: Diaphragmatic Breathing",
+        "url": "https://wger.de/en/exercise/1940/view-base",
+        "license": "CC-BY-SA-4.0"
+      },
+      {
+        "title": "wger: Relaxed Diaphragmatic Breathing",
+        "url": "https://wger.de/en/exercise/2657/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:90-90-breathing"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:supported-deep-squat-breathing"
+    }
+  ],
+  "setup": {
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A foundational breathing exercise designed to expand the lower ribcage and abdomen, engaging the deep core and promoting autonomic down-regulation."
+}

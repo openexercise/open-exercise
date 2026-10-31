@@ -1,0 +1,188 @@
+{
+  "is_exercise": true,
+  "name": "Swimming",
+  "summary": "A full-body aquatic locomotion exercise that develops cardiovascular endurance and muscular stamina.",
+  "aliases": [
+    {
+      "text": "Lap Swimming",
+      "kind": "common"
+    },
+    {
+      "text": "Schwimmen",
+      "kind": "regional"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning",
+      "sport"
+    ],
+    "movement_patterns": [
+      "swim"
+    ],
+    "mechanics": "compound",
+    "force": "mixed",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "extension",
+        "adduction",
+        "internal-rotation"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "downward-rotation",
+        "protraction",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "pool"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "distance",
+        "duration"
+      ],
+      "optional": [
+        "pace",
+        "heart-rate",
+        "calories",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "distance",
+        "heart-rate",
+        "calories",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Enter the pool lane and position yourself facing down along the lane line.",
+      "Engage your core to maintain a streamlined, horizontal posture near the water surface."
+    ],
+    "steps": [
+      "Propel forward using coordinated arm strokes and leg kicks according to your chosen stroke technique.",
+      "Rotate your torso along your longitudinal axis to initiate each pull and facilitate efficient arm recovery.",
+      "Execute rhythmic kicks from the hips with relaxed ankles to provide continuous propulsion and maintain body position.",
+      "Turn or touch the wall at the end of each lap and continue for the prescribed distance or duration."
+    ],
+    "breathing": "Exhale continuously underwater through your nose or mouth, turning your head smoothly into the bow wave to inhale during recovery without lifting your head.",
+    "cues": [
+      "Stay long and streamlined",
+      "Kick from the hips, not the knees",
+      "Rotate through the torso"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the head excessively out of the water to breathe, which causes the hips and legs to drop.",
+        "correction": "Keep one goggle lens in the water while rotating laterally to breathe into the pocket created by your head."
+      },
+      {
+        "fault": "Excessive knee bending during the kick, creating unwanted drag.",
+        "correction": "Initiate the flutter kick from the hips with relatively straight legs and relaxed ankles."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Only swim in supervised areas or with a lifeguard on duty.",
+        "Never swim alone or push beyond safe breath-holding limits."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Chin Up",
+      "kind": "common"
+    },
+    {
+      "text": "Chinup",
+      "kind": "common"
+    },
+    {
+      "text": "Underhand Pull-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Supinated Pull-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse-grip pull-ups",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "downward-rotation",
+          "retraction"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "resistance-band"
+    ],
+    "required": [
+      [
+        "pull-up-bar"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "152,1292"
+  },
+  "id": "oec:chin-up",
+  "instructions": {
+    "setup": [
+      "Grasp an overhead bar with a shoulder-width, supinated grip (palms facing toward you).",
+      "Hang with your arms fully extended in a dead hang or active hang, legs extended or crossed with knees slightly bent.",
+      "Engage your core to prevent excessive swinging."
+    ],
+    "steps": [
+      "Initiate the pull by drawing your shoulder blades down and back.",
+      "Drive your elbows down and toward your ribs to pull your chest up toward the bar.",
+      "Continue pulling until your chin clears the height of the bar.",
+      "Pause briefly at the top without straining the neck forward.",
+      "Lower yourself under control until your elbows reach full extension."
+    ],
+    "breathing": "Inhale at the bottom or on the way down; exhale as you pull yourself up.",
+    "cues": [
+      "Drive your elbows to the floor.",
+      "Chest to the bar.",
+      "Keep your ribs pulled down."
+    ],
+    "common_faults": [
+      {
+        "fault": "Kicking the legs or swinging the hips to gain momentum.",
+        "correction": "Brace the abdominal muscles and maintain a stable hollow-body or slightly braced position throughout."
+      },
+      {
+        "fault": "Reaching with the chin to clear the bar instead of completing the pull.",
+        "correction": "Keep the neck neutral and pull until the chin naturally clears the bar through shoulder and elbow flexion."
+      },
+      {
+        "fault": "Cutting the bottom range of motion short.",
+        "correction": "Lower completely until the arms are fully extended before beginning the next repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the pull-up bar is securely mounted and capable of supporting your full body weight."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Chin-Up",
+  "previous_ids": [
+    "oec:reverse-grip-pull-ups"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Chin Up",
+        "url": "https://wger.de/en/exercise/152/view-base",
+        "license": "CC0-1.0",
+        "author": "BFad07"
+      },
+      {
+        "title": "wger: Reverse-grip pull-ups",
+        "url": "https://wger.de/en/exercise/1292/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "clafal"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:pull-up"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:pull-up"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:assisted-chin-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated",
+      "width": "shoulder"
+    },
+    "position": "hanging"
+  },
+  "status": "active",
+  "summary": "A closed-chain vertical pull using a supinated grip that emphasizes the latissimus dorsi and elbow flexors."
+}

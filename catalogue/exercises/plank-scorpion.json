@@ -1,0 +1,213 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Scorpion Kick",
+      "kind": "common"
+    },
+    {
+      "text": "Scorpion Plank",
+      "kind": "common"
+    },
+    {
+      "text": "High Plank Scorpion",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "external-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension",
+          "external-rotation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "rotation",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "rotation"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "rotation",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "mixed",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1207"
+  },
+  "id": "oec:plank-scorpion",
+  "instructions": {
+    "setup": [
+      "Start in a high plank position with your hands directly beneath your shoulders and fingers spread.",
+      "Position your feet hip-width apart and establish a rigid line from your head to your heels by bracing your core."
+    ],
+    "steps": [
+      "Lift one foot off the floor, flex the knee slightly, and lift the leg into hip extension behind you.",
+      "Rotate your pelvis and swing the elevated leg across your body toward the opposite side, reaching the toes toward the floor.",
+      "Pivot onto the outer edge of your stationary foot while pressing firmly through both hands to keep your chest facing the floor.",
+      "Smoothly reverse the rotation, return your foot to the starting plank position, and repeat on the opposite side."
+    ],
+    "breathing": "Exhale as you rotate and reach the leg across your body; inhale as you return to the neutral plank position.",
+    "cues": [
+      "Keep both palms glued to the floor",
+      "Rotate through the hips, not the shoulders",
+      "Reach long and controlled with the back foot"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting one hand off the floor as the torso rotates.",
+        "correction": "Actively push through both hands and keep the chest facing the ground to isolate rotation to the hips and spine."
+      },
+      {
+        "fault": "Rushing the movement with momentum rather than controlled muscular effort.",
+        "correction": "Move deliberately and pause briefly at the end range of rotation before returning to the plank."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not force end-range hip or lumbar extension if you experience pinching or discomfort in the lower back."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Plank Scorpion",
+  "previous_ids": [
+    "oec:scorpion-kick"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Scorpion Kick",
+        "url": "https://wger.de/en/exercise/1207/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "lxmx"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:plank-with-leg-lift"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:plank-with-leg-lift"
+    }
+  ],
+  "setup": {
+    "position": "support"
+  },
+  "status": "active",
+  "summary": "A dynamic bodyweight mobility and core exercise performed from a high plank by extending and rotating one leg across the body."
+}

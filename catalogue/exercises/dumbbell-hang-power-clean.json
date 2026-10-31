@@ -1,0 +1,246 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Dumbbell Hang Clean",
+      "kind": "common"
+    },
+    {
+      "text": "DB Hang Power Clean",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Dumbbell Hang Power Cleans",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "elevation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "power",
+      "strength",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "olympic-lift",
+      "hinge",
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1087"
+  },
+  "id": "oec:dumbbell-hang-power-clean",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart holding a dumbbell in each hand at your sides with a neutral grip.",
+      "Set your shoulder blades back and brace your core."
+    ],
+    "steps": [
+      "Hinge at the hips and slightly bend your knees to lower the dumbbells to just above or level with your kneecaps, keeping your chest proud and spine neutral.",
+      "Violently extend your hips, knees, and ankles while performing an explosive shrug to accelerate the dumbbells upward.",
+      "Keep the dumbbells close to your torso as they rise, then pull yourself underneath them by dropping into a shallow quarter squat.",
+      "Rotate your elbows forward to catch the heads of the dumbbells softly across the tops of your shoulders.",
+      "Stand fully upright to complete the repetition, then lower the weights back to the hang position with control."
+    ],
+    "breathing": "Inhale and brace your core as you hinge into the hang position, and exhale forcefully as you drive through the floor and catch the weights.",
+    "cues": [
+      "Drive hard through the floor.",
+      "Keep the weights tight to your body.",
+      "Snap the hips and fast elbows on the catch."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bicep curling the dumbbells rather than driving them upward with hip extension.",
+        "correction": "Focus on an aggressive hip snap and vertical shrug, using the lower body to generate all upward momentum."
+      },
+      {
+        "fault": "Allowing the back to round during the hinge into the hang position.",
+        "correction": "Brace your core and push your hips back while keeping your chest up throughout the dip."
+      },
+      {
+        "fault": "Swinging the dumbbells far out in front of the body.",
+        "correction": "Keep the path of the dumbbells close to your thighs and torso as they travel upward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure adequate grip security to avoid dropping the weights during rapid turnover.",
+        "Start with lighter weights to master hip timing before adding load."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Hang Power Clean",
+  "previous_ids": [
+    "oec:dumbbell-hang-power-cleans"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dumbbell Hang Power Cleans",
+        "url": "https://wger.de/en/exercise/1087/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "philip"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-power-clean"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-power-clean"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An explosive movement where dumbbells are pulled from hip or knee level using rapid triple extension and caught on the shoulders in a partial squat."
+}

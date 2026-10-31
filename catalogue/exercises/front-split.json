@@ -1,0 +1,180 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Front Splits",
+      "kind": "common"
+    },
+    {
+      "text": "Front Split Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Hanumanasana",
+      "kind": "common"
+    },
+    {
+      "text": "Monkey Pose",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "hamstrings",
+        "role": "stretched"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "stretched"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "stretched"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "extension"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility",
+      "yoga"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "not-applicable",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "advanced"
+  },
+  "equipment": {
+    "optional": [
+      "mat",
+      "yoga-block"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "2527"
+  },
+  "id": "oec:front-split",
+  "instructions": {
+    "setup": [
+      "Begin in a half-kneeling position on a mat with your torso upright and hips square.",
+      "Place your hands or yoga blocks on the floor beside your hips for balance and support."
+    ],
+    "steps": [
+      "Slide the front heel forward while keeping the front knee extended.",
+      "Simultaneously extend the rear leg backward, lowering your pelvis toward the floor.",
+      "Keep both hip points facing directly forward without letting the rear hip rotate open.",
+      "Hold the stretch at a sustainable depth without forcing the pelvis down.",
+      "Press through your hands to gently lift your hips and exit the stretch slowly."
+    ],
+    "breathing": "Breathe smoothly and deeply, using slow exhalations to help the hip musculature relax into the stretch.",
+    "cues": [
+      "Keep hips square",
+      "Chest tall",
+      "Ease into depth"
+    ],
+    "common_faults": [
+      {
+        "fault": "Opening or rotating the rear hip outward to gain artificial depth.",
+        "correction": "Keep the rear knee and top of the rear foot facing straight down to ensure pure sagittal hip extension."
+      },
+      {
+        "fault": "Excessively arching the lower back to compensate for tight hip flexors.",
+        "correction": "Maintain an upright, braced torso and use yoga blocks under your hands for support."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Warm up thoroughly prior to attempting deep splits.",
+        "Support your body weight with your hands or blocks rather than dropping passively into extreme ranges."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Front Split",
+  "previous_ids": [
+    "oec:front-split-stretch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Front Split Stretch",
+        "url": "https://wger.de/en/exercise/2527/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Croak6728"
+      }
+    ]
+  },
+  "setup": {
+    "position": "split-stance"
+  },
+  "status": "active",
+  "summary": "An advanced lower-body stretch with one leg extended forward and the other backward, deeply lengthening the front hamstrings and rear hip flexors."
+}

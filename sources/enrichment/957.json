@@ -1,0 +1,185 @@
+{
+  "is_exercise": true,
+  "name": "Bird Dog",
+  "summary": "A core stability exercise performed from all fours by extending the opposite arm and leg while maintaining a neutral, steady spine.",
+  "aliases": [
+    {
+      "text": "Quadruped Arm and Leg Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Bird-Dog",
+      "kind": "common"
+    },
+    {
+      "text": "Birddog",
+      "kind": "common"
+    },
+    {
+      "text": "Quadruped Opposite Arm and Leg Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "calisthenics",
+      "mobility",
+      "balance"
+    ],
+    "movement_patterns": [
+      "anti-rotation",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "mixed",
+    "laterality": "contralateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "quadruped",
+  "muscles": [
+    {
+      "muscle": "erector-spinae",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "multifidus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "per-side",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Start on your hands and knees on an exercise mat in a tabletop position.",
+      "Align your wrists directly under your shoulders and your knees directly under your hips.",
+      "Engage your midsection to establish a neutral spine and level pelvis, gazing down toward the floor."
+    ],
+    "steps": [
+      "Simultaneously reach one arm forward and extend the opposite leg straight back.",
+      "Raise both limbs until they are parallel to the floor, forming a straight line from hand to foot.",
+      "Hold the fully extended position briefly while bracing to resist rotation through the torso and pelvis.",
+      "Slowly lower your hand and knee back to the starting position under control.",
+      "Repeat for the desired repetitions before switching sides, or alternate sides each rep."
+    ],
+    "breathing": "Inhale to brace through your core prior to movement, exhale gently as you reach and hold, and inhale as you return to all fours.",
+    "cues": [
+      "Reach long, not high",
+      "Keep hips and shoulders square to the floor",
+      "Do not arch the lower back"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lumbar spine as the rear leg lifts.",
+        "correction": "Focus on squeezing the glute and only lift the leg as high as you can maintain a flat, neutral lower back."
+      },
+      {
+        "fault": "Rotating the hips open toward the lifting side.",
+        "correction": "Keep both hip points pointing directly toward the floor throughout the movement."
+      },
+      {
+        "fault": "Sagging into the supporting shoulder.",
+        "correction": "Press firmly through the floor with the grounded hand to keep the chest active and shoulder stable."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid lifting the limbs excessively high if you have lower back sensitivity; emphasize reach and spinal stability over height."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

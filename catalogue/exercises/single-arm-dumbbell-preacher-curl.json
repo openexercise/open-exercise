@@ -1,0 +1,226 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Single-Arm Preacher Curl",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Dumbbell Preacher Curl",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Preacher Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Single-Arm Preacher Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Preacher Curl - Externally Rotated",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "preacher-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "584,1658"
+  },
+  "id": "oec:single-arm-dumbbell-preacher-curl",
+  "instructions": {
+    "setup": [
+      "Adjust the preacher bench seat height so your armpit rests comfortably near the top of the angled pad.",
+      "Grasp a dumbbell with a supinated grip in one hand and sit down facing the pad.",
+      "Position the back of your upper arm flush against the pad, with your elbow aligned near the bottom.",
+      "Place your free hand on the top of the pad or bench frame for stability."
+    ],
+    "steps": [
+      "Start with the working arm fully extended down the pad, maintaining slight tension to avoid hyperextending the elbow.",
+      "Curl the dumbbell upward by flexing the elbow until your forearm is nearly perpendicular to the floor.",
+      "Squeeze the biceps firmly at peak contraction for a brief pause.",
+      "Lower the dumbbell under control along the pad until your arm reaches full extension."
+    ],
+    "breathing": "Exhale as you curl the dumbbell up, and inhale as you lower it back down.",
+    "cues": [
+      "Armpit snug against the pad",
+      "Control the descent all the way down",
+      "Do not lean back to heave the weight"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the elbow off the pad during the curl.",
+        "correction": "Keep the upper arm firmly pinned to the angled pad throughout the entire repetition."
+      },
+      {
+        "fault": "Hyperextending or bouncing out of the bottom position.",
+        "correction": "Lower the weight with control and pause momentarily before reversing direction."
+      },
+      {
+        "fault": "Shortening the range of motion by stopping well short of full extension.",
+        "correction": "Lower the dumbbell until your arm is straight, maximizing stretch on the biceps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessively heavy weights that strain the distal biceps tendon at full elbow extension."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Single-Arm Dumbbell Preacher Curl",
+  "previous_ids": [
+    "oec:single-arm-preacher-curl",
+    "oec:preacher-curl-externally-rotated"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Single-arm Preacher Curl",
+        "url": "https://wger.de/en/exercise/584/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "tuckerm"
+      },
+      {
+        "title": "wger: Preacher Curl - Externally Rotated",
+        "url": "https://wger.de/en/exercise/1658/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Shiladree"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-preacher-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-preacher-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:ez-bar-preacher-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-concentration-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-preacher-curl"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated"
+    },
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "An isolation exercise that uses a preacher bench and a dumbbell to strictly target the elbow flexors unilaterally."
+}

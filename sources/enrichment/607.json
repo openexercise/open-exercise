@@ -1,0 +1,146 @@
+{
+  "is_exercise": true,
+  "name": "Sprinter Sit-Up",
+  "summary": "A dynamic bodyweight core exercise that combines a full sit-up with a running stride motion to target the abdominals, obliques, and hip flexors.",
+  "aliases": [
+    {
+      "text": "Splinter Sit-ups",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Sprinter Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Runner's Sit-Up",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "spinal-flexion",
+      "rotation"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "supine",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "obliques",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion",
+        "rotation"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "flexion",
+        "rotation"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on an exercise mat with legs extended straight.",
+      "Bend your elbows to 90 degrees with your forearms pointing upward, mimicking a running arm carriage."
+    ],
+    "steps": [
+      "Brace your core and forcefully sit up, rolling through your spine.",
+      "Simultaneously drive one knee toward your chest while driving the opposite elbow forward, mimicking a sprinter's stride.",
+      "Pause momentarily at the top with your chest tall and core fully engaged.",
+      "Lower your torso and leg under control back to the starting position.",
+      "Immediately repeat the movement on the opposite side, alternating sides with each repetition."
+    ],
+    "breathing": "Exhale forcefully as you sit up and drive the knee, and inhale smoothly as you lower back down.",
+    "cues": [
+      "Drive the opposite knee and elbow together.",
+      "Roll up through the spine rather than flinging your neck.",
+      "Control the descent back to the floor."
+    ],
+    "common_faults": [
+      {
+        "fault": "Using excessive momentum or yanking the neck forward.",
+        "correction": "Initiate the movement by contracting the abdominals and curling the ribcage toward the pelvis."
+      },
+      {
+        "fault": "Crashing down onto the lower back during the eccentric phase.",
+        "correction": "Resist gravity and unroll your spine vertebrae-by-vertebra back onto the floor."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid this exercise if you have acute lower back pain exacerbated by combined spinal flexion and rotation."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

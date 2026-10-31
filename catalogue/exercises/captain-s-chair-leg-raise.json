@@ -1,0 +1,234 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Vertical Leg Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Supported Leg Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Roman Chair Leg Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Power Tower Leg Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Leg Raises, Standing",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "obliques",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "synergist"
+      },
+      {
+        "muscle": "tensor-fasciae-latae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "ankle-weight",
+      "dumbbell"
+    ],
+    "required": [
+      [
+        "roman-chair",
+        "dip-station"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "378"
+  },
+  "id": "oec:captain-s-chair-leg-raise",
+  "instructions": {
+    "setup": [
+      "Step onto the foot pegs of the captain's chair apparatus and rest your forearms flat on the padded supports.",
+      "Grip the handles firmly with your hands and press down through your forearms to depress your shoulders and stabilize your upper body.",
+      "Step off the pegs so your body hangs freely with your back resting lightly against the pad and your legs fully extended downward."
+    ],
+    "steps": [
+      "Keeping your legs straight and together, smoothly raise them in front of you.",
+      "Continue lifting until your thighs are at least parallel to the floor, rolling your pelvis upward slightly at the top to fully contract the abdominals.",
+      "Pause for a second at the top of the movement.",
+      "Lower your legs with control back to the starting hanging position without allowing your body to swing."
+    ],
+    "breathing": "Exhale as you raise your legs toward your chest and inhale as you lower them with control.",
+    "cues": [
+      "Press your forearms down to keep your neck long",
+      "Tilt your pelvis up at the top",
+      "Control the descent to eliminate swinging"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the legs and using momentum to lift them.",
+        "correction": "Come to a complete stop at the bottom of each repetition and initiate the movement purely with abdominal and hip flexor contraction."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears.",
+        "correction": "Actively push down into the forearm pads throughout the set to keep the shoulder blades depressed and stable."
+      },
+      {
+        "fault": "Stopping at parallel without flexing the lumbar spine.",
+        "correction": "Curl the pelvis slightly upward at the top of the movement to shift emphasis from the hip flexors to the rectus abdominis."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the forearms are securely seated on the pads before taking your feet off the platform to prevent slipping."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Captain's Chair Leg Raise",
+  "previous_ids": [
+    "oec:leg-raises-standing"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Leg Raises, Standing",
+        "url": "https://wger.de/en/exercise/378/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:captain-s-chair-knee-raise"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:hanging-leg-raise"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:toes-to-bar"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:hanging-leg-raise"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "support"
+  },
+  "status": "active",
+  "summary": "An abdominal exercise performed by suspending the torso on forearm pads and raising the straight legs to flex the hips and waist."
+}

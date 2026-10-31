@@ -1,0 +1,136 @@
+{
+  "is_exercise": true,
+  "name": "Machine Preacher Curl",
+  "summary": "A machine-based elbow flexion exercise that stabilizes the upper arms on an angled pad to isolate the biceps brachii and brachialis.",
+  "aliases": [
+    {
+      "text": "Preacher Curl Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Machine Preacher Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Biceps Curl Machine",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion",
+      "pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "supinated",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so that when seated, the tops of the arm pads fit comfortably under your armpits and your elbows align with the machine's axis of rotation.",
+      "Sit down, rest the backs of your upper arms flat against the pad, and grasp the handles with an underhand grip."
+    ],
+    "steps": [
+      "Curl the handles upward by flexing your elbows while keeping your upper arms pinned to the pad.",
+      "Squeeze your biceps at full contraction without lifting your elbows off the surface.",
+      "Lower the handles under control back to the starting position until your arms are nearly fully extended."
+    ],
+    "breathing": "Exhale as you curl the weight up, and inhale as you lower it down under control.",
+    "cues": [
+      "Keep elbows glued to the pad",
+      "Do not hyperextend at the bottom",
+      "Control the descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the elbows or shoulders off the pad to gain leverage.",
+        "correction": "Reduce the load and keep your chest upright with your triceps firmly planted against the pad throughout the movement."
+      },
+      {
+        "fault": "Letting the weight stack slam at the bottom of the rep.",
+        "correction": "Maintain muscular tension through the full range of motion and stop just short of an uncontrolled lockout."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid aggressive or ballistic extension at the bottom of the movement to protect the distal biceps tendon."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

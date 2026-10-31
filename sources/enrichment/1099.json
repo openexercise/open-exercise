@@ -1,0 +1,170 @@
+{
+  "is_exercise": true,
+  "name": "Band-Suspended Kettlebell Suitcase Hold",
+  "summary": "An anti-lateral flexion and balance exercise where a kettlebell suspended by an elastic band is held at one side to create unpredictable oscillating perturbations.",
+  "aliases": [
+    {
+      "text": "Dynamic Side Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Hanging Band Kettlebell Suitcase Hold",
+      "kind": "common"
+    },
+    {
+      "text": "HBT Suitcase Hold",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Band-Suspended Suitcase Hold",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "balance",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "anti-lateral-flexion",
+      "balance"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_kind": "single-leg",
+  "load_position": "suitcase",
+  "muscles": [
+    {
+      "muscle": "external-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadratus-lumborum",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "kettlebell"
+      ]
+    },
+    {
+      "any_of": [
+        "resistance-band"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Loop a resistance band through the handle of a kettlebell and pull it tight to create a secure hitch.",
+      "Stand tall and grip the looped band with one hand, lifting the kettlebell off the floor so it hangs suspended at your side.",
+      "Engage your core to set your shoulders and hips level before lifting one foot slightly off the floor."
+    ],
+    "steps": [
+      "Hold your torso upright and stationary, actively resisting the lateral pull and oscillation of the bouncing weight.",
+      "Maintain single-leg balance on the standing leg for the prescribed time, or slowly alternate standing legs without losing pelvic stability.",
+      "Carefully lower the raised foot, set the kettlebell down, and repeat the hold on the opposite side."
+    ],
+    "breathing": "Breathe in a controlled, rhythmic pattern behind a braced abdominal wall throughout the hold.",
+    "cues": [
+      "Keep your shoulders level.",
+      "Crush the band handle.",
+      "Brace against the bounce."
+    ],
+    "common_faults": [
+      {
+        "fault": "Leaning away from or toward the loaded side to compensate for the weight.",
+        "correction": "Keep the spine vertical and maintain equal distance between your ribcage and pelvis on both sides."
+      },
+      {
+        "fault": "Allowing the hips to drop on the unsupported leg side.",
+        "correction": "Actively squeeze the glute of the stance leg to keep the pelvis level."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Inspect the resistance band for tears or wear before suspending the kettlebell.",
+        "Ensure adequate clear floor space in case the weight swings or balance is lost."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

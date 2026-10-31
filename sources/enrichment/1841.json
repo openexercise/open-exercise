@@ -1,0 +1,131 @@
+{
+  "is_exercise": true,
+  "name": "Seated Shoulder Extension Stretch",
+  "summary": "A seated floor stretch that targets the anterior deltoids, pectorals, and biceps by sliding the hips away from hands placed behind the body.",
+  "aliases": [
+    {
+      "text": "Seated Anterior Shoulder Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Floor Shoulder Extension Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Chest and Shoulder Stretch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "not-applicable",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stretched"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "stretched"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "stretched"
+    },
+    {
+      "muscle": "coracobrachialis",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "hyperextension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "depression"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit on the floor with your knees bent and feet flat on the ground.",
+      "Place your palms flat on the floor behind you roughly shoulder-width apart, with your fingers pointing away from or slightly turned out from your body."
+    ],
+    "steps": [
+      "Keep your arms straight and your chest lifted upward.",
+      "Slowly scoot your hips and feet forward away from your hands until you feel a gentle stretch across the front of your shoulders and chest.",
+      "Hold the position steadily without bouncing, breathing deeply.",
+      "Gently slide your hips back toward your hands to release the stretch."
+    ],
+    "breathing": "Breathe slowly and evenly, using long exhales to allow the front of the shoulders to relax deeper into the stretch.",
+    "cues": [
+      "Keep the chest proud",
+      "Do not shrug toward the ears",
+      "Slide the hips forward gradually"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively rounding the thoracic spine and letting the shoulders dump forward.",
+        "correction": "Keep the sternum lifted and gently retract the shoulder blades."
+      },
+      {
+        "fault": "Bending the elbows significantly, reducing tension on the shoulder extensors and biceps.",
+        "correction": "Keep the arms straight throughout the hold without hyperextending the joints."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Stop immediately if you feel sharp anterior shoulder pain or impingement rather than a muscular stretch."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

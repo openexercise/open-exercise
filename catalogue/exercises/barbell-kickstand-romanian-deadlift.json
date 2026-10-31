@@ -1,0 +1,248 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Kickstand RDL",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "B-Stance Romanian Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell B-Stance Romanian Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "B-Stance RDL",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Kickstand Romanian Deadlift",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "biceps-femoris",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "semitendinosus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "weight-plate",
+      "squat-rack"
+    ],
+    "required": [
+      [
+        "barbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1688"
+  },
+  "id": "oec:barbell-kickstand-romanian-deadlift",
+  "instructions": {
+    "setup": [
+      "Stand tall holding a loaded barbell in front of your thighs with a double-overhand, shoulder-width grip.",
+      "Place your working foot flat on the floor and step the non-working foot back about half a foot-length.",
+      "Rest the ball of the rear foot lightly on the floor to serve solely as a balance kickstand, keeping roughly eighty to ninety percent of your weight on the lead foot.",
+      "Brace your core, set your lats tight, and unlock the front knee slightly."
+    ],
+    "steps": [
+      "Initiate the movement by pushing your hips backward while maintaining a neutral spine.",
+      "Hinge forward at the hips, keeping the barbell close to your front shin and thigh.",
+      "Lower the bar until you feel a deep stretch in the front leg's hamstring, typically just below the knee, without rounding your lower back.",
+      "Drive through the midfoot and heel of the front leg to extend the hips forward back to the standing position.",
+      "Complete all repetitions on one side before switching your stance to the opposite leg."
+    ],
+    "breathing": "Inhale and brace your core at the top before descending, hold during the hinge, and exhale forcefully as you lock out at the top.",
+    "cues": [
+      "Push your hips straight back toward the wall behind you.",
+      "Keep ninety percent of your weight on the front heel.",
+      "Paint your shins with the barbell to keep it close.",
+      "Only use the back toes for light balance."
+    ],
+    "common_faults": [
+      {
+        "fault": "Putting too much weight on the rear leg, turning the hinge into a split squat.",
+        "correction": "Keep the rear heel elevated and maintain the vast majority of your bodyweight through the front midfoot and heel."
+      },
+      {
+        "fault": "Rounding the lumbar spine to reach greater range of motion.",
+        "correction": "Stop the descent as soon as your hips stop traveling backward, maintaining a neutral, braced spine."
+      },
+      {
+        "fault": "Letting the barbell drift away from the body.",
+        "correction": "Engage the lats to keep the bar tracking directly along the front thigh and shin throughout the rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not lock out the front knee into hyperextension during the hinge.",
+        "Maintain hip squareness to prevent twisting into the lumbar spine."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Barbell Kickstand Romanian Deadlift",
+  "previous_ids": [
+    "oec:kickstand-rdl"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Kickstand RDL",
+        "url": "https://wger.de/en/exercise/1688/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "eriktrinkle"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-romanian-deadlift"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:single-leg-romanian-deadlift"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:single-leg-romanian-deadlift"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-single-leg-deadlift"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "staggered",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A hip-hinge variation using a staggered stance where the rear foot acts as a kickstand for balance while the front leg handles most of the load."
+}

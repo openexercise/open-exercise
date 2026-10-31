@@ -1,0 +1,223 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Lever Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Machine Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Hammer Strength Lat Pulldown",
+      "kind": "brand"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "adduction",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "downward-rotation",
+          "depression",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2631"
+  },
+  "id": "oec:machine-lat-pulldown",
+  "instructions": {
+    "setup": [
+      "Adjust the seat height and thigh pads so your thighs fit snugly beneath the support with feet flat on the floor.",
+      "Reach up and grasp the machine handles firmly with an overhand grip.",
+      "Sit upright with your chest lifted, core braced, and arms extended overhead."
+    ],
+    "steps": [
+      "Initiate the movement by depressing your shoulder blades and driving your elbows down toward your ribs.",
+      "Pull smoothly until your hands reach approximately chin or upper-chest level.",
+      "Pause momentarily at peak contraction while squeezing your lat muscles.",
+      "Extend your arms with control to return the handles to the starting overhead position."
+    ],
+    "breathing": "Exhale as you pull the handles downward; inhale as you return them to the top.",
+    "cues": [
+      "Lead with the elbows, not the hands.",
+      "Keep your chest tall.",
+      "Control the ascent to full stretch."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive backward leaning to gain momentum.",
+        "correction": "Keep the torso upright or with a slight, fixed arch in the thoracic spine throughout the entire repetition."
+      },
+      {
+        "fault": "Shrugging the shoulders upward during the pull.",
+        "correction": "Actively depress the shoulder blades down and back before bending the elbows."
+      },
+      {
+        "fault": "Cutting the eccentric range of motion short.",
+        "correction": "Allow the machine arms to travel all the way up until the lats are fully lengthened."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the thigh support is securely locked in place before loading significant weight."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Machine Lat Pulldown",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Machine Lat Pulldown",
+        "url": "https://wger.de/en/exercise/2631/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:plate-loaded-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:pull-up"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:pull-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated"
+    },
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A seated compound machine exercise that develops back width and upper-arm pulling strength through guided vertical pulling."
+}

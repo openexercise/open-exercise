@@ -1,0 +1,163 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Close-Grip Bench Press",
+  "summary": "A compound horizontal press performed on a flat bench with a pair of dumbbells held together in a neutral grip to target the triceps and inner chest.",
+  "aliases": [
+    {
+      "text": "Dumbbell Squeeze Press",
+      "kind": "common"
+    },
+    {
+      "text": "Crush Grip Dumbbell Press",
+      "kind": "common"
+    },
+    {
+      "text": "Close-Grip Dumbbell Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "incline_degrees": 0,
+  "grip_orientation": "neutral",
+  "grip_width": "narrow",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rotator-cuff",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "horizontal-adduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "adjustable-bench"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit on the edge of a flat bench with a dumbbell resting upright on each thigh.",
+      "Lie back smoothly onto the bench, using your knees to assist the dumbbells up over your chest.",
+      "Plant your feet firmly on the floor and retract your shoulder blades into the bench.",
+      "Position the dumbbells side-by-side with a neutral grip (palms facing each other), lightly pressing them together directly over your sternum."
+    ],
+    "steps": [
+      "Lower the dumbbells under control toward your lower chest or sternum, keeping them pressed together and allowing your elbows to track closely alongside your torso.",
+      "Touch the dumbbells lightly to your chest without bouncing or losing tension.",
+      "Press the dumbbells back up along the same path by extending your elbows and squeezing your chest, maintaining contact between the dumbbells throughout the ascent.",
+      "Lock out your elbows at the top without allowing your shoulders to protract off the bench."
+    ],
+    "breathing": "Inhale as you lower the dumbbells toward your chest; exhale forcefully as you press them back to lockout.",
+    "cues": [
+      "Crush the dumbbells together",
+      "Keep elbows tucked to your ribs",
+      "Drive your feet through the floor"
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring elbows out wide away from the torso.",
+        "correction": "Keep your elbows tucked at roughly 30 to 45 degrees relative to your torso to prioritize the triceps and protect the shoulders."
+      },
+      {
+        "fault": "Letting the dumbbells drift apart during the movement.",
+        "correction": "Maintain constant, deliberate inward pressure pressing the two dumbbells together through the entire repetition."
+      },
+      {
+        "fault": "Bouncing the dumbbells off the sternum.",
+        "correction": "Control the eccentric descent and reverse direction gently at the bottom under active muscular control."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure dumbbells are firmly held so they do not slip or drop onto your chest or face.",
+        "When finished, bring the dumbbells to your thighs and use momentum to rock forward into a seated position."
+      ],
+      "spotter": "recommended",
+      "safeties": false
+    }
+  }
+}

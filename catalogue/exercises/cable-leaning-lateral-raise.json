@@ -1,0 +1,218 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Leaning Cable Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Lean-Away Cable Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Lean-Away Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Lean-To Cable Lateral Raise",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-lateral",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "supraspinatus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2624"
+  },
+  "id": "oec:cable-leaning-lateral-raise",
+  "instructions": {
+    "setup": [
+      "Set a cable pulley to its lowest position and attach a single D-handle.",
+      "Stand sideways next to the cable tower with your feet placed close to the base of the machine.",
+      "Grasp the vertical frame or upright with your inner hand at roughly shoulder height.",
+      "Hold the D-handle with your outer hand, allowing the cable to run in front of or behind your body depending on personal comfort.",
+      "Lean your torso away from the machine until your supporting arm is fully extended and your body forms a straight, diagonal line from shoulders to feet."
+    ],
+    "steps": [
+      "Allow the working arm to hang straight down toward the pulley with a soft bend in the elbow.",
+      "Raise the handle out to the side in the scapular plane until your working arm reaches shoulder level.",
+      "Pause briefly at the peak contraction without swinging or altering your torso lean.",
+      "Lower the cable smoothly along the same arc back to the starting stretch.",
+      "Complete all repetitions on one side before switching to the opposite arm."
+    ],
+    "breathing": "Exhale as you raise the cable out to the side, and inhale as you lower it with control.",
+    "cues": [
+      "Lead with your elbow, not your wrist.",
+      "Keep the torso locked at a consistent angle throughout the set.",
+      "Control the descent to maximize tension in the stretched position."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to generate momentum rather than using the lateral delt.",
+        "correction": "Keep your supporting arm braced and your core tight, moving only the working shoulder joint."
+      },
+      {
+        "fault": "Shrugging the shoulder excessively at the top of the raise.",
+        "correction": "Depress your shoulder blade and focus on sweeping the arm outward rather than upward toward the ear."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure your supporting hand has a firm, non-slip grip on a secure part of the machine frame before leaning."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Cable Leaning Lateral Raise",
+  "previous_ids": [
+    "oec:lean-away-cable-lateral-raise"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Lean-Away Cable Lateral Raise",
+        "url": "https://wger.de/en/exercise/2624/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "trs1800"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-lateral-raise"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:cable-single-arm-lateral-raise"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:single-arm-cable-lateral-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-lateral-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-lateral-raise"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "narrow"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral isolation exercise that works the lateral deltoid by leaning the torso away from a low cable pulley to optimize the resistance profile."
+}

@@ -1,0 +1,151 @@
+{
+  "is_exercise": true,
+  "name": "Cable Hammer Curl",
+  "summary": "An isolation exercise using a low cable pulley and neutral grip to target the elbow flexors, especially the brachialis and brachioradialis.",
+  "aliases": [
+    {
+      "text": "Cable Rope Hammer Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Cable Hammer Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Hammer Curls on Cable",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "brachialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach a rope or dual handles to the lowest pulley setting of a cable station.",
+      "Grasp the rope with a neutral grip (palms facing each other) near the knotted ends.",
+      "Step back slightly to put tension on the cable, standing upright with feet hip-width apart and elbows pinned to your sides."
+    ],
+    "steps": [
+      "Curl your hands toward your shoulders by flexing the elbows, keeping your upper arms stationary.",
+      "Squeeze your arm muscles firmly at the peak of the contraction without allowing your elbows to drift forward.",
+      "Lower the weight back down slowly under control until your elbows reach full extension."
+    ],
+    "breathing": "Exhale as you curl the weight up, and inhale as you lower it back down.",
+    "cues": [
+      "Keep palms facing each other throughout.",
+      "Pin your elbows to your ribs.",
+      "Control the descent; don't let the stack snap down."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to use momentum to move the weight.",
+        "correction": "Brace your core and maintain a strict, upright posture throughout the entire movement."
+      },
+      {
+        "fault": "Allowing the elbows to drift forward during the curl.",
+        "correction": "Keep your upper arms stationary and tucked close to your torso."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a neutral wrist position to avoid excessive strain on the joint."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

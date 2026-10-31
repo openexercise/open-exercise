@@ -1,0 +1,177 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Reverse Clam",
+      "kind": "common"
+    },
+    {
+      "text": "Internal Rotation Clamshell",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "tensor-fasciae-latae",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-minimus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "internal-rotation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "mobility",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "rotation",
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat",
+      "mini-band",
+      "ankle-weight"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "2448"
+  },
+  "id": "oec:reverse-clamshell",
+  "instructions": {
+    "setup": [
+      "Lie on your side on an exercise mat with your head supported by your bottom arm or a pillow.",
+      "Bend your hips to approximately 45 degrees and your knees to about 90 degrees, stacking your hips, knees, and ankles directly on top of each other.",
+      "Place your top hand on your hip or on the floor in front of you to monitor pelvic stability."
+    ],
+    "steps": [
+      "Keep your knees pressed together while rotating your top hip to lift your top ankle and foot toward the ceiling.",
+      "Pause for a brief second at the top of the movement, focusing on the contraction along the side and front of your upper hip.",
+      "Slowly lower your foot back down until it touches the bottom foot.",
+      "Complete the target repetitions on one side before rolling over to train the opposite leg."
+    ],
+    "breathing": "Exhale as you rotate the hip to lift the foot, and inhale as you lower it back to the start position.",
+    "cues": [
+      "Knees glued together",
+      "Pivot from the hip",
+      "Keep your pelvis pointing forward"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling the pelvis forward or backward to create false range of motion.",
+        "correction": "Keep your pelvis stacked perpendicular to the floor and isolate the rotation strictly to the hip joint."
+      },
+      {
+        "fault": "Letting the knees separate as the foot rises.",
+        "correction": "Maintain continuous, gentle pressure between your knees throughout the entire set."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Move only through a pain-free range of motion, especially if dealing with hip impingement or labral pathology."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Reverse Clamshell",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Reverse Clamshell",
+        "url": "https://wger.de/en/exercise/2448/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "TobiasFalk"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "part-of",
+      "target": "oec:clamshell-to-reverse-clamshell"
+    }
+  ],
+  "setup": {
+    "position": "side-lying"
+  },
+  "status": "active",
+  "summary": "A side-lying hip isolation exercise that targets the internal rotators by keeping the knees together while lifting the top foot."
+}

@@ -1,0 +1,147 @@
+{
+  "is_exercise": true,
+  "name": "Hack Squat Calf Raise",
+  "summary": "A machine-based lower leg exercise that isolates the calves by performing plantarflexion on the footplate of a hack squat machine.",
+  "aliases": [
+    {
+      "text": "Hack Machine Calf Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Hack Calf Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Calf Raises on Hackenschmitt Machine",
+      "kind": "regional"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-ankle"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gastrocnemius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "tibialis-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "peroneals",
+      "role": "synergist"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "hack-squat-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Position your back and shoulders firmly against the back pad and shoulder supports of the hack squat machine.",
+      "Place the balls of your feet on the lower edge of the footplate with your heels hanging off into open space.",
+      "Extend your legs to unrack the carriage and disengage the safety handles, keeping a soft, unlocked bend in your knees."
+    ],
+    "steps": [
+      "Lower your heels in a slow, controlled motion below the level of the footplate until you feel a deep stretch in your calves.",
+      "Pause briefly at the bottom to eliminate elastic bounce.",
+      "Drive forcefully through the balls of your feet and big toes to raise your heels as high as possible into full plantarflexion.",
+      "Squeeze your calves at the peak contraction for a second before lowering under control."
+    ],
+    "breathing": "Exhale as you press up onto your toes; inhale as you lower your heels into the full stretch.",
+    "cues": [
+      "Drive through the big toes",
+      "Keep knees soft, not locked",
+      "Full stretch at the bottom",
+      "Pause and squeeze at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bouncing out of the bottom stretch using Achilles tendon elasticity.",
+        "correction": "Pause for a full second at the deepest point of dorsiflexion before driving upward."
+      },
+      {
+        "fault": "Bending and extending the knees to assist the movement.",
+        "correction": "Lock the knee joint in a slightly soft position and ensure all motion occurs purely at the ankles."
+      },
+      {
+        "fault": "Placing too much of the foot on the platform, limiting range of motion.",
+        "correction": "Rest only the balls of the feet on the edge so the heels can drop freely through a full stretch."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure your footwear has adequate grip so the balls of your feet do not slip off the platform edge.",
+        "Never hyperextend your knees under load."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

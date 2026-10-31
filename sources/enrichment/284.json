@@ -1,0 +1,173 @@
+{
+  "is_exercise": true,
+  "name": "Cable Hercules Hold",
+  "summary": "An isometric grip and upper-body hold performed between two cable stacks pulling the arms outward.",
+  "aliases": [
+    {
+      "text": "Hercules Pillars",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Pillars Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Crucifix Hold",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "isolation-grip"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "forearm-flexors",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hand-intrinsics",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rotator-cuff",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "trapezius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "fingers",
+      "actions": [
+        "flexion",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "depression",
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "load",
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 2,
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Set the pulleys on a dual-cable crossover machine to approximately shoulder height and attach single D-handles to each side.",
+      "Grasp one handle, walk across to take the other handle, and stand directly in the center between the two columns.",
+      "Stand tall with feet shoulder-width apart, arms extended out to your sides in a T-position, keeping a soft bend in the elbows."
+    ],
+    "steps": [
+      "Allow the weight to pull outward against your hands while actively maintaining your arms in line with your shoulders.",
+      "Brace your core, lock your shoulder blades back and down, and squeeze the handles firmly.",
+      "Hold the static position for the target duration without allowing your torso to sway or shift off-center.",
+      "When finished, carefully take a controlled step toward one cable column to safely de-load and release the handles."
+    ],
+    "breathing": "Breathe smoothly and rhythmically into your diaphragm while maintaining abdominal brace throughout the hold.",
+    "cues": [
+      "Crush the handles",
+      "Shoulders down and back",
+      "Stay centered",
+      "Keep a soft elbow"
+    ],
+    "common_faults": [
+      {
+        "fault": "Drifting off-center toward one cable stack.",
+        "correction": "Pick a visual focal point directly ahead and maintain equal tension across both arms throughout the set."
+      },
+      {
+        "fault": "Shrugging the shoulders upward toward the ears.",
+        "correction": "Actively depress and retract the scapulae, engaging the lats to pack the shoulders."
+      },
+      {
+        "fault": "Bending the elbows into a biceps curl.",
+        "correction": "Keep arms extended out to the sides with only a micro-bend at the elbow to protect the joint."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Never release the handles abruptly under tension to avoid cable snap-back or joint injury."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

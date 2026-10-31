@@ -1,0 +1,162 @@
+{
+  "is_exercise": true,
+  "name": "Alternating Dumbbell Curl",
+  "summary": "A standing isolation exercise that curls one dumbbell at a time with forearm supination to target the biceps.",
+  "aliases": [
+    {
+      "text": "Alternating Dumbbell Biceps Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Alternating Dumbbell Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Alternating Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "rotating",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "supination",
+        "pronation"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and knees soft.",
+      "Hold a dumbbell in each hand at your sides with arms fully extended and palms facing your torso in a neutral grip.",
+      "Brace your core, retract your shoulder blades slightly, and look straight ahead."
+    ],
+    "steps": [
+      "Keeping your upper arm pinned to your side, curl one dumbbell upward.",
+      "As the dumbbell passes your hip, rotate your forearm so your palm faces upward by the peak of the curl.",
+      "Squeeze your bicep firmly at the top without letting your elbow drift forward.",
+      "Lower the dumbbell under control back to the starting neutral position.",
+      "Repeat the movement with the opposite arm to complete one alternating pair."
+    ],
+    "breathing": "Exhale as you curl the weight upward and inhale smoothly as you lower it back down.",
+    "cues": [
+      "Keep elbows locked at your ribs",
+      "Turn the pinky up at the top",
+      "No swinging with the hips",
+      "Lower all the way down"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso or using hip momentum to initiate the curl.",
+        "correction": "Reduce the dumbbell weight and keep your core braced to maintain a strict, upright torso."
+      },
+      {
+        "fault": "Elbows drifting forward during the upward phase.",
+        "correction": "Keep your upper arms stationary and perpendicular to the floor to prevent the front deltoids from taking over."
+      },
+      {
+        "fault": "Cutting the bottom range of motion short.",
+        "correction": "Fully extend the elbow at the bottom of each rep to stretch the biceps under load before initiating the next curl."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid hyperextending the lower back when handling heavier dumbbells."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

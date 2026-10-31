@@ -1,0 +1,166 @@
+{
+  "is_exercise": true,
+  "name": "Wide-Grip Lat Pulldown",
+  "summary": "A seated vertical cable pull using a wide overhand grip to target the latissimus dorsi and upper back.",
+  "aliases": [
+    {
+      "text": "Wide-Grip Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Lat Pulldown (Wide Grip)",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Wide-Grip Lat Pulldown",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "adduction",
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "downward-rotation",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable",
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach a long lat pulldown bar to the high pulley.",
+      "Adjust the thigh pads so your legs are firmly secured with feet flat on the floor.",
+      "Grip the bar with an overhand grip noticeably wider than shoulder width.",
+      "Sit down, anchoring your thighs beneath the pad, with arms fully extended overhead and chest lifted."
+    ],
+    "steps": [
+      "Depress your scapulae and pull the bar downward toward your upper chest by driving your elbows down and slightly back.",
+      "Pause briefly as the bar reaches collarbone height, fully contracting your lats.",
+      "Control the weight as you slowly return the bar to the overhead starting position, allowing your shoulder blades to upwardly rotate and stretch."
+    ],
+    "breathing": "Exhale as you pull the bar down toward your chest, and inhale as you return the bar overhead.",
+    "cues": [
+      "Drive your elbows into your back pockets.",
+      "Lead with the chest proud.",
+      "Control the stretch at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Leaning excessively backward to swing the weight down.",
+        "correction": "Maintain a slight, fixed torso lean of roughly 10 to 15 degrees and initiate with the back muscles rather than momentum."
+      },
+      {
+        "fault": "Pulling the bar behind the neck.",
+        "correction": "Pull the bar in front of your face to your upper chest to protect the shoulder joints and cervical spine."
+      },
+      {
+        "fault": "Cutting the range of motion short at the top.",
+        "correction": "Allow your arms to fully extend and your shoulder blades to elevate so the lats receive a complete stretch."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using momentum or dropping the weight stack quickly, which can jar the shoulder joints."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

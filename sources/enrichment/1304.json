@@ -1,0 +1,180 @@
+{
+  "is_exercise": true,
+  "name": "Meadows Row",
+  "summary": "A unilateral landmine rowing variation gripping the fat sleeve of the barbell in a staggered stance to emphasize the lats and upper back.",
+  "aliases": [
+    {
+      "text": "Landmine Meadows Row",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Landmine Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "bent-over",
+  "grip_orientation": "pronated",
+  "stance_kind": "staggered",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "landmine"
+      ]
+    },
+    {
+      "any_of": [
+        "weight-plate"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Secure one end of a barbell into a landmine attachment and load plates onto the working end, preferring smaller-diameter plates for increased range of motion.",
+      "Stand perpendicular to the barbell with a staggered stance, positioning the foot opposite your working arm forward and the working-side foot back.",
+      "Hinge forward at the hips with a flat back and brace your non-working forearm across your forward thigh for support.",
+      "Grip the fat collar or sleeve of the barbell using an overhand (pronated) grip, allowing the working arm to hang fully extended."
+    ],
+    "steps": [
+      "Initiate the pull by driving your working elbow upward and slightly back toward your hip.",
+      "Retract your shoulder blade at the peak of the movement, bringing the barbell collar toward your lower ribs.",
+      "Pause briefly at full contraction while resisting torso rotation.",
+      "Lower the barbell under control until the arm is fully extended and the lat is stretched."
+    ],
+    "breathing": "Exhale as you row the barbell toward your torso, and inhale as you lower the weight back down.",
+    "cues": [
+      "Drive the elbow back.",
+      "Lead with the elbow, not the hand.",
+      "Brace hard against your front leg."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive torso rotation and heaving to lift the weight.",
+        "correction": "Keep your chest square to the ground and anchor firmly through your support leg, reducing the load if necessary."
+      },
+      {
+        "fault": "Using large 45-pound plates that strike the floor or hips prematurely.",
+        "correction": "Use 25-pound plates to allow a deeper stretch and longer range of motion."
+      },
+      {
+        "fault": "Shrugging the shoulder toward the ear during the pull.",
+        "correction": "Keep your shoulder depressed and down away from the ear, driving the elbow back toward the hip."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Lifting straps are recommended if grip fatigue on the thick barbell sleeve limits your back recruitment."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

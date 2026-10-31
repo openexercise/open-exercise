@@ -1,0 +1,169 @@
+{
+  "is_exercise": true,
+  "name": "Arabesque",
+  "summary": "A single-leg hip-hinge balance exercise inspired by dance, strengthening the posterior chain and hip stabilizers.",
+  "aliases": [
+    {
+      "text": "Arabesque Lift",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Leg Arabesque",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "balance",
+      "pilates"
+    ],
+    "movement_patterns": [
+      "hinge",
+      "balance"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "stance_kind": "single-leg",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "foot-intrinsics",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "subtalar",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat",
+    "chair",
+    "wall"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "tempo",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "per-side",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall on one leg with a soft bend in the supporting knee and your core braced.",
+      "Extend your arms out to the sides or forward for balance, resting a hand lightly on a wall or barre if needed for support."
+    ],
+    "steps": [
+      "Hinge forward at the hips while simultaneously lifting the non-supporting leg straight behind you.",
+      "Continue descending until your torso and back leg form a roughly horizontal line parallel to the floor.",
+      "Keep your hips square to the ground without rotating the pelvis open toward the lifted leg.",
+      "Engage the glute and hamstring of the standing leg to pull your torso upright, returning to the start position."
+    ],
+    "breathing": "Inhale as you hinge forward and extend the rear leg; exhale as you contract the glutes to return upright.",
+    "cues": [
+      "Keep both hip bones pointed straight down.",
+      "Reach the back heel long away from your crown.",
+      "Maintain a soft knee on the standing leg."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the pelvis open toward the lifted leg.",
+        "correction": "Keep both anterior superior iliac spines pointing toward the floor throughout the movement."
+      },
+      {
+        "fault": "Rounding the lumbar spine instead of hinging from the hip.",
+        "correction": "Brace your core and keep your chest proud, moving the torso and back leg as one rigid lever."
+      },
+      {
+        "fault": "Hyperextending the standing knee.",
+        "correction": "Keep a subtle, unlocked bend in the standing knee to recruit the hamstrings and protect the joint."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform near a stable surface such as a wall or chair if balance is compromised."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

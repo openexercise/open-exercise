@@ -1,0 +1,174 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Stiff-Leg Deadlift",
+  "summary": "A hip-hinge deadlift variation performed with relatively straight knees and elevated hips to heavily target the hamstrings and posterior chain.",
+  "aliases": [
+    {
+      "text": "Stiff-Legged Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "Stiff Leg Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "SLDL",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Stiff-Legged Deadlifts",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "hamstrings",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "trapezius",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "strap",
+    "weight-plate"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "rir",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand with feet hip-width apart and the barbell over mid-foot.",
+      "Hinge at the hips with minimal knee bend and grip the bar just outside your shins using a double-overhand or mixed grip.",
+      "Flatten your back, engage your lats to pull the slack out of the bar, and keep your hips set higher than in a conventional deadlift."
+    ],
+    "steps": [
+      "Drive your feet through the floor and push your hips forward while maintaining a fixed, slight bend in the knees.",
+      "Extend your hips fully at the top of the lift without hyperextending the lower back.",
+      "Lower the bar under control by pushing your hips backward, keeping the barbell close to your legs until the plates touch the floor or you reach full hamstring stretch.",
+      "Reset your tension briefly on the floor before starting the next repetition."
+    ],
+    "breathing": "Inhale and brace your core at the bottom before pulling, hold your breath through the hardest portion, and exhale near the top of the repetition.",
+    "cues": [
+      "Push the floor away.",
+      "Hips back, knees soft but fixed.",
+      "Keep the bar tight to your shins.",
+      "Squeeze your glutes to finish."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding the lumbar spine to reach the floor.",
+        "correction": "Only hinge as far as hamstring flexibility allows while maintaining a neutral, braced spine."
+      },
+      {
+        "fault": "Squatting the weight up by excessively bending the knees.",
+        "correction": "Keep your knees fixed at a high angle throughout the movement to keep tension primarily on the hamstrings."
+      },
+      {
+        "fault": "Letting the barbell drift forward away from the body.",
+        "correction": "Engage your lats to keep the bar tracking directly over mid-foot against your shins and thighs."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forcefully locking out the knees into hyperextension under load.",
+        "Maintain spinal neutrality and abandon the repetition if lower back form breaks down."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

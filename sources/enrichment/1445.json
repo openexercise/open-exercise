@@ -1,0 +1,200 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Split Jerk",
+  "summary": "An explosive Olympic weightlifting movement where a barbell is driven overhead from the front rack and caught in a split stance.",
+  "aliases": [
+    {
+      "text": "Split Jerk",
+      "kind": "common"
+    },
+    {
+      "text": "Jerk",
+      "kind": "common"
+    },
+    {
+      "text": "Jerk OL",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "olympic-weightlifting",
+      "power",
+      "strength"
+    ],
+    "movement_patterns": [
+      "olympic-lift",
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "advanced"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "front-rack",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "abduction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "squat-rack",
+    "power-rack"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Support the barbell across the front of your shoulders in the front rack position with a full or relaxed grip slightly wider than shoulder width.",
+      "Stand tall with feet hip-width apart, chest lifted, elbows slightly in front of the bar, and eyes looking straight ahead."
+    ],
+    "steps": [
+      "Dip smoothly by bending at the knees and hips, keeping your torso completely vertical.",
+      "Drive aggressively through your mid-foot and heels to accelerate the barbell vertically off your shoulders.",
+      "As the bar elevates, punch under the weight and split your feet rapidly, landing with the front foot forward and the back foot back with heel elevated.",
+      "Receive the barbell overhead with fully locked-out elbows, head pushed slightly through the window of your arms.",
+      "Recover by stepping the front foot halfway back first, then bringing the back foot forward to return to a parallel stance under full control."
+    ],
+    "breathing": "Take a deep breath and brace your core before the dip, hold throughout the dip, drive, and catch, and exhale once stabilized in the split or after recovery.",
+    "cues": [
+      "Dip straight down like sliding down a wall",
+      "Drive hard through the floor",
+      "Punch the ceiling and drop under fast",
+      "Front foot steps back first"
+    ],
+    "common_faults": [
+      {
+        "fault": "Leaning forward during the dip, shifting the drive path in front of the body.",
+        "correction": "Keep your torso perfectly upright and sit straight down between your knees during the dip."
+      },
+      {
+        "fault": "Soft or unlocked elbows upon catching the bar overhead.",
+        "correction": "Aggressively punch up against the bar and secure a solid bone-on-bone lockout as your feet make contact."
+      },
+      {
+        "fault": "Narrow split landing resembling a tightrope, resulting in loss of balance.",
+        "correction": "Maintain your hip-width lateral spacing when your feet split forward and backward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform on a dedicated lifting platform with bumper plates.",
+        "Practice dumping the barbell forward and stepping backward safely if the lift is missed."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

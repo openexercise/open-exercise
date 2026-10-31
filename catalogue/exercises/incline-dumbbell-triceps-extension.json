@@ -1,0 +1,221 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Incline Skull Crusher",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Dumbbell Skull Crusher",
+      "kind": "common"
+    },
+    {
+      "text": "Incline DB Skull Crush",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Incline DB Triceps Extension",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Incline Skull Crush",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-long-head",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-lateral-head",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-medial-head",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "anconeus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "911"
+  },
+  "id": "oec:incline-dumbbell-triceps-extension",
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an incline of approximately 30 to 45 degrees.",
+      "Sit back firmly against the pad with feet flat on the floor.",
+      "Raise a pair of dumbbells overhead with a neutral grip (palms facing each other), extending your arms so the upper arms are angled slightly back past perpendicular to your torso."
+    ],
+    "steps": [
+      "Keep your upper arms stationary and bend your elbows to lower the dumbbells in a controlled arc behind your head.",
+      "Lower until your elbows reach approximately 90 degrees or you feel a deep stretch in your triceps.",
+      "Extend your elbows smoothly by contracting your triceps to return the dumbbells to the starting position without locking out aggressively."
+    ],
+    "breathing": "Inhale as you lower the weights behind your head and exhale as you extend your elbows to return to the top.",
+    "cues": [
+      "Keep your elbows pointed forward, not flared wide.",
+      "Pin your upper arms in place; move only the forearms.",
+      "Control the descent for a full triceps stretch."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbows outward excessively.",
+        "correction": "Keep elbows aligned roughly shoulder-width apart to keep tension on the triceps and reduce stress on the shoulder joint."
+      },
+      {
+        "fault": "Swinging the upper arms forward and back to gain momentum.",
+        "correction": "Lock the shoulders into a stable angle and isolate movement strictly to the elbow joint."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a manageable load to avoid accidental contact with the head or overstraining the elbow tendons."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Incline Dumbbell Triceps Extension",
+  "previous_ids": [
+    "oec:incline-skull-crush"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Incline Skull Crush",
+        "url": "https://wger.de/en/exercise/911/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "novadani"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-lying-triceps-extension"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-lying-triceps-extension"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-dumbbell-overhead-triceps-extension"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-overhead-triceps-extension"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "shoulder"
+    },
+    "incline_degrees": 45,
+    "load_position": "overhead",
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "An isolation exercise performed on an incline bench that targets the triceps brachii with an emphasized stretch on the long head."
+}

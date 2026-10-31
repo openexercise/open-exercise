@@ -1,0 +1,103 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "id": "oec:weighted-pull-up",
+  "name": "Weighted Pull-Up",
+  "summary": "A pull-up with added weight, recorded as the weight added.",
+  "classification": {
+    "modalities": [
+      "strength",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "vertical-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "level": "advanced"
+  },
+  "setup": {
+    "position": "hanging",
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    }
+  },
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "adduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "downward-rotation",
+          "depression"
+        ]
+      }
+    ]
+  },
+  "equipment": {
+    "required": [
+      [
+        "pull-up-bar"
+      ],
+      [
+        "dip-belt",
+        "weight-vest"
+      ]
+    ]
+  },
+  "measurement": {
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ]
+      }
+    ],
+    "load": {
+      "kind": "bodyweight-plus-external",
+      "convention": "total"
+    },
+    "reps_counted": "total",
+    "records": {
+      "e1rm": false,
+      "volume": false
+    }
+  },
+  "provenance": {
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "unreviewed"
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "id": "oec:barbell-back-squat",
+  "name": "Barbell Back Squat",
+  "summary": "A squat with a loaded barbell across the upper back.",
+  "status": "active",
+  "aliases": [
+    {
+      "text": "back squat"
+    },
+    {
+      "text": "squat"
+    },
+    {
+      "text": "BB squat",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "powerlifting",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "width": "shoulder",
+      "kind": "parallel"
+    },
+    "load_position": "high-bar",
+    "range": "full"
+  },
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "abdominals",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      }
+    ]
+  },
+  "equipment": {
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "squat-rack",
+        "power-rack"
+      ]
+    ],
+    "optional": [
+      "strap"
+    ]
+  },
+  "measurement": {
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "rir",
+          "tempo"
+        ]
+      }
+    ],
+    "load": {
+      "kind": "external",
+      "convention": "total",
+      "implements": 1
+    },
+    "reps_counted": "total",
+    "records": {
+      "e1rm": true,
+      "volume": true
+    }
+  },
+  "instructions": {
+    "setup": [
+      "Set the bar at about shoulder height and the safeties just below the bottom of your squat.",
+      "Step under the bar, rest it on your upper back, and walk it out in two or three steps."
+    ],
+    "steps": [
+      "Brace your trunk.",
+      "Bend your hips and knees together, keeping the bar over the middle of your foot.",
+      "Descend until your hips are at least level with your knees.",
+      "Drive through the whole foot to stand."
+    ],
+    "breathing": "Breathe in and brace before descending; exhale after the hardest part of the way up.",
+    "cues": [
+      "Spread the floor",
+      "Chest and hips rise together"
+    ],
+    "common_faults": [
+      {
+        "fault": "Knees cave in on the way up",
+        "correction": "Push the knees out in line with the toes and lower the load."
+      },
+      {
+        "fault": "Hips shoot up first",
+        "correction": "Keep the chest rising with the hips."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use safeties or a spotter when near your limit."
+      ],
+      "spotter": "recommended",
+      "safeties": true
+    }
+  },
+  "provenance": {
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "unreviewed"
+    }
+  }
+}

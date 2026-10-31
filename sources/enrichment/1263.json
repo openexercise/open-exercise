@@ -1,0 +1,192 @@
+{
+  "is_exercise": true,
+  "name": "Back Bridge",
+  "summary": "A full-body spinal extension hold where the body arches upward supported on the hands and feet.",
+  "aliases": [
+    {
+      "text": "Gymnastic Bridge",
+      "kind": "common"
+    },
+    {
+      "text": "Full Bridge",
+      "kind": "common"
+    },
+    {
+      "text": "Wheel Pose",
+      "kind": "common"
+    },
+    {
+      "text": "Chakrasana",
+      "kind": "regional"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "spinal-extension",
+      "stretch",
+      "mobility-drill"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "supine",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stretched"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "stretched"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stretched"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie supine on the floor with your knees bent and feet flat on the ground, hip-width apart and close to your glutes.",
+      "Bend your elbows and place your palms flat on the floor beside your ears, with your fingers pointing toward your shoulders."
+    ],
+    "steps": [
+      "Press firmly through your palms and heels simultaneously, extending your hips and straightening your arms to lift your entire torso off the floor.",
+      "Push your chest toward the wall behind you to open the thoracic spine and shoulders, actively engaging your glutes and spinal extensors.",
+      "Hold the arched position for the target duration while maintaining steady, deep breathing.",
+      "Lower yourself back down with control by tucking your chin, bending your elbows and knees, and gently touching your upper back to the floor first."
+    ],
+    "breathing": "Inhale as you press up into the arch, and maintain calm, steady breaths into your ribs throughout the hold.",
+    "cues": [
+      "Drive through the palms and heels",
+      "Open the chest",
+      "Squeeze the glutes",
+      "Tuck the chin to exit"
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring knees and feet outward excessively.",
+        "correction": "Keep feet parallel and hip-width apart, engaging the inner thighs to prevent flaring."
+      },
+      {
+        "fault": "Dumping all the extension into the lower back instead of the upper back and shoulders.",
+        "correction": "Actively push the armpits and chest over the hands to distribute the bend evenly into the thoracic spine."
+      },
+      {
+        "fault": "Crashing down onto the head or neck when exiting.",
+        "correction": "Keep arms active, tuck the chin firmly toward the chest, and lower the back down slowly."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Requires adequate wrist, shoulder, and thoracic mobility; regress to elevated bridges or glute bridges if wrist or lower-back pain occurs.",
+        "Avoid if experiencing acute lower back or neck injuries."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

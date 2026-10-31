@@ -1,0 +1,203 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Leg Extension Isometric Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Leg Extension Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Isometric Quad Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Leg Extension Isometric",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-femoris",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "vastus-lateralis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "vastus-medialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "vastus-intermedius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "isolation-knee-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2535"
+  },
+  "id": "oec:isometric-leg-extension",
+  "instructions": {
+    "setup": [
+      "Sit on the leg extension machine with your back firmly against the backrest.",
+      "Align your knee joints with the machine's axis of rotation.",
+      "Position the shin pad across the lower shins just above the ankles, and grip the side handles firmly."
+    ],
+    "steps": [
+      "Extend your knees to the prescribed joint angle (commonly 45 to 60 degrees of flexion).",
+      "Hold this fixed position under tension against the resistance for the targeted duration.",
+      "Maintain steady quadriceps contraction without letting your hips lift or the weight drop.",
+      "Carefully lower the weight back to the starting rest position under control once the hold is complete."
+    ],
+    "breathing": "Breathe continuously and evenly throughout the hold; avoid holding your breath.",
+    "cues": [
+      "Lock your hips down into the seat",
+      "Squeeze your quads hard",
+      "Stay motionless at the target angle"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the pelvis and lower back off the seat to leverage body weight.",
+        "correction": "Grip the machine handles firmly to anchor your hips firmly into the cushion throughout the hold."
+      },
+      {
+        "fault": "Holding breath and bearing down during the contraction.",
+        "correction": "Maintain rhythmic, controlled diaphragmatic breathing for the duration of the set."
+      },
+      {
+        "fault": "Allowing the leg position to drift downward as fatigue sets in.",
+        "correction": "Hold a steady target joint angle; terminate the set when you can no longer maintain the required angle."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If using for patellar tendon rehabilitation, perform holds at mid-range angles (typically 45-60 degrees of knee flexion) rather than full terminal extension to reduce patellofemoral joint stress."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Isometric Leg Extension",
+  "previous_ids": [
+    "oec:leg-extension-isometric"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Leg Extension Isometric",
+        "url": "https://wger.de/en/exercise/2535/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "HexoctusEngineering"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:leg-extension"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:leg-extension"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:quad-set"
+    }
+  ],
+  "setup": {
+    "position": "seated",
+    "range": "pause"
+  },
+  "status": "active",
+  "summary": "An isometric isolation exercise where the quadriceps contract against fixed resistance without movement at the knee joint."
+}

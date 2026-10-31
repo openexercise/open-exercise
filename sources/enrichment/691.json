@@ -1,0 +1,163 @@
+{
+  "is_exercise": true,
+  "name": "Smith Machine Upright Row",
+  "summary": "A guided vertical pulling movement targeting the lateral deltoids and upper trapezius using a Smith machine.",
+  "aliases": [
+    {
+      "text": "Smith Upright Row",
+      "kind": "common"
+    },
+    {
+      "text": "Multi Press Upright Row",
+      "kind": "regional"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-lateral",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "elevation",
+        "upward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "smith-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set the Smith machine bar at mid-thigh height.",
+      "Stand close to the bar with feet hip-width apart and an upright torso.",
+      "Grasp the bar with an overhand (pronated) grip, hands spaced roughly shoulder-width apart.",
+      "Rotate the bar to unrack it, letting arms hang straight down with the bar resting lightly against the thighs."
+    ],
+    "steps": [
+      "Pull the bar vertically along the guide rods by driving the elbows up and out.",
+      "Keep the bar path close to your torso until it reaches mid-to-upper chest height, with elbows staying higher than the wrists.",
+      "Pause briefly at the top to contract the shoulders and upper back.",
+      "Lower the bar under control back to full arm extension before initiating the next repetition."
+    ],
+    "breathing": "Exhale as you pull the bar up; inhale as you lower the weight under control.",
+    "cues": [
+      "Lead with the elbows, not the hands.",
+      "Keep the bar gliding close to your shirt.",
+      "Stay upright and resist leaning back."
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling the bar too high up to the chin, increasing risk of shoulder impingement.",
+        "correction": "Stop the pull once the bar reaches mid-chest or clavicle level, ensuring elbows do not excessively internally rotate."
+      },
+      {
+        "fault": "Gripping the bar with hands too close together.",
+        "correction": "Widen grip to roughly shoulder-width to reduce severe internal rotation at the shoulder joint."
+      },
+      {
+        "fault": "Using excessive body English or hip thrust to propel the bar upward.",
+        "correction": "Maintain a strict upright posture with knees soft and core braced throughout the movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid this movement or restrict the range of motion if you experience front shoulder pain or symptoms of subacromial impingement.",
+        "Ensure the safety catches are adjusted just below the lowest hang position."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  }
+}

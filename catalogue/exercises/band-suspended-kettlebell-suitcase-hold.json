@@ -1,0 +1,219 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Dynamic Side Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Hanging Band Kettlebell Suitcase Hold",
+      "kind": "common"
+    },
+    {
+      "text": "HBT Suitcase Hold",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Band-Suspended Suitcase Hold",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "external-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadratus-lumborum",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "balance",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "anti-lateral-flexion",
+      "balance"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "kettlebell"
+      ],
+      [
+        "resistance-band"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1099"
+  },
+  "id": "oec:band-suspended-kettlebell-suitcase-hold",
+  "instructions": {
+    "setup": [
+      "Loop a resistance band through the handle of a kettlebell and pull it tight to create a secure hitch.",
+      "Stand tall and grip the looped band with one hand, lifting the kettlebell off the floor so it hangs suspended at your side.",
+      "Engage your core to set your shoulders and hips level before lifting one foot slightly off the floor."
+    ],
+    "steps": [
+      "Hold your torso upright and stationary, actively resisting the lateral pull and oscillation of the bouncing weight.",
+      "Maintain single-leg balance on the standing leg for the prescribed time, or slowly alternate standing legs without losing pelvic stability.",
+      "Carefully lower the raised foot, set the kettlebell down, and repeat the hold on the opposite side."
+    ],
+    "breathing": "Breathe in a controlled, rhythmic pattern behind a braced abdominal wall throughout the hold.",
+    "cues": [
+      "Keep your shoulders level.",
+      "Crush the band handle.",
+      "Brace against the bounce."
+    ],
+    "common_faults": [
+      {
+        "fault": "Leaning away from or toward the loaded side to compensate for the weight.",
+        "correction": "Keep the spine vertical and maintain equal distance between your ribcage and pelvis on both sides."
+      },
+      {
+        "fault": "Allowing the hips to drop on the unsupported leg side.",
+        "correction": "Actively squeeze the glute of the stance leg to keep the pelvis level."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Inspect the resistance band for tears or wear before suspending the kettlebell.",
+        "Ensure adequate clear floor space in case the weight swings or balance is lost."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Band-Suspended Kettlebell Suitcase Hold",
+  "previous_ids": [
+    "oec:dynamic-side-hold"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dynamic side hold",
+        "url": "https://wger.de/en/exercise/1099/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "philip"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:suitcase-carry"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "suitcase",
+    "position": "standing",
+    "stance": {
+      "kind": "single-leg"
+    }
+  },
+  "status": "active",
+  "summary": "An anti-lateral flexion and balance exercise where a kettlebell suspended by an elastic band is held at one side to create unpredictable oscillating perturbations."
+}

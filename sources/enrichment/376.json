@@ -1,0 +1,135 @@
+{
+  "is_exercise": true,
+  "name": "Lying Leg Raise",
+  "summary": "A supine bodyweight core exercise where straight legs are lifted toward vertical against gravity, training the hip flexors and anterior core.",
+  "aliases": [
+    {
+      "text": "Leg Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Leg Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Floor Leg Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "anti-extension",
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "muscles": [
+    {
+      "muscle": "iliopsoas",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a mat with your legs extended straight and feet together.",
+      "Place your arms by your sides with palms pressing lightly into the floor for support.",
+      "Posteriorly tilt your pelvis to press your lower back firmly into the floor, engaging your abdominals."
+    ],
+    "steps": [
+      "Keeping your legs straight and feet together, lift them smoothly off the floor by flexing at the hips.",
+      "Raise your legs until they are perpendicular to the floor, or as high as you can manage while keeping your lower back anchored.",
+      "Pause briefly at the top, maintaining core tension.",
+      "Lower your legs back down under control, stopping just before your heels touch the floor, then begin the next repetition."
+    ],
+    "breathing": "Inhale as you lower your legs toward the floor, and exhale forcefully as you raise them back up.",
+    "cues": [
+      "Glued lower back to the floor",
+      "Control the descent",
+      "Lead with the thighs"
+    ],
+    "common_faults": [
+      {
+        "fault": "Arching the lower back off the floor during the descent.",
+        "correction": "Only lower your legs as far as you can maintain abdominal brace and pelvic contact with the floor, or regress to bending the knees."
+      },
+      {
+        "fault": "Using momentum or swinging the legs upward.",
+        "correction": "Perform the movement at a slow, controlled cadence without rocking the torso."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you experience lower back discomfort, reduce the range of motion or bend your knees to shorten the lever arm."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

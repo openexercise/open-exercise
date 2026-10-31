@@ -1,0 +1,164 @@
+{
+  "is_exercise": true,
+  "name": "Cable Overhead Curl",
+  "summary": "An isolation exercise performed between two high cable pulleys with arms abducted at shoulder height, flexing the elbows to target the biceps in a fully shortened position.",
+  "aliases": [
+    {
+      "text": "Overhead Cable Curl",
+      "kind": "common"
+    },
+    {
+      "text": "High Cable Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Cable High Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Front Double Bicep Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Overhand Cable Curl",
+      "kind": "misspelling"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "supinated",
+  "grip_width": "wide",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-lateral",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set the pulleys on a dual-cable crossover station slightly above shoulder height.",
+      "Attach single-hand stirrup handles to both sides and select equal weight.",
+      "Grasp each handle with an underhand (supinated) grip and stand centered between the towers with feet hip-width apart.",
+      "Extend your arms out to the sides at roughly shoulder height, forming a 'T' shape with your torso."
+    ],
+    "steps": [
+      "Keep your upper arms stationary parallel to the floor.",
+      "Flex your elbows to curl the handles inward toward your ears.",
+      "Squeeze your biceps forcefully at the peak contraction.",
+      "Slowly extend your elbows under control to return to the starting position without letting the weights rest on the stack."
+    ],
+    "breathing": "Exhale as you curl the handles toward your head, and inhale as you return to the starting position.",
+    "cues": [
+      "Keep elbows high and fixed in space",
+      "Curl your knuckles toward your ears",
+      "Squeeze like a front double biceps pose"
+    ],
+    "common_faults": [
+      {
+        "fault": "Dropping the elbows below shoulder level during the curl.",
+        "correction": "Keep your upper arms locked horizontally parallel to the floor throughout the entire set."
+      },
+      {
+        "fault": "Swinging the torso to generate momentum.",
+        "correction": "Brace your core and isolate the movement strictly to elbow flexion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessively heavy loads that compromise shoulder stability or cause excessive shoulder elevation."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

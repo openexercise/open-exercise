@@ -1,0 +1,216 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Pelvic Wave",
+      "kind": "common"
+    },
+    {
+      "text": "Spine Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Articulating Bridge",
+      "kind": "common"
+    },
+    {
+      "text": "Articulating Glute Bridge",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "pilates",
+      "mobility",
+      "calisthenics",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "spinal-flexion",
+      "spinal-extension",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "2641"
+  },
+  "id": "oec:pelvic-curl",
+  "instructions": {
+    "setup": [
+      "Lie on your back with your knees bent and feet flat on the floor, positioned hip-width apart.",
+      "Rest your arms straight along your sides with palms facing down and maintain a neutral spine."
+    ],
+    "steps": [
+      "Exhale and engage your deep abdominals to tilt your pelvis posteriorly, flattening your lower back into the mat.",
+      "Continue the roll by peeling your spine off the floor one vertebra at a time, pressing evenly through your feet.",
+      "Lift until your hips form a straight line from your shoulders to your knees, resting weight across your shoulder blades.",
+      "Inhale and pause at the top while maintaining glute and abdominal engagement.",
+      "Exhale as you reverse the movement, articulating your spine back onto the mat bone by bone from upper back to pelvis."
+    ],
+    "breathing": "Exhale as you peel the spine upward, inhale to hold at the top, and exhale smoothly as you roll down vertebra by vertebra.",
+    "cues": [
+      "Peel your spine like tape off the floor",
+      "Keep your ribs connected to your pelvis at the top",
+      "Roll down sequentially from top to bottom"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the torso as one rigid block instead of rolling sequentially through each spinal segment.",
+        "correction": "Initiate by flattening the low back and intentionally peel the spine off the floor one vertebra at a time."
+      },
+      {
+        "fault": "Hyperextending the lower back and flaring the ribcage at the top of the bridge.",
+        "correction": "Stop lifting once hips align straight between knees and shoulders, keeping the abdominal wall braced."
+      },
+      {
+        "fault": "Letting the knees splay outward or cave inward during the movement.",
+        "correction": "Maintain gentle inner-thigh tension to keep knees tracking directly over your second toes."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not roll onto your neck; keep your weight supported across the upper back and shoulder blades."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Pelvic Curl",
+  "previous_ids": [
+    "oec:pelvic-wave"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Pelvic Wave",
+        "url": "https://wger.de/en/exercise/2641/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:glute-bridge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:glute-bridge"
+    }
+  ],
+  "setup": {
+    "position": "supine",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A supine mat exercise articulating the spine off the floor vertebra by vertebra into a bridge position and rolling back down with control."
+}

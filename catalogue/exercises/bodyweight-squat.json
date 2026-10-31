@@ -1,0 +1,233 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Air Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Unweighted Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Bodyweight Squat HD",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1312"
+  },
+  "id": "oec:bodyweight-squat",
+  "instructions": {
+    "setup": [
+      "Stand tall with your feet roughly shoulder-width apart and your toes angled slightly outward.",
+      "Engage your core, lift your chest, and bring your hands together in front of your chest or extend your arms forward for counterbalance."
+    ],
+    "steps": [
+      "Initiate the movement by hinging slightly at the hips and bending your knees simultaneously.",
+      "Descend smoothly by pushing your knees outward in line with your toes while keeping your torso upright and your heels firmly planted.",
+      "Lower yourself until your hip crease is at or below the top of your knees, or as deep as your mobility allows with good spinal alignment.",
+      "Drive through the midfoot and heel to reverse the movement, extending your knees and hips until standing fully upright."
+    ],
+    "breathing": "Inhale as you lower down into the squat, and exhale forcefully as you drive back up to the starting position.",
+    "cues": [
+      "Sit down between your hips.",
+      "Keep your chest proud.",
+      "Spread the floor with your feet."
+    ],
+    "common_faults": [
+      {
+        "fault": "Knees collapsing inward (valgus collapse) during the descent or ascent.",
+        "correction": "Actively press your knees outward in line with your toes throughout the entire repetition."
+      },
+      {
+        "fault": "Heels lifting off the floor due to shifting weight too far forward.",
+        "correction": "Distribute your weight evenly across the whole foot, maintaining solid contact with your heels and big toes."
+      },
+      {
+        "fault": "Excessive forward torso lean or rounding of the lower back.",
+        "correction": "Brace your midsection, keep your chest upright, and only descend as far as you can maintain a neutral spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forcefully bouncing out of the bottom position; maintain muscular control throughout the entire range of motion."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Bodyweight Squat",
+  "previous_ids": [
+    "oec:bodyweight-squat-hd"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Bodyweight Squat HD",
+        "url": "https://wger.de/en/exercise/1312/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "admin"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:bodyweight-box-squat"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-back-squat"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:dumbbell-goblet-squat"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:jump-squat"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:pistol-squat"
+    },
+    {
+      "type": "part-of",
+      "target": "oec:burpee"
+    },
+    {
+      "type": "part-of",
+      "target": "oec:squat-thrust"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A foundational lower-body calisthenic exercise that builds strength, mobility, and control in the quadriceps, glutes, and hips without external load."
+}

@@ -1,0 +1,152 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Wide Biceps Curl",
+  "summary": "A standing dumbbell curl performed with the shoulders externally rotated to bias the short inner head of the biceps.",
+  "aliases": [
+    {
+      "text": "Dumbbell Wide Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Wide-Grip Dumbbell Biceps Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Wide Dumbbell Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "supinated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-short-head",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-long-head",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "external-rotation",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart, holding a dumbbell in each hand at your sides.",
+      "Externally rotate your shoulders so your forearms flare outward at an angle away from your torso, with palms facing forward."
+    ],
+    "steps": [
+      "Keeping your upper arms pinned to your sides and elbows stationary, curl the dumbbells upward along the wide trajectory toward your shoulders.",
+      "Squeeze your biceps firmly at the top of the movement.",
+      "Lower the dumbbells with control back to full elbow extension while maintaining the outward arm angle."
+    ],
+    "breathing": "Exhale as you curl the weights upward; inhale as you lower them under control.",
+    "cues": [
+      "Keep elbows tucked to your ribs.",
+      "Curl out and up.",
+      "Control the eccentric phase without swinging."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to generate momentum.",
+        "correction": "Brace your core and glutes, and select a load that allows strict elbow flexion without body english."
+      },
+      {
+        "fault": "Letting the elbows drift forward or inward during the curl.",
+        "correction": "Keep the elbows anchored at your sides and maintain external rotation throughout the entire rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid hyperextending the lower back under heavy loads."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

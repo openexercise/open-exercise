@@ -1,0 +1,194 @@
+{
+  "is_exercise": true,
+  "name": "Battle Rope Alternating Wave",
+  "summary": "An upper-body conditioning exercise performed by rapidly moving battle ropes in an alternating wave pattern from an athletic quarter-squat stance.",
+  "aliases": [
+    {
+      "text": "Alternating Battle Rope Waves",
+      "kind": "common"
+    },
+    {
+      "text": "Battle Ropes",
+      "kind": "common"
+    },
+    {
+      "text": "Battle Rope Waves",
+      "kind": "common"
+    },
+    {
+      "text": "Alternating Waves",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "conditioning",
+      "power"
+    ],
+    "movement_patterns": [
+      "anti-rotation",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "ballistic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "grip_width": "shoulder",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "elevation",
+        "depression"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "battle-rope"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "heart-rate",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand facing the anchor point holding one end of the battle rope in each hand with a neutral grip.",
+      "Step back until there is a slight amount of slack in the ropes.",
+      "Assume an athletic quarter-squat stance with feet shoulder-width apart, chest tall, and core braced."
+    ],
+    "steps": [
+      "Raise one arm quickly toward shoulder height while driving the other downward toward hip level.",
+      "Immediately reverse the motion, snapping the opposite arm upward and driving the raised arm down.",
+      "Continue alternating arms rapidly to create continuous, fluid waves that travel all the way to the anchor point."
+    ],
+    "breathing": "Maintain rhythmic, continuous breathing throughout the interval rather than holding your breath.",
+    "cues": [
+      "Fast hands, quiet torso.",
+      "Whip from the shoulders.",
+      "Stay rooted in your hips."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive torso swaying and twisting.",
+        "correction": "Brace your core and keep your chest facing directly forward throughout the set."
+      },
+      {
+        "fault": "Standing completely upright with locked knees.",
+        "correction": "Maintain a solid athletic stance with knees and hips slightly bent to absorb momentum."
+      },
+      {
+        "fault": "Standing too far back with overly taut ropes.",
+        "correction": "Step forward slightly to allow enough slack for waves to travel freely."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the anchor point is secure and the floor is clear of slip or trip hazards."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

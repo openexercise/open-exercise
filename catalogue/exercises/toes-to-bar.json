@@ -1,0 +1,203 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Toes to Bar",
+      "kind": "common"
+    },
+    {
+      "text": "T2B",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Hanging Toes to Bar",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "synergist"
+      },
+      {
+        "muscle": "external-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "fingers",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "pull-up-bar"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1529"
+  },
+  "id": "oec:toes-to-bar",
+  "instructions": {
+    "setup": [
+      "Grasp a secure pull-up bar with an overhand, shoulder-width grip.",
+      "Hang with your arms fully extended and engage your shoulders slightly to avoid hanging passively in the joint capsule.",
+      "Keep your legs together and maintain a slight active hollow-body posture."
+    ],
+    "steps": [
+      "Engage your lats to pull slightly down on the bar while forcefully contracting your abdominals and hip flexors.",
+      "Raise your legs straight upward toward the ceiling, rounding your lumbar spine as your pelvis rolls upward.",
+      "Continue raising your feet until both toes touch the bar simultaneously between your hands.",
+      "Lower your legs back down under control, resisting the descent until you return to the starting dead-hang position without swinging."
+    ],
+    "breathing": "Exhale forcefully as you curl your hips and raise your feet to the bar; inhale steadily as you lower your legs back to the start.",
+    "cues": [
+      "Pull the bar toward your hips as you lift your legs.",
+      "Curl your pelvis up, don't just lift your thighs.",
+      "Control the descent to kill momentum."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive swinging or relying purely on momentum instead of core strength.",
+        "correction": "Reset to a strict hollow body at the bottom and lower the legs with a controlled eccentric tempo."
+      },
+      {
+        "fault": "Only flexing at the hips and failing to round the spine, which limits abdominal recruitment.",
+        "correction": "Focus on rolling your pelvis upward toward your chest to achieve full lumbar flexion before touching the bar."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the pull-up bar is securely mounted and has sufficient overhead clearance.",
+        "Stop if you experience sharp pain in the front of the shoulders or lumbar spine."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Toes-to-Bar",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Toes to bar",
+        "url": "https://wger.de/en/exercise/1529/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "florian.bussmann"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:hanging-leg-raise"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:hanging-knee-raise"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "hanging",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "An advanced calisthenics exercise where the athlete hangs from an overhead bar and flexes the hips and spine until the toes make contact with the bar."
+}

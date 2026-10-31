@@ -1,0 +1,182 @@
+{
+  "is_exercise": true,
+  "name": "Overhead Lunge Pulse",
+  "summary": "A dynamic lower-body mobility exercise performed in an elongated split stance with arms held overhead to build leg endurance and stretch the hip flexors.",
+  "aliases": [
+    {
+      "text": "Long Lunge Pulse Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Long Lunge Pulse",
+      "kind": "common"
+    },
+    {
+      "text": "Band Overhead Lunge Pulse",
+      "kind": "common"
+    },
+    {
+      "text": "Overhead Split Squat Pulse",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "lunge",
+      "mobility-drill",
+      "stretch"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "split-stance",
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "stance_width": "hip",
+  "stance_kind": "split",
+  "load_position": "overhead",
+  "range": "partial",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "stretched"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "resistance-band",
+        "strap"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "per-side",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Grasp a resistance band or strap overhead with straight arms, pulling outward to maintain continuous tension.",
+      "Step one foot back into a long split stance with feet hip-width apart and the rear heel lifted high off the ground."
+    ],
+    "steps": [
+      "Lower your hips downward until your front thigh is nearly parallel to the floor and the rear knee hovers just above the ground.",
+      "Pulse smoothly up and down by about one to two inches in a slow, controlled rhythm.",
+      "Maintain active tension pulling outward on the overhead implement and keep your torso fully upright.",
+      "Complete the desired repetitions or time, then press through the front foot to stand and repeat on the opposite side."
+    ],
+    "breathing": "Breathe continuously and rhythmically throughout the pulsing movement without holding your breath.",
+    "cues": [
+      "Keep arms locked overhead",
+      "Tuck your pelvis slightly",
+      "Stay tall through your spine",
+      "Small, controlled pulses"
+    ],
+    "common_faults": [
+      {
+        "fault": "Overarching the lower back to compensate for tight hip flexors.",
+        "correction": "Tuck the tailbone slightly and brace your abs to feel the stretch in the front of the trailing hip."
+      },
+      {
+        "fault": "Bouncing erratically using joint momentum rather than muscular control.",
+        "correction": "Slow the tempo down and restrict the movement to a controlled one- to two-inch oscillation."
+      },
+      {
+        "fault": "Allowing the front knee to cave inward.",
+        "correction": "Press actively through the whole front foot and track the knee in line with your middle toes."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Reduce the stance length or avoid lowering too deeply if you experience pain in the rear knee or groin."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

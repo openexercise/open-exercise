@@ -1,0 +1,151 @@
+{
+  "is_exercise": true,
+  "name": "90-90 Hip Stretch",
+  "summary": "A seated hip mobility stretch performed with both legs bent at right angles to improve internal and external hip rotation.",
+  "aliases": [
+    {
+      "text": "Shin Box Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Shinbox Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "90/90 Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Shinbox IR Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "90-90 Hip Mobility Stretch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "stretch"
+    ],
+    "mechanics": "not-applicable",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "contralateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "piriformis",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "stretched"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "internal-rotation",
+        "external-rotation",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat",
+    "yoga-block"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit on the floor with your torso upright.",
+      "Position your lead leg in front of you with the hip externally rotated and the knee bent at 90 degrees, resting flat on the ground.",
+      "Position your trail leg to the side with the hip internally rotated and the knee bent at 90 degrees, foot pointing behind you."
+    ],
+    "steps": [
+      "Sit tall through the crown of your head and square your torso over the front shin.",
+      "Gently hinge forward from the hips with a flat back toward the front shin until a stretch is felt in the lead hip and glute.",
+      "Alternatively, press the rear hip toward the floor to target internal rotation in the back hip.",
+      "Hold the position for the desired duration, breathing slowly, then switch leg positions and repeat."
+    ],
+    "breathing": "Breathe smoothly and deeply, using slow exhales to relax deeper into the stretch without forcing range of motion.",
+    "cues": [
+      "Hinge at the hips, not the lower back",
+      "Keep both knees bent at 90 degrees",
+      "Stay tall through the spine"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding the spine excessively to reach further toward the floor.",
+        "correction": "Keep your chest tall and pivot strictly from the hip crease."
+      },
+      {
+        "fault": "Knees drifting into sharp flexion less than 90 degrees.",
+        "correction": "Check your shin angles to maintain true 90-degree angles at both knee joints."
+      },
+      {
+        "fault": "Forcing the trail hip into internal rotation causing knee or lower back pain.",
+        "correction": "Elevate your pelvis on a yoga block or cushion to reduce torque on the hip and knee."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not force end-range hip internal rotation if sharp pain is felt in the groin or knee joint."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

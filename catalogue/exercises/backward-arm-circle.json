@@ -1,0 +1,204 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Backward arm circles",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse arm circle",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse arm circles",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-posterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-lateral",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "infraspinatus",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "supraspinatus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "circumduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "elevation",
+          "depression",
+          "retraction",
+          "upward-rotation",
+          "downward-rotation"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "995"
+  },
+  "id": "oec:backward-arm-circle",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and knees soft.",
+      "Engage your core to keep your spine neutral and extend your arms straight out to the sides or down alongside your torso with palms facing down or forward."
+    ],
+    "steps": [
+      "Raise your straight arms forward and up toward the ceiling in a smooth, continuous arch.",
+      "Continue the path overhead, then sweep both arms back behind your torso, squeezing the shoulder blades together.",
+      "Lower the arms down past your hips to complete a full circular revolution in reverse.",
+      "Maintain a smooth, continuous tempo for the desired repetitions or duration."
+    ],
+    "breathing": "Breathe continuously and rhythmically, inhaling as the arms move forward and upward, and exhaling as they circle back and down.",
+    "cues": [
+      "Draw big, smooth circles with your fingertips",
+      "Keep your ribs down and spine tall",
+      "Move from the shoulders, not the lower back"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively arching the lower back when reaching overhead and behind.",
+        "correction": "Brace the abdominal muscles and keep the ribs tucked down to isolate movement to the shoulder girdle."
+      },
+      {
+        "fault": "Bending the elbows during the rotation.",
+        "correction": "Maintain straight elbows to achieve full circumduction at the shoulder joint."
+      },
+      {
+        "fault": "Shrugging the shoulders toward the ears aggressively.",
+        "correction": "Keep the neck relaxed and emphasize shoulder blade rotation rather than hiking the traps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you experience shoulder impingement or pain, reduce the circle diameter or avoid reaching deeply behind the body."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Backward Arm Circle",
+  "previous_ids": [
+    "oec:backward-arm-circles"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Backward arm circles",
+        "url": "https://wger.de/en/exercise/995/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:backward-shoulder-circle"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A dynamic mobility exercise that warms up the shoulders, rotator cuffs, and upper back through reverse circumduction of the arms."
+}

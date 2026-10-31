@@ -1,0 +1,212 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Neck Circle",
+      "kind": "common"
+    },
+    {
+      "text": "Clockwise neck circles",
+      "kind": "common"
+    },
+    {
+      "text": "Head Roll",
+      "kind": "common"
+    },
+    {
+      "text": "Head Circle",
+      "kind": "common"
+    },
+    {
+      "text": "Counterclockwise neck circles",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "sternocleidomastoid",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "splenius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "levator-scapulae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deep-neck-flexors",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "cervical-spine",
+        "actions": [
+          "circumduction",
+          "flexion",
+          "extension",
+          "lateral-flexion",
+          "rotation"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "isolation-neck",
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "chair",
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1015,1016"
+  },
+  "id": "oec:neck-roll",
+  "instructions": {
+    "setup": [
+      "Sit tall in a chair or cross-legged on the floor with your shoulders relaxed and down away from your ears.",
+      "Gently drop your chin toward your chest without forcing the stretch."
+    ],
+    "steps": [
+      "Slowly roll your right ear toward your right shoulder.",
+      "Continue the smooth circle by gently tipping your head back to look toward the ceiling, avoiding aggressive backward compression.",
+      "Trace the circle over to the left side, bringing your left ear toward your left shoulder.",
+      "Complete the revolution by returning your chin to the starting position at your chest.",
+      "Repeat for the desired repetitions, then reverse direction."
+    ],
+    "breathing": "Breathe smoothly and continuously, exhaling as the chin rolls forward and inhaling as the head tilts backward.",
+    "cues": [
+      "Slow and controlled",
+      "Keep shoulders down",
+      "Draw a smooth circle with the crown of your head"
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulders up toward the ears",
+        "correction": "Actively depress and relax the shoulder blades throughout the movement."
+      },
+      {
+        "fault": "Moving too quickly or using momentum",
+        "correction": "Slow the motion down to maintain full muscular control and avoid joint irritation."
+      },
+      {
+        "fault": "Forcing aggressive hyperextension of the neck",
+        "correction": "Keep the backward roll gentle and elongated rather than hinging sharply backward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Stop immediately if you experience sharp pain, dizziness, or tingling down your arms."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Neck Roll",
+  "previous_ids": [
+    "oec:clockwise-neck-circles",
+    "oec:counterclockwise-neck-circles"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Clockwise neck circles",
+        "url": "https://wger.de/en/exercise/1015/view-base",
+        "license": "CC-BY-SA-4.0"
+      },
+      {
+        "title": "wger: Counterclockwise neck circles",
+        "url": "https://wger.de/en/exercise/1016/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:neck-half-circle"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:neck-controlled-articular-rotation"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:neck-controlled-articular-rotation"
+    }
+  ],
+  "setup": {
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A gentle cervical mobility exercise performing controlled circles through the neck's full comfortable range of motion."
+}

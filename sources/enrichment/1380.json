@@ -1,0 +1,154 @@
+{
+  "is_exercise": true,
+  "name": "Band Pull-Apart",
+  "summary": "A shoulder and upper-back isolation exercise performed by horizontally pulling an elastic band apart across the chest.",
+  "aliases": [
+    {
+      "text": "Band Pull-Aparts",
+      "kind": "common"
+    },
+    {
+      "text": "Resistance Band Pull-Apart",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "mobility",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "deltoid-posterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "infraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-minor",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-abduction",
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "resistance-band",
+        "mini-band"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "band-tension",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "elastic",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and brace your core.",
+      "Hold a resistance band with an overhand grip about shoulder-width apart, arms extended forward at chest height."
+    ],
+    "steps": [
+      "Maintaining a slight, fixed bend in your elbows, pull your hands horizontally apart until the band contacts your chest.",
+      "Pause momentarily at peak contraction and squeeze your shoulder blades firmly together.",
+      "Reverse the movement with control, maintaining tension on the band as you return your hands to shoulder-width apart."
+    ],
+    "breathing": "Exhale as you pull the band apart across your chest, and inhale as you return to the starting position.",
+    "cues": [
+      "Squeeze your shoulder blades together.",
+      "Keep your shoulders down away from your ears.",
+      "Lead with the back of your hands."
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulders upward during the pull.",
+        "correction": "Keep your upper traps relaxed and actively pull your shoulder blades down."
+      },
+      {
+        "fault": "Extending through the lumbar spine to complete the motion.",
+        "correction": "Brace your core and keep your ribcage pinned down throughout the set."
+      },
+      {
+        "fault": "Bending and extending the elbows to simulate movement.",
+        "correction": "Lock a soft bend in the elbows and pivot exclusively from the shoulders and scapulae."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Inspect the resistance band for tears, cracks, or excessive wear before beginning."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "is_exercise": true,
+  "name": "Swimming",
+  "summary": "A whole-body cardiovascular exercise performed in water using rhythmic arm strokes and flutter or whip kicks for propulsion.",
+  "aliases": [
+    {
+      "text": "Lap Swimming",
+      "kind": "common"
+    },
+    {
+      "text": "Pool Swimming",
+      "kind": "common"
+    },
+    {
+      "text": "Controlled Brisk Swim",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "swim"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "extension",
+        "internal-rotation",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "downward-rotation",
+        "protraction",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "pool"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "distance",
+        "duration"
+      ],
+      "optional": [
+        "pace",
+        "speed",
+        "heart-rate",
+        "calories",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "distance",
+        "pace",
+        "heart-rate",
+        "calories",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Enter the pool lane and align your body horizontally in the water.",
+      "Push off the wall into a streamlined prone position with your core engaged and head neutral."
+    ],
+    "steps": [
+      "Propel forward by alternating arm strokes, pulling water beneath your torso and recovering the arms above the surface.",
+      "Maintain a steady, compact kick from the hips with relaxed ankles to stabilize body position.",
+      "Rotate along your long axis smoothly with each stroke cycle, turning your head to the side to inhale as needed without lifting it excessively.",
+      "Touch or flip-turn at the pool wall to transition smoothly into the next length."
+    ],
+    "breathing": "Exhale continuously into the water and rotate your head into the stroke's bow wave to inhale quickly and rhythmically.",
+    "cues": [
+      "Swim tall and streamlined",
+      "Kick from the hips, not the knees",
+      "Reach long and pull through the water",
+      "Rotate the body as a single unit"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the head high out of the water to breathe, which causes the hips and legs to sink.",
+        "correction": "Keep one goggle lens in the water while breathing, rotating the head alongside the torso rather than lifting it forward."
+      },
+      {
+        "fault": "Kicking excessively from the knees with large, drag-inducing movements.",
+        "correction": "Generate kick propulsion from the hips and glutes with loose ankles and relatively straight legs."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Swim only in designated lanes or areas supervised by a qualified lifeguard.",
+        "Stop immediately if experiencing calf cramps, extreme fatigue, or dizziness."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

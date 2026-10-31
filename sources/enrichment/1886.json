@@ -1,0 +1,133 @@
+{
+  "is_exercise": true,
+  "name": "Supine Hip Abduction",
+  "summary": "A supine rehabilitation and mobility exercise that strengthens the hip abductors by sliding or lifting the leg outward away from the midline.",
+  "aliases": [
+    {
+      "text": "Lying Supine Hip Abduction",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Leg Abduction",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "mobility",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "isolation-hip-abduction",
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "muscles": [
+    {
+      "muscle": "gluteus-medius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-minimus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "abduction",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat",
+    "ankle-weight",
+    "resistance-band",
+    "slider"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a mat with both legs fully extended.",
+      "Rest your arms by your sides or place your hands on your pelvis to monitor hip stability.",
+      "Gently brace your abdominals to keep your lower back in a comfortable, neutral position."
+    ],
+    "steps": [
+      "Keeping your toes pointed toward the ceiling and your knee straight, slide or hover your working leg out to the side.",
+      "Move the leg as far outward as you comfortably can without allowing your pelvis to rock or rotate.",
+      "Pause briefly at the end range of abduction.",
+      "Smoothly return the leg to the starting position along the same path."
+    ],
+    "breathing": "Exhale as you move your leg outward into abduction; inhale as you return to the center.",
+    "cues": [
+      "Keep toes pointing straight up",
+      "Lock your pelvis to the floor",
+      "Move with smooth control"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the working leg outward so the toes point away from the midline.",
+        "correction": "Keep the kneecap and toes facing directly toward the ceiling throughout the movement."
+      },
+      {
+        "fault": "Tilting or hiking the pelvis on the working side.",
+        "correction": "Limit the range of motion to what you can perform while keeping both pelvic bones level against the floor."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not force range of motion if you experience sharp hip pinching or groin discomfort."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

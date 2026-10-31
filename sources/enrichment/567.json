@@ -1,0 +1,177 @@
+{
+  "is_exercise": true,
+  "name": "Seated Dumbbell Shoulder Press",
+  "summary": "An overhead pressing movement performed seated on a supported bench to build shoulder and triceps strength and hypertrophy.",
+  "aliases": [
+    {
+      "text": "Seated Dumbbell Overhead Press",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Shoulder Press",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Overhead Press",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell OHP",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Seated DB Shoulder Press",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Military Press with Dumbbells",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "load_position": "overhead",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-lateral",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rotator-cuff",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "adjustable-bench",
+        "bench"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust a bench backrest to a nearly vertical position, roughly 75 to 85 degrees.",
+      "Sit back firmly against the pad with feet flat on the floor.",
+      "Kick the dumbbells up from your knees one at a time to shoulder height, holding them with your elbows positioned slightly forward in the scapular plane."
+    ],
+    "steps": [
+      "Press both dumbbells vertically upward until your arms are fully extended overhead without violently locking your elbows.",
+      "Pause briefly at the top while keeping the weights balanced over your shoulders.",
+      "Lower the dumbbells in a controlled descent back to just above shoulder level."
+    ],
+    "breathing": "Inhale before pressing or as you lower the weights, and exhale forcefully as you drive the dumbbells overhead.",
+    "cues": [
+      "Press yourself down into the seat.",
+      "Keep elbows slightly in front of your shoulders, not flared wide.",
+      "Control the descent all the way to the shoulders."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively arching the lower back off the pad to press at a flatter angle.",
+        "correction": "Brace your core, keep your ribcage down, and maintain full contact between your upper back, hips, and the seat."
+      },
+      {
+        "fault": "Flaring elbows completely out to the sides.",
+        "correction": "Tuck elbows roughly 30 to 45 degrees forward into the scapular plane to protect the shoulder joints."
+      },
+      {
+        "fault": "Clanging the dumbbells together at the top.",
+        "correction": "Press straight up and slightly inward along a natural arc without colliding the weights."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you reach failure, lower the dumbbells under control to your knees rather than dropping them to the sides."
+      ],
+      "spotter": "recommended",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Half-Kneeling Unilateral Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Half-Kneeling Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Half-Kneeling Cable Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Half-Kneeling One-Arm Lat Pulldown",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "adduction",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "downward-rotation",
+          "depression",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull",
+      "anti-rotation",
+      "anti-lateral-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1719"
+  },
+  "id": "oec:half-kneeling-single-arm-lat-pulldown",
+  "instructions": {
+    "setup": [
+      "Attach a single D-handle to a high cable pulley.",
+      "Assume a half-kneeling position facing the cable stack, resting the knee on the floor on the same side as the working arm.",
+      "Place the front foot flat on the floor with hip and knee bent at ninety-degree angles.",
+      "Reach up with the working hand and grasp the handle with a neutral grip, keeping your torso upright, ribs down, and hips square."
+    ],
+    "steps": [
+      "Depress your scapula and drive your elbow down toward your hip pocket to initiate the pull.",
+      "Continue pulling until your hand reaches roughly upper-chest height and your lat is fully contracted.",
+      "Pause momentarily at the bottom without twisting or side-bending your torso.",
+      "Control the weight as you slowly extend your arm back overhead, allowing your scapula to elevate and stretch the lat."
+    ],
+    "breathing": "Inhale as your arm extends overhead; exhale as you pull the handle down to your side.",
+    "cues": [
+      "Drive your elbow to your hip pocket.",
+      "Keep your belt buckle pointed straight ahead.",
+      "Squeeze your rear glute to keep your pelvis stable."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating or leaning the torso toward the working side to cheat the weight down.",
+        "correction": "Brace the core, squeeze the rear glute, and keep the chest and pelvis facing forward throughout the entire rep."
+      },
+      {
+        "fault": "Pulling the elbow excessively behind the body, leading to anterior shoulder glide.",
+        "correction": "Stop the pull once your elbow aligns with your torso, focusing tension entirely on the latissimus dorsi."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Place a pad or mat under the kneeling knee to protect the patella."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Half-Kneeling Single-Arm Lat Pulldown",
+  "previous_ids": [
+    "oec:half-kneeling-unilateral-lat-pulldown"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Half-Kneeling Unilateral Lat Pulldown",
+        "url": "https://wger.de/en/exercise/1719/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "polloperro"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-single-arm-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-single-arm-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-half-kneeling-single-arm-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-lat-pulldown"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "half-kneeling"
+  },
+  "status": "active",
+  "summary": "A unilateral vertical pull performed from a half-kneeling position to target the latissimus dorsi while challenging trunk anti-rotation."
+}

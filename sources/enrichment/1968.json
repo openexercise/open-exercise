@@ -1,0 +1,171 @@
+{
+  "is_exercise": true,
+  "name": "Single-Arm Dumbbell Shoulder Press",
+  "summary": "An overhead pressing exercise performed unilaterally with a dumbbell to develop shoulder strength and core stability.",
+  "aliases": [
+    {
+      "text": "Single-Arm Dumbbell Overhead Press",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Dumbbell Shoulder Press",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Dumbbell Overhead Press",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Single-Arm Dumbbell Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "anti-lateral-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-lateral",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet shoulder-width apart, holding a single dumbbell in one hand.",
+      "Bring the dumbbell up to shoulder level with the elbow directly beneath your wrist.",
+      "Brace your core, squeeze your glutes, and keep the non-working arm extended or resting at your side."
+    ],
+    "steps": [
+      "Press the dumbbell vertically overhead in a smooth, straight path until the arm is fully extended.",
+      "Pause briefly at the top without shrugging the shoulder excessively toward your ear.",
+      "Lower the dumbbell under control back to the starting position at shoulder height.",
+      "Complete the desired repetitions, then switch hands and repeat on the opposite side."
+    ],
+    "breathing": "Inhale before pressing, brace your midsection, and exhale as the dumbbell passes the halfway point overhead; inhale as you lower the weight.",
+    "cues": [
+      "Knuckles to the ceiling",
+      "Keep your ribs pulled down",
+      "Elbow stacked under the wrist"
+    ],
+    "common_faults": [
+      {
+        "fault": "Leaning sideways away from or toward the loaded side to assist the press.",
+        "correction": "Brace the core aggressively to keep your torso completely upright throughout the movement."
+      },
+      {
+        "fault": "Hyperextending the lower back as the weight goes overhead.",
+        "correction": "Squeeze your glutes and lock your ribcage down to maintain a neutral spine."
+      },
+      {
+        "fault": "Flaring the elbow excessively out to the side during the press.",
+        "correction": "Keep the elbow slightly angled into the scapular plane, roughly 30 to 45 degrees in front of the torso."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not drop the dumbbell from overhead at the end of a set; lower it under control to shoulder height first."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

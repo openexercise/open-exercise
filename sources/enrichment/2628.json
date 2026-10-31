@@ -1,0 +1,129 @@
+{
+  "is_exercise": true,
+  "name": "Machine Seated Calf Raise",
+  "summary": "An isolation exercise performed on a seated calf machine that emphasizes the soleus muscle through controlled plantarflexion.",
+  "aliases": [
+    {
+      "text": "Seated Calf Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Calf Machine",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-ankle"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "soleus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "tibialis-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "peroneals",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "plate-loaded-machine",
+        "selectorized-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit on the machine with the balls of your feet positioned on the foot bar, hip-width apart, and your heels hanging freely off the edge.",
+      "Adjust the thigh pad so it rests snugly over the lower part of your quadriceps, just above your knees.",
+      "Disengage the safety latch by pushing up onto your toes and pivoting the release lever out of the way."
+    ],
+    "steps": [
+      "Slowly lower your heels toward the floor under control until you feel a deep stretch in the Achilles tendon and lower calf.",
+      "Pause briefly in the stretched position without bouncing.",
+      "Press firmly through the balls of your feet to raise your heels as high as possible into full plantarflexion.",
+      "Contract the calf muscles hard at the peak for a brief second before initiating the next descent."
+    ],
+    "breathing": "Inhale as you lower your heels into the stretch; exhale as you push up onto the balls of your feet.",
+    "cues": [
+      "Full stretch at the bottom",
+      "Push through the big toe",
+      "Pause and squeeze at the peak",
+      "No bouncing"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bouncing out of the bottom of the movement using Achilles tendon elasticity.",
+        "correction": "Pause for one full second at the bottom of the stretch to eliminate the stretch reflex and force muscular recruitment."
+      },
+      {
+        "fault": "Using partial range of motion by not fully lowering or raising the heels.",
+        "correction": "Lower the weight to ensure full dorsiflexion and drive all the way onto the balls of your feet at the top."
+      },
+      {
+        "fault": "Placing the thigh pads too high on the femur, causing leverage disadvantage and sliding.",
+        "correction": "Position the pads directly across the lower thighs just above the kneecaps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the safety catch is securely engaged before stepping out of the machine."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "id": "oec:kettlebell-single-arm-swing",
+  "name": "Kettlebell Single-Arm Swing",
+  "summary": "A hip-driven swing of a kettlebell in one hand.",
+  "classification": {
+    "modalities": [
+      "power",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "swing",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "mixed",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "contraction": [
+      "ballistic"
+    ],
+    "level": "intermediate"
+  },
+  "setup": {
+    "position": "standing"
+  },
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "prime-mover"
+      }
+    ]
+  },
+  "equipment": {
+    "required": [
+      [
+        "kettlebell"
+      ]
+    ]
+  },
+  "measurement": {
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ]
+      }
+    ],
+    "load": {
+      "kind": "external",
+      "convention": "total",
+      "implements": 1
+    },
+    "reps_counted": "per-side",
+    "records": {
+      "e1rm": false,
+      "volume": true
+    }
+  },
+  "provenance": {
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "unreviewed"
+    }
+  }
+}

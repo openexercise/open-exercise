@@ -1,0 +1,222 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Plate Loaded Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Lever Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Leverage Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Iso-Lateral Lat Pulldown",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "adduction",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "downward-rotation",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "plate-loaded-machine"
+      ],
+      [
+        "weight-plate"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2623"
+  },
+  "id": "oec:plate-loaded-lat-pulldown",
+  "instructions": {
+    "setup": [
+      "Load the desired weight plates evenly onto the machine's weight horns.",
+      "Adjust the seat height and thigh pads so your feet sit flat on the floor with your thighs securely wedged beneath the pads.",
+      "Stand or reach up to grasp the handles with a comfortable grip, then sit down firmly beneath the thigh pads with your arms fully extended overhead."
+    ],
+    "steps": [
+      "Brace your core and slightly arch your upper back, opening your chest toward the ceiling.",
+      "Initiate the pull by depressing your shoulder blades and driving your elbows down toward your hips.",
+      "Pull smoothly until the handles reach approximately chin to upper-chest level, squeezing your lats at the bottom.",
+      "Control the handles upward along the machine's guided path, allowing your shoulder blades to elevate into a full stretch at the top."
+    ],
+    "breathing": "Inhale as you let the handles rise to full extension; exhale forcefully as you pull down.",
+    "cues": [
+      "Drive elbows to your back pockets.",
+      "Chest up to meet the handles.",
+      "Control the stretch at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive backward leaning to use body momentum.",
+        "correction": "Keep your torso relatively upright with only a slight natural arch in the upper back, anchoring your thighs firmly beneath the pads."
+      },
+      {
+        "fault": "Cutting the range of motion short at the top.",
+        "correction": "Allow your arms to fully straighten and your scapulae to elevate slightly on each repetition to fully stretch the lats."
+      },
+      {
+        "fault": "Pulling exclusively with the arms rather than engaging the back.",
+        "correction": "Focus on initiating the movement by depressing your shoulder blades and driving your elbows down, treating your hands as hooks."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the thigh pads are locked tightly in place before beginning to prevent your hips from lifting off the seat."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-side",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "rir"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Plate-Loaded Lat Pulldown",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Plate-Loaded Lat Pulldown",
+        "url": "https://wger.de/en/exercise/2623/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "trs1800"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:machine-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-lat-pulldown"
+    }
+  ],
+  "setup": {
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A compound vertical pulling exercise performed on a plate-loaded leverage machine to target the latissimus dorsi, upper back, and elbow flexors."
+}

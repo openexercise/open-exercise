@@ -1,0 +1,155 @@
+{
+  "is_exercise": true,
+  "name": "Machine Chest Press",
+  "summary": "A guided machine pressing movement that builds upper-body pushing strength and hypertrophy in the chest, shoulders, and triceps.",
+  "aliases": [
+    {
+      "text": "Seated Machine Chest Press",
+      "kind": "common"
+    },
+    {
+      "text": "Chest Press Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Chest Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so the machine handles sit level with your mid-to-lower chest.",
+      "Sit back firmly against the backrest with your head supported and feet planted flat on the floor.",
+      "Grasp the handles with an overhand or neutral grip and set your shoulder blades back and down against the pad."
+    ],
+    "steps": [
+      "Press the handles away by extending your elbows and squeezing your chest.",
+      "Continue pushing until your arms are nearly straight, avoiding harsh elbow lockout.",
+      "Lower the handles smoothly back under control until you feel a comfortable stretch across the chest, without letting the weight plates touch."
+    ],
+    "breathing": "Exhale as you press the weight forward and inhale as you return the handles to the starting position.",
+    "cues": [
+      "Keep your shoulders pinned to the back pad.",
+      "Drive your elbows across your chest.",
+      "Control the eccentric tempo."
+    ],
+    "common_faults": [
+      {
+        "fault": "Protracted, internally rotated shoulders at the peak of the press.",
+        "correction": "Keep your shoulder blades retracted and depressed against the backrest throughout the entire movement."
+      },
+      {
+        "fault": "Seat positioned too high or too low, misaligning the wrists and shoulders.",
+        "correction": "Adjust the seat so the handles align directly with the middle of your sternum."
+      },
+      {
+        "fault": "Allowing the weight stack to bounce at the bottom of the rep.",
+        "correction": "Reverse direction smoothly before the weight stack collides to maintain constant muscular tension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not overextend your shoulder range of motion backward beyond comfortable joint mobility."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

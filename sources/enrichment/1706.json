@@ -1,0 +1,171 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Bulgarian Split Squat",
+  "summary": "A unilateral squat variation performed with the rear foot elevated on a bench while holding dumbbells at the sides.",
+  "aliases": [
+    {
+      "text": "Bulgarian Squat with Dumbbells",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Rear-Foot-Elevated Split Squat",
+      "kind": "common"
+    },
+    {
+      "text": "DB RFESS",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "lunge",
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "split-stance",
+  "stance_kind": "split",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "plyo-box"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand about two to three feet in front of a flat bench holding a dumbbell in each hand with arms extended at your sides.",
+      "Reach one foot back and place the top of the foot or toes securely on the bench.",
+      "Position your front foot flat on the floor so that your hips and shoulders are square and facing forward."
+    ],
+    "steps": [
+      "Lower your body under control by bending the front knee and hip, descending until the front thigh is roughly parallel to the floor.",
+      "Keep your torso tall with a slight forward lean to match hip mechanics.",
+      "Drive through the midfoot and heel of the front leg to extend the hip and knee back to the starting position."
+    ],
+    "breathing": "Inhale as you descend into the squat and exhale forcefully as you drive up to the top.",
+    "cues": [
+      "Drive through the front foot",
+      "Drop your back knee straight down",
+      "Keep your front knee tracking over your toes"
+    ],
+    "common_faults": [
+      {
+        "fault": "Front foot placed too close to the bench, jamming the front knee excessively forward and lifting the heel.",
+        "correction": "Step out far enough so your front heel remains firmly planted throughout the movement."
+      },
+      {
+        "fault": "Excessive hyperextension of the lumbar spine.",
+        "correction": "Maintain a braced core and allow a natural, slight forward lean of the torso."
+      },
+      {
+        "fault": "Front knee caving inward into valgus collapse.",
+        "correction": "Actively push the working knee out in line with the second and third toes."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Master the movement with bodyweight before adding external load to ensure stability.",
+        "If you lose balance, drop the dumbbells to the sides rather than twisting your torso."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{{template "head" .}}
+<section class="hero">
+<h1>A common language for exercises.</h1>
+<p class="lead">The Open Exercise Schema describes an exercise so any tool can identify it, explain it, and record it the same way. The catalogue is {{.Count}} exercises in that format, free to use.</p>
+<p class="actions"><a class="button" href="/spec/">Read the spec</a><a class="button ghost" href="/catalogue/">Browse the catalogue</a></p>
+</section>
+<section class="grid">
+<div><h2>Identity that lasts</h2><p>Stable IDs such as <code>oec:barbell-back-squat</code>, with old IDs, aliases and retired records that keep resolving.</p></div>
+<div><h2>Numbers that mean one thing</h2><p>Each exercise says what a logged load is: the whole bar, one dumbbell, weight added to the body, or assistance taken off.</p></div>
+<div><h2>Origin on every value</h2><p>Licences, sources, a review status, and pointers to each value a machine produced and no person has checked.</p></div>
+</section>
+<section>
+<h2>What a record covers</h2>
+<dl class="fields">
+<dt>Identity</dt><dd>ID, name, aliases by kind, previous IDs, status, translations</dd>
+<dt>Classification</dt><dd>Modalities, movement patterns, mechanics, force, kinetic chain, laterality, planes, contraction, level</dd>
+<dt>Setup</dt><dd>Position, incline, grip, stance, where the load sits, range</dd>
+<dt>Anatomy</dt><dd>A four-level muscle tree with roles, plus joints and their actions</dd>
+<dt>Equipment</dt><dd>Required groups with alternatives, and optional items</dd>
+<dt>Measurement</dt><dd>Recording profiles, load kind and convention, per-side counting, where e1RM and volume make sense</dd>
+<dt>Instructions</dt><dd>Setup, steps, breathing, cues, common faults and corrections, safety</dd>
+<dt>Relations</dt><dd>Variations, regressions, progressions, substitutes, antagonists</dd>
+<dt>Provenance</dt><dd>Licence, sources, review status, generated-value pointers</dd>
+</dl>
+</section>
+<section>
+<h2>Use it</h2>
+<ul class="links">
+<li><a href="/catalogue.json">The whole catalogue as JSON</a></li>
+<li><a href="/schema/v0/exercise.json">JSON Schema (draft 2020-12)</a></li>
+<li><a href="/exercises/barbell-back-squat/">An example record</a></li>
+</ul>
+</section>
+{{template "foot" .}}

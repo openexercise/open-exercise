@@ -1,0 +1,155 @@
+{
+  "is_exercise": true,
+  "name": "Bodyweight Squat",
+  "summary": "A foundational lower-body calisthenic exercise that builds strength, mobility, and control in the quadriceps, glutes, and hips without external load.",
+  "aliases": [
+    {
+      "text": "Air Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Unweighted Squat",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with your feet roughly shoulder-width apart and your toes angled slightly outward.",
+      "Engage your core, lift your chest, and bring your hands together in front of your chest or extend your arms forward for counterbalance."
+    ],
+    "steps": [
+      "Initiate the movement by hinging slightly at the hips and bending your knees simultaneously.",
+      "Descend smoothly by pushing your knees outward in line with your toes while keeping your torso upright and your heels firmly planted.",
+      "Lower yourself until your hip crease is at or below the top of your knees, or as deep as your mobility allows with good spinal alignment.",
+      "Drive through the midfoot and heel to reverse the movement, extending your knees and hips until standing fully upright."
+    ],
+    "breathing": "Inhale as you lower down into the squat, and exhale forcefully as you drive back up to the starting position.",
+    "cues": [
+      "Sit down between your hips.",
+      "Keep your chest proud.",
+      "Spread the floor with your feet."
+    ],
+    "common_faults": [
+      {
+        "fault": "Knees collapsing inward (valgus collapse) during the descent or ascent.",
+        "correction": "Actively press your knees outward in line with your toes throughout the entire repetition."
+      },
+      {
+        "fault": "Heels lifting off the floor due to shifting weight too far forward.",
+        "correction": "Distribute your weight evenly across the whole foot, maintaining solid contact with your heels and big toes."
+      },
+      {
+        "fault": "Excessive forward torso lean or rounding of the lower back.",
+        "correction": "Brace your midsection, keep your chest upright, and only descend as far as you can maintain a neutral spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forcefully bouncing out of the bottom position; maintain muscular control throughout the entire range of motion."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "is_exercise": true,
+  "name": "Inverted Row",
+  "summary": "A closed-chain bodyweight pull where you suspend yourself horizontally beneath a bar and pull your chest upward, targeting the upper back, lats, and biceps.",
+  "aliases": [
+    {
+      "text": "Australian Pull-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Bodyweight Row",
+      "kind": "common"
+    },
+    {
+      "text": "Horizontal Pull-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Supinated Inverted Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "grip_orientation": "supinated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "depression"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "power-rack",
+        "squat-rack"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "smith-machine",
+    "gymnastic-rings",
+    "suspension-trainer",
+    "weight-vest"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Set a barbell securely in a rack at roughly waist height.",
+      "Position yourself underneath the bar facing up, so the bar aligns directly over your lower chest.",
+      "Grasp the bar with a shoulder-width grip and fully extend your arms.",
+      "Extend your legs forward, placing your heels on the floor, and brace your core and glutes to form a rigid plank from head to heels."
+    ],
+    "steps": [
+      "Initiate the pull by retracting your shoulder blades and driving your elbows down and back.",
+      "Pull until your chest makes light contact with the bar, keeping your torso rigid.",
+      "Hold the peak contraction briefly while actively pinching your shoulder blades together.",
+      "Lower yourself under control by extending your arms until you return to the full hang without sagging your hips."
+    ],
+    "breathing": "Exhale as you pull your chest toward the bar, and inhale as you lower yourself back to full extension.",
+    "cues": [
+      "Pull your chest to the bar.",
+      "Drive your elbows straight back.",
+      "Stay stiff as a board.",
+      "Squeeze your shoulder blades at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging or piking the hips during the movement.",
+        "correction": "Squeeze your glutes and brace your abdominals to keep your body in a straight line from heels to head."
+      },
+      {
+        "fault": "Shrugging the shoulders toward the ears.",
+        "correction": "Keep your shoulders packed down away from your ears to maintain proper upper-back engagement."
+      },
+      {
+        "fault": "Cutting the range of motion short at the bottom or top.",
+        "correction": "Fully straighten your arms between reps and pull until your chest touches or nears the bar."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the barbell is racked so that pulling upward pulls the bar into the J-hooks rather than out of them."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

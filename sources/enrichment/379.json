@@ -1,0 +1,143 @@
+{
+  "is_exercise": true,
+  "name": "Machine Chest Press",
+  "summary": "A seated machine exercise that builds upper-body pressing strength by targeting the chest, shoulders, and triceps along a guided path.",
+  "aliases": [
+    {
+      "text": "Leverage Machine Chest Press",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Machine Chest Press",
+      "kind": "common"
+    },
+    {
+      "text": "Leverage Chest Press",
+      "kind": "common"
+    },
+    {
+      "text": "Plate-Loaded Chest Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so the machine handles sit level with your mid-to-lower chest.",
+      "Sit upright with your back and head pressed firmly against the back pad and feet flat on the floor.",
+      "Grasp the handles with an overhand grip and set your shoulder blades back and down into the pad."
+    ],
+    "steps": [
+      "Press the handles away from your chest smoothly until your arms are extended without aggressively locking the elbows.",
+      "Pause briefly at full extension while keeping tension on your pectoral muscles.",
+      "Lower the handles under control along the machine track until you feel a comfortable stretch across your chest."
+    ],
+    "breathing": "Exhale as you press the handles forward and inhale as you return to the starting position.",
+    "cues": [
+      "Pin your shoulder blades to the pad.",
+      "Drive through your palms.",
+      "Control the descent; don't bounce off the bottom."
+    ],
+    "common_faults": [
+      {
+        "fault": "Seat height set too low, forcing the shoulders to press too high above mid-chest level.",
+        "correction": "Adjust the seat so the handles align directly across your mid-to-lower pectorals."
+      },
+      {
+        "fault": "Shoulders rolling forward off the back pad at full extension.",
+        "correction": "Keep your shoulder blades retracted and depressed against the pad throughout the entire movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid letting your elbows flare excessively past a 90-degree angle from your torso to protect the shoulder joint."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

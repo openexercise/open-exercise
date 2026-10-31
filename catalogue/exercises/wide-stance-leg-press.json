@@ -1,0 +1,213 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Wide Leg Press",
+      "kind": "common"
+    },
+    {
+      "text": "Sumo Leg Press",
+      "kind": "common"
+    },
+    {
+      "text": "Leg Presses (wide)",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "leg-press-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "374"
+  },
+  "id": "oec:wide-stance-leg-press",
+  "instructions": {
+    "setup": [
+      "Sit securely in the leg press seat with your back and pelvis pressed firmly against the backrest.",
+      "Place your feet wide on the footplate, outside shoulder-width, with your toes turned slightly outward at roughly 30 to 45 degrees.",
+      "Disengage the safety levers while pressing the platform out to full extension without locking your knees."
+    ],
+    "steps": [
+      "Inhale and lower the sled by bending your hips and knees in a controlled motion.",
+      "Allow your knees to track outward in line with your toes as the platform descends.",
+      "Descend until your knees reach approximately a 90-degree angle or as deep as possible without your pelvis lifting off the pad.",
+      "Exhale and drive through your midfoot and heels to push the platform back to the starting position, stopping just short of locking out your knees."
+    ],
+    "breathing": "Inhale smoothly as you lower the weight toward you; exhale forcefully as you press the sled away.",
+    "cues": [
+      "Track knees with your toes",
+      "Keep your tailbone glued to the seat",
+      "Drive through the whole foot"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the lower back or glutes to round off the seat at the bottom of the movement.",
+        "correction": "Reduce the depth of the descent and maintain active tension through the handles to keep your pelvis anchored."
+      },
+      {
+        "fault": "Knees collapsing inward during the press.",
+        "correction": "Actively push your knees outward in line with the angle of your feet throughout the entire repetition."
+      },
+      {
+        "fault": "Hard lockout of the knees at the top.",
+        "correction": "Stop the press just before full joint lockout to protect the knee joints and maintain muscular tension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Always set and verify the mechanical safety stops at an appropriate depth before loading heavy weight."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Wide-Stance Leg Press",
+  "previous_ids": [
+    "oec:leg-presses-wide"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Leg Presses (wide)",
+        "url": "https://wger.de/en/exercise/374/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:leg-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-sumo-squat"
+    }
+  ],
+  "setup": {
+    "position": "seated",
+    "stance": {
+      "kind": "parallel",
+      "width": "wide"
+    }
+  },
+  "status": "active",
+  "summary": "A machine-based lower-body press performed with a wide foot placement to target the quadriceps, gluteus maximus, and hip adductors."
+}

@@ -1,0 +1,165 @@
+{
+  "is_exercise": true,
+  "name": "EZ-Bar Skull Crusher",
+  "summary": "An isolation exercise performed lying supine on a bench, lowering and extending an EZ-bar via elbow flexion and extension to develop the triceps.",
+  "aliases": [
+    {
+      "text": "Skullcrusher SZ-bar",
+      "kind": "regional"
+    },
+    {
+      "text": "French Press SZ-bar",
+      "kind": "regional"
+    },
+    {
+      "text": "EZ-Bar Lying Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Lying EZ-Bar French Press",
+      "kind": "common"
+    },
+    {
+      "text": "EZ-Bar Skullcrusher",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "supine",
+  "grip_orientation": "pronated",
+  "grip_width": "narrow",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "anconeus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rotator-cuff",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "ez-bar"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "adjustable-bench"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "weight-plate"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit on the edge of a flat bench holding an EZ-bar across your lap with an overhand grip on the inner, angled cambers.",
+      "Lie back onto the bench with your head firmly supported and plant your feet flat on the floor.",
+      "Press the bar up over your chest, then tilt your upper arms slightly backward toward your head to place constant tension on the triceps."
+    ],
+    "steps": [
+      "Keeping your upper arms fixed in place, unlock your elbows and lower the bar in a controlled arc toward the top of your forehead or just past the crown of your head.",
+      "Descend until your forearms pass parallel with the floor and you feel a full stretch in your triceps.",
+      "Extend your elbows smoothly, driving the bar back up along the same path to the starting position without locking out aggressively."
+    ],
+    "breathing": "Inhale as you lower the barbell toward your head; exhale forcefully as you extend your elbows to press the weight back up.",
+    "cues": [
+      "Keep elbows tucked, not flared.",
+      "Hinge at the elbows only; upper arms stay locked.",
+      "Control the descent slowly."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbows outward excessively during the descent or press.",
+        "correction": "Keep elbows pointed forward and in line with your shoulders to protect the joint and isolate the triceps."
+      },
+      {
+        "fault": "Allowing the upper arms to drift forward into a pressing motion.",
+        "correction": "Maintain a fixed, slightly angled upper-arm position so the movement comes exclusively from elbow flexion and extension."
+      },
+      {
+        "fault": "Dropping the weight too quickly toward the head.",
+        "correction": "Use a controlled eccentric tempo of two to three seconds to ensure strict tension and safety."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Always use barbell collars to keep plates securely fastened on the EZ-bar.",
+        "If training near failure, lower the bar slightly behind the crown of your head rather than directly over your face so it can be safely placed onto the bench behind you if needed."
+      ],
+      "spotter": "recommended",
+      "safeties": false
+    }
+  }
+}

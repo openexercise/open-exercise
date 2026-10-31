@@ -1,0 +1,202 @@
+{
+  "is_exercise": true,
+  "name": "Elliptical Trainer",
+  "summary": "A low-impact cardiovascular exercise that drives linked pedals and handles to simulate running without foot strikes.",
+  "aliases": [
+    {
+      "text": "Elliptical",
+      "kind": "common"
+    },
+    {
+      "text": "Cross Trainer",
+      "kind": "common"
+    },
+    {
+      "text": "Elliptical Cross-Trainer",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "mixed",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "elliptical"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "distance",
+        "calories",
+        "heart-rate",
+        "cadence",
+        "resistance-level",
+        "incline",
+        "speed",
+        "power",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration",
+        "distance"
+      ],
+      "optional": [
+        "calories",
+        "heart-rate",
+        "cadence",
+        "resistance-level",
+        "incline",
+        "speed",
+        "power",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Step carefully onto the foot pedals one foot at a time while holding the stationary handles for balance.",
+      "Stand upright with your core braced and grasp the moving handlebars with a comfortable neutral grip.",
+      "Select your program, resistance, and incline on the machine console."
+    ],
+    "steps": [
+      "Push downward and forward with one leg while simultaneously pushing the opposite handlebar forward and pulling the same-side handlebar back.",
+      "Allow the pedals to guide your feet in a smooth, continuous elliptical path.",
+      "Transition seamlessly into pushing with the other leg to maintain a steady, rhythmic cadence.",
+      "Keep your heels grounded on the pedals rather than driving purely through the toes."
+    ],
+    "breathing": "Breathe rhythmically in sync with your stride rate, matching breaths to foot cycles.",
+    "cues": [
+      "Stand tall, eyes forward",
+      "Push through the whole foot",
+      "Actively pump the handles"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive leaning on the console or stationary handles, reducing muscular engagement.",
+        "correction": "Maintain an upright posture and let your legs and core support your body weight."
+      },
+      {
+        "fault": "Pedaling exclusively on the balls of the feet with elevated heels, placing undue strain on the calves and knees.",
+        "correction": "Keep your feet flat against the pedals and drive through the midfoot and heel."
+      },
+      {
+        "fault": "Setting the resistance too low and relying entirely on machine momentum.",
+        "correction": "Increase resistance to maintain controlled, muscular pedal strokes at a steady cadence."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Wait for the pedals and levers to come to a complete stop before attempting to dismount the machine."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

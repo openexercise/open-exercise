@@ -1,0 +1,156 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Side-Lying External Rotation",
+  "summary": "An isolation exercise performed lying on one's side to strengthen the infraspinatus and teres minor through resisted external rotation of the shoulder.",
+  "aliases": [
+    {
+      "text": "Side-Lying External Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Side-Lying Dumbbell External Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Dumbbell External Rotation",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "strength"
+    ],
+    "movement_patterns": [
+      "rotation"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "side-lying",
+  "grip_orientation": "neutral",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "infraspinatus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-minor",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "supraspinatus",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Lie on your non-working side on a mat or flat bench, keeping your hips and knees slightly bent for stability.",
+      "Support your head with your bottom arm or a pillow so your neck remains in neutral alignment.",
+      "Grip a light dumbbell in your top hand and pin your upper arm firmly against the side of your ribcage, with the elbow bent to 90 degrees.",
+      "Begin with the dumbbell resting across your lower abdomen."
+    ],
+    "steps": [
+      "Keeping your elbow pinned to your side and bent at 90 degrees, rotate your forearm upward toward the ceiling.",
+      "Lift the dumbbell until your forearm is roughly parallel to the floor or just past it, without letting your torso roll backward.",
+      "Pause briefly at the top to contract the posterior shoulder.",
+      "Slowly lower the dumbbell back across your abdomen under control."
+    ],
+    "breathing": "Exhale as you rotate the weight upward, and inhale as you lower it back to your stomach.",
+    "cues": [
+      "Keep the elbow pinned to your ribs like a hinge.",
+      "Rotate from the shoulder socket, don't roll your body.",
+      "Move slowly and use very light weight."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling the torso backward to use momentum and cheat range of motion.",
+        "correction": "Keep your chest and hips stacked perpendicular to the floor throughout the entire set."
+      },
+      {
+        "fault": "Allowing the elbow to drift away from the side during rotation.",
+        "correction": "Keep your upper arm pressed against your flank; place a rolled towel under the elbow and hold it securely without letting it drop."
+      },
+      {
+        "fault": "Extending or flexing the wrist during the lift.",
+        "correction": "Lock the wrist in a neutral position so only the shoulder rotates."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use very light loads; the rotator cuff musculature responds best to strict technique and controlled tempos rather than heavy resistance."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

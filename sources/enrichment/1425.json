@@ -1,0 +1,138 @@
+{
+  "is_exercise": true,
+  "name": "Supine Toe Tap",
+  "summary": "A supine core stability exercise where alternating feet are lowered from a tabletop position to tap the floor while maintaining a braced, neutral spine.",
+  "aliases": [
+    {
+      "text": "Tabletop Toe Tap",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Toe Tap",
+      "kind": "common"
+    },
+    {
+      "text": "Dead Bug Toe Tap",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "pilates",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "anti-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie face up on an exercise mat with your arms resting at your sides, palms facing down.",
+      "Lift your legs into a tabletop position with hips and knees both bent to ninety degrees and shins parallel to the floor.",
+      "Brace your core, gently pressing your lower back flush against the floor to establish a stable pelvis."
+    ],
+    "steps": [
+      "Hinge at the hip to lower one foot toward the floor in a controlled arc, keeping the knee locked at ninety degrees.",
+      "Gently tap the floor with your toes without resting your weight on the ground.",
+      "Engage your deep core to raise the leg back to the tabletop starting position.",
+      "Repeat the movement with the opposite leg."
+    ],
+    "breathing": "Inhale as you lower the leg toward the floor, and exhale forcefully through your mouth as you return it to tabletop.",
+    "cues": [
+      "Keep the ninety-degree bend in the knee.",
+      "Move from the hip, not the knee.",
+      "Glue your lower back to the mat."
+    ],
+    "common_faults": [
+      {
+        "fault": "Arching the lower back off the floor as the leg lowers.",
+        "correction": "Only lower the leg as far as you can maintain abdominal bracing and spinal contact with the floor."
+      },
+      {
+        "fault": "Bending or straightening the knee instead of moving through the hip joint.",
+        "correction": "Keep your knee locked at ninety degrees so the entire thigh rotates from the hip."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Stop if you experience sharp pain or discomfort in your lumbar spine."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

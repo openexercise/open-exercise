@@ -1,0 +1,246 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Forearm Plank",
+      "kind": "common"
+    },
+    {
+      "text": "Front Plank",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Bridge",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "obliques",
+        "role": "synergist"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "extension",
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "458,1307"
+  },
+  "id": "oec:plank",
+  "instructions": {
+    "setup": [
+      "Lie face down on an exercise mat.",
+      "Place your elbows directly under your shoulders with forearms resting flat and parallel on the floor.",
+      "Tuck your toes under, set your feet hip-width apart, and engage your core to prepare to lift."
+    ],
+    "steps": [
+      "Press through your forearms and toes to elevate your hips, thighs, and torso off the floor.",
+      "Align your body in a straight line from your head down through your heels.",
+      "Actively press the floor away to spread your shoulder blades slightly and prevent sagging through the chest.",
+      "Squeeze your glutes and brace your abdominals firmly to maintain a neutral pelvis and spine.",
+      "Hold this rigid position for the designated duration without letting your hips sag or hike."
+    ],
+    "breathing": "Maintain steady, rhythmic diaphragmatic breathing without releasing abdominal brace tension.",
+    "cues": [
+      "Push the floor away",
+      "Squeeze your glutes and brace your abs",
+      "Straight line from head to heels"
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging lumbar spine with anterior pelvic tilt.",
+        "correction": "Tuck the tailbone slightly, squeeze the glutes, and brace the abdominals to bring the pelvis back into a neutral position."
+      },
+      {
+        "fault": "Hiking the hips excessively high into an inverted V-shape.",
+        "correction": "Lower the hips until shoulders, hips, knees, and ankles form a continuous straight line."
+      },
+      {
+        "fault": "Scapular winging or sinking between the shoulder blades.",
+        "correction": "Actively drive the forearms into the floor to protract the scapulae and create a broad upper back."
+      },
+      {
+        "fault": "Craning the neck upward or letting the head drop toward the floor.",
+        "correction": "Keep the cervical spine neutral by directing your gaze directly down at the floor between your hands."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Terminate the hold when spinal alignment can no longer be maintained."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Plank",
+  "previous_ids": [
+    "oec:front-plank"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Plank",
+        "url": "https://wger.de/en/exercise/458/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "YYCfit / BFad07"
+      },
+      {
+        "title": "wger: Front Plank",
+        "url": "https://wger.de/en/exercise/1307/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "hektkaso"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:high-plank"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:hollow-body-hold"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:ab-wheel-rollout"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:plank-walkout"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:plank-reach"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:plank-with-leg-lift"
+    }
+  ],
+  "setup": {
+    "position": "prone",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An isometric bodyweight exercise held in a prone position on forearms and toes to train anterior core stiffness and resist lumbar extension."
+}

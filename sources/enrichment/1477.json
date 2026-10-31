@@ -1,0 +1,157 @@
+{
+  "is_exercise": true,
+  "name": "Seated Corkscrew",
+  "summary": "A seated bodyweight core exercise that combines hip and spinal flexion with rotation to target the rectus abdominis and obliques.",
+  "aliases": [
+    {
+      "text": "Seated Corkscrew Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Seated In-and-Out Corkscrew",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "spinal-flexion",
+      "rotation"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "obliques",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion",
+        "rotation"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "flexion",
+        "rotation"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit on an exercise mat with your knees slightly bent and feet flat on the floor.",
+      "Place your hands on the floor slightly behind your hips with fingers pointing forward to support your torso.",
+      "Lean back slightly to engage your core and lift your feet a few inches off the floor."
+    ],
+    "steps": [
+      "Pull your knees up and diagonally across toward one shoulder while simultaneously rotating your pelvis and lower torso to that side.",
+      "Pause briefly at the peak contraction, squeezing your obliques and abdominal wall.",
+      "Extend your legs back out to the center hovering position with control.",
+      "Repeat the movement by pulling your knees diagonally across toward the opposite shoulder.",
+      "Continue alternating sides for the target repetitions or duration."
+    ],
+    "breathing": "Exhale forcefully as you tuck and rotate your knees toward your chest; inhale as you extend your legs back out.",
+    "cues": [
+      "Rotate from the waist, not just the knees.",
+      "Keep the chest proud and open.",
+      "Control the extension without touching your feet down."
+    ],
+    "common_faults": [
+      {
+        "fault": "Relying purely on momentum rather than muscular control.",
+        "correction": "Slow down the repetition cadence and pause at full knee flexion to emphasize oblique recruitment."
+      },
+      {
+        "fault": "Collapsing into the shoulders and rounding the upper spine excessively.",
+        "correction": "Press firmly through your palms to keep your chest lifted and shoulders depressed."
+      },
+      {
+        "fault": "Hyperextending the lower back during leg extension.",
+        "correction": "Maintain abdominal tension and only extend your legs as far as you can control without excessive lumbar arching."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid rapid, uncontrolled twisting if you have a history of lumbar spine disc injuries."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

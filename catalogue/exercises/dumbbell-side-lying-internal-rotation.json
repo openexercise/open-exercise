@@ -1,0 +1,208 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Side-Lying Dumbbell Internal Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Side-Lying Internal Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Side-Lying Shoulder Internal Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Side-Laying Interior Rotation",
+      "kind": "misspelling"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "subscapularis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "synergist"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "internal-rotation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "strength"
+    ],
+    "movement_patterns": [
+      "rotation"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1582"
+  },
+  "id": "oec:dumbbell-side-lying-internal-rotation",
+  "instructions": {
+    "setup": [
+      "Lie on your side on a flat bench with your bottom arm bent at a 90-degree angle at the elbow.",
+      "Position yourself near the edge so your bottom forearm can hang freely below the bench level.",
+      "Grasp a light dumbbell with a neutral grip in the bottom hand and keep the elbow tucked close against your side."
+    ],
+    "steps": [
+      "Lower the dumbbell under control toward the floor by externally rotating the shoulder as far as comfortably tolerated.",
+      "Rotate the upper arm internally to pull the dumbbell up toward your abdomen until the forearm is perpendicular to the floor.",
+      "Pause briefly at the top to contract the internal rotators without twisting your torso.",
+      "Lower the dumbbell smoothly back to the starting stretch."
+    ],
+    "breathing": "Inhale as you lower the weight toward the floor; exhale as you rotate the dumbbell upward toward your stomach.",
+    "cues": [
+      "Keep the elbow pinned to your ribcage",
+      "Rotate smoothly without rocking your torso",
+      "Move the forearm like a door on a hinge"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling the torso backward or forward to move the weight.",
+        "correction": "Keep your hips and shoulders stacked vertically throughout the entire movement."
+      },
+      {
+        "fault": "Extending or flexing the elbow during rotation.",
+        "correction": "Maintain a strict 90-degree bend at the elbow so movement only occurs at the glenohumeral joint."
+      },
+      {
+        "fault": "Using excessively heavy weight.",
+        "correction": "Select very light dumbbells; the rotator cuff muscles respond best to controlled, high-quality contractions."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forcing end-range external rotation if you experience anterior shoulder pain or impingement."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Dumbbell Side-Lying Internal Rotation",
+  "previous_ids": [
+    "oec:side-laying-interior-rotation"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Side-laying interior rotation",
+        "url": "https://wger.de/en/exercise/1582/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "CptnFatbeard"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-shoulder-internal-rotation"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "side-lying"
+  },
+  "status": "active",
+  "summary": "A unilateral isolation exercise targeting the subscapularis and anterior shoulder stabilizers to build rotator cuff strength and joint integrity."
+}

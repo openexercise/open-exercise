@@ -1,0 +1,219 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "1 Leg Box Squat",
+      "kind": "common"
+    },
+    {
+      "text": "One-Legged Box Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Leg Pistol Squat to Box",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "squat",
+      "balance"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "dumbbell",
+      "kettlebell",
+      "weight-vest"
+    ],
+    "required": [
+      [
+        "plyo-box",
+        "bench",
+        "chair"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1948"
+  },
+  "id": "oec:single-leg-box-squat",
+  "instructions": {
+    "setup": [
+      "Stand 4 to 6 inches in front of a sturdy box or bench, facing away from it.",
+      "Shift your weight onto one leg and extend the non-working leg slightly forward off the floor.",
+      "Extend your arms forward at shoulder height to assist with counterbalance and brace your core."
+    ],
+    "steps": [
+      "Hinge slightly at the hip and bend your working knee to begin a slow, controlled descent.",
+      "Lower yourself under control until your hips gently contact the box without fully collapsing your posture or relaxing tension.",
+      "Pause for a brief moment on the box while keeping the free leg suspended off the floor.",
+      "Drive through the midfoot and heel of the working leg to extend the hip and knee, returning to a fully upright standing position."
+    ],
+    "breathing": "Inhale as you lower onto the box; exhale forcefully as you drive through your foot to stand.",
+    "cues": [
+      "Sit back softly",
+      "Knee tracks in line with your toes",
+      "Reach forward to balance",
+      "Drive the floor away"
+    ],
+    "common_faults": [
+      {
+        "fault": "Crashing down heavily onto the box instead of controlling the descent.",
+        "correction": "Slow the eccentric phase and use a higher box until you can touch down softly under muscular control."
+      },
+      {
+        "fault": "Knee caving inward (valgus collapse) during the ascent or descent.",
+        "correction": "Actively engage the gluteus medius to keep the knee tracking directly over the middle toes."
+      },
+      {
+        "fault": "Rocking forward with momentum to initiate the standing phase.",
+        "correction": "Maintain a slight forward torso lean and press straight into the floor from a dead stop rather than rocking off the box."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the box or chair is firmly anchored and will not slip or tip backward."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Single-Leg Box Squat",
+  "previous_ids": [
+    "oec:1-leg-box-squat"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: 1 Leg Box Squat",
+        "url": "https://wger.de/en/exercise/1948/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "jesusd"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:pistol-squat"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:bodyweight-box-squat"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "box",
+    "stance": {
+      "kind": "single-leg"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral bodyweight squat variation where you descend on one leg to sit briefly onto a box or bench before standing back up."
+}

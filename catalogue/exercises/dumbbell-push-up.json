@@ -1,0 +1,221 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Push-Up on Dumbbells",
+      "kind": "common"
+    },
+    {
+      "text": "Deficit Dumbbell Push-Up",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "weight-vest",
+      "mat"
+    ],
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "801"
+  },
+  "id": "oec:dumbbell-push-up",
+  "instructions": {
+    "setup": [
+      "Place two hex dumbbells parallel on the floor roughly shoulder-width apart.",
+      "Grip the handles firmly with a neutral grip and step your feet back into a full high-plank position.",
+      "Brace your core and glutes to establish a rigid, straight line from head to heels."
+    ],
+    "steps": [
+      "Lower your body in a controlled tempo by bending your elbows, keeping them tucked at roughly a 45-degree angle to your torso.",
+      "Descend into a deficit until your chest passes below the level of the dumbbell handles, feeling a stretch across the pectorals.",
+      "Press firmly through the handles to extend your elbows and return to the starting plank position.",
+      "Protracted your shoulder blades slightly at the top lockout before beginning the next repetition."
+    ],
+    "breathing": "Inhale smoothly as you lower your chest into the deficit, and exhale forcefully as you press back up.",
+    "cues": [
+      "Keep wrists straight over the handles.",
+      "Pull chest between the dumbbells.",
+      "Maintain a rigid plank throughout."
+    ],
+    "common_faults": [
+      {
+        "fault": "Using round dumbbells that can roll during the movement.",
+        "correction": "Use flat-sided or hex dumbbells to ensure a stable, non-rolling base of support."
+      },
+      {
+        "fault": "Sagging hips and hyper-extending the lumbar spine.",
+        "correction": "Actively squeeze your glutes and pull your ribs toward your pelvis to maintain a neutral spine."
+      },
+      {
+        "fault": "Flaring elbows out ninety degrees to the sides.",
+        "correction": "Tuck elbows to roughly 45 degrees relative to the torso to protect the shoulder joint."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure dumbbells are placed on a non-slip surface and do not roll before bearing full weight on them."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Push-Up",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dumbbell Push-Up",
+        "url": "https://wger.de/en/exercise/801/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:deficit-push-up"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:parallette-push-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "shoulder"
+    },
+    "position": "prone",
+    "range": "deficit",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A push-up variation performed holding dumbbells to allow a deeper deficit stretch and a wrist-friendly neutral grip."
+}

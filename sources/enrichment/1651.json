@@ -1,0 +1,161 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Reverse Lunge",
+  "summary": "A unilateral lower-body compound exercise where you step backward into a lunge while holding dumbbells at your sides.",
+  "aliases": [
+    {
+      "text": "Dumbbell Rear Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "DB Reverse Lunge",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Dumbbell Step-Back Lunge",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "split",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart holding a dumbbell in each hand at your sides with arms fully extended.",
+      "Engage your core, pull your shoulders back and down, and keep your chest upright."
+    ],
+    "steps": [
+      "Take a controlled step backward with one leg, landing on the ball of the rear foot.",
+      "Lower your hips straight down until the front thigh is roughly parallel to the floor and the back knee hovers just above the ground.",
+      "Drive firmly through the midfoot and heel of the front foot to push yourself back up to the starting position.",
+      "Complete the desired repetitions on one side before switching, or alternate legs as programmed."
+    ],
+    "breathing": "Inhale as you step back and lower into the lunge; exhale forcefully as you drive through the front foot to return to standing.",
+    "cues": [
+      "Railroad tracks, not a tightrope",
+      "Drive through the front heel",
+      "Keep your torso tall"
+    ],
+    "common_faults": [
+      {
+        "fault": "Stepping the rear foot directly behind the front foot, causing loss of balance.",
+        "correction": "Maintain hip-width spacing between your feet as you step backward."
+      },
+      {
+        "fault": "Slamming the rear knee into the floor.",
+        "correction": "Lower under control and stop just before the rear knee makes hard contact with the ground."
+      },
+      {
+        "fault": "Excessive forward torso collapse over the front thigh.",
+        "correction": "Keep your abdominal wall braced and your chest lifted throughout the movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the floor space behind you is clear of equipment before stepping back."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

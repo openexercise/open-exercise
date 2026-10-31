@@ -1,0 +1,183 @@
+{
+  "is_exercise": true,
+  "name": "Cable Half-Kneeling Single-Arm Lat Pulldown",
+  "summary": "A unilateral vertical pull performed from a half-kneeling position to build lat strength and core stability.",
+  "aliases": [
+    {
+      "text": "1-Arm Half-Kneeling Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Half-Kneeling One-Arm Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Half-Kneeling Cable Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Half-Kneeling Cable Lat Pulldown",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull",
+      "anti-rotation",
+      "anti-lateral-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "half-kneeling",
+  "grip_orientation": "neutral",
+  "stance_kind": "split",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "adduction",
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach a single-hand D-handle to a high cable pulley.",
+      "Take a half-kneeling stance facing the pulley, placing the knee on the working side down on the floor or a mat.",
+      "Plant the opposite foot flat in front with the hip and knee bent to ninety degrees.",
+      "Grasp the handle with an overhand or neutral grip and extend your arm fully overhead, aligning your torso with the cable's line of pull."
+    ],
+    "steps": [
+      "Brace your core and squeeze the glute of the down knee to lock your pelvis in place.",
+      "Initiate the pull by depressing your shoulder blade and driving your elbow down toward your hip.",
+      "Pull smoothly until your hand is near collarbone height and your lat is fully contracted.",
+      "Pause briefly at the bottom, then reverse the motion under control to return to a full overhead stretch."
+    ],
+    "breathing": "Inhale as you allow the arm to reach overhead into the stretch; exhale forcefully as you pull the handle down.",
+    "cues": [
+      "Drive the elbow to your back pocket",
+      "Keep your torso upright and square",
+      "Squeeze the down-leg glute",
+      "Control the stretch at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Leaning back excessively to use body momentum.",
+        "correction": "Brace the abdominals and glutes to keep the torso tall and motionless throughout the rep."
+      },
+      {
+        "fault": "Rotating the torso toward the working side during the pull.",
+        "correction": "Keep the chest and hips facing straight ahead, resisting any rotational pull from the cable."
+      },
+      {
+        "fault": "Cutting the range of motion short at the top.",
+        "correction": "Allow the shoulder blade to elevate naturally at the top for a full lat stretch before initiating the next rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a padded mat under the down knee to reduce joint discomfort.",
+        "Select a load that permits stable, upright posture without tipping to one side."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

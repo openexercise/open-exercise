@@ -1,0 +1,166 @@
+{
+  "is_exercise": true,
+  "name": "Stationary Bike",
+  "summary": "Pedal on an indoor stationary bicycle against adjustable resistance for cardiovascular conditioning and lower-body endurance.",
+  "aliases": [
+    {
+      "text": "bike",
+      "kind": "common"
+    },
+    {
+      "text": "exercise bike",
+      "kind": "common"
+    },
+    {
+      "text": "indoor cycling",
+      "kind": "common"
+    },
+    {
+      "text": "upright bike",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "cycle"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "calves",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "stationary-bike"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration",
+        "distance"
+      ],
+      "optional": [
+        "cadence",
+        "resistance-level",
+        "power",
+        "speed",
+        "heart-rate",
+        "calories",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "distance",
+        "cadence",
+        "resistance-level",
+        "power",
+        "heart-rate",
+        "calories",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so that your knee has a slight bend (approximately 25 to 35 degrees of flexion) when the pedal is at the lowest point of the stroke.",
+      "Adjust the handlebar height and reach so you can grip them comfortably without excessively rounding your back.",
+      "Secure your feet onto the pedals using the straps or clip-in system."
+    ],
+    "steps": [
+      "Begin pedaling with a smooth, continuous circular motion, driving down through the midfoot and pulling up through the back of the stroke.",
+      "Maintain a steady cadence, keeping your chest open and shoulders relaxed.",
+      "Adjust the resistance level as programmed to meet your target intensity or heart rate.",
+      "Continue pedaling smoothly for the desired duration or distance."
+    ],
+    "breathing": "Breathe rhythmically and continuously, matching your inhalations and exhalations to your pedal cadence.",
+    "cues": [
+      "Pedal in smooth circles, not stomps",
+      "Keep shoulders relaxed away from your ears",
+      "Maintain a soft bend in the knee at the bottom"
+    ],
+    "common_faults": [
+      {
+        "fault": "Saddle set too low, causing excessive knee flexion and anterior knee discomfort.",
+        "correction": "Raise the saddle until only a slight bend remains in your knee when your leg is extended at the bottom of the stroke."
+      },
+      {
+        "fault": "Excessive upper-body swaying or bouncing on the saddle.",
+        "correction": "Stabilize your torso, engage your core, and increase resistance if your cadence is out of control."
+      },
+      {
+        "fault": "Rounding the spine and placing excessive weight on the handlebars.",
+        "correction": "Hinge slightly at the hips, keep your chest lifted, and maintain a light, supportive grip."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure all adjustment pins on the saddle and handlebars are securely locked before mounting.",
+        "Do not stop moving your legs abruptly if using a fixed-gear flywheel; gradually reduce cadence or engage the emergency brake."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Single-Leg Hip Thrust",
+  "summary": "A unilateral hip extension exercise performed with the upper back supported on a bench and a dumbbell resting across the working hip to build glute strength and stability.",
+  "aliases": [
+    {
+      "text": "Dumbbell One-Leg Hip Thrust",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Leg Dumbbell Hip Thrust",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "supine",
+  "stance_kind": "single-leg",
+  "load_position": "hip",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-femoris",
+      "role": "synergist"
+    },
+    {
+      "muscle": "semitendinosus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "semimembranosus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "plyo-box"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit on the floor with your upper back resting across the edge of a stable weight bench at roughly mid-scapula level.",
+      "Place a dumbbell across the hip crease of your working leg, holding it securely with both hands.",
+      "Plant the working foot flat on the floor so your shin will be roughly vertical at full hip extension.",
+      "Lift the non-working leg off the ground, flexing the hip and knee to roughly ninety degrees."
+    ],
+    "steps": [
+      "Drive through the heel and midfoot of the working leg to thrust your hips upward until full extension.",
+      "Squeeze your glute hard at the top, maintaining a neutral lumbar spine and keeping the pelvis level.",
+      "Lower your hips under control by hinging at the hip until they lightly hover off the floor or touch down.",
+      "Repeat for the desired number of reps, then switch sides."
+    ],
+    "breathing": "Inhale as you lower your hips; exhale and brace as you drive the weight up into full extension.",
+    "cues": [
+      "Drive through the working heel.",
+      "Keep ribs down and chin tucked.",
+      "Lock out the hip, not the lower back.",
+      "Do not let the non-working hip dip."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lower back at the top.",
+        "correction": "Keep your ribcage drawn down, tuck your chin slightly, and focus on posterior pelvic tilt to finish with glute contraction."
+      },
+      {
+        "fault": "Pelvis tilting or rotating during the movement.",
+        "correction": "Brace the core and engage the glute medius to keep both hip bones parallel to the floor throughout the rep."
+      },
+      {
+        "fault": "Placing the foot too far forward or too close to the bench.",
+        "correction": "Adjust foot placement so the shin is vertical (perpendicular to the floor) at the top of the thrust."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the bench is stable and pushed against a secure wall or heavy rack so it does not slide backward.",
+        "Hold the dumbbell firmly against the hip crease throughout the set to prevent it from shifting or falling."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

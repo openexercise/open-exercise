@@ -1,0 +1,184 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Bent-Over Lat Extension",
+  "summary": "An isolation exercise performed in a hinged position that targets the latissimus dorsi by sweeping dumbbells backward with fixed, slightly bent arms.",
+  "aliases": [
+    {
+      "text": "Lat Pull DB",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Lat Pull",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Straight-Arm Pullback",
+      "kind": "common"
+    },
+    {
+      "text": "Bent-Over Dumbbell Straight-Arm Pullback",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Straight-Arm Kickback",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "bent-over",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-long-head",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "hyperextension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "downward-rotation",
+        "depression"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall holding a dumbbell in each hand with a neutral grip.",
+      "Hinge at your hips while keeping your spine neutral and knees softly bent until your torso is roughly 45 degrees to the floor.",
+      "Allow your arms to hang naturally under your shoulders with a soft, fixed bend at the elbows."
+    ],
+    "steps": [
+      "Keeping your arms nearly straight with the elbow angle locked, sweep the dumbbells backward in an arc past your hips.",
+      "Contract your lats firmly at the top of the movement as your upper arms extend behind your torso.",
+      "Lower the dumbbells under control along the same path back to the starting hang position."
+    ],
+    "breathing": "Inhale as you lower the weights, and exhale as you sweep the dumbbells backward.",
+    "cues": [
+      "Lock your elbows soft and sweep back",
+      "Pull with your lats, not your hands",
+      "Squeeze your armpits tight at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Turning the movement into a triceps kickback by bending and straightening the elbows.",
+        "correction": "Keep the elbow angle completely fixed throughout the rep so all movement comes from the shoulder."
+      },
+      {
+        "fault": "Using torso momentum to swing the dumbbells upward.",
+        "correction": "Keep your torso stationary and select a weight that allows strict shoulder extension."
+      },
+      {
+        "fault": "Rounding the lower back during the hinge.",
+        "correction": "Brace your core and keep your chest proud with a flat back."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use moderate loads to protect the shoulder joint in extension and maintain lower-back positioning."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

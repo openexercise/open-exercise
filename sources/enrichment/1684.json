@@ -1,0 +1,198 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Thruster",
+  "summary": "A full-body compound exercise combining a front squat and an overhead press into one fluid motion using a pair of dumbbells.",
+  "aliases": [
+    {
+      "text": "DB Thruster",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Dumbbell Squat to Overhead Press",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Squat Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "conditioning",
+      "strength",
+      "power"
+    ],
+    "movement_patterns": [
+      "squat",
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "mixed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "grip_width": "shoulder",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "front-rack",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet shoulder-width apart and toes angled slightly outward.",
+      "Clean two dumbbells to your shoulders, resting the back head of each dumbbell lightly on the shoulders with elbows high and a neutral grip."
+    ],
+    "steps": [
+      "Brace your core and descend into a full squat by bending your hips and knees until your hip crease drops below parallel.",
+      "Drive upward aggressively through your midfoot and heels, fully extending the hips and knees.",
+      "Transfer the momentum from your legs into the dumbbells, pressing them directly overhead as you reach full hip extension.",
+      "Lock out the dumbbells overhead with biceps aligned with your ears.",
+      "Lower the dumbbells back to your shoulders in a controlled descent as you immediately break at the hips and knees into the next repetition."
+    ],
+    "breathing": "Inhale deeply at the top or during the descent into the squat, and exhale forcefully as you drive out of the bottom and press overhead.",
+    "cues": [
+      "Legs drive the press",
+      "Elbows stay up in the squat",
+      "Punch the ceiling at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pressing too early before the hips and knees have fully extended.",
+        "correction": "Wait until your lower body reaches full extension to transfer leg drive directly into the overhead press."
+      },
+      {
+        "fault": "Elbows dropping during the squat, causing the torso to collapse forward.",
+        "correction": "Keep your chest tall and elbows pointed forward to maintain an upright front-rack posture."
+      },
+      {
+        "fault": "Pausing between the squat and the press, turning the movement into two disjointed lifts.",
+        "correction": "Maintain continuous momentum from the squat ascent directly into the overhead lockout."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a neutral spine under fatigue; avoid overarching the lower back at lockout overhead.",
+        "If you lose control or balance, drop the dumbbells safely down to your sides away from your body."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

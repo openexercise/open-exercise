@@ -1,0 +1,155 @@
+{
+  "is_exercise": true,
+  "name": "Plate Pinch",
+  "summary": "An isometric grip exercise where one or more weight plates are held between the thumb and fingers to build pinching strength and forearm endurance.",
+  "aliases": [
+    {
+      "text": "Plate Pinch Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Weight Plate Pinch",
+      "kind": "common"
+    },
+    {
+      "text": "Pinch Grip Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Two-Plate Pinch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "strongman"
+    ],
+    "movement_patterns": [
+      "isolation-grip"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "muscles": [
+    {
+      "muscle": "forearm-flexors",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hand-intrinsics",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "forearm-extensors",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rotator-cuff",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "fingers",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "weight-plate"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Position one thick plate or two smooth-faced plates together standing upright on the floor or a low bench.",
+      "Stand tall alongside the weight with feet hip-width apart.",
+      "Hinge at the hips and grasp the rim or face of the plate(s) using only the pads of your fingers on one side and your thumb on the opposite side."
+    ],
+    "steps": [
+      "Squeeze the plate(s) forcefully between your fingers and thumb.",
+      "Deadlift the weight smoothly off the floor by extending your hips and knees until standing fully upright.",
+      "Hold the plate stationary at your side with your arm extended and shoulders packed for the target duration.",
+      "Hinge at the hips to return the plate under control to the floor before grip failure occurs, then switch sides."
+    ],
+    "breathing": "Breathe continuously and evenly throughout the hold while maintaining abdominal bracing.",
+    "cues": [
+      "Crush through the thumb pad",
+      "Keep the shoulder packed down",
+      "Stand tall without leaning to the side"
+    ],
+    "common_faults": [
+      {
+        "fault": "Resting the plate against the leg for support.",
+        "correction": "Hold the arm slightly away from the body so the weight hangs purely by grip strength."
+      },
+      {
+        "fault": "Curling the fingers under the rim of the plate.",
+        "correction": "Keep the fingers and thumb extended flat against the smooth sides to ensure a pure pinch grip."
+      },
+      {
+        "fault": "Holding until complete failure and dropping the plate on feet.",
+        "correction": "Terminate the set a few seconds before total failure and lower the plate safely with control."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure your feet are positioned clear of the drop zone beneath the plate.",
+        "Keep the spine neutral when picking up and lowering the plates."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

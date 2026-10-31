@@ -1,0 +1,172 @@
+{
+  "is_exercise": true,
+  "name": "Cable Face Pull",
+  "summary": "A cable pulling exercise targeting the rear deltoids, upper back, and rotator cuff through combined horizontal abduction and external rotation.",
+  "aliases": [
+    {
+      "text": "Face Pull",
+      "kind": "common"
+    },
+    {
+      "text": "Facepull",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Cable Rope Face Pull",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "horizontal-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_kind": "staggered",
+  "muscles": [
+    {
+      "muscle": "deltoid-posterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "infraspinatus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-minor",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-lateral",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-abduction",
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "upward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "resistance-band"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach a dual-handled rope to a cable pulley positioned at upper-chest to eye height.",
+      "Grasp the rope with both hands using a neutral or overhand grip with your thumbs pointing backward.",
+      "Step back a couple of paces to elevate the weight stack and assume a balanced staggered stance with knees slightly unlocked and core braced."
+    ],
+    "steps": [
+      "Initiate the movement by retracting your shoulder blades and pulling the center of the rope directly toward your face.",
+      "As your hands approach your face, externally rotate your shoulders by pulling the rope ends apart until your hands are alongside your ears.",
+      "Pause briefly at peak contraction, ensuring your elbows are high and wide and shoulder blades fully squeezed.",
+      "Slowly extend your arms forward under control to return the weight stack to the starting position."
+    ],
+    "breathing": "Inhale as your arms extend forward; exhale as you pull and externally rotate toward your face.",
+    "cues": [
+      "Pull the rope apart, not just back",
+      "Lead with your hands and thumbs, not just elbows",
+      "Keep your chest proud and ribs pinned down"
+    ],
+    "common_faults": [
+      {
+        "fault": "Using excessive body English and leaning backward to move the weight.",
+        "correction": "Lower the load, brace your core, and keep your torso stationary throughout the set."
+      },
+      {
+        "fault": "Leading entirely with the elbows without externally rotating the shoulders.",
+        "correction": "Ensure your hands finish level with or behind your elbows, resembling a double-biceps pose."
+      },
+      {
+        "fault": "Shrugging the shoulders upward toward the ears.",
+        "correction": "Depress your shoulder girdle and emphasize mid-to-lower trapezius activation rather than upper trap shrugging."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Select a light to moderate resistance to maintain strict control and avoid shoulder impingement."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

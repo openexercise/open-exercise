@@ -1,0 +1,142 @@
+{
+  "is_exercise": true,
+  "name": "Standing Hip Abduction",
+  "summary": "A bodyweight exercise that strengthens the hip abductors and challenges single-leg stability by raising one leg out to the side.",
+  "aliases": [
+    {
+      "text": "Standing Side Leg Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Leg Abduction",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Hip Abductor Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "rehabilitation",
+      "mobility",
+      "balance"
+    ],
+    "movement_patterns": [
+      "isolation-hip-abduction",
+      "balance"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "single-leg",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-medius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-minimus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "abduction",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "wall",
+    "chair",
+    "mini-band",
+    "ankle-weight"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and your core braced.",
+      "Place your hands on your hips, or lightly touch a wall or chair for balance if needed.",
+      "Shift your weight onto the supporting leg while maintaining a soft, unlocked knee."
+    ],
+    "steps": [
+      "Lift the non-weight-bearing leg straight out to the side away from your midline, keeping your toes pointed forward.",
+      "Pause for a brief moment at peak hip abduction without allowing your torso to tilt.",
+      "Lower the leg smoothly back toward the starting position under control.",
+      "Complete the prescribed repetitions, then switch and perform the movement on the opposite side."
+    ],
+    "breathing": "Exhale as you raise the leg out to the side; inhale as you return it to the start.",
+    "cues": [
+      "Lead with your heel",
+      "Keep your pelvis level",
+      "Stand tall without leaning"
+    ],
+    "common_faults": [
+      {
+        "fault": "Leaning the torso sideways to compensate for limited hip mobility.",
+        "correction": "Keep your spine upright and only lift the leg as high as hip active range allows."
+      },
+      {
+        "fault": "Externally rotating the foot so the toes point upward, shifting tension onto the hip flexors.",
+        "correction": "Keep your foot neutral or slightly internally rotated so the toes point straight ahead or slightly inward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Hold onto a sturdy surface like a wall or chair if balance is compromised."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

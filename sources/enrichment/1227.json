@@ -1,0 +1,174 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Rear Delt Row",
+  "summary": "A bent-over dumbbell row performed with flared elbows to emphasize the posterior deltoids and upper back.",
+  "aliases": [
+    {
+      "text": "Bent-Over Rear Delt Row",
+      "kind": "common"
+    },
+    {
+      "text": "Wide Dumbbell Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "bent-over",
+  "grip_orientation": "pronated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-posterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "infraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-minor",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand with your feet hip-width apart holding a dumbbell in each hand using an overhand (pronated) grip.",
+      "Hinge at your hips while keeping your back flat until your torso is nearly parallel to the floor.",
+      "Allow your arms to hang straight down beneath your shoulders with a slight bend in your knees."
+    ],
+    "steps": [
+      "Pull the dumbbells upward and outward by driving your elbows out wide at roughly a 70- to 90-degree angle from your torso.",
+      "Continue rowing until your upper arms are aligned with your shoulders, squeezing the back of your shoulders at the top.",
+      "Lower the weights smoothly back to the starting hanging position under full control."
+    ],
+    "breathing": "Exhale as you row the weights upward; inhale as you lower them back to the start.",
+    "cues": [
+      "Lead with the elbows out wide",
+      "Keep your torso steady and flat",
+      "Pull across the chest, not into the hips"
+    ],
+    "common_faults": [
+      {
+        "fault": "Tucking elbows close to the ribs, turning the exercise into a standard lat row.",
+        "correction": "Keep your upper arms flared out wide at roughly a right angle to the torso throughout the movement."
+      },
+      {
+        "fault": "Using torso momentum to swing the weights up.",
+        "correction": "Maintain a strict hip hinge and pause briefly at the top to ensure target muscle recruitment."
+      },
+      {
+        "fault": "Rounding the lower back.",
+        "correction": "Brace your core, hinge deeply at the hips, and keep a neutral spine from head to pelvis."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Keep the load moderate to maintain torso stability and avoid straining the lower back or neck."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

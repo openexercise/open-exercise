@@ -1,0 +1,151 @@
+{
+  "is_exercise": true,
+  "name": "Cable Single-Arm Triceps Pushdown",
+  "summary": "An isolation exercise that uses a high cable pulley to train the triceps one arm at a time through elbow extension.",
+  "aliases": [
+    {
+      "text": "Single-Arm Cable Triceps Pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Single-Arm Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Cable Triceps Pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Triceps Press",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable Pressdown",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "stance_kind": "staggered",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "anconeus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set a cable pulley to the highest position and attach a single D-handle or grip the bare cable end.",
+      "Grasp the handle with one hand and take a half-step back, assuming a stable staggered stance with a slight forward torso lean.",
+      "Position your upper arm close to your torso and bend your elbow fully so your hand starts near upper chest height."
+    ],
+    "steps": [
+      "Keeping your upper arm fixed in place, extend your elbow downward until your arm is fully straightened.",
+      "Pause briefly at the bottom to contract your triceps.",
+      "Control the cable back up by bending your elbow until you achieve a full stretch at the top."
+    ],
+    "breathing": "Exhale as you press the handle down to lockout and inhale as you return to the starting position.",
+    "cues": [
+      "Pin your elbow in space.",
+      "Only the forearm moves.",
+      "Squeeze hard at full lockout."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the upper arm forward and backward during reps.",
+        "correction": "Lock your shoulder and keep your upper arm stationary so the movement comes exclusively from the elbow."
+      },
+      {
+        "fault": "Using torso momentum or dipping the shoulder to push the weight down.",
+        "correction": "Brace your core, maintain a fixed torso angle, and reduce the load if necessary."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid violently hyperextending the elbow at the bottom of the movement."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

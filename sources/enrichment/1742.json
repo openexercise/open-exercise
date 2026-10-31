@@ -1,0 +1,156 @@
+{
+  "is_exercise": true,
+  "name": "Back Lever",
+  "summary": "An advanced isometric calisthenics hold where the body is suspended horizontally facing downward with arms extended behind the torso.",
+  "aliases": [],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "pull",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "advanced"
+  },
+  "position": "hanging",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "pull-up-bar",
+        "gymnastic-rings"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "resistance-band"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Grasp a pull-up bar or gymnastic rings with an overhand, shoulder-width grip.",
+      "Invert your body by pulling your knees toward your chest and passing your feet between your arms into a German hang position, or lower down from an inverted hang."
+    ],
+    "steps": [
+      "From the inverted or German hang position, depress your scapulae and engage your chest, anterior shoulders, and core.",
+      "Extend your hips and legs while raising or lowering your torso until your entire body forms a straight, horizontal line parallel to the floor.",
+      "Keep your arms fully extended, lock out your elbows, and hold the static horizontal position for the prescribed duration.",
+      "Controlled return either by tucking the knees to dismount or lowering through a German hang."
+    ],
+    "breathing": "Maintain steady, controlled shallow breathing through the diaphragm while bracing your abdominal wall throughout the hold.",
+    "cues": [
+      "Keep elbows locked",
+      "Drive shoulders forward and down",
+      "Squeeze glutes and point your toes"
+    ],
+    "common_faults": [
+      {
+        "fault": "Piking at the hips or arching the lumbar spine excessively.",
+        "correction": "Squeeze the glutes and abdominals together to maintain a rigid, neutral hollow-body line."
+      },
+      {
+        "fault": "Bending the elbows to reduce the lever arm.",
+        "correction": "Fully lock the elbows; regress to a tuck or straddle back lever if straight-arm strength is insufficient."
+      },
+      {
+        "fault": "Hips resting higher or lower than shoulder level.",
+        "correction": "Align the shoulders, hips, and ankles in a single horizontal plane parallel to the ground."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Places extreme stress on the biceps tendon and anterior shoulder capsule; develop prerequisite German hang mobility and master tuck progressions before attempting full extension."
+      ],
+      "spotter": "recommended",
+      "safeties": false
+    }
+  }
+}

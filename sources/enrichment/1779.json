@@ -1,0 +1,174 @@
+{
+  "is_exercise": true,
+  "name": "Landmine Rotation",
+  "summary": "A standing rotational core exercise performed by pivoting a barbell loaded in a landmine sleeve across an arc from hip to hip.",
+  "aliases": [
+    {
+      "text": "Landmine Twist",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Landmine Twist",
+      "kind": "common"
+    },
+    {
+      "text": "Landmine Russian Twist",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "rotation",
+      "anti-rotation"
+    ],
+    "mechanics": "compound",
+    "force": "mixed",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "transverse",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "external-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "rotation"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "internal-rotation",
+        "external-rotation",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "horizontal-abduction",
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "landmine"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "weight-plate"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "load",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Insert one end of a barbell into a landmine attachment or secure it in a corner.",
+      "Stand facing the landmine with feet shoulder-width apart and knees slightly bent.",
+      "Grasp the free end of the barbell sleeve with both hands using an interlocking or overlapping grip, extending your arms forward and up at roughly chest height."
+    ],
+    "steps": [
+      "Brace your core and smoothly rotate the barbell in a wide arc down toward one hip while keeping your arms mostly straight.",
+      "Allow your back foot and hips to pivot slightly to transfer force safely through the lower body without twisting the lumbar spine.",
+      "Reverse the movement by engaging your obliques and shoulders to sweep the barbell back through the center and over to the opposite hip.",
+      "Continue alternating sides in a controlled, rhythmic arc."
+    ],
+    "breathing": "Exhale forcefully as you drive the barbell back up through the center arc, and inhale as you lower toward either hip.",
+    "cues": [
+      "Keep the arms long and rotate from the torso.",
+      "Pivot on the back foot to protect the lower back.",
+      "Control the descent; do not let the bar pull you off balance."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive bending of the elbows, turning the exercise into an arm curl.",
+        "correction": "Maintain a soft but fixed bend in the elbows so the rotational load stays on the core and shoulders."
+      },
+      {
+        "fault": "Twisting aggressively through a locked lumbar spine without hip movement.",
+        "correction": "Allow the hips and trailing foot to pivot naturally to keep rotation centered at the thoracic spine and hips."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the base of the barbell is firmly anchored before initiating dynamic rotation.",
+        "Start with an unloaded barbell to master the arc and hip pivot before adding weight plates."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

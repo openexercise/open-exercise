@@ -1,0 +1,162 @@
+{
+  "is_exercise": true,
+  "name": "Single-Arm Cable Press-Around",
+  "summary": "A unilateral cable chest press performed across the midline to train the pectoralis major through an extended horizontal adduction range of motion.",
+  "aliases": [
+    {
+      "text": "Cable Press Around",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Press-Around",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable Chest Press-Around",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push",
+      "anti-rotation"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "shoulder",
+  "stance_kind": "staggered",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set a cable pulley to mid-chest height and attach a single D-handle.",
+      "Grasp the handle with a neutral grip and step away from the machine, turning your body roughly 30 to 45 degrees away from the cable column so the line of pull matches your pectoral fibers.",
+      "Adopt a stable staggered stance with the opposite-side foot forward, holding the machine frame with the non-working hand if needed for additional stability."
+    ],
+    "steps": [
+      "Begin with your elbow bent and tucked slightly, allowing the cable to pull your arm back into a comfortable chest stretch.",
+      "Press the handle forward and diagonally across your torso past your sternal midline while extending your elbow.",
+      "Squeeze your pectoral fully in the peak contracted position across the body without twisting your torso.",
+      "Reverse the motion under control, returning your arm until a deep pectoral stretch is achieved before initiating the next repetition."
+    ],
+    "breathing": "Inhale as you allow the weight to pull into the stretch; exhale as you press across your chest.",
+    "cues": [
+      "Wrap your bicep across your sternum",
+      "Stay braced and resist twisting through your hips",
+      "Drive across the midline, not just forward"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the entire torso toward the pressing side during the press.",
+        "correction": "Brace the core and maintain a fixed torso angle so the chest muscles perform the adduction rather than spine rotation."
+      },
+      {
+        "fault": "Stopping short of the midline.",
+        "correction": "Ensure the working hand crosses past the center of your chest to achieve a full shortened contraction of the pectoralis major."
+      },
+      {
+        "fault": "Shrugging the working shoulder upward toward the ear.",
+        "correction": "Keep the scapula depressed and stable against your ribcage throughout the movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid letting the cable excessively hyperextend the shoulder joint at the deep stretch position."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Hyper Y W Combo",
+      "kind": "common"
+    },
+    {
+      "text": "Hyperextension Y-W Combo",
+      "kind": "common"
+    },
+    {
+      "text": "Back Extension Y-W Raise",
+      "kind": "common"
+    },
+    {
+      "text": "GHD Y-W Raise",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "erector-spinae",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "infraspinatus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "extension",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "depression",
+          "upward-rotation"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-abduction",
+          "abduction",
+          "external-rotation"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge",
+      "horizontal-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "mixed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "weight-plate",
+      "dumbbell"
+    ],
+    "required": [
+      [
+        "roman-chair",
+        "ghd",
+        "stability-ball"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1487"
+  },
+  "id": "oec:back-extension-y-w-combo",
+  "instructions": {
+    "setup": [
+      "Lock your feet securely into a Roman chair, 45-degree hyperextension apparatus, or GHD with your hips resting against the pad.",
+      "Hinge forward at the hips to lower your torso toward the floor.",
+      "Optionally hold a very light weight plate or micro dumbbell in each hand."
+    ],
+    "steps": [
+      "Contract your glutes and hamstrings to extend your hips, raising your torso until your body forms a straight line from heels to head.",
+      "As you reach the top of the extension, pull your elbows back and externally rotate your shoulders to form a 'W' shape with your arms, pinching your shoulder blades together.",
+      "Lower your arms and hinge at the hips under control back to the starting bottom position.",
+      "On the subsequent repetition, extend your torso to neutral and raise your straight arms overhead at roughly a 45-degree angle into a 'Y' shape with thumbs pointed toward the ceiling.",
+      "Lower under control and continue alternating between the W and Y patterns for the desired repetitions."
+    ],
+    "breathing": "Inhale as you hinge down into the bottom position; exhale steadily as you extend your trunk and raise your arms into either the W or Y position.",
+    "cues": [
+      "Glutes tight at the top.",
+      "Thumbs to the sky on the Y.",
+      "Squeeze shoulder blades down and back on the W.",
+      "Do not arch into hyperextension."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lumbar spine at the top of the hip hinge.",
+        "correction": "Stop when your body reaches a neutral straight alignment from shoulders to heels, relying on glute contraction rather than lower-back arching."
+      },
+      {
+        "fault": "Using excessively heavy weights that degrade arm path mechanics.",
+        "correction": "Use light micro plates or just bodyweight to ensure pure rotator cuff and mid/lower trapezius recruitment without shrugging."
+      },
+      {
+        "fault": "Shrugging the upper traps toward the ears during the Y raise.",
+        "correction": "Depress the shoulder blades down away from the ears and focus on activating the lower trapezius."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the ankle pads are securely positioned and locked before initiating the movement."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 2,
+      "kind": "bodyweight-plus-external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "load",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Back Extension Y-W Combo",
+  "previous_ids": [
+    "oec:hyper-y-w-combo"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Hyper Y W Combo",
+        "url": "https://wger.de/en/exercise/1487/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Moffi"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:back-extension"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:back-extension"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:prone-ytw-raise"
+    }
+  ],
+  "setup": {
+    "load_position": "at-sides",
+    "position": "prone",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A compound movement combining a trunk extension on a hyperextension bench or GHD with alternating Y and W arm raises to strengthen the posterior chain and upper-back stabilizers."
+}

@@ -1,0 +1,214 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Hex Press",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Squeeze Press",
+      "kind": "common"
+    },
+    {
+      "text": "Squeeze Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "horizontal-adduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "depression"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "bench",
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1353"
+  },
+  "id": "oec:dumbbell-hex-press",
+  "instructions": {
+    "setup": [
+      "Sit on the end of a flat bench with a pair of dumbbells resting upright on your thighs.",
+      "Lie back onto the bench, bringing the dumbbells to your chest with a neutral grip.",
+      "Plant your feet firmly on the floor and retract your shoulder blades into the bench.",
+      "Press the flat inner surfaces of the dumbbells tightly against each other directly over your chest."
+    ],
+    "steps": [
+      "Maintain active inward pressure squeezing the dumbbells together as you lower them toward your sternum.",
+      "Pause lightly as the dumbbells make contact with your lower chest, keeping constant tension.",
+      "Press the weights vertically back to the starting lockout position while forcefully squeezing them inward throughout the entire ascent."
+    ],
+    "breathing": "Inhale deeply as you lower the dumbbells to your chest, and exhale forcefully as you press upward to lockout.",
+    "cues": [
+      "Crush the dumbbells together.",
+      "Keep elbows tucked slightly.",
+      "Constant inward pressure."
+    ],
+    "common_faults": [
+      {
+        "fault": "Letting the dumbbells separate during the lift.",
+        "correction": "Actively squeeze the dumbbells together with equal inward force at all points of the movement."
+      },
+      {
+        "fault": "Flaring the elbows out excessively wide.",
+        "correction": "Keep the elbows tucked at roughly a 30 to 45 degree angle relative to your torso."
+      },
+      {
+        "fault": "Bouncing the weights off the sternum.",
+        "correction": "Control the eccentric phase and touch the chest gently before pressing back up."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Hexagonal dumbbells are strongly preferred; rounded dumbbells can slip and pinch your fingers if squeezed unevenly."
+      ],
+      "spotter": "recommended"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Hex Press",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dumbbell Hex Press",
+        "url": "https://wger.de/en/exercise/1353/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Anastasious"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-close-grip-bench-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "narrow"
+    },
+    "position": "supine",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A dumbbell bench press variation where two dumbbells are pressed firmly together throughout the entire range of motion to maximize adduction and chest contraction."
+}

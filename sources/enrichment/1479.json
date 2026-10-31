@@ -1,0 +1,146 @@
+{
+  "is_exercise": true,
+  "name": "Twisting Sit-Up",
+  "summary": "A dynamic sit-up variation combining spinal flexion and trunk rotation to target the abdominal wall and obliques.",
+  "aliases": [
+    {
+      "text": "Cross-Body Sit-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Sit-Up Elbow Thrust",
+      "kind": "common"
+    },
+    {
+      "text": "Rotational Sit-Up",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "spinal-flexion",
+      "rotation"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "external-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion",
+        "rotation"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "flexion",
+        "rotation"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie supine on a floor or mat with knees bent and feet planted flat on the floor about hip-width apart.",
+      "Place your fingertips lightly beside your ears or temples with elbows flared slightly outward, keeping your neck neutral."
+    ],
+    "steps": [
+      "Engage your abdominals and flex your spine to raise your torso off the floor toward your knees.",
+      "As your upper torso clears the floor, rotate your trunk to drive one elbow across your body toward the opposite knee.",
+      "Pause momentarily at the peak of the twist with full abdominal contraction.",
+      "Rotate your torso back to center as you lower yourself under control to the starting position.",
+      "Repeat the movement, rotating to the opposite side on the subsequent repetition."
+    ],
+    "breathing": "Exhale forcefully as you sit up and twist; inhale smoothly as you lower your torso back to the floor.",
+    "cues": [
+      "Rotate through the ribs, not just the shoulders",
+      "Curl your spine off the floor vertebra by vertebra",
+      "Keep hands light against the head to avoid pulling on the neck"
+    ],
+    "common_faults": [
+      {
+        "fault": "Yanking on the cervical spine with the hands to initiate the movement.",
+        "correction": "Keep fingertips light at the temples and generate the flexion strictly from your abdominal muscles."
+      },
+      {
+        "fault": "Swinging arms or relying purely on momentum rather than muscular contraction.",
+        "correction": "Perform the ascent smoothly, pausing briefly at the peak of the twist before controlling the descent."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid rapid, forceful lumbar twisting if you have a history of lumbar disc pathology."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

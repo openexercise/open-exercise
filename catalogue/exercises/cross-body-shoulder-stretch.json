@@ -1,0 +1,188 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Delt Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Cross-Body Deltoid Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Posterior Deltoid Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Posterior Shoulder Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Cross-Body Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-posterior",
+        "role": "stretched"
+      },
+      {
+        "muscle": "infraspinatus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "teres-minor",
+        "role": "stretched"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1536,2685"
+  },
+  "id": "oec:cross-body-shoulder-stretch",
+  "instructions": {
+    "setup": [
+      "Stand or sit tall with feet hip-width apart and your shoulders relaxed down away from your ears.",
+      "Bring one arm straight across your chest at approximately shoulder height."
+    ],
+    "steps": [
+      "Place your opposite hand or forearm on the triceps of the outstretched arm, just above the elbow.",
+      "Gently pull the arm closer toward your chest until you feel a comfortable stretch along the back of the shoulder.",
+      "Hold the position steadily without bouncing.",
+      "Release slowly and repeat on the opposite arm."
+    ],
+    "breathing": "Breathe smoothly and deeply throughout the hold, using each exhalation to sink gently into the stretch.",
+    "cues": [
+      "Keep shoulders down",
+      "Don't twist your torso",
+      "Pull above the elbow, not on the joint"
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulder of the stretched arm upward toward the ear.",
+        "correction": "Actively depress the shoulder blade and keep the neck long before pulling the arm across."
+      },
+      {
+        "fault": "Rotating the torso in the direction of the pull, reducing the stretch on the shoulder.",
+        "correction": "Keep your hips and chest squared straight forward throughout the stretch."
+      },
+      {
+        "fault": "Pressing directly on the elbow joint.",
+        "correction": "Place the assisting hand on the back of the upper arm or forearm, avoiding direct pressure on the joint."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not force the arm past a gentle stretch; aggressive horizontal adduction can cause anterior impingement."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Cross-Body Shoulder Stretch",
+  "previous_ids": [
+    "oec:delt-stretch",
+    "oec:cross-body-stretch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Delt Stretch",
+        "url": "https://wger.de/en/exercise/1536/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Expenses7000"
+      },
+      {
+        "title": "wger: Cross-Body Stretch",
+        "url": "https://wger.de/en/exercise/2685/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "tobias08"
+      }
+    ]
+  },
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A static upper-body stretch that elongates the posterior deltoid, rotator cuff, and upper back by pulling one arm across the chest."
+}

@@ -1,0 +1,238 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Cable Woodchopper",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Wood Chop",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Cable Twist",
+      "kind": "common"
+    },
+    {
+      "text": "Horizontal Cable Woodchop",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Woodchoppers",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "external-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "rotation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "internal-rotation",
+          "external-rotation",
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "rotation"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "145"
+  },
+  "id": "oec:cable-woodchop",
+  "instructions": {
+    "setup": [
+      "Set the cable pulley to approximately chest or mid-torso height and attach a single handle.",
+      "Stand sideways to the cable machine with feet shoulder-width apart and knees slightly bent.",
+      "Grasp the handle with both hands, clasping one hand over the other, and step away to lift the weight stack and establish tension.",
+      "Extend your arms out in front of your chest with a slight, fixed bend in your elbows."
+    ],
+    "steps": [
+      "Brace your core and initiate the movement by rotating your torso away from the pulley across your body.",
+      "Pivot slightly on the ball of the trailing foot if needed, keeping your hips stable and the rotation centered in your upper torso.",
+      "Pause for a moment at the end range of rotation, holding strong abdominal tension.",
+      "Slowly reverse the rotation under control, resisting the cable's pull until you return to the starting position.",
+      "Complete all repetitions on one side before turning around to train the opposite side."
+    ],
+    "breathing": "Exhale sharply as you rotate across your body, and inhale steadily as you return to the starting position.",
+    "cues": [
+      "Rotate through the ribs, not just the arms.",
+      "Keep arms long and locked into the torso.",
+      "Resist the pull on the way back."
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling primarily with the arms and shoulders rather than driving rotation from the trunk.",
+        "correction": "Keep your elbow bend fixed and focus on turning your chest and shoulders as one unit."
+      },
+      {
+        "fault": "Letting the cable yank the body back into the starting position without control.",
+        "correction": "Take two to three seconds on the return phase to work the eccentric contraction of the obliques."
+      },
+      {
+        "fault": "Excessively twisting through the lower back instead of rotating from the thoracic spine and hips.",
+        "correction": "Brace the abdominal wall tightly and allow the back hip and foot to pivot slightly rather than forcing lumbar torsion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessive loads that force aggressive twisting through the lumbar spine."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Cable Woodchop",
+  "previous_ids": [
+    "oec:cable-woodchoppers"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Cable Woodchoppers",
+        "url": "https://wger.de/en/exercise/145/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "robhoyt"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:landmine-rotation"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-torso-rotation"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:standing-torso-twist"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A standing core exercise that trains transverse-plane rotational strength and anti-rotational control against cable resistance."
+}

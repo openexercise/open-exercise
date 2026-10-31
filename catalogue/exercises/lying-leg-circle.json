@@ -1,0 +1,222 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Leg Wheel",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Leg Circle",
+      "kind": "common"
+    },
+    {
+      "text": "Double Leg Circle",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Leg Circles",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "obliques",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "synergist"
+      },
+      {
+        "muscle": "tensor-fasciae-latae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "circumduction"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "pilates"
+    ],
+    "movement_patterns": [
+      "anti-extension",
+      "anti-rotation"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1909"
+  },
+  "id": "oec:lying-leg-circle",
+  "instructions": {
+    "setup": [
+      "Lie face up on a mat with your arms extended along your sides and palms pressing into the floor for support.",
+      "Raise both legs together toward the ceiling so your hips are flexed at approximately 90 degrees.",
+      "Press your lower back firmly into the floor by bracing your abdominals."
+    ],
+    "steps": [
+      "Keeping your legs squeezed together, slowly begin tracing smooth, controlled circles in the air with your feet.",
+      "Maintain continuous abdominal engagement, preventing your lower back from lifting as the legs move away from your torso.",
+      "Complete the desired repetitions or time in one direction, then reverse and circle in the opposite direction."
+    ],
+    "breathing": "Breathe continuously and rhythmically, exhaling as your legs circle away from your torso to reinforce abdominal bracing.",
+    "cues": [
+      "Anchor your lower back to the floor",
+      "Keep the inner thighs glued together",
+      "Draw controlled circles from the hips"
+    ],
+    "common_faults": [
+      {
+        "fault": "Arching the lower back off the floor",
+        "correction": "Reduce the diameter of the circles and maintain a strong posterior pelvic tilt throughout the movement."
+      },
+      {
+        "fault": "Swinging the legs using momentum",
+        "correction": "Slow down the pace and control every inch of the circular trajectory using your core and hip muscles."
+      },
+      {
+        "fault": "Letting the knees separate or drift excessively",
+        "correction": "Keep your adductors engaged to keep your knees and feet touching at all times."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid making large circles if you experience clicking or pinching in the anterior hip; reduce circle diameter to stay within a pain-free range."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Lying Leg Circle",
+  "previous_ids": [
+    "oec:leg-wheel"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Leg Wheel",
+        "url": "https://wger.de/en/exercise/1909/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "cybro"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:lying-leg-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:flutter-kick"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:lying-leg-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:scissor-kick"
+    }
+  ],
+  "setup": {
+    "position": "supine",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "narrow"
+    }
+  },
+  "status": "active",
+  "summary": "A supine core conditioning exercise where both legs are kept together and rotated in small, controlled circles to challenge abdominal stability."
+}

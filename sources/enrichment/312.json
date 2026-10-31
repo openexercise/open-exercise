@@ -1,0 +1,175 @@
+{
+  "is_exercise": true,
+  "name": "Stability Ball Decline Plank with Toe Tap",
+  "summary": "An advanced core stability exercise where the feet are elevated on a stability ball in a plank position while alternating legs tap the floor to challenge anti-extension and anti-rotation control.",
+  "aliases": [
+    {
+      "text": "Incline Plank With Alternate Floor Touch",
+      "kind": "common"
+    },
+    {
+      "text": "Swiss Ball Decline Plank with Toe Tap",
+      "kind": "common"
+    },
+    {
+      "text": "Feet-Elevated Stability Ball Plank with Floor Tap",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "balance"
+    ],
+    "movement_patterns": [
+      "anti-extension",
+      "anti-rotation"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "prone",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "obliques",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "abduction",
+        "adduction",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "stability-ball"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Place your hands or forearms flat on the floor directly under your shoulders.",
+      "Carefully position both shins or the tops of your feet centered on top of a stability ball.",
+      "Establish a rigid decline plank position with your body forming a straight line from your shoulders to your ankles."
+    ],
+    "steps": [
+      "Brace your midsection firmly and maintain stable shoulder positioning.",
+      "Slowly lift one foot off the ball and reach it laterally and downward until your toes lightly tap the floor.",
+      "Pause briefly at the touch point without shifting your weight onto that foot.",
+      "Return the foot smoothly to the center of the ball.",
+      "Repeat the movement with the opposite leg, alternating sides for each repetition."
+    ],
+    "breathing": "Maintain controlled, continuous breathing throughout the set without letting your abdominal brace collapse.",
+    "cues": [
+      "Stay long and rigid",
+      "Touch the floor like tapping thin ice",
+      "Do not let the hips twist"
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging at the lower back when one leg moves off the ball.",
+        "correction": "Squeeze the glutes and actively tuck the pelvis slightly to maintain neutral lumbar alignment."
+      },
+      {
+        "fault": "Excessive pelvic rotation or rocking as the foot reaches for the floor.",
+        "correction": "Move at a slower tempo and keep both hip bones pointed squarely toward the floor."
+      },
+      {
+        "fault": "Bearing weight onto the tapping foot rather than keeping the load through the core and supporting limbs.",
+        "correction": "Only lightly graze the floor with the toes before immediately lifting the leg back onto the ball."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the stability ball is properly inflated and positioned on a non-slip surface.",
+        "Exit the exercise immediately if you lose balance or feel sharp strain in the lumbar spine."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

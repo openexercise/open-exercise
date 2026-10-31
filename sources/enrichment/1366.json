@@ -1,0 +1,155 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Split Squat",
+  "summary": "A unilateral lower-body compound exercise performed with feet fixed in a staggered stance while holding dumbbells at the sides.",
+  "aliases": [
+    {
+      "text": "DB Split Squat",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Static Lunge with Dumbbells",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "split-stance",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "split",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Hold a dumbbell in each hand with arms hanging naturally at your sides in a neutral grip.",
+      "Step one foot forward and one foot back into a staggered stance, keeping feet hip-width apart for balance.",
+      "Distribute the majority of your body weight onto the front foot while balancing on the ball of the rear foot."
+    ],
+    "steps": [
+      "Lower your hips straight down by bending both knees simultaneously until the back knee hovers just above the floor.",
+      "Keep your torso upright or with a slight natural forward lean while keeping the front heel firmly planted.",
+      "Drive through the front midfoot and heel to extend the hip and knee, returning to the starting position without moving your feet.",
+      "Complete the prescribed repetitions, then switch legs and repeat."
+    ],
+    "breathing": "Inhale as you lower your body toward the floor, and exhale forcefully as you drive back up to the starting position.",
+    "cues": [
+      "Drop the back knee straight down.",
+      "Keep feet on train tracks, not a tightrope.",
+      "Drive through the front heel."
+    ],
+    "common_faults": [
+      {
+        "fault": "Placing the feet in a straight line, compromising lateral balance.",
+        "correction": "Maintain hip-width spacing between the front and back foot throughout the movement."
+      },
+      {
+        "fault": "Pushing the front knee excessively forward and letting the front heel lift off the ground.",
+        "correction": "Focus on lowering the hips down rather than drifting forward, keeping the front foot flat."
+      },
+      {
+        "fault": "Slamming the rear knee into the floor.",
+        "correction": "Control the descent and stop when the back knee is an inch or two above the ground."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure clear floor space around you in case you need to drop the dumbbells or step out of the stance.",
+        "Do not allow the front knee to collapse inward during the descent or ascent."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

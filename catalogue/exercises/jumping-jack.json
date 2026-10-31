@@ -1,0 +1,233 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Star Jump",
+      "kind": "common"
+    },
+    {
+      "text": "Side-Straddle Hop",
+      "kind": "regional"
+    },
+    {
+      "text": "Jumping Jacks",
+      "kind": "common"
+    },
+    {
+      "text": "Jumping Jack HD",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gastrocnemius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "soleus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-lateral",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductor-longus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "abduction",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "abduction",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "downward-rotation"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "cardio",
+      "conditioning",
+      "plyometric"
+    ],
+    "movement_patterns": [
+      "jump"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic",
+      "ballistic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "320,1314"
+  },
+  "id": "oec:jumping-jack",
+  "instructions": {
+    "setup": [
+      "Stand upright with your feet together and your arms resting naturally at your sides.",
+      "Engage your core and keep your chest lifted with a soft bend in your knees."
+    ],
+    "steps": [
+      "Jump lightly off the balls of your feet, spreading your legs out wider than shoulder-width.",
+      "Simultaneously sweep your arms out to the sides and overhead until your hands meet or nearly touch above your head.",
+      "Immediately jump again to return your feet together while bringing your arms back down to your sides.",
+      "Land softly on the balls of your feet and transition smoothly into the next repetition."
+    ],
+    "breathing": "Maintain a steady, rhythmic breathing pattern, inhaling and exhaling continuously in time with your jumps.",
+    "cues": [
+      "Stay light on your feet",
+      "Soft knees on every landing",
+      "Clap at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Landing flat-footed with straight, locked knees, sending impact through the joints.",
+        "correction": "Stay on the balls of your feet and maintain a slight, springy bend in your knees throughout."
+      },
+      {
+        "fault": "Flailing the arms with incomplete range of motion.",
+        "correction": "Bring your hands all the way overhead in a controlled, wide arc on each repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Wear supportive footwear and perform on a level, non-slip surface to reduce impact stress on the lower legs."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps",
+          "heart-rate",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Jumping Jack",
+  "previous_ids": [
+    "oec:jumping-jacks",
+    "oec:jumping-jack-hd"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Jumping Jacks",
+        "url": "https://wger.de/en/exercise/320/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "student1234"
+      },
+      {
+        "title": "wger: Jumping Jack HD",
+        "url": "https://wger.de/en/exercise/1314/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "hektkaso"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:jump-rope"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A full-body calisthenic and plyometric exercise involving repetitive jumping while simultaneously abducting the legs and raising the arms overhead."
+}

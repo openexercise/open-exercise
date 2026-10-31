@@ -1,0 +1,144 @@
+{
+  "is_exercise": true,
+  "name": "Resistance Band Leg Curl",
+  "summary": "A hamstring isolation exercise using an anchored resistance band to perform knee flexion while lying prone.",
+  "aliases": [
+    {
+      "text": "Band Leg Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Band Hamstring Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Leg curl with elastic",
+      "kind": "common"
+    },
+    {
+      "text": "Resistance Band Hamstring Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-knee-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-femoris",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "semitendinosus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "semimembranosus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "resistance-band"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "band-tension"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "elastic",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Anchor a resistance band securely to a sturdy low post or fixture near the floor.",
+      "Lie face down on the floor or a mat facing away from the anchor point.",
+      "Loop the free end of the resistance band around the back of your ankles or heels.",
+      "Position yourself far enough from the anchor so that the band is taut when your legs are fully extended."
+    ],
+    "steps": [
+      "Flex your knees to curl your heels toward your glutes against the elastic resistance.",
+      "Pause briefly at peak knee flexion, squeezing your hamstrings firmly.",
+      "Lower your feet back to the starting position in a slow, controlled movement without allowing the band to snap back."
+    ],
+    "breathing": "Exhale as you curl your heels toward your hips; inhale as you slowly extend your legs back out.",
+    "cues": [
+      "Keep hips flat on the floor",
+      "Squeeze your hamstrings at the top",
+      "Control the negative"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the pelvis off the floor to gain leverage.",
+        "correction": "Keep your hips and lower abdomen pressed firmly against the mat throughout the repetition."
+      },
+      {
+        "fault": "Letting the band snap the legs back during extension.",
+        "correction": "Actively resist the elastic band tension and maintain a slow two- to three-second eccentric phase."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the anchor point is immovable and inspect the resistance band for wear or tears before use."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "is_exercise": true,
+  "name": "Single-Arm Dumbbell Row",
+  "summary": "A unilateral free-weight pull where the torso is supported by a flat bench while rowing a dumbbell to the hip to train the back musculature.",
+  "aliases": [
+    {
+      "text": "One-Arm Dumbbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Single-Arm Row",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm DB Row",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "One-Arm DB Row",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull",
+      "anti-rotation"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "bent-over",
+  "grip_orientation": "neutral",
+  "stance_kind": "staggered",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "protraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "adjustable-bench"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "rir"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Place one knee and the corresponding hand firmly on a flat bench to support your upper body, keeping your supporting arm under your shoulder.",
+      "Plant your opposite foot firmly on the floor slightly behind you with a stable, wide base.",
+      "Maintain a flat, neutral spine roughly parallel to the floor.",
+      "Grasp the dumbbell on the floor with your free hand using a neutral grip, letting your arm hang fully extended."
+    ],
+    "steps": [
+      "Initiate the pull by retracting your shoulder blade and driving your elbow back toward your hip.",
+      "Pull the dumbbell upward in a slight arc until your elbow passes your torso and the dumbbell reaches your lower rib cage.",
+      "Pause briefly at the top of the contraction without twisting your torso.",
+      "Lower the dumbbell under control along the same path until the arm is fully extended and the lat is stretched."
+    ],
+    "breathing": "Exhale as you row the dumbbell toward your hip, and inhale as you lower it back to full extension.",
+    "cues": [
+      "Drive the elbow to the hip",
+      "Keep your chest parallel to the floor",
+      "Pull with your back, not your hand"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive torso rotation to heave the weight up.",
+        "correction": "Brace your core and keep your shoulders and hips square to the bench throughout the set."
+      },
+      {
+        "fault": "Rowing the dumbbell straight up to the chest instead of back toward the hip.",
+        "correction": "Focus on driving the elbow backward in an arcing motion rather than pulling directly upward with the bicep."
+      },
+      {
+        "fault": "Cutting the bottom range of motion short.",
+        "correction": "Allow the scapula to protract slightly and the arm to reach full extension at the bottom for a deep lat stretch."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid rounding the lower back while supporting your weight on the bench.",
+        "Ensure your foot on the floor is placed firmly to resist rotational forces."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

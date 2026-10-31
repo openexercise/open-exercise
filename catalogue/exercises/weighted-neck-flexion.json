@@ -1,0 +1,165 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Plate Neck Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Neck Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Weighted Neck Curl",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "sternocleidomastoid",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deep-neck-flexors",
+        "role": "prime-mover"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "cervical-spine",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "isolation-neck"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "bench"
+      ],
+      [
+        "weight-plate"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2676"
+  },
+  "id": "oec:weighted-neck-flexion",
+  "instructions": {
+    "setup": [
+      "Lie supine on a flat bench with your shoulders near the edge so your head and upper neck hang off freely.",
+      "Place a folded towel or small pad over your forehead for comfort.",
+      "Position a light weight plate on top of the towel over your forehead, holding it lightly with both hands to keep it stable."
+    ],
+    "steps": [
+      "Slowly lower your head backward into comfortable cervical extension.",
+      "Flex your neck to raise your head, drawing your chin smoothly toward your chest.",
+      "Pause briefly at peak flexion, then lower under control back to the starting stretch."
+    ],
+    "breathing": "Inhale as you lower your head and exhale smoothly as you flex your neck upward.",
+    "cues": [
+      "Tuck the chin as you curl up",
+      "Keep hands only as guides on the plate",
+      "Smooth tempo over heavy weight"
+    ],
+    "common_faults": [
+      {
+        "fault": "Using your hands to push or lift the plate",
+        "correction": "Hold the plate only to balance it; let the neck muscles produce all the lifting force."
+      },
+      {
+        "fault": "Jerking or moving too quickly through cervical extension",
+        "correction": "Perform all repetitions with a deliberate, controlled tempo to protect the cervical spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Start with very light resistance or bodyweight only to assess neck tolerance before adding weight.",
+        "Stop immediately if you experience sharp pain, dizziness, or radiating symptoms."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Weighted Neck Flexion",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Weighted neck flexion",
+        "url": "https://wger.de/en/exercise/2676/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "qoxivi"
+      }
+    ]
+  },
+  "setup": {
+    "position": "supine",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "An isolation exercise that strengthens the anterior cervical spine flexors by raising the head against added resistance while lying supine."
+}

@@ -1,0 +1,137 @@
+{
+  "is_exercise": true,
+  "name": "Hollow Body Hold",
+  "summary": "A foundational isometric gymnastics exercise where the body forms a shallow curved dish while keeping the lower back pressed into the floor.",
+  "aliases": [
+    {
+      "text": "Hollow Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Hollow Rock Hold",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "supine",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie supine on the floor with your legs fully extended and arms stretched overhead beside your ears.",
+      "Posteriorly tilt your pelvis to press your lower back firmly into the floor, eliminating any gap beneath your spine."
+    ],
+    "steps": [
+      "Engage your abdominals to lift your shoulder blades and legs a few inches off the floor simultaneously.",
+      "Point your toes and keep your arms glued next to your ears, forming a shallow, continuous curve from hands to feet.",
+      "Maintain the position isometrically, ensuring your lumbar spine never leaves the floor.",
+      "Lower back down under control when the prescribed duration is complete."
+    ],
+    "breathing": "Take shallow, controlled breaths through your nose and mouth while maintaining rigid intra-abdominal pressure throughout the hold.",
+    "cues": [
+      "Glue your lower back to the floor",
+      "Reach long through your toes and fingers",
+      "Ribs down toward your hips"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lower back arching off the floor.",
+        "correction": "Bend your knees or raise your legs higher until you can maintain firm lumbar contact with the ground."
+      },
+      {
+        "fault": "Reaching arms forward instead of keeping them overhead.",
+        "correction": "Keep your biceps aligned with your ears, or scale by placing hands at your sides until core strength improves."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Terminate the hold immediately if your lower back begins to arch off the floor to avoid lumbar strain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

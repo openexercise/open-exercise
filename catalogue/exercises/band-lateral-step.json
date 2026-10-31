@@ -1,0 +1,219 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Hip-Out and Hip-In Lateral Steps",
+      "kind": "common"
+    },
+    {
+      "text": "Lateral Band Step",
+      "kind": "common"
+    },
+    {
+      "text": "Mini-Band Lateral Step",
+      "kind": "common"
+    },
+    {
+      "text": "Resistance Band Lateral Step",
+      "kind": "common"
+    },
+    {
+      "text": "Band Lateral Tap",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-medius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-minimus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "tensor-fasciae-latae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "piriformis",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "abduction",
+          "adduction",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "isolation-hip-abduction"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "mini-band",
+        "resistance-band"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2618"
+  },
+  "id": "oec:band-lateral-step",
+  "instructions": {
+    "setup": [
+      "Loop a mini-band around your legs, positioned either just above your knees or around your ankles.",
+      "Stand tall with feet hip-width apart to create light initial tension on the band.",
+      "Hinge slightly at the hips and unlock your knees into a shallow athletic quarter-squat."
+    ],
+    "steps": [
+      "Brace your core and shift your center of gravity slightly onto your stance leg.",
+      "Step your active foot laterally outward against the resistance of the band.",
+      "Tap the ball of your foot lightly on the floor while keeping your hips level and square.",
+      "Control the return of your active foot back to the starting hip-width position without allowing tension on the band to go slack."
+    ],
+    "breathing": "Exhale as you step outward against the band resistance, and inhale as you return to the starting position.",
+    "cues": [
+      "Keep tension on the band the entire time.",
+      "Stay level and avoid swaying side to side.",
+      "Push the stance knee outward so it does not collapse inward."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bringing the feet all the way together on the return.",
+        "correction": "Stop the return step at hip-width to maintain continuous elastic tension on the abductors."
+      },
+      {
+        "fault": "Tilting the torso laterally to swing the leg outward.",
+        "correction": "Maintain an upright, braced torso and move exclusively from the hip joint."
+      },
+      {
+        "fault": "Knee valgus collapse on the supporting stance leg.",
+        "correction": "Actively engage the glute of the stance leg and track the knee in line with your toes."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Choose a resistance level that allows smooth, controlled steps without lateral trunk swaying."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "implements": 1,
+      "kind": "elastic"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "band-tension",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Band Lateral Step",
+  "previous_ids": [
+    "oec:hip-out-and-hip-in-lateral-steps"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Hip-Out and Hip-In Lateral Steps",
+        "url": "https://wger.de/en/exercise/2618/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "aboksz"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:lateral-squat-walk"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:banded-monster-walk"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:standing-hip-abduction"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:standing-hip-abduction"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-hip-abduction"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A hip abduction exercise performed by stepping one foot laterally against resistance band tension from an athletic stance."
+}

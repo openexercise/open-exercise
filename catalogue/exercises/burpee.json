@@ -1,0 +1,232 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Burpees",
+      "kind": "common"
+    },
+    {
+      "text": "Chest-to-Floor Burpee",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "calves",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "conditioning",
+      "calisthenics",
+      "cardio",
+      "plyometric"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "squat",
+      "jump"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "ballistic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "132"
+  },
+  "id": "oec:burpee",
+  "instructions": {
+    "setup": [
+      "Stand upright with your feet shoulder-width apart and your arms at your sides."
+    ],
+    "steps": [
+      "Hinge at the hips and bend your knees to place your hands flat on the floor directly beneath your shoulders.",
+      "Jump or step both feet back into a full plank position.",
+      "Lower your chest and thighs completely to the floor under control.",
+      "Press through your palms to push your body up while snapping your feet forward outside your hands into a low squat.",
+      "Explode upward into a vertical jump, reaching your hands overhead, and land softly to absorb impact."
+    ],
+    "breathing": "Inhale as you drop down to the floor, exhale forcefully as you press up and jump.",
+    "cues": [
+      "Hands down, feet back.",
+      "Chest to floor.",
+      "Snap the hips forward.",
+      "Jump and reach tall."
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging the lower back and hyperextending the spine while pushing off the floor.",
+        "correction": "Brace your core firmly to keep your torso rigid as you press up from the ground."
+      },
+      {
+        "fault": "Landing flat-footed with straight knees after the jump.",
+        "correction": "Absorb the landing softly on the balls of your feet and immediately bend your knees."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the floor surface is clear and non-slip before performing rapid jumps."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Burpee",
+  "previous_ids": [
+    "oec:burpees"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Burpees",
+        "url": "https://wger.de/en/exercise/132/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "er0355"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:no-push-up-burpee"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:squat-thrust"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:dumbbell-devil-press"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A full-body calisthenic movement transitioning from a standing position down into a push-up and finishing with an explosive vertical jump."
+}

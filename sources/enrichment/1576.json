@@ -1,0 +1,159 @@
+{
+  "is_exercise": true,
+  "name": "Snap Down",
+  "summary": "A plyometric deceleration drill where you rapidly drop from an extended tall stance into a balanced athletic base position to train force absorption.",
+  "aliases": [
+    {
+      "text": "Snapdown",
+      "kind": "common"
+    },
+    {
+      "text": "Athletic Position Snap Down",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "plyometric",
+      "power",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "jump",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "eccentric-emphasis",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width to shoulder-width apart.",
+      "Reach both arms directly overhead while rising high onto the balls of your feet in triple extension."
+    ],
+    "steps": [
+      "Initiate the movement by rapidly pulling your hips back and down into a universal athletic position.",
+      "Aggressively throw your arms down and back past your hips.",
+      "Land flat-footed with knees softly bent, chest forward over toes, and spine neutral.",
+      "Stick the landing instantly and freeze for one to two seconds with zero unwanted movement or readjustment.",
+      "Reset to the tall standing position before starting the next repetition."
+    ],
+    "breathing": "Inhale as you reach overhead, and exhale sharply as you snap down into the athletic stance.",
+    "cues": [
+      "Get tall, get small.",
+      "Throw your hands into your pockets.",
+      "Stick the landing.",
+      "Absorb the floor silently."
+    ],
+    "common_faults": [
+      {
+        "fault": "Landing purely on the balls of the feet with heels off the ground.",
+        "correction": "Absorb the impact through a full, flat foot with weight distributed through the midfoot and heel."
+      },
+      {
+        "fault": "Knee valgus (knees collapsing inward upon landing).",
+        "correction": "Track your knees outward in line with your middle toes as you descend."
+      },
+      {
+        "fault": "Excessive forward chest drop or rounding of the back.",
+        "correction": "Hinge at the hips while maintaining a proud chest and braced torso."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform on a firm, non-slip surface."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

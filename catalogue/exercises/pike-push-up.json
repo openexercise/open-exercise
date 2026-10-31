@@ -1,0 +1,243 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Pike Push Up",
+      "kind": "common"
+    },
+    {
+      "text": "Pike Press",
+      "kind": "common"
+    },
+    {
+      "text": "Pike Push Ups",
+      "kind": "common"
+    },
+    {
+      "text": "Vpushup",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation",
+          "protraction"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "454,1090"
+  },
+  "id": "oec:pike-push-up",
+  "instructions": {
+    "setup": [
+      "Begin in a standard push-up position with hands slightly wider than shoulder-width apart on the floor.",
+      "Walk your feet forward toward your hands while raising your hips into the air to form an inverted V-shape.",
+      "Keep your legs and spine as straight as mobility allows, resting your weight up onto the balls of your feet."
+    ],
+    "steps": [
+      "Inhale and lower your head forward and down in an arc between your hands, creating a tripod shape with your hands and the top of your head.",
+      "Lower under control until the top of your head lightly grazes the floor just ahead of your fingertips.",
+      "Exhale and press firmly into the floor through your palms, extending the elbows and pushing back and up into the starting pike position."
+    ],
+    "breathing": "Inhale as you lower toward the floor, and exhale forcefully as you press yourself back to the top.",
+    "cues": [
+      "Head moves forward into a tripod.",
+      "Keep the hips stacked high over the shoulders.",
+      "Tuck elbows slightly inward, avoiding flared elbows."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring elbows straight out to the sides.",
+        "correction": "Keep elbows tucked at roughly a 45-degree angle relative to the torso throughout the descent."
+      },
+      {
+        "fault": "Lowering the head straight down between the hands instead of forward.",
+        "correction": "Shift your center of mass forward so your head lands slightly ahead of your hands at the bottom."
+      },
+      {
+        "fault": "Allowing hips to sink into a standard push-up angle.",
+        "correction": "Actively press into the floor to maintain the highest hip elevation possible throughout the rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the floor has sufficient traction so hands and feet do not slip.",
+        "Maintain neck in a neutral alignment rather than hyperextending to look forward."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Pike Push-Up",
+  "previous_ids": [
+    "oec:pike-push-ups",
+    "oec:vpushup"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Pike Push Ups",
+        "url": "https://wger.de/en/exercise/454/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Nash"
+      },
+      {
+        "title": "wger: Vpushup",
+        "url": "https://wger.de/en/exercise/1090/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "clafal"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:feet-elevated-pike-push-up"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:handstand-push-up"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:pike-hold"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-overhead-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "inverted",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A bodyweight pressing variation performed in an inverted pike position that emphasizes the shoulders and triceps."
+}

@@ -1,0 +1,199 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "FlexBar Wrist Extension",
+      "kind": "brand"
+    },
+    {
+      "text": "TheraBand FlexBar Wrist Extension",
+      "kind": "brand"
+    },
+    {
+      "text": "Flexible Bar Wrist Extension",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "forearm-extensors",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "hand-intrinsics",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "wrist",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "fingers",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "radioulnar",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-grip"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "eccentric-emphasis"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "chair",
+      "bench"
+    ],
+    "required": [
+      [
+        "resistance-band"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2636"
+  },
+  "id": "oec:resistance-bar-wrist-extension",
+  "instructions": {
+    "setup": [
+      "Sit comfortably on a chair or bench with your forearm resting flat along your thigh or a sturdy table.",
+      "Position your wrist and hand just past the edge of your knee or the table surface, palm facing down toward the floor.",
+      "Grip the end of the resistance bar securely in your hand."
+    ],
+    "steps": [
+      "Allow your wrist to flex downward under control, lowering the end of the bar.",
+      "Extend your wrist upward against the resistance of the bar until you reach full extension without lifting your forearm.",
+      "Pause briefly at the top contraction.",
+      "Slowly lower the bar back to the starting flexed position over a controlled three-count."
+    ],
+    "breathing": "Exhale as you extend the wrist upward; inhale as you slowly lower the resistance bar back down.",
+    "cues": [
+      "Keep forearm pinned to the surface",
+      "Control the downward descent",
+      "Move only at the wrist"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the forearm off the support surface to assist the lift.",
+        "correction": "Keep the entire forearm anchored to isolate movement strictly to the wrist joint."
+      },
+      {
+        "fault": "Dropping the bar quickly without resisting during the lowering phase.",
+        "correction": "Lower the bar with a slow, deliberate tempo to maximize eccentric loading on the tendon."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If using for lateral epicondylalgia rehabilitation, choose a resistance level that allows smooth repetitions without sharp pain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "elastic"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "band-tension",
+          "tempo",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Resistance Bar Wrist Extension",
+  "previous_ids": [
+    "oec:flexbar-wrist-extension"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: FlexBar Wrist Extension",
+        "url": "https://wger.de/en/exercise/2636/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "trs1800"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-wrist-extension"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-wrist-extension"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated"
+    },
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A unilateral forearm exercise that strengthens the wrist extensors through controlled concentric extension and slow eccentric lowering using an elastic resistance bar."
+}

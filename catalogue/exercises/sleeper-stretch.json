@@ -1,0 +1,160 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Posterior Shoulder Sleeper Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Side-Lying Internal Rotation Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "infraspinatus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "teres-minor",
+        "role": "stretched"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "internal-rotation"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1711"
+  },
+  "id": "oec:sleeper-stretch",
+  "instructions": {
+    "setup": [
+      "Lie on your side on a firm, comfortable surface with the shoulder to be stretched underneath you.",
+      "Position your body so your shoulder blade is pinned flat against the floor to stabilize it.",
+      "Bring your bottom upper arm straight out in front of your chest to a 90-degree angle with your torso.",
+      "Bend your bottom elbow to 90 degrees so your fingers point straight up toward the ceiling."
+    ],
+    "steps": [
+      "Place your top hand gently on the back of your bottom wrist or forearm.",
+      "Slowly press your bottom forearm downward toward the floor, internally rotating the shoulder until a mild to moderate stretch is felt in the back of the shoulder.",
+      "Hold the stretch steady without bouncing, ensuring the bottom shoulder blade stays pinned to the floor.",
+      "Gently release the pressure and return the forearm to the upright position before switching sides."
+    ],
+    "breathing": "Breathe smoothly and deeply throughout the hold, exhaling as you ease deeper into internal rotation.",
+    "cues": [
+      "Keep the shoulder blade pinned flat",
+      "Rotate gently from the shoulder socket",
+      "Stop well short of sharp anterior pain"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the bottom shoulder blade to roll forward off the ground.",
+        "correction": "Roll slightly onto the back of the bottom shoulder blade to keep it firmly anchored against the floor."
+      },
+      {
+        "fault": "Pushing aggressively into internal rotation and causing sharp pain in the front of the shoulder.",
+        "correction": "Apply gentle pressure only until a mild stretch is felt in the back of the shoulder; back off immediately if pinch or anterior joint pain occurs."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid aggressive downward force, as this can irritate the subacromial structures or anterior capsule.",
+        "Discontinue if you feel sharp, pinching pain at the front or top of the shoulder."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Sleeper Stretch",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Sleeper Stretch",
+        "url": "https://wger.de/en/exercise/1711/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Croak6728"
+      }
+    ]
+  },
+  "setup": {
+    "position": "side-lying"
+  },
+  "status": "active",
+  "summary": "A side-lying static stretch targeting posterior shoulder tightness and restoring glenohumeral internal rotation."
+}

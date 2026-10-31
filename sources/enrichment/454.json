@@ -1,0 +1,163 @@
+{
+  "is_exercise": true,
+  "name": "Pike Push-Up",
+  "summary": "A bodyweight pressing variation performed in an inverted pike position that emphasizes the shoulders and triceps.",
+  "aliases": [
+    {
+      "text": "Pike Push Up",
+      "kind": "common"
+    },
+    {
+      "text": "Pike Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "inverted",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation",
+        "protraction"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Begin in a standard push-up position with hands slightly wider than shoulder-width apart on the floor.",
+      "Walk your feet forward toward your hands while raising your hips into the air to form an inverted V-shape.",
+      "Keep your legs and spine as straight as mobility allows, resting your weight up onto the balls of your feet."
+    ],
+    "steps": [
+      "Inhale and lower your head forward and down in an arc between your hands, creating a tripod shape with your hands and the top of your head.",
+      "Lower under control until the top of your head lightly grazes the floor just ahead of your fingertips.",
+      "Exhale and press firmly into the floor through your palms, extending the elbows and pushing back and up into the starting pike position."
+    ],
+    "breathing": "Inhale as you lower toward the floor, and exhale forcefully as you press yourself back to the top.",
+    "cues": [
+      "Head moves forward into a tripod.",
+      "Keep the hips stacked high over the shoulders.",
+      "Tuck elbows slightly inward, avoiding flared elbows."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring elbows straight out to the sides.",
+        "correction": "Keep elbows tucked at roughly a 45-degree angle relative to the torso throughout the descent."
+      },
+      {
+        "fault": "Lowering the head straight down between the hands instead of forward.",
+        "correction": "Shift your center of mass forward so your head lands slightly ahead of your hands at the bottom."
+      },
+      {
+        "fault": "Allowing hips to sink into a standard push-up angle.",
+        "correction": "Actively press into the floor to maintain the highest hip elevation possible throughout the rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the floor has sufficient traction so hands and feet do not slip.",
+        "Maintain neck in a neutral alignment rather than hyperextending to look forward."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

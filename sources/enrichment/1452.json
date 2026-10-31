@@ -1,0 +1,129 @@
+{
+  "is_exercise": true,
+  "name": "Single-Leg Knee-to-Chest Stretch",
+  "summary": "A supine static stretch that relieves lower-back tension and stretches the gluteal muscles by gently hugging one knee toward the chest.",
+  "aliases": [
+    {
+      "text": "Knee to Chest Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Knee-to-Chest Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Knee-to-Chest Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Knee-to-Chest Stretch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stretched"
+    },
+    {
+      "muscle": "piriformis",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": []
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a comfortable surface or exercise mat with both legs extended straight.",
+      "Relax your neck, shoulders, and lower back into the floor."
+    ],
+    "steps": [
+      "Bend one knee and lift the foot off the floor, bringing the knee toward your chest.",
+      "Clasp both hands around your shin or behind your thigh.",
+      "Gently pull the knee closer toward your torso until you feel a mild stretch in your glute and lower back.",
+      "Hold the position steadily without bouncing, keeping the opposite leg relaxed on the floor.",
+      "Slowly release the leg back to the starting position and repeat on the opposite side."
+    ],
+    "breathing": "Breathe slowly and deeply throughout the hold, using each exhalation to sink deeper into the stretch without straining.",
+    "cues": [
+      "Keep shoulders flat on the floor",
+      "Pull smoothly without yanking",
+      "Keep the opposite leg grounded"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the head and shoulders off the floor to pull the leg.",
+        "correction": "Keep your upper body relaxed and flat against the mat; hold behind the thigh if your shin is out of reach."
+      },
+      {
+        "fault": "Pulling forcefully on the knee cap, causing joint discomfort.",
+        "correction": "Grip the upper shin or interlace your fingers behind the hamstring rather than pulling directly on the patella."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not force the knee into excessive flexion or compression if you have acute knee or hip joint pain."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

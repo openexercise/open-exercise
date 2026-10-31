@@ -1,0 +1,147 @@
+{
+  "is_exercise": true,
+  "name": "Cable Triceps Pushdown",
+  "summary": "An isolation exercise that targets the triceps by extending the elbows against cable resistance.",
+  "aliases": [
+    {
+      "text": "Triceps Pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Triceps Extensions on Cable",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "anconeus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach a bar or rope handle to a high cable pulley.",
+      "Stand facing the pulley with feet hip-width apart and a slight forward torso lean.",
+      "Grasp the handle, pin your elbows close to your ribcage, and bring forearms just above parallel to the floor."
+    ],
+    "steps": [
+      "Extend your elbows smoothly by pushing the attachment straight down toward your thighs.",
+      "Squeeze your triceps firmly at full extension without locking the elbows aggressively.",
+      "Control the handle as it rises back up until your elbows reach approximately ninety degrees of flexion."
+    ],
+    "breathing": "Exhale as you push the cable down into extension, and inhale as you return to the starting position.",
+    "cues": [
+      "Pin your elbows to your sides.",
+      "Move only at the elbows.",
+      "Control the weight on the way up."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the elbows to drift forward and backward during the movement.",
+        "correction": "Lock the upper arms firmly against the ribcage so movement occurs strictly at the elbow joint."
+      },
+      {
+        "fault": "Using excessive body momentum or pressing downward with the chest and shoulders.",
+        "correction": "Maintain a stable torso angle and reduce the load to ensure the triceps drive the movement."
+      },
+      {
+        "fault": "Cutting the range of motion short at the top or bottom.",
+        "correction": "Allow full flexion to at least ninety degrees at the elbow and push to complete extension on every rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid hyperextending or snapping the elbow joint at the bottom of the rep."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

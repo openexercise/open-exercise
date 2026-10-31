@@ -1,0 +1,180 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Head Turns",
+      "kind": "common"
+    },
+    {
+      "text": "Cervical Rotation Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Neck Turns",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "sternocleidomastoid",
+        "role": "stretched"
+      },
+      {
+        "muscle": "splenius",
+        "role": "stretched"
+      },
+      {
+        "muscle": "levator-scapulae",
+        "role": "stretched"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "cervical-spine",
+        "actions": [
+          "rotation"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "mobility-drill",
+      "rotation"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "chair"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1007"
+  },
+  "id": "oec:neck-rotation-stretch",
+  "instructions": {
+    "setup": [
+      "Sit upright on a chair or stand tall with your shoulders relaxed and pulled gently down and back.",
+      "Fix your gaze straight ahead with your chin level and parallel to the floor."
+    ],
+    "steps": [
+      "Slowly turn your head to one side, looking over your shoulder as far as comfortably possible.",
+      "Hold the end range for the specified duration without forcing or bouncing.",
+      "Smoothly return your head to the neutral starting position.",
+      "Repeat the rotation to the opposite side."
+    ],
+    "breathing": "Breathe smoothly and continuously throughout, exhaling gently as you rotate into the stretch.",
+    "cues": [
+      "Keep your shoulders down",
+      "Rotate smoothly without tilting your chin up or down",
+      "Stop at mild tension, never pain"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the shoulders and torso along with the head.",
+        "correction": "Keep your chest facing forward and isolate the rotation purely to the neck."
+      },
+      {
+        "fault": "Tilting the head sideways or poking the chin forward during rotation.",
+        "correction": "Keep the chin level and the head aligned directly over the shoulders throughout the movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid rapid or jerky rotations; move at a slow, controlled pace.",
+        "Cease immediately if you experience dizziness, numbness, or sharp nerve pain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps"
+        ]
+      },
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Neck Rotation Stretch",
+  "previous_ids": [
+    "oec:head-turns"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Head turns",
+        "url": "https://wger.de/en/exercise/1007/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "setup": {
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A mobility and flexibility exercise that gently rotates the cervical spine to stretch the neck musculature and improve range of motion."
+}

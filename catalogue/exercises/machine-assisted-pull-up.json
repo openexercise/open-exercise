@@ -1,0 +1,226 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Assisted Pull-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Pull-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Gravitron Pull-Up",
+      "kind": "brand"
+    },
+    {
+      "text": "Counterbalance Pull-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Pull Ups on Machine",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "adduction",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "downward-rotation",
+          "depression",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "assisted-pull-up-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "477"
+  },
+  "id": "oec:machine-assisted-pull-up",
+  "instructions": {
+    "setup": [
+      "Select the desired counterweight on the weight stack, remembering that a heavier weight provides more assistance.",
+      "Grasp the outer pull-up handles with an overhand (pronated) grip slightly wider than shoulder width.",
+      "Place one knee firmly onto the center of the padded assist lever, then carefully place the second knee alongside it.",
+      "Lower yourself smoothly into a full hang with your arms fully extended and core braced."
+    ],
+    "steps": [
+      "Depress and retract your shoulder blades to initiate the movement.",
+      "Pull your chest toward the bar by driving your elbows down toward your ribs.",
+      "Continue pulling until your chin clears the height of the handles.",
+      "Pause momentarily at the top contraction.",
+      "Lower your body under control until your arms are fully extended and your lats are stretched.",
+      "To dismount safely at the end of the set, place one foot onto the machine's foot pegs, allow the pad to rise slowly, and step off with the other foot."
+    ],
+    "breathing": "Inhale as you lower yourself to a full hang; exhale smoothly as you pull yourself up.",
+    "cues": [
+      "Drive elbows to your back pockets.",
+      "Chest tall to the bar.",
+      "Control the descent all the way down."
+    ],
+    "common_faults": [
+      {
+        "fault": "Stepping off the machine abruptly without letting the pad rise to the top resting position.",
+        "correction": "Hold the handles, place one foot on the solid footplate, and control the pad up before releasing your grip."
+      },
+      {
+        "fault": "Cutting the range of motion short at the bottom or top.",
+        "correction": "Lower all the way until the elbows are straight and pull until the chin clears the handles."
+      },
+      {
+        "fault": "Excessive kipping or swinging the torso on the pad.",
+        "correction": "Brace the abdominal muscles and keep the torso quiet throughout the movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure hands have a firm grip before placing full weight onto the knee pad.",
+        "Always step off using the foot pegs while maintaining control of the counterbalanced lever."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "kind": "bodyweight-minus-assistance"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Machine-Assisted Pull-Up",
+  "previous_ids": [
+    "oec:pull-ups-on-machine"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Pull Ups on Machine",
+        "url": "https://wger.de/en/exercise/477/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:assisted-pull-up"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:pull-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "wide"
+    },
+    "position": "kneeling",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A compound vertical pull using a counterweighted platform to reduce effective bodyweight and build upper-back and arm strength."
+}

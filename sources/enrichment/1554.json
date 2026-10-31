@@ -1,0 +1,157 @@
+{
+  "is_exercise": true,
+  "name": "Clap Push-Up",
+  "summary": "An explosive plyometric push-up variation where you drive forcefully off the ground to clap your hands before landing.",
+  "aliases": [
+    {
+      "text": "Clapping Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Plyometric Push-Up with Clap",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "plyometric",
+      "calisthenics",
+      "power"
+    ],
+    "movement_patterns": [
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "mixed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "prone",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Assume a standard high plank position with hands slightly wider than shoulder-width apart.",
+      "Engage your abdominals and glutes to align your body in a rigid straight line from head to heels."
+    ],
+    "steps": [
+      "Lower your chest toward the floor in a controlled manner until your elbows reach approximately a ninety-degree angle.",
+      "Explosively press through the palms to launch your upper body into the air.",
+      "Quickly clap your hands together under your chest at the peak of the flight phase.",
+      "Immediately return your hands to the floor, landing with soft, slightly bent elbows to absorb the impact smoothly into the next descent."
+    ],
+    "breathing": "Inhale as you lower your chest toward the floor, and exhale forcefully as you drive up into the clap.",
+    "cues": [
+      "Explode off the floor",
+      "Quick clap",
+      "Soft landing"
+    ],
+    "common_faults": [
+      {
+        "fault": "Landing with fully locked elbows, creating harsh impact on the joints.",
+        "correction": "Catch yourself with soft, bent arms and immediately yield into the next repetition."
+      },
+      {
+        "fault": "Sagging the lower back or piking the hips during the explosive drive.",
+        "correction": "Maintain rigid core and glute tension to keep the spine neutral throughout the airborne phase."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure you can comfortably perform high-rep standard push-ups before attempting ballistic push-up variations.",
+        "Perform on a non-slip, slightly cushioned surface to protect wrists."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Curl to Overhead Press",
+  "summary": "A combination movement that curls dumbbells to shoulder level and immediately presses them overhead.",
+  "aliases": [
+    {
+      "text": "Dumbbell Bicep Curl to Press",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Biceps Curl to Overhead Press",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Curl to Press",
+      "kind": "common"
+    },
+    {
+      "text": "DB Curl to Press",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "mixed",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "rotating",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-lateral",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "supination",
+        "pronation"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart holding a dumbbell in each hand at your sides.",
+      "Brace your core and allow your arms to hang naturally with palms facing your torso."
+    ],
+    "steps": [
+      "Curl the dumbbells upward toward shoulder height, supinating your forearms so your palms face inward or backward at the top of the curl.",
+      "Smoothly transition into the press by rotating your hands outward and pressing the dumbbells overhead until your arms are fully extended.",
+      "Lower the dumbbells back to shoulder height under control.",
+      "Reverse the curl by lowering the dumbbells down to your sides in a controlled eccentric tempo."
+    ],
+    "breathing": "Inhale before curling, exhale as you complete the press overhead, and inhale while lowering the weights back down.",
+    "cues": [
+      "Curl, transition, press",
+      "Lock down your ribs",
+      "Control the descent on both phases"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to curl heavy weight.",
+        "correction": "Select a load you can curl strictly without hip momentum or backward lean."
+      },
+      {
+        "fault": "Hyperextending the lower back during the overhead press.",
+        "correction": "Squeeze the glutes and brace the abs to maintain a neutral spine throughout the press."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using momentum to transition between the curl and press to protect the shoulder joint."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

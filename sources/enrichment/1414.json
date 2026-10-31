@@ -1,0 +1,169 @@
+{
+  "is_exercise": true,
+  "name": "Hack Squat",
+  "summary": "A machine-based squat performed on an inclined sled with shoulder pads and back support, heavily loading the quadriceps.",
+  "aliases": [
+    {
+      "text": "Machine Hack Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Hack Squats",
+      "kind": "common"
+    },
+    {
+      "text": "Sled Hack Squat",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "support",
+  "incline_degrees": 45,
+  "grip_orientation": "neutral",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "back",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "hack-squat-machine"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "weight-plate"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "rir",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Position your back and pelvis firmly against the back pad with your shoulders tucked under the shoulder supports.",
+      "Place your feet roughly shoulder-width apart on the footplate, positioned slightly forward so your knees track naturally without your heels lifting.",
+      "Grasp the machine release handles and extend your legs to disengage the safety stops."
+    ],
+    "steps": [
+      "Inhale and brace your core, keeping your lower back and head supported against the pad.",
+      "Bend at the knees and hips to lower the sled smoothly until your thighs reach at least parallel to the footplate or the maximum comfortable depth without your lower back rounding.",
+      "Drive through the midfoot and heel, extending your knees and hips to return to the starting position without forcefully locking out your knees."
+    ],
+    "breathing": "Inhale and brace during the descent, and exhale as you press through the sticking point back to the top.",
+    "cues": [
+      "Keep your back glued to the pad",
+      "Drive through your whole foot",
+      "Control the descent",
+      "Do not snap your knees at lockout"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the lower back or pelvis to lift off the back pad at the bottom of the movement.",
+        "correction": "Limit your range of motion to where your pelvis stays firmly planted against the pad, or adjust foot placement slightly higher on the platform."
+      },
+      {
+        "fault": "Lifting heels off the footplate during deep knee flexion.",
+        "correction": "Move feet slightly higher on the platform and focus on keeping pressure balanced across the entire foot."
+      },
+      {
+        "fault": "Hyperextending and locking out the knees forcefully at the top of each repetition.",
+        "correction": "Stop just short of total joint lockout to maintain tension on the quadriceps and protect the joint."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the safety catch handles operate smoothly and know how to re-engage them before loading heavy weight.",
+        "Set the mechanical safety stops at an appropriate height before beginning the set."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

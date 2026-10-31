@@ -1,0 +1,226 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Standing Dowel Shoulder Press",
+      "kind": "common"
+    },
+    {
+      "text": "PVC Overhead Press",
+      "kind": "common"
+    },
+    {
+      "text": "Dowel Shoulder Press",
+      "kind": "common"
+    },
+    {
+      "text": "Broomstick Overhead Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "stretched"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "abduction",
+          "external-rotation"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "extension",
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1575"
+  },
+  "id": "oec:dowel-overhead-press",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and knees soft.",
+      "Grip a wooden dowel or PVC pipe with an overhand grip slightly wider than shoulder width.",
+      "Rest the dowel across your clavicles in front of your neck, bracing your core and keeping your ribcage down."
+    ],
+    "steps": [
+      "Press the dowel straight up overhead until your elbows are fully locked out and the dowel aligns with your ears.",
+      "Smoothly lower the dowel behind your neck toward your upper trapezius, moving only through a pain-free range of motion.",
+      "Press the dowel back up to full lockout overhead.",
+      "Lower the dowel back to the starting position in front of your chest."
+    ],
+    "breathing": "Exhale as you press overhead, and inhale smoothly as you lower the dowel.",
+    "cues": [
+      "Keep ribs down and core braced",
+      "Reach tall at lockout",
+      "Never force uncomfortable range behind the neck"
+    ],
+    "common_faults": [
+      {
+        "fault": "Overarching the lower back to force overhead mobility.",
+        "correction": "Squeeze the glutes and pull the lower ribs down toward the pelvis throughout the movement."
+      },
+      {
+        "fault": "Forcing the dowel too deep behind the head.",
+        "correction": "Widen your grip slightly or lower only as far as shoulder mobility allows comfortably."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forced behind-the-neck movements if experiencing active shoulder impingement or pain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "tempo"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Dowel Overhead Press",
+  "previous_ids": [
+    "oec:standing-dowel-shoulder-press"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Standing Dowel Shoulder press",
+        "url": "https://wger.de/en/exercise/1575/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "mountain.potato"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-overhead-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "load_position": "overhead",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A standing upper-body mobility exercise using a light stick or PVC pipe to promote shoulder active range of motion and overhead mechanics."
+}

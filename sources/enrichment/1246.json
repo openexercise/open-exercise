@@ -1,0 +1,179 @@
+{
+  "is_exercise": true,
+  "name": "Suspension Trainer Rollout",
+  "summary": "An anti-extension core exercise performed by falling forward and reaching the arms overhead with suspension straps while maintaining a rigid plank.",
+  "aliases": [
+    {
+      "text": "TRX Rollout",
+      "kind": "brand"
+    },
+    {
+      "text": "TRX Ab Rollout",
+      "kind": "brand"
+    },
+    {
+      "text": "Suspension Rollout",
+      "kind": "common"
+    },
+    {
+      "text": "Suspension Trainer Ab Rollout",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "synergist"
+    },
+    {
+      "muscle": "external-oblique",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "downward-rotation",
+        "protraction"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "suspension-trainer"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand facing away from the suspension anchor point with feet hip-width apart.",
+      "Grasp both handles using an overhand (pronated) grip with straight arms held directly in front of the chest.",
+      "Step back slightly onto the balls of your feet and set a firm, straight-line plank from head to heels."
+    ],
+    "steps": [
+      "Brace your core and squeeze your glutes to maintain a completely neutral spine.",
+      "Slowly let your body lean forward while allowing your arms to elevate overhead in line with your torso.",
+      "Descend until your arms are extended overhead or just before you lose tension in your midsection.",
+      "Press firmly down into the handles using your lats and core to pull yourself back to the starting chest-height position."
+    ],
+    "breathing": "Inhale as you roll forward into the stretched position, then exhale forcefully as you drive down against the handles to return.",
+    "cues": [
+      "Ribs tucked to pelvis",
+      "Squeeze glutes tight",
+      "Press the floor away through the straps",
+      "Keep the elbows locked"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lower back as the arms travel overhead.",
+        "correction": "Only roll out as far as you can maintain a rigid, neutral lumbar spine; reset foot position closer to vertical if needed."
+      },
+      {
+        "fault": "Piking at the hips to initiate the return movement.",
+        "correction": "Keep the hips fully extended and pull back exclusively by engaging the lats and pressing down through the hands."
+      },
+      {
+        "fault": "Bending the elbows during the extension.",
+        "correction": "Maintain straight arms with slight soft-elbow extension throughout the entire range of motion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the suspension anchor is fully secure before loading bodyweight.",
+        "Begin with a steeper, more upright body angle to gauge abdominal control before moving deeper."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "is_exercise": true,
+  "name": "Kroc Row",
+  "summary": "A heavy, high-repetition single-arm dumbbell row executed with controlled torso movement to maximize upper back strength and hypertrophy.",
+  "aliases": [
+    {
+      "text": "Dumbbell Kroc Row",
+      "kind": "common"
+    },
+    {
+      "text": "Heavy Single-Arm Dumbbell Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "bent-over",
+  "grip_orientation": "neutral",
+  "stance_kind": "staggered",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "protraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "rotation",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "bench",
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Place your non-working hand on a sturdy rack or flat bench to brace your torso at roughly a 45-degree angle to the floor.",
+      "Assume a wide, staggered stance to establish a firm base of support.",
+      "Grip a heavy dumbbell with the working hand and let it hang at full arm's extension, allowing the working shoulder to protract slightly for a deep lat stretch."
+    ],
+    "steps": [
+      "Initiate the pull by driving the working elbow back toward your hip while allowing a small amount of torso rotation to generate momentum.",
+      "Row the dumbbell up until it touches the lower ribcage or hip area, forcefully contracting your upper back and lat.",
+      "Lower the dumbbell under control back to the fully stretched hanging position.",
+      "Complete all repetitions on one side before switching to the other."
+    ],
+    "breathing": "Inhale as you lower the dumbbell into the bottom stretch; exhale forcefully as you drive the elbow back to complete the row.",
+    "cues": [
+      "Pull with your elbow, not your hand.",
+      "Get a deep stretch at the bottom.",
+      "Drive the weight back toward your hip pocket."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive jerking or standing upright during the pull.",
+        "correction": "Keep your torso inclined around 45 degrees; use controlled momentum rather than turning the lift into an upright shrug."
+      },
+      {
+        "fault": "Cutting the range of motion short at the bottom.",
+        "correction": "Allow the shoulder blade to protract fully at the bottom to capitalize on the loaded lat stretch."
+      },
+      {
+        "fault": "Grip failing before the back muscles are fatigued.",
+        "correction": "Use lifting straps when the weight exceeds your grip capacity so the upper back receives the intended training stimulus."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the support surface (bench or rack) is completely stable before initiating heavy rows.",
+        "Maintain a neutral spine and braced core to avoid excessive twisting or flexion under load."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

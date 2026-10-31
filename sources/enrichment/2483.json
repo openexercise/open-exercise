@@ -1,0 +1,161 @@
+{
+  "is_exercise": true,
+  "name": "Swimming Wall Breathing Drill",
+  "summary": "A stationary swimming drill performed holding the pool edge to isolate and refine side-breathing mechanics and head rotation during freestyle kicking.",
+  "aliases": [
+    {
+      "text": "Wall-Hold Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Freestyle Wall Breathing Drill",
+      "kind": "common"
+    },
+    {
+      "text": "Wall Breathing Drill",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "sport",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "swim",
+      "rotation"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "muscles": [
+    {
+      "muscle": "sternocleidomastoid",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "splenius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "rotation"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "pool"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Grasp the pool wall or gutter with one hand while resting your other arm extended or relaxed at your side.",
+      "Float your torso horizontally at the water's surface with your face turned straight down toward the bottom of the pool."
+    ],
+    "steps": [
+      "Initiate a gentle, steady flutter kick from your hips to keep your legs buoyant and horizontal.",
+      "Exhale continuously and smoothly into the water through your nose or mouth.",
+      "Rotate your head to the side along your longitudinal axis until your mouth clears the water surface, keeping the bottom goggle submerged.",
+      "Inhale quickly through your mouth without lifting your head away from the water.",
+      "Rotate your face directly back down into the water and immediately resume gentle exhalation."
+    ],
+    "breathing": "Exhale continuously while your face is in the water, inhale quickly through your mouth as your face rotates to the side, and never hold your breath.",
+    "cues": [
+      "Rotate, do not lift",
+      "One goggle in the water",
+      "Blow bubbles steadily"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the head forward or upward out of the water to breathe.",
+        "correction": "Roll the head purely on its axis so the cheek stays flush against the water surface."
+      },
+      {
+        "fault": "Holding your breath underwater and attempting to exhale and inhale while turned to the side.",
+        "correction": "Empty your lungs underwater beforehand so you only need to inhale when turning to breathe."
+      },
+      {
+        "fault": "Allowing hips and legs to sink during the breath.",
+        "correction": "Maintain a continuous, relaxed flutter kick from the hips throughout the rotation."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure comfortable water depth and practice in a safe aquatic environment.",
+        "Stop immediately and hold the wall if breathing becomes uncoordinated or distressed."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "L-Sit (Foot Supported)",
+      "kind": "common"
+    },
+    {
+      "text": "Heel-Supported L-Sit",
+      "kind": "common"
+    },
+    {
+      "text": "Supported L-Sit",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "synergist"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "protraction"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "anti-extension",
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "parallettes",
+      "yoga-block",
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1853"
+  },
+  "id": "oec:foot-supported-l-sit",
+  "instructions": {
+    "setup": [
+      "Sit on the floor with your legs fully extended in front of you and feet together.",
+      "Place your palms flat on the floor alongside your hips, fingers pointing forward or slightly outward."
+    ],
+    "steps": [
+      "Drive down firmly through your hands to depress your shoulders and lift your pelvis and thighs off the floor.",
+      "Keep your heels resting lightly on the ground to provide balance and take a small amount of weight off your core and hip flexors.",
+      "Lock your elbows out completely and brace your abdominal wall to maintain hip elevation.",
+      "Hold the elevated isometric position for the desired duration, then gently lower your hips back to the floor."
+    ],
+    "breathing": "Breathe shallowly and steadily through the diaphragm while maintaining deep abdominal tension.",
+    "cues": [
+      "Push the floor away",
+      "Lock the elbows",
+      "Keep the heels light",
+      "Chest tall and shoulders down"
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulders up toward the ears.",
+        "correction": "Actively press downward into the floor to depress the scapulae and create space between your shoulders and ears."
+      },
+      {
+        "fault": "Bearing too much weight through the heels.",
+        "correction": "Engage the hip flexors and abs to lift as much leg weight as possible, using the heels only for light balance assistance."
+      },
+      {
+        "fault": "Soft or bent elbows during the hold.",
+        "correction": "Fully extend and lock out your arms to support your bodyweight structurally through your skeleton."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If wrist mobility or discomfort is limiting on the flat floor, use parallettes, push-up handles, or yoga blocks."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Foot-Supported L-Sit",
+  "previous_ids": [
+    "oec:l-sit-foot-supported"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: L-Sit (Foot Supported)",
+        "url": "https://wger.de/en/exercise/1853/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Croak6728"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:l-sit"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:l-sit"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:tuck-l-sit"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "support",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A calisthenics regression of the L-sit where the hips are pressed off the floor while the heels remain lightly grounded."
+}

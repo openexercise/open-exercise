@@ -1,0 +1,221 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Side Squat",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gracilis",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension",
+          "abduction"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "mobility",
+      "strength"
+    ],
+    "movement_patterns": [
+      "squat",
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "kettlebell",
+      "dumbbell"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1407"
+  },
+  "id": "oec:cossack-squat",
+  "instructions": {
+    "setup": [
+      "Stand with feet set significantly wider than shoulder width, with toes pointing slightly outward.",
+      "Extend your arms forward for balance or hold your hands together at chest height.",
+      "Engage your core and maintain an upright, tall posture."
+    ],
+    "steps": [
+      "Shift your weight to one side and squat down through that hip and knee while keeping the opposite leg straight.",
+      "Allow the straight leg to rotate onto its heel with toes pointing upward as you sink deep into the squat.",
+      "Descend until your working hip is as low as comfortable, ideally below parallel, while keeping the working heel flat on the floor.",
+      "Drive through the working foot to extend the hip and knee, returning smoothly to the starting wide stance.",
+      "Repeat on the opposite side or complete all reps on one side before switching."
+    ],
+    "breathing": "Inhale as you descend into the squat; exhale forcefully as you drive back up to the starting position.",
+    "cues": [
+      "Keep the working heel glued to the floor.",
+      "Turn the straight-leg toes toward the ceiling.",
+      "Stay tall through your chest."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the heel of the squatting leg to peel off the floor.",
+        "correction": "Work within your available ankle dorsiflexion or elevate the heel slightly while improving mobility."
+      },
+      {
+        "fault": "Excessive forward torso collapse and rounding of the lower back.",
+        "correction": "Keep your chest proud and extend your arms forward as a counterbalance."
+      },
+      {
+        "fault": "Bending the trailing knee during the descent.",
+        "correction": "Keep the non-working leg locked in full extension and actively rotate the foot onto the heel."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Descend only as deep as your hip and adductor mobility comfortably allows to avoid groin strains."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Cossack Squat",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Cossack squat",
+        "url": "https://wger.de/en/exercise/1407/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "clafal"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:lateral-squat"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:lateral-split-squat"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:lateral-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:lateral-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:lateral-split-squat"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "wide"
+    }
+  },
+  "status": "active",
+  "summary": "A deep lateral squat variation performed from a wide stance that builds unilateral leg strength and frontal-plane hip mobility."
+}

@@ -1,0 +1,145 @@
+{
+  "is_exercise": true,
+  "name": "Cable Rocking Triceps Pushdown",
+  "summary": "A triceps pushdown variation using a deliberate weight shift from the front to rear foot to facilitate full elbow extension and increased shoulder extension at the contraction.",
+  "aliases": [
+    {
+      "text": "Rocking Triceps Pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "Rocking Cable Pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "Rocking Cable Triceps Extension",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "staggered",
+  "grip_orientation": "neutral",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "anconeus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach a rope attachment to a high cable pulley.",
+      "Grasp the ends of the rope with a neutral grip and take a staggered stance beneath the cable.",
+      "Lean forward slightly, shifting most of your body weight onto the front foot while holding your elbows bent at roughly 90 degrees."
+    ],
+    "steps": [
+      "Initiate the pushdown by driving your hands down and extending your elbows.",
+      "As your arms approach full extension, smoothly shift your weight onto your rear foot, allowing your hands to travel slightly back past your hips for an intense triceps contraction.",
+      "Pause briefly at peak contraction, keeping your chest tall.",
+      "Control the return by bending your elbows and rocking your weight smoothly forward onto the front foot to reset the starting stretch."
+    ],
+    "breathing": "Exhale as you push down and shift weight onto the back leg; inhale as you return the cable and shift forward.",
+    "cues": [
+      "Rock back as you lock out.",
+      "Spread the rope past your hips.",
+      "Control the forward return.",
+      "Keep the motion fluid, not ballistic."
+    ],
+    "common_faults": [
+      {
+        "fault": "Using excessive momentum instead of controlled weight shifting.",
+        "correction": "Move at a deliberate tempo so the triceps remain under active tension throughout the entire shift."
+      },
+      {
+        "fault": "Flaring the elbows excessively outward.",
+        "correction": "Keep elbows tracking close to the sides of the torso to focus force through the triceps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a stable base of support in your staggered stance to avoid losing balance during the shift."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

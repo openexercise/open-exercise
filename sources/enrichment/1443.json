@@ -1,0 +1,166 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Lateral and Front Raise",
+  "summary": "A dumbbell shoulder combination movement pairing a lateral raise and a front raise into a single repetition to work the middle and anterior deltoids.",
+  "aliases": [
+    {
+      "text": "Shoulder Raise Side and Front DB",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Side and Front Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Front and Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Lateral to Front Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-lateral",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "supraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart holding a dumbbell in each hand at your sides.",
+      "Brace your core, maintain a slight bend in your elbows, and keep your chest lifted."
+    ],
+    "steps": [
+      "Raise both dumbbells out to the sides in the frontal plane until your arms are parallel to the floor at shoulder level.",
+      "Lower the dumbbells back down to your sides with control.",
+      "Immediately raise both dumbbells straight forward in front of your torso until they reach shoulder height.",
+      "Lower the dumbbells back down to your sides in a controlled tempo to complete one full repetition."
+    ],
+    "breathing": "Exhale as you raise the dumbbells on each phase, and inhale as you lower them with control.",
+    "cues": [
+      "Lead with the elbows on the side raise",
+      "Control the eccentric phase",
+      "Do not use body swing"
+    ],
+    "common_faults": [
+      {
+        "fault": "Using torso momentum or swinging the hips to heave the weights up.",
+        "correction": "Use lighter weights and keep the torso strictly upright and braced."
+      },
+      {
+        "fault": "Shrugging the shoulders excessively up toward the ears.",
+        "correction": "Keep the shoulder blades depressed and focus on abduction and flexion at the shoulder joint."
+      },
+      {
+        "fault": "Raising the weights significantly above shoulder level.",
+        "correction": "Stop when your upper arms are horizontal to the floor to minimize impingement risk."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Select a lighter load than usual since two full shoulder raise variations are performed for each logged repetition."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

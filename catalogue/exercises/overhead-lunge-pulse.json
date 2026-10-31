@@ -1,0 +1,232 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Long Lunge Pulse Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Long Lunge Pulse",
+      "kind": "common"
+    },
+    {
+      "text": "Band Overhead Lunge Pulse",
+      "kind": "common"
+    },
+    {
+      "text": "Overhead Split Squat Pulse",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "stretched"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "lunge",
+      "mobility-drill",
+      "stretch"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "resistance-band",
+        "strap"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2526"
+  },
+  "id": "oec:overhead-lunge-pulse",
+  "instructions": {
+    "setup": [
+      "Grasp a resistance band or strap overhead with straight arms, pulling outward to maintain continuous tension.",
+      "Step one foot back into a long split stance with feet hip-width apart and the rear heel lifted high off the ground."
+    ],
+    "steps": [
+      "Lower your hips downward until your front thigh is nearly parallel to the floor and the rear knee hovers just above the ground.",
+      "Pulse smoothly up and down by about one to two inches in a slow, controlled rhythm.",
+      "Maintain active tension pulling outward on the overhead implement and keep your torso fully upright.",
+      "Complete the desired repetitions or time, then press through the front foot to stand and repeat on the opposite side."
+    ],
+    "breathing": "Breathe continuously and rhythmically throughout the pulsing movement without holding your breath.",
+    "cues": [
+      "Keep arms locked overhead",
+      "Tuck your pelvis slightly",
+      "Stay tall through your spine",
+      "Small, controlled pulses"
+    ],
+    "common_faults": [
+      {
+        "fault": "Overarching the lower back to compensate for tight hip flexors.",
+        "correction": "Tuck the tailbone slightly and brace your abs to feel the stretch in the front of the trailing hip."
+      },
+      {
+        "fault": "Bouncing erratically using joint momentum rather than muscular control.",
+        "correction": "Slow the tempo down and restrict the movement to a controlled one- to two-inch oscillation."
+      },
+      {
+        "fault": "Allowing the front knee to cave inward.",
+        "correction": "Press actively through the whole front foot and track the knee in line with your middle toes."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Reduce the stance length or avoid lowering too deeply if you experience pain in the rear knee or groin."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Overhead Lunge Pulse",
+  "previous_ids": [
+    "oec:long-lunge-pulse-stretch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Long Lunge Pulse Stretch",
+        "url": "https://wger.de/en/exercise/2526/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Croak6728"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:bodyweight-split-squat"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "wide"
+    },
+    "load_position": "overhead",
+    "position": "split-stance",
+    "range": "partial",
+    "stance": {
+      "kind": "split",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A dynamic lower-body mobility exercise performed in an elongated split stance with arms held overhead to build leg endurance and stretch the hip flexors."
+}

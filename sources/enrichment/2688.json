@@ -1,0 +1,138 @@
+{
+  "is_exercise": true,
+  "name": "Seated Single-Leg Hamstring Stretch",
+  "summary": "A seated unilateral static stretch targeting the hamstrings and posterior chain of the extended leg.",
+  "aliases": [
+    {
+      "text": "Single-Leg Seated Hamstring Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Hamstring Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Modified Hurdler Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Head-to-Knee Pose",
+      "kind": "common"
+    },
+    {
+      "text": "Janu Sirsasana",
+      "kind": "regional"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "not-applicable",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "hamstrings",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat",
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "load_convention": "not-applicable",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit upright on the floor with your legs extended in front of you.",
+      "Bend one knee and place the sole of that foot flat against the inner thigh of your extended leg, allowing the bent knee to rest outward toward the floor."
+    ],
+    "steps": [
+      "Sit tall through your spine and flex the foot of the extended leg toward your shin.",
+      "Hinge forward at your hips, reaching your hands toward your shin, ankle, or foot while keeping your chest lifted and spine long.",
+      "Hold the stretch at a point of mild to moderate tension in the back of the thigh.",
+      "Slowly release the hold, return to an upright position, and switch sides."
+    ],
+    "breathing": "Inhale to lengthen your spine, then exhale as you hinge forward into the stretch, maintaining slow, deep breathing throughout the hold.",
+    "cues": [
+      "Lead with your chest, not your forehead.",
+      "Hinge at the hips rather than rounding the lower back.",
+      "Keep the extended knee soft, not aggressively locked."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively rounding the lumbar spine to reach the foot.",
+        "correction": "Keep your chest up and hinge strictly from the pelvis, even if you can only reach your knee or shin."
+      },
+      {
+        "fault": "Hyperextending and forcing the knee of the straight leg down into the floor.",
+        "correction": "Maintain a micro-bend at the knee joint to protect the joint capsule while focusing the stretch on the muscle belly."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid bouncing or forcing range of motion past comfortable tension."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Swiss Ball Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Ball Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Exercise Ball Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Ball crunches",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "external-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "calisthenics",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat",
+      "weight-plate",
+      "dumbbell"
+    ],
+    "required": [
+      [
+        "stability-ball"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "165"
+  },
+  "id": "oec:stability-ball-crunch",
+  "instructions": {
+    "setup": [
+      "Sit on the stability ball and walk your feet forward, rolling back until the ball supports your lower and mid back.",
+      "Plant your feet flat on the floor roughly shoulder-width apart with knees bent at approximately 90 degrees.",
+      "Place your fingertips lightly behind your ears or cross your arms over your chest without pulling on your neck."
+    ],
+    "steps": [
+      "Allow your spine to drape slightly over the curve of the ball into gentle extension, feeling a mild stretch in the abdominals.",
+      "Contract your abdominals to curl your ribcage down toward your pelvis, flexing your spine.",
+      "Pause briefly at peak contraction while keeping your hips stable on the ball.",
+      "Slowly lower your torso back over the ball under control to return to the stretched starting position."
+    ],
+    "breathing": "Inhale as you lower back over the ball into extension; exhale forcefully as you crunch upward.",
+    "cues": [
+      "Pull your ribs to your belt line.",
+      "Keep your hips still on the ball.",
+      "Do not yank on your neck."
+    ],
+    "common_faults": [
+      {
+        "fault": "Thrusting hips upward or rolling the ball with the legs rather than flexing the spine.",
+        "correction": "Keep your pelvis and feet planted firmly; isolate the movement to curling your upper torso forward."
+      },
+      {
+        "fault": "Pulling forcefully on the head and neck.",
+        "correction": "Rest fingertips lightly behind your head with elbows wide, or cross your hands over your chest."
+      },
+      {
+        "fault": "Limiting range of motion by staying in a perpetual crunch.",
+        "correction": "Allow your spine to extend over the curve of the ball at the bottom of each repetition to train the full abdominal range."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the floor surface provides adequate traction to prevent feet from slipping.",
+        "Avoid excessive hyperextension of the lumbar spine if you experience lower back discomfort."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Stability Ball Crunch",
+  "previous_ids": [
+    "oec:ball-crunches"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Ball crunches",
+        "url": "https://wger.de/en/exercise/165/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Konsumopfer"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:crunch"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:crunch"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:crunch"
+    }
+  ],
+  "setup": {
+    "position": "supine",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "An abdominal crunch performed supine on a stability ball, allowing an extended range of spinal extension and flexion."
+}

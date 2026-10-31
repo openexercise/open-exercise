@@ -1,0 +1,220 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Cable External Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Cable Shoulder External Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Rotator Cuff External Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Shoulder External Rotation (Cable)",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "infraspinatus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-minor",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "external-rotation"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "rotation"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1729"
+  },
+  "id": "oec:cable-shoulder-external-rotation",
+  "instructions": {
+    "setup": [
+      "Set the cable pulley to elbow height and attach a single D-handle.",
+      "Stand perpendicular to the cable machine with your working arm furthest from the stack.",
+      "Grasp the handle with your working hand, bending your elbow to 90 degrees and tucking your upper arm against your torso."
+    ],
+    "steps": [
+      "Keeping your elbow pinned firmly to your side, rotate your forearm outward away from the cable stack.",
+      "Continue rotating until your forearm is roughly perpendicular to your torso or as far as active shoulder mobility allows without torso twisting.",
+      "Pause briefly at peak contraction.",
+      "Control the weight smoothly back to the starting position across your stomach."
+    ],
+    "breathing": "Exhale as you rotate outward and inhale as you return to the start.",
+    "cues": [
+      "Pin your elbow to your ribs like a door hinge",
+      "Move the forearm, not the torso",
+      "Lead with the back of the hand"
+    ],
+    "common_faults": [
+      {
+        "fault": "Elbow drifting away from the side of the body.",
+        "correction": "Keep the upper arm glued to your ribs; place a small rolled towel between your elbow and torso to maintain contact if needed."
+      },
+      {
+        "fault": "Rotating the torso to swing the weight.",
+        "correction": "Keep your hips and shoulders squared forward throughout the entire movement."
+      },
+      {
+        "fault": "Extending the elbow or flexing the wrist to generate false range of motion.",
+        "correction": "Lock the elbow at a strict 90-degree angle and maintain a rigid, neutral wrist."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use very light loads; the rotator cuff responds best to high control and moderate-to-high repetitions."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Cable Shoulder External Rotation",
+  "previous_ids": [
+    "oec:shoulder-external-rotation-cable"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Shoulder External Rotation (Cable)",
+        "url": "https://wger.de/en/exercise/1729/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "barry"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-external-rotation"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-external-rotation"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-side-lying-external-rotation"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:side-lying-dumbbell-external-rotation"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A standing cable isolation exercise that strengthens the external rotators of the rotator cuff."
+}

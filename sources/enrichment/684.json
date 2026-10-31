@@ -1,0 +1,166 @@
+{
+  "is_exercise": true,
+  "name": "Reverse-Grip Lat Pulldown",
+  "summary": "A vertical pulling exercise performed on a cable machine using a supinated grip to target the latissimus dorsi and elbow flexors.",
+  "aliases": [
+    {
+      "text": "Underhand Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Supinated Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Underhand Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse-Grip Cable Pulldown",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "supinated",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "downward-rotation",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable",
+        "selectorized-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the thigh pad on the lat pulldown machine so your legs are firmly secured with feet flat on the floor.",
+      "Grasp the bar with a supinated (underhand) grip at roughly shoulder width.",
+      "Sit down under the pads, fully extend your arms overhead, and establish a slight backward lean through your upper torso while keeping your core braced."
+    ],
+    "steps": [
+      "Initiate the movement by depressing your shoulder blades and pulling your elbows down and in toward your ribs.",
+      "Draw the bar down in a controlled path until it lightly touches or nears your upper chest.",
+      "Pause briefly at the bottom while actively squeezing your lats.",
+      "Slowly reverse the motion, extending your arms and allowing your shoulder blades to upwardly rotate until you reach a full overhead stretch."
+    ],
+    "breathing": "Exhale as you pull the bar down toward your chest, and inhale as you return it smoothly overhead.",
+    "cues": [
+      "Lead with the elbows, not your hands.",
+      "Chest up to meet the bar.",
+      "Control the stretch at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive backward leaning to use momentum.",
+        "correction": "Maintain a fixed, subtle torso lean of roughly 10 to 15 degrees throughout the entire rep."
+      },
+      {
+        "fault": "Cutting the range of motion short at the top.",
+        "correction": "Allow the arms to fully straighten overhead to achieve a complete stretch in the lats before initiating the next repetition."
+      },
+      {
+        "fault": "Pulling the bar too low toward the abdomen.",
+        "correction": "Target the upper-to-mid chest; pulling lower forces internal shoulder rotation and reduces lat engagement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the thigh pads are locked securely before selecting working loads."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

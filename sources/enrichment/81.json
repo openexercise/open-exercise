@@ -1,0 +1,183 @@
+{
+  "is_exercise": true,
+  "name": "Single-Arm Dumbbell Row",
+  "summary": "A unilateral horizontal pull where a single dumbbell is rowed toward the hip while hinging at the hips with torso support.",
+  "aliases": [
+    {
+      "text": "One-Arm Dumbbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "One Arm DB Row",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Single-Arm DB Row",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Bent-Over Dumbbell Row (Single Arm)",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull",
+      "anti-rotation"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "bent-over",
+  "grip_orientation": "neutral",
+  "stance_kind": "staggered",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "bench"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Place one knee and the matching hand flat on a bench, or hinge forward in a staggered stance with one hand braced on a sturdy support.",
+      "Keep your spine neutral, hips level, and torso roughly parallel to the floor.",
+      "Grip the dumbbell in the working hand with an arm hanging straight down, allowing the shoulder blade to gently protract."
+    ],
+    "steps": [
+      "Initiate the pull by retracting your shoulder blade and driving your elbow back toward your hip.",
+      "Pull until your upper arm aligns with your torso, keeping your elbow relatively close to your side.",
+      "Pause briefly at the peak contraction without rotating your shoulders or torso.",
+      "Lower the dumbbell under control back to a full stretch at the bottom."
+    ],
+    "breathing": "Exhale as you row the dumbbell upward and inhale as you lower it with control.",
+    "cues": [
+      "Pull with your elbow, not your hand",
+      "Row toward your hip pocket",
+      "Keep your chest squared to the floor"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the torso excessively to heave the weight up.",
+        "correction": "Brace the core and keep both shoulders square to the floor throughout the entire movement."
+      },
+      {
+        "fault": "Pulling straight up into the armpit with excessive bicep involvement.",
+        "correction": "Pull in a slight arc toward your hip crease to emphasize lat engagement."
+      },
+      {
+        "fault": "Rounding the lower back.",
+        "correction": "Hinge properly at the hips, brace your abdominals, and maintain a neutral spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the supporting surface is stable and can bear your weight."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

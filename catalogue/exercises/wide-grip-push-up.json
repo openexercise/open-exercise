@@ -1,0 +1,219 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Wide Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Wide-Hand Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Wide Grip Push-Up",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1964"
+  },
+  "id": "oec:wide-grip-push-up",
+  "instructions": {
+    "setup": [
+      "Assume a high plank position with your hands placed on the floor significantly wider than shoulder-width, roughly 1.5 times shoulder width apart.",
+      "Angle your fingers slightly outward if needed to relieve wrist stress.",
+      "Extend your legs behind you with feet hip-width apart and establish a rigid line from your heels to the top of your head by squeezing your glutes and bracing your core."
+    ],
+    "steps": [
+      "Lower your chest toward the floor by bending at the elbows, maintaining full-body tension.",
+      "Descend until your chest is just above the floor or your elbows reach approximately ninety degrees of flexion.",
+      "Press through the base of your palms and drive horizontally inward to return to the top position.",
+      "Lock out your arms smoothly and protract your shoulder blades slightly at the top."
+    ],
+    "breathing": "Inhale as you lower your body toward the floor, and exhale forcefully as you press back up to lockout.",
+    "cues": [
+      "Keep a rigid plank from head to heels.",
+      "Think about pulling your hands together to contract the chest.",
+      "Keep elbows flared moderately without letting them rise directly in line with your shoulders."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring elbows excessively out at ninety degrees perpendicular to the torso, causing anterior shoulder impingement.",
+        "correction": "Tuck the elbows slightly so they form roughly a sixty- to seventy-degree angle with the torso."
+      },
+      {
+        "fault": "Sagging hips and lumbar hyperextension during the movement.",
+        "correction": "Engage the abdominals and squeeze the glutes to keep the pelvis tucked in a neutral position."
+      },
+      {
+        "fault": "Placing hands excessively wide, which sharply limits functional range of motion and overstresses the shoulders.",
+        "correction": "Bring hands inward to roughly 1.5 times shoulder width so your forearms remain relatively vertical at the bottom."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Individuals with anterior shoulder instability or impingement should modify hand width closer to shoulder-width."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Wide-Grip Push-Up",
+  "previous_ids": [
+    "oec:wide-push-up"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Wide Push-Up",
+        "url": "https://wger.de/en/exercise/1964/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Anon#2"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:typewriter-push-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "wide"
+    },
+    "position": "prone",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A bodyweight push-up variation performed with a wide hand placement to emphasize the pectoralis major through horizontal adduction."
+}

@@ -1,0 +1,237 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Gymnastic Ring Dip",
+      "kind": "common"
+    },
+    {
+      "text": "Rings Dip",
+      "kind": "common"
+    },
+    {
+      "text": "Ring Dips",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-minor",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "advanced"
+  },
+  "equipment": {
+    "optional": [
+      "dip-belt",
+      "resistance-band",
+      "weight-vest"
+    ],
+    "required": [
+      [
+        "gymnastic-rings"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "501"
+  },
+  "id": "oec:ring-dip",
+  "instructions": {
+    "setup": [
+      "Suspend the gymnastic rings at a height that allows full extension without your feet touching the ground.",
+      "Grasp the rings with a neutral grip and jump or press up into a full support hold with arms straight.",
+      "Stabilize the support hold by depressing your shoulders and rotating your palms slightly forward (rings turned out) with core and glutes braced."
+    ],
+    "steps": [
+      "Rotate the rings back to neutral and lower yourself under control by bending your elbows and leaning your torso slightly forward.",
+      "Descend until your shoulders are just below your elbows, keeping the rings tight against your ribs and preventing them from drifting outward.",
+      "Press through your palms to reverse the motion, extending your elbows and driving your body back up.",
+      "Lock out your elbows at the top and turn the rings slightly outward to re-establish a stable support hold."
+    ],
+    "breathing": "Inhale as you lower your body under control, and exhale forcefully as you press back up to lockout.",
+    "cues": [
+      "Keep the rings glued to your sides",
+      "Shoulders down away from ears",
+      "Turn the rings out at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the rings to drift wide away from the body during descent.",
+        "correction": "Actively pull the rings inward toward your hips and ribs throughout the entire repetition."
+      },
+      {
+        "fault": "Shrugging the shoulders forward into internal rotation at the bottom of the dip.",
+        "correction": "Maintain scapular depression and chest openness, only descending as deep as shoulder stability allows."
+      },
+      {
+        "fault": "Incomplete lockout at the top of the movement.",
+        "correction": "Achieve full elbow extension and briefly turn the rings out on every repetition to train end-range stabilization."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure you have mastered solid parallel-bar dips and a stationary ring support hold before attempting dynamic ring dips to protect the shoulder joint.",
+        "Stop the set if ring shake becomes uncontrollable."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Ring Dip",
+  "previous_ids": [
+    "oec:ring-dips"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Ring Dips",
+        "url": "https://wger.de/en/exercise/501/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Nash"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dip"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:dip"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:ring-support-hold"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:suspension-trainer-dip"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "shoulder"
+    },
+    "position": "support"
+  },
+  "status": "active",
+  "summary": "An advanced upper-body pushing exercise performed on suspended gymnastic rings to develop chest, triceps, and shoulder strength while demanding intense joint stabilization."
+}

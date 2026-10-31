@@ -1,0 +1,135 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Wrist Curl",
+  "summary": "An isolation exercise that targets the forearm flexors by curling a barbell upward using only wrist flexion.",
+  "aliases": [
+    {
+      "text": "Barbell Palms-Up Wrist Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Palms-Up Barbell Wrist Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Curl de muñeca con barra",
+      "kind": "regional"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-grip"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "kneeling",
+  "grip_orientation": "supinated",
+  "grip_width": "shoulder",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "forearm-flexors",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hand-intrinsics",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "wrist",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "fingers",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell",
+        "ez-bar"
+      ]
+    },
+    {
+      "any_of": [
+        "bench"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Kneel beside a flat bench holding a barbell with a shoulder-width supinated (palms up) grip.",
+      "Rest the backs of your forearms flat across the bench so that your wrists and hands hang just off the edge."
+    ],
+    "steps": [
+      "Lower the barbell toward the floor by extending your wrists under control.",
+      "Optionally allow the bar to roll slightly down into your fingers at the bottom for an increased stretch.",
+      "Re-grip tightly and flex your wrists upward as high as possible, raising the bar through full flexion.",
+      "Pause briefly at the top to contract the forearm flexors before lowering smoothly into the next repetition."
+    ],
+    "breathing": "Exhale as you curl the weight up into wrist flexion, and inhale as you lower the barbell.",
+    "cues": [
+      "Keep forearms glued to the bench",
+      "Curl through the wrists, not the elbows",
+      "Squeeze hard at the peak"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the forearms off the bench to assist the curl with the biceps.",
+        "correction": "Keep your forearms firmly pressed into the bench pad throughout the entire set."
+      },
+      {
+        "fault": "Using excessively heavy weight that restricts the active range of motion.",
+        "correction": "Select a lighter load that allows for a deep wrist extension and complete wrist flexion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid letting the barbell slip out of your fingers at the bottom of the stretch."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

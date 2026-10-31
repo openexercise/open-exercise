@@ -1,0 +1,163 @@
+{
+  "is_exercise": true,
+  "name": "Interval Run",
+  "summary": "A running workout alternating structured bouts of high-intensity running with lower-intensity recovery periods.",
+  "aliases": [
+    {
+      "text": "Run - Interval Training",
+      "kind": "common"
+    },
+    {
+      "text": "Running Intervals",
+      "kind": "common"
+    },
+    {
+      "text": "Interval Running",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "moving",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hip-flexors",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "treadmill"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration",
+        "distance"
+      ],
+      "optional": [
+        "pace",
+        "heart-rate",
+        "calories",
+        "cadence",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "distance",
+        "pace",
+        "heart-rate",
+        "calories",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Select an open running track, road, trail, or treadmill.",
+      "Perform a thorough warm-up consisting of easy jogging and dynamic mobility drills."
+    ],
+    "steps": [
+      "Accelerate smoothly to your target interval speed, driving with the arms and striking beneath your center of mass.",
+      "Sustain the high-intensity running pace for the prescribed interval duration or distance.",
+      "Decelerate under control into an easy jog or walk to recover for the planned rest period.",
+      "Repeat the work-to-rest cycle for the target number of repetitions before finishing with an easy cool-down."
+    ],
+    "breathing": "Maintain a steady, rhythmic breathing pattern synchronized with your stride cadence.",
+    "cues": [
+      "Stay tall with a slight forward lean from the ankles",
+      "Drive knees forward and strike beneath your hips",
+      "Keep shoulders relaxed and pump your arms rhythmically"
+    ],
+    "common_faults": [
+      {
+        "fault": "Sprinting too fast on the first rep and failing to maintain pace across later intervals.",
+        "correction": "Target a consistent, sustainable pace based on the intended interval duration rather than an all-out sprint."
+      },
+      {
+        "fault": "Overstriding with a heavy heel strike far in front of the center of mass.",
+        "correction": "Increase step turnover and aim for feet to land directly beneath the hips."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure appropriate footwear and run on an even, safe surface.",
+        "Discontinue if experiencing acute sharp pain in the lower extremities or chest discomfort."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

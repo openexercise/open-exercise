@@ -1,0 +1,250 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Arnold Press",
+      "kind": "common"
+    },
+    {
+      "text": "Arnold Shoulder Press",
+      "kind": "common"
+    },
+    {
+      "text": "Schwarzenegger Press",
+      "kind": "common"
+    },
+    {
+      "text": "Rotational Dumbbell Press",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Corkscrew Press",
+      "kind": "common"
+    },
+    {
+      "text": "Palm-to-Palm Overhead Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-lateral",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "abduction",
+          "external-rotation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      },
+      {
+        "joint": "radioulnar",
+        "actions": [
+          "pronation"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-bench",
+        "bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "20"
+  },
+  "id": "oec:dumbbell-arnold-press",
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an upright angle (roughly 75 to 90 degrees).",
+      "Sit firmly against the back pad with your feet planted flat on the floor.",
+      "Bring the dumbbells to upper-chest level with elbows tucked in front of you, forearms vertical, and palms facing inward toward your body."
+    ],
+    "steps": [
+      "Press the dumbbells upward while simultaneously flaring your elbows out to the sides.",
+      "Rotate your wrists smoothly as the weights ascend so that your palms face forward at the top of the lift.",
+      "Lock out your arms overhead without violently hyperextending your elbows.",
+      "Lower the dumbbells along the reverse path, rotating your palms back toward your torso as your elbows return to the starting position in front of your chest."
+    ],
+    "breathing": "Inhale as you lower the weights to the chest, and exhale forcefully as you rotate and press the dumbbells overhead.",
+    "cues": [
+      "Smooth twist on the way up.",
+      "Elbows in at the bottom, elbows out at the top.",
+      "Stay glued to the back pad."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the wrists completely before beginning the upward press.",
+        "correction": "Synchronize the rotation with the upward pressing motion so the turn happens fluidly across the middle third of the range."
+      },
+      {
+        "fault": "Excessively arching the lower back to press the load.",
+        "correction": "Brace your core, keep your lower back in contact with the bench, and reduce the weight if necessary."
+      },
+      {
+        "fault": "Flaring the elbows immediately without an active upward drive.",
+        "correction": "Initiate the press upward from the front deltoids before opening the elbows wide into the frontal plane."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessively heavy weights that compromise rotational shoulder control."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "rir"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Arnold Press",
+  "previous_ids": [
+    "oec:arnold-shoulder-press"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Arnold Shoulder Press",
+        "url": "https://wger.de/en/exercise/20/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "trzr23"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:seated-dumbbell-overhead-press"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:seated-dumbbell-shoulder-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-dumbbell-overhead-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-dumbbell-shoulder-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "rotating",
+      "width": "shoulder"
+    },
+    "load_position": "chest",
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A seated overhead press variation where dumbbells are rotated from a supinated chest position to a pronated overhead position."
+}

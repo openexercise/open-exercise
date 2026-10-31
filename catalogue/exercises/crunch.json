@@ -1,0 +1,221 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Abdominal Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Floor Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Crunches",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "external-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deep-neck-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "cervical-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "167,1933"
+  },
+  "id": "oec:crunch",
+  "instructions": {
+    "setup": [
+      "Lie face up on the floor with your knees bent at about 90 degrees and your feet flat, hip-width apart.",
+      "Place your fingertips lightly behind your ears or cross your arms over your chest, keeping your elbows flared wide.",
+      "Flatten your lower back gently against the floor to engage your core."
+    ],
+    "steps": [
+      "Exhale as you curl your ribcage down toward your pelvis, lifting your head and shoulder blades off the floor.",
+      "Pause at the top of the contraction for a moment, squeezing your abdominals firmly while keeping your lower back anchored to the mat.",
+      "Inhale as you slowly reverse the curl, lowering your shoulder blades back to the mat with control."
+    ],
+    "breathing": "Exhale forcefully during the upward crunch, and inhale smoothly as you lower your shoulders to the floor.",
+    "cues": [
+      "Pull your ribs toward your hips",
+      "Keep your lower back glued to the mat",
+      "Imagine holding an apple between your chin and chest"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling on the head and neck with the hands, causing excessive cervical flexion.",
+        "correction": "Keep fingertips light against your temples or cross your arms over your chest; focus on moving your torso, not your head."
+      },
+      {
+        "fault": "Lifting the lower back off the ground into a full sit-up, engaging the hip flexors excessively.",
+        "correction": "Shorten the range of motion; only lift the shoulder blades while keeping the lower back flat on the floor."
+      },
+      {
+        "fault": "Using momentum to bounce off the floor between repetitions.",
+        "correction": "Slow the tempo down and pause briefly at both the top contraction and bottom reset."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forcefully tucking the chin to the chest; keep the cervical spine neutral."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Crunch",
+  "previous_ids": [
+    "oec:crunches",
+    "oec:abdominal-crunch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Crunches",
+        "url": "https://wger.de/en/exercise/167/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      },
+      {
+        "title": "wger: Abdominal Crunch",
+        "url": "https://wger.de/en/exercise/1933/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "amaesc"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:sit-up"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:sit-up"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:decline-crunch"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:weighted-crunch"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-crunch"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-kneeling-crunch"
+    }
+  ],
+  "setup": {
+    "position": "supine",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A foundational bodyweight abdominal exercise performed lying supine that targets the rectus abdominis through spinal flexion."
+}

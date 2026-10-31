@@ -1,0 +1,153 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell External Rotation",
+  "summary": "An isolation exercise performed lying on one's side to strengthen the infraspinatus and teres minor of the rotator cuff.",
+  "aliases": [
+    {
+      "text": "Side-Lying Dumbbell External Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Shoulder Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell External Shoulder Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Dumbbell External Rotation",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "strength",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "rotation"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "side-lying",
+  "grip_orientation": "neutral",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "infraspinatus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-minor",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "supraspinatus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Lie on your side on a mat or flat bench, supporting your head with a pillow, foam block, or your bottom arm.",
+      "Hold a light dumbbell in your top hand and bend your elbow to a 90-degree angle.",
+      "Tuck the elbow firmly against your flank, letting the forearm rest across your abdomen with your palm facing your body."
+    ],
+    "steps": [
+      "Keeping your elbow pinned firmly to your side, rotate your forearm outward and upward toward the ceiling.",
+      "Continue rotating until your forearm is roughly parallel to the floor or just above, without forcing joint range.",
+      "Pause for a brief moment to contract the back of your shoulder.",
+      "Slowly lower the dumbbell back across your abdomen under strict control.",
+      "Complete the desired repetitions, then roll over and repeat on the opposite arm."
+    ],
+    "breathing": "Exhale as you rotate the dumbbell upward against gravity, and inhale as you lower it back to your stomach.",
+    "cues": [
+      "Pin your elbow to your ribs like a door hinge.",
+      "Keep your wrist straight and firm.",
+      "Stay stacked on your side without rolling backward."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling the torso backward to swing the dumbbell upward.",
+        "correction": "Keep your hips and shoulders perpendicular to the floor throughout the entire set."
+      },
+      {
+        "fault": "Lifting the elbow away from the ribcage during the movement.",
+        "correction": "Keep the elbow pressed to your side, optionally placing a rolled towel between your elbow and ribs to maintain contact."
+      },
+      {
+        "fault": "Using excessively heavy weight that compromises form.",
+        "correction": "Use very light loads; the rotator cuff muscles are small and respond best to high-repetition, strictly controlled work."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Stop immediately if you feel sharp pain in the front of the shoulder or deep in the socket."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

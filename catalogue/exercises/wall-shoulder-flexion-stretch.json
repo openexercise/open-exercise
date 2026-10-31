@@ -1,0 +1,198 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Shoulder Flexion Wall Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Wall Lat Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Wall Overhead Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stretched"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "stretched"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "stretched"
+      },
+      {
+        "muscle": "triceps-long-head",
+        "role": "stretched"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "mobility-drill"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "wall"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2693"
+  },
+  "id": "oec:wall-shoulder-flexion-stretch",
+  "instructions": {
+    "setup": [
+      "Stand facing a sturdy wall at arm's length with feet hip-width apart.",
+      "Place both palms flat against the wall above shoulder height, roughly shoulder-width apart."
+    ],
+    "steps": [
+      "Step your feet back while hinging at the hips, keeping your arms extended on the wall.",
+      "Gently lower your chest toward the floor until you feel a comfortable stretch through the shoulders, lats, and upper back.",
+      "Maintain a neutral lower back by bracing your abdominals lightly to prevent excessive lumbar arching.",
+      "Hold the position steadily for the desired duration, then walk your feet forward to safely release the stretch."
+    ],
+    "breathing": "Breathe deeply and rhythmically, relaxing your chest further toward the floor with each exhale without forcing the joint range.",
+    "cues": [
+      "Hips back, chest down",
+      "Keep the ribs tucked",
+      "Reach through the palms"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively arching the lower back to compensate for stiff shoulders.",
+        "correction": "Engage the core and keep the ribcage pulled down so the extension occurs in the thoracic spine and shoulders."
+      },
+      {
+        "fault": "Bending the elbows during the hold.",
+        "correction": "Keep the elbows extended and actively push the palms into the wall."
+      },
+      {
+        "fault": "Shrugging the shoulders violently into the neck causing pinching.",
+        "correction": "Allow natural upward scapular rotation while keeping the neck relaxed and neutral."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid pushing past the point of mild tension into shoulder impingement or sharp joint pain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Wall Shoulder Flexion Stretch",
+  "previous_ids": [
+    "oec:shoulder-flexion-wall-stretch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Shoulder Flexion Wall Stretch",
+        "url": "https://wger.de/en/exercise/2693/view-base",
+        "license": "CC0-1.0",
+        "author": "Original exercise instructions prepared for nalhilal"
+      }
+    ]
+  },
+  "setup": {
+    "grip": {
+      "orientation": "pronated"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A standing static stretch using a wall to improve overhead shoulder flexion and thoracic extension."
+}

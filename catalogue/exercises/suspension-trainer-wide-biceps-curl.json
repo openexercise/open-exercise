@@ -1,0 +1,209 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "TRX gorilla biceps curl",
+      "kind": "brand"
+    },
+    {
+      "text": "TRX gorilla curl",
+      "kind": "brand"
+    },
+    {
+      "text": "Suspension trainer gorilla curl",
+      "kind": "common"
+    },
+    {
+      "text": "TRX wide biceps curl",
+      "kind": "brand"
+    },
+    {
+      "text": "Suspension wide curl",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "suspension-trainer"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1261"
+  },
+  "id": "oec:suspension-trainer-wide-biceps-curl",
+  "instructions": {
+    "setup": [
+      "Face the suspension trainer anchor point and grasp the handles with a neutral grip (palms facing each other).",
+      "Walk your feet forward to lean back, creating an incline appropriate for your strength.",
+      "Raise your upper arms out to the sides at chest height with elbows slightly flared, bracing your core and glutes into a rigid plank."
+    ],
+    "steps": [
+      "Keeping your upper arms stationary and parallel to the floor, flex your elbows to pull your body forward toward the handles.",
+      "Squeeze your biceps hard at the peak of the contraction as your hands approach your chest or head.",
+      "Lower your body under control by slowly extending your elbows back to the starting position without dropping your hips."
+    ],
+    "breathing": "Exhale as you curl your body upward, and inhale as you lower yourself under control.",
+    "cues": [
+      "Keep elbows high and wide",
+      "Pull hands to ears, not handles to ribs",
+      "Stay in a solid plank"
+    ],
+    "common_faults": [
+      {
+        "fault": "Dropping the elbows into a row motion rather than isolating elbow flexion.",
+        "correction": "Keep upper arms fixed at shoulder level so the only moving joint is the elbow."
+      },
+      {
+        "fault": "Sagging at the hips or hyperextending the lower back to create momentum.",
+        "correction": "Squeeze the glutes and brace the abs to maintain a straight line from heels to head."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the suspension trainer anchor point is secure before placing full bodyweight on the straps.",
+        "Adjust foot position backward to reduce resistance if form breaks down."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Suspension Trainer Wide Biceps Curl",
+  "previous_ids": [
+    "oec:trx-gorilla-biceps-curl"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: TRX gorilla biceps curl",
+        "url": "https://wger.de/en/exercise/1261/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "cynomops"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:suspension-trainer-biceps-curl"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "wide"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A bodyweight biceps isolation exercise using a suspension trainer with flared elbows to challenge elbow flexion from an abducted shoulder position."
+}

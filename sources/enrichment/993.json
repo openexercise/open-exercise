@@ -1,0 +1,183 @@
+{
+  "is_exercise": true,
+  "name": "Jump Rope",
+  "summary": "A continuous cardiovascular and plyometric exercise where you rhythmically jump over a revolving rope.",
+  "aliases": [
+    {
+      "text": "Skipping Rope",
+      "kind": "common"
+    },
+    {
+      "text": "Rope Skipping",
+      "kind": "common"
+    },
+    {
+      "text": "Jump Rope Basic Bounce",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning",
+      "plyometric"
+    ],
+    "movement_patterns": [
+      "jump"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "narrow",
+  "stance_kind": "parallel",
+  "range": "partial",
+  "muscles": [
+    {
+      "muscle": "gastrocnemius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "soleus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "foot-intrinsics",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "circumduction"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "jump-rope"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "heart-rate",
+        "calories",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Adjust the jump rope length so the handles reach approximately armpit or mid-chest height when standing on the middle of the cord.",
+      "Stand tall with feet close together, knees softly unlocked, and elbows tucked close to your ribcage with hands slightly forward."
+    ],
+    "steps": [
+      "Rotate your wrists to swing the rope over your head and toward your feet.",
+      "As the rope approaches the floor, spring off the balls of your feet just high enough (about one to two inches) to clear the rope.",
+      "Land softly on the balls of your feet with knees slightly bent to absorb impact, immediately rebounding into the next jump.",
+      "Maintain a steady, rhythmic cadence driven primarily by wrist rotation rather than whole-arm swinging."
+    ],
+    "breathing": "Breathe rhythmically and consistently through the nose and mouth in sync with your jumping cadence.",
+    "cues": [
+      "Turn with the wrists, not the elbows",
+      "Stay light on the balls of your feet",
+      "Jump only high enough to clear the cable",
+      "Keep elbows glued near your ribs"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the rope using large shoulder or arm circles instead of wrist rotation.",
+        "correction": "Tuck elbows into your sides and use small circular flicks of the wrists to propel the rope."
+      },
+      {
+        "fault": "Jumping too high or kicking heels backward (donkey-kicking).",
+        "correction": "Keep your jumps low and compact, flexing only slightly at the knees and ankles to clear the floor by an inch or two."
+      },
+      {
+        "fault": "Landing flat-footed or on your heels.",
+        "correction": "Stay springy and upright, absorbing impact exclusively through the balls of the feet and calves."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform on a forgiving surface like rubber flooring, a wooden floor, or a mat rather than bare concrete to reduce lower-leg impact stress.",
+        "Ensure clear overhead and surrounding space to prevent the rope from catching on obstacles."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

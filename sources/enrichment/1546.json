@@ -1,0 +1,185 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Larsen Press",
+  "summary": "A flat barbell bench press variation performed with the legs extended straight out and hovering off the floor to eliminate leg drive and emphasize upper-body pressing strength and core stability.",
+  "aliases": [
+    {
+      "text": "Larsen Press",
+      "kind": "common"
+    },
+    {
+      "text": "Feet-Up Bench Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "powerlifting",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "supine",
+  "incline_degrees": 0,
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "depression",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench"
+      ]
+    },
+    {
+      "any_of": [
+        "power-rack",
+        "squat-rack"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Lie flat on the bench with your eyes aligned directly under the racked barbell.",
+      "Retract and depress your shoulder blades into the bench pad to establish a solid upper-back base.",
+      "Grip the bar slightly wider than shoulder width using a full, pronated grip.",
+      "Extend your legs straight out in front of you, hovering your feet slightly above the floor without letting them touch down or wrap around the bench."
+    ],
+    "steps": [
+      "Unrack the barbell and establish control directly over your mid-chest with locked elbows.",
+      "Brace your core to keep your pelvis and torso stable on the bench without rocking.",
+      "Lower the bar in a controlled path until it lightly touches your sternum or lower chest.",
+      "Press the bar back up explosively along the same path until your elbows are fully locked out."
+    ],
+    "breathing": "Inhale and brace your abdominal wall before initiating the descent, hold your breath through the bottom transition, and exhale as you press past the sticking point.",
+    "cues": [
+      "Lock down the ribs",
+      "Pin your shoulder blades back",
+      "Keep legs straight and still"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the feet or legs to rest on the floor or hook beneath the bench.",
+        "correction": "Keep the knees straight and float your legs out in front, holding them hovering entirely under core control."
+      },
+      {
+        "fault": "Excessive rocking side to side during the press.",
+        "correction": "Brace your abdominals harder and reduce the working load to maintain torso stability without leg support."
+      },
+      {
+        "fault": "Bouncing the bar off the chest.",
+        "correction": "Control the eccentric phase and touch lightly with a distinct pause or soft reversal."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Set rack safety pins just below chest level to prevent entrapment if balance or strength fails.",
+        "Ensure your collar clips are securely fastened so plates do not slide if the torso shifts."
+      ],
+      "spotter": "recommended",
+      "safeties": true
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "is_exercise": true,
+  "name": "Lateral Split Squat",
+  "summary": "A stationary lower-body exercise performed in a wide stance, shifting the hips laterally to bend one knee while keeping the other leg straight.",
+  "aliases": [
+    {
+      "text": "Side Split Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Lateral Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Stationary Side Lunge",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "lunge",
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "wide",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gracilis",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension",
+        "abduction",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand upright with your feet approximately double shoulder-width apart.",
+      "Position your feet parallel or angled slightly outward with both heels firmly planted on the floor.",
+      "Keep your chest tall and hold your hands in front of your chest for balance."
+    ],
+    "steps": [
+      "Shift your weight to one side and push your hips back and down.",
+      "Bend the working knee while keeping the opposite leg straight and the foot flat on the floor.",
+      "Descend until the thigh of your working leg is roughly parallel to the floor.",
+      "Drive through the midfoot and heel of the bent leg to return to the starting upright wide stance.",
+      "Complete the desired repetitions on one side before switching, or alternate as prescribed."
+    ],
+    "breathing": "Inhale as you sit down into the squat, and exhale as you press back up to the top.",
+    "cues": [
+      "Sit back into your hip",
+      "Keep the straight foot flat",
+      "Knee tracks over toes"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the heel of the working foot to rise off the floor.",
+        "correction": "Sit the hips back further and ensure weight is balanced across the entire foot, working within your ankle mobility."
+      },
+      {
+        "fault": "Allowing the working knee to collapse inward past the big toe.",
+        "correction": "Actively push the working knee outward so it tracks in line with your middle toes."
+      },
+      {
+        "fault": "Lifting the foot of the trailing straight leg off the ground.",
+        "correction": "Keep the sole of the non-working foot glued to the floor to maintain tension and stretch through the adductors."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not force depth beyond your current adductor flexibility or hip mobility."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

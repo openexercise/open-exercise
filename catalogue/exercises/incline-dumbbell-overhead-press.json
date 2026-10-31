@@ -1,0 +1,237 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Incline OHP DB",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Incline Dumbbell Shoulder Press",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Incline Overhead Press",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Incline Shoulder Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-lateral",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1441"
+  },
+  "id": "oec:incline-dumbbell-overhead-press",
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an incline (around 45 to 60 degrees).",
+      "Sit back firmly against the pad with feet flat on the floor.",
+      "Bring the dumbbells to shoulder height, with elbows angled forward at roughly 45 degrees in the scapular plane and palms facing forward or slightly inward."
+    ],
+    "steps": [
+      "Press the dumbbells upward along a natural arc until your arms are fully extended overhead without clanging the weights together.",
+      "Lower the dumbbells in a controlled motion until your upper arms are approximately parallel to your shoulders or you feel a comfortable stretch in your deltoids.",
+      "Pause briefly at the bottom before initiating the next repetition."
+    ],
+    "breathing": "Inhale as you lower the dumbbells to shoulder level, and exhale forcefully as you press them overhead.",
+    "cues": [
+      "Press up and slightly back.",
+      "Keep elbows tucked slightly inside the shoulders.",
+      "Drive your feet into the floor."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbows straight out to the sides.",
+        "correction": "Tuck the elbows roughly 30 to 45 degrees into the scapular plane to protect the shoulder joints."
+      },
+      {
+        "fault": "Excessively arching the lower back off the bench.",
+        "correction": "Brace your core and keep your lower back flush against the back support."
+      },
+      {
+        "fault": "Banging the dumbbells together at lockout.",
+        "correction": "Press in a smooth upward path and stop just before the weights touch."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not drop heavy dumbbells from the top position; bring them back to your knees before standing up."
+      ],
+      "spotter": "recommended"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Incline Dumbbell Overhead Press",
+  "previous_ids": [
+    "oec:incline-ohp-db"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Incline OHP DB",
+        "url": "https://wger.de/en/exercise/1441/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "M9"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:seated-dumbbell-overhead-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-dumbbell-shoulder-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-barbell-overhead-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:smith-machine-high-incline-bench-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "incline_degrees": 45,
+    "load_position": "overhead",
+    "position": "seated",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An overhead pressing variation performed seated on an incline bench that targets the anterior deltoids, upper chest, and triceps."
+}

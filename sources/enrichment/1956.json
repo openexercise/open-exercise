@@ -1,0 +1,154 @@
+{
+  "is_exercise": true,
+  "name": "Quadruped Hip Circle",
+  "summary": "A bodyweight mobility exercise performed on all fours that takes the hip through a full circular range of motion to improve joint health and activate the glutes.",
+  "aliases": [
+    {
+      "text": "Fire Hydrant Circle",
+      "kind": "common"
+    },
+    {
+      "text": "Fire Hydrant Hip Circle",
+      "kind": "common"
+    },
+    {
+      "text": "Quadruped Hip CAR",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "calisthenics",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "isolation-hip-abduction"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "quadruped",
+  "muscles": [
+    {
+      "muscle": "gluteus-medius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-minimus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "piriformis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "circumduction"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat",
+    "ankle-weight",
+    "mini-band"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "tempo",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Start on all fours with hands directly beneath your shoulders and knees positioned under your hips.",
+      "Flatten your back, brace your midsection to lock the spine in neutral, and fix your gaze between your hands."
+    ],
+    "steps": [
+      "Keeping your knee bent at ninety degrees, drive one knee forward toward your chest.",
+      "Abduct the hip by lifting the knee out to the side as high as possible without shifting your pelvis.",
+      "Sweep the thigh backward into hip extension, driving the sole of your foot toward the ceiling.",
+      "Return the knee smoothly down next to the supporting leg to complete one circle, then repeat for the desired reps before reversing the rotation direction."
+    ],
+    "breathing": "Breathe continuously and evenly throughout the circle without holding your breath during peak abduction.",
+    "cues": [
+      "Draw the biggest circle possible with your knee cap.",
+      "Keep your lower back flat and quiet.",
+      "Press the floor away through both hands."
+    ],
+    "common_faults": [
+      {
+        "fault": "Twisting the torso and leaning heavily onto the non-working side to gain false range of motion.",
+        "correction": "Distribute weight evenly across both hands and only rotate the hip as far as your pelvis remains level."
+      },
+      {
+        "fault": "Arching the lumbar spine when driving the leg into extension.",
+        "correction": "Brace the abdominals firmly to maintain a neutral spine and isolate movement strictly to the hip joint."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform smoothly and avoid jerky, uncontrolled swinging of the leg."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

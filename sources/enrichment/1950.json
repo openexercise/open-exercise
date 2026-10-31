@@ -1,0 +1,155 @@
+{
+  "is_exercise": true,
+  "name": "Foam Roller IT Band",
+  "summary": "A self-myofascial release technique that uses bodyweight against a foam roller to target the lateral thigh and tensor fasciae latae.",
+  "aliases": [
+    {
+      "text": "Foam Roll IT Band",
+      "kind": "common"
+    },
+    {
+      "text": "IT Band Foam Rolling",
+      "kind": "common"
+    },
+    {
+      "text": "Foam Roller Iliotibial Band",
+      "kind": "common"
+    },
+    {
+      "text": "Foam Roller Lateral Thigh",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "rehabilitation",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "not-applicable",
+    "force": "not-applicable",
+    "kinetic_chain": "not-applicable",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "side-lying",
+  "muscles": [
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "stretched"
+    },
+    {
+      "muscle": "vastus-lateralis",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stretched"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "foam-roller"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "per-side",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Place a foam roller on the floor and lie on your side with the roller positioned under your outer hip, just below the hip joint.",
+      "Support your upper body on your forearm and place your top foot flat on the floor in front of or behind your bottom leg to help regulate the pressure."
+    ],
+    "steps": [
+      "Slowly roll down your outer thigh from just below the hip bone toward the top of the knee.",
+      "Pause and hold on any particularly tender or tight areas for several seconds to allow the tissue to relax.",
+      "Roll back upward toward the hip in a smooth, controlled motion.",
+      "Complete the desired duration or number of passes, then switch to the other leg."
+    ],
+    "breathing": "Maintain slow, deep, diaphragmatic breathing throughout, avoiding holding your breath when rolling over tender spots.",
+    "cues": [
+      "Support your weight with your arms and top leg",
+      "Roll slow and controlled",
+      "Breathe through tender points",
+      "Stay off bony joints"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling directly over the knee joint or hip bone",
+        "correction": "Stop rolling just above the outer knee joint and remain below the greater trochanter of the hip."
+      },
+      {
+        "fault": "Rolling too quickly across the tissue",
+        "correction": "Move slowly at a rate of one to two inches per second, pausing over trigger points."
+      },
+      {
+        "fault": "Tensing the body and holding your breath due to discomfort",
+        "correction": "Offload more weight through your support arm and foot to reduce intensity to a tolerable level."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid rolling directly onto bone or joint structures.",
+        "Discontinue if you experience sharp, radiating, or nerve pain."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

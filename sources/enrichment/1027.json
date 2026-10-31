@@ -1,0 +1,159 @@
+{
+  "is_exercise": true,
+  "name": "Bench Prayer Stretch",
+  "summary": "A kneeling mobility stretch performed with elbows elevated on a bench to increase shoulder flexion, thoracic extension, and lat flexibility.",
+  "aliases": [
+    {
+      "text": "Elevated prayer stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Bench thoracic spine stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Kneeling lat stretch on bench",
+      "kind": "descriptive"
+    },
+    {
+      "text": "Child's pose on bench",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "mobility-drill"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "kneeling",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stretched"
+    },
+    {
+      "muscle": "triceps-long-head",
+      "role": "stretched"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "stretched"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "stretched"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "bench",
+        "plyo-box",
+        "chair"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Kneel on the floor facing a flat bench, placing a mat under your knees if needed for comfort.",
+      "Place your elbows shoulder-width apart on the edge of the bench with your palms pressed together in a prayer position.",
+      "Sit your hips back toward your heels so your torso is angled forward."
+    ],
+    "steps": [
+      "Exhale and gently sink your chest toward the floor between your shoulders.",
+      "Bend your elbows deeper to bring your hands back toward the nape of your neck.",
+      "Maintain a slight abdominal brace to avoid excessive arching in your lower back.",
+      "Hold the stretch at the point of mild tension for the desired duration before releasing."
+    ],
+    "breathing": "Breathe deeply and rhythmically through your nose, using each exhalation to sink slightly deeper into thoracic extension.",
+    "cues": [
+      "Chest toward the floor",
+      "Thumbs to the nape of the neck",
+      "Keep your ribs pulled in"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lumbar spine instead of extending the mid-back.",
+        "correction": "Brace the abdominals and tuck the pelvis slightly to isolate movement to the thoracic spine and shoulders."
+      },
+      {
+        "fault": "Elbows flaring excessively wide on the bench.",
+        "correction": "Keep the elbows kept approximately shoulder-width apart to maximize the stretch through the lats and triceps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ease into shoulder flexion gradually if you have an active shoulder impingement or pain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

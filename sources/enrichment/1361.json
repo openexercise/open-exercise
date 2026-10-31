@@ -1,0 +1,170 @@
+{
+  "is_exercise": true,
+  "name": "Double Kettlebell Front Squat",
+  "summary": "A bilateral squat variation performed with two kettlebells held in the front rack position to heavily recruit the quadriceps and anterior core.",
+  "aliases": [
+    {
+      "text": "Kettlebell Front Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Dual Kettlebell Front Squat",
+      "kind": "common"
+    },
+    {
+      "text": "2KB Front Squat",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "front-rack",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "kettlebell"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Clean two kettlebells into the front rack position so the bells rest in the triangles formed by your forearms and chest.",
+      "Keep wrists straight with thumbs resting near the collarbones and elbows tucked close to your ribcage.",
+      "Set your feet shoulder-width apart with toes angled slightly outward, bracing your midsection."
+    ],
+    "steps": [
+      "Inhale deeply and descend by bending your knees and hips simultaneously, sitting between your heels.",
+      "Keep your torso upright and elbows pinned close to your body as your thighs reach at least parallel to the floor.",
+      "Drive through your midfoot to reverse the movement and stand back up.",
+      "Lock out your hips and knees at the top while maintaining control of the rack position."
+    ],
+    "breathing": "Inhale and brace your core at the top or during descent, then exhale forcefully as you drive out of the bottom.",
+    "cues": [
+      "Stay tall through the chest",
+      "Drive elbows slightly up and in",
+      "Sit between your knees"
+    ],
+    "common_faults": [
+      {
+        "fault": "Elbows flaring outward, causing the bells to pull the torso forward into spinal flexion.",
+        "correction": "Keep elbows tucked tightly against the ribcage and actively resist thoracic rounding."
+      },
+      {
+        "fault": "Broken or bent wrists in the rack, putting excessive strain on the wrist joint.",
+        "correction": "Insert hands deep into the handles so the handle rests across the base of the palm with a neutral wrist."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you lose balance or fail a rep, push the kettlebells forward and step backward to safely dump the weights."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Frog Pose",
+      "kind": "common"
+    },
+    {
+      "text": "Kakasana",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "synergist"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "depression"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "balance",
+      "yoga"
+    ],
+    "movement_patterns": [
+      "balance",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat",
+      "yoga-block"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1238"
+  },
+  "id": "oec:frog-stand",
+  "instructions": {
+    "setup": [
+      "Drop into a deep squat with your feet together and your knees flared outward.",
+      "Plant your hands flat on the floor shoulder-width apart, spreading your fingers wide for stability.",
+      "Bend your elbows slightly and position your inner knees against the backs of your upper triceps."
+    ],
+    "steps": [
+      "Shift your body weight forward over your hands, keeping your gaze focused slightly ahead of your fingers.",
+      "Grip the floor firmly with your fingertips as your heels rise off the ground.",
+      "Lift your toes off the floor one at a time or together until your entire weight is balanced on your hands.",
+      "Hold the position for the prescribed duration while keeping your core braced and shoulders actively pressing away from the floor.",
+      "Lower your feet gently back to the ground with control to finish the hold."
+    ],
+    "breathing": "Maintain slow, steady, controlled breathing into your abdomen without breaking your core brace.",
+    "cues": [
+      "Grip the floor with your fingertips.",
+      "Lean forward into the balance.",
+      "Push the floor away through your shoulders."
+    ],
+    "common_faults": [
+      {
+        "fault": "Looking straight down or tucking the chin, causing you to roll forward onto your head.",
+        "correction": "Fix your gaze on a spot on the floor about a foot in front of your hands."
+      },
+      {
+        "fault": "Keeping weight too far back over the feet rather than loading the hands.",
+        "correction": "Lean your shoulders forward until your elbows stack over your wrists before lifting the toes."
+      },
+      {
+        "fault": "Passive hands and collapsed wrists.",
+        "correction": "Actively claw into the ground with your fingers to make micro-adjustments and protect your wrists."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Warm up the wrists thoroughly before performing arm balances.",
+        "Place a folded mat or pillow in front of your head if you are fearful of tipping forward."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Frog Stand",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Frog stand",
+        "url": "https://wger.de/en/exercise/1238/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "clafal"
+      }
+    ]
+  },
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "support"
+  },
+  "status": "active",
+  "summary": "An introductory calisthenics arm balance where the knees rest on the elbows and the body weight is supported entirely by the hands."
+}

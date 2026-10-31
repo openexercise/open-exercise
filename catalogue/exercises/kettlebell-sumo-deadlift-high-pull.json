@@ -1,0 +1,246 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Kettlebell Sumo High Pull",
+      "kind": "common"
+    },
+    {
+      "text": "KB Sumo Deadlift High Pull",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "KB SDHP",
+      "kind": "abbreviation"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-lateral",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "abduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "elevation",
+          "upward-rotation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "power",
+      "conditioning",
+      "strength"
+    ],
+    "movement_patterns": [
+      "hinge",
+      "vertical-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "mixed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "kettlebell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1970"
+  },
+  "id": "oec:kettlebell-sumo-deadlift-high-pull",
+  "instructions": {
+    "setup": [
+      "Stand directly over the kettlebell with your feet in a wide sumo stance, toes angled outward at roughly 30 to 45 degrees.",
+      "Hinge at the hips and bend your knees to reach down, gripping the kettlebell handle with both hands using an overhand grip.",
+      "Keep your chest upright, spine neutral, and shoulders pulled slightly back and down."
+    ],
+    "steps": [
+      "Drive violently through the floor with your legs, extending your hips and knees with explosive force.",
+      "As full hip extension is reached, shrug your shoulders and allow the momentum to float the kettlebell upward.",
+      "Guide the kettlebell up toward collarbone height, leading with your elbows high and outside your wrists.",
+      "Smoothly reverse the path by lowering the kettlebell under control, re-hinging at the hips as the bell passes below waist height to return it to the floor."
+    ],
+    "breathing": "Inhale as you hinge down to grip the weight, and exhale forcefully as you drive through your hips and complete the pull.",
+    "cues": [
+      "Legs drive, arms follow",
+      "Fast hips, high elbows",
+      "Elbows above the wrists at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling primarily with the arms before the hips fully extend.",
+        "correction": "Wait for complete hip and knee extension before bending your elbows to guide the bell upward."
+      },
+      {
+        "fault": "Letting the elbows drop below the wrists at the apex of the pull.",
+        "correction": "Direct your elbows up and outward so they remain higher than your hands throughout the finish."
+      },
+      {
+        "fault": "Rounding the lumbar spine during the initial pickup or return to the floor.",
+        "correction": "Keep your chest proud and hinge at the hips while bracing the trunk firmly."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid striking the chin or chest with the kettlebell handle at the top of the movement.",
+        "Do not let the weight pull your spine into flexion when returning to the floor; control the descent."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Kettlebell Sumo Deadlift High Pull",
+  "previous_ids": [
+    "oec:kettlebell-sumo-high-pull"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Kettlebell sumo high pull",
+        "url": "https://wger.de/en/exercise/1970/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "wgerpott"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:kettlebell-sumo-deadlift"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-hang-high-pull"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "narrow"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "sumo"
+    }
+  },
+  "status": "active",
+  "summary": "An explosive full-body movement that couples a wide-stance hip hinge with an upright pull using momentum from the lower body."
+}

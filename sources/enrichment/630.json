@@ -1,0 +1,178 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Sumo Deadlift",
+  "summary": "A wide-stance deadlift variation targeting the glutes, adductors, and quadriceps while allowing a more upright torso posture.",
+  "aliases": [
+    {
+      "text": "Sumo Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "Sumo DL",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "powerlifting",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "mixed",
+  "grip_width": "shoulder",
+  "stance_width": "sumo",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "trapezius",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "fingers",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "weight-plate"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand behind a loaded barbell with feet set wide, toes pointed outward at approximately 30 to 45 degrees.",
+      "Position your shins close to the barbell so it crosses over midfoot.",
+      "Push your knees outward in line with your toes, drop your hips down and forward, and reach straight down inside your knees to grip the bar with arms perpendicular to the floor.",
+      "Engage your lats, pull the slack out of the barbell, and brace your core with your chest proud and spine neutral."
+    ],
+    "steps": [
+      "Drive the floor away by pushing through the whole foot and spreading the floor apart.",
+      "Keep your chest upright and maintain knee alignment over the toes as the bar breaks off the floor.",
+      "As the bar passes the knees, forcefully drive your hips forward into full extension to lock out standing tall.",
+      "Lower the bar under control along the same path by hinging at the hips and bending the knees until the plates touch the floor."
+    ],
+    "breathing": "Take a deep diaphragmatic breath into your belly and brace firmly before initiating the pull, exhaling past lockout or once the bar returns to the floor.",
+    "cues": [
+      "Spread the floor with your feet.",
+      "Pull the slack out before lifting.",
+      "Chest up, hips close to the bar."
+    ],
+    "common_faults": [
+      {
+        "fault": "Knees collapsing inward during the initial drive off the floor.",
+        "correction": "Actively push your knees outward in the direction of your toes before and during the pull."
+      },
+      {
+        "fault": "Hips shooting up first, turning the movement into a stiff-legged conventional deadlift.",
+        "correction": "Wedge your hips closer to the bar at setup, pull chest tall, and push the floor away rather than pulling back with the upper body."
+      },
+      {
+        "fault": "Allowing the barbell to drift away from the shins.",
+        "correction": "Engage your latissimus dorsi to pull the barbell back against the legs throughout the entire range of motion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure standard-diameter plates are used so the starting height is correct.",
+        "Maintain a neutral spine under heavy loads; avoid excessive lumbar flexion or over-extending the lower back at lockout."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

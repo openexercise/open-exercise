@@ -1,0 +1,227 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Legend Chest Press",
+      "kind": "brand"
+    },
+    {
+      "text": "Hammer Strength Chest Press",
+      "kind": "brand"
+    },
+    {
+      "text": "Leverage Chest Press",
+      "kind": "common"
+    },
+    {
+      "text": "Plate-Loaded Machine Bench Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "plate-loaded-machine"
+      ],
+      [
+        "weight-plate"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1918"
+  },
+  "id": "oec:plate-loaded-chest-press",
+  "instructions": {
+    "setup": [
+      "Load the machine sleeves evenly with weight plates.",
+      "Adjust the seat height so the handles align across the mid-to-lower chest.",
+      "Sit back firmly against the pad with your feet flat on the floor.",
+      "Grasp the handles with an overhand grip and retract your shoulder blades."
+    ],
+    "steps": [
+      "Press the handles smoothly forward by extending your elbows and contracting your chest.",
+      "Extend until your arms are nearly straight without forcefully locking out your elbows.",
+      "Lower the handles under control until you feel a comfortable stretch across your pectorals.",
+      "Pause briefly at the bottom before initiating the next repetition."
+    ],
+    "breathing": "Inhale as you lower the weight toward your chest; exhale forcefully as you press forward.",
+    "cues": [
+      "Drive through your palms",
+      "Keep your shoulders pinned to the pad",
+      "Squeeze your chest at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Seat adjusted too high or low",
+        "correction": "Ensure handles align with the middle of your sternum to avoid excess shoulder impingement."
+      },
+      {
+        "fault": "Protracted, rounded shoulders at the finish",
+        "correction": "Keep your shoulder blades retracted and depressed against the backrest throughout the press."
+      },
+      {
+        "fault": "Bouncing the weight off the machine stops",
+        "correction": "Control the eccentric phase and stop just short of bottoming out the lever arms."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use the foot-assist pedal if available to bring the handles forward into the starting position safely."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-side",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Plate-Loaded Chest Press",
+  "previous_ids": [
+    "oec:legend-chest-press"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Legend Chest Press",
+        "url": "https://wger.de/en/exercise/1918/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:machine-chest-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-chest-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-bench-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "seated",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A machine-based compound horizontal press utilizing plate-loaded lever arms to target the pectoral muscles, anterior deltoids, and triceps."
+}

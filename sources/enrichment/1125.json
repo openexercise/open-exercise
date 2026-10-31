@@ -1,0 +1,158 @@
+{
+  "is_exercise": true,
+  "name": "Wide-Grip Supinated Lat Pulldown",
+  "summary": "A vertical pulling exercise performed on a cable machine using an underhand, wide grip to target the latissimus dorsi and elbow flexors.",
+  "aliases": [
+    {
+      "text": "Wide-grip reverse-grip lat pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Wide underhand pulldown",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "seated",
+  "grip_orientation": "supinated",
+  "grip_width": "wide",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "adduction",
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "downward-rotation",
+        "depression",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable",
+        "selectorized-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach a long lat pulldown bar to the high cable pulley.",
+      "Adjust the thigh pads so your legs are firmly secured with feet flat on the floor.",
+      "Grasp the bar with a supinated (underhand) grip noticeably wider than shoulder width.",
+      "Sit down, anchoring your thighs under the pads, and extend your arms overhead with your torso upright and a slight arch in the upper back."
+    ],
+    "steps": [
+      "Depress your scapulae and pull the bar downward toward your upper chest by driving your elbows down and back.",
+      "Pause briefly as the bar reaches chin or clavicle height, squeezing your lats and mid-back.",
+      "Control the weight as you slowly extend your arms back overhead to a full stretch."
+    ],
+    "breathing": "Inhale as you allow the bar to return overhead; exhale forcefully as you pull the bar down to your chest.",
+    "cues": [
+      "Drive the elbows down into your pockets",
+      "Chest up to meet the bar",
+      "Control the ascent—don't let the stack slam"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive backward swinging of the torso to use momentum.",
+        "correction": "Keep your torso relatively upright with only a slight lean and isolate the pull to your upper body."
+      },
+      {
+        "fault": "Gripping too wide with a supinated grip, causing excessive wrist strain.",
+        "correction": "Ensure your wrists remain neutral; if you feel joint discomfort in the wrists or forearms, narrow the grip slightly or use an angled bar."
+      },
+      {
+        "fault": "Cutting the eccentric phase short without achieving a full stretch.",
+        "correction": "Allow your arms to fully extend and your shoulder blades to upwardly rotate at the top of each repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid this variation if you lack sufficient forearm supination or experience distal bicep or wrist pain; switch to a standard shoulder-width reverse grip or neutral grip instead."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

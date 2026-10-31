@@ -1,0 +1,200 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Tabletop Toe Tap",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Toe Tap",
+      "kind": "common"
+    },
+    {
+      "text": "Dead Bug Toe Tap",
+      "kind": "common"
+    },
+    {
+      "text": "Toe Taps",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "obliques",
+        "role": "synergist"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "pilates",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "anti-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1425"
+  },
+  "id": "oec:supine-toe-tap",
+  "instructions": {
+    "setup": [
+      "Lie face up on an exercise mat with your arms resting at your sides, palms facing down.",
+      "Lift your legs into a tabletop position with hips and knees both bent to ninety degrees and shins parallel to the floor.",
+      "Brace your core, gently pressing your lower back flush against the floor to establish a stable pelvis."
+    ],
+    "steps": [
+      "Hinge at the hip to lower one foot toward the floor in a controlled arc, keeping the knee locked at ninety degrees.",
+      "Gently tap the floor with your toes without resting your weight on the ground.",
+      "Engage your deep core to raise the leg back to the tabletop starting position.",
+      "Repeat the movement with the opposite leg."
+    ],
+    "breathing": "Inhale as you lower the leg toward the floor, and exhale forcefully through your mouth as you return it to tabletop.",
+    "cues": [
+      "Keep the ninety-degree bend in the knee.",
+      "Move from the hip, not the knee.",
+      "Glue your lower back to the mat."
+    ],
+    "common_faults": [
+      {
+        "fault": "Arching the lower back off the floor as the leg lowers.",
+        "correction": "Only lower the leg as far as you can maintain abdominal bracing and spinal contact with the floor."
+      },
+      {
+        "fault": "Bending or straightening the knee instead of moving through the hip joint.",
+        "correction": "Keep your knee locked at ninety degrees so the entire thigh rotates from the hip."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Stop if you experience sharp pain or discomfort in your lumbar spine."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Supine Toe Tap",
+  "previous_ids": [
+    "oec:toe-taps"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Toe Taps",
+        "url": "https://wger.de/en/exercise/1425/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "hpmbala@gmail.com"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:abdominal-bracing"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:posterior-pelvic-tilt"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:dead-bug"
+    }
+  ],
+  "setup": {
+    "position": "supine"
+  },
+  "status": "active",
+  "summary": "A supine core stability exercise where alternating feet are lowered from a tabletop position to tap the floor while maintaining a braced, neutral spine."
+}

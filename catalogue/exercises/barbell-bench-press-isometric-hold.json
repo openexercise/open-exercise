@@ -1,0 +1,230 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Bench Press Isometric",
+      "kind": "common"
+    },
+    {
+      "text": "Isometric Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Bench Press Static Hold",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "depression",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "powerlifting"
+    ],
+    "movement_patterns": [
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "bench",
+        "adjustable-bench"
+      ],
+      [
+        "power-rack",
+        "squat-rack"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2536"
+  },
+  "id": "oec:barbell-bench-press-isometric-hold",
+  "instructions": {
+    "setup": [
+      "Set up a flat bench inside a power rack with safety pins adjusted just below your target hold height.",
+      "Lie supine on the bench with your eyes directly under the bar, feet flat on the floor, and shoulder blades retracted and depressed.",
+      "Grip the barbell with a full, pronated grip slightly wider than shoulder width and unrack the bar with straight arms over your chest."
+    ],
+    "steps": [
+      "Lower the bar with control to your predetermined target position, typically just off the chest or at your specific sticking point.",
+      "Bring the bar to a dead stop and maintain maximal tension, resisting any movement for the prescribed duration.",
+      "Press the bar forcefully back to full lockout once the hold time is completed, then carefully rack the barbell."
+    ],
+    "breathing": "Take a deep diaphragmatic breath and brace your core prior to descending, maintaining pressurized, shallow breaths during the hold without losing upper-back tension.",
+    "cues": [
+      "Crush the bar with your hands.",
+      "Pull shoulder blades back and down into the bench.",
+      "Drive your feet into the floor.",
+      "Freeze the bar in place without letting it drift."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the barbell to slowly drift or bounce during the hold.",
+        "correction": "Lock into position and keep full-body tension constant throughout the entire target duration."
+      },
+      {
+        "fault": "Losing scapular retraction, causing the shoulders to roll forward.",
+        "correction": "Keep your upper back pinned tightly into the bench and your chest high."
+      },
+      {
+        "fault": "Performing the hold without safety pins set at the correct height.",
+        "correction": "Position rack safety pins immediately below the hold position to catch the barbell safely in the event of fatigue."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Always perform this movement inside a power rack with properly adjusted safety pins or with an attentive spotter, as sudden muscle failure is common during isometric holds.",
+        "Do not bounce the bar off the safety pins or drop it onto your chest."
+      ],
+      "spotter": "recommended",
+      "safeties": true
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Barbell Bench Press Isometric Hold",
+  "previous_ids": [
+    "oec:bench-press-isometric"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Bench Press Isometric",
+        "url": "https://wger.de/en/exercise/2536/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "HexoctusEngineering"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-bench-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "wide"
+    },
+    "load_position": "chest",
+    "position": "supine",
+    "range": "pause",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A static upper-body exercise where a loaded barbell is held motionless at a specific point in the bench press range of motion to build sticking-point strength and joint stability."
+}

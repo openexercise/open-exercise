@@ -1,0 +1,187 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Bent-Over Row",
+  "summary": "A compound horizontal pull performed by hinging at the hips and rowing a barbell toward the lower torso.",
+  "aliases": [
+    {
+      "text": "Bent-Over Barbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Bent Over Rowing",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "bent-over",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "strap",
+    "weight-plate"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "rir",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand with feet hip-width apart and grip the barbell with a double-overhand (pronated) grip just outside your legs.",
+      "Deadlift or lift the bar off a rack to full hip extension.",
+      "Hinge at the hips with soft knees, pushing your hips back until your torso is between 45 degrees and parallel to the floor, maintaining a neutral spine with arms hanging fully extended."
+    ],
+    "steps": [
+      "Initiate the pull by retracting your shoulder blades and driving your elbows backward.",
+      "Row the bar toward your lower ribcage or upper abdomen, keeping your elbows tucked at roughly a 45-degree angle to your torso.",
+      "Pause briefly at the top to squeeze your back muscles without standing up or using momentum.",
+      "Lower the barbell under control until your arms are fully extended and your upper back stretches slightly."
+    ],
+    "breathing": "Inhale and brace your core before initiating the pull, then exhale as you lower the weight or at the completion of the repetition.",
+    "cues": [
+      "Drive the elbows to the ceiling",
+      "Pull the bar to your belly button",
+      "Keep your chest proud and spine rigid"
+    ],
+    "common_faults": [
+      {
+        "fault": "Using hip extension and momentum to heave the bar upward.",
+        "correction": "Lock your torso angle in place and only move the arms and shoulder blades."
+      },
+      {
+        "fault": "Rounding the lower back during the set.",
+        "correction": "Hinge deeply, brace your abdominals, and reduce the weight if you cannot maintain a neutral lumbar spine."
+      },
+      {
+        "fault": "Pulling the bar too high toward the neck or collarbone with flared elbows.",
+        "correction": "Target the lower sternum or navel and keep your elbows at a moderate angle to the ribs."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid letting the lumbar spine round under load to minimize shear forces on the lower back."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

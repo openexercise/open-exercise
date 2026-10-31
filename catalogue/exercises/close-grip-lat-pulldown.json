@@ -1,0 +1,245 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Cable Close-Grip Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Close-Grip Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Narrow-Grip Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Close-Grip Lat Pull Down",
+      "kind": "misspelling"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "retraction",
+          "downward-rotation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "strap"
+    ],
+    "required": [
+      [
+        "cable",
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "158"
+  },
+  "id": "oec:close-grip-lat-pulldown",
+  "instructions": {
+    "setup": [
+      "Attach a straight bar or revolving lat bar to the high pulley of a pulldown machine.",
+      "Adjust the thigh pad so your legs are firmly secured with feet flat on the floor.",
+      "Grasp the bar with an overhand (pronated) grip, spacing hands closer than shoulder-width apart.",
+      "Sit down, anchoring your thighs snugly beneath the pad, and allow your arms to extend overhead with a slight backward lean of the torso."
+    ],
+    "steps": [
+      "Depress and retract your scapulae, initiating the pull by drawing your shoulder blades down.",
+      "Drive your elbows down and back close to your sides, pulling the bar smoothly toward your upper chest.",
+      "Pause briefly as the bar reaches collarbone level, squeezing your back muscles.",
+      "Slowly reverse the motion, extending your elbows with control until your arms are fully extended overhead and your lats are stretched."
+    ],
+    "breathing": "Inhale at the top while arms are extended; exhale smoothly as you pull the bar down to your chest.",
+    "cues": [
+      "Lead with your elbows, not your hands.",
+      "Keep your chest tall and open.",
+      "Drive elbows straight down along your ribs."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive backward leaning and swinging to use momentum.",
+        "correction": "Maintain a stationary, slight torso lean throughout the entire set and control the load with your lats."
+      },
+      {
+        "fault": "Pulling the bar down with the arms while keeping shoulders elevated.",
+        "correction": "Set your shoulder blades down and back before your elbows bend."
+      },
+      {
+        "fault": "Flaring elbows wide.",
+        "correction": "With a close overhand grip, direct your elbows forward and down in the sagittal plane."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid letting the weight stack yank your shoulders abruptly at the top of the rep.",
+        "Do not pull the bar behind the neck."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Close-Grip Lat Pulldown",
+  "previous_ids": [
+    "oec:close-grip-lat-pull-down"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Close-grip Lat Pull Down",
+        "url": "https://wger.de/en/exercise/158/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "tuckerm"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-neutral-grip-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:close-grip-supinated-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:v-bar-lat-pulldown"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "narrow"
+    },
+    "load_position": "overhead",
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A vertical pulling exercise performed on a cable machine using an overhand grip inside shoulder width to emphasize shoulder extension and latissimus dorsi recruitment."
+}

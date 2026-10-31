@@ -1,0 +1,213 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Omni Cable Crossover",
+      "kind": "common"
+    },
+    {
+      "text": "Omni Cable Cross-over",
+      "kind": "misspelling"
+    },
+    {
+      "text": "High-Low Cable Fly",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-minor",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "adduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-chest-fly"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1484"
+  },
+  "id": "oec:cable-high-low-crossover",
+  "instructions": {
+    "setup": [
+      "Set one pulley of a dual-cable crossover station to the highest setting and the other pulley to the lowest setting.",
+      "Select appropriate loads for each stack, typically using slightly more weight on the high pulley than the low pulley.",
+      "Grasp the high handle with one hand and the low handle with the other, then step forward into a stable staggered stance centered between the towers.",
+      "Maintain a slight bend in your elbows and brace your core with your torso leaned marginally forward."
+    ],
+    "steps": [
+      "Simultaneously pull the high cable downward and across your torso while driving the low cable upward and across your chest.",
+      "Bring both hands toward your midline until your chest reaches peak contraction, crossing slightly if comfortable.",
+      "Squeeze your chest muscles hard for a brief pause at the center point.",
+      "Slowly reverse the motion under control, returning both arms to the stretched starting position without altering the bend in your elbows.",
+      "Complete the desired repetitions, then switch the pulley heights and repeat the set to work both sides evenly."
+    ],
+    "breathing": "Inhale as you allow your arms to open and stretch back; exhale forcefully as you drive your hands together across your chest.",
+    "cues": [
+      "Lead with the inner chest.",
+      "Keep the elbow angle locked throughout.",
+      "Control the return, don't let the cables pull you backward."
+    ],
+    "common_faults": [
+      {
+        "fault": "Pressing the weight using excessive elbow extension instead of flying.",
+        "correction": "Maintain a fixed, slight bend in the elbows from start to finish."
+      },
+      {
+        "fault": "Allowing the torso to twist toward one side due to the asymmetrical load.",
+        "correction": "Brace the abdominals and square the shoulders forward to resist rotational forces."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid letting the shoulders hyperextend excessively in the stretched position to protect the anterior shoulder capsule."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable High-Low Crossover",
+  "previous_ids": [
+    "oec:omni-cable-cross-over"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Omni Cable Cross-over",
+        "url": "https://wger.de/en/exercise/1484/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Moffi"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-crossover"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-crossover"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "staggered",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A standing cable chest exercise that simultaneously targets the upper and lower pectoralis fibers by pulling one cable downward and the other upward across the body."
+}

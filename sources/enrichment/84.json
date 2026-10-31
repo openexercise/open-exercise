@@ -1,0 +1,194 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Reverse-Grip Row",
+  "summary": "A compound bent-over rowing variation performed with a supinated grip to heavily recruit the lats, lower traps, and biceps.",
+  "aliases": [
+    {
+      "text": "Reverse-Grip Barbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Underhand Barbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Supinated Barbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Bent Over Rowing Reverse",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Yates Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "bent-over",
+  "grip_orientation": "supinated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "depression"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand with feet hip-width apart and grip the barbell with an underhand (supinated) grip at shoulder width.",
+      "Hinge at the hips by pushing your hips backward with soft knees until your torso is angled forward around 45 to 70 degrees.",
+      "Brace your core and keep your back flat, allowing the barbell to hang directly below your shoulders with arms fully extended."
+    ],
+    "steps": [
+      "Initiate the pull by driving your elbows backward and retracting your shoulder blades.",
+      "Pull the bar in a slight arc toward your lower abdomen or belly button, keeping your elbows tucked close to your torso.",
+      "Pause briefly at the top of the contraction to squeeze your lats and middle back.",
+      "Lower the bar under control back to the starting hanging position, achieving a full stretch at the bottom."
+    ],
+    "breathing": "Inhale and brace your core before initiating the pull; exhale as you complete the row or lower the weight under control.",
+    "cues": [
+      "Drive your elbows back toward your pockets.",
+      "Keep your chest proud and spine rigid.",
+      "Keep your elbows close to your ribs."
+    ],
+    "common_faults": [
+      {
+        "fault": "Using excessive body momentum or standing up during the pull.",
+        "correction": "Reduce the load and lock your hip hinge angle in place throughout the set."
+      },
+      {
+        "fault": "Rowing too high toward the chest with elbows flaring out.",
+        "correction": "Pull toward the navel and keep the elbows tucked in close to the torso to properly align with the supinated grip."
+      },
+      {
+        "fault": "Rounding the lumbar spine under load.",
+        "correction": "Maintain an active hip hinge with braced abdominals and a neutral spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a neutral spine throughout the movement to protect the lower back.",
+        "Avoid violently jerking the bar off the floor or hyperextending the lower back at the top."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

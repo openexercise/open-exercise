@@ -1,0 +1,160 @@
+{
+  "is_exercise": true,
+  "name": "Back Extension",
+  "summary": "A posterior-chain exercise performed on an angled or horizontal bench to strengthen the lower back, glutes, and hamstrings.",
+  "aliases": [
+    {
+      "text": "Lower Back Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Hyperextension",
+      "kind": "common"
+    },
+    {
+      "text": "Roman Chair Back Extension",
+      "kind": "common"
+    },
+    {
+      "text": "45-Degree Back Extension",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "hinge",
+      "spinal-extension"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "chest",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "erector-spinae",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "abdominals",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion",
+        "extension",
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "roman-chair",
+        "ghd"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "weight-plate",
+    "dumbbell",
+    "resistance-band"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "load",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight-plus-external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Position yourself face down in the back extension apparatus, anchoring the backs of your ankles securely under the rear pads.",
+      "Adjust the pelvic pad so that the top edge rests just below your hip crease, allowing your hips to fold freely.",
+      "Cross your arms over your chest or place fingertips lightly by your ears, maintaining a neutral spine and aligned neck."
+    ],
+    "steps": [
+      "Hinge forward at the hips, lowering your torso in a controlled motion until you feel a deep stretch in your hamstrings.",
+      "Engage your glutes and hamstrings, driving your hips into the pad to raise your torso back up.",
+      "Lift until your body forms a straight line from your head to your ankles, pausing briefly at the top without hyperextending your lower back.",
+      "Lower under control to complete the rep."
+    ],
+    "breathing": "Inhale as you lower your torso toward the floor; exhale forcefully as you extend back up to the neutral finish position.",
+    "cues": [
+      "Hinge at the hips",
+      "Squeeze your glutes at the top",
+      "Stop at straight, don't arch"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lumbar spine at the top of the movement.",
+        "correction": "Finish the rep when your body forms a straight line from ankles to shoulders, relying on glute contraction rather than arching your lower back."
+      },
+      {
+        "fault": "Setting the thigh pad too high above the hip crease.",
+        "correction": "Lower the support pad so it rests below the anterior superior iliac spine, permitting full hip flexion without restricting pelvis motion."
+      },
+      {
+        "fault": "Using swinging momentum to propel the torso upward.",
+        "correction": "Perform both the eccentric lowering and concentric raising phases under smooth, deliberate muscle tension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure ankles are firmly secured under the rollers before hinging forward.",
+        "Individuals with acute lower back disc issues should maintain a strictly neutral lumbar spine and avoid loaded flexion."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

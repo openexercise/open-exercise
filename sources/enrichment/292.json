@@ -1,0 +1,163 @@
+{
+  "is_exercise": true,
+  "name": "Glute Bridge",
+  "summary": "A fundamental bodyweight exercise performed lying supine that targets the glutes and posterior chain through hip extension.",
+  "aliases": [
+    {
+      "text": "Hip Raise, Lying",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Hip Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Hip Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Glute Bridge Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Butt Lift",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a mat with your knees bent and feet flat on the floor, roughly hip-width apart and six to ten inches from your glutes.",
+      "Rest your arms along your sides with palms facing down for stability."
+    ],
+    "steps": [
+      "Brace your core and drive down through your heels to raise your hips off the floor.",
+      "Extend your hips until your thighs, pelvis, and torso form a straight line from your knees to your shoulders.",
+      "Contract your glutes forcefully at the top and hold for a brief pause or the target duration.",
+      "Lower your hips under control back to the floor to complete the repetition."
+    ],
+    "breathing": "Exhale as you press through your heels and raise your hips; inhale as you lower back down.",
+    "cues": [
+      "Drive through your heels.",
+      "Squeeze glutes, don't arch lower back.",
+      "Maintain a straight line from knees to shoulders."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lumbar spine at the peak of the movement.",
+        "correction": "Stop lifting when your hips are in a straight line with your knees and shoulders, keeping your ribcage locked down with braced abdominals."
+      },
+      {
+        "fault": "Pushing predominantly through the toes, shifting tension to the quadriceps.",
+        "correction": "Keep your entire foot planted with primary pressure through your heels to maximize glute and hamstring recruitment."
+      },
+      {
+        "fault": "Allowing the knees to collapse inward during the ascent.",
+        "correction": "Keep your knees tracking directly over your mid-toes throughout the entire range of motion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid over-arching the lower back to achieve perceived extra height at the top."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

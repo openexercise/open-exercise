@@ -1,0 +1,154 @@
+{
+  "is_exercise": true,
+  "name": "Lying Leg Curl",
+  "summary": "A machine-based isolation exercise performed face down to strengthen and hypertrophy the hamstrings through knee flexion.",
+  "aliases": [
+    {
+      "text": "Prone Leg Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Lying Leg Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Hamstring Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Leg Curls (laying)",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-knee-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "muscles": [
+    {
+      "muscle": "biceps-femoris",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "semitendinosus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "semimembranosus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gracilis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "sartorius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the machine pad so that it rests against the back of your lower legs just below the calves and above the Achilles tendons.",
+      "Lie face down on the bench with your knees positioned just off the lower edge of the pad, aligning your knee joints with the machine's pivot axis.",
+      "Grasp the machine handles firmly and brace your abdominals, pressing your hips flat against the bench."
+    ],
+    "steps": [
+      "Curl your legs smoothly upward toward your glutes by flexing your knees.",
+      "Pause and squeeze your hamstrings at the top of the contraction, keeping your pelvis anchored to the pad.",
+      "Lower the weight slowly under full control back to the starting position without allowing the weight stack to slam."
+    ],
+    "breathing": "Exhale as you curl the weight toward your hips; inhale as you return to the starting position.",
+    "cues": [
+      "Keep your hips glued to the bench.",
+      "Drive your heels toward your glutes.",
+      "Control the eccentric on the way down."
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting hips off the bench during the curl.",
+        "correction": "Keep your pelvis pressed firmly into the bench and reduce the weight if necessary to prevent lumbar hyperextension."
+      },
+      {
+        "fault": "Misaligning the knees with the pivot point.",
+        "correction": "Adjust the bench or foot pad so the rotational axis of the machine aligns directly with the joint line of your knees."
+      },
+      {
+        "fault": "Using momentum and swinging the weight.",
+        "correction": "Perform reps with a controlled tempo and pause briefly at peak contraction."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid letting the weight pull your knees into hyper-extension at the bottom of the movement."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

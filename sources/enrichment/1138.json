@@ -1,0 +1,171 @@
+{
+  "is_exercise": true,
+  "name": "Cable Incline Bench Pulldown",
+  "summary": "A chest-supported vertical pulling exercise performed prone on an incline bench facing a high cable pulley to isolate the lats with minimal lower-back fatigue.",
+  "aliases": [
+    {
+      "text": "Incline Bench Cable Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Bench Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Incline Cable Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Chest-Supported Cable Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Cable Pulldown",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "incline_degrees": 45,
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "downward-rotation",
+        "depression",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    },
+    {
+      "any_of": [
+        "adjustable-bench"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an incline of 30 to 45 degrees, facing a high pulley station.",
+      "Attach a wide bar or pair of handles to the high cable.",
+      "Lie prone with your chest securely pressed into the bench and balls of your feet planted on the floor.",
+      "Reach overhead and grasp the handle with an overhand grip, allowing your arms to fully extend toward the pulley."
+    ],
+    "steps": [
+      "Initiate the pull by depressing your shoulder blades and driving your elbows down toward your hips.",
+      "Continue pulling until the attachment approaches the top of your chest or the front of the bench.",
+      "Pause for a brief moment at the peak contraction, squeezing your back and lats.",
+      "Slowly extend your arms under control, letting the cable pull your shoulders into a stretch at the top."
+    ],
+    "breathing": "Exhale as you pull down toward your chest, and inhale as you return the weight to full extension.",
+    "cues": [
+      "Lead with the elbows.",
+      "Keep the chest pinned to the pad.",
+      "Reach long at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the chest off the pad to swing the weight down.",
+        "correction": "Keep your sternum firmly glued to the incline bench to ensure the back muscles do the work without momentum."
+      },
+      {
+        "fault": "Shrugging the shoulders upward toward the ears during the pull.",
+        "correction": "Keep your shoulders pulled down away from your ears before and while flexing your elbows."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the bench is stable and does not slide during the set."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

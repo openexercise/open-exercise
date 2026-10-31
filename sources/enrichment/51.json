@@ -1,0 +1,133 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Wrist Curl",
+  "summary": "A seated forearm isolation exercise that targets the wrist flexors using a barbell rested across the thighs or a flat bench.",
+  "aliases": [
+    {
+      "text": "Forearm Curls",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Forearm Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Barbell Wrist Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-grip"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "supinated",
+  "grip_width": "shoulder",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "forearm-flexors",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hand-intrinsics",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "wrist",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "fingers",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit on the edge of a flat bench with your feet planted flat on the floor.",
+      "Grasp a barbell with an underhand (supinated) grip about shoulder-width apart.",
+      "Rest the backs of your forearms firmly across your thighs or flat on the bench, allowing your wrists to hang off the edge."
+    ],
+    "steps": [
+      "Lower the barbell by extending your wrists downward in a controlled manner.",
+      "Curl your wrists upward as high as possible, contracting the flexor muscles of your forearms.",
+      "Hold the peak contraction briefly at the top.",
+      "Slowly lower the barbell back down to the extended starting position."
+    ],
+    "breathing": "Exhale as you curl the wrists upward and inhale as you lower the weight.",
+    "cues": [
+      "Keep your forearms glued to the bench or thighs.",
+      "Isolate the movement completely to the wrists.",
+      "Control the descent rather than letting the bar drop."
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the forearms off the thighs or bench during the curl.",
+        "correction": "Keep your forearms firmly anchored so only the wrists move."
+      },
+      {
+        "fault": "Using excessive momentum or body sway.",
+        "correction": "Reduce the weight and execute the movement with a slow, controlled tempo."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid letting the barbell roll out onto the fingertips unless deliberately performing a finger-roll variation with lighter weight."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

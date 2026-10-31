@@ -1,0 +1,155 @@
+{
+  "is_exercise": true,
+  "name": "Wall Slide",
+  "summary": "A scapular mobility and activation exercise sliding the forearms vertically against a wall to engage the serratus anterior and promote upward rotation.",
+  "aliases": [
+    {
+      "text": "Serratus Wall Slide Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Serratus Wall Slide",
+      "kind": "common"
+    },
+    {
+      "text": "Forearm Wall Slide",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "mobility"
+    ],
+    "movement patterns": [
+      "mobility-drill",
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "staggered",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "serratus-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "upward-rotation",
+        "elevation"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "wall"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "foam-roller",
+    "mini-band"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "tempo",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand facing a flat wall in a staggered or hip-width stance, roughly one foot away.",
+      "Place your forearms flat against the wall, parallel to each other, with elbows bent at 90 degrees and at shoulder height.",
+      "Gently protract your shoulder blades so your upper back feels broad, without rounding the thoracic spine."
+    ],
+    "steps": [
+      "Maintain light, consistent pressure against the wall through your forearms and wrists.",
+      "Slide your forearms upward along the wall in a slow, controlled motion, allowing your shoulder blades to upwardly rotate.",
+      "Continue sliding upward until your arms reach overhead without arching your lower back or shrugging your shoulders into your ears.",
+      "Pause briefly at the top, then slowly slide your forearms back down to the starting position."
+    ],
+    "breathing": "Inhale as you prepare, exhale smoothly while sliding upward, and inhale as you return to the starting position.",
+    "cues": [
+      "Push the wall away with your forearms",
+      "Reach up, not forward",
+      "Keep ribs down and core braced",
+      "Don't shrug into your neck"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively arching the lower back to gain overhead reach.",
+        "correction": "Engage the abdominals to keep the ribs anchored down and maintain a neutral spine throughout the movement."
+      },
+      {
+        "fault": "Elbows flaring outward or lifting off the wall during the upward slide.",
+        "correction": "Maintain gentle inward tension so forearms stay parallel and in continuous contact with the wall."
+      },
+      {
+        "fault": "Shrugging the upper traps excessively rather than rotating the scapulae upward.",
+        "correction": "Focus on driving the movement by pushing the bottom tips of the shoulder blades around the ribcage."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Limit overhead range of motion if you experience shoulder impingement or pain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

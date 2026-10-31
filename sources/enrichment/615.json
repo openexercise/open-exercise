@@ -1,0 +1,183 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Back Squat",
+  "summary": "A foundational compound lower-body exercise where a barbell is supported across the upper back while squatting to parallel or below.",
+  "aliases": [
+    {
+      "text": "Back Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Squat",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy",
+      "powerlifting"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "high-bar",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "squat-rack",
+        "power-rack"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "weight-plate"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set the barbell in a rack at approximately mid-chest height.",
+      "Step under the bar, positioning it securely across your upper trapezius (or rear deltoids for low-bar), and grip the bar firmly outside shoulder width.",
+      "Inhale, brace your core, unrack the bar by extending your knees and hips, and take two to three deliberate steps backward.",
+      "Establish a stable stance roughly shoulder-width apart with your toes angled slightly outward."
+    ],
+    "steps": [
+      "Take a deep breath into your abdomen and brace your core firmly.",
+      "Initiate the descent by simultaneously bending at the hips and knees, allowing your knees to track in line with your toes.",
+      "Descend smoothly until the crease of your hip is parallel with or slightly below the top of your knee.",
+      "Drive through your midfoot to reverse the motion, extending your knees and hips smoothly until returning to the upright starting position.",
+      "Exhale near the top of the lift and reset your brace before the next repetition."
+    ],
+    "breathing": "Inhale and perform a Valsalva brace before descending, holding your breath through the sticking point, and exhale upon completing the ascent.",
+    "cues": [
+      "Root your feet into the floor.",
+      "Chest up, knees tracking toes.",
+      "Drive the floor away."
+    ],
+    "common_faults": [
+      {
+        "fault": "Knees collapsing inward (valgus collapse) during the ascent.",
+        "correction": "Push the knees outward in line with your toes and actively spread the floor with your feet."
+      },
+      {
+        "fault": "Excessive forward torso lean causing the hips to rise much faster than the chest (good-morning squat).",
+        "correction": "Maintain abdominal bracing, keep the chest proud, and focus on driving your shoulders into the bar as you ascend."
+      },
+      {
+        "fault": "Heels lifting off the ground at the bottom of the squat.",
+        "correction": "Distribute your weight evenly across the tripod of your foot and work on ankle dorsiflexion mobility."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Set safety pins or spotter arms in the rack just below your full depth to catch the barbell if you fail a rep."
+      ],
+      "spotter": "recommended",
+      "safeties": true
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Foam Rolling Tibialis Anterior",
+      "kind": "common"
+    },
+    {
+      "text": "Foam Roller Shin",
+      "kind": "common"
+    },
+    {
+      "text": "Shin Foam Rolling",
+      "kind": "common"
+    },
+    {
+      "text": "Tibialis Anterior SMR",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Foam Roller Anterior tibialis",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "tibialis-anterior",
+        "role": "stretched"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "ankle",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "stretch"
+    ],
+    "mechanics": "not-applicable",
+    "force": "not-applicable",
+    "kinetic_chain": "not-applicable",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "foam-roller"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1856"
+  },
+  "id": "oec:foam-roller-tibialis-anterior",
+  "instructions": {
+    "setup": [
+      "Place a foam roller on the floor and assume a hands-and-knees position over it.",
+      "Position the upper portion of one shin directly onto the foam roller, slightly lateral to the sharp bony ridge of the tibia.",
+      "Support most of your body weight through your hands and the opposite knee or foot on the floor."
+    ],
+    "steps": [
+      "Slowly roll your body backward and forward to glide the roller between just below the knee and just above the ankle.",
+      "Rotate the lower leg slightly inward and outward to target different fibers of the muscular belly.",
+      "When you encounter a tender spot, pause for several seconds while taking deep breaths until tension dissipates.",
+      "Complete the desired duration, then switch and repeat on the opposite leg."
+    ],
+    "breathing": "Breathe slowly and rhythmically throughout the movement, avoiding holding your breath when rolling over tender spots.",
+    "cues": [
+      "Stay off the bone",
+      "Control pressure with your hands",
+      "Breathe through tender points",
+      "Roll slowly and smoothly"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling directly on the sharp shin bone (tibia).",
+        "correction": "Angle the leg slightly outward so the roller contacts the soft muscle belly just lateral to the tibia."
+      },
+      {
+        "fault": "Moving too quickly across the tissue.",
+        "correction": "Slow the cadence down to a steady, controlled roll to allow the soft tissue to adapt and relax."
+      },
+      {
+        "fault": "Rolling directly over the knee cap or ankle joint.",
+        "correction": "Keep the rolling path strictly between the base of the knee joint and the top of the ankle."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid rolling directly over bony prominences or acute injuries such as suspected stress fractures."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Foam Roller Tibialis Anterior",
+  "previous_ids": [
+    "oec:foam-roller-anterior-tibialis"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Foam Roller Anterior tibialis",
+        "url": "https://wger.de/en/exercise/1856/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Davidgj32"
+      }
+    ]
+  },
+  "setup": {
+    "position": "quadruped"
+  },
+  "status": "active",
+  "summary": "A self-myofascial release technique using a foam roller to alleviate muscle tension along the front and outer side of the shin."
+}

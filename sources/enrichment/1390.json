@@ -1,0 +1,143 @@
+{
+  "is_exercise": true,
+  "name": "Standing Toe Touch",
+  "summary": "A fundamental posterior chain stretch performed by hinging at the hips and reaching toward the feet while standing.",
+  "aliases": [
+    {
+      "text": "Toe Touch",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Forward Bend",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Forward Fold",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "hamstrings",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "yoga-block",
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width or slightly narrower and parallel to each other.",
+      "Keep a soft, micro-bend in the knees rather than hyperextending them.",
+      "Engage your core lightly and let your arms relax at your sides."
+    ],
+    "steps": [
+      "Inhale to lengthen the spine, then exhale as you hinge forward at the hips, leading with the chest.",
+      "Allow your torso to fold over your legs, letting your arms, neck, and head hang relaxed toward the floor.",
+      "Reach your fingertips toward your shins, toes, or the floor, depending on your current flexibility.",
+      "Hold the position at a comfortable stretch point without bouncing.",
+      "To exit, soften your knees slightly, engage your glutes, and slowly unroll your spine back up to a standing position."
+    ],
+    "breathing": "Breathe deeply and rhythmically, using each exhalation to sink slightly deeper into the stretch without forcing it.",
+    "cues": [
+      "Hinge at the hips first",
+      "Keep a micro-bend in the knees",
+      "Relax your head and neck",
+      "Breathe into the back of your legs"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending or locking out the knees aggressively.",
+        "correction": "Maintain a soft micro-bend in the knees to protect the joint capsules and shift tension to the muscle bellies."
+      },
+      {
+        "fault": "Bouncing dynamically to force your hands to touch the floor.",
+        "correction": "Hold a steady, static stretch and allow tension to release gradually through breathing."
+      },
+      {
+        "fault": "Bending entirely from the lower back without hinging at the pelvis.",
+        "correction": "Push the hips backward as you initiate the descent so the movement is driven by hip flexion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Individuals with active lumbar disc herniations should avoid deep spinal flexion and instead maintain a flatter back while hinging."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

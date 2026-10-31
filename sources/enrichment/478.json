@@ -1,0 +1,197 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Push Press",
+  "summary": "A standing overhead press that uses a dynamic leg dip and hip drive to propel dumbbells overhead.",
+  "aliases": [
+    {
+      "text": "DB Push Press",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Push Press with Dumbbells",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "power"
+    ],
+    "movement_patterns": [
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "ballistic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "racked",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-lateral",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "abduction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart holding a pair of dumbbells at shoulder height.",
+      "Position the dumbbells in a neutral or semi-pronated grip resting lightly near the front of your shoulders, with elbows pointing slightly forward.",
+      "Brace your core and keep your torso upright."
+    ],
+    "steps": [
+      "Dip quickly by bending your knees straight down into a shallow quarter squat, keeping your torso completely vertical.",
+      "Explosively reverse the dip by driving through your heels and extending your hips, knees, and ankles.",
+      "Use the upward momentum from your legs to launch the dumbbells overhead, pressing them to full lockout above your shoulders.",
+      "Briefly stabilize at the top with arms extended and ribs pulled down.",
+      "Lower the dumbbells under control back to the shoulders while absorbing the impact with a slight bend in the knees."
+    ],
+    "breathing": "Inhale and brace your core right before the dip, hold your breath through the drive, and exhale as you press to full lockout overhead.",
+    "cues": [
+      "Dip straight down like an elevator.",
+      "Drive hard through the floor.",
+      "Punch the ceiling."
+    ],
+    "common_faults": [
+      {
+        "fault": "Dipping too deep into a full squat.",
+        "correction": "Limit the dip to a quick, shallow knee bend of roughly three to four inches to maximize elasticity and drive."
+      },
+      {
+        "fault": "Leaning the torso forward during the dip.",
+        "correction": "Keep your chest high and torso vertical so the drive directs the weight straight upward instead of forward."
+      },
+      {
+        "fault": "Pressing before the legs finish extending.",
+        "correction": "Allow your hips and knees to reach full extension before pressing actively with your arms."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure your overhead path is clear and avoid excessive hyperextension of the lumbar spine.",
+        "If a repetition fails overhead, guide the dumbbells forward and away from your head to the floor."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

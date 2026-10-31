@@ -1,0 +1,146 @@
+{
+  "is_exercise": true,
+  "name": "Resistance Bar Wrist Extension",
+  "summary": "A unilateral forearm exercise that strengthens the wrist extensors through controlled concentric extension and slow eccentric lowering using an elastic resistance bar.",
+  "aliases": [
+    {
+      "text": "FlexBar Wrist Extension",
+      "kind": "brand"
+    },
+    {
+      "text": "TheraBand FlexBar Wrist Extension",
+      "kind": "brand"
+    },
+    {
+      "text": "Flexible Bar Wrist Extension",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-grip"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "eccentric-emphasis"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "pronated",
+  "muscles": [
+    {
+      "muscle": "forearm-extensors",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "hand-intrinsics",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "wrist",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "fingers",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "resistance-band"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "chair",
+    "bench"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "band-tension",
+        "tempo",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "elastic",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit comfortably on a chair or bench with your forearm resting flat along your thigh or a sturdy table.",
+      "Position your wrist and hand just past the edge of your knee or the table surface, palm facing down toward the floor.",
+      "Grip the end of the resistance bar securely in your hand."
+    ],
+    "steps": [
+      "Allow your wrist to flex downward under control, lowering the end of the bar.",
+      "Extend your wrist upward against the resistance of the bar until you reach full extension without lifting your forearm.",
+      "Pause briefly at the top contraction.",
+      "Slowly lower the bar back to the starting flexed position over a controlled three-count."
+    ],
+    "breathing": "Exhale as you extend the wrist upward; inhale as you slowly lower the resistance bar back down.",
+    "cues": [
+      "Keep forearm pinned to the surface",
+      "Control the downward descent",
+      "Move only at the wrist"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the forearm off the support surface to assist the lift.",
+        "correction": "Keep the entire forearm anchored to isolate movement strictly to the wrist joint."
+      },
+      {
+        "fault": "Dropping the bar quickly without resisting during the lowering phase.",
+        "correction": "Lower the bar with a slow, deliberate tempo to maximize eccentric loading on the tendon."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If using for lateral epicondylalgia rehabilitation, choose a resistance level that allows smooth repetitions without sharp pain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

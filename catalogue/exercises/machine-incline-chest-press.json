@@ -1,0 +1,232 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Incline Machine Chest Press",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Incline Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Plate-Loaded Incline Chest Press",
+      "kind": "common"
+    },
+    {
+      "text": "LeverEdge Machine Incline Press",
+      "kind": "brand"
+    },
+    {
+      "text": "Legend Incline Bench Press",
+      "kind": "brand"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "horizontal-adduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1773,2632"
+  },
+  "id": "oec:machine-incline-chest-press",
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so the handles align across the upper chest, just below clavicle level.",
+      "Sit back firmly against the back pad with your feet flat on the floor.",
+      "Grasp the handles with an overhand grip, retract your shoulder blades, and push your chest up."
+    ],
+    "steps": [
+      "Press the handles upward and forward along the machine's fixed track until your arms are extended without forcefully locking your elbows.",
+      "Pause briefly at full extension while maintaining tension across the upper pectorals.",
+      "Lower the handles under control, feeling a deep stretch across the upper chest as the weight approaches the starting position.",
+      "Stop just before the weight stack or stop-pegs touch down, then begin the next repetition."
+    ],
+    "breathing": "Inhale as you lower the weight toward your chest; exhale forcefully as you press outward.",
+    "cues": [
+      "Drive through your upper chest",
+      "Keep your shoulders pinned to the pad",
+      "Control the descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Setting the seat too low or high, placing excessive stress on the anterior shoulder capsule.",
+        "correction": "Adjust the seat so the handles sit level with the upper portion of your sternum at the bottom of the movement."
+      },
+      {
+        "fault": "Protracting the shoulders forward off the pad at lockout.",
+        "correction": "Keep your shoulder blades retracted and depressed against the backrest throughout the entire set."
+      },
+      {
+        "fault": "Bouncing the weight off the bottom stops.",
+        "correction": "Reverse the motion smoothly just before the machine bottoms out to maintain muscular tension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure seat pins and locking mechanisms are fully engaged before loading weight."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Machine Incline Chest Press",
+  "previous_ids": [
+    "oec:legend-incline-bench-press"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Legend Incline Bench Press",
+        "url": "https://wger.de/en/exercise/1773/view-base",
+        "license": "CC-BY-SA-4.0"
+      },
+      {
+        "title": "wger: Machine Incline Chest Press",
+        "url": "https://wger.de/en/exercise/2632/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:machine-chest-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-incline-bench-press"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-incline-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:incline-dumbbell-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:smith-machine-incline-bench-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "An upper-body pressing exercise performed on an incline machine to build the clavicular head of the chest, shoulders, and triceps."
+}

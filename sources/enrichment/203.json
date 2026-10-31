@@ -1,0 +1,163 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Goblet Squat",
+  "summary": "A squat variation holding a dumbbell vertically against the chest to promote an upright torso and deep hip flexion.",
+  "aliases": [
+    {
+      "text": "Goblet Squat",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "goblet",
+  "grip_orientation": "neutral",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand with feet roughly shoulder-width apart, toes turned slightly outward.",
+      "Hold a dumbbell vertically against your sternum with both hands cupping the underside of the top weight plate.",
+      "Keep your elbows tucked down pointing toward the floor and brace your core."
+    ],
+    "steps": [
+      "Initiate the movement by hinging at the hips and bending your knees simultaneously.",
+      "Descend smoothly between your legs while keeping your chest tall and the dumbbell in contact with your chest.",
+      "Lower until your hip crease drops below the top of your knees, or to your comfortable end range of motion.",
+      "Drive through your midfoot and heels to reverse the movement and stand back up to full hip and knee extension."
+    ],
+    "breathing": "Inhale and brace your abdomen at the top before descending, then exhale forcefully as you drive past the sticking point on the ascent.",
+    "cues": [
+      "Elbows inside the knees",
+      "Proud chest",
+      "Spread the floor with your feet"
+    ],
+    "common_faults": [
+      {
+        "fault": "Letting the dumbbell drift away from the chest, causing upper-back rounding.",
+        "correction": "Keep the dumbbell pinned close to the sternum with elbows tucked tightly against the ribcage."
+      },
+      {
+        "fault": "Knees caving inward (valgus collapse) during the ascent.",
+        "correction": "Actively push your knees outward in line with your toes throughout the entire rep."
+      },
+      {
+        "fault": "Heels lifting off the ground at the bottom of the squat.",
+        "correction": "Distribute weight evenly across the entire foot and work on ankle mobility, or elevate the heels slightly on small plates."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you reach failure, simply push the dumbbell forward onto the floor rather than attempting to sit down with it."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

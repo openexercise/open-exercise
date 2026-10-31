@@ -1,0 +1,161 @@
+{
+  "is_exercise": true,
+  "name": "Cable Neutral-Grip Lat Pulldown",
+  "summary": "A vertical pulling exercise performed on a cable pulldown machine using a neutral grip to target the latissimus dorsi and elbow flexors.",
+  "aliases": [
+    {
+      "text": "Neutral-Grip Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Neutral-Grip Chest Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Parallel-Grip Lat Pulldown",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "neutral",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "downward-rotation",
+        "retraction"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable",
+        "selectorized-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach a neutral-grip handle or parallel-grip bar to the high pulley of a lat pulldown machine.",
+      "Adjust the thigh pad so your legs are securely anchored with your feet flat on the floor.",
+      "Grasp the handles with palms facing each other and sit down, allowing your arms to extend overhead while maintaining an upright posture with a slight backward lean."
+    ],
+    "steps": [
+      "Depress your scapulae and pull the handle smoothly down toward your upper chest by driving your elbows down and back.",
+      "Squeeze your lats firmly at the bottom as the handle approaches collarbone level.",
+      "Control the weight as you slowly reverse the motion, extending your arms fully until you feel a gentle stretch in your back before beginning the next repetition."
+    ],
+    "breathing": "Inhale as you allow the weight to return to the top; exhale forcefully as you pull the handles down toward your chest.",
+    "cues": [
+      "Lead with the elbows.",
+      "Chest up to meet the bar.",
+      "Control the stretch at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive leaning back to swing the weight down using momentum.",
+        "correction": "Keep your torso relatively still with only a slight natural arch, pulling strictly with your back and arms."
+      },
+      {
+        "fault": "Incomplete range of motion without full overhead extension.",
+        "correction": "Allow your shoulder blades to elevate naturally at the top of each rep to achieve a full stretch."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the thigh support is locked securely to avoid being pulled upward by the weight stack."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

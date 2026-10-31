@@ -1,0 +1,174 @@
+{
+  "is_exercise": true,
+  "name": "Jump Rope",
+  "summary": "A foundational cardiovascular and plyometric exercise where you repeatedly jump over a swinging rope with both feet.",
+  "aliases": [
+    {
+      "text": "Skipping",
+      "kind": "common"
+    },
+    {
+      "text": "Rope Skipping",
+      "kind": "common"
+    },
+    {
+      "text": "Skipping Rope",
+      "kind": "common"
+    },
+    {
+      "text": "Basic Jump Rope",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning",
+      "plyometric"
+    ],
+    "movement_patterns": [
+      "jump"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "narrow",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "gastrocnemius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "soleus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "foot-intrinsics",
+      "role": "synergist"
+    },
+    {
+      "muscle": "tibialis-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "circumduction"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "jump-rope"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "heart-rate",
+        "calories"
+      ]
+    },
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "heart-rate"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Hold one handle of the jump rope in each hand with the rope resting behind your heels.",
+      "Keep your elbows close to your ribs with your forearms angled slightly outward at roughly waist height.",
+      "Stand tall with feet together or hip-width apart and a soft bend in your knees."
+    ],
+    "steps": [
+      "Rotate your wrists forward to swing the rope up and over your head.",
+      "As the rope nears your feet, jump just high enough (one to two inches) off the ground for it to pass beneath you.",
+      "Land softly on the balls of your feet with knees slightly bent to absorb impact.",
+      "Rebound immediately into the next jump, maintaining a steady, rhythmic cadence driven primarily by wrist rotation."
+    ],
+    "breathing": "Breathe rhythmically in through the nose and out through the mouth in sync with your jumping tempo.",
+    "cues": [
+      "Turn with the wrists, not the whole arm",
+      "Stay light on the balls of your feet",
+      "Jump only as high as the rope is thick"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the rope using large circular motions of the entire arm from the shoulders.",
+        "correction": "Keep elbows tucked near your sides and initiate rope rotation almost entirely from the wrists."
+      },
+      {
+        "fault": "Jumping too high and tucking the knees or kicking the heels up behind the body.",
+        "correction": "Maintain a low, controlled bound with minimal knee flexion, bounding purely off the ankles."
+      },
+      {
+        "fault": "Landing flat-footed or on the heels, creating excessive joint impact.",
+        "correction": "Stay on the balls of your feet and maintain a spring-like rhythm with slight knee flexion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform on a forgiving surface such as a gym mat, wood floor, or rubber track rather than bare concrete to reduce lower-leg impact stress."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

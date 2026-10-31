@@ -1,0 +1,179 @@
+{
+  "is_exercise": true,
+  "name": "Trap-3 Raise",
+  "summary": "A bent-over unilateral raise that targets the lower trapezius by elevating the arm in the scapular plane with the shoulder blade depressed.",
+  "aliases": [
+    {
+      "text": "Trap 3 Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Lower Trap Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Poliquin Trap-3 Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Trap-3 Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Bent-Over Trap-3 Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "rehabilitation",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "bent-over",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "trapezius-lower",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-lateral",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "infraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "retraction",
+        "upward-rotation"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "abduction",
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "dumbbell"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand with your feet hip-width apart and hinge forward at the hips to roughly a 45-degree torso angle, keeping your spine neutral.",
+      "Rest your non-working hand or forearm firmly on your knee or an adjacent stable surface for support.",
+      "Let the working arm hang straight down perpendicular to the floor with your thumb pointing forward and slightly outward.",
+      "Actively set the working shoulder blade down away from your ear into depression and slight retraction."
+    ],
+    "steps": [
+      "Keeping your elbow extended and your shoulder depressed, raise your arm diagonally forward and outward at about a 30- to 45-degree angle from your torso.",
+      "Lift until your arm is in line with your torso, leading with the thumb toward the ceiling.",
+      "Pause briefly at the top to feel a distinct contraction in the lower portion of your shoulder blade.",
+      "Lower the arm smoothly under control back to the starting position without allowing the shoulder to shrug upward."
+    ],
+    "breathing": "Exhale as you raise your arm overhead, and inhale as you lower it back down.",
+    "cues": [
+      "Thumb to the ceiling.",
+      "Keep your shoulder blade pulled down away from your ear.",
+      "Lift in a Y-path, not straight ahead or out to the side."
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulder toward the ear during the lift",
+        "correction": "Pre-set the scapula into depression before moving and think of pulling the bottom tip of the shoulder blade toward your opposite hip."
+      },
+      {
+        "fault": "Extending or twisting the spine to swing the arm upward",
+        "correction": "Brace your core, press firmly into the support knee, and ensure all movement occurs purely at the scapula and shoulder joint."
+      },
+      {
+        "fault": "Raising the arm directly forward in sagittal flexion",
+        "correction": "Angle the arm out roughly 30 to 45 degrees into the scapular plane to directly recruit the lower trapezius fibers."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not use momentum or body sway to swing the arm into position."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

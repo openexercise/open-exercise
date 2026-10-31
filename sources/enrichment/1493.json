@@ -1,0 +1,146 @@
+{
+  "is_exercise": true,
+  "name": "Bayesian Curl",
+  "summary": "A cable biceps curl performed facing away from a low pulley with the shoulder extended to place the long head of the biceps in a stretched position.",
+  "aliases": [
+    {
+      "text": "Behind-the-Back Cable Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Face-Away Cable Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Behind-the-Back Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "supinated",
+  "stance_kind": "staggered",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "supination",
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set a cable pulley to the lowest position and attach a single D-handle.",
+      "Grasp the handle with a supinated grip and face directly away from the machine.",
+      "Take a step forward into a staggered stance until the cable is taut and your working arm is pulled behind your torso into shoulder extension."
+    ],
+    "steps": [
+      "Keep your upper arm stationary behind your torso to maintain a stretch across the biceps.",
+      "Curl the handle forward and upward by flexing at the elbow until peak contraction is achieved.",
+      "Squeeze the biceps at the top for a brief moment.",
+      "Lower the weight with control, resisting the cable as your arm extends fully back into the stretched starting position."
+    ],
+    "breathing": "Exhale as you curl the weight forward; inhale as you lower it with control into the stretch.",
+    "cues": [
+      "Keep the elbow pinned back",
+      "Feel the deep stretch at the bottom",
+      "Curl your hand toward your shoulder without swinging"
+    ],
+    "common_faults": [
+      {
+        "fault": "Drifting the elbow forward during the curl",
+        "correction": "Keep the upper arm anchored behind your torso to maintain shoulder extension and focus tension on the long head of the biceps."
+      },
+      {
+        "fault": "Using torso momentum or leaning forward",
+        "correction": "Brace your core and maintain an upright, stable staggered stance throughout the repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid letting the cable aggressively jerk your arm back into hyperextension at the bottom of the movement."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

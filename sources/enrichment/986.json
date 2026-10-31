@@ -1,0 +1,162 @@
+{
+  "is_exercise": true,
+  "name": "Lateral Squat",
+  "summary": "A lower-body exercise performed in a wide stationary stance where you shift weight to squat down on one leg while keeping the opposite leg straight.",
+  "aliases": [
+    {
+      "text": "Side Split Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Stationary Side Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Stationary Lateral Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Side Squat",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "mobility",
+      "strength"
+    ],
+    "movement_patterns": [
+      "squat",
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "wide",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gracilis",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension",
+        "abduction",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "dumbbell",
+    "kettlebell",
+    "weight-plate"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with your feet placed substantially wider than shoulder-width apart, pointing your toes straight ahead or slightly angled out.",
+      "Brace your core and hold your hands together in front of your chest for balance."
+    ],
+    "steps": [
+      "Shift your weight toward one side, hinging at the hip and bending that working knee while keeping the opposite leg straight.",
+      "Descend until your working thigh is approximately parallel to the floor, ensuring both feet remain flat on the ground.",
+      "Drive through the midfoot and heel of the working leg to extend the knee and hip back to the starting wide stance.",
+      "Complete all prescribed repetitions on one side before switching, or alternate sides as programmed."
+    ],
+    "breathing": "Inhale as you descend into the squat on the working leg; exhale forcefully as you press back up to the top.",
+    "cues": [
+      "Sit back into your hip",
+      "Keep both feet flat",
+      "Knee tracks over toes",
+      "Chest stays proud"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the heel of the working foot to lift off the floor during the descent.",
+        "correction": "Push the hips back more and limit your depth to what your ankle mobility permits while maintaining full foot contact."
+      },
+      {
+        "fault": "Letting the working knee collapse inward (valgus collapse).",
+        "correction": "Actively track your knee in line with your toes throughout the descent and ascent."
+      },
+      {
+        "fault": "Lifting the inner edge of the trailing foot.",
+        "correction": "Firmly plant the entire sole of the straight leg to stretch the adductor and maintain a stable base."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not force depth if you feel sharp discomfort or strain in the adductor muscles of the extended leg."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Farmer's Walk",
+  "summary": "A loaded carry exercise where a pair of dumbbells is held at the sides while walking with an upright, braced posture.",
+  "aliases": [
+    {
+      "text": "Dumbbell Farmer's Carry",
+      "kind": "common"
+    },
+    {
+      "text": "DB Farmer's Walk",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "DB Farmer's Carry",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Dumbbell Farmers Walk",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Dumbbell Farmers Carry",
+      "kind": "misspelling"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "conditioning",
+      "strongman"
+    ],
+    "movement_patterns": [
+      "carry",
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "mixed",
+    "kinetic_chain": "mixed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "moving",
+  "grip_orientation": "neutral",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "muscles": [
+    {
+      "muscle": "forearm-flexors",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "fingers",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "distance",
+        "load"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration",
+        "load"
+      ],
+      "optional": [
+        "distance",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Place two dumbbells parallel to each other on the floor roughly hip-width apart.",
+      "Stand between the dumbbells with feet hip-width apart.",
+      "Hinge at the hips and bend the knees with a flat back to grip the center of each handle firmly.",
+      "Deadlift the weights to full standing extension, letting the dumbbells hang naturally at your sides with arms fully extended."
+    ],
+    "steps": [
+      "Brace your core, draw your shoulders slightly down and back, and look straight ahead.",
+      "Walk forward in a smooth, controlled gait using short, deliberate strides.",
+      "Maintain a tall, upright posture without leaning forward or swaying from side to side.",
+      "At the end of the designated distance or time, come to a complete stop and lower the dumbbells by hinging at the hips and bending the knees."
+    ],
+    "breathing": "Take steady, shallow breaths behind a braced core rather than holding your breath throughout the carry.",
+    "cues": [
+      "Stand tall through the crown of your head",
+      "Crush the handles",
+      "Shoulders in back pockets",
+      "Short, controlled steps"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the shoulders to round forward and the upper back to slouch.",
+        "correction": "Keep the chest proud and pack the scapulae slightly down and back throughout the walk."
+      },
+      {
+        "fault": "Taking excessively long strides causing hip wobble and torso swaying.",
+        "correction": "Shorten your stride to maintain a stable pelvis and keep your center of mass under control."
+      },
+      {
+        "fault": "Rounding the lower back when picking up or setting down the dumbbells.",
+        "correction": "Treat every pickup and touchdown like a proper deadlift with a braced core and neutral spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the walking path is completely clear of obstacles, plates, or clutter before starting.",
+        "If grip fails, release the weights cleanly down to the sides rather than attempting to catch or control them awkwardly."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

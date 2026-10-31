@@ -1,0 +1,229 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Seated Dumbbell Shoulder Press",
+      "kind": "common"
+    },
+    {
+      "text": "Seated DB Overhead Press",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Seated DB Shoulder Press",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Lento Avanti Seduto",
+      "kind": "regional"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-lateral",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "abduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-bench",
+        "bench",
+        "chair"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1967"
+  },
+  "id": "oec:seated-dumbbell-overhead-press",
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an upright or near-vertical angle (around 75 to 85 degrees).",
+      "Sit firmly back against the pad with feet flat on the floor.",
+      "Kick the dumbbells up to shoulder height using your knees, positioning them just outside your shoulders with your wrists directly over your elbows."
+    ],
+    "steps": [
+      "Brace your core and press the dumbbells vertically overhead along a slight arc toward each other.",
+      "Lock out your arms under control without aggressively shrugging your shoulders or clashing the weights together at the top.",
+      "Lower the dumbbells smoothly back down until they are just outside chin or shoulder level, pausing briefly in the stretched position before initiating the next rep."
+    ],
+    "breathing": "Inhale before pressing or on the way down, brace through the sticking point, and exhale near the top of the repetition.",
+    "cues": [
+      "Keep forearms vertical throughout the press.",
+      "Press in the scapular plane, elbows slightly angled forward rather than flared wide.",
+      "Keep your back firmly against the bench without excessive arching."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring elbows directly out to the sides.",
+        "correction": "Bring the elbows slightly forward into the scapular plane (around 30 to 45 degrees) to reduce shoulder impingement."
+      },
+      {
+        "fault": "Arching the lower back excessively to turn the lift into an incline chest press.",
+        "correction": "Keep your core tight and your pelvis and lower back supported against the bench pad."
+      },
+      {
+        "fault": "Cutting the range of motion short at the bottom.",
+        "correction": "Lower the weights until the handles reach roughly chin or ear level for full deltoid recruitment."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid dropping heavy dumbbells from overhead; bring them back to your knees under control before setting them down."
+      ],
+      "spotter": "recommended"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Seated Dumbbell Overhead Press",
+  "previous_ids": [
+    "oec:lento-avanti-seduto"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: lento avanti seduto",
+        "url": "https://wger.de/en/exercise/1967/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Cf"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-overhead-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-barbell-overhead-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-dumbbell-shoulder-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-shoulder-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A seated vertical press using dumbbells to develop strength and muscle mass in the anterior deltoids, upper chest, and triceps."
+}

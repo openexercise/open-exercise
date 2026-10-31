@@ -1,0 +1,208 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Abdominal Stabilization",
+      "kind": "common"
+    },
+    {
+      "text": "Core Bracing",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Abdominal Bracing",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "transversus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "external-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "multifidus",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "anti-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "56"
+  },
+  "id": "oec:abdominal-bracing",
+  "instructions": {
+    "setup": [
+      "Lie face up on a mat with your knees bent to roughly 90 degrees and feet flat on the floor, hip-width apart.",
+      "Rest your arms by your sides and establish a comfortable, neutral lumbar spine with a slight natural arch off the floor."
+    ],
+    "steps": [
+      "Inhale into your belly and lower ribcage without shrugging your shoulders.",
+      "As you begin to exhale, tighten your entire abdominal wall as if bracing to take a light punch to the stomach.",
+      "Firm the muscles 360 degrees around your waist while maintaining the natural position of your pelvis and lower back.",
+      "Continue breathing shallowly and steadily while maintaining the contraction for the required duration.",
+      "Release the abdominal tension fully before initiating the next repetition."
+    ],
+    "breathing": "Breathe continuously and softly through your chest while maintaining tension throughout the abdominal wall.",
+    "cues": [
+      "Brace like taking a punch.",
+      "Stiffen your waist 360 degrees.",
+      "Breathe behind the shield."
+    ],
+    "common_faults": [
+      {
+        "fault": "Sucking the belly button in toward the spine (hollowing instead of bracing).",
+        "correction": "Expand and firm the core outward in all directions rather than drawing the abdomen inward."
+      },
+      {
+        "fault": "Flattening the lower back completely against the floor via posterior pelvic tilt.",
+        "correction": "Keep the pelvis stationary and maintain a neutral lumbar curve during the brace."
+      },
+      {
+        "fault": "Holding your breath throughout the duration of the contraction.",
+        "correction": "Practice speaking or taking small, controlled breaths while holding the muscular tension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Discontinue the exercise if you feel sharp or radiating lower back pain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Abdominal Bracing",
+  "previous_ids": [
+    "oec:abdominal-stabilization"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Abdominal Stabilization",
+        "url": "https://wger.de/en/exercise/56/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "andikeller"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:abdominal-draw-in"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:dead-bug"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:supine-isometric-abdominal-press"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:supine-toe-tap"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:plank"
+    }
+  ],
+  "setup": {
+    "position": "supine",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A foundational isometric core exercise performed supine to recruit the deep and superficial abdominal muscles and enhance lumbar stability."
+}

@@ -1,0 +1,157 @@
+{
+  "is_exercise": true,
+  "name": "Quadruped Thoracic Rotation",
+  "summary": "A quadruped mobility drill that increases thoracic spine rotation and upper back mobility while keeping the lumbar spine stable.",
+  "aliases": [
+    {
+      "text": "Quadruped T-Spine Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Quadruped Thoracic Spine Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "All-Fours Thoracic Rotation",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "rehabilitation",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "rotation"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "mixed",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "quadruped",
+  "stance_width": "hip",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "external-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "rotation",
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "protraction"
+      ]
+    },
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "rotation"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Start on your hands and knees in a quadruped position with wrists directly under shoulders and knees directly under hips.",
+      "Engage your core to maintain a neutral lumbar spine.",
+      "Place one hand lightly behind your head or neck, keeping the elbow flared out to the side."
+    ],
+    "steps": [
+      "Inhale as you rotate your upper torso downward, bringing the elevated elbow toward your supporting forearm.",
+      "Exhale and reverse the motion, rotating your chest and elbow upward toward the ceiling as far as comfortable without shifting your hips.",
+      "Pause briefly at the top to feel the stretch and activation through the mid and upper back.",
+      "Return smoothly to the bottom position and complete all reps before switching sides."
+    ],
+    "breathing": "Inhale as you rotate down toward the floor; exhale as you rotate upward and open the chest.",
+    "cues": [
+      "Keep hips square to the floor.",
+      "Rotate from the mid-back, not the lower back.",
+      "Push the floor away with the supporting hand."
+    ],
+    "common_faults": [
+      {
+        "fault": "Shifting the hips laterally to create artificial range of motion.",
+        "correction": "Keep your hips centered and motionless over your knees; sit slightly back toward your heels if you struggle to lock your pelvis."
+      },
+      {
+        "fault": "Cranking the neck or pulling the head with the top hand.",
+        "correction": "Rest fingertips lightly against your head and allow the head and eyes to follow the torso rotation naturally."
+      },
+      {
+        "fault": "Sagging through the supporting shoulder.",
+        "correction": "Actively press into the floor with the supporting palm to maintain a stable, active shoulder girdle."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not force end-range rotation if you experience sharp spinal or shoulder pain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

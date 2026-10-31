@@ -1,0 +1,167 @@
+{
+  "is_exercise": true,
+  "name": "Kneeling Push-Up",
+  "summary": "A modified push-up performed from the knees that reduces the lifted bodyweight percentage to build upper-body pressing strength and trunk stability.",
+  "aliases": [
+    {
+      "text": "Knee Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Modified Push-Up",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "kneeling",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Kneel on an exercise mat with your knees hip-width apart and your feet resting on the floor.",
+      "Place your hands flat on the floor slightly wider than shoulder-width, directly under or slightly forward of your shoulders.",
+      "Walk your hands out until your body forms a straight line from your head down to your knees, bracing your core and squeezing your glutes."
+    ],
+    "steps": [
+      "Lower your chest toward the floor by bending your elbows back at roughly a 45-degree angle to your torso.",
+      "Descend with control until your chest touches or hovers just above the floor, maintaining a straight rigid torso.",
+      "Press through your palms and extend your elbows to push your body back up to the starting plank position.",
+      "Lock out your arms at the top without shrugging your shoulders before beginning the next repetition."
+    ],
+    "breathing": "Inhale as you lower your chest toward the floor; exhale forcefully as you press yourself back up.",
+    "cues": [
+      "Straight line from knees to crown",
+      "Screw your hands into the floor",
+      "Elbows back at an arrow angle",
+      "Push the floor away"
+    ],
+    "common_faults": [
+      {
+        "fault": "Piking the hips backward into a quadruped position rather than keeping the hips extended.",
+        "correction": "Bring your hips forward so a straight diagonal line connects your knees, hips, and shoulders throughout the rep."
+      },
+      {
+        "fault": "Sagging the lower back and letting the belly drop first.",
+        "correction": "Brace the abdominal wall and squeeze the glutes to prevent lumbar hyperextension."
+      },
+      {
+        "fault": "Flaring the elbows straight out to the sides at 90 degrees.",
+        "correction": "Tuck the elbows slightly so your upper arms form roughly a 45-degree angle with your torso."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use an exercise mat or folded towel under the knees to prevent uncomfortable pressure on the patella."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

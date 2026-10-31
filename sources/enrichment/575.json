@@ -1,0 +1,148 @@
+{
+  "is_exercise": true,
+  "name": "Smith Machine Shrug",
+  "summary": "A Smith machine variation of the shoulder shrug targeting the upper trapezius and levator scapulae along a fixed vertical track.",
+  "aliases": [
+    {
+      "text": "Multipress Shrug",
+      "kind": "regional"
+    },
+    {
+      "text": "Smith Shrug",
+      "kind": "common"
+    },
+    {
+      "text": "Smith Machine Shoulder Shrug",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "pull",
+      "vertical-pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "hip",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "trapezius-upper",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "levator-scapulae",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "elevation",
+        "depression"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "smith-machine"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the Smith machine bar height to approximately mid-thigh level.",
+      "Stand facing the bar with feet hip-width apart and grasp the bar with a shoulder-width pronated grip.",
+      "Rotate the bar to unrack it, standing upright with a braced core and arms fully extended."
+    ],
+    "steps": [
+      "Elevate your shoulders straight up toward your ears in a smooth, controlled motion.",
+      "Pause for a brief contraction at the top of the movement.",
+      "Lower the bar under control until your traps are fully stretched back to the starting position."
+    ],
+    "breathing": "Exhale as you shrug your shoulders upward; inhale as you lower the weight under control.",
+    "cues": [
+      "Shrug straight up to the ears.",
+      "Keep the elbows locked.",
+      "Pause at the peak squeeze."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling the shoulders in a circle at the top.",
+        "correction": "Move strictly up and down along the vertical plane to prevent unnecessary glenohumeral stress."
+      },
+      {
+        "fault": "Bending the elbows to pull the weight higher.",
+        "correction": "Keep arms straight and rely entirely on scapular elevation."
+      },
+      {
+        "fault": "Jutting the head forward during elevation.",
+        "correction": "Keep the neck neutral and chin tucked throughout the set."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the safety catches on the Smith machine are engaged just below your lowest working range."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  }
+}

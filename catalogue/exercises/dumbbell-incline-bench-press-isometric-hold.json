@@ -1,0 +1,224 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Incline Static Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Dumbbell Press Isometric Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Dumbbell Bench Press Isometric Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Dumbbell Hold",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1693"
+  },
+  "id": "oec:dumbbell-incline-bench-press-isometric-hold",
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an incline of 30 to 45 degrees.",
+      "Sit on the bench with a dumbbell resting on each thigh.",
+      "Kick the dumbbells up to shoulder level one at a time as you lean back against the pad.",
+      "Plant your feet firmly on the floor, retract your shoulder blades, and establish a stable pressing base."
+    ],
+    "steps": [
+      "Press the dumbbells upward to arms' length, then lower them under control to roughly the midpoint of your pressing range, a few inches above your chest.",
+      "Fix your forearms vertically and hold this position statically for the prescribed duration while maintaining full tension across the chest and shoulders.",
+      "Once the time is complete, press the dumbbells smoothly back to lockout or lower them safely toward your chest and thighs."
+    ],
+    "breathing": "Maintain steady, shallow diaphragmatic breathing throughout the hold without relaxing your upper back or chest.",
+    "cues": [
+      "Pack your shoulders into the bench",
+      "Wrists stacked over elbows",
+      "Freeze at the midpoint and squeeze the chest"
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbows outward past 90 degrees",
+        "correction": "Tuck the elbows to approximately 45 to 60 degrees relative to your torso to protect the shoulder joint."
+      },
+      {
+        "fault": "Letting the wrists bend backward excessively",
+        "correction": "Keep wrists neutral and stacked directly over your elbows to efficiently support the load."
+      },
+      {
+        "fault": "Losing scapular retraction as fatigue sets in",
+        "correction": "Keep the chest proud and shoulder blades actively pinned against the bench pad throughout the hold."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not hold your breath for the entire duration of the hold to avoid a blood pressure spike.",
+        "Choose a conservative weight to prevent sudden muscular failure that could cause dropping the dumbbells."
+      ],
+      "spotter": "recommended"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Dumbbell Incline Bench Press Isometric Hold",
+  "previous_ids": [
+    "oec:incline-static-hold"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Incline Static Hold",
+        "url": "https://wger.de/en/exercise/1693/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "daiben"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:incline-dumbbell-bench-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "incline_degrees": 30,
+    "load_position": "chest",
+    "position": "supine",
+    "range": "pause",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "An upper-body isometric exercise holding dumbbells at the midpoint of an incline press to build strength and endurance under tension in the chest and shoulders."
+}

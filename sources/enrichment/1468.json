@@ -1,0 +1,148 @@
+{
+  "is_exercise": true,
+  "name": "EZ-Bar Floor Skull Crusher",
+  "summary": "A triceps extension performed lying supine on the floor, using the ground to pause between repetitions and reduce shoulder and elbow strain.",
+  "aliases": [
+    {
+      "text": "Floor Skull Crusher",
+      "kind": "common"
+    },
+    {
+      "text": "Dead-Stop Skull Crusher",
+      "kind": "common"
+    },
+    {
+      "text": "EZ-Bar Floor Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Floor Lying Triceps Extension",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "supine",
+  "grip_orientation": "pronated",
+  "grip_width": "narrow",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "anconeus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "ez-bar",
+        "barbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat",
+    "weight-plate"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on the floor or an exercise mat, with knees bent and feet flat on the ground.",
+      "Hold an EZ-bar above your upper chest or forehead with an overhand grip on the inner bends, arms extended."
+    ],
+    "steps": [
+      "Lower the bar under control by bending at the elbows until the weight plates gently touch the floor overhead behind your head.",
+      "Allow the weight to come to a brief, dead-stop pause on the floor without letting tension leave the triceps completely.",
+      "Drive the weight back up by extending your elbows until your arms return to the starting position."
+    ],
+    "breathing": "Inhale as you lower the bar to the floor, and exhale as you press back up to full extension.",
+    "cues": [
+      "Keep upper arms stationary",
+      "Dead stop on the floor, no bouncing",
+      "Drive through the triceps"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bouncing the plates off the floor to gain momentum.",
+        "correction": "Pause completely on the floor to eliminate the stretch reflex before extending."
+      },
+      {
+        "fault": "Flaring the elbows outward excessively during the press.",
+        "correction": "Keep the elbows tucked shoulder-width apart and pointing toward the ceiling throughout the repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure standard-sized plates or bumpers are used if needed so the bar settles at an appropriate height overhead without risking facial contact."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

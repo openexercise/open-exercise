@@ -1,0 +1,227 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Typewriter Pullup",
+      "kind": "common"
+    },
+    {
+      "text": "Side-to-Side Pull-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Typewriter Pull-ups",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "adduction",
+          "extension",
+          "horizontal-abduction",
+          "horizontal-adduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "retraction",
+          "downward-rotation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "advanced"
+  },
+  "equipment": {
+    "required": [
+      [
+        "pull-up-bar"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1607"
+  },
+  "id": "oec:typewriter-pull-up",
+  "instructions": {
+    "setup": [
+      "Hang from a pull-up bar with a pronated grip taken wider than your standard pull-up grip, typically one and a half times shoulder-width.",
+      "Engage your core, point your toes slightly forward, and depress your scapulae to enter an active dead hang."
+    ],
+    "steps": [
+      "Pull explosively and smoothly until your collarbones or upper chest approach bar height.",
+      "Keeping your chest pinned high, shift your body laterally toward one hand by flexing that arm deeply while extending the opposite arm along the bar.",
+      "Traverse smoothly across the bar toward the other hand by reversing the arm actions, keeping your chin above the bar throughout the slide.",
+      "Return to the center position and lower yourself under control back into the full active hang."
+    ],
+    "breathing": "Inhale at the bottom hang, exhale as you pull up, breathe shallowly while traversing horizontally at the top, and exhale fully as you return to the bottom.",
+    "cues": [
+      "Pull high before sliding.",
+      "Stay parallel to the bar.",
+      "Push away with the straight arm while pulling with the bent arm."
+    ],
+    "common_faults": [
+      {
+        "fault": "Dropping below the bar during the lateral transition.",
+        "correction": "Maintain aggressive lat and bicep contraction to keep your chin consistently above the bar as you slide across."
+      },
+      {
+        "fault": "Kicking or swinging the legs for momentum.",
+        "correction": "Lock your core and legs into a hollow-body position to prevent swinging."
+      },
+      {
+        "fault": "Grip is set too narrow to allow full arm extension.",
+        "correction": "Widen your grip to at least one and a half times shoulder width so the trailing arm can reach full or near-full extension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure you have a reliable base of standard pull-ups and archer pull-ups before attempting this high-stress variation on the shoulders and elbows."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Typewriter Pull-Up",
+  "previous_ids": [
+    "oec:typewriter-pull-ups"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Typewriter Pull-ups",
+        "url": "https://wger.de/en/exercise/1607/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "tenebrizz"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:pull-up"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:pull-up"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:wide-grip-pull-up"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:archer-pull-up"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:archer-pull-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "wide"
+    },
+    "position": "hanging"
+  },
+  "status": "active",
+  "summary": "An advanced pull-up variation where you pull your chin above the bar, shift laterally toward one hand while extending the opposite arm, and slide across the bar."
+}

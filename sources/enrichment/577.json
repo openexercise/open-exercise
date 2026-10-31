@@ -1,0 +1,157 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Side Bend",
+  "summary": "A standing unilateral core exercise that strengthens the obliques and lateral trunk stabilizers through resisted lateral spinal flexion.",
+  "aliases": [
+    {
+      "text": "Side Dumbbell Trunk Flexion",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Dumbbell Side Bend",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Trunk Lateral Flexion",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "lateral-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "obliques",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadratus-lumborum",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "lateral-flexion"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "lateral-flexion"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and knees unlocked.",
+      "Hold a single dumbbell in one hand hanging at arm's length by your side with a neutral grip.",
+      "Place your free hand behind your head or resting on your opposite hip, keeping your chest open and shoulders square."
+    ],
+    "steps": [
+      "Keeping your pelvis stable, bend your torso directly to the side holding the dumbbell, lowering the weight toward knee height.",
+      "Pause momentarily at the end of your comfortable active range of motion without rotating your torso.",
+      "Contract the opposite side obliques and quadratus lumborum to pull your torso back upright.",
+      "Continue past neutral into a slight side bend in the opposite direction to achieve a full peak contraction, then return to the starting position."
+    ],
+    "breathing": "Inhale as you bend sideways toward the loaded side, and exhale as you contract to pull your torso back upright.",
+    "cues": [
+      "Move strictly side-to-side between two panes of glass.",
+      "Keep your hips square and stationary.",
+      "Pull from the opposite waistline to stand up."
+    ],
+    "common_faults": [
+      {
+        "fault": "Holding dumbbells in both hands simultaneously.",
+        "correction": "Hold only one dumbbell at a time so the weight provides true unilateral resistance rather than a counterbalancing teeter-totter effect."
+      },
+      {
+        "fault": "Twisting or leaning forward at the hips during the bend.",
+        "correction": "Maintain a neutral spine and restrict movement strictly to the frontal plane without rotating your shoulders."
+      },
+      {
+        "fault": "Swaying the hips side to side to cheat the movement.",
+        "correction": "Keep your pelvis anchored over your feet and bend only through your spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessive loads that force spinal shearing or hyperextension.",
+        "Move in a slow, controlled cadence without ballistic bouncing at the bottom of the stretch."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

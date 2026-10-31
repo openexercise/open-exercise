@@ -1,0 +1,209 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Pelvic Endurance Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Pelvic Bridge Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Bridge Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Isometric Glute Bridge",
+      "kind": "common"
+    },
+    {
+      "text": "Static Glute Bridge",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "2630"
+  },
+  "id": "oec:glute-bridge-hold",
+  "instructions": {
+    "setup": [
+      "Lie face up on a mat with your knees bent at approximately 90 degrees and feet flat on the floor, spaced hip-width apart.",
+      "Rest your arms along your sides with palms flat against the ground.",
+      "Brace your core gently to flatten excessive arching in your lower back before lifting."
+    ],
+    "steps": [
+      "Drive through your heels to extend your hips upward until your knees, hips, and shoulders form a straight diagonal line.",
+      "Squeeze your glutes forcefully at the top without hyperextending your lumbar spine.",
+      "Maintain this elevated position steadily for the target duration while keeping your pelvis level.",
+      "Lower your hips slowly back to the mat with control to finish the set."
+    ],
+    "breathing": "Breathe steadily and rhythmically from your diaphragm throughout the hold without losing abdominal brace.",
+    "cues": [
+      "Drive through your heels.",
+      "Squeeze glutes, don't arch your lower back.",
+      "Keep your ribs pulled down."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lower back instead of extending the hips.",
+        "correction": "Brace your abdominal muscles and only raise your hips as high as your glute contraction allows without arching your spine."
+      },
+      {
+        "fault": "Pushing primarily through the toes, leading to quadriceps dominance and cramping.",
+        "correction": "Keep your full foot in contact with the ground and emphasize pressing through the heels."
+      },
+      {
+        "fault": "Knees caving inward during the hold.",
+        "correction": "Actively track your knees directly over your second toes, maintaining hip-width distance throughout."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you experience lower back discomfort, lower the height of your hips slightly and re-engage your core to ensure the load is carried by the glutes."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Glute Bridge Hold",
+  "previous_ids": [
+    "oec:pelvic-endurance-hold"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Pelvic Endurance Hold",
+        "url": "https://wger.de/en/exercise/2630/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:glute-bridge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:glute-bridge"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:glute-bridge-march"
+    }
+  ],
+  "setup": {
+    "position": "supine",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A supine isometric bodyweight exercise where the hips are held in full extension to develop glute strength and lumbo-pelvic endurance."
+}

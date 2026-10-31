@@ -1,0 +1,254 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Smith Machine Shoulder Press",
+      "kind": "common"
+    },
+    {
+      "text": "Smith Machine Seated Overhead Press",
+      "kind": "common"
+    },
+    {
+      "text": "Multi Press Shoulder Press",
+      "kind": "regional"
+    },
+    {
+      "text": "Seated Smith Shoulder Press",
+      "kind": "common"
+    },
+    {
+      "text": "Shoulder Press, on Multi Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-lateral",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "abduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "smith-machine"
+      ],
+      [
+        "adjustable-bench",
+        "bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "569"
+  },
+  "id": "oec:smith-machine-overhead-press",
+  "instructions": {
+    "setup": [
+      "Position an adjustable bench inside the Smith machine with the backrest set nearly vertical (around 75 to 85 degrees).",
+      "Adjust the seat so that the bar clears just in front of your face and lowers toward your upper chest or chin.",
+      "Sit upright with your feet planted firmly on the floor and your back supported against the pad.",
+      "Grasp the bar with an overhand, pronated grip slightly wider than shoulder width."
+    ],
+    "steps": [
+      "Rotate the bar to unrack it and press it to an arms-extended overhead position without locking out your elbows forcefully.",
+      "Lower the bar under control down toward your chin or upper chest, keeping your elbows angled slightly forward in the scapular plane.",
+      "Once you reach the bottom of your comfortable range of motion, press the bar upward in a smooth, continuous motion back to the top.",
+      "Complete the desired repetitions, then rotate the bar back into the safety hooks to rack it securely."
+    ],
+    "breathing": "Inhale as you lower the bar toward your chest, and exhale forcefully as you press overhead.",
+    "cues": [
+      "Drive your feet into the floor.",
+      "Keep elbows slightly tucked, not flared directly to the sides.",
+      "Press the bar straight up without hyperextending your lower back."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbows out excessively wide.",
+        "correction": "Position elbows about 30 to 45 degrees forward to reduce shoulder impingement stress."
+      },
+      {
+        "fault": "Excessively arching the lower back off the bench.",
+        "correction": "Brace your core and keep your lower back flush against the bench pad."
+      },
+      {
+        "fault": "Bouncing the bar out of the bottom position.",
+        "correction": "Lower the bar with control and pause momentarily before reversing direction."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Set the safety stopper pins on the Smith machine just below the bottom of your intended range of motion."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Smith Machine Overhead Press",
+  "previous_ids": [
+    "oec:shoulder-press-on-multi-press"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Shoulder Press, on Multi Press",
+        "url": "https://wger.de/en/exercise/569/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-overhead-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-overhead-press"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-overhead-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-barbell-overhead-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-shoulder-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:smith-machine-shoulder-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "incline_degrees": 80,
+    "load_position": "overhead",
+    "position": "seated",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A seated or standing vertical press using a Smith machine to target the shoulders and triceps along a fixed track."
+}

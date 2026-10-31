@@ -1,0 +1,148 @@
+{
+  "is_exercise": true,
+  "name": "Floor Dip",
+  "summary": "A bodyweight pressing movement performed seated on the ground that targets the triceps and anterior shoulders.",
+  "aliases": [
+    {
+      "text": "Bench Dips on Floor",
+      "kind": "common"
+    },
+    {
+      "text": "Floor Triceps Dip",
+      "kind": "common"
+    },
+    {
+      "text": "Crab Dip",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "support",
+  "grip_orientation": "pronated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "elevation"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit on the floor with your knees bent and your feet flat, hip-width apart.",
+      "Place your palms on the floor slightly behind your hips, fingers pointing forward toward your feet.",
+      "Press into your hands and feet to lift your hips slightly off the floor, keeping your chest open and shoulders depressed."
+    ],
+    "steps": [
+      "Inhale and bend your elbows straight back to lower your hips toward the floor.",
+      "Lower down until your elbows reach roughly a 90-degree angle without letting your shoulders roll forward or your hips touch down.",
+      "Exhale and press firmly through your palms to extend your elbows, returning to the starting elevated position."
+    ],
+    "breathing": "Inhale as you lower down, and exhale forcefully as you press your arms straight.",
+    "cues": [
+      "Point elbows straight back.",
+      "Keep chest proud and shoulders down.",
+      "Push through the palms."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbows outward during the descent.",
+        "correction": "Keep elbows tracking directly behind you in line with your wrists."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears.",
+        "correction": "Actively depress your shoulder blades away from your ears throughout the set."
+      },
+      {
+        "fault": "Moving the hips up and down using the legs instead of bending the arms.",
+        "correction": "Keep your lower body relatively still and isolate the movement to elbow flexion and extension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid excessive shoulder extension if you have active anterior shoulder pain or impingement."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

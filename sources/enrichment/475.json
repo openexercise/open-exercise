@@ -1,0 +1,175 @@
+{
+  "is_exercise": true,
+  "name": "Pull-Up",
+  "summary": "A fundamental upper-body bodyweight exercise where you pull yourself up to an overhead bar using a pronated grip.",
+  "aliases": [
+    {
+      "text": "pullup",
+      "kind": "common"
+    },
+    {
+      "text": "overhand pull-up",
+      "kind": "common"
+    },
+    {
+      "text": "pronated pull-up",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "hanging",
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "adduction",
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "downward-rotation",
+        "depression",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "pull-up-bar"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "resistance-band"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Grasp the overhead bar with an overhand (pronated) grip slightly wider than shoulder-width.",
+      "Hang with your arms fully extended in a dead hang, legs slightly bent or crossed if needed, and engage your core."
+    ],
+    "steps": [
+      "Initiate the movement by depressing and retracting your shoulder blades, drawing them down and together.",
+      "Drive your elbows down toward your hips and pull your chest toward the bar until your chin clears the bar.",
+      "Pause briefly at the top without straining your neck forward.",
+      "Lower yourself in a smooth, controlled motion until your arms and shoulders return fully to the starting hang."
+    ],
+    "breathing": "Inhale at the bottom or on the way down; exhale forcefully as you drive your elbows down to pull yourself up.",
+    "cues": [
+      "Elbows to your back pockets.",
+      "Lead with your chest.",
+      "Stay tight through your core and legs.",
+      "Full hang at the bottom, chin clear at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Kicking or swinging the legs to generate momentum (kipping).",
+        "correction": "Brace the abdominals and squeeze the glutes to keep the lower body steady throughout the pull."
+      },
+      {
+        "fault": "Reaching up with the chin to clear the bar without completing the arm pull.",
+        "correction": "Keep the neck neutral and focus on pulling your upper chest to the bar rather than craning your neck."
+      },
+      {
+        "fault": "Cutting the bottom range of motion short.",
+        "correction": "Allow your arms to reach complete extension and let your shoulder blades elevate slightly before initiating the next rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the bar is securely mounted and can support your full body weight.",
+        "Avoid dropping rapidly into the bottom lockout to protect the shoulders and elbows."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

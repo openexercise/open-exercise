@@ -1,0 +1,181 @@
+{
+  "is_exercise": true,
+  "name": "Stationary Bike Cycling",
+  "summary": "A low-impact cardiovascular exercise performed on an indoor stationary bicycle to build aerobic endurance and lower-body stamina.",
+  "aliases": [
+    {
+      "text": "Indoor Cycling",
+      "kind": "common"
+    },
+    {
+      "text": "Stationary Biking",
+      "kind": "common"
+    },
+    {
+      "text": "Spinning",
+      "kind": "brand"
+    },
+    {
+      "text": "Cycling cardio session",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "cycle"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "pronated",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "stationary-bike"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration",
+        "distance"
+      ],
+      "optional": [
+        "power",
+        "cadence",
+        "resistance-level",
+        "heart-rate",
+        "calories",
+        "speed",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "distance",
+        "power",
+        "cadence",
+        "resistance-level",
+        "heart-rate",
+        "calories",
+        "speed",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Adjust the saddle height so that your knee has a slight bend (around 25 to 35 degrees) when the pedal is at the bottom of the stroke.",
+      "Adjust the handlebar height and reach so you can comfortably hold them with relaxed shoulders and a neutral spine.",
+      "Place the balls of your feet over the centers of the pedals and secure the toe cages or clip in cycling shoes."
+    ],
+    "steps": [
+      "Begin pedaling with a smooth, circular motion, pushing down through the ball of the foot and scraping across the bottom of the stroke.",
+      "Maintain an upright or slightly forward-hinged posture without excessively rounding your back.",
+      "Adjust resistance and cadence to achieve the desired workout intensity.",
+      "Continue pedaling at a consistent rhythm for the planned duration."
+    ],
+    "breathing": "Breathe rhythmically in sync with your pedal stroke, maintaining steady diaphragmatic breaths throughout.",
+    "cues": [
+      "Smooth circles, not just stomping down",
+      "Keep shoulders relaxed and away from your ears",
+      "Light grip on the handlebars"
+    ],
+    "common_faults": [
+      {
+        "fault": "Saddle positioned too low, causing excessive knee flexion and anterior knee strain.",
+        "correction": "Raise the seat until your leg is nearly straight with just a slight bend when the heel rests on the pedal."
+      },
+      {
+        "fault": "Excessive upper body bouncing or death-gripping the handlebars.",
+        "correction": "Stabilize your torso using your core and relax your hands and shoulders."
+      },
+      {
+        "fault": "Pedaling with zero resistance, leading to erratic cadence and hip bouncing.",
+        "correction": "Add sufficient resistance to maintain control and smooth pedal contact through every degree of rotation."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure all adjustment pins and knobs are fully locked before mounting the bike."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

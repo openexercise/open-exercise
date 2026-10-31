@@ -1,0 +1,233 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Plank Arm Reach",
+      "kind": "common"
+    },
+    {
+      "text": "Front Plank Reach",
+      "kind": "common"
+    },
+    {
+      "text": "Plank with Forward Reach",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "obliques",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "protraction",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "anti-rotation",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "mixed",
+    "kinetic_chain": "mixed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1766"
+  },
+  "id": "oec:plank-reach",
+  "instructions": {
+    "setup": [
+      "Set up in a standard forearm plank position with your elbows directly beneath your shoulders.",
+      "Place your feet hip- to shoulder-width apart to create a stable base of support.",
+      "Brace your core, squeeze your glutes, and align your body in a straight line from your head to your heels."
+    ],
+    "steps": [
+      "Without letting your hips twist or shift, slowly extend one arm straight forward parallel to the floor.",
+      "Pause for a brief count at full reach, keeping the supporting shoulder active and pushing away from the ground.",
+      "Lower the reaching arm back down to the starting elbow plank position under control.",
+      "Repeat the movement with the opposite arm, maintaining level hips throughout the transition."
+    ],
+    "breathing": "Maintain steady, rhythmic breathing through your diaphragm; exhale as you reach forward and inhale as you return your arm to the ground.",
+    "cues": [
+      "Keep hips square to the floor.",
+      "Reach long, do not rush.",
+      "Push the floor away through the supporting arm."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the hips toward the open side when lifting the arm.",
+        "correction": "Widen your foot stance and brace your core tighter to resist rotational torque."
+      },
+      {
+        "fault": "Sagging through the lower back during the reach.",
+        "correction": "Tuck your pelvis slightly, squeeze your glutes, and actively draw your ribs toward your pelvis."
+      },
+      {
+        "fault": "Shrugging the supporting shoulder up toward the ear.",
+        "correction": "Actively press your supporting elbow into the floor to engage the serratus anterior and stabilize the shoulder."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Discontinue or regress to standard planks if you experience lower back discomfort or shoulder pain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Plank Reach",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Plank Reach",
+        "url": "https://wger.de/en/exercise/1766/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:plank"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:plank"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:plank-shoulder-tap"
+    }
+  ],
+  "setup": {
+    "position": "prone",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "An anti-rotation core exercise where one arm extends forward from a forearm plank position while maintaining a stable, level torso."
+}

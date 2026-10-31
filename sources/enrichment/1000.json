@@ -1,0 +1,154 @@
+{
+  "is_exercise": true,
+  "name": "Floor Dip",
+  "summary": "A beginner-friendly bodyweight movement performed in a crab posture to strengthen the triceps and anterior shoulders.",
+  "aliases": [
+    {
+      "text": "Floor dips",
+      "kind": "common"
+    },
+    {
+      "text": "Crab dip",
+      "kind": "common"
+    },
+    {
+      "text": "Crab walk dip",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "push",
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "support",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "hyperextension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "elevation",
+        "depression"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit on the floor with your knees bent and feet flat on the ground, hip-width apart.",
+      "Place your hands on the floor slightly behind your hips, fingers pointing forward toward your feet.",
+      "Press through your hands and feet to lift your hips slightly off the floor, keeping your chest open and shoulders down."
+    ],
+    "steps": [
+      "Lower your body by bending your elbows directly backward until your buttocks lightly graze or hover just above the floor.",
+      "Push firmly through your palms to extend your elbows and return to the starting elevated position.",
+      "Lock out the triceps momentarily at the top without shrugging your shoulders."
+    ],
+    "breathing": "Inhale as you bend your elbows and lower your hips, and exhale as you press through the floor to return to the top.",
+    "cues": [
+      "Bend at the elbows, don't just drop your hips.",
+      "Point your elbows straight back.",
+      "Keep your chest broad and shoulders away from your ears."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hinging at the hips rather than bending the elbows.",
+        "correction": "Ensure your elbows actively flex backward so the triceps carry the work rather than simply lifting and lowering the pelvis."
+      },
+      {
+        "fault": "Flaring the elbows out wide to the sides.",
+        "correction": "Keep your elbows tracking straight behind your body to properly load the triceps and protect the shoulders."
+      },
+      {
+        "fault": "Excessive shoulder shrugging and forward slouching.",
+        "correction": "Depress your scapulae and keep your chest lifted throughout the set."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you experience wrist discomfort from deep extension, rotate your hands slightly outward or perform the movement with your hands gripping low parallettes or push-up handles."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

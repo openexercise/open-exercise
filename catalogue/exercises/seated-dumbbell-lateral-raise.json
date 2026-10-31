@@ -1,0 +1,230 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Seated Dumbbell Side Lateral",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Seated DB Lateral Raise",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Seated Side Lateral Raise",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-lateral",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "supraspinatus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "bench",
+        "adjustable-bench",
+        "chair"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "918"
+  },
+  "id": "oec:seated-dumbbell-lateral-raise",
+  "instructions": {
+    "setup": [
+      "Sit upright at the end of a bench with your feet flat on the floor for stability.",
+      "Hold a dumbbell in each hand hanging at your sides with palms facing inward and a slight bend in your elbows.",
+      "Hinge slightly forward at the hips while maintaining a neutral, braced spine."
+    ],
+    "steps": [
+      "Raise your arms out to the sides in the scapular plane until your elbows reach approximately shoulder height.",
+      "Lead with the elbows rather than the wrists, keeping the slight elbow bend locked throughout the ascent.",
+      "Pause briefly at the top to emphasize peak contraction in the lateral deltoids.",
+      "Lower the dumbbells under control back to your sides, stopping just before they rest against your legs."
+    ],
+    "breathing": "Exhale smoothly as you raise the dumbbells, and inhale as you lower them under control.",
+    "cues": [
+      "Lead with the elbows",
+      "Pour the water at the top",
+      "Keep your torso still"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso backward to gain momentum.",
+        "correction": "Keep your core braced and torso angle static throughout the entire set; reduce the load if necessary."
+      },
+      {
+        "fault": "Excessive shrugging of the upper traps to lift the weight.",
+        "correction": "Depress your shoulders slightly before initiating the lift and focus on pushing the dumbbells out wide toward the walls."
+      },
+      {
+        "fault": "Allowing the hands to rise significantly higher than the elbows.",
+        "correction": "Maintain a flat forearm alignment so that the elbow, forearm, and wrist rise together in a single plane."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using weights so heavy that they force jerky spinal movement or shoulder impingement at the top."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Seated Dumbbell Lateral Raise",
+  "previous_ids": [
+    "oec:seated-dumbbell-side-lateral"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Seated Dumbbell Side Lateral",
+        "url": "https://wger.de/en/exercise/918/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "novadani"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-lateral-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-lateral-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-lateral-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-lateral-raise"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated"
+    },
+    "load_position": "at-sides",
+    "position": "seated",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A seated isolation exercise that targets the lateral deltoid to build shoulder width while minimizing lower-body momentum."
+}

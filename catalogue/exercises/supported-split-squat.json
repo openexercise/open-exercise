@@ -1,0 +1,202 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Hand-Supported Split Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Assisted Split Squat",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "rehabilitation",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "wall",
+        "power-rack",
+        "squat-rack",
+        "chair"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2557"
+  },
+  "id": "oec:supported-split-squat",
+  "instructions": {
+    "setup": [
+      "Stand adjacent to a sturdy post, rack upright, wall, or chair.",
+      "Place one hand lightly on the support for balance.",
+      "Step one leg backward into a split stance, maintaining hip-width distance between your feet."
+    ],
+    "steps": [
+      "Descend by bending both knees simultaneously, keeping your torso tall with a slight forward incline.",
+      "Lower under control until your back knee is hovering just above the floor.",
+      "Press through the midfoot and heel of your front foot to extend both knees and return to the starting position.",
+      "Perform the desired repetitions before switching legs."
+    ],
+    "breathing": "Inhale on the descent; exhale as you push back up to the starting position.",
+    "cues": [
+      "Light touch on the support",
+      "Drop straight down",
+      "Drive through the front heel"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling excessively with the supporting hand",
+        "correction": "Use the hand support solely for stability, letting the legs generate all lifting force."
+      },
+      {
+        "fault": "Stance too narrow laterally",
+        "correction": "Keep feet hip-width apart as if standing on train tracks rather than a tightrope."
+      },
+      {
+        "fault": "Front heel rising off the floor",
+        "correction": "Step slightly farther forward or sit back slightly so weight remains distributed across the entire front foot."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the support object is stable and firmly anchored before placing weight on it."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Supported Split Squat",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Supported Split Squat",
+        "url": "https://wger.de/en/exercise/2557/view-base",
+        "license": "CC-BY-SA-3.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:bodyweight-split-squat"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:bodyweight-split-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:bodyweight-split-squat"
+    }
+  ],
+  "setup": {
+    "position": "split-stance",
+    "range": "full",
+    "stance": {
+      "kind": "split",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A stationary split squat performed while holding a sturdy object to reduce balance demands and isolate lower-body drive."
+}

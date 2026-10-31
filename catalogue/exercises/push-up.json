@@ -1,0 +1,223 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "pushup",
+      "kind": "common"
+    },
+    {
+      "text": "press-up",
+      "kind": "regional"
+    },
+    {
+      "text": "press up",
+      "kind": "regional"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1551"
+  },
+  "id": "oec:push-up",
+  "instructions": {
+    "setup": [
+      "Place your hands flat on the floor slightly wider than shoulder-width apart, directly under your shoulders.",
+      "Extend your legs behind you with feet together or hip-width apart, supporting your weight on your hands and toes.",
+      "Brace your core, squeeze your glutes, and establish a rigid straight line from your head to your heels."
+    ],
+    "steps": [
+      "Lower your chest toward the floor by bending your elbows, keeping them tracking at roughly a 45-degree angle to your torso.",
+      "Descend until your chest is an inch off the floor or lightly touches it, maintaining full-body tension.",
+      "Press through your palms to extend your arms, returning to the top plank position.",
+      "Push fully through the floor at the top to complete scapular protraction without rounding the lower back."
+    ],
+    "breathing": "Inhale smoothly as you lower your body toward the floor; exhale forcefully as you press back up to lockout.",
+    "cues": [
+      "Body like a plank.",
+      "Arrow shape with your elbows, not a 'T'.",
+      "Push the floor away."
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging hips and hyperextended lumbar spine.",
+        "correction": "Brace your abdominals and squeeze your glutes to maintain a neutral spine throughout the set."
+      },
+      {
+        "fault": "Elbows flaring excessively out to ninety degrees from the torso.",
+        "correction": "Tuck your elbows to roughly 45 degrees, forming an arrow shape with your head and torso."
+      },
+      {
+        "fault": "Cutting the range of motion short by nodding the head rather than lowering the chest.",
+        "correction": "Keep your neck packed in neutral alignment and lower until your chest nearly touches the floor."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If wrist discomfort occurs, perform the push-up with hands on parallettes, dumbbells, or closed fists to keep wrists neutral."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Push-Up",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Push-Up",
+        "url": "https://wger.de/en/exercise/1551/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Settebello"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:incline-push-up"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:wall-push-up"
+    },
+    {
+      "type": "part-of",
+      "target": "oec:burpee"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "prone",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A foundational bodyweight exercise that builds upper-body pressing strength and trunk stability."
+}

@@ -1,0 +1,216 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Wide Grip Pull-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Wide-Grip Overhand Pull-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Pull-Ups (Wide Grip)",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "adduction",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "downward-rotation",
+          "depression",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "dip-belt",
+      "weight-vest",
+      "resistance-band"
+    ],
+    "required": [
+      [
+        "pull-up-bar"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1695"
+  },
+  "id": "oec:wide-grip-pull-up",
+  "instructions": {
+    "setup": [
+      "Reach up and grasp the pull-up bar with a pronated grip noticeably wider than shoulder width.",
+      "Hang with arms fully extended into a dead hang, engage your core, and cross your ankles or hold your legs straight."
+    ],
+    "steps": [
+      "Initiate the pull by depressing and retracting your shoulder blades, drawing your shoulders down away from your ears.",
+      "Drive your elbows down toward your ribs to pull your upper body upward until your chin clearly passes the height of the bar.",
+      "Pause briefly at the top while actively squeezing your back muscles.",
+      "Lower yourself under control until your arms are fully extended back in the starting hang."
+    ],
+    "breathing": "Inhale at the bottom before initiating the pull, and exhale forcefully as you drive upward past the sticking point.",
+    "cues": [
+      "Pull your elbows down into your back pockets",
+      "Lead with your chest, not your chin",
+      "Keep your shoulders down and away from your ears"
+    ],
+    "common_faults": [
+      {
+        "fault": "Kicking or kipping with the legs to generate upward momentum.",
+        "correction": "Keep the core and glutes braced, moving only the upper body in a strict, controlled manner."
+      },
+      {
+        "fault": "Taking an excessively wide grip that severely limits range of motion and strains the shoulders.",
+        "correction": "Set your hands roughly 1.5 times shoulder width, ensuring your elbows can fully extend and comfortably adduct."
+      },
+      {
+        "fault": "Shortening the range of motion by not reaching full arm extension at the bottom.",
+        "correction": "Lower all the way until your elbows reach full extension before starting the next rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the pull-up bar is securely mounted and can support your full body weight."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Wide-Grip Pull-Up",
+  "previous_ids": [
+    "oec:pull-ups-wide-grip"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Pull-Ups (Wide Grip)",
+        "url": "https://wger.de/en/exercise/1695/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "daiben"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:pull-up"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:wide-grip-lat-pulldown"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "wide"
+    },
+    "position": "hanging",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A bodyweight vertical pull performed on an overhead bar with a wide overhand grip to strongly emphasize the latissimus dorsi and upper back."
+}

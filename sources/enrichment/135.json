@@ -1,0 +1,162 @@
+{
+  "is_exercise": true,
+  "name": "Machine Chest Fly",
+  "summary": "A seated machine isolation exercise targeting the pectorals through guided horizontal adduction of the arms.",
+  "aliases": [
+    {
+      "text": "Pec Deck",
+      "kind": "common"
+    },
+    {
+      "text": "Pec Deck Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Butterfly",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Machine Fly",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-chest-fly"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "coracobrachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so the handles or arm pads align with the middle of your chest.",
+      "Sit back firmly with your head, upper back, and glutes supported against the pad, feet flat on the floor.",
+      "Grasp the handles or position your forearms against the pads with a slight, fixed bend in your elbows."
+    ],
+    "steps": [
+      "Inhale, brace your core, and set your shoulder blades back and down against the backrest.",
+      "Bring the handles together in front of your chest in a smooth, hugging arc.",
+      "Pause briefly at peak contraction, squeezing your pectorals firmly without touching the handles together.",
+      "Reverse the movement with control, feeling a deep stretch across your chest before the weight stack touches down."
+    ],
+    "breathing": "Exhale as you pull the handles together; inhale as you slowly return to the stretched starting position.",
+    "cues": [
+      "Hug a wide barrel.",
+      "Lead with the elbows rather than the hands.",
+      "Keep your chest high and shoulders pinned to the pad."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the shoulders to round forward at full contraction.",
+        "correction": "Keep your shoulder blades retracted and depressed against the backrest throughout the entire rep."
+      },
+      {
+        "fault": "Changing the elbow bend during the movement to turn the fly into a press.",
+        "correction": "Lock in a soft elbow angle at the start and maintain it unchanged from start to finish."
+      },
+      {
+        "fault": "Overstretching the shoulders backward at the start of the rep.",
+        "correction": "Adjust the machine's range-of-motion cam so your elbows do not travel excessively behind the plane of your torso."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not allow the weights to violently yank your arms backward into excessive external rotation and horizontal abduction."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

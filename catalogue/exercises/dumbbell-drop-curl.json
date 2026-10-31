@@ -1,0 +1,221 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Drop Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Curl with Isometric Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Alternating Dumbbell Curl with Isometric Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Isometric Hold Dumbbell Biceps Curl",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "radioulnar",
+        "actions": [
+          "supination",
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1512"
+  },
+  "id": "oec:dumbbell-drop-curl",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart holding a dumbbell in each hand.",
+      "Curl both dumbbells up to chest height into full contraction, elbows pinned close to your sides.",
+      "Brace your core and maintain a supinated grip on both dumbbells."
+    ],
+    "steps": [
+      "Keep one arm locked in the contracted top position.",
+      "Lower the working dumbbell under control until your arm is fully extended.",
+      "Curl the weight smoothly back up to the top contracted position.",
+      "Hold that side at the top and immediately repeat the lowering and curling movement with the opposite arm.",
+      "Continue alternating arms for the prescribed number of repetitions per side."
+    ],
+    "breathing": "Inhale as you lower one dumbbell, and exhale forcefully as you curl it back up to meet the holding arm.",
+    "cues": [
+      "Freeze the holding arm",
+      "Lower with control",
+      "Keep elbows pinned"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the non-working arm to drift downward during the set.",
+        "correction": "Actively squeeze the biceps of the static arm to keep the dumbbell firmly at chest height."
+      },
+      {
+        "fault": "Swinging the torso to lift the working dumbbell.",
+        "correction": "Keep your glutes and core tight to eliminate any momentum from the hips or lower back."
+      },
+      {
+        "fault": "Flaring the elbows outward.",
+        "correction": "Keep your upper arms tucked alongside your ribs throughout both the dynamic and isometric phases."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Choose a lighter load than standard curls, as the continuous isometric tension increases fatigue rapidly."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Dumbbell Drop Curl",
+  "previous_ids": [
+    "oec:drop-curl"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Drop Curl",
+        "url": "https://wger.de/en/exercise/1512/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Moffi"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:alternating-dumbbell-curl"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:alternating-dumbbell-curl"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-curl"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated"
+    },
+    "load_position": "chest",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An alternating biceps curl variation where both dumbbells begin contracted at the top, and one arm lowers and curls while the opposite arm maintains an isometric hold."
+}

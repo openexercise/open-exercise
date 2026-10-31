@@ -1,0 +1,182 @@
+{
+  "is_exercise": true,
+  "name": "Weight Plate Bus Driver",
+  "summary": "An isolation exercise that holds a weight plate straight out and rotates it side-to-side to challenge the anterior deltoids and shoulder stabilizers.",
+  "aliases": [
+    {
+      "text": "Bus Driver",
+      "kind": "common"
+    },
+    {
+      "text": "Bus Drivers",
+      "kind": "common"
+    },
+    {
+      "text": "Plate Bus Driver",
+      "kind": "common"
+    },
+    {
+      "text": "Plate Steering Wheel",
+      "kind": "common"
+    },
+    {
+      "text": "Weight Plate Steering Wheel",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise",
+      "rotation"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "grip_orientation": "neutral",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-lateral",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization",
+        "internal-rotation",
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "weight-plate"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart, or sit upright on a flat bench with your core braced.",
+      "Grip the sides of a weight plate at roughly the 9 and 3 o'clock positions.",
+      "Raise the plate straight out in front of you to shoulder height with arms extended and a slight, soft bend in the elbows."
+    ],
+    "steps": [
+      "Maintaining shoulder height, smoothly rotate the plate like a steering wheel until one hand is directly above the other (12 and 6 o'clock).",
+      "Pause momentarily, then reverse the rotation back through center until the opposite hand is on top.",
+      "Continue alternating sides smoothly while keeping the arms elevated and torso upright."
+    ],
+    "breathing": "Breathe in a steady, continuous rhythm throughout the set without holding your breath against the isometric burn.",
+    "cues": [
+      "Keep the plate at eye-to-shoulder height",
+      "Turn from the shoulders, not just the wrists",
+      "Lock your ribcage down to avoid leaning back"
+    ],
+    "common_faults": [
+      {
+        "fault": "Letting the arms drop below shoulder height as fatigue sets in.",
+        "correction": "Use a lighter plate to maintain full shoulder elevation throughout the entire set."
+      },
+      {
+        "fault": "Arching the lower back to compensate for shoulder fatigue.",
+        "correction": "Squeeze your glutes and brace your abs to keep the pelvis and spine neutral."
+      },
+      {
+        "fault": "Excessively bending the elbows into a chest press position.",
+        "correction": "Keep elbows nearly straight with only a soft micro-bend to maximize lever-arm tension on the deltoids."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Start with light weight plates (5–10 lb / 2.5–5 kg), as the long lever arm places significant demand on shoulder stamina."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

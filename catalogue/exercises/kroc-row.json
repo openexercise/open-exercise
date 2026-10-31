@@ -1,0 +1,239 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Dumbbell Kroc Row",
+      "kind": "common"
+    },
+    {
+      "text": "Heavy Single-Arm Dumbbell Row",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "protraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "rotation",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "bench",
+      "strap"
+    ],
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1471"
+  },
+  "id": "oec:kroc-row",
+  "instructions": {
+    "setup": [
+      "Place your non-working hand on a sturdy rack or flat bench to brace your torso at roughly a 45-degree angle to the floor.",
+      "Assume a wide, staggered stance to establish a firm base of support.",
+      "Grip a heavy dumbbell with the working hand and let it hang at full arm's extension, allowing the working shoulder to protract slightly for a deep lat stretch."
+    ],
+    "steps": [
+      "Initiate the pull by driving the working elbow back toward your hip while allowing a small amount of torso rotation to generate momentum.",
+      "Row the dumbbell up until it touches the lower ribcage or hip area, forcefully contracting your upper back and lat.",
+      "Lower the dumbbell under control back to the fully stretched hanging position.",
+      "Complete all repetitions on one side before switching to the other."
+    ],
+    "breathing": "Inhale as you lower the dumbbell into the bottom stretch; exhale forcefully as you drive the elbow back to complete the row.",
+    "cues": [
+      "Pull with your elbow, not your hand.",
+      "Get a deep stretch at the bottom.",
+      "Drive the weight back toward your hip pocket."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive jerking or standing upright during the pull.",
+        "correction": "Keep your torso inclined around 45 degrees; use controlled momentum rather than turning the lift into an upright shrug."
+      },
+      {
+        "fault": "Cutting the range of motion short at the bottom.",
+        "correction": "Allow the shoulder blade to protract fully at the bottom to capitalize on the loaded lat stretch."
+      },
+      {
+        "fault": "Grip failing before the back muscles are fatigued.",
+        "correction": "Use lifting straps when the weight exceeds your grip capacity so the upper back receives the intended training stimulus."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the support surface (bench or rack) is completely stable before initiating heavy rows.",
+        "Maintain a neutral spine and braced core to avoid excessive twisting or flexion under load."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Kroc Row",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Kroc Row",
+        "url": "https://wger.de/en/exercise/1471/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Expenses7000"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:single-arm-dumbbell-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:meadows-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "at-sides",
+    "position": "bent-over",
+    "range": "full",
+    "stance": {
+      "kind": "staggered"
+    }
+  },
+  "status": "active",
+  "summary": "A heavy, high-repetition single-arm dumbbell row executed with controlled torso movement to maximize upper back strength and hypertrophy."
+}

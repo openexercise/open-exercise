@@ -1,0 +1,169 @@
+{
+  "is_exercise": true,
+  "name": "Cable Seated Row",
+  "summary": "A seated cable pull targeting the latissimus dorsi, middle back, and elbow flexors.",
+  "aliases": [
+    {
+      "text": "Seated Cable Row",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Low Row",
+      "kind": "common"
+    },
+    {
+      "text": "Low Pulley Row",
+      "kind": "common"
+    },
+    {
+      "text": "Long-Pulley Row",
+      "kind": "regional"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable",
+        "selectorized-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit on the bench facing the low pulley and place your feet securely on the footrests with knees slightly bent.",
+      "Hinge slightly forward at the hips to grasp the handle, then sit upright with an erect spine, braced core, and arms fully extended."
+    ],
+    "steps": [
+      "Initiate the pull by retracting your shoulder blades and driving your elbows straight back alongside your ribcage.",
+      "Pull the handle firmly toward your lower abdomen while keeping your torso upright and stationary.",
+      "Pause briefly at peak contraction, squeezing your shoulder blades together.",
+      "Control the weight back under tension until your arms are fully extended and shoulders protracted forward slightly."
+    ],
+    "breathing": "Exhale as you pull the handle into your abdomen, and inhale as you return the weight stack.",
+    "cues": [
+      "Lead with the elbows, not the hands.",
+      "Chest proud and shoulders down.",
+      "Keep the torso stable; do not swing."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso backward and forward to generate momentum.",
+        "correction": "Keep your hips locked and maintain a stationary, upright spine throughout the movement."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears during the pull.",
+        "correction": "Depress your scapulae and keep your traps relaxed before driving the elbows back."
+      },
+      {
+        "fault": "Rounding the lower back when reaching forward.",
+        "correction": "Maintain a neutral spine and stop reaching forward once your arms are fully extended."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid hyperextending the lumbar spine under heavy loads."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

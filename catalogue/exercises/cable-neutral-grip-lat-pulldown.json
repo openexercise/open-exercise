@@ -1,0 +1,242 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Neutral-Grip Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Neutral-Grip Chest Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Parallel-Grip Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Neutral Grip Lat Pulldown",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "downward-rotation",
+          "retraction"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable",
+        "selectorized-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1136,1510"
+  },
+  "id": "oec:cable-neutral-grip-lat-pulldown",
+  "instructions": {
+    "setup": [
+      "Attach a neutral-grip handle or parallel-grip bar to the high pulley of a lat pulldown machine.",
+      "Adjust the thigh pad so your legs are securely anchored with your feet flat on the floor.",
+      "Grasp the handles with palms facing each other and sit down, allowing your arms to extend overhead while maintaining an upright posture with a slight backward lean."
+    ],
+    "steps": [
+      "Depress your scapulae and pull the handle smoothly down toward your upper chest by driving your elbows down and back.",
+      "Squeeze your lats firmly at the bottom as the handle approaches collarbone level.",
+      "Control the weight as you slowly reverse the motion, extending your arms fully until you feel a gentle stretch in your back before beginning the next repetition."
+    ],
+    "breathing": "Inhale as you allow the weight to return to the top; exhale forcefully as you pull the handles down toward your chest.",
+    "cues": [
+      "Lead with the elbows.",
+      "Chest up to meet the bar.",
+      "Control the stretch at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive leaning back to swing the weight down using momentum.",
+        "correction": "Keep your torso relatively still with only a slight natural arch, pulling strictly with your back and arms."
+      },
+      {
+        "fault": "Incomplete range of motion without full overhead extension.",
+        "correction": "Allow your shoulder blades to elevate naturally at the top of each rep to achieve a full stretch."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the thigh support is locked securely to avoid being pulled upward by the weight stack."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable Neutral-Grip Lat Pulldown",
+  "previous_ids": [
+    "oec:neutral-grip-chest-pulldown",
+    "oec:neutral-grip-lat-pulldown"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Neutral-grip chest pulldown",
+        "url": "https://wger.de/en/exercise/1136/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Franpol"
+      },
+      {
+        "title": "wger: Neutral Grip Lat Pulldown",
+        "url": "https://wger.de/en/exercise/1510/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Expenses7000"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:neutral-grip-pull-up"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:neutral-grip-pull-up"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:v-bar-lat-pulldown"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "shoulder"
+    },
+    "position": "seated",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A vertical pulling exercise performed on a cable pulldown machine using a neutral grip to target the latissimus dorsi and elbow flexors."
+}

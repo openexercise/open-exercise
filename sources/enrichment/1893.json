@@ -1,0 +1,196 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Overhead Press",
+  "summary": "A foundational compound lift performed by pressing a barbell vertically from the anterior shoulders to full lockout overhead while standing.",
+  "aliases": [
+    {
+      "text": "Military Press",
+      "kind": "common"
+    },
+    {
+      "text": "Strict Press",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Overhead Press",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Shoulder Press",
+      "kind": "common"
+    },
+    {
+      "text": "Overhead Barbell Press",
+      "kind": "common"
+    },
+    {
+      "text": "OHP",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "front-rack",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-lateral",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "abduction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "squat-rack",
+    "power-rack"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set a barbell in a rack around mid-chest height.",
+      "Grip the bar slightly outside shoulder width with a full, pronated grip, keeping the wrists relatively straight.",
+      "Step under the bar and rest it across the anterior deltoids and clavicles, with forearms vertical and elbows slightly in front of the bar.",
+      "Unrack the barbell, step back into a stable hip-width stance, and squeeze your glutes and core."
+    ],
+    "steps": [
+      "Tilt your head slightly back to clear a vertical path for the bar.",
+      "Press the barbell straight upward in a tight vertical line.",
+      "Once the bar passes your forehead, bring your head and torso forward into a neutral position.",
+      "Lock out your elbows overhead with the bar balanced directly over the midfoot, shoulders, and hips.",
+      "Lower the barbell under control along the same path, tilting your head back slightly as it passes, and return to the front-rack position."
+    ],
+    "breathing": "Inhale and brace your abdominals before initiating the press, exhaling past the sticking point near lockout or at the top.",
+    "cues": [
+      "Squeeze glutes and brace your abs.",
+      "Vertical forearms under the bar.",
+      "Push your head through the window at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive hyperextension of the lumbar spine to turn the press into an incline press.",
+        "correction": "Squeeze the glutes hard, brace the abdominal wall, and reduce the working load."
+      },
+      {
+        "fault": "Pressing the bar forward in a loop around the face.",
+        "correction": "Tilt the head back slightly so the bar can travel in an efficient, straight vertical line."
+      },
+      {
+        "fault": "Flaring elbows excessively wide in the rack position.",
+        "correction": "Tuck elbows slightly forward so forearms remain perpendicular to the floor."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you miss a repetition, lower the barbell safely back to the anterior shoulders under control; do not drop it behind your neck.",
+        "Maintain strict lockout without bending your knees to turn the lift into a push press."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

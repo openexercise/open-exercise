@@ -1,0 +1,159 @@
+{
+  "is_exercise": true,
+  "name": "Machine Chest Press",
+  "summary": "A machine-guided horizontal pressing exercise that targets the pectoral muscles, anterior deltoids, and triceps.",
+  "aliases": [
+    {
+      "text": "Flat Machine Press",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Machine Chest Press",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Chest Press Machine",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so that the handles align with the mid-to-lower portion of your chest.",
+      "Sit back firmly against the back pad with your feet flat on the floor.",
+      "Grasp the handles with an overhand grip, keeping your wrists neutral and aligned with your forearms."
+    ],
+    "steps": [
+      "Retract your shoulder blades against the pad and brace your core.",
+      "Press the handles smoothly forward by extending your arms and contracting your chest until your elbows are extended without locking out.",
+      "Pause briefly at full extension while maintaining tension on the pectorals.",
+      "Control the handles backward under continuous tension until you feel a comfortable stretch across your chest, reversing before the weight stack touches down."
+    ],
+    "breathing": "Exhale as you press the handles forward; inhale smoothly as you lower the weight back toward your chest.",
+    "cues": [
+      "Drive through the palms",
+      "Keep shoulders pinned to the pad",
+      "Squeeze your chest together"
+    ],
+    "common_faults": [
+      {
+        "fault": "Seat set too low or too high",
+        "correction": "Position the seat so the handles align directly with the nipple line, keeping the shoulders in a safe pressing angle."
+      },
+      {
+        "fault": "Protracted, rolling shoulders off the pad",
+        "correction": "Keep your upper back and shoulder blades firmly pinned against the backrest throughout the entire repetition."
+      },
+      {
+        "fault": "Allowing the weight plates to slam at the bottom",
+        "correction": "Maintain muscular tension and stop just before the weight stack rests on the bottom."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Set the seat and range-of-motion limiter so your shoulders are not forced into excessive hyperextension at the start."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

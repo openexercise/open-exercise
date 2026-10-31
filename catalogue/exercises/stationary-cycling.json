@@ -1,0 +1,250 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Indoor Cycling",
+      "kind": "common"
+    },
+    {
+      "text": "Stationary Bike",
+      "kind": "common"
+    },
+    {
+      "text": "Exercise Bike",
+      "kind": "common"
+    },
+    {
+      "text": "Spinning",
+      "kind": "brand"
+    },
+    {
+      "text": "Stationary bike cardio",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "calves",
+        "role": "synergist"
+      },
+      {
+        "muscle": "tibialis-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "cycle"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "stationary-bike"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1618"
+  },
+  "id": "oec:stationary-cycling",
+  "instructions": {
+    "setup": [
+      "Adjust the saddle height so there is a slight bend in the knee (roughly 25 to 35 degrees) when the pedal is at the lowest point of the stroke.",
+      "Adjust the handlebar height and reach to allow a comfortable forward hinge from the hips without rounding your spine excessively.",
+      "Step onto the bike, sit firmly on the saddle, and secure your feet into the pedals or toe cages."
+    ],
+    "steps": [
+      "Begin pedaling smoothly in a continuous circular motion, pushing down through the ball of the foot and drawing through the bottom of the stroke.",
+      "Maintain a steady rhythm, keeping your knees tracking inline with your toes.",
+      "Keep a relaxed grip on the handlebars and avoid collapsing your weight onto your wrists.",
+      "Adjust the resistance and cadence to achieve the desired training intensity."
+    ],
+    "breathing": "Breathe continuously and rhythmically, matching your breathing pace to your cadence and effort level.",
+    "cues": [
+      "Pedal in smooth circles",
+      "Knees track straight forward",
+      "Relax your shoulders and grip"
+    ],
+    "common_faults": [
+      {
+        "fault": "Saddle set too low or too high.",
+        "correction": "Adjust the seat height to ensure a slight bend in the knee at the bottom of the pedal stroke to avoid joint strain."
+      },
+      {
+        "fault": "Bouncing in the saddle at high cadence.",
+        "correction": "Increase the magnetic or flywheel resistance slightly to stabilize the pedal stroke."
+      },
+      {
+        "fault": "Excessive weight bearing on handlebars with hunched shoulders.",
+        "correction": "Support your upper body through your core and hips while keeping a light, relaxed grip."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure all seat and handlebar adjustment pins are securely locked into place before starting."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "distance",
+          "speed",
+          "cadence",
+          "power",
+          "resistance-level",
+          "heart-rate",
+          "calories",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "distance",
+          "duration"
+        ],
+        "optional": [
+          "speed",
+          "cadence",
+          "power",
+          "resistance-level",
+          "heart-rate",
+          "calories",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Stationary Cycling",
+  "previous_ids": [
+    "oec:stationary-bike-cardio"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Stationary bike cardio",
+        "url": "https://wger.de/en/exercise/1618/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Tierrasverdes"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cycling"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:cycling"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:recumbent-bike"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:stationary-bike"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:stationary-bike-cycling"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "Pedal an indoor stationary bicycle to build cardiovascular endurance and lower-body muscular stamina."
+}

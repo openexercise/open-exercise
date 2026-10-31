@@ -1,0 +1,140 @@
+{
+  "is_exercise": true,
+  "name": "Banded Ankle Mobilization",
+  "summary": "A half-kneeling mobility drill using a resistance band anchored behind the ankle to promote posterior talar glide and improve dorsiflexion range of motion.",
+  "aliases": [
+    {
+      "text": "Banded Ankle Mobility",
+      "kind": "common"
+    },
+    {
+      "text": "Band-Assisted Ankle Dorsiflexion",
+      "kind": "common"
+    },
+    {
+      "text": "Half-Kneeling Banded Ankle Mobilization",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "rehabilitation",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "isolation-ankle",
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "half-kneeling",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "soleus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "stretched"
+    },
+    {
+      "muscle": "tibialis-anterior",
+      "role": "prime-mover"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "resistance-band"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "band-tension",
+        "duration"
+      ]
+    }
+  ],
+  "load_kind": "elastic",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Anchor a strong resistance band to a sturdy low point behind you, such as the bottom of a rack.",
+      "Step inside the loop and position the band across the front of the ankle, sitting just below the ankle bones (malleoli) over the talus.",
+      "Adopt a half-kneeling position with the banded foot forward, moving far enough out to create backward and downward tension from the band."
+    ],
+    "steps": [
+      "Ensure the front heel is planted firmly and remains glued to the ground.",
+      "Drive your front knee directly forward over your middle toes into end-range dorsiflexion.",
+      "Hold the forward position briefly to feel the mobilization at the ankle joint.",
+      "Return the knee to the vertical starting position under control."
+    ],
+    "breathing": "Inhale to prepare and exhale smoothly as you push your knee forward into dorsiflexion.",
+    "cues": [
+      "Keep your heel glued down.",
+      "Band stays below the ankle bones.",
+      "Track your knee over your second and third toes."
+    ],
+    "common_faults": [
+      {
+        "fault": "Placing the band too high on the lower shin.",
+        "correction": "Position the band directly over the talus below the malleoli so it mobilizes the joint instead of pulling the shin."
+      },
+      {
+        "fault": "Heel lifting off the floor during the forward drive.",
+        "correction": "Only push the knee as far forward as allows the heel to remain completely flat on the ground."
+      },
+      {
+        "fault": "Knee collapsing inward into valgus.",
+        "correction": "Track the knee in line with or slightly outside the middle toes."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Verify that the band is attached to an immovable anchor before placing tension on it."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

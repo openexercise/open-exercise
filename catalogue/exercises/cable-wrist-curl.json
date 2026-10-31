@@ -1,0 +1,189 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Cable Forearm Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Wrist Flexion",
+      "kind": "common"
+    },
+    {
+      "text": "Wrist curl, cable",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "forearm-flexors",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hand-intrinsics",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "wrist",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "fingers",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-grip"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "bench"
+    ],
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1771"
+  },
+  "id": "oec:cable-wrist-curl",
+  "instructions": {
+    "setup": [
+      "Attach a straight bar or EZ-curl bar to the lowest pulley setting on a cable station.",
+      "Kneel facing the machine and rest your forearms across your thighs or a flat bench, with your wrists extending just past the edge.",
+      "Grasp the bar with an underhand (supinated) grip at roughly shoulder width so the cable line of pull creates resistance against wrist flexion."
+    ],
+    "steps": [
+      "Allow the weight to extend your wrists down fully, keeping your forearms flat and secured.",
+      "Curl the bar upward by flexing your wrists as high as possible while keeping your elbows and forearms motionless.",
+      "Squeeze your forearms hard at the top of the contraction for a brief pause.",
+      "Lower the bar under control back to the starting stretched position."
+    ],
+    "breathing": "Exhale as you curl the weight up; inhale as you lower the weight back down.",
+    "cues": [
+      "Keep forearms glued to the support.",
+      "Isolate the movement to the wrists only.",
+      "Squeeze hard at peak flexion."
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting forearms or elbows off the support.",
+        "correction": "Keep your forearms firmly pressed into your thighs or bench so only the wrists move."
+      },
+      {
+        "fault": "Using excessive momentum or body sway.",
+        "correction": "Select a lighter weight and execute the movement with a slow, controlled tempo."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid letting the bar roll completely out of your hands unless performing deliberate finger curls."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable Wrist Curl",
+  "previous_ids": [
+    "oec:wrist-curl-cable"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Wrist curl, cable",
+        "url": "https://wger.de/en/exercise/1771/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "eufvksruh"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-wrist-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-wrist-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-wrist-curl"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated",
+      "width": "shoulder"
+    },
+    "position": "kneeling"
+  },
+  "status": "active",
+  "summary": "An isolation exercise using a low cable pulley to target the wrist flexors of the anterior forearm."
+}

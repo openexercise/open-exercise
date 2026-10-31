@@ -1,0 +1,204 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Reach Up",
+      "kind": "common"
+    },
+    {
+      "text": "Reach-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Ceiling Reach Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Vertical Reach Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Reach ups",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "obliques",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "upward-rotation"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1287"
+  },
+  "id": "oec:reach-up-crunch",
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a mat with your knees bent and feet flat on the floor hip-width apart.",
+      "Extend your arms straight up toward the ceiling perpendicular to the floor, palms facing forward or toward each other."
+    ],
+    "steps": [
+      "Engage your abdominals and press your lower back gently toward the floor.",
+      "Exhale and curl your head, neck, and shoulder blades off the floor, reaching your fingertips vertically toward the ceiling.",
+      "Pause briefly at the peak of the contraction, maintaining arm elevation without swinging.",
+      "Inhale as you slowly lower your shoulder blades and upper back to the starting position under control."
+    ],
+    "breathing": "Exhale forcefully as you curl up and reach toward the ceiling; inhale as you slowly return to the floor.",
+    "cues": [
+      "Reach straight up to the ceiling, not forward toward your knees.",
+      "Keep your chin off your chest.",
+      "Initiate the crunch from your abs, not your neck."
+    ],
+    "common_faults": [
+      {
+        "fault": "Reaching forward toward the knees rather than vertically toward the ceiling.",
+        "correction": "Fix your gaze straight up and aim your fingertips directly overhead to keep tension on the upper abdominals."
+      },
+      {
+        "fault": "Tucking the chin aggressively and straining the neck muscles.",
+        "correction": "Maintain a fist-sized distance between your chin and chest throughout the movement."
+      },
+      {
+        "fault": "Bouncing off the floor and using momentum between repetitions.",
+        "correction": "Lower slowly under control and come to a brief stop before initiating the next repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Individuals with acute lumbar disc pathology or neck discomfort should limit spinal flexion depth."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Reach-Up Crunch",
+  "previous_ids": [
+    "oec:reach-ups"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Reach ups",
+        "url": "https://wger.de/en/exercise/1287/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "painDpice"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:crunch"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:crunch"
+    }
+  ],
+  "setup": {
+    "position": "supine",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A bodyweight core exercise where the upper torso curls off the floor while reaching the arms vertically toward the ceiling."
+}

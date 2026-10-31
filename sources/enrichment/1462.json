@@ -1,0 +1,190 @@
+{
+  "is_exercise": true,
+  "name": "Straight Punch",
+  "summary": "A continuous striking drill throwing alternating straight punches from an athletic stance to build shoulder endurance, coordination, and rotational power.",
+  "aliases": [
+    {
+      "text": "Straight Punches",
+      "kind": "common"
+    },
+    {
+      "text": "Air Punches",
+      "kind": "common"
+    },
+    {
+      "text": "Shadow Boxing Punches",
+      "kind": "common"
+    },
+    {
+      "text": "Jab-Cross Drill",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "conditioning",
+      "cardio",
+      "calisthenics",
+      "sport"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "rotation"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic",
+      "ballistic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "rotating",
+  "stance_width": "shoulder",
+  "stance_kind": "staggered",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "calves",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "horizontal-adduction",
+        "internal-rotation"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "rotation"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "pronation"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "dumbbell",
+    "weight-vest"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "heart-rate",
+        "calories",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Assume a balanced boxing stance with feet roughly shoulder-width apart, knees slightly flexed, and weight distributed on the balls of your feet.",
+      "Bring both hands up to cheek level in a defensive guard with elbows tucked closely against the ribcage."
+    ],
+    "steps": [
+      "Drive one fist straight out toward eye level along your midline, turning the fist so the palm faces downward at full reach.",
+      "Rotate your torso and pivot your hips slightly to channel power from the lower body through the punch.",
+      "Snap the extended fist straight back along the same path to your cheek guard.",
+      "Immediately extend the opposite arm, repeating the sequence in a fluid, rhythmic cadence."
+    ],
+    "breathing": "Exhale sharply through your nose or mouth on each punch and inhale continuously as the fist retracts.",
+    "cues": [
+      "Drive from the hips, not just the arms",
+      "Snap back to the chin",
+      "Keep a soft micro-bend at full extension",
+      "Elbows tight to the ribs"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the elbow at the end of each strike.",
+        "correction": "Stop just short of terminal joint lockout by keeping a micro-bend in the elbow."
+      },
+      {
+        "fault": "Dropping the non-striking hand away from the face.",
+        "correction": "Keep the resting hand glued to your cheek in guard position while the other arm extends."
+      },
+      {
+        "fault": "Flaring the elbows outward before extending the punch.",
+        "correction": "Drive the punch directly forward along the center line with elbows pointing down."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Warm up the shoulders, elbows, and wrists thoroughly before performing fast repetitions.",
+        "Do not lock the elbow joint aggressively into extension against empty air."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

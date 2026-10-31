@@ -1,0 +1,239 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Bent-Over Cable Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Bent-Over Chest Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Bent over Cable Flye",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Bent-Over Cable Crossover",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-chest-fly",
+      "horizontal-push"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1469"
+  },
+  "id": "oec:cable-bent-over-fly",
+  "instructions": {
+    "setup": [
+      "Set both pulleys on a dual-cable station to roughly shoulder height or slightly higher.",
+      "Attach single D-handles to each pulley and grasp one in each hand.",
+      "Take a step forward into a staggered stance and hinge forward at the hips, maintaining a neutral spine with your torso angled around 45 to 60 degrees from horizontal.",
+      "Extend your arms out to your sides with a slight, fixed bend at the elbows."
+    ],
+    "steps": [
+      "Bring the handles forward and together in a hugging motion by contracting your chest.",
+      "Squeeze your pectorals firmly at the peak contraction as your hands meet in front of your chest.",
+      "Slowly reverse the motion under control, allowing your arms to open wide until you feel a deep stretch in your chest.",
+      "Maintain the fixed bend in your elbows and rigid torso position throughout the entire repetition."
+    ],
+    "breathing": "Inhale as you open your arms and stretch the chest; exhale forcefully as you bring the handles together.",
+    "cues": [
+      "Hug a wide tree barrel.",
+      "Keep a fixed bend in the elbows.",
+      "Lead with the inner elbows to feel the chest contract."
+    ],
+    "common_faults": [
+      {
+        "fault": "Turning the fly into a press by excessively bending and extending the elbows.",
+        "correction": "Lock a slight bend in your elbows and keep that angle constant throughout the entire set."
+      },
+      {
+        "fault": "Using torso momentum or rocking back and forth to move the weight.",
+        "correction": "Brace your core and plant your feet firmly; only your shoulder joints should move."
+      },
+      {
+        "fault": "Allowing the shoulders to roll forward and shrug up during the contraction.",
+        "correction": "Keep your shoulder blades depressed and stable to isolate the pectoral muscles."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not let the cables jerk your shoulders into hyper-extension at the end of the eccentric phase."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable Bent-Over Fly",
+  "previous_ids": [
+    "oec:bent-over-cable-flye"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Bent over Cable Flye",
+        "url": "https://wger.de/en/exercise/1469/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Expenses7000"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-chest-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-chest-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-crossover"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-chest-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-cable-fly"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "bent-over",
+    "stance": {
+      "kind": "staggered"
+    }
+  },
+  "status": "active",
+  "summary": "A cable isolation exercise that targets the chest muscles by horizontally adducting the arms while hinged forward at the hips."
+}

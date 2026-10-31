@@ -1,0 +1,212 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Floor Skull Crusher",
+      "kind": "common"
+    },
+    {
+      "text": "Dead-Stop Skull Crusher",
+      "kind": "common"
+    },
+    {
+      "text": "EZ-Bar Floor Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Floor Lying Triceps Extension",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "anconeus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat",
+      "weight-plate"
+    ],
+    "required": [
+      [
+        "ez-bar",
+        "barbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1468"
+  },
+  "id": "oec:ez-bar-floor-skull-crusher",
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on the floor or an exercise mat, with knees bent and feet flat on the ground.",
+      "Hold an EZ-bar above your upper chest or forehead with an overhand grip on the inner bends, arms extended."
+    ],
+    "steps": [
+      "Lower the bar under control by bending at the elbows until the weight plates gently touch the floor overhead behind your head.",
+      "Allow the weight to come to a brief, dead-stop pause on the floor without letting tension leave the triceps completely.",
+      "Drive the weight back up by extending your elbows until your arms return to the starting position."
+    ],
+    "breathing": "Inhale as you lower the bar to the floor, and exhale as you press back up to full extension.",
+    "cues": [
+      "Keep upper arms stationary",
+      "Dead stop on the floor, no bouncing",
+      "Drive through the triceps"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bouncing the plates off the floor to gain momentum.",
+        "correction": "Pause completely on the floor to eliminate the stretch reflex before extending."
+      },
+      {
+        "fault": "Flaring the elbows outward excessively during the press.",
+        "correction": "Keep the elbows tucked shoulder-width apart and pointing toward the ceiling throughout the repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure standard-sized plates or bumpers are used if needed so the bar settles at an appropriate height overhead without risking facial contact."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "EZ-Bar Floor Skull Crusher",
+  "previous_ids": [
+    "oec:floor-skull-crusher"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Floor Skull Crusher",
+        "url": "https://wger.de/en/exercise/1468/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Expenses7000"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:ez-bar-skull-crusher"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:ez-bar-skull-crusher"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:ez-bar-skull-crusher"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-lying-triceps-extension"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "narrow"
+    },
+    "position": "supine"
+  },
+  "status": "active",
+  "summary": "A triceps extension performed lying supine on the floor, using the ground to pause between repetitions and reduce shoulder and elbow strain."
+}

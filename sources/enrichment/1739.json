@@ -1,0 +1,142 @@
+{
+  "is_exercise": true,
+  "name": "Shrimp Squat",
+  "summary": "An advanced unilateral bodyweight squat where the non-working leg is bent behind the body as you descend until the rear knee gently touches the floor.",
+  "aliases": [
+    {
+      "text": "King Squat",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "balance"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "advanced"
+  },
+  "position": "standing",
+  "stance_kind": "single-leg",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "tibialis-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall on one leg with a stable tripod foot.",
+      "Bend the non-working knee behind you, bringing the heel toward the glute.",
+      "Optionally hold the ankle of the elevated foot with the hand on the same side, extending the opposite arm forward for counterbalance."
+    ],
+    "steps": [
+      "Inhale and brace your core as you hinge slightly at the hip and sit into the working leg.",
+      "Lower yourself under control by bending the knee and ankle until the rear knee lightly taps the floor.",
+      "Drive firmly through the working foot, extending the knee and hip to return to the standing position.",
+      "Lock out the hip at the top and repeat for the desired reps before switching sides."
+    ],
+    "breathing": "Inhale and brace during the descent; exhale forcefully as you drive out of the bottom position.",
+    "cues": [
+      "Reach the opposite arm forward for balance.",
+      "Control the descent; do not crash the back knee into the floor.",
+      "Keep your working heel glued to the ground."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bouncing the rear knee off the floor to generate momentum.",
+        "correction": "Descend slowly and lightly tap the floor without transferring body weight onto the rear knee."
+      },
+      {
+        "fault": "Working heel lifting off the floor during descent.",
+        "correction": "Work on ankle dorsiflexion mobility or elevate the heel slightly with a small wedge until mobility improves."
+      },
+      {
+        "fault": "Excessive knee valgus (collapsing inward) on the working leg.",
+        "correction": "Engage the hip abductors and ensure the knee tracks in line with the middle toes."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Place a folded mat or soft pad under the rear knee to protect it from hard impact."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

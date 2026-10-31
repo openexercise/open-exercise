@@ -1,0 +1,178 @@
+{
+  "is_exercise": true,
+  "name": "Jumping Jack",
+  "summary": "A foundational calisthenic exercise where you repeatedly jump to a wide stance while raising the arms overhead, then return together.",
+  "aliases": [
+    {
+      "text": "Side-Straddle Hop",
+      "kind": "regional"
+    },
+    {
+      "text": "Star Jump",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "cardio",
+      "conditioning",
+      "plyometric"
+    ],
+    "movement_patterns": [
+      "jump"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gastrocnemius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-lateral",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-longus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "abduction",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "downward-rotation"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "heart-rate",
+        "calories"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet together and arms resting naturally at your sides.",
+      "Keep your chest upright, core engaged, and gaze straight ahead."
+    ],
+    "steps": [
+      "Jump lightly off the balls of your feet, spreading your legs out wider than shoulder-width.",
+      "Simultaneously sweep your arms out to the sides and overhead until your hands meet or nearly touch above your head.",
+      "Without pausing, spring off the balls of your feet to bring your legs back together while lowering your arms back to your sides.",
+      "Land softly with knees slightly bent and immediately rebound into the next repetition."
+    ],
+    "breathing": "Maintain a steady, rhythmic breathing pattern, inhaling as your limbs spread and exhaling as they return.",
+    "cues": [
+      "Stay light on your feet",
+      "Soft knees on landing",
+      "Clap overhead and sweep wide"
+    ],
+    "common_faults": [
+      {
+        "fault": "Landing flat-footed with locked knees, transmitting high impact to joints.",
+        "correction": "Land softly on the balls of your feet and maintain a slight bend in your knees throughout."
+      },
+      {
+        "fault": "Knees caving inward (valgus collapse) during the wide landing.",
+        "correction": "Track your knees outward in line with your toes as you land in the wide stance."
+      },
+      {
+        "fault": "Cutting the arm motion short by only raising to shoulder height.",
+        "correction": "Sweep arms through a full range of motion until hands nearly touch overhead."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform on a flat, non-slip surface with supportive athletic footwear."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

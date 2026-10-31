@@ -1,0 +1,167 @@
+{
+  "is_exercise": true,
+  "name": "Seated Dumbbell Lateral Raise",
+  "summary": "A seated isolation exercise that targets the lateral deltoid to build shoulder width while minimizing lower-body momentum.",
+  "aliases": [
+    {
+      "text": "Seated Dumbbell Side Lateral",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Seated DB Lateral Raise",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Seated Side Lateral Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "pronated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-lateral",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "supraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "adjustable-bench",
+        "chair"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit upright at the end of a bench with your feet flat on the floor for stability.",
+      "Hold a dumbbell in each hand hanging at your sides with palms facing inward and a slight bend in your elbows.",
+      "Hinge slightly forward at the hips while maintaining a neutral, braced spine."
+    ],
+    "steps": [
+      "Raise your arms out to the sides in the scapular plane until your elbows reach approximately shoulder height.",
+      "Lead with the elbows rather than the wrists, keeping the slight elbow bend locked throughout the ascent.",
+      "Pause briefly at the top to emphasize peak contraction in the lateral deltoids.",
+      "Lower the dumbbells under control back to your sides, stopping just before they rest against your legs."
+    ],
+    "breathing": "Exhale smoothly as you raise the dumbbells, and inhale as you lower them under control.",
+    "cues": [
+      "Lead with the elbows",
+      "Pour the water at the top",
+      "Keep your torso still"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso backward to gain momentum.",
+        "correction": "Keep your core braced and torso angle static throughout the entire set; reduce the load if necessary."
+      },
+      {
+        "fault": "Excessive shrugging of the upper traps to lift the weight.",
+        "correction": "Depress your shoulders slightly before initiating the lift and focus on pushing the dumbbells out wide toward the walls."
+      },
+      {
+        "fault": "Allowing the hands to rise significantly higher than the elbows.",
+        "correction": "Maintain a flat forearm alignment so that the elbow, forearm, and wrist rise together in a single plane."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using weights so heavy that they force jerky spinal movement or shoulder impingement at the top."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

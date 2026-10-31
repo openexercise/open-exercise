@@ -1,0 +1,224 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "dumbbell bench",
+      "kind": "common"
+    },
+    {
+      "text": "flat dumbbell press",
+      "kind": "common"
+    },
+    {
+      "text": "DB bench press",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "benchpress dumbbells",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "bench",
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "75"
+  },
+  "id": "oec:dumbbell-bench-press",
+  "instructions": {
+    "setup": [
+      "Sit on the edge of a flat bench with a dumbbell resting vertically on each thigh near the knees.",
+      "Lie back smoothly while kicking the dumbbells up toward your chest using your thighs.",
+      "Plant your feet flat on the floor, pull your shoulder blades back and down against the bench, and press the dumbbells up over your mid-chest with elbows fully extended."
+    ],
+    "steps": [
+      "Lower the dumbbells under control toward the sides of your chest, keeping your forearms vertical and tucking your elbows at roughly a 45- to 60-degree angle relative to your torso.",
+      "Descend until the handles reach roughly chest level or you feel a comfortable stretch in the pectorals.",
+      "Press the dumbbells back upward along a slight inward arc until your arms are extended above your chest, without clashing the weights together at the top."
+    ],
+    "breathing": "Inhale deeply as you lower the dumbbells, and exhale forcefully as you press past the sticking point.",
+    "cues": [
+      "Keep elbows stacked beneath wrists",
+      "Pinch your shoulder blades into the bench",
+      "Squeeze your chest at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring elbows out perpendicular to the torso (90 degrees).",
+        "correction": "Tuck the elbows slightly to roughly 45 to 60 degrees to protect the shoulder joint."
+      },
+      {
+        "fault": "Banging the dumbbells together at the top of the repetition.",
+        "correction": "Stop the press when the dumbbells are directly over the shoulders, keeping continuous tension on the pecs."
+      },
+      {
+        "fault": "Hyperextending wrists under heavy loads.",
+        "correction": "Keep wrists neutral and directly over the elbows so the load transfers straight through the forearms."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid dropping the dumbbells off to the sides if fatigued; bring them to your thighs and sit up, or dump them safely to the floor clear of your body."
+      ],
+      "spotter": "recommended"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Bench Press",
+  "previous_ids": [
+    "oec:benchpress-dumbbells"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Benchpress Dumbbells",
+        "url": "https://wger.de/en/exercise/75/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-bench-press"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:dumbbell-floor-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated"
+    },
+    "incline_degrees": 0,
+    "position": "supine",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A compound free-weight exercise performed lying on a flat bench to build chest, anterior shoulder, and triceps strength and hypertrophy."
+}

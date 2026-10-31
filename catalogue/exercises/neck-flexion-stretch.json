@@ -1,0 +1,165 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Back Neck Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Cervical Flexion Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Neck Extensor Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Neck Flexion Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "upper-cervical-extensors",
+        "role": "stretched"
+      },
+      {
+        "muscle": "splenius",
+        "role": "stretched"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "stretched"
+      },
+      {
+        "muscle": "levator-scapulae",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "cervical-spine",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "isolation-neck"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "chair"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1010"
+  },
+  "id": "oec:neck-flexion-stretch",
+  "instructions": {
+    "setup": [
+      "Sit upright on a chair or flat surface with your feet planted, spine tall, and shoulders relaxed."
+    ],
+    "steps": [
+      "Interlace your fingers and rest your hands lightly on the back of your head near the crown.",
+      "Gently lower your chin toward your chest, allowing the passive weight of your arms to guide the head downward.",
+      "Hold the stretch at a comfortable point of tension along the back of the neck without forcing it.",
+      "Carefully release your hands and return your head to the neutral upright position."
+    ],
+    "breathing": "Exhale as you draw your chin toward your chest, then maintain slow, rhythmic breathing throughout the hold.",
+    "cues": [
+      "Chin to chest",
+      "Tall torso, flex only the neck",
+      "Let arm weight guide, do not yank"
+    ],
+    "common_faults": [
+      {
+        "fault": "Slumping through the thoracic or lumbar spine.",
+        "correction": "Keep your back flat and upright so the stretch remains localized to the cervical spine."
+      },
+      {
+        "fault": "Pulling forcefully on the back of the head.",
+        "correction": "Apply only gentle guidance with your hands; never aggressively force the neck into flexion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Discontinue immediately if you feel sharp pain, dizziness, or tingling sensations radiating into the arms."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Neck Flexion Stretch",
+  "previous_ids": [
+    "oec:back-neck-stretch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Back neck stretch",
+        "url": "https://wger.de/en/exercise/1010/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "setup": {
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A seated or standing flexibility exercise that stretches the muscles along the back of the cervical spine by bringing the chin toward the chest."
+}

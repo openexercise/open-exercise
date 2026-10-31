@@ -1,0 +1,171 @@
+{
+  "is_exercise": true,
+  "name": "Assisted Chin-Up",
+  "summary": "A vertically assisted compound pull using a counterweight machine and a supinated grip to target the lats and elbow flexors.",
+  "aliases": [
+    {
+      "text": "Machine-Assisted Chin-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Assisted Underhand Pull-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Counterweight Chin-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Assisted Chinup",
+      "kind": "misspelling"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "kneeling",
+  "grip_orientation": "supinated",
+  "grip_width": "shoulder",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "downward-rotation",
+        "retraction"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "assisted-pull-up-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight-minus-assistance",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Select the desired counterweight assistance on the weight stack.",
+      "Grasp the horizontal pull-up handles with a shoulder-width supinated (underhand) grip.",
+      "Place one knee securely onto the assistance pad, press down, and then place the other knee beside it.",
+      "Lower your body under control until your arms are fully extended in a dead hang with your core braced."
+    ],
+    "steps": [
+      "Depress and retract your scapulae, initiating the pull by drawing your elbows down and back toward your ribs.",
+      "Pull smoothly until your chin clears the height of the handles and your chest approaches the bar.",
+      "Pause momentarily at the top while maintaining tension across the back and biceps.",
+      "Lower yourself in a controlled eccentric manner until your elbows and shoulders reach full extension."
+    ],
+    "breathing": "Inhale at the bottom or while lowering, and exhale forcefully as you pull your body upward.",
+    "cues": [
+      "Drive your elbows straight down into your back pockets.",
+      "Lead with your chest, not your chin.",
+      "Keep your torso upright and avoid swinging."
+    ],
+    "common_faults": [
+      {
+        "fault": "Cutting the range of motion short at the bottom or top.",
+        "correction": "Allow the arms to reach full extension at the bottom and pull until the chin cleanly clears the bar."
+      },
+      {
+        "fault": "Kicking or bouncing off the knee pad to generate momentum.",
+        "correction": "Keep your hips extended and steady on the pad, letting your upper body perform all the pulling."
+      },
+      {
+        "fault": "Stepping off the machine abruptly when finishing the set.",
+        "correction": "Step one foot off carefully to the side platform and guide the pad slowly back to the top before releasing the other leg."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Always maintain a secure grip on the handles when stepping onto or off the counterweight pad to prevent it from rising rapidly."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

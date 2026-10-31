@@ -1,0 +1,209 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Single-Leg BOSU Balance",
+      "kind": "common"
+    },
+    {
+      "text": "BOSU Single-Leg Stand",
+      "kind": "common"
+    },
+    {
+      "text": "One-Leg BOSU Balance",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "foot-intrinsics",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "tibialis-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "peroneals",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "subtalar",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "balance",
+      "rehabilitation",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "balance"
+    ],
+    "mechanics": "not-applicable",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "bosu"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2616"
+  },
+  "id": "oec:bosu-single-leg-balance",
+  "instructions": {
+    "setup": [
+      "Place the BOSU ball dome-side up on a flat, non-slip surface.",
+      "Step one foot onto the center apex of the dome, orienting your toes straight ahead.",
+      "Fix your gaze on an unmoving focal point at eye level to assist with stability."
+    ],
+    "steps": [
+      "Shift your body weight onto the stance leg and lift the opposite foot off the ground.",
+      "Slightly unlock your stance knee rather than locking it out completely.",
+      "Keep your pelvis level and your torso upright with arms out to your sides for counterbalance.",
+      "Hold the position for the target duration while actively stabilizing through the foot and ankle.",
+      "Step down carefully and repeat on the opposite leg."
+    ],
+    "breathing": "Breathe smoothly and rhythmically throughout the hold without holding your breath.",
+    "cues": [
+      "Soft knee, strong arch.",
+      "Level hips.",
+      "Lock your eyes on one spot."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the standing knee.",
+        "correction": "Keep a subtle micro-bend in the working knee to engage the surrounding musculature."
+      },
+      {
+        "fault": "Letting the hip of the free leg drop or hike excessively.",
+        "correction": "Engage the stance-leg gluteus medius to keep the pelvis square and parallel to the floor."
+      },
+      {
+        "fault": "Positioning the foot off-center on the dome.",
+        "correction": "Place the center of your foot directly over the bullseye of the dome to distribute weight evenly."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure clear space around the BOSU ball in case you need to step off unexpectedly.",
+        "Beginners should position the BOSU near a wall or sturdy bar for touch support."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "BOSU Single-Leg Balance",
+  "previous_ids": [
+    "oec:single-leg-bosu-balance"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Single-leg BOSU balance",
+        "url": "https://wger.de/en/exercise/2616/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "aboksz"
+      }
+    ]
+  },
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "single-leg"
+    }
+  },
+  "status": "active",
+  "summary": "An isometric balance drill performed on the dome of a BOSU ball to develop foot, ankle, and hip stability."
+}

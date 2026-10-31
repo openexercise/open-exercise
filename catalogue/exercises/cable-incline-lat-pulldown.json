@@ -1,0 +1,243 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Incline Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Bench Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Chest-Supported Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Modified Pulldown",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "adduction",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "downward-rotation",
+          "depression",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable",
+        "selectorized-machine"
+      ],
+      [
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1635"
+  },
+  "id": "oec:cable-incline-lat-pulldown",
+  "instructions": {
+    "setup": [
+      "Position an adjustable bench set to a high incline (around 60 to 75 degrees) facing toward or away from a high cable pulley.",
+      "Attach a close-grip handle (such as a V-bar or neutral-grip handle) to the high pulley.",
+      "Sit on the bench with your torso firmly supported against the pad, reaching up to take a firm hold of the attachment.",
+      "Establish a stable foot position on the floor to brace your lower body."
+    ],
+    "steps": [
+      "Initiate the movement by depressing your shoulder blades and driving your elbows down toward your hips.",
+      "Pull the handle down in a smooth arc until your elbows reach your sides and the handle approaches your upper chest.",
+      "Pause briefly at the bottom, focusing on a strong contraction through your lats.",
+      "Slowly reverse the motion under control, extending your arms and allowing your scapulae to upwardly rotate until you feel a full stretch at the top."
+    ],
+    "breathing": "Exhale as you pull the handle down toward your chest, and inhale as you return the weight under control to the overhead stretch.",
+    "cues": [
+      "Drive your elbows to your back pockets.",
+      "Keep your chest anchored to the pad.",
+      "Lead with your elbows, not your hands."
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting your torso off the bench to use momentum.",
+        "correction": "Keep your body pinned to the backrest throughout the entire set and reduce the load if necessary."
+      },
+      {
+        "fault": "Pulling primarily through forearm and bicep flexion rather than driving the elbows down.",
+        "correction": "Think of your hands as mere hooks and focus on drawing your elbows down and back to engage the lats."
+      },
+      {
+        "fault": "Cutting the eccentric short without achieving a full stretch at the top.",
+        "correction": "Allow your arms to fully extend overhead while maintaining continuous tension on the cable."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the bench is securely locked into its incline position and will not shift under load.",
+        "Maintain control of the cable throughout the full range of motion to avoid jarring the shoulders at top extension."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable Incline Lat Pulldown",
+  "previous_ids": [
+    "oec:modified-pulldown"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Modified pulldown",
+        "url": "https://wger.de/en/exercise/1635/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Rottekongen"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-incline-bench-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-lean-back-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-lat-pulldown"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "narrow"
+    },
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A lat pulldown variation performed seated against an incline bench to stabilize the torso and optimize the line of pull for the latissimus dorsi."
+}

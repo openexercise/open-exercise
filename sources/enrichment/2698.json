@@ -1,0 +1,166 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Biceps Curl",
+  "summary": "A foundational upper-arm isolation exercise using dumbbells to build strength and hypertrophy in the elbow flexors.",
+  "aliases": [
+    {
+      "text": "Dumbbell Curl",
+      "kind": "common"
+    },
+    {
+      "text": "DB Biceps Curl",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Biceps Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Dumbbell Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "rotating",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "supination"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and a slight bend in your knees.",
+      "Hold a dumbbell in each hand at your sides with arms fully extended and palms facing inward toward your thighs."
+    ],
+    "steps": [
+      "Keeping your upper arms stationary and elbows tucked close to your ribs, curl the dumbbells upward.",
+      "Rotate your wrists outward as you lift, finishing with your palms facing your shoulders in full supination.",
+      "Squeeze your biceps firmly at the top of the contraction without allowing your elbows to swing forward.",
+      "Lower the dumbbells under strict control along the same path back to full extension at your sides."
+    ],
+    "breathing": "Exhale as you curl the dumbbells upward and inhale as you lower them under control.",
+    "cues": [
+      "Pin elbows to ribs",
+      "Rotate pinkies up at the top",
+      "Control the descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso and using hip momentum to lift the weights.",
+        "correction": "Brace your core, keep your torso upright, and reduce the weight so only the forearms move."
+      },
+      {
+        "fault": "Drifting elbows excessively forward to take tension off the biceps.",
+        "correction": "Keep your upper arms vertical and fixed in place against your sides throughout the repetition."
+      },
+      {
+        "fault": "Cutting the range of motion short at the bottom.",
+        "correction": "Allow your elbows to reach full extension at the bottom of every rep to maximize stretch on the biceps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid hyperextending your lumbar spine to hoist the dumbbells."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

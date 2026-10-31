@@ -1,0 +1,264 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "rowing machine",
+      "kind": "common"
+    },
+    {
+      "text": "indoor rowing",
+      "kind": "common"
+    },
+    {
+      "text": "rower",
+      "kind": "common"
+    },
+    {
+      "text": "rowing erg",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "concept2",
+      "kind": "brand"
+    },
+    {
+      "text": "erg",
+      "kind": "abbreviation"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "protraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "row-ergometer"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "mixed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "rowing-ergometer"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1093"
+  },
+  "id": "oec:rowing-ergometer",
+  "instructions": {
+    "setup": [
+      "Sit on the rower seat and strap your feet securely into the foot stretchers, with the strap positioned across the widest part of your foot.",
+      "Slide forward into the catch position with your shins roughly vertical, torso leaning forward slightly from the hips, and arms extended to grasp the handle with an overhand, shoulder-width grip."
+    ],
+    "steps": [
+      "Initiate the drive phase by pushing forcefully through the footplates with your legs while keeping your arms straight and core braced.",
+      "As your knees approach full extension, swing your torso backward from an 11 o'clock to a 1 o'clock angle.",
+      "Finish the drive by pulling the handle horizontally toward your lower ribs with your elbows driving past your torso.",
+      "Reverse the movement for the recovery phase by extending your arms forward first, hinging your torso forward at the hips, and then bending your knees to slide back into the catch position."
+    ],
+    "breathing": "Exhale forcefully as you drive through the legs and pull the handle to your ribs; inhale steadily on the recovery as you slide forward.",
+    "cues": [
+      "Legs, body, arms on the way out; arms, body, legs on the way back",
+      "Push the floor away rather than pulling with the arms",
+      "Keep the chain moving in a flat, level path"
+    ],
+    "common_faults": [
+      {
+        "fault": "Shooting the slide by extending the knees before the torso and handle move.",
+        "correction": "Maintain your forward torso angle during the initial push so your shoulders and hips rise at the same rate."
+      },
+      {
+        "fault": "Rushing the recovery and bending the knees before the handle passes them.",
+        "correction": "Fully extend the arms and hinge the hips forward before unlocking your knees to slide."
+      },
+      {
+        "fault": "Rounding the lumbar spine at the catch position.",
+        "correction": "Hinge from the hips rather than flexing the lower back, keeping your chest tall and core braced."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid excessive rearward layback at the finish to prevent lower back strain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "distance",
+          "calories",
+          "pace",
+          "power",
+          "heart-rate",
+          "cadence",
+          "resistance-level",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "distance"
+        ],
+        "optional": [
+          "duration",
+          "calories",
+          "pace",
+          "power",
+          "heart-rate",
+          "cadence",
+          "resistance-level",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Rowing Ergometer",
+  "previous_ids": [
+    "oec:rowing-machine"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Rowing Machine",
+        "url": "https://wger.de/en/exercise/1093/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Boertie"
+      }
+    ]
+  },
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "seated",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A full-body cardiovascular exercise performed on an indoor rower that combines a powerful leg drive, hip hinge, and upper-body pull."
+}

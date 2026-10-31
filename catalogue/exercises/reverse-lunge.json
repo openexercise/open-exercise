@@ -1,0 +1,225 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Backward Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Step-Back Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Bodyweight Reverse Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse lunges",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "vastus-lateralis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "vastus-medialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "vastus-intermedius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "999"
+  },
+  "id": "oec:reverse-lunge",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and your hands resting on your hips or held together at your chest.",
+      "Engage your core and keep your chest upright with your gaze directed straight ahead."
+    ],
+    "steps": [
+      "Take a controlled step backward with one foot onto the ball of that foot, maintaining hip-width distance between your feet.",
+      "Lower your body smoothly by bending both knees until your back knee hovers just above the floor and your front thigh is roughly parallel to the ground.",
+      "Drive through the midfoot and heel of your front foot to push yourself back up to the starting position.",
+      "Complete the desired repetitions on one side or alternate legs each rep."
+    ],
+    "breathing": "Inhale as you step back and lower into the lunge; exhale as you press through the front foot to return to standing.",
+    "cues": [
+      "Railroad tracks, not a tightrope",
+      "Weight heavy in the front heel",
+      "Tall torso throughout"
+    ],
+    "common_faults": [
+      {
+        "fault": "Stepping directly behind the front foot, causing loss of balance.",
+        "correction": "Step backward along the same hip-width track you started on."
+      },
+      {
+        "fault": "Letting the front heel lift off the ground as you descend.",
+        "correction": "Take a slightly longer stride back and keep your front foot firmly grounded through the heel and midfoot."
+      },
+      {
+        "fault": "Allowing the front knee to collapse inward (valgus collapse).",
+        "correction": "Actively track your front knee directly over your second toe."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid violently banging the back knee into the floor on the descent."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Reverse Lunge",
+  "previous_ids": [
+    "oec:reverse-lunges"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Reverse lunges",
+        "url": "https://wger.de/en/exercise/999/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:bodyweight-split-squat"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-reverse-lunge"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:dumbbell-reverse-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:bodyweight-forward-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:forward-lunge"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "split",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A lower-body unilateral exercise where one leg steps backward and lowers into a lunge, developing knee and hip extensor strength and balance."
+}

@@ -1,0 +1,154 @@
+{
+  "is_exercise": true,
+  "name": "Scissor Kick",
+  "summary": "A supine core and hip flexor exercise performed by alternating straight-leg vertical or criss-cross movements while keeping the lower back anchored to the floor.",
+  "aliases": [
+    {
+      "text": "Scissors",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Scissor Kick",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Scissor Kick",
+      "kind": "common"
+    },
+    {
+      "text": "Pilates Scissors",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "pilates"
+    ],
+    "movement_patterns": [
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie supine on an exercise mat with your legs extended and arms resting at your sides or gently supporting your pelvis.",
+      "Engage your abdominals by drawing your navel inward and pressing your lower back firmly into the floor.",
+      "Lift both legs slightly off the floor, keeping your knees extended and toes pointed."
+    ],
+    "steps": [
+      "Raise one leg upward toward the ceiling while keeping the opposing leg hovering just above the floor.",
+      "Switch leg positions in a smooth, scissor-like motion, driving one leg down under control while the other lifts.",
+      "Continue alternating legs continuously without letting either heel touch the ground or allowing your lower back to arch."
+    ],
+    "breathing": "Inhale steadily for two switches and exhale smoothly for two switches, maintaining core tension throughout.",
+    "cues": [
+      "Glue your lower back to the mat.",
+      "Point your toes and lock your knees.",
+      "Move from the hips, not the knees."
+    ],
+    "common_faults": [
+      {
+        "fault": "Arching the lumbar spine off the floor as the legs lower.",
+        "correction": "Only lower the legs as far as you can maintain full contact between your lower back and the mat, or perform the exercise with legs elevated higher."
+      },
+      {
+        "fault": "Bending the knees during the scissor movement.",
+        "correction": "Keep your quads lightly contracted to maintain full knee extension throughout the set."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you experience lower back discomfort, raise the working height of your legs or place your hands beneath your sacrum for additional pelvic support."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

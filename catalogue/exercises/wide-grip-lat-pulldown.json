@@ -1,0 +1,237 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Wide-Grip Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Lat Pulldown (Wide Grip)",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Wide-Grip Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Jalón al pecho con agarre ancho",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "adduction",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "downward-rotation",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "strap"
+    ],
+    "required": [
+      [
+        "cable",
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "723,1702"
+  },
+  "id": "oec:wide-grip-lat-pulldown",
+  "instructions": {
+    "setup": [
+      "Attach a long lat pulldown bar to the high pulley.",
+      "Adjust the thigh pads so your legs are firmly secured with feet flat on the floor.",
+      "Grip the bar with an overhand grip noticeably wider than shoulder width.",
+      "Sit down, anchoring your thighs beneath the pad, with arms fully extended overhead and chest lifted."
+    ],
+    "steps": [
+      "Depress your scapulae and pull the bar downward toward your upper chest by driving your elbows down and slightly back.",
+      "Pause briefly as the bar reaches collarbone height, fully contracting your lats.",
+      "Control the weight as you slowly return the bar to the overhead starting position, allowing your shoulder blades to upwardly rotate and stretch."
+    ],
+    "breathing": "Exhale as you pull the bar down toward your chest, and inhale as you return the bar overhead.",
+    "cues": [
+      "Drive your elbows into your back pockets.",
+      "Lead with the chest proud.",
+      "Control the stretch at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Leaning excessively backward to swing the weight down.",
+        "correction": "Maintain a slight, fixed torso lean of roughly 10 to 15 degrees and initiate with the back muscles rather than momentum."
+      },
+      {
+        "fault": "Pulling the bar behind the neck.",
+        "correction": "Pull the bar in front of your face to your upper chest to protect the shoulder joints and cervical spine."
+      },
+      {
+        "fault": "Cutting the range of motion short at the top.",
+        "correction": "Allow your arms to fully extend and your shoulder blades to elevate so the lats receive a complete stretch."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using momentum or dropping the weight stack quickly, which can jar the shoulder joints."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Wide-Grip Lat Pulldown",
+  "previous_ids": [
+    "oec:wide-grip-pulldown",
+    "oec:jal-n-al-pecho-con-agarre-ancho"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Wide-grip Pulldown",
+        "url": "https://wger.de/en/exercise/723/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "tuckerm"
+      },
+      {
+        "title": "wger: Jalón al pecho con agarre ancho",
+        "url": "https://wger.de/en/exercise/1702/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Mariano_O"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-lat-pulldown"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:wide-grip-pull-up"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:wide-grip-pull-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "wide"
+    },
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A seated vertical cable pull using a wide overhand grip to target the latissimus dorsi and upper back."
+}

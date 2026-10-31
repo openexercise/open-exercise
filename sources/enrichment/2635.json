@@ -1,0 +1,169 @@
+{
+  "is_exercise": true,
+  "name": "Resistance Band Seated Row",
+  "summary": "A seated horizontal pulling exercise using a resistance band looped around the feet to strengthen the back and biceps.",
+  "aliases": [
+    {
+      "text": "Seated Band Row",
+      "kind": "common"
+    },
+    {
+      "text": "Floor Band Row",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Resistance Band Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "neutral",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "resistance-band"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "band-tension",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "elastic",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit upright on the floor or an exercise mat with your legs extended in front of you and a slight, soft bend in your knees.",
+      "Loop the center of a resistance band securely around the midfoot or arches of both feet.",
+      "Grasp each end of the band with arms fully extended, taking up tension so there is no slack."
+    ],
+    "steps": [
+      "Sit tall with your chest lifted and brace your core.",
+      "Pull the band handles toward your lower ribs by driving your elbows straight back.",
+      "Squeeze your shoulder blades together at full contraction while keeping your torso stationary.",
+      "Slowly extend your arms back to the starting position under control, resisting the band's pull."
+    ],
+    "breathing": "Exhale as you pull the band toward your torso and inhale as you return to the starting position.",
+    "cues": [
+      "Lead with the elbows.",
+      "Proud chest throughout.",
+      "Squeeze the shoulder blades back."
+    ],
+    "common_faults": [
+      {
+        "fault": "Leaning back excessively to gain momentum.",
+        "correction": "Keep your torso braced and upright throughout the movement without rocking backward."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears.",
+        "correction": "Depress the shoulder blades and focus on pulling low toward the hips or ribcage."
+      },
+      {
+        "fault": "Band slipping off the feet.",
+        "correction": "Anchor the band securely across the arches of the feet and maintain active ankle dorsiflexion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the resistance band is free of tears and securely positioned across the midfoot before pulling."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "is_exercise": true,
+  "name": "Decline Leg Raise",
+  "summary": "An abdominal exercise performed lying supine on a decline bench where the legs and pelvis are raised against gravity.",
+  "aliases": [
+    {
+      "text": "Decline Bench Leg Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Decline Lying Leg Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Bench Leg Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "spinal-flexion",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "supine",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "synergist"
+    },
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "adjustable-bench",
+        "bench"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "ankle-weight"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to a decline angle.",
+      "Lie supine on the bench with your head at the elevated end.",
+      "Reach overhead and firmly grasp the bench handle, pad, or sides of the bench for stability.",
+      "Extend your legs fully down the slope of the bench with your feet together."
+    ],
+    "steps": [
+      "Brace your core and flex your hips to lift your legs smoothly upward.",
+      "As your legs reach vertical, curl your pelvis upward off the bench into spinal flexion to maximize abdominal recruitment.",
+      "Pause briefly at the top while contracting your core.",
+      "Lower your pelvis back onto the bench, then lower your legs under control until they hover just above the bench surface."
+    ],
+    "breathing": "Inhale as you lower your legs with control; exhale forcefully as you curl your hips and raise your legs.",
+    "cues": [
+      "Roll your pelvis off the bench at the top",
+      "Keep the descent slow and controlled",
+      "Do not let your lower back hyper-arch at the bottom"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the legs up using momentum rather than muscular control.",
+        "correction": "Initiate the movement deliberately and eliminate swinging between repetitions."
+      },
+      {
+        "fault": "Only flexing the hips without lifting the pelvis off the bench.",
+        "correction": "Roll your hips off the pad toward your ribs at the top to fully engage the rectus abdominis."
+      },
+      {
+        "fault": "Letting the lower back aggressively arch away from the pad at the bottom.",
+        "correction": "Only lower your legs as far as you can maintain active core bracing without lumbar hyperextension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you experience lower back pain, reduce the decline angle or perform the exercise with slightly bent knees."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

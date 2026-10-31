@@ -1,0 +1,158 @@
+{
+  "is_exercise": true,
+  "name": "Cable Front Raise",
+  "summary": "An isolation exercise using a low cable pulley to target the anterior deltoids through continuous tension during shoulder flexion.",
+  "aliases": [
+    {
+      "text": "Straight Bar Cable Front Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Low Cable Front Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Straight-Bar Front Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-lateral",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set a cable pulley to the lowest position and attach a straight bar or EZ-curl bar.",
+      "Face away from the cable tower, straddling the cable so the line runs between your legs.",
+      "Grasp the bar with an overhand, shoulder-width grip and take a step forward to place tension on the cable.",
+      "Stand tall with feet hip-width apart, knees soft, and a slight bend in your elbows."
+    ],
+    "steps": [
+      "Brace your core and raise the bar upward in front of you along an arc until your arms are roughly parallel to the floor.",
+      "Pause briefly at the top to accentuate peak contraction in the front deltoids.",
+      "Lower the bar smoothly under control back to the starting position in front of your thighs.",
+      "Repeat for the desired number of repetitions without swinging your torso."
+    ],
+    "breathing": "Exhale as you raise the bar upward and inhale as you lower it under control.",
+    "cues": [
+      "Lead with your elbows, not your wrists.",
+      "Keep your ribs down to avoid arching.",
+      "Control the descent against the cable tension."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to build momentum.",
+        "correction": "Reduce the weight and brace your core so the movement occurs solely at the shoulder joint."
+      },
+      {
+        "fault": "Excessive arching of the lower back at the top of the raise.",
+        "correction": "Squeeze your glutes and engage your abs; stop the raise when your arms reach shoulder height."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears.",
+        "correction": "Depress your shoulder blades before initiating the raise and focus on raising the upper arms."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the attachment carabiner is fully closed and secured to the cable eyelet before loading."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

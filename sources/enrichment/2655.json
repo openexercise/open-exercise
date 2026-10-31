@@ -1,0 +1,122 @@
+{
+  "is_exercise": true,
+  "name": "Reverse Kegel",
+  "summary": "A pelvic floor relaxation exercise that uses diaphragmatic breathing to release tension and lengthen the pelvic floor muscles.",
+  "aliases": [
+    {
+      "text": "Gentle Reverse Kegels",
+      "kind": "common"
+    },
+    {
+      "text": "Gentle Reverse Kegel",
+      "kind": "common"
+    },
+    {
+      "text": "Pelvic Floor Drop",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "not-applicable",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "muscles": [
+    {
+      "muscle": "transversus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "multifidus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps"
+      ]
+    },
+    {
+      "required": [
+        "reps",
+        "duration"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie comfortably on your back with your knees bent and feet flat on the floor in a hook-lying position.",
+      "Rest one hand on your chest and the other on your lower abdomen, ensuring your neck, shoulders, and glutes are completely relaxed."
+    ],
+    "steps": [
+      "Inhale slowly and deeply through your nose, directing the air down into your lower belly and pelvic basin.",
+      "Consciously allow the pelvic floor muscles to lengthen, drop, and expand downward and outward without forcing or straining.",
+      "Hold the open, relaxed sensation gently at the top of the inhalation for a brief pause.",
+      "Exhale passively through your mouth, letting the abdomen and pelvic floor naturally recoil back to neutral resting tone without actively squeezing."
+    ],
+    "breathing": "Inhale deeply to expand and release the pelvic floor, and exhale passively without actively contracting the muscles.",
+    "cues": [
+      "Breathe down into your sitting bones",
+      "Drop and release, do not push",
+      "Keep glutes and thighs completely loose"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bearing down or forcefully straining as if having a bowel movement.",
+        "correction": "Focus on passive relaxation and gentle outward expansion with the breath rather than forceful downward pressure."
+      },
+      {
+        "fault": "Tensing the glutes, adductors, or abdominal wall.",
+        "correction": "Ensure your buttocks and legs remain entirely soft and unsupported by muscle effort throughout the breath cycle."
+      },
+      {
+        "fault": "Breathing shallowly into the upper chest.",
+        "correction": "Place your hands on your lower ribs and belly to guide expansion into the 360-degree lower cylinder."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Stop and consult a pelvic floor physical therapist if you experience sharp pain or increased pelvic pressure."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

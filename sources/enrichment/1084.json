@@ -1,0 +1,150 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Floor Press",
+  "summary": "A dumbbell bench press variation performed supine on the floor, limiting shoulder extension to protect the joint and overload the lockout.",
+  "aliases": [
+    {
+      "text": "DB Floor Press",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Floor Dumbbell Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "range": "partial",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rotator-cuff",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit on the floor with your knees bent and feet flat, resting a dumbbell vertically on each thigh near the hip crease.",
+      "Lie back carefully, using your thighs to kick the dumbbells up toward your chest, and plant your feet firmly on the floor.",
+      "Retract and depress your shoulder blades against the floor, positioning your upper arms at approximately a 45-degree angle from your torso."
+    ],
+    "steps": [
+      "Press the dumbbells upward until your elbows reach full extension directly above your chest.",
+      "Lower the dumbbells in a controlled manner until your triceps gently touch the floor.",
+      "Pause briefly on the floor to eliminate momentum, maintaining upper-body tension.",
+      "Drive through the palms to press the weights back up to the starting locked-out position."
+    ],
+    "breathing": "Inhale as you lower the dumbbells to the floor, hold your breath briefly as your arms touch down, and exhale forcefully as you press upward.",
+    "cues": [
+      "Soft touch on the floor, do not bounce.",
+      "Tuck elbows slightly toward your ribs.",
+      "Drive straight up over the chest."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bouncing the elbows hard off the floor to generate momentum.",
+        "correction": "Pause momentarily when the upper arms touch the ground, keeping your muscles engaged rather than letting the impact push the weight."
+      },
+      {
+        "fault": "Flaring the elbows out at a 90-degree angle to the torso.",
+        "correction": "Angle your elbows roughly 45 degrees relative to your sides to reduce stress on the anterior shoulder."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "When finished, lower the dumbbells to your chest or hips and sit up, or safely roll to the side to set them down rather than dropping them from full extension."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

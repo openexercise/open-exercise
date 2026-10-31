@@ -1,0 +1,179 @@
+{
+  "is_exercise": true,
+  "name": "Slider Lateral Lunge",
+  "summary": "A unilateral lower-body exercise where one foot slides laterally while the opposite leg squats down, developing quad, glute, and adductor strength and mobility.",
+  "aliases": [
+    {
+      "text": "Sliding Lateral Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Slider Side Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Gliding Lateral Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Gliding Side Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Goblet Slider Lateral Lunge",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension",
+        "abduction",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "slider"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "kettlebell",
+    "dumbbell"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "load",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight-plus-external",
+  "load_convention": "total",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart, placing one foot on a slider or gliding disc.",
+      "Keep the stationary foot firmly planted, carrying the vast majority of your body weight.",
+      "Clasp hands at your chest for balance, or hold a kettlebell or dumbbell in a goblet position."
+    ],
+    "steps": [
+      "Hinge back at the hips and bend the knee of the stationary leg to descend into a squat.",
+      "Simultaneously slide the non-working leg straight out to the side, keeping the knee extended and toes pointing forward.",
+      "Lower yourself under control until the thigh of the working leg is roughly parallel to the floor.",
+      "Drive through the heel and midfoot of the stationary leg while actively pulling the sliding foot inward to return to the starting position."
+    ],
+    "breathing": "Inhale as you sit back and slide the leg outward, and exhale as you drive up and pull the slider back to center.",
+    "cues": [
+      "Sit back into the working hip.",
+      "Keep the sliding leg straight.",
+      "Keep most of your weight on the planted foot.",
+      "Pull the floor together to stand."
+    ],
+    "common_faults": [
+      {
+        "fault": "Putting too much weight on the sliding foot, making it difficult to return and risking groin strain.",
+        "correction": "Keep roughly 80 to 90 percent of your body weight centered over the stationary leg throughout the entire repetition."
+      },
+      {
+        "fault": "Working knee caving inward during the descent.",
+        "correction": "Actively track the knee of the squatting leg over the middle toes."
+      },
+      {
+        "fault": "Bending the sliding leg knee.",
+        "correction": "Keep the sliding leg fully straight to direct tension into the hips and stretch the adductors."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use on a smooth, non-abrasive surface with adequate friction control.",
+        "Begin with bodyweight to test groin flexibility before introducing external loads."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

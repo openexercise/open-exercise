@@ -1,0 +1,166 @@
+{
+  "is_exercise": true,
+  "name": "Machine Seated Row",
+  "summary": "A machine-based horizontal pull that targets the latissimus dorsi, upper back, and biceps with chest support.",
+  "aliases": [
+    {
+      "text": "Seated Row (Machine)",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Machine Row",
+      "kind": "common"
+    },
+    {
+      "text": "Chest-Supported Machine Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "neutral",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so the handles align with the middle of your torso.",
+      "Adjust the chest pad so you can reach the handles with arms fully extended while maintaining a tall, upright posture.",
+      "Sit firmly on the seat with your chest against the pad and your feet flat on the footrests or floor.",
+      "Grasp the handles firmly with your preferred grip."
+    ],
+    "steps": [
+      "Initiate the pull by retracting your shoulder blades and driving your elbows backward.",
+      "Continue pulling until your hands approach your ribcage, keeping your chest pressed against the support pad.",
+      "Pause briefly at peak contraction, fully squeezing the upper back muscles.",
+      "Slowly reverse the movement by extending your arms and allowing your shoulder blades to protract under control.",
+      "Stop just before the weight stack touches down to maintain tension between repetitions."
+    ],
+    "breathing": "Exhale as you pull the handles toward your torso, and inhale as you return the weight to the starting position.",
+    "cues": [
+      "Lead with your elbows.",
+      "Keep your chest glued to the pad.",
+      "Pinch your shoulder blades together at the finish."
+    ],
+    "common_faults": [
+      {
+        "fault": "Leaning back and pulling the chest off the pad.",
+        "correction": "Keep your sternum in continuous contact with the chest pad to isolate the upper back and prevent momentum."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears.",
+        "correction": "Depress your shoulders and think about pulling down and back rather than upward."
+      },
+      {
+        "fault": "Cutting the range of motion short at extension.",
+        "correction": "Allow the arms to fully extend and the scapulae to glide forward slightly before starting the next rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not let the weight stack slam at the end of the eccentric phase."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

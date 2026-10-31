@@ -1,0 +1,169 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Rollout",
+  "summary": "An anti-extension core exercise where you roll a loaded barbell forward from a kneeling position and pull back using the abdominals and lats.",
+  "aliases": [
+    {
+      "text": "Barbell Ab Rollout",
+      "kind": "common"
+    },
+    {
+      "text": "Kneeling Barbell Rollout",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength"
+    ],
+    "movement_patterns": [
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "kneeling",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "external-oblique",
+      "role": "synergist"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-long-head",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "downward-rotation"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "weight-plate"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Load a barbell with round plates and secure them with collars so the bar rolls smoothly.",
+      "Kneel on the floor or a padded mat behind the barbell with knees hip-width apart.",
+      "Grasp the barbell with an overhand, shoulder-width grip, aligning your shoulders directly above the bar."
+    ],
+    "steps": [
+      "Brace your core and squeeze your glutes into a slight posterior pelvic tilt.",
+      "Slowly roll the barbell forward in a controlled line, extending at the hips and shoulders while keeping your arms straight.",
+      "Descend as far forward as you can while maintaining a rigid, neutral spine and without letting your lower back sag.",
+      "Pull the bar back toward your knees by contracting your abdominals and pulling down through your lats until you return to the starting position."
+    ],
+    "breathing": "Inhale as you roll outward while maintaining intra-abdominal pressure; exhale forcefully as you pull the bar back in.",
+    "cues": [
+      "Tuck your ribs to your pelvis",
+      "Roll out only as far as your spine stays rigid",
+      "Pull through your armpits to return"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lower back sagging into hyperextension during the rollout.",
+        "correction": "Shorten your range of motion and maintain a strong core brace with a slight posterior pelvic tilt throughout."
+      },
+      {
+        "fault": "Bending the elbows to pull the bar back.",
+        "correction": "Keep your arms straight and initiate the return motion entirely by pulling through your lats and flexing at the hips."
+      },
+      {
+        "fault": "Sitting back onto the heels rather than rolling the hips forward and backward.",
+        "correction": "Move your hips and shoulders forward together in one cohesive unit rather than hinging backward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure round, smooth-rolling plates are used so the bar does not hitch or catch on the floor.",
+        "Do not roll out past the point where you can maintain active core tension without lumbar spine extension."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

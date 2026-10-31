@@ -1,0 +1,234 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Cable Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Kneeling Cable Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Abdominal Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Kneeling Rope Cable Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Crunches With Cable",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "obliques",
+        "role": "synergist"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "173"
+  },
+  "id": "oec:cable-kneeling-crunch",
+  "instructions": {
+    "setup": [
+      "Attach a rope handle to a high cable pulley.",
+      "Kneel facing or facing away from the cable stack, about one to two feet back from the pulley.",
+      "Grasp the rope ends and pull them down so your hands rest securely alongside your ears or upper chest.",
+      "Set your hips slightly back over your heels, keeping them locked in this position throughout the set."
+    ],
+    "steps": [
+      "Contract your abdominals to curl your ribcage down toward your pelvis, rounding your spine.",
+      "Continue flexing your spine until your elbows move toward your thighs or knees, pausing briefly at peak contraction.",
+      "Slowly extend your spine under control to return to the starting position without allowing your hips to shift forward or back."
+    ],
+    "breathing": "Exhale forcefully as you crunch your torso downward; inhale smoothly as you return to the starting position.",
+    "cues": [
+      "Ribs to pelvis",
+      "Round the back",
+      "Lock your hips in place"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hinging at the hips rather than flexing the spine, turning the movement into a hip-flexor exercise.",
+        "correction": "Keep your pelvis and thighs stationary; focus solely on curling your upper torso downward by rounding your spine."
+      },
+      {
+        "fault": "Pulling with the arms and shoulders instead of using the abdominals.",
+        "correction": "Glue your hands to your head or upper chest and let your torso movement carry the load."
+      },
+      {
+        "fault": "Sitting all the way back onto the calves during the descent.",
+        "correction": "Maintain a fixed, stable hip angle throughout the entire range of motion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid excessive hyperextension of the lumbar spine at the top of the movement."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable Kneeling Crunch",
+  "previous_ids": [
+    "oec:crunches-with-cable"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Crunches With Cable",
+        "url": "https://wger.de/en/exercise/173/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:crunch"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-crunch"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:weighted-crunch"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-crunch"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "overhead",
+    "position": "kneeling",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A cable-loaded abdominal exercise performed kneeling, flexing the spine against resistance to isolate the rectus abdominis."
+}

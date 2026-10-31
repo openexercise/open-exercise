@@ -1,0 +1,196 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Squat -\u003e Stand Coordination",
+      "kind": "common"
+    },
+    {
+      "text": "Squat-to-Stand",
+      "kind": "common"
+    },
+    {
+      "text": "Toe Grab Squat to Stand",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "stretched"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "squat",
+      "mobility-drill",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "2645"
+  },
+  "id": "oec:squat-to-stand",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet approximately shoulder-width apart and toes angled slightly outward.",
+      "Hinge forward at the hips with soft knees and reach down to hold the front of your toes with your fingers."
+    ],
+    "steps": [
+      "Pull your hips down between your heels into a deep squat while keeping your hands firmly gripping your toes.",
+      "Pry your knees gently outward with your elbows, lift your chest tall, and flatten your back at the bottom.",
+      "Pause momentarily in the deep squat position.",
+      "Maintain your grip on your toes and drive your hips upward, extending your knees until you feel a moderate stretch in your hamstrings.",
+      "Pause briefly in the forward bend position before descending into the next repetition."
+    ],
+    "breathing": "Inhale as you pull yourself down into the deep squat, and exhale as you drive your hips upward into the forward fold.",
+    "cues": [
+      "Chest tall at the bottom.",
+      "Keep heels glued to the floor.",
+      "Hips high to stretch."
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the heels off the ground during the squat phase.",
+        "correction": "Widen your stance slightly or adjust foot turn-out so your whole foot remains planted."
+      },
+      {
+        "fault": "Releasing the toes during transitions.",
+        "correction": "Maintain a firm grip under your toes or ankles throughout both the squat and stretch phases."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Move smoothly between positions without aggressively snapping or bouncing your knees into extension."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Squat to Stand",
+  "previous_ids": [
+    "oec:squat-stand-coordination"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Squat -\u003e Stand Coordination",
+        "url": "https://wger.de/en/exercise/2645/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:bodyweight-squat"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A dynamic mobility exercise that transitions between a forward fold and a deep squat to improve hip, hamstring, and ankle range of motion."
+}

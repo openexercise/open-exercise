@@ -1,0 +1,157 @@
+{
+  "is_exercise": true,
+  "name": "Nordic Hamstring Curl",
+  "summary": "An advanced bodyweight knee-flexion exercise that develops eccentric hamstring strength by controlling the forward descent of the torso from a kneeling position.",
+  "aliases": [
+    {
+      "text": "Nordic Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Nordic Hamstring Exercise",
+      "kind": "common"
+    },
+    {
+      "text": "Russian Hamstring Curl",
+      "kind": "regional"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "rehabilitation",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "isolation-knee-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "eccentric-emphasis",
+      "dynamic"
+    ],
+    "level": "advanced"
+  },
+  "position": "kneeling",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-femoris",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "semitendinosus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "semimembranosus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "knee",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat",
+    "strap",
+    "resistance-band"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "tempo",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Kneel tall on a padded mat with your knees spaced hip-width apart and your ankles securely anchored by a partner, a loaded barbell, or a dedicated strap.",
+      "Engage your glutes and core to form a rigid, straight line from your knees through your hips to your shoulders.",
+      "Keep your arms ready in front of your chest to cushion your descent if you reach failure."
+    ],
+    "steps": [
+      "Slowly lower your torso forward toward the floor by extending at the knees, resisting gravity entirely with your hamstrings.",
+      "Maintain complete hip extension throughout the descent without allowing your hips to bend backward.",
+      "Descend as far and as slowly as possible until your hamstrings can no longer hold you.",
+      "Catch yourself on the floor with your hands in a controlled push-up position.",
+      "Lightly push off the floor with your hands and powerfully pull with your hamstrings to return to the upright starting position."
+    ],
+    "breathing": "Inhale and brace your core at the top, exhale steadily as you control the descent, and breathe out forcefully as you push and pull back to the start.",
+    "cues": [
+      "Lock your hips in line with your torso.",
+      "Brake with your hamstrings all the way down.",
+      "Keep your body stiff like a board."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending at the hips (piking) during the descent to reduce the lever arm.",
+        "correction": "Squeeze the glutes and maintain a straight line from your knees to your shoulders throughout the movement."
+      },
+      {
+        "fault": "Dropping uncontrolled to the floor without resisting eccentrically.",
+        "correction": "Slow the descent deliberately and use a resistance band around your chest if you cannot maintain tension for at least two to three seconds."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Place ample padding under the kneecaps to protect against excess pressure.",
+        "Ensure ankles are solidly anchored before initiating the movement to prevent slipping.",
+        "Warm up the hamstrings thoroughly, as the eccentric peak forces are exceptionally high."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

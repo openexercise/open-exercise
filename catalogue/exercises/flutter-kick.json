@@ -1,0 +1,214 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Flutter Kicks",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Flutter Kick",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Flutter Kick",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "iliopsoas",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "tensor-fasciae-latae",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "235"
+  },
+  "id": "oec:flutter-kick",
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a mat with your legs extended straight and together.",
+      "Place your arms by your sides with palms down, or slide your hands slightly under your glutes for pelvis support.",
+      "Press your lower back firmly into the floor and brace your midsection."
+    ],
+    "steps": [
+      "Lift both heels approximately four to six inches off the ground.",
+      "Raise one leg slightly higher while lowering the other toward the floor without letting it touch.",
+      "Reverse the motion in a continuous, controlled, rhythmic flutter from the hips.",
+      "Maintain a flat lower back and rigid legs throughout the entire set."
+    ],
+    "breathing": "Breathe continuously in a shallow, rhythmic pattern without letting your abdominal brace relax.",
+    "cues": [
+      "Glue your lower back to the floor",
+      "Kick from the hips, not the knees",
+      "Keep the kicks small and controlled"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lumbar spine and allowing the lower back to peel off the floor.",
+        "correction": "Press your lower back firmly down by engaging your abs, and kick at a higher angle if necessary."
+      },
+      {
+        "fault": "Bending the knees excessively to make the motion easier.",
+        "correction": "Keep the knees locked or soft-locked so the movement originates purely at the hip joints."
+      },
+      {
+        "fault": "Flailing with excessively large kicks.",
+        "correction": "Constrain the flutter to short, crisp amplitudes of six to twelve inches between feet."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you experience lower back strain, raise your kicking angle higher toward the ceiling to reduce the lever arm."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Flutter Kick",
+  "previous_ids": [
+    "oec:flutter-kicks"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Flutter Kicks",
+        "url": "https://wger.de/en/exercise/235/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "nate303303"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:scissor-kick"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:lying-leg-circle"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:lying-leg-raise"
+    }
+  ],
+  "setup": {
+    "position": "supine"
+  },
+  "status": "active",
+  "summary": "A supine bodyweight core exercise where the legs alternate in small up-and-down fluttering motions while the abdominals resist lumbar extension."
+}

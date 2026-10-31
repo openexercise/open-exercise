@@ -1,0 +1,163 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Side Bend",
+  "summary": "A unilateral core exercise that isolates the obliques and quadratus lumborum through spinal lateral flexion.",
+  "aliases": [
+    {
+      "text": "Side Bend",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Dumbbell Side Bend",
+      "kind": "common"
+    },
+    {
+      "text": "DB Side Bend",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Dumbbell Lateral Flexion",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "lateral-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "suitcase",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "external-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadratus-lumborum",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "lateral-flexion"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "lateral-flexion"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "kettlebell",
+    "weight-plate"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand upright with your feet hip-width apart, holding a single dumbbell in one hand with your arm extended at your side.",
+      "Place your opposite hand behind your head or resting on your hip.",
+      "Brace your core and ensure your hips and shoulders are squared forward."
+    ],
+    "steps": [
+      "Lower the dumbbell slowly down the outside of your thigh by flexing your spine directly to the weighted side.",
+      "Descend until you feel a moderate stretch along the opposite side of your torso, keeping your pelvis stationary.",
+      "Contract the obliques and quadratus lumborum on the unweighted side to pull your torso back to the vertical starting position.",
+      "Pause briefly at the top before beginning the next repetition, and complete all reps on one side before switching hands."
+    ],
+    "breathing": "Inhale as you lower the weight to the side; exhale as you contract to return upright.",
+    "cues": [
+      "Move between two panes of glass.",
+      "Lock your hips in place.",
+      "Pull from the opposite waistline."
+    ],
+    "common_faults": [
+      {
+        "fault": "Holding dumbbells in both hands simultaneously.",
+        "correction": "Hold only one weight at a time to prevent the opposing dumbbell from acting as a counterbalance."
+      },
+      {
+        "fault": "Twisting or flexing forward at the spine.",
+        "correction": "Maintain a strict sideways bend in the frontal plane without rotating your torso or rounding your back."
+      },
+      {
+        "fault": "Shifting or swaying the hips to the side.",
+        "correction": "Keep your pelvis anchored and stable, ensuring the movement originates entirely from the spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessively heavy loads that compromise spinal alignment or cause pinching sensations in the lower back."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

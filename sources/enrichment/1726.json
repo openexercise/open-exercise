@@ -1,0 +1,166 @@
+{
+  "is_exercise": true,
+  "name": "Cable Straight-Arm Pulldown",
+  "summary": "A cable isolation exercise that targets the latissimus dorsi through shoulder extension with straight arms.",
+  "aliases": [
+    {
+      "text": "Straight-Arm Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Lat Pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "Straight-Arm Cable Pulldown",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-long-head",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach a straight bar or rope to a high cable pulley.",
+      "Grasp the attachment with an overhand grip at roughly shoulder width.",
+      "Step back a couple of feet to create tension on the cable, hinge forward slightly at the hips, and maintain a slight, fixed bend in your elbows."
+    ],
+    "steps": [
+      "Engage your core and pull the attachment downward in a sweeping arc toward your thighs using your lats.",
+      "Squeeze your lats and depress your shoulder blades firmly at the bottom of the movement near your hips.",
+      "Slowly raise your arms back up along the same path until you feel a deep stretch in your lats, keeping your elbows fixed."
+    ],
+    "breathing": "Exhale as you pull the bar down toward your thighs, and inhale as you return the bar back overhead.",
+    "cues": [
+      "Drive your hands toward your pockets",
+      "Keep elbows softly unlocked but frozen in place",
+      "Depress your shoulders away from your ears"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending and extending the elbows like a triceps pressdown",
+        "correction": "Keep a soft, fixed bend at the elbows throughout the entire movement so the shoulder joint does all the work."
+      },
+      {
+        "fault": "Using torso momentum to rock back and forth",
+        "correction": "Brace your core and maintain a stable, motionless hip hinge."
+      },
+      {
+        "fault": "Shrugging the shoulders upward at the top",
+        "correction": "Keep your shoulder blades depressed and avoid letting the weight pull your shoulders into your ears."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the cable attachment carabiner is fully locked before pulling."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

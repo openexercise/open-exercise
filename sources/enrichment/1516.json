@@ -1,0 +1,157 @@
+{
+  "is_exercise": true,
+  "name": "Handstand",
+  "summary": "An inverted bodyweight isometric hold balancing entirely on the hands with the body aligned in a vertical column.",
+  "aliases": [
+    {
+      "text": "Freestanding Handstand",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "balance",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "anti-extension",
+      "balance"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "advanced"
+  },
+  "position": "inverted",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "elevation",
+        "upward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Place your hands shoulder-width apart on the floor with your fingers spread wide and slightly turned out.",
+      "Step one foot forward into a lunge position with your shoulders stacked directly above your wrists."
+    ],
+    "steps": [
+      "Kick up smoothly with the rear leg while pressing firmly through the floor with your hands until your hips align over your shoulders.",
+      "Bring your legs together and point your toes toward the ceiling, creating a straight line from wrists to feet.",
+      "Actively push the floor away through your shoulders, elevating the scapulae fully.",
+      "Grip the ground with your fingers, modulating pressure between the fingertips and palms to micro-adjust balance.",
+      "Hold the straight hollow-body position for the targeted duration, then step down with one leg in a controlled descent."
+    ],
+    "breathing": "Breathe smoothly and shallowly into your chest without releasing intra-abdominal tension or arching your lower back.",
+    "cues": [
+      "Push the floor away",
+      "Squeeze your glutes and point your toes",
+      "Grip with your fingertips"
+    ],
+    "common_faults": [
+      {
+        "fault": "Banana-backing by hyperextending the lumbar spine.",
+        "correction": "Tuck your pelvis into a slight posterior pelvic tilt and brace your abdominals to maintain a hollow-body shape."
+      },
+      {
+        "fault": "Soft or bent elbows during the hold.",
+        "correction": "Lock out the elbows completely before kicking up and maintain active extension throughout."
+      },
+      {
+        "fault": "Depressed or relaxed shoulders sinking toward the ears.",
+        "correction": "Shrug your shoulders upward toward your ears to maximize scapular elevation and shoulder flexion stability."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Master the pirouette or forward roll bail technique before attempting freestanding holds in open space.",
+        "Ensure clear floor space in all directions free of obstacles or sharp objects."
+      ],
+      "spotter": "recommended"
+    }
+  }
+}

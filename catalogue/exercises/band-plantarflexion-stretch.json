@@ -1,0 +1,158 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Plantarflexion Stretch with Band",
+      "kind": "common"
+    },
+    {
+      "text": "Band Ankle Plantarflexion Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Band Tibialis Anterior Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Resistance Band Plantar Flexion Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "tibialis-anterior",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "isolation-ankle"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "resistance-band",
+        "strap"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1275"
+  },
+  "id": "oec:band-plantarflexion-stretch",
+  "instructions": {
+    "setup": [
+      "Sit on the floor or an exercise mat with your working leg extended in front of you.",
+      "Loop a resistance band or strap over the top of the forefoot across the instep and toes.",
+      "Hold the band ends from behind or route them around the bottom of the foot or an anchor so pulling creates tension that points the toes away from the shin."
+    ],
+    "steps": [
+      "Gently apply tension to draw the foot and toes forward into plantarflexion.",
+      "Hold the position when you feel a mild to moderate stretch across the front of the ankle and shin.",
+      "Maintain the stretch steadily for the planned duration while keeping the lower leg relaxed.",
+      "Slowly ease tension off the band, rest briefly, and switch sides."
+    ],
+    "breathing": "Breathe slowly and rhythmically, exhaling to help the anterior shin muscles relax deeper into the stretch.",
+    "cues": [
+      "Point the toes forward.",
+      "Keep the calf and shin relaxed.",
+      "Stretch gently, do not force joint end-range."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively inverting or twisting the foot while pulling.",
+        "correction": "Keep the line of pull straight so the foot points forward in a neutral sagittal plane."
+      },
+      {
+        "fault": "Pulling aggressively to the point of impingement or sharp pain in the back of the ankle.",
+        "correction": "Reduce the band tension and aim only for a comfortable stretch across the anterior compartment."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forced end-range plantarflexion if you experience posterior ankle impingement or acute sprains."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Band Plantarflexion Stretch",
+  "previous_ids": [
+    "oec:plantarflexion-stretch-with-band"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Plantarflexion Stretch with Band",
+        "url": "https://wger.de/en/exercise/1275/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "erikocobra"
+      }
+    ]
+  },
+  "setup": {
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A seated mobility exercise using a band to gently pull the ankle into plantarflexion, stretching the tibialis anterior and anterior ankle structures."
+}

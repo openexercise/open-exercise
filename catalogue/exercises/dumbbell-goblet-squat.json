@@ -1,0 +1,229 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Goblet Squat",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "203"
+  },
+  "id": "oec:dumbbell-goblet-squat",
+  "instructions": {
+    "setup": [
+      "Stand with feet roughly shoulder-width apart, toes turned slightly outward.",
+      "Hold a dumbbell vertically against your sternum with both hands cupping the underside of the top weight plate.",
+      "Keep your elbows tucked down pointing toward the floor and brace your core."
+    ],
+    "steps": [
+      "Initiate the movement by hinging at the hips and bending your knees simultaneously.",
+      "Descend smoothly between your legs while keeping your chest tall and the dumbbell in contact with your chest.",
+      "Lower until your hip crease drops below the top of your knees, or to your comfortable end range of motion.",
+      "Drive through your midfoot and heels to reverse the movement and stand back up to full hip and knee extension."
+    ],
+    "breathing": "Inhale and brace your abdomen at the top before descending, then exhale forcefully as you drive past the sticking point on the ascent.",
+    "cues": [
+      "Elbows inside the knees",
+      "Proud chest",
+      "Spread the floor with your feet"
+    ],
+    "common_faults": [
+      {
+        "fault": "Letting the dumbbell drift away from the chest, causing upper-back rounding.",
+        "correction": "Keep the dumbbell pinned close to the sternum with elbows tucked tightly against the ribcage."
+      },
+      {
+        "fault": "Knees caving inward (valgus collapse) during the ascent.",
+        "correction": "Actively push your knees outward in line with your toes throughout the entire rep."
+      },
+      {
+        "fault": "Heels lifting off the ground at the bottom of the squat.",
+        "correction": "Distribute weight evenly across the entire foot and work on ankle mobility, or elevate the heels slightly on small plates."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you reach failure, simply push the dumbbell forward onto the floor rather than attempting to sit down with it."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Goblet Squat",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dumbbell Goblet Squat",
+        "url": "https://wger.de/en/exercise/203/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "ataraxie67"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:bodyweight-squat"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-front-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-front-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-front-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:double-kettlebell-front-squat"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "goblet",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A squat variation holding a dumbbell vertically against the chest to promote an upright torso and deep hip flexion."
+}

@@ -1,0 +1,142 @@
+{
+  "is_exercise": true,
+  "name": "Glute-Ham Raise",
+  "summary": "A closed-chain posterior chain exercise performed on a glute-ham developer that powerfully trains the hamstrings through knee flexion and hip extension.",
+  "aliases": [
+    {
+      "text": "GHR",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Glute Ham Developer Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "isolation-knee-flexion",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "eccentric-emphasis"
+    ],
+    "level": "intermediate"
+  },
+  "position": "kneeling",
+  "muscles": [
+    {
+      "muscle": "hamstrings",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "extension",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "ghd"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "weight-plate",
+    "resistance-band"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Adjust the glute-ham developer so your thighs rest comfortably on the curved pad with your knees just behind the apex.",
+      "Lock your ankles firmly between the foot rollers with your feet flat against the toe plate.",
+      "Start upright with your knees bent, hips extended, and arms crossed over your chest."
+    ],
+    "steps": [
+      "Lower your body forward by extending at the knees in a controlled eccentric motion while keeping your torso and hips in a straight line.",
+      "Once your body is nearly parallel to the floor, pull yourself back up by flexing hard through the hamstrings and driving your toes into the footplate.",
+      "Finish in the upright vertical position by fully contracting your hamstrings and glutes."
+    ],
+    "breathing": "Inhale as you lower your torso toward the floor; exhale forcefully as you curl back up to the starting position.",
+    "cues": [
+      "Stay in one straight line from knees to shoulders.",
+      "Drive your toes into the plate.",
+      "Pull through the back of your knees."
+    ],
+    "common_faults": [
+      {
+        "fault": "Breaking at the hips and leaving the glutes behind to shorten the lever arm.",
+        "correction": "Squeeze your glutes throughout the movement to maintain neutral hip extension."
+      },
+      {
+        "fault": "Hyperextending the lower back rather than flexing the knees to return to the top.",
+        "correction": "Brace your core tightly and focus on bending the knees rather than arching the lumbar spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the footplate and ankle rollers are completely locked in place before loading the machine."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

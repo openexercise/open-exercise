@@ -1,0 +1,242 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Wall Angel",
+      "kind": "common"
+    },
+    {
+      "text": "Back-to-Wall Shoulder Slide",
+      "kind": "common"
+    },
+    {
+      "text": "Scapular Wall Slide",
+      "kind": "common"
+    },
+    {
+      "text": "Wall Slides",
+      "kind": "common"
+    },
+    {
+      "text": "Serratus Wall Slide Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "trapezius-lower",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "infraspinatus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "teres-minor",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "downward-rotation",
+          "elevation",
+          "depression",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "abduction",
+          "adduction",
+          "external-rotation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "wall"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "716,2523"
+  },
+  "id": "oec:wall-slide",
+  "instructions": {
+    "setup": [
+      "Stand with your back facing a smooth wall, feet positioned roughly six inches away from the baseboard.",
+      "Press your sacrum, upper back, and head flush against the wall.",
+      "Brace your core gently to keep your lower back flat and minimize excessive lumbar arching.",
+      "Bring your arms up into a 'W' or goalpost position, placing your elbows and the backs of your hands against the wall at shoulder height."
+    ],
+    "steps": [
+      "Slowly slide your forearms and hands upward along the wall overhead into a high 'V' shape.",
+      "Reach as high as possible while maintaining contact with the wall through your elbows, wrists, and lower back.",
+      "Pause briefly at your active end range without allowing your ribcage to flare.",
+      "Pull your elbows back down in a controlled path, engaging your mid and lower traps to return to the starting position."
+    ],
+    "breathing": "Inhale as you slide your arms overhead; exhale as you pull your elbows back down into your sides.",
+    "cues": [
+      "Keep your ribs pulled down",
+      "Maintain wall contact with wrists and elbows",
+      "Reach tall without shrugging"
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the ribcage and hyperextending the lower back to compensate for limited shoulder mobility.",
+        "correction": "Brace the abdominals and keep the lower back as flat against the wall as possible throughout the movement."
+      },
+      {
+        "fault": "Wrists or elbows lifting away from the wall during the upward slide.",
+        "correction": "Only slide as high as you can maintain full contact with the wall, gradually working on range of motion over time."
+      },
+      {
+        "fault": "Excessively shrugging the shoulders toward the ears via the upper trapezius.",
+        "correction": "Focus on driving upward rotation from the lower shoulder blades rather than hunching your neck."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not force your hands or wrists against the wall if you experience sharp anterior shoulder pain or impingement symptoms."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "tempo",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Wall Slide",
+  "previous_ids": [
+    "oec:wall-slides",
+    "oec:serratus-wall-slide-stretch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Wall Slides",
+        "url": "https://wger.de/en/exercise/716/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Whythebigpaws"
+      },
+      {
+        "title": "wger: Serratus Wall Slide Stretch",
+        "url": "https://wger.de/en/exercise/2523/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Croak6728"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:wall-angel"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:wall-angel"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:prone-snow-angel"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A postural mobility drill performed with the back against a wall to enhance scapular upward rotation, thoracic extension, and shoulder mobility."
+}

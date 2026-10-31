@@ -1,0 +1,175 @@
+{
+  "is_exercise": true,
+  "name": "Bicycle Crunch",
+  "summary": "A supine bodyweight abdominal exercise combining spinal flexion, trunk rotation, and alternating leg extension to target the rectus abdominis and obliques.",
+  "aliases": [
+    {
+      "text": "Bicycle Crunches",
+      "kind": "common"
+    },
+    {
+      "text": "Air Bike",
+      "kind": "common"
+    },
+    {
+      "text": "Bicycle",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "rotation",
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "external-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "synergist"
+    },
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion",
+        "rotation"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "flexion",
+        "rotation"
+      ]
+    },
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie face up on the floor with your lower back pressed gently into the ground.",
+      "Place your fingertips lightly behind your ears or temples, keeping your elbows pointed outward.",
+      "Lift your shoulder blades slightly off the floor and raise both legs, bending your hips and knees to approximately 90 degrees."
+    ],
+    "steps": [
+      "Simultaneously extend one leg straight out at a 45-degree angle while drawing the opposite knee in toward your chest.",
+      "Rotate your torso to bring the opposite armpit and shoulder toward the raised knee, keeping your elbows wide.",
+      "Pause briefly to contract the abdominals, then smoothly reverse the motion by switching legs and rotating your torso to the other side.",
+      "Continue alternating sides in a smooth, rhythmic, pedaling motion."
+    ],
+    "breathing": "Exhale as you rotate your torso toward the knee, and inhale as you transition through the center.",
+    "cues": [
+      "Rotate shoulder to knee, not elbow to knee",
+      "Keep elbows flared wide",
+      "Glue your lower back to the mat"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling on the neck with the hands, causing cervical strain.",
+        "correction": "Rest only your fingertips against your head without pulling, or cross your arms over your chest."
+      },
+      {
+        "fault": "Flapping the elbows across the face to touch the knee instead of rotating the torso.",
+        "correction": "Keep elbows fixed wide in your peripheral vision and drive the rotation from your ribcage and shoulders."
+      },
+      {
+        "fault": "Moving rapidly using momentum rather than muscular control.",
+        "correction": "Slow the tempo down, holding each rotational peak for a brief one-count."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid this movement if you experience sharp lower back pain or severe spinal flexion intolerance."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

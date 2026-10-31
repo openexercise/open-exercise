@@ -1,0 +1,124 @@
+{
+  "is_exercise": true,
+  "name": "Neck Flexion Stretch",
+  "summary": "A seated or standing flexibility exercise that stretches the muscles along the back of the cervical spine by bringing the chin toward the chest.",
+  "aliases": [
+    {
+      "text": "Back Neck Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Cervical Flexion Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Neck Extensor Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Neck Flexion Stretch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "isolation-neck"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "upper-cervical-extensors",
+      "role": "stretched"
+    },
+    {
+      "muscle": "splenius",
+      "role": "stretched"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "stretched"
+    },
+    {
+      "muscle": "levator-scapulae",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "chair"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit upright on a chair or flat surface with your feet planted, spine tall, and shoulders relaxed."
+    ],
+    "steps": [
+      "Interlace your fingers and rest your hands lightly on the back of your head near the crown.",
+      "Gently lower your chin toward your chest, allowing the passive weight of your arms to guide the head downward.",
+      "Hold the stretch at a comfortable point of tension along the back of the neck without forcing it.",
+      "Carefully release your hands and return your head to the neutral upright position."
+    ],
+    "breathing": "Exhale as you draw your chin toward your chest, then maintain slow, rhythmic breathing throughout the hold.",
+    "cues": [
+      "Chin to chest",
+      "Tall torso, flex only the neck",
+      "Let arm weight guide, do not yank"
+    ],
+    "common_faults": [
+      {
+        "fault": "Slumping through the thoracic or lumbar spine.",
+        "correction": "Keep your back flat and upright so the stretch remains localized to the cervical spine."
+      },
+      {
+        "fault": "Pulling forcefully on the back of the head.",
+        "correction": "Apply only gentle guidance with your hands; never aggressively force the neck into flexion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Discontinue immediately if you feel sharp pain, dizziness, or tingling sensations radiating into the arms."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

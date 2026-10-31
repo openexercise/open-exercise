@@ -1,0 +1,157 @@
+{
+  "is_exercise": true,
+  "name": "Machine Shoulder Press",
+  "summary": "A seated compound machine exercise targeting the anterior deltoids and triceps along a fixed pressing path.",
+  "aliases": [
+    {
+      "text": "Diagonal Shoulder Press",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Machine Shoulder Press",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Overhead Press",
+      "kind": "common"
+    },
+    {
+      "text": "Leverage Shoulder Press",
+      "kind": "brand"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-lateral",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "abduction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so the machine handles sit roughly level with your chin or mid-neck.",
+      "Sit back firmly against the back pad with your feet flat on the floor.",
+      "Grasp the handles with an overhand or neutral grip, keeping your wrists neutral and elbows positioned slightly in front of your body."
+    ],
+    "steps": [
+      "Press the handles upward and slightly diagonally along the guided path until your arms are extended without forcefully locking out your elbows.",
+      "Pause briefly at the top while maintaining tension across your shoulders.",
+      "Lower the handles under control until your hands return to roughly ear height before beginning the next repetition."
+    ],
+    "breathing": "Inhale as you lower the weight toward your shoulders, and exhale as you press overhead.",
+    "cues": [
+      "Keep your upper back pinned to the pad",
+      "Drive straight up through the handles",
+      "Control the descent, don't let the stack slam"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively arching the lower back to turn the movement into an incline chest press.",
+        "correction": "Keep your glutes and upper back firmly against the pad and brace your abdominals throughout the press."
+      },
+      {
+        "fault": "Setting the seat too low, forcing the shoulders into extreme, uncomfortable abduction at the start.",
+        "correction": "Raise the seat so the handles align between shoulder and chin level at the bottom."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use the machine foot pedal if available to bring the handles into starting position safely."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "is_exercise": true,
+  "name": "Plank with Leg Lift",
+  "summary": "A core and glute exercise performed by holding a standard prone plank while alternately extending each hip to elevate the leg without compromising spinal neutrality.",
+  "aliases": [
+    {
+      "text": "Plank with Alternating Leg Lift",
+      "kind": "common"
+    },
+    {
+      "text": "Plank Leg Lift",
+      "kind": "common"
+    },
+    {
+      "text": "Plank Leg Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "anti-extension",
+      "anti-rotation"
+    ],
+    "mechanics": "compound",
+    "force": "mixed",
+    "kinetic_chain": "mixed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "prone",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Begin in a prone forearm plank position with your elbows aligned directly beneath your shoulders.",
+      "Keep your forearms parallel on the floor, engage your core, and extend both legs with your toes grounded hip-width apart.",
+      "Align your body in a straight line from your head to your heels."
+    ],
+    "steps": [
+      "Brace your abdominal wall firmly to lock your pelvis and lower back in place.",
+      "Squeeze your glute to lift one foot a few inches off the floor while keeping the leg straight.",
+      "Pause briefly at the peak of the lift without letting your lower back sag or your hips rotate.",
+      "Lower your foot with control back to the starting position.",
+      "Repeat the movement with the opposite leg, alternating sides each repetition."
+    ],
+    "breathing": "Maintain steady, rhythmic breathing throughout the movement; exhale as you raise the leg and inhale as you lower it.",
+    "cues": [
+      "Lift with your glute, not your lower back.",
+      "Keep your hips square to the floor.",
+      "Push the floor away through your forearms."
+    ],
+    "common_faults": [
+      {
+        "fault": "Arching the lumbar spine as the leg elevates.",
+        "correction": "Only lift the leg as high as you can while maintaining a neutral pelvis and braced abs."
+      },
+      {
+        "fault": "Rotating or tilting the hips toward the lifting side.",
+        "correction": "Actively press into the grounded toe and engage your obliques to keep both hip bones pointing directly at the floor."
+      },
+      {
+        "fault": "Bending the knee to gain height.",
+        "correction": "Keep the working knee extended and focus on pure hip extension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Discontinue if sharp pain or excessive strain is felt in the lower back."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

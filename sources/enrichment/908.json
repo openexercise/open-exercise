@@ -1,0 +1,182 @@
+{
+  "is_exercise": true,
+  "name": "Running",
+  "summary": "A foundational aerobic locomotion exercise performed at a sustainable, rhythmic pace to develop cardiovascular endurance and lower-body stamina.",
+  "aliases": [
+    {
+      "text": "Zone 2 Running",
+      "kind": "common"
+    },
+    {
+      "text": "Jogging",
+      "kind": "common"
+    },
+    {
+      "text": "Easy Run",
+      "kind": "common"
+    },
+    {
+      "text": "Base Run",
+      "kind": "common"
+    },
+    {
+      "text": "Aerobic Running",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "mixed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "moving",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hip-flexors",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "treadmill"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "distance",
+        "duration"
+      ],
+      "optional": [
+        "pace",
+        "heart-rate",
+        "cadence",
+        "speed",
+        "calories",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "distance",
+        "pace",
+        "heart-rate",
+        "cadence",
+        "calories",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with your shoulders relaxed, chest open, and gaze looking forward.",
+      "Engage your core lightly and lean forward slightly from the ankles, not the waist."
+    ],
+    "steps": [
+      "Push off the ground with the trailing foot, driving the opposite knee forward in a fluid gait cycle.",
+      "Land lightly with your foot close to your center of mass, using a midfoot strike.",
+      "Allow your arms to swing naturally in rhythm with your legs, keeping elbows bent at approximately ninety degrees.",
+      "Maintain a continuous, rhythmic cadence at an effort level where you can speak in full sentences without gasping."
+    ],
+    "breathing": "Breathe rhythmically and smoothly through both the nose and mouth, matching your breaths to your foot strike cadence.",
+    "cues": [
+      "Stay tall with a slight forward lean",
+      "Land softly under your hips",
+      "Keep shoulders and hands relaxed",
+      "Maintain conversational pace"
+    ],
+    "common_faults": [
+      {
+        "fault": "Overstriding by reaching the lead foot too far forward and striking heavily on the heel.",
+        "correction": "Shorten your stride and aim for a quicker turnover, landing with your feet directly underneath your hips."
+      },
+      {
+        "fault": "Running too fast during an intended aerobic base session.",
+        "correction": "Slow down until you can comfortably speak multiple sentences without pauses to catch your breath."
+      },
+      {
+        "fault": "Hunching the shoulders and tensing the neck.",
+        "correction": "Drop your shoulders down away from your ears and keep your hands loosely cupped."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure appropriate running footwear suitable for the surface.",
+        "Stay hydrated and avoid high heat without adequate acclimation."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

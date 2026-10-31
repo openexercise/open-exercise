@@ -1,0 +1,157 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Overhead Triceps Extension",
+  "summary": "An isolation exercise that targets the triceps, particularly the long head, by extending the elbow from a fully stretched overhead position.",
+  "aliases": [
+    {
+      "text": "Overhead Dumbbell Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell French Press",
+      "kind": "common"
+    },
+    {
+      "text": "Two-Arm Overhead Dumbbell Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Triceps Extension",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "grip_width": "narrow",
+  "load_position": "overhead",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "anconeus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "bench",
+    "adjustable-bench"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit upright on a flat or low-back bench, or stand with feet hip-width apart and a braced core.",
+      "Hoist a single dumbbell overhead using both hands, forming a diamond or heart-shaped cup with your palms flat against the inside face of the upper weight plate.",
+      "Position your upper arms vertically alongside your ears with elbows pointing forward and upward."
+    ],
+    "steps": [
+      "Inhale and lower the dumbbell behind your head by bending at the elbows, keeping your upper arms stationary.",
+      "Descend until your forearms pass parallel to the floor or you feel a deep, comfortable stretch in your triceps.",
+      "Exhale and press the dumbbell back up by extending your elbows to return to the starting position without locking out abruptly."
+    ],
+    "breathing": "Inhale as you lower the weight behind your head; exhale forcefully as you extend your elbows to press back overhead.",
+    "cues": [
+      "Keep elbows tucked forward, not flared out wide",
+      "Lock your upper arms in place and move only the forearms",
+      "Brace your abs to prevent arching your lower back"
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbows excessively outward.",
+        "correction": "Keep elbows pointing predominantly forward to optimize triceps recruitment and reduce shoulder joint strain."
+      },
+      {
+        "fault": "Excessive lumbar hyperextension to compensate for shoulder mobility.",
+        "correction": "Brace the core, contract the glutes, or perform the exercise on a bench with back support."
+      },
+      {
+        "fault": "Swinging the upper arms back and forth to generate momentum.",
+        "correction": "Fix the upper arms vertically beside your head and isolate movement strictly to elbow flexion and extension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure a secure two-handed grip on the underside of the dumbbell plate before hoisting it overhead.",
+        "Use a manageable load to avoid striking the back of the neck or losing control overhead."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

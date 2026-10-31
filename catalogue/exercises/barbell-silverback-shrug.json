@@ -1,0 +1,221 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Silverback Shrug",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Bent-Over Shrug",
+      "kind": "common"
+    },
+    {
+      "text": "Bent-Over Barbell Shrug",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "trapezius-middle",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "levator-scapulae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "elevation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "hinge"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "strap"
+    ],
+    "required": [
+      [
+        "barbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1925"
+  },
+  "id": "oec:barbell-silverback-shrug",
+  "instructions": {
+    "setup": [
+      "Stand with feet shoulder-width apart, gripping a loaded barbell with a pronated, slightly wider than shoulder-width grip.",
+      "Hinge at the hips with a slight bend in the knees, leaning your torso forward roughly 45 to 60 degrees while keeping your spine neutral and braced.",
+      "Let the barbell hang straight down from your shoulders with arms fully extended."
+    ],
+    "steps": [
+      "Initiate the movement by retracting and elevating your shoulder blades, pulling them together and slightly up toward your ears.",
+      "Pause briefly at the top to emphasize peak contraction in the mid and upper back without bending your elbows.",
+      "Lower the barbell under control, allowing your scapulae to fully protract and stretch at the bottom before beginning the next repetition."
+    ],
+    "breathing": "Exhale as you shrug your shoulder blades together and inhale as you lower the weight back to the full stretch.",
+    "cues": [
+      "Pinch the shoulder blades together and slightly up.",
+      "Keep the elbows locked straight.",
+      "Maintain a rigid torso angle throughout."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the elbows to turn the shrug into a row.",
+        "correction": "Keep your arms completely straight and focus all effort on moving the shoulder blades."
+      },
+      {
+        "fault": "Using hip drive or bouncing the torso to heave the weight.",
+        "correction": "Lock your lower body into a static hip hinge and move only your shoulder blades."
+      },
+      {
+        "fault": "Rounding the lumbar spine under load.",
+        "correction": "Brace your core, push your hips back, and keep your chest proud to maintain a neutral spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use lifting straps if grip fatigues before the upper back.",
+        "Avoid using excessive loads that compromise lower back neutrality."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Silverback Shrug",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Barbell Silverback Shrug",
+        "url": "https://wger.de/en/exercise/1925/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-kelso-shrug"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "bent-over",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A bent-over shrug variation that targets the upper back and trapezius by retracting and elevating the scapulae from a hip-hinge position."
+}

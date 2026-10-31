@@ -1,0 +1,235 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Knee Raises",
+      "kind": "common"
+    },
+    {
+      "text": "Hanging Knee Lift",
+      "kind": "common"
+    },
+    {
+      "text": "Bar Knee Raise",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "external-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "tensor-fasciae-latae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "fingers",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "strap"
+    ],
+    "required": [
+      [
+        "pull-up-bar"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "978"
+  },
+  "id": "oec:hanging-knee-raise",
+  "instructions": {
+    "setup": [
+      "Grasp an overhead pull-up bar with an overhand, shoulder-width grip.",
+      "Hang with your arms fully extended and your shoulders engaged slightly downward to maintain active tension.",
+      "Allow your legs to hang straight down with your ankles together and your core lightly braced."
+    ],
+    "steps": [
+      "Initiate the movement by flexing your hips and knees to draw your knees upward toward your chest.",
+      "At the top of the movement, tilt your pelvis upward toward your ribs to flex the lumbar spine and fully contract your abdominals.",
+      "Pause briefly at the peak contraction without swinging.",
+      "Lower your knees with control back to the starting dead-hang position before beginning the next repetition."
+    ],
+    "breathing": "Exhale forcefully as you curl your knees toward your chest; inhale smoothly as you lower your legs back to the hang.",
+    "cues": [
+      "Roll your pelvis up toward your ribs.",
+      "Keep your upper body quiet and avoid swinging.",
+      "Control the descent all the way to a dead hang."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to use momentum to kick the knees upward.",
+        "correction": "Perform each repetition from a completely still hang, bracing the torso and moving strictly under muscle control."
+      },
+      {
+        "fault": "Only flexing the hips without tilting the pelvis upward.",
+        "correction": "To fully target the abdominals, round the lower back slightly and curl the pelvis toward the sternum at the top of the raise."
+      },
+      {
+        "fault": "Dropping the legs rapidly without controlling the eccentric phase.",
+        "correction": "Lower the knees under control across two to three seconds to maximize abdominal tension and prevent swing."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the pull-up bar is securely mounted and capable of supporting your full body weight.",
+        "If grip fatigue limits your abdominal work, consider using ab straps or chalk."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Hanging Knee Raise",
+  "previous_ids": [
+    "oec:knee-raises"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Knee Raises",
+        "url": "https://wger.de/en/exercise/978/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "clafal"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:hanging-leg-raise"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:toes-to-bar"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:captain-s-chair-knee-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:captain-s-chair-knee-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:hanging-leg-raise"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "hanging"
+  },
+  "status": "active",
+  "summary": "A core exercise performed while hanging from an overhead bar, curling the knees toward the chest to train the abdominal muscles and hip flexors."
+}

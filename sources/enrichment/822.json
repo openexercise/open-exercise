@@ -1,0 +1,163 @@
+{
+  "is_exercise": true,
+  "name": "Cable Rear Delt Fly",
+  "summary": "An upper-body cable isolation movement targeting the posterior deltoids through shoulder horizontal abduction.",
+  "aliases": [
+    {
+      "text": "Reverse Cable Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Reverse Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Cable Rear Delt Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Rear Delt Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise",
+      "horizontal-pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-posterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "infraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-minor",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set dual cable pulleys at roughly eye-to-shoulder height without attachments, gripping the rubber stoppers or bare cables.",
+      "Grasp the left cable with your right hand and the right cable with your left hand so the cables cross directly in front of you.",
+      "Step back slightly to establish tension, keeping your feet hip-width apart and maintaining an upright torso with a soft bend in the knees."
+    ],
+    "steps": [
+      "Maintain a slight, fixed bend in your elbows and extend your arms in front of your chest.",
+      "Pull your hands out and back in a wide horizontal arc until your upper arms are aligned with your torso.",
+      "Pause briefly at peak contraction to squeeze the rear deltoids.",
+      "Slowly reverse the motion under control, allowing your hands to cross back over in front of your chest to feel a stretch."
+    ],
+    "breathing": "Exhale as you pull the cables outward and backward; inhale as you slowly return to the starting crossed position.",
+    "cues": [
+      "Lead with the back of the hands, not the elbows.",
+      "Keep the elbow bend fixed throughout.",
+      "Spread the cables wide rather than just pulling back."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive elbow bending, turning the isolation fly into a row.",
+        "correction": "Lock a slight bend into the elbows and maintain that fixed angle through the entire range of motion."
+      },
+      {
+        "fault": "Shrugging the shoulders upward toward the ears.",
+        "correction": "Depress the shoulder blades and focus on pulling horizontally across rather than upward."
+      },
+      {
+        "fault": "Using torso momentum or leaning backward to initiate the pull.",
+        "correction": "Brace the core, keep the torso stationary, and reduce the working weight."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid over-extending the arms past the plane of the torso to protect the shoulder joint."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

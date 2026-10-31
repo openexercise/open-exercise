@@ -1,0 +1,184 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Adductor Rockback",
+      "kind": "common"
+    },
+    {
+      "text": "Adductor Rock Back",
+      "kind": "common"
+    },
+    {
+      "text": "Half-Kneeling Adductor Rock",
+      "kind": "common"
+    },
+    {
+      "text": "Adductor Rockbacks",
+      "kind": "common"
+    },
+    {
+      "text": "Adductor Rock Backs",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "adductors",
+        "role": "stretched"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "2614"
+  },
+  "id": "oec:quadruped-adductor-rockback",
+  "instructions": {
+    "setup": [
+      "Begin on hands and knees with your wrists directly beneath your shoulders and knees under your hips.",
+      "Extend one leg straight out to the side perpendicular to your torso, keeping the knee locked and your entire foot flat on the floor with toes pointing forward.",
+      "Maintain a flat, neutral spine and engage your core."
+    ],
+    "steps": [
+      "Slowly shift your hips straight backward toward the heel of your kneeling leg while keeping your hands planted.",
+      "Rock back as far as you can while maintaining a neutral spine and feeling a deep stretch along the inner thigh of the straight leg.",
+      "Pause for a brief moment in the end range, then smoothly pull your hips forward to return to the starting quadruped position.",
+      "Complete the prescribed repetitions, then switch legs and repeat."
+    ],
+    "breathing": "Inhale as you sit your hips back into the stretch, and exhale as you return to the starting position.",
+    "cues": [
+      "Keep your outstretched foot flat on the floor.",
+      "Hinge at the hips without rounding your lower back.",
+      "Only rock as deep as your neutral spine allows."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding or tucking the lumbar spine as the hips travel backward.",
+        "correction": "Stop rocking back as soon as your pelvis begins to tuck under, and maintain a neutral arch in your lower back."
+      },
+      {
+        "fault": "Letting the edge of the extended foot roll off the floor.",
+        "correction": "Firmly press the entire sole of the straight leg into the ground to target the adductor group effectively."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use an exercise mat or pad under the kneeling knee if the floor causes discomfort.",
+        "Avoid aggressive bouncing; move with controlled, smooth rhythm into and out of the stretch."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Quadruped Adductor Rockback",
+  "previous_ids": [
+    "oec:adductor-rock-backs"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Adductor Rock Backs",
+        "url": "https://wger.de/en/exercise/2614/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "setup": {
+    "position": "quadruped"
+  },
+  "status": "active",
+  "summary": "A dynamic hip mobility drill performed on all fours with one leg extended out to the side to actively stretch the adductors and improve hip flexion depth."
+}

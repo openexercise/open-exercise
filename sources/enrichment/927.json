@@ -1,0 +1,167 @@
+{
+  "is_exercise": true,
+  "name": "Suspension Trainer Chest Fly",
+  "summary": "A bodyweight chest isolation exercise performed using a suspension trainer to challenge horizontal shoulder adduction and core stability.",
+  "aliases": [
+    {
+      "text": "TRX Chest Fly",
+      "kind": "brand"
+    },
+    {
+      "text": "Suspension Chest Fly",
+      "kind": "common"
+    },
+    {
+      "text": "TRX Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Suspended Crosses",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-chest-fly",
+      "anti-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "suspension-trainer",
+        "gymnastic-rings"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Anchor the suspension trainer securely and lengthen the straps to roughly mid-calf or knee height.",
+      "Stand facing away from the anchor point holding the handles with a neutral grip.",
+      "Step your feet back into an inclined plank position with arms extended in front of your chest, keeping a slight, rigid bend in the elbows."
+    ],
+    "steps": [
+      "Inhale and open your arms out to the sides in a wide arc, lowering your body forward under control.",
+      "Continue opening your arms until you feel a comfortable, deep stretch across your chest, maintaining the slight fixed bend in your elbows.",
+      "Exhale and squeeze your chest muscles to bring the handles back together, reversing the arc to return to the starting plank position."
+    ],
+    "breathing": "Inhale as you open your arms and lower your body; exhale forcefully through your mouth as you bring the handles together.",
+    "cues": [
+      "Hug a tree on the way up.",
+      "Keep the elbows frozen in a soft bend.",
+      "Maintain a rigid plank from head to heels."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending and straightening the elbows like a push-up.",
+        "correction": "Lock the elbows in a slightly bent position throughout the entire repetition so movement only occurs at the shoulders."
+      },
+      {
+        "fault": "Sagging at the hips or hyper-extending the lower back.",
+        "correction": "Engage the glutes and brace the abs to maintain a straight line from heels to head."
+      },
+      {
+        "fault": "Stretching the arms too far back past the plane of the torso.",
+        "correction": "Limit the eccentric stretch to a comfortable depth where you can reverse the motion without placing excessive strain on the anterior shoulder capsule."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the anchor point and suspension straps are fully tested for bodyweight support before leaning in.",
+        "Adjust exercise intensity easily by moving feet forward (more upright) to decrease difficulty or backward to increase it."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

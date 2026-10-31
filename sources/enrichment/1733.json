@@ -1,0 +1,161 @@
+{
+  "is_exercise": true,
+  "name": "Squat Hold",
+  "summary": "A bodyweight isometric exercise where a static squat position is held to build muscular endurance and stability in the lower body.",
+  "aliases": [
+    {
+      "text": "Isometric Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Isometric Squat Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Bodyweight Squat Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Static Squat Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Air Squat Hold",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "soleus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with your feet approximately shoulder-width apart, toes pointing slightly outward.",
+      "Brace your core and bring your hands together in front of your chest for balance."
+    ],
+    "steps": [
+      "Hinge at the hips and bend your knees to lower into a squat until your thighs are roughly parallel to the floor.",
+      "Hold this position statically without rising or sinking deeper, keeping your chest proud and your weight distributed across your whole foot.",
+      "Maintain the static hold for the targeted duration or until technical failure.",
+      "Press through your midfoot and heels to stand back up to the starting position."
+    ],
+    "breathing": "Breathe continuously and steadily throughout the hold rather than holding your breath.",
+    "cues": [
+      "Chest up, weight balanced",
+      "Knees tracking with your toes",
+      "Stay rooted through the midfoot"
+    ],
+    "common_faults": [
+      {
+        "fault": "Knees caving inward during the hold.",
+        "correction": "Actively push your knees outward in line with your toes."
+      },
+      {
+        "fault": "Allowing the torso to collapse forward and rounding the spine.",
+        "correction": "Keep your core braced and maintain an upright, proud chest."
+      },
+      {
+        "fault": "Gradually creeping upward out of parallel depth as fatigue sets in.",
+        "correction": "Commit to holding a consistent thigh-parallel depth throughout the duration."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you reach complete muscular failure, simply lower safely down to the floor or place your hands on your knees to assist yourself up."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

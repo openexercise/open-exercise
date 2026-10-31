@@ -1,0 +1,152 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Chest Stretch",
+  "summary": "A loaded static stretch performed lying supine on a bench holding dumbbells at the bottom of a chest fly to deeply stretch the pectorals.",
+  "aliases": [
+    {
+      "text": "Extreme Pec Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Loaded Pec Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Loaded Chest Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Extreme Chest Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "DC Pec Stretch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "supine",
+  "grip_orientation": "neutral",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major",
+      "role": "stretched"
+    },
+    {
+      "muscle": "pectoralis-minor",
+      "role": "stretched"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stretched"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "adjustable-bench"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "load",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Select a pair of light to moderate dumbbells.",
+      "Lie flat on a bench with feet planted firmly on the floor.",
+      "Press the dumbbells directly over your chest with a neutral grip and maintain a slight, fixed bend in your elbows."
+    ],
+    "steps": [
+      "Inhale deeply, expand your ribcage, and slowly lower the dumbbells out to your sides in a wide arc until you feel an intense stretch across your pectorals.",
+      "Hold this deep bottom stretch position statically for the prescribed duration while maintaining slow, deep breathing.",
+      "At the end of the hold, smoothly bring your elbows in toward your ribs to safely drop or press the weights back up."
+    ],
+    "breathing": "Breathe deeply and rhythmically into the ribcage, using full exhalations to facilitate relaxation into the stretch without losing shoulder stability.",
+    "cues": [
+      "Keep chest high and proud",
+      "Slight bend in the elbows",
+      "Breathe into the chest"
+    ],
+    "common_faults": [
+      {
+        "fault": "Using excessively heavy dumbbells that cause acute joint strain rather than a controlled muscle stretch.",
+        "correction": "Use light to moderate weights that allow you to reach a full, comfortable stretch depth without compromising shoulder integrity."
+      },
+      {
+        "fault": "Fully locking or excessively straightening the elbows.",
+        "correction": "Maintain a soft, fixed bend at the elbow throughout the entire hold to protect the biceps tendon and elbow joint."
+      },
+      {
+        "fault": "Dumping the shoulders forward into internal rotation.",
+        "correction": "Keep the scapulae retracted and depressed against the bench to direct the stretch into the chest rather than the anterior shoulder capsule."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not bounce into the stretch; enter and exit the position slowly and with full control.",
+        "Avoid this exercise if you have active shoulder impingement or anterior capsule instability."
+      ],
+      "spotter": "recommended",
+      "safeties": false
+    }
+  }
+}

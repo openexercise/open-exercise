@@ -1,0 +1,176 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Decline Bench Press",
+  "summary": "A barbell pressing variation performed on a decline bench to emphasize the lower sternal fibers of the chest and triceps with reduced shoulder elevation.",
+  "aliases": [
+    {
+      "text": "Decline Barbell Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Decline Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Decline Press",
+      "kind": "common"
+    },
+    {
+      "text": "Decline Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "supine",
+  "incline_degrees": -15,
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-abdominal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rotator-cuff",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "adjustable-bench"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "power-rack",
+    "squat-rack"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "rir",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Secure your shins and ankles snugly behind the leg pads of a decline bench.",
+      "Lie back so your eyes are directly beneath the racked barbell.",
+      "Retract and depress your shoulder blades firmly into the bench pad.",
+      "Grasp the bar with a full, pronated grip slightly wider than shoulder-width."
+    ],
+    "steps": [
+      "Unrack the barbell and steady it over your lower chest with arms fully extended.",
+      "Lower the bar under control, tucking your elbows roughly 45 degrees relative to your torso.",
+      "Touch the lower sternum lightly without bouncing the weight.",
+      "Press the bar back up explosively along a slight arc until your elbows reach full extension directly above your chest."
+    ],
+    "breathing": "Inhale deeply at the top before descending, hold your breath through the bottom transition, and exhale forcefully once past the sticking point.",
+    "cues": [
+      "Anchor your lower body",
+      "Bend the bar",
+      "Touch lower chest",
+      "Drive back to lockout"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bouncing the bar off the ribs or sternum.",
+        "correction": "Pause or lightly touch the lower chest under strict control before reversing direction."
+      },
+      {
+        "fault": "Flaring the elbows out perpendicular to the torso.",
+        "correction": "Tuck the elbows to approximately 45 to 60 degrees to protect the shoulders and engage the pectorals effectively."
+      },
+      {
+        "fault": "Lifting the pelvis and lower back off the pad during the press.",
+        "correction": "Keep your hips planted firmly on the bench and rely on leg pad support for stability."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Always ensure your legs are securely locked into the ankle pads before taking the weight out of the rack.",
+        "Rerack carefully to the lower rack pins; the altered decline angle can make misracking easier."
+      ],
+      "spotter": "recommended",
+      "safeties": false
+    }
+  }
+}

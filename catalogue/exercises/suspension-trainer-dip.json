@@ -1,0 +1,224 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "TRX Dip",
+      "kind": "brand"
+    },
+    {
+      "text": "TRX Dips",
+      "kind": "brand"
+    },
+    {
+      "text": "Suspension Dip",
+      "kind": "common"
+    },
+    {
+      "text": "Suspension Trainer Dips",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "flexion",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "elevation"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "weight-vest"
+    ],
+    "required": [
+      [
+        "suspension-trainer"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1269"
+  },
+  "id": "oec:suspension-trainer-dip",
+  "instructions": {
+    "setup": [
+      "Adjust the suspension trainer handles to roughly waist height.",
+      "Grasp both handles using a neutral grip, palms facing inward.",
+      "Press down into the handles to lock out your arms in a tall support position, with feet placed on the floor to regulate assistance as needed."
+    ],
+    "steps": [
+      "Keep your chest proud and core tight as you bend your elbows to lower your body in a controlled descent.",
+      "Descend until your elbows reach approximately a 90-degree angle, keeping the handles close to your sides.",
+      "Drive your palms downward into the handles, extending your elbows to press back up to the top lockout."
+    ],
+    "breathing": "Inhale as you lower your body under control; exhale forcefully as you press back up to full extension.",
+    "cues": [
+      "Keep the straps tight and hands pinned close to your ribs.",
+      "Maintain active, depressed shoulders without shrugging.",
+      "Control the handles to prevent them from drifting outward."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the hands and handles to drift wide away from the torso.",
+        "correction": "Actively pull the handles into your sides and engage the lats and chest to stabilize the straps."
+      },
+      {
+        "fault": "Shoulders shrugging up toward the ears at the bottom.",
+        "correction": "Keep scapulae depressed by actively pushing down through the palms throughout the entire movement."
+      },
+      {
+        "fault": "Excessive forward shoulder dump at depth.",
+        "correction": "Limit the depth to approximately 90 degrees at the elbows and keep your chest lifted."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the suspension anchor is completely secure before supporting bodyweight.",
+        "Use foot assistance on the floor if you cannot maintain stable shoulder alignment."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Suspension Trainer Dip",
+  "previous_ids": [
+    "oec:trx-dips"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: TRX dips",
+        "url": "https://wger.de/en/exercise/1269/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "cynomops"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dip"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:dip"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:ring-dip"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "shoulder"
+    },
+    "position": "support",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A bodyweight pressing exercise performed using suspension straps that targets the triceps, chest, and anterior deltoids while challenging shoulder stability."
+}

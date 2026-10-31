@@ -1,0 +1,157 @@
+{
+  "is_exercise": true,
+  "name": "Cable Rope Triceps Pushdown",
+  "summary": "An isolation exercise performed on a high cable pulley using a rope attachment to strengthen and develop the triceps brachii.",
+  "aliases": [
+    {
+      "text": "rope pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "cable rope pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "tricep rope pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "rope triceps pushdown",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "grip_width": "narrow",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "anconeus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach a double-rope handle to a high cable pulley.",
+      "Grasp each end of the rope with a neutral grip (palms facing each other) above the knots.",
+      "Step back slightly, set feet hip-width apart, and establish a slight forward torso lean while maintaining a neutral spine.",
+      "Pin your upper arms firmly against your sides, with elbows bent at approximately 90 degrees."
+    ],
+    "steps": [
+      "Extend your elbows by pushing the rope straight down toward your thighs.",
+      "As you approach full elbow extension, spread the rope ends apart laterally past your hips to achieve a peaked contraction.",
+      "Hold the full lockout briefly while squeezing the triceps.",
+      "Slowly reverse the movement, allowing your forearms to rise back to the starting angle while keeping your upper arms stationary."
+    ],
+    "breathing": "Exhale as you push down and extend your elbows; inhale as you control the rope back to the top.",
+    "cues": [
+      "Pin your elbows to your ribs.",
+      "Split the rope at the bottom.",
+      "Move only your forearms."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring or drifting the elbows forward and backward during the repetition.",
+        "correction": "Lock the upper arms stationary against your torso throughout the entire set."
+      },
+      {
+        "fault": "Using torso momentum or dropping shoulder weight onto the rope.",
+        "correction": "Maintain a steady torso lean and reduce the weight to isolate the elbow extensors."
+      },
+      {
+        "fault": "Cutting the range of motion short at the bottom.",
+        "correction": "Extend the elbows completely and spread the ends of the rope for a full contraction."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid excessive flexion at the wrist; keep wrists rigid and aligned with the forearms."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

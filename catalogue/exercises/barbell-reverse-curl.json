@@ -1,0 +1,222 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Reverse Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse Grip Barbell Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Overhand Barbell Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse Grip Barbell Curls",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "brachioradialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-extensors",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "radioulnar",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "barbell",
+        "ez-bar"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "495,1290"
+  },
+  "id": "oec:barbell-reverse-curl",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and knees slightly unlocked.",
+      "Grasp the barbell with a pronated (overhand) grip roughly shoulder-width apart.",
+      "Let the bar rest against the front of your thighs with your arms fully extended and elbows tucked close to your torso."
+    ],
+    "steps": [
+      "Keeping your upper arms stationary, curl the bar upward by flexing at the elbows.",
+      "Continue lifting until your forearms are close to vertical and you feel a full contraction in your forearms and upper arms.",
+      "Pause briefly at the top while keeping your wrists firm and neutral.",
+      "Lower the bar back down under control to the starting position until your elbows are fully extended."
+    ],
+    "breathing": "Exhale as you curl the weight up, and inhale as you lower it back down.",
+    "cues": [
+      "Knuckles facing forward throughout",
+      "Keep elbows pinned to your sides",
+      "Do not swing the torso"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to use momentum to initiate the lift.",
+        "correction": "Reduce the load and keep your core braced to isolate the arm flexors."
+      },
+      {
+        "fault": "Allowing the wrists to flex or extend excessively during the curl.",
+        "correction": "Lock your wrists in a rigid, neutral alignment throughout the repetition."
+      },
+      {
+        "fault": "Flaring the elbows outward during the upward phase.",
+        "correction": "Keep elbows tucked close to the ribcage to maintain tension on the intended musculature."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a manageable load to avoid excessive strain on the wrist and elbow joints."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Reverse Curl",
+  "previous_ids": [
+    "oec:reverse-curl",
+    "oec:reverse-grip-barbell-curls"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Reverse Curl",
+        "url": "https://wger.de/en/exercise/495/view-base",
+        "license": "CC0-1.0",
+        "author": "BFad07"
+      },
+      {
+        "title": "wger: Reverse Grip Barbell Curls",
+        "url": "https://wger.de/en/exercise/1290/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "sTiKyt"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:ez-bar-reverse-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-ez-bar-reverse-curl"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An elbow flexion exercise using an overhand grip to target the brachialis and brachioradialis along with the biceps."
+}

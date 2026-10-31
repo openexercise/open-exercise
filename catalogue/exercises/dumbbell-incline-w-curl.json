@@ -1,0 +1,215 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Incline Dumbbell W Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Seated W Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Incline W Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell W Curl",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-short-head",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "biceps-long-head",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "radioulnar",
+        "actions": [
+          "supination"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "external-rotation",
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1448"
+  },
+  "id": "oec:dumbbell-incline-w-curl",
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an incline of approximately 60 degrees.",
+      "Sit back against the pad with your head and torso supported and feet planted flat on the floor.",
+      "Hold a dumbbell in each hand with your arms hanging fully extended at your sides.",
+      "Externally rotate your shoulders so that your palms face outward and away from your torso at a roughly 45-degree angle."
+    ],
+    "steps": [
+      "Keeping your upper arms stationary, curl both dumbbells diagonally upward and outward toward your shoulders.",
+      "Pause and squeeze your biceps at the top of the movement, where your arms and torso resemble the letter W.",
+      "Lower the dumbbells under strict control along the same diagonal path until your elbows are fully extended."
+    ],
+    "breathing": "Exhale as you curl the weights upward and inhale as you lower them under control.",
+    "cues": [
+      "Keep elbows pinned in space.",
+      "Curl out and up, not straight forward.",
+      "Control the eccentric down to a complete stretch."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the elbows forward or arching off the bench to assist the lift.",
+        "correction": "Keep your back firmly against the bench pad and ensure elbow flexion is the only movement occurring."
+      },
+      {
+        "fault": "Allowing the hands to drift inward into a conventional curl.",
+        "correction": "Maintain external rotation throughout each repetition so the dumbbells track along an outward diagonal line."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a moderate weight to avoid excessive strain on the biceps tendon and anterior shoulder in an externally rotated position."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Incline W Curl",
+  "previous_ids": [
+    "oec:seated-w-curl"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Seated W Curl",
+        "url": "https://wger.de/en/exercise/1448/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "M9"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-incline-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-incline-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-wide-biceps-curl"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated"
+    },
+    "incline_degrees": 60,
+    "load_position": "at-sides",
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "An incline dumbbell curl performed with the arms externally rotated outward to form a W shape at peak contraction, emphasizing the short head of the biceps."
+}

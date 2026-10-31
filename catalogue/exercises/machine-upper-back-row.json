@@ -1,0 +1,231 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Upper Back",
+      "kind": "brand"
+    },
+    {
+      "text": "Upper Back Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Chest-Supported Machine Upper Back Row",
+      "kind": "common"
+    },
+    {
+      "text": "Technogym Upper Back",
+      "kind": "brand"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rhomboids",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-abduction",
+          "extension"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1381"
+  },
+  "id": "oec:machine-upper-back-row",
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so that the chest pad rests comfortably against your sternum and your feet can press firmly into the floor or footrests.",
+      "Sit upright with your chest against the pad and take a pronated grip on the wide or horizontal machine handles with arms extended."
+    ],
+    "steps": [
+      "Initiate the movement by retracting your shoulder blades and driving your elbows out and back.",
+      "Pull until your elbows are in line with your torso, firmly contracting your upper back and rear deltoids.",
+      "Pause briefly at peak contraction without allowing your chest to peel away from the support pad.",
+      "Lower the weight with control, extending your arms and letting your shoulder blades protract slightly before starting the next repetition."
+    ],
+    "breathing": "Exhale as you pull the handles toward your torso, and inhale as you return the weight under control.",
+    "cues": [
+      "Lead with the elbows, not the hands",
+      "Pin your chest to the pad",
+      "Squeeze your shoulder blades together at the finish"
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulders upward toward the ears during the pull.",
+        "correction": "Keep your shoulders depressed and focus on horizontal elbow drive rather than elevating your traps."
+      },
+      {
+        "fault": "Hyperextending the lower back to pull the chest away from the support pad.",
+        "correction": "Maintain full, continuous chest contact with the pad throughout the entire range of motion."
+      },
+      {
+        "fault": "Pulling primarily through elbow flexion rather than scapular retraction.",
+        "correction": "Think of your hands as hooks and focus on pulling your elbows wide and pinching your shoulder blades together."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the seat pin is fully locked in place before beginning the exercise."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Machine Upper Back Row",
+  "previous_ids": [
+    "oec:upper-back"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Upper Back",
+        "url": "https://wger.de/en/exercise/1381/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "phpi"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:machine-seated-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:chest-supported-dumbbell-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-seal-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:incline-dumbbell-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-rear-delt-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "wide"
+    },
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A seated, chest-supported machine pull targeting the rhomboids, rear deltoids, and middle trapezius with flared elbows."
+}

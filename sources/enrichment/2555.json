@@ -1,0 +1,120 @@
+{
+  "is_exercise": true,
+  "name": "Kegel",
+  "summary": "An isometric contraction of the pelvic floor muscles performed to improve pelvic support and neuromuscular control.",
+  "aliases": [
+    {
+      "text": "Kegels",
+      "kind": "common"
+    },
+    {
+      "text": "Pelvic floor contraction",
+      "kind": "common"
+    },
+    {
+      "text": "Pelvic floor exercise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "pilates"
+    ],
+    "movement_patterns": [],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "not-applicable",
+    "laterality": "bilateral",
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "muscles": [
+    {
+      "muscle": "transversus-abdominis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "multifidus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie on your back with your knees bent and feet flat on the floor, or sit comfortably upright in a chair.",
+      "Ensure your lower back is in a comfortable neutral alignment.",
+      "Completely relax your abdominal, gluteal, and thigh musculature before beginning."
+    ],
+    "steps": [
+      "Draw the pelvic floor muscles inward and upward, as if trying to stop the flow of urine and prevent passing gas simultaneously.",
+      "Hold the contraction firmly for the target duration without tensing your glutes, gripping your inner thighs, or bearing down.",
+      "Gently and fully release the contraction, resting for at least as long as the duration of the hold before initiating the next repetition."
+    ],
+    "breathing": "Breathe normally and continuously throughout the contraction; never hold your breath.",
+    "cues": [
+      "Lift inward and upward",
+      "Relax your glutes and thighs",
+      "Breathe through the hold",
+      "Fully release between reps"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bearing down or pushing outward instead of lifting inward and upward.",
+        "correction": "Focus on an inward lifting sensation toward your navel rather than straining downward."
+      },
+      {
+        "fault": "Compensating by squeezing the glutes, adductors, or outer abdominal muscles.",
+        "correction": "Place your hands on your buttocks or inner thighs to verify they remain completely soft while contracting."
+      },
+      {
+        "fault": "Holding breath (Valsalva maneuver) during the contraction.",
+        "correction": "Count out loud or maintain steady diaphragmatic breathing during each hold."
+      }
+    ],
+    "safety": {
+      "precautions": [],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "is_exercise": true,
+  "name": "Standing Side Crunch",
+  "summary": "A standing bodyweight core exercise that targets the obliques and lateral trunk flexors through controlled spinal lateral flexion.",
+  "aliases": [
+    {
+      "text": "Standing Oblique Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Bodyweight Standing Side Bend",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Side Bend",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "lateral-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "external-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadratus-lumborum",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "lateral-flexion"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "lateral-flexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet shoulder-width apart and knees slightly unlocked.",
+      "Place your fingertips lightly behind your ears or head with elbows pointing straight out to the sides.",
+      "Brace your core and align your hips directly beneath your shoulders."
+    ],
+    "steps": [
+      "Initiate the movement by laterally flexing your spine to one side, bringing your elbow down toward your hip.",
+      "Contract the obliques firmly at the bottom of the range without letting your torso rotate forward or backward.",
+      "Reverse the movement with control, using the working obliques to pull your torso back to the upright starting position.",
+      "Complete the prescribed repetitions on one side before switching, or alternate sides evenly."
+    ],
+    "breathing": "Exhale as you crunch down to the side; inhale as you return to the tall standing position.",
+    "cues": [
+      "Move between two panes of glass",
+      "Shorten the space between your ribs and hip",
+      "Keep your hips square and stationary"
+    ],
+    "common_faults": [
+      {
+        "fault": "Twisting or rounding the shoulders forward during the crunch.",
+        "correction": "Stay strictly in the frontal plane by keeping your chest proud and elbows pointed wide."
+      },
+      {
+        "fault": "Shifting the hips laterally to create the illusion of a deeper bend.",
+        "correction": "Anchor your pelvis in place and ensure all movement comes from flexing the spine."
+      },
+      {
+        "fault": "Yanking on the neck with the hands.",
+        "correction": "Rest fingertips lightly against your head and generate all movement through your core musculature."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid rapid, jerky lateral bending, especially if you have a history of lumbar spine disc pathology."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

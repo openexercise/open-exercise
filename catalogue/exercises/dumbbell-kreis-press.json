@@ -1,0 +1,218 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Incline Dumbbell Kreis Press",
+      "kind": "common"
+    },
+    {
+      "text": "Kreis Press",
+      "kind": "common"
+    },
+    {
+      "text": "Kreis Press DB",
+      "kind": "abbreviation"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-lateral",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "abduction",
+          "horizontal-adduction",
+          "internal-rotation",
+          "external-rotation"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation",
+          "protraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1442"
+  },
+  "id": "oec:dumbbell-kreis-press",
+  "instructions": {
+    "setup": [
+      "Adjust an incline bench to roughly 45 degrees.",
+      "Sit back firmly against the pad with feet flat on the floor, holding a dumbbell in each hand at shoulder height with palms facing forward or slightly inward."
+    ],
+    "steps": [
+      "Press the dumbbells overhead until your arms are fully extended.",
+      "Lower the dumbbells under control back to shoulder level.",
+      "Rotate your forearms into a supinated position (palms facing up) and extend your arms forward away from your chest.",
+      "Bring the dumbbells together in front of you at chest height with arms nearly straight.",
+      "Reverse the motion by drawing the elbows back to shoulder height, rotating palms forward, and pressing overhead into the next rep."
+    ],
+    "breathing": "Inhale as you lower the weights and reach forward; exhale forcefully as you drive the dumbbells overhead.",
+    "cues": [
+      "Control the reach forward",
+      "Keep tension in the front delts",
+      "Smooth rotation at the shoulders"
+    ],
+    "common_faults": [
+      {
+        "fault": "Using excessively heavy weight that compromises the straight-arm reach phase.",
+        "correction": "Select lighter dumbbells than standard overhead presses to protect the anterior shoulder capsule."
+      },
+      {
+        "fault": "Excessive arching of the lower back away from the bench.",
+        "correction": "Keep your core braced and maintain contact between your lower back and the backrest throughout the movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid letting the dumbbells drop rapidly during the forward extension phase.",
+        "Discontinue if experiencing acute anterior shoulder impingement."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Kreis Press",
+  "previous_ids": [
+    "oec:kreis-press-db"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Kreis Press DB",
+        "url": "https://wger.de/en/exercise/1442/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "M9"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:incline-dumbbell-overhead-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "rotating",
+      "width": "shoulder"
+    },
+    "incline_degrees": 45,
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A hybrid shoulder exercise performed on an incline bench combining a dumbbell press with an anterior arm extension."
+}

@@ -1,0 +1,22 @@
+{{define "head"}}<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{.Title}}{{if .Path}} · Open Exercise{{end}}</title>
+<meta name="description" content="{{.Description}}">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top"><div class="wrap">
+<a class="brand" href="/">Open Exercise</a>
+<nav aria-label="Main"><a href="/spec/">Spec</a><a href="/catalogue/">Catalogue</a><a href="/vocabulary/">Vocabularies</a></nav>
+</div></header>
+<p class="draft"><span class="wrap">Development draft, v0. Formats and IDs may change.</span></p>
+<main id="main" class="wrap">{{end}}
+{{define "foot"}}</main>
+<footer class="wrap"><p>Schema, spec and tools: Apache-2.0. Catalogue: CC-BY-SA 4.0, derived from <a href="https://wger.de">wger</a>. Exercise information isn't medical advice.</p></footer>
+</body>
+</html>{{end}}

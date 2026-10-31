@@ -1,0 +1,166 @@
+{
+  "is_exercise": true,
+  "name": "Ice Cream Maker",
+  "summary": "An advanced calisthenics exercise transitioning repeatedly between the top position of a pull-up and a horizontal front lever.",
+  "aliases": [
+    {
+      "text": "Front Lever Ice Cream Maker",
+      "kind": "common"
+    },
+    {
+      "text": "Pull-Up Ice Cream Maker",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "anti-extension",
+      "vertical-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "advanced"
+  },
+  "position": "hanging",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-long-head",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "pull-up-bar",
+        "gymnastic-rings"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Hang from a pull-up bar with an overhand, shoulder-width grip.",
+      "Pull yourself up into the top position of a pull-up with your chin over the bar and core fully braced."
+    ],
+    "steps": [
+      "Maintain a rigid, straight bodyline from shoulders to feet by squeezing your glutes and abs.",
+      "Push the bar forward and extend your elbows to lower your torso backward until your body reaches a horizontal front lever position.",
+      "Pause momentarily parallel to the floor with arms nearly straight.",
+      "Pull through your lats and bend your elbows to return smoothly to the top of the pull-up position."
+    ],
+    "breathing": "Inhale as you lower your body into the horizontal lever position, and exhale forcefully as you pull back up.",
+    "cues": [
+      "Keep body straight as a board",
+      "Drive the bar down into your hips",
+      "Do not let the hips sag"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending at the hips (piking) during the transition.",
+        "correction": "Squeeze the glutes and core to maintain a completely straight line from shoulders to ankles."
+      },
+      {
+        "fault": "Dropping the hips below horizontal in the lever.",
+        "correction": "Engage the lats aggressively to hold the torso level with the ground before pulling back up."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure adequate baseline strength in both full pull-ups and front lever holds before attempting dynamic transitions."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

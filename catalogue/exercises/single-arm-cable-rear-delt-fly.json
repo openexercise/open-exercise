@@ -1,0 +1,239 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Cable Rear-Delt Fly (single arm)",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable Reverse Fly",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Cable Rear Delt Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Single-Arm Cable Rear Delt Fly",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-posterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "infraspinatus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "teres-minor",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1936"
+  },
+  "id": "oec:single-arm-cable-rear-delt-fly",
+  "instructions": {
+    "setup": [
+      "Set the cable pulley to shoulder height and remove the handle attachment or attach a single D-handle.",
+      "Stand sideways to the machine with a stable hip-width stance, reaching across your body with the far arm to grasp the cable or handle.",
+      "Step slightly back to establish tension on the cable, keeping the working arm extended across the chest with a slight, fixed bend in the elbow."
+    ],
+    "steps": [
+      "Brace your core and initiate the movement by pulling the handle horizontally backward across your body in a wide arc.",
+      "Focus on driving with the back of the shoulder until your arm is roughly in line with your torso, pausing briefly at peak contraction.",
+      "Slowly reverse the motion under control, resisting the cable tension until your arm returns across your chest to the starting position."
+    ],
+    "breathing": "Exhale as you pull the cable outward and back, and inhale as you return to the starting position.",
+    "cues": [
+      "Lead with the back of the elbow.",
+      "Keep the torso stationary and do not twist.",
+      "Maintain a soft, locked elbow angle throughout."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the torso to swing the weight through momentum.",
+        "correction": "Keep your hips and shoulders squared forward, using only glenohumeral horizontal abduction to move the load."
+      },
+      {
+        "fault": "Excessively bending and extending the elbow like a triceps extension.",
+        "correction": "Lock a slight bend in the elbow and keep that angle fixed throughout the entire rep."
+      },
+      {
+        "fault": "Shrugging the shoulder up toward the ear.",
+        "correction": "Depress the shoulder blades and keep the upper trapezius relaxed to isolate the rear deltoid."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use light to moderate resistance to avoid compromising form and overusing the neck or upper trapezius."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Single-Arm Cable Rear Delt Fly",
+  "previous_ids": [
+    "oec:cable-rear-delt-fly-single-arm"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Cable Rear-Delt Fly (single arm)",
+        "url": "https://wger.de/en/exercise/1936/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Dulive"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-rear-delt-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-rear-delt-fly"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:cable-reverse-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-reverse-fly"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:standing-cable-reverse-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-reverse-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-bent-over-reverse-fly"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral isolation exercise that targets the posterior deltoid using continuous cable tension across the horizontal plane."
+}

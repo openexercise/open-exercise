@@ -1,0 +1,207 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Banded Scapular Retraction",
+      "kind": "common"
+    },
+    {
+      "text": "Resistance Band Scapular Retraction",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Band Scapular Retraction",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rhomboids",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "mobility",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "resistance-band"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1877"
+  },
+  "id": "oec:band-scapular-retraction",
+  "instructions": {
+    "setup": [
+      "Anchor a resistance band to a sturdy upright at chest or shoulder height.",
+      "Face the anchor point and loop the band around your upper arm or hold it firmly in hand with the elbow bent to roughly ninety degrees.",
+      "Step back until there is light tension on the band with your arm reaching forward and shoulder protracted."
+    ],
+    "steps": [
+      "Without twisting your torso or flexing the elbow further, glide your shoulder blade straight back toward your spine.",
+      "Pause and squeeze the shoulder blade tightly for one to two seconds at peak retraction.",
+      "Slowly allow the band to pull your shoulder blade forward into controlled protraction."
+    ],
+    "breathing": "Exhale as you retract the shoulder blade; inhale as you return to the starting position under control.",
+    "cues": [
+      "Move the shoulder blade, not the spine.",
+      "Keep your shoulders down away from your ears.",
+      "Pinch a pencil between your shoulder blades."
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulder upward during retraction.",
+        "correction": "Actively depress the shoulder girdle and keep the upper traps relaxed."
+      },
+      {
+        "fault": "Rotating the torso to pull the band back.",
+        "correction": "Brace your core and keep your chest facing directly forward throughout the movement."
+      },
+      {
+        "fault": "Bending the arm to pull with the bicep instead of moving the scapula.",
+        "correction": "Lock the elbow angle and focus entirely on gliding the shoulder blade backward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the resistance band is securely anchored before stepping back into tension."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "elastic"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "band-tension",
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Band Scapular Retraction",
+  "previous_ids": [
+    "oec:banded-scapular-retraction"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Banded Scapular Retraction",
+        "url": "https://wger.de/en/exercise/1877/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "hurr99"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-scapular-retraction"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:cable-scapular-retraction"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:prone-scapular-retraction"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-kelso-shrug"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A postural and rehabilitative exercise using an anchored resistance band to isolate scapular retraction and strengthen the upper back."
+}

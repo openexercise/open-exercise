@@ -1,0 +1,214 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Codman Pendulum Exercise",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Codman Exercise",
+      "kind": "common"
+    },
+    {
+      "text": "Pendular Shoulder Exercise",
+      "kind": "common"
+    },
+    {
+      "text": "Codman's Pendulum Exercise",
+      "kind": "common"
+    },
+    {
+      "text": "Shoulder Dumbbell Pendular Exercise",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "circumduction",
+          "flexion",
+          "extension",
+          "abduction",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse",
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "bench",
+      "chair"
+    ],
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1714"
+  },
+  "id": "oec:dumbbell-pendulum-exercise",
+  "instructions": {
+    "setup": [
+      "Grasp a very light dumbbell in the hand of the target shoulder.",
+      "Hinge at your hips to lean forward until your torso is at a 45- to 90-degree angle, supporting your other hand firmly on a sturdy table, bench, or chair.",
+      "Allow the weighted arm to dangle perpendicular to the floor, completely relaxed, letting the light load provide gentle traction to the joint."
+    ],
+    "steps": [
+      "Gently sway your hips and torso in small circles or forward-and-back rocking motions to initiate momentum.",
+      "Allow the relaxed arm to swing passively in small, controlled circles or arcs driven solely by the movement of your body.",
+      "Maintain a completely loose shoulder without actively contracting the deltoid or rotator cuff.",
+      "Smoothly reverse the direction of the circles or switch to linear swings as prescribed."
+    ],
+    "breathing": "Breathe slowly and rhythmically throughout the movement to promote muscular relaxation in the upper body.",
+    "cues": [
+      "Let the arm dangle like a dead weight",
+      "Move your body to swing your arm",
+      "Keep your neck and shoulder completely relaxed"
+    ],
+    "common_faults": [
+      {
+        "fault": "Actively swinging the arm with the shoulder muscles rather than using trunk momentum.",
+        "correction": "Keep the shoulder completely passive and initiate all motion through subtle rocking of your hips and torso."
+      },
+      {
+        "fault": "Using too heavy of a dumbbell, causing reflexive muscle guarding.",
+        "correction": "Use minimal load, typically 1 to 5 pounds (0.5 to 2 kg), or perform without weight if any muscle tension is felt."
+      },
+      {
+        "fault": "Tensing the neck or hunching the non-working shoulder.",
+        "correction": "Firmly support your upper-body weight on the stable surface and keep your neck relaxed in neutral alignment."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not use heavy resistance; this exercise is designed for joint mobilization and decompression, not strength training.",
+        "Stop immediately if you experience sharp or pinching shoulder pain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "load",
+          "reps",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "load",
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Dumbbell Pendulum Exercise",
+  "previous_ids": [
+    "oec:shoulder-dumbbell-pendular-exercise"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Shoulder Dumbbell Pendular Exercise",
+        "url": "https://wger.de/en/exercise/1714/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Croak6728"
+      }
+    ]
+  },
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "bent-over",
+    "stance": {
+      "kind": "staggered",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A gentle rehabilitation and mobility exercise where the arm hangs relaxed with a light dumbbell while trunk sway drives small circular or pendular motions to mobilize the shoulder joint."
+}

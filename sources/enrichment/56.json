@@ -1,0 +1,141 @@
+{
+  "is_exercise": true,
+  "name": "Abdominal Bracing",
+  "summary": "A foundational isometric core exercise performed supine to recruit the deep and superficial abdominal muscles and enhance lumbar stability.",
+  "aliases": [
+    {
+      "text": "Abdominal Stabilization",
+      "kind": "common"
+    },
+    {
+      "text": "Core Bracing",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Abdominal Bracing",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "anti-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "transversus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "synergist"
+    },
+    {
+      "muscle": "external-oblique",
+      "role": "synergist"
+    },
+    {
+      "muscle": "multifidus",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie face up on a mat with your knees bent to roughly 90 degrees and feet flat on the floor, hip-width apart.",
+      "Rest your arms by your sides and establish a comfortable, neutral lumbar spine with a slight natural arch off the floor."
+    ],
+    "steps": [
+      "Inhale into your belly and lower ribcage without shrugging your shoulders.",
+      "As you begin to exhale, tighten your entire abdominal wall as if bracing to take a light punch to the stomach.",
+      "Firm the muscles 360 degrees around your waist while maintaining the natural position of your pelvis and lower back.",
+      "Continue breathing shallowly and steadily while maintaining the contraction for the required duration.",
+      "Release the abdominal tension fully before initiating the next repetition."
+    ],
+    "breathing": "Breathe continuously and softly through your chest while maintaining tension throughout the abdominal wall.",
+    "cues": [
+      "Brace like taking a punch.",
+      "Stiffen your waist 360 degrees.",
+      "Breathe behind the shield."
+    ],
+    "common_faults": [
+      {
+        "fault": "Sucking the belly button in toward the spine (hollowing instead of bracing).",
+        "correction": "Expand and firm the core outward in all directions rather than drawing the abdomen inward."
+      },
+      {
+        "fault": "Flattening the lower back completely against the floor via posterior pelvic tilt.",
+        "correction": "Keep the pelvis stationary and maintain a neutral lumbar curve during the brace."
+      },
+      {
+        "fault": "Holding your breath throughout the duration of the contraction.",
+        "correction": "Practice speaking or taking small, controlled breaths while holding the muscular tension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Discontinue the exercise if you feel sharp or radiating lower back pain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

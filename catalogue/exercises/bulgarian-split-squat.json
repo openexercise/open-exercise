@@ -1,0 +1,238 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Rear-Foot Elevated Split Squat",
+      "kind": "common"
+    },
+    {
+      "text": "RFESS",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Bulgarian split squats left",
+      "kind": "common"
+    },
+    {
+      "text": "Bulgarian split squats right",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "lunge",
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "bench",
+        "plyo-box",
+        "step",
+        "chair"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "988,989"
+  },
+  "id": "oec:bulgarian-split-squat",
+  "instructions": {
+    "setup": [
+      "Stand approximately two feet in front of a flat bench or sturdy elevation, facing away from it.",
+      "Reach one leg backward and place the top of your foot or toes onto the bench.",
+      "Ensure your front foot is set far enough forward that your shin stays relatively upright or comfortably tracks forward, with your hips square and feet roughly hip-width apart."
+    ],
+    "steps": [
+      "Lower your body under control by flexing your front knee and hip, allowing the back knee to descend toward the floor.",
+      "Descend until your front thigh is roughly parallel to the ground and your back knee hovers just above the floor.",
+      "Drive through the midfoot and heel of your front foot to extend your hip and knee, returning to the start position.",
+      "Complete the desired repetitions on one side before switching legs."
+    ],
+    "breathing": "Inhale as you lower your body toward the floor; exhale forcefully as you drive through the front foot back to the top.",
+    "cues": [
+      "Keep most of your weight on the front leg",
+      "Drop the back knee straight down",
+      "Stay tall through the torso with a slight forward lean at the hips"
+    ],
+    "common_faults": [
+      {
+        "fault": "Front foot placed too close to the bench, causing excessive heel lift and knee shear.",
+        "correction": "Step slightly farther forward so the front foot can stay firmly planted on the floor throughout the descent."
+      },
+      {
+        "fault": "Front knee collapsing inward into valgus during the movement.",
+        "correction": "Actively track your working knee in line with your second and third toes."
+      },
+      {
+        "fault": "Pushing excessively through the rear foot rather than loading the front leg.",
+        "correction": "Treat the rear leg as a kickstand for balance; drive upward almost entirely through the front foot."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform near a wall or sturdy object if you need light hand support for balance when learning the movement."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Bulgarian Split Squat",
+  "previous_ids": [
+    "oec:bulgarian-split-squats-left",
+    "oec:bulgarian-split-squats-right"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Bulgarian split squats left",
+        "url": "https://wger.de/en/exercise/988/view-base",
+        "license": "CC-BY-SA-4.0"
+      },
+      {
+        "title": "wger: Bulgarian split squats right",
+        "url": "https://wger.de/en/exercise/989/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:bodyweight-split-squat"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:dumbbell-bulgarian-split-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:forward-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:reverse-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:step-up"
+    }
+  ],
+  "setup": {
+    "position": "split-stance",
+    "range": "full",
+    "stance": {
+      "kind": "split",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral lower-body exercise where the rear foot is elevated on a bench or platform to challenge the quads, glutes, and balance."
+}

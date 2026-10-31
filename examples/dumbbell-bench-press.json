@@ -1,0 +1,109 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "id": "oec:dumbbell-bench-press",
+  "name": "Dumbbell Bench Press",
+  "summary": "A press lying on a flat bench with a dumbbell in each hand.",
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "setup": {
+    "position": "supine",
+    "incline_degrees": 0,
+    "grip": {
+      "orientation": "pronated"
+    }
+  },
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      }
+    ]
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "bench",
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "measurement": {
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "load": {
+      "kind": "external",
+      "convention": "per-implement",
+      "implements": 2
+    },
+    "reps_counted": "total",
+    "records": {
+      "e1rm": true,
+      "volume": true
+    }
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-bench-press"
+    }
+  ],
+  "provenance": {
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "unreviewed"
+    }
+  }
+}

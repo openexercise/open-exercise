@@ -1,0 +1,142 @@
+{
+  "is_exercise": true,
+  "name": "Standing Elevated Hamstring Stretch",
+  "summary": "A standing static stretch performed by resting one heel on an elevated surface and hinging forward at the hips to target the hamstrings.",
+  "aliases": [
+    {
+      "text": "Elevated Hamstring Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Barre Hamstring Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Bench Hamstring Stretch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "hinge"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_kind": "single-leg",
+  "muscles": [
+    {
+      "muscle": "hamstrings",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "bench",
+        "plyo-box",
+        "step",
+        "chair"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": []
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall facing a sturdy bench, box, or railing set roughly between knee and hip height.",
+      "Place the heel of the target leg onto the platform with the knee extended and toes pointing upward.",
+      "Ensure the standing leg is straight, firmly planted, and both hip points are squared forward toward the elevated foot."
+    ],
+    "steps": [
+      "Engage your torso and hinge forward at the hips while keeping your spine neutral.",
+      "Lean forward until you feel a comfortable stretch along the back of the elevated thigh.",
+      "Hold the position steadily for the desired time without bouncing.",
+      "Gently ease back upright, lower the leg to the floor, and repeat on the opposite side."
+    ],
+    "breathing": "Breathe smoothly and deeply throughout the hold, using each exhalation to relax deeper into the stretch.",
+    "cues": [
+      "Hinge from the hips, not the lower back",
+      "Keep both hip bones facing straight forward",
+      "Pull the toes back toward the shin to intensify the line of tension"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding the lower back to reach forward.",
+        "correction": "Maintain a flat back and push your hips backward rather than trying to touch your forehead to your knee."
+      },
+      {
+        "fault": "Rotating the hips open away from the elevated leg.",
+        "correction": "Square your pelvis so both hip bones point straight ahead toward the platform."
+      },
+      {
+        "fault": "Using an elevation that is excessively high, forcing hip compensation.",
+        "correction": "Choose a lower step or bench that allows your pelvis to remain level and upright."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Never aggressively bounce or force a range of motion that causes sharp pain or joint irritation behind the knee."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

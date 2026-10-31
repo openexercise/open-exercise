@@ -1,0 +1,183 @@
+{
+  "is_exercise": true,
+  "name": "Plank Tuck Jump",
+  "summary": "A dynamic bodyweight exercise where you jump both feet forward toward the chest from a high plank and immediately rebound back.",
+  "aliases": [
+    {
+      "text": "Plank Tuck",
+      "kind": "common"
+    },
+    {
+      "text": "Plank Hop",
+      "kind": "common"
+    },
+    {
+      "text": "Plank In-and-Out",
+      "kind": "common"
+    },
+    {
+      "text": "Dynamic Planche",
+      "kind": "misspelling"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "conditioning",
+      "plyometric"
+    ],
+    "movement_patterns": [
+      "anti-extension",
+      "jump"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "prone",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Assume a high plank position on the floor with your hands directly under your shoulders.",
+      "Extend your legs straight back with your feet hip-width apart, establishing a rigid straight line from head to heels."
+    ],
+    "steps": [
+      "Brace your core and jump both feet forward simultaneously, bending your knees to tuck them toward your chest.",
+      "Land lightly on the balls of your feet under your hips.",
+      "Immediately push off the ground to jump both feet back to the starting plank position.",
+      "Re-establish a neutral spine and core tension momentarily before initiating the next repetition."
+    ],
+    "breathing": "Exhale forcefully as you tuck your knees toward your chest, and inhale as you jump your feet back into the plank.",
+    "cues": [
+      "Push the floor away through your shoulders.",
+      "Stay light on your toes.",
+      "Don't let your hips sag on the return."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the hips to drop and hyperextending the lower back when kicking out.",
+        "correction": "Squeeze the glutes and brace the abdominals to catch yourself in a solid neutral plank."
+      },
+      {
+        "fault": "Shifting shoulders backward behind the wrists during the jump.",
+        "correction": "Keep your shoulders stacked directly over or slightly ahead of your hands throughout the movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the floor surface is non-slip to prevent your hands or feet from sliding during the impact."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

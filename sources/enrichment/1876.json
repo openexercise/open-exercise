@@ -1,0 +1,131 @@
+{
+  "is_exercise": true,
+  "name": "Wall Calf Stretch",
+  "summary": "A standing static stretch targeting the gastrocnemius and soleus by driving the rear heel into the ground with hands supported against a wall.",
+  "aliases": [
+    {
+      "text": "Supported Calf Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Wall Calf Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Calf Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Runner's Calf Stretch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "isolation-ankle"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "split",
+  "muscles": [
+    {
+      "muscle": "gastrocnemius",
+      "role": "stretched"
+    },
+    {
+      "muscle": "soleus",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "wall"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": []
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand facing a sturdy wall roughly arm's length away.",
+      "Place your palms flat against the wall at chest to shoulder height.",
+      "Step one leg straight back into a staggered stance, keeping the rear foot pointing directly forward."
+    ],
+    "steps": [
+      "Keep the rear knee fully extended and press the rear heel firmly into the floor.",
+      "Bend the front knee and shift your hips gently forward toward the wall until you feel a moderate stretch in the back calf.",
+      "Hold the position steadily without bouncing for the intended duration.",
+      "Step forward to relieve tension, then repeat with the opposite leg."
+    ],
+    "breathing": "Maintain slow, deep breathing throughout the hold, allowing the calf muscles to relax on each exhale.",
+    "cues": [
+      "Drive the back heel into the floor",
+      "Keep rear toes pointing straight ahead",
+      "Shift the hips forward, not just the chest"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the rear heel off the floor",
+        "correction": "Step the rear foot slightly closer if necessary so the heel remains completely flat on the ground."
+      },
+      {
+        "fault": "Turning the rear foot outward",
+        "correction": "Ensure the toes and kneecap of the rear leg face directly forward toward the wall to target the calf evenly."
+      },
+      {
+        "fault": "Hyperextending the lower back while leaning",
+        "correction": "Engage the core and maintain a neutral spine as you translate your hips forward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ease into the stretch smoothly and avoid ballistic bouncing to prevent straining the Achilles tendon."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

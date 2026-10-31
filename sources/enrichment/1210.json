@@ -1,0 +1,175 @@
+{
+  "is_exercise": true,
+  "name": "Prone T Leg Abduction",
+  "summary": "A bodyweight posterior-chain exercise performed lying prone in a T-position while isometrically holding back extension and actively opening and closing the legs.",
+  "aliases": [
+    {
+      "text": "Skydiver with arms in T-position",
+      "kind": "common"
+    },
+    {
+      "text": "Prone T-hold with leg abduction",
+      "kind": "common"
+    },
+    {
+      "text": "Prone T leg beat",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "isolation-hip-abduction",
+      "spinal-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "muscles": [
+    {
+      "muscle": "gluteus-medius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "abduction",
+        "adduction",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie face down on the floor or an exercise mat with your legs straight and spread wider than shoulder-width.",
+      "Extend your arms straight out to the sides perpendicular to your torso to form a T-shape.",
+      "Rotate your hands so your thumbs point toward the ceiling."
+    ],
+    "steps": [
+      "Engage your glutes, back, and rear shoulders to lift your chest, arms, and thighs off the floor.",
+      "Hold this elevated isometric extension throughout the set.",
+      "Smoothly bring your legs together until your feet touch or nearly touch.",
+      "Spread your legs back out to the starting wide position while keeping the thighs elevated.",
+      "Repeat the leg opening and closing motion for the desired number of repetitions while maintaining torso elevation."
+    ],
+    "breathing": "Breathe continuously and rhythmically throughout the movement, avoiding holding your breath against the abdominal pressure.",
+    "cues": [
+      "Thumbs to the ceiling",
+      "Pinch your shoulder blades",
+      "Keep thighs off the mat",
+      "Squeeze glutes to move legs"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the cervical spine by craning the neck upward.",
+        "correction": "Keep your gaze directed toward the floor to maintain a neutral cervical alignment."
+      },
+      {
+        "fault": "Allowing the thighs or chest to drop to the floor during leg movement.",
+        "correction": "Actively contract the glutes and upper back to keep limbs elevated throughout the entire set."
+      },
+      {
+        "fault": "Bending the knees to move the legs instead of driving through the hips.",
+        "correction": "Keep your knees fully extended and focus on hip abduction and adduction."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Individuals with acute lower back sensitivity should limit the height of trunk extension."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

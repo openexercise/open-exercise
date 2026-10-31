@@ -1,0 +1,228 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Dumbbell RDL",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "DB Romanian Deadlift",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "DB RDL",
+      "kind": "abbreviation"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "hamstrings",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "strap"
+    ],
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1652"
+  },
+  "id": "oec:dumbbell-romanian-deadlift",
+  "instructions": {
+    "setup": [
+      "Stand upright holding a dumbbell in each hand in front of your thighs with an overhand or neutral grip.",
+      "Set your feet hip-width apart and unlock your knees slightly.",
+      "Pull your shoulders back and brace your core, maintaining a neutral spine."
+    ],
+    "steps": [
+      "Initiate the movement by pushing your hips backward while keeping a soft bend in your knees.",
+      "Lower the dumbbells close along the front of your legs until you feel a strong stretch in your hamstrings, typically around mid-shin level.",
+      "Reverse the movement by driving your hips forward and contracting your glutes to return to a fully upright standing position."
+    ],
+    "breathing": "Inhale and brace your core before descending, and exhale as you extend your hips back to the starting position.",
+    "cues": [
+      "Push your hips straight back to the wall behind you.",
+      "Keep the dumbbells skimming your legs.",
+      "Maintain soft knees without turning it into a squat."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding the lumbar spine to reach lower.",
+        "correction": "Stop descending when your hips stop moving backward; depth is dictated by hamstring flexibility, not by touching the floor."
+      },
+      {
+        "fault": "Excessive knee bend turning the movement into a squat.",
+        "correction": "Keep the knee angle fixed throughout the descent and focus purely on hip displacement."
+      },
+      {
+        "fault": "Allowing the dumbbells to drift away from the legs.",
+        "correction": "Engage your lats to keep the dumbbells pulled tight against your thighs and shins."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid hyperextending your lower back at the top of the movement."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Romanian Deadlift",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dumbbell Romanian Deadlift",
+        "url": "https://wger.de/en/exercise/1652/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "AlucardEvil40"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-romanian-deadlift"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-romanian-deadlift"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:bodyweight-hip-hinge"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A bilateral hip-hinge variation performed with dumbbells that emphasizes the hamstrings and glutes through an extended eccentric range."
+}

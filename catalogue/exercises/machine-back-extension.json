@@ -1,0 +1,192 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Seated Back Extension Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Machine Back Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Back Extension Machine",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "erector-spinae",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "extension"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "spinal-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1143"
+  },
+  "id": "oec:machine-back-extension",
+  "instructions": {
+    "setup": [
+      "Adjust the machine seat height so the axis of rotation aligns with your hips.",
+      "Position the back pad against your mid-to-upper back, just below the shoulder blades.",
+      "Sit with your hips firmly against the back of the seat, secure your feet against the footplates, and cross your arms across your chest or lightly grasp the side handles."
+    ],
+    "steps": [
+      "Brace your core and begin extending through your lower back and hips, driving the pad backward in a smooth, controlled motion.",
+      "Extend until your torso is roughly aligned with your hips, avoiding excessive hyperextension of the lumbar spine.",
+      "Pause momentarily at peak contraction.",
+      "Slowly reverse the motion under control, allowing your spine to flex forward slightly to return to the starting position without letting the weight stack touch down."
+    ],
+    "breathing": "Exhale as you extend backward against the pad, and inhale as you return forward to the start.",
+    "cues": [
+      "Push through the mid-back",
+      "Pivot from the hips",
+      "Control the return, don't let the stack slam"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lumbar spine",
+        "correction": "Stop the extension once your torso is upright and in line with your pelvis rather than arching violently backward."
+      },
+      {
+        "fault": "Using momentum to swing the weight back",
+        "correction": "Move slowly through both the concentric and eccentric phases with deliberate muscular control."
+      },
+      {
+        "fault": "Misaligning the machine pivot with the hip joint",
+        "correction": "Adjust the seat height prior to loading so the machine's pivot axis matches your hips."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using ballistic speeds or excessive loads if you have a history of lumbar disc pathology."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Machine Back Extension",
+  "previous_ids": [
+    "oec:seated-back-extension-machine"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Seated Back Extension Machine",
+        "url": "https://wger.de/en/exercise/1143/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Franpol"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:superman"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:superman"
+    }
+  ],
+  "setup": {
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A seated machine exercise targeting the lower back extensors by pushing the upper torso backward against a padded lever arm."
+}

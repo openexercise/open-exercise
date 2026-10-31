@@ -1,0 +1,240 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Lat Pulldown - Cross Body Single Arm",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cross-Body Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Cross-Body Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Cross-Body Pulldown",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "adduction",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "downward-rotation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable",
+        "selectorized-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1659"
+  },
+  "id": "oec:cable-single-arm-cross-body-lat-pulldown",
+  "instructions": {
+    "setup": [
+      "Attach a single D-handle to a high cable pulley or lat pulldown station.",
+      "Sit slightly angled or sideways relative to the cable path so the working arm aligns naturally with the line of pull across your torso.",
+      "Anchor your legs under the thigh pads or brace firmly against the seat, holding the handle with the working arm fully extended overhead.",
+      "Grip the machine frame with your free hand to stabilize your torso."
+    ],
+    "steps": [
+      "Allow the cable to gently elevate and upwardly rotate your shoulder blade at the top for a deep stretch along the lat.",
+      "Initiate the pull by depressing your shoulder blade and driving your elbow down toward your hip.",
+      "Pull the handle diagonally down across your body until your elbow reaches your side and your lat is fully contracted.",
+      "Pause briefly at peak contraction, then reverse the movement with control back to full overhead extension."
+    ],
+    "breathing": "Exhale as you pull your elbow down toward your hip; inhale as you slowly return the cable overhead into the stretch.",
+    "cues": [
+      "Drive the elbow to your hip pocket.",
+      "Let the lat stretch up and across at the top.",
+      "Keep your torso braced and avoid twisting."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively rotating the torso to heave the weight down.",
+        "correction": "Brace the core, hold the machine frame with the non-working hand, and keep your chest facing a fixed direction throughout the set."
+      },
+      {
+        "fault": "Pulling primarily with the biceps by over-curling the wrist and elbow.",
+        "correction": "Think of the hand purely as a hook and initiate the movement entirely by driving the elbow downward."
+      },
+      {
+        "fault": "Cutting the range of motion short at the top.",
+        "correction": "Allow your shoulder blade to elevate fully at the top to achieve the full passive stretch on the latissimus dorsi."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Control the eccentric phase rather than letting the weight stack yank your shoulder into excessive flexion."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Cable Single-Arm Cross-Body Lat Pulldown",
+  "previous_ids": [
+    "oec:lat-pulldown-cross-body-single-arm"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Lat Pulldown - Cross Body Single Arm",
+        "url": "https://wger.de/en/exercise/1659/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Shiladree"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-single-arm-lat-pulldown"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:cable-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:single-arm-cable-cross-body-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-half-kneeling-single-arm-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:half-kneeling-single-arm-lat-pulldown"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "rotating"
+    },
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A unilateral pulldown variation performed across the body to optimize lat fiber alignment and enhance the stretch at the top of the movement."
+}

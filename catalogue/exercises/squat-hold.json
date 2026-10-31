@@ -1,0 +1,224 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Isometric Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Isometric Squat Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Bodyweight Squat Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Static Squat Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Air Squat Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Isometric Squat to Failure",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "soleus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1733"
+  },
+  "id": "oec:squat-hold",
+  "instructions": {
+    "setup": [
+      "Stand tall with your feet approximately shoulder-width apart, toes pointing slightly outward.",
+      "Brace your core and bring your hands together in front of your chest for balance."
+    ],
+    "steps": [
+      "Hinge at the hips and bend your knees to lower into a squat until your thighs are roughly parallel to the floor.",
+      "Hold this position statically without rising or sinking deeper, keeping your chest proud and your weight distributed across your whole foot.",
+      "Maintain the static hold for the targeted duration or until technical failure.",
+      "Press through your midfoot and heels to stand back up to the starting position."
+    ],
+    "breathing": "Breathe continuously and steadily throughout the hold rather than holding your breath.",
+    "cues": [
+      "Chest up, weight balanced",
+      "Knees tracking with your toes",
+      "Stay rooted through the midfoot"
+    ],
+    "common_faults": [
+      {
+        "fault": "Knees caving inward during the hold.",
+        "correction": "Actively push your knees outward in line with your toes."
+      },
+      {
+        "fault": "Allowing the torso to collapse forward and rounding the spine.",
+        "correction": "Keep your core braced and maintain an upright, proud chest."
+      },
+      {
+        "fault": "Gradually creeping upward out of parallel depth as fatigue sets in.",
+        "correction": "Commit to holding a consistent thigh-parallel depth throughout the duration."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you reach complete muscular failure, simply lower safely down to the floor or place your hands on your knees to assist yourself up."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Squat Hold",
+  "previous_ids": [
+    "oec:isometric-squat-to-failure"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Isometric Squat to Failure",
+        "url": "https://wger.de/en/exercise/1733/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Tierrasverdes"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:bodyweight-squat"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:wall-sit"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:wall-sit"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A bodyweight isometric exercise where a static squat position is held to build muscular endurance and stability in the lower body."
+}

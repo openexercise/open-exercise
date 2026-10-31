@@ -1,0 +1,200 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Standing Quad Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Quad Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Flamingo Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Quadriceps Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-femoris",
+        "role": "stretched"
+      },
+      {
+        "muscle": "vastus-lateralis",
+        "role": "stretched"
+      },
+      {
+        "muscle": "vastus-medialis",
+        "role": "stretched"
+      },
+      {
+        "muscle": "vastus-intermedius",
+        "role": "stretched"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "extension",
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "wall",
+      "chair",
+      "strap"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1873,2687"
+  },
+  "id": "oec:standing-quadriceps-stretch",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and an upright posture.",
+      "If needed for balance, place one hand against a wall, sturdy chair, or support rail."
+    ],
+    "steps": [
+      "Shift your weight onto the supporting leg with a soft, unlocked knee.",
+      "Bend the opposite knee, bringing your heel up toward your glute.",
+      "Reach back with the hand on the same side and grasp the front of your ankle or top of your foot.",
+      "Gently draw the heel closer to your buttocks while keeping your knees aligned next to each other.",
+      "Slightly tuck your pelvis under to deepen the stretch along the front of the thigh.",
+      "Hold for the desired duration, then gently release the foot back to the floor and switch sides."
+    ],
+    "breathing": "Breathe smoothly and deeply throughout the hold, avoiding holding your breath.",
+    "cues": [
+      "Keep knees glued together.",
+      "Tuck the tailbone slightly.",
+      "Stand tall through the crown of the head."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the stretched knee to drift out to the side or forward.",
+        "correction": "Keep both thighs parallel and the knees close together throughout the stretch."
+      },
+      {
+        "fault": "Arching the lower back excessively to bring the heel closer.",
+        "correction": "Engage the abdominals and tuck the pelvis slightly under to isolate the stretch to the anterior thigh."
+      },
+      {
+        "fault": "Violently yanking on the foot or ankle.",
+        "correction": "Apply smooth, progressive tension and stop at a comfortable stretch."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a wall or sturdy object for balance if prone to wobbling.",
+        "Use a strap or towel looped around the foot if ankle mobility or knee flexion is limited."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Standing Quadriceps Stretch",
+  "previous_ids": [
+    "oec:quad-stretch",
+    "oec:quadriceps-stretch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Quad Stretch",
+        "url": "https://wger.de/en/exercise/1873/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Davidgj32"
+      },
+      {
+        "title": "wger: Quadriceps Stretch",
+        "url": "https://wger.de/en/exercise/2687/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "tobias08"
+      }
+    ]
+  },
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "single-leg"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral standing flexibility exercise that stretches the anterior thigh muscles by pulling the heel toward the glutes."
+}

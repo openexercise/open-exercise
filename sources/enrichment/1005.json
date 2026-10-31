@@ -1,0 +1,149 @@
+{
+  "is_exercise": true,
+  "name": "Backward Shoulder Circle",
+  "summary": "A dynamic mobility exercise where the shoulders and elbows trace backward circular paths to warm up the shoulder girdle and improve range of motion.",
+  "aliases": [
+    {
+      "text": "Backward Shoulder Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse Shoulder Circle",
+      "kind": "common"
+    },
+    {
+      "text": "Backward Elbow Circle",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-posterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rotator-cuff",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "circumduction",
+        "extension",
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "elevation",
+        "depression",
+        "retraction"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand or sit upright with your spine neutral and shoulders relaxed.",
+      "Place your fingertips lightly on top of your shoulders with your elbows pointing out to the sides."
+    ],
+    "steps": [
+      "Trace large, smooth circles backward with your elbows, moving them forward, upward, backward, and downward.",
+      "Squeeze your shoulder blades together and down as your elbows pass through the rear and bottom of the circle.",
+      "Continue circling backward in a continuous, controlled rhythm for the desired repetitions or duration."
+    ],
+    "breathing": "Breathe smoothly and continuously, inhaling as the chest opens and exhaling as the elbows cycle forward.",
+    "cues": [
+      "Lead with the elbows",
+      "Open the chest",
+      "Pinch your shoulder blades on the way back"
+    ],
+    "common_faults": [
+      {
+        "fault": "Arching the lower back to compensate for limited shoulder mobility.",
+        "correction": "Brace your core and keep your ribcage down throughout the movement."
+      },
+      {
+        "fault": "Rushing through a small, jerky range of motion.",
+        "correction": "Slow down and actively draw the largest smooth circle possible with your elbows."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you feel sharp pain or pinching in the shoulder, reduce the diameter of the circle or stop."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

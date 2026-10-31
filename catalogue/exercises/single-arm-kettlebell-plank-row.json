@@ -1,0 +1,243 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Single Arm Plank to Row",
+      "kind": "common"
+    },
+    {
+      "text": "Kettlebell Plank Row",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Kettlebell Plank Row",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Kettlebell Renegade Row",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "anti-rotation",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "mixed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "dumbbell",
+      "mat"
+    ],
+    "required": [
+      [
+        "kettlebell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1022"
+  },
+  "id": "oec:single-arm-kettlebell-plank-row",
+  "instructions": {
+    "setup": [
+      "Place a kettlebell on the floor and assume a push-up position with one hand on the kettlebell handle and the other palm flat on the floor under the shoulder.",
+      "Spread your feet wider than shoulder-width to create a stable base of support.",
+      "Engage your glutes and brace your core so your body forms a straight line from head to heels."
+    ],
+    "steps": [
+      "Push firmly into the floor with the supporting hand to stabilize your upper body.",
+      "Row the kettlebell upward toward your lower ribcage, driving the elbow back while keeping the hips level.",
+      "Pause briefly at the top without letting your torso rotate.",
+      "Lower the kettlebell smoothly back to the floor under control.",
+      "Complete the prescribed repetitions on one side before switching arms."
+    ],
+    "breathing": "Inhale to brace your trunk before lifting, exhale as you row the kettlebell upward, and inhale as you lower it with control.",
+    "cues": [
+      "Lock your hips parallel to the floor.",
+      "Drive your elbow back toward your hip.",
+      "Push the floor away with your base hand."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the hips toward the rowing arm.",
+        "correction": "Widen your feet and brace your abdominals firmly to resist trunk rotation."
+      },
+      {
+        "fault": "Sagging at the lower back and hips.",
+        "correction": "Squeeze your glutes and draw your ribcage down to maintain a rigid plank."
+      },
+      {
+        "fault": "Flaring the rowing elbow wide.",
+        "correction": "Keep the elbow tracking close along the flank of your torso."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the kettlebell has a flat, stable base to prevent tipping when gripping the handle.",
+        "Do not sacrifice core stability or spinal alignment to lift heavier loads."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Single-Arm Kettlebell Plank Row",
+  "previous_ids": [
+    "oec:single-arm-plank-to-row"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Single Arm Plank to Row",
+        "url": "https://wger.de/en/exercise/1022/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-renegade-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-renegade-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "support",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "wide"
+    }
+  },
+  "status": "active",
+  "summary": "A core and upper-back exercise performed by rowing a kettlebell to the hip from a high plank position while resisting torso rotation."
+}

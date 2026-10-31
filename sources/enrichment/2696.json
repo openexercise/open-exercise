@@ -1,0 +1,165 @@
+{
+  "is_exercise": true,
+  "name": "Supported Deep Squat Hold",
+  "summary": "A lower-body mobility drill where you hold a sturdy support to comfortably sit and remain in a full-depth squat.",
+  "aliases": [
+    {
+      "text": "Assisted Deep Squat Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Pole-Assisted Deep Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Assisted Squat Hold",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "squat",
+      "mobility-drill",
+      "stretch"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "soleus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "stretched"
+    },
+    {
+      "muscle": "tibialis-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "squat-rack",
+        "power-rack",
+        "suspension-trainer",
+        "wall"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand facing a sturdy upright support, such as a squat rack post or suspension trainer handles, with feet roughly shoulder-width apart.",
+      "Turn your toes slightly outward to match your natural hip anatomy.",
+      "Grasp the support firmly at roughly chest height."
+    ],
+    "steps": [
+      "Use your arms for support as you push your hips back and bend your knees to sink down into a deep squat.",
+      "Descend until your hips are below your knees while keeping your heels flat on the floor.",
+      "Hold the bottom position with a tall, upright chest and relaxed hips.",
+      "Maintain the static hold for the target duration, using the support to keep your balance and prevent collapsing.",
+      "Pull gently with your arms and drive through your midfoot to stand back up."
+    ],
+    "breathing": "Breathe smoothly and deeply into your belly to encourage your hips and pelvic floor to relax into the bottom position.",
+    "cues": [
+      "Heels flat",
+      "Chest tall",
+      "Knees track over toes",
+      "Sink into the hips"
+    ],
+    "common_faults": [
+      {
+        "fault": "Heels lifting off the ground.",
+        "correction": "Widen your stance slightly, turn the toes out more, and lean back into the support to keep the entire foot planted."
+      },
+      {
+        "fault": "Excessively rounding the spine into a slouched posture.",
+        "correction": "Pull your chest through your shoulders and maintain a proud, neutral spine using the support."
+      },
+      {
+        "fault": "Knees collapsing inward.",
+        "correction": "Actively push your knees outward in line with your middle toes."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the anchor or rack is completely stable and will not tip under your body weight.",
+        "Do not bounce aggressively at terminal hip or knee flexion."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

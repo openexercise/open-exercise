@@ -1,0 +1,227 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Alternating High Cable Row",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Alternating Cable High Row",
+      "kind": "common"
+    },
+    {
+      "text": "High Cable Alternating Row",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "depression",
+          "downward-rotation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull",
+      "anti-rotation"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1486"
+  },
+  "id": "oec:cable-alternating-high-row",
+  "instructions": {
+    "setup": [
+      "Set a cable pulley to a high position above head height and attach a single D-handle.",
+      "Grip the handle with one hand and take a step back from the cable stack into a stable, staggered stance.",
+      "Extend your working arm upward along the line of the cable, bracing your core and keeping your chest tall."
+    ],
+    "steps": [
+      "Drive your elbow down and back toward your hip, retracting your shoulder blade as you pull the handle to your lower ribcage.",
+      "Pause momentarily at peak contraction while resisting excessive torso twist.",
+      "Control the weight back to the fully extended starting position under tension.",
+      "Switch hands and shift your stance to repeat the movement on the opposite side."
+    ],
+    "breathing": "Exhale as you pull the cable toward your torso and inhale as you return the arm to full extension.",
+    "cues": [
+      "Drive the elbow to your hip pocket.",
+      "Keep your chest proud and resist twisting.",
+      "Control the stretch at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive torso rotation and momentum to move the load.",
+        "correction": "Brace your core and keep your shoulders relatively square, using the back muscles to pull rather than swinging your torso."
+      },
+      {
+        "fault": "Shrugging the shoulder toward the ear during the pull.",
+        "correction": "Depress your shoulder blade and lead the movement by driving the elbow downward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a solid staggered stance to avoid being pulled off balance by the cable."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Cable Alternating High Row",
+  "previous_ids": [
+    "oec:alternating-high-cable-row"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Alternating High Cable Row",
+        "url": "https://wger.de/en/exercise/1486/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Moffi"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:single-arm-cable-high-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:single-arm-cable-high-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:half-kneeling-cable-high-row"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "staggered"
+    }
+  },
+  "status": "active",
+  "summary": "A standing cable exercise where you alternately row a high pulley downward and back toward your torso."
+}

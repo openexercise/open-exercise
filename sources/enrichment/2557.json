@@ -1,0 +1,150 @@
+{
+  "is_exercise": true,
+  "name": "Supported Split Squat",
+  "summary": "A stationary split squat performed while holding a sturdy object to reduce balance demands and isolate lower-body drive.",
+  "aliases": [
+    {
+      "text": "Hand-Supported Split Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Assisted Split Squat",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "rehabilitation",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "split-stance",
+  "stance_width": "hip",
+  "stance_kind": "split",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "wall",
+        "power-rack",
+        "squat-rack",
+        "chair"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand adjacent to a sturdy post, rack upright, wall, or chair.",
+      "Place one hand lightly on the support for balance.",
+      "Step one leg backward into a split stance, maintaining hip-width distance between your feet."
+    ],
+    "steps": [
+      "Descend by bending both knees simultaneously, keeping your torso tall with a slight forward incline.",
+      "Lower under control until your back knee is hovering just above the floor.",
+      "Press through the midfoot and heel of your front foot to extend both knees and return to the starting position.",
+      "Perform the desired repetitions before switching legs."
+    ],
+    "breathing": "Inhale on the descent; exhale as you push back up to the starting position.",
+    "cues": [
+      "Light touch on the support",
+      "Drop straight down",
+      "Drive through the front heel"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling excessively with the supporting hand",
+        "correction": "Use the hand support solely for stability, letting the legs generate all lifting force."
+      },
+      {
+        "fault": "Stance too narrow laterally",
+        "correction": "Keep feet hip-width apart as if standing on train tracks rather than a tightrope."
+      },
+      {
+        "fault": "Front heel rising off the floor",
+        "correction": "Step slightly farther forward or sit back slightly so weight remains distributed across the entire front foot."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the support object is stable and firmly anchored before placing weight on it."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

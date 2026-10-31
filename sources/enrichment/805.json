@@ -1,0 +1,153 @@
+{
+  "is_exercise": true,
+  "name": "Cable Triceps Pushdown",
+  "summary": "An upper-arm isolation exercise using a high cable pulley to extend the elbows against resistance.",
+  "aliases": [
+    {
+      "text": "Cable Pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "Triceps Pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "Tricep Pushdown on Cable",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Rope Pushdown",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "triceps-lateral-head",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-medial-head",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-long-head",
+      "role": "synergist"
+    },
+    {
+      "muscle": "anconeus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach a bar or rope to a high cable pulley.",
+      "Stand facing the cable stack with feet hip-width apart and a slight forward lean from the hips.",
+      "Grasp the attachment and position your upper arms vertically at your sides, pinning your elbows near your torso with elbows bent around 90 degrees."
+    ],
+    "steps": [
+      "Extend your elbows smoothly, pressing the attachment down toward your thighs until your arms are fully straight.",
+      "Squeeze your triceps forcefully at full lockout for a brief pause.",
+      "Control the attachment back upward by flexing your elbows until your forearms are roughly parallel to the floor, keeping your upper arms stationary."
+    ],
+    "breathing": "Exhale as you push the cable down into extension; inhale as you control the return.",
+    "cues": [
+      "Pin your elbows to your sides",
+      "Only the forearms move",
+      "Lock out and squeeze the triceps"
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring or drifting the elbows forward and backward during the movement.",
+        "correction": "Lock your upper arms in place against your ribs and isolate movement entirely to the elbow joint."
+      },
+      {
+        "fault": "Using torso momentum or leaning heavily over the handle to force the weight down.",
+        "correction": "Reduce the load, brace your core, and keep your torso stationary throughout the set."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid hyperextending or violently snapping the elbows into lockout under heavy loads."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

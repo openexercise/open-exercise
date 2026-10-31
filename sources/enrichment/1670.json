@@ -1,0 +1,153 @@
+{
+  "is_exercise": true,
+  "name": "Front-to-Back Leg Swing",
+  "summary": "A dynamic lower-body mobility exercise that swings the leg through sagittal hip flexion and extension to prepare the hips and legs for activity.",
+  "aliases": [
+    {
+      "text": "Leg Swings (Front–Back)",
+      "kind": "common"
+    },
+    {
+      "text": "Forward and Backward Leg Swing",
+      "kind": "common"
+    },
+    {
+      "text": "Sagittal Leg Swing",
+      "kind": "common"
+    },
+    {
+      "text": "Front to Back Leg Swing",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "swing",
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_kind": "single-leg",
+  "muscles": [
+    {
+      "muscle": "iliopsoas",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "wall"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "per-side",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall on one leg next to a sturdy wall, post, or rack.",
+      "Place the nearest hand lightly against the support for balance.",
+      "Keep the standing leg slightly soft at the knee and brace your core."
+    ],
+    "steps": [
+      "Swing the free leg forward in a smooth, pendulum-like motion, elevating the foot comfortably.",
+      "Allow the leg to swing naturally back through the starting position and extend behind you.",
+      "Gradually increase the range of motion as your tissues warm up, maintaining a stable, upright torso.",
+      "Complete the desired repetitions, then switch sides."
+    ],
+    "breathing": "Breathe rhythmically and continuously, exhaling gently as the leg swings forward and inhaling as it swings back.",
+    "cues": [
+      "Move from the hip, not the lower back.",
+      "Stand tall on the support leg.",
+      "Keep the swing fluid and controlled."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively arching or rounding the lower back to force higher swings.",
+        "correction": "Brace the abdominals and limit the leg swing to the range your hips can achieve without spinal movement."
+      },
+      {
+        "fault": "Swinging aggressively with rigid momentum rather than controlled rhythm.",
+        "correction": "Start with smaller, relaxed swings and build amplitude gradually without forcing end-range bounce."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure ample clear space in front and behind you so your foot does not hit any objects."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

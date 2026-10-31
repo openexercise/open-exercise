@@ -1,0 +1,156 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Donkey Kick",
+  "summary": "A quadruped hip extension exercise performed with a dumbbell clamped behind the working knee to load the gluteus maximus.",
+  "aliases": [
+    {
+      "text": "Dumbbell Glute Kickback",
+      "kind": "common"
+    },
+    {
+      "text": "Weighted Donkey Kick",
+      "kind": "common"
+    },
+    {
+      "text": "Quadruped Dumbbell Hip Extension",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "hinge",
+      "anti-extension",
+      "anti-rotation"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "quadruped",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Start on all fours on a padded mat with hands placed directly beneath shoulders and knees beneath hips.",
+      "Place a light-to-moderate dumbbell in the crease behind the working knee and squeeze the calf against the hamstring to clamp it securely in place.",
+      "Brace the core and square the hips toward the floor."
+    ],
+    "steps": [
+      "Maintaining a 90-degree bend at the knee and keeping the foot dorsiflexed, drive the heel toward the ceiling by extending the hip.",
+      "Lift until the thigh is aligned with the torso, focusing on contracting the glute without arching the lower back.",
+      "Pause briefly at the top of the movement to maximize peak contraction.",
+      "Lower the working knee under control back toward the floor without setting it down or letting the dumbbell slip.",
+      "Complete all repetitions on one side before transferring the dumbbell to the opposite leg."
+    ],
+    "breathing": "Exhale as you kick the leg upward into hip extension; inhale as you lower the knee back to the start.",
+    "cues": [
+      "Stamp the ceiling with your heel.",
+      "Clamp the dumbbell tight with your hamstring.",
+      "Keep the belt buckle facing straight down."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively arching the lumbar spine to gain height.",
+        "correction": "Brace the abdominal wall and stop the movement when the thigh is in line with the torso."
+      },
+      {
+        "fault": "Rotating and tilting the pelvis open toward the working side.",
+        "correction": "Keep both hip bones pointing directly at the floor throughout each repetition."
+      },
+      {
+        "fault": "Losing hamstring tension, causing the dumbbell to slip or fall.",
+        "correction": "Maintain an active hamstring squeeze at roughly a 90-degree knee bend throughout the entire set."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a dumbbell with a smooth handle and secure grip behind the knee to avoid pinching or dropping it onto the support leg."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

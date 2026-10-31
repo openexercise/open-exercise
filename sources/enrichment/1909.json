@@ -1,0 +1,159 @@
+{
+  "is_exercise": true,
+  "name": "Lying Leg Circle",
+  "summary": "A supine core conditioning exercise where both legs are kept together and rotated in small, controlled circles to challenge abdominal stability.",
+  "aliases": [
+    {
+      "text": "Leg Wheel",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Leg Circle",
+      "kind": "common"
+    },
+    {
+      "text": "Double Leg Circle",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Leg Circles",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "pilates"
+    ],
+    "movement_patterns": [
+      "anti-extension",
+      "anti-rotation"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "stance_width": "narrow",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "synergist"
+    },
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "circumduction"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "per-side",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie face up on a mat with your arms extended along your sides and palms pressing into the floor for support.",
+      "Raise both legs together toward the ceiling so your hips are flexed at approximately 90 degrees.",
+      "Press your lower back firmly into the floor by bracing your abdominals."
+    ],
+    "steps": [
+      "Keeping your legs squeezed together, slowly begin tracing smooth, controlled circles in the air with your feet.",
+      "Maintain continuous abdominal engagement, preventing your lower back from lifting as the legs move away from your torso.",
+      "Complete the desired repetitions or time in one direction, then reverse and circle in the opposite direction."
+    ],
+    "breathing": "Breathe continuously and rhythmically, exhaling as your legs circle away from your torso to reinforce abdominal bracing.",
+    "cues": [
+      "Anchor your lower back to the floor",
+      "Keep the inner thighs glued together",
+      "Draw controlled circles from the hips"
+    ],
+    "common_faults": [
+      {
+        "fault": "Arching the lower back off the floor",
+        "correction": "Reduce the diameter of the circles and maintain a strong posterior pelvic tilt throughout the movement."
+      },
+      {
+        "fault": "Swinging the legs using momentum",
+        "correction": "Slow down the pace and control every inch of the circular trajectory using your core and hip muscles."
+      },
+      {
+        "fault": "Letting the knees separate or drift excessively",
+        "correction": "Keep your adductors engaged to keep your knees and feet touching at all times."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid making large circles if you experience clicking or pinching in the anterior hip; reduce circle diameter to stay within a pain-free range."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

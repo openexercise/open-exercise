@@ -1,0 +1,222 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Lat Pulldown Isometric",
+      "kind": "common"
+    },
+    {
+      "text": "Lat Pulldown Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Lat Pulldown Isometric Hold",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "adduction",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "downward-rotation",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable",
+        "selectorized-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2540"
+  },
+  "id": "oec:isometric-lat-pulldown",
+  "instructions": {
+    "setup": [
+      "Attach a wide lat pulldown bar to the high pulley.",
+      "Adjust the thigh pad so your legs are firmly secured with feet flat on the floor.",
+      "Grasp the bar with an overhand grip slightly wider than shoulder width.",
+      "Sit down under the pads, extending your arms overhead with your chest lifted and a slight backward torso lean."
+    ],
+    "steps": [
+      "Depress your scapulae and pull the bar smoothly downward toward your upper chest by driving your elbows down and back.",
+      "Hold the bar statically at upper-chest level without letting it rise or your posture collapse.",
+      "Maintain continuous tension through your lats and mid-back for the targeted duration.",
+      "Control the weight back up to full extension once the hold is complete."
+    ],
+    "breathing": "Inhale as you prepare the pull, exhale during the initial contraction, and breathe shallowly but steadily while maintaining core tension during the hold.",
+    "cues": [
+      "Drive your elbows into your back pockets",
+      "Keep your chest high to the bar",
+      "Squeeze your armpits down"
+    ],
+    "common_faults": [
+      {
+        "fault": "Leaning back excessively to turn the exercise into a horizontal row.",
+        "correction": "Maintain a fixed, slight backward torso angle of roughly ten to fifteen degrees throughout the hold."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears during the hold.",
+        "correction": "Actively depress your shoulder blades away from your ears to keep tension on the lats."
+      },
+      {
+        "fault": "Letting the elbows drift backward behind the torso, rotating the shoulders forward.",
+        "correction": "Keep your elbows pulled directly down in line with the seams of your shirt."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not drop the weight stack abruptly from the held position; release under control to protect the shoulders."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Isometric Lat Pulldown",
+  "previous_ids": [
+    "oec:lat-pulldown-isometric"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Lat Pulldown Isometric",
+        "url": "https://wger.de/en/exercise/2540/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "HexoctusEngineering"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-lat-pulldown"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:pull-up-hold"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:pull-up-hold"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "wide"
+    },
+    "position": "seated",
+    "range": "pause"
+  },
+  "status": "active",
+  "summary": "A lat pulldown variation where the bar is pulled to the chest and held statically in the fully contracted position to build pulling strength and muscular endurance."
+}

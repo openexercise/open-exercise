@@ -1,0 +1,210 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Cross-Cable Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Dual Cable Cross Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "High Cable Cross Tricep Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Cross-Over Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "High-Cable Cross Tricep Extention - NB",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "anconeus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1298"
+  },
+  "id": "oec:cable-cross-triceps-extension",
+  "instructions": {
+    "setup": [
+      "Set two cable pulleys at or slightly above head height without handles (or with single D-handles).",
+      "Stand centered between the pulleys facing away from the stacks, cross your arms to grasp the left cable with your right hand and the right cable with your left hand.",
+      "Step slightly forward into a stable hip-width stance, allowing your upper arms to align with the angle of the cables at your sides."
+    ],
+    "steps": [
+      "Lock your upper arms in place pinned slightly forward and outward from your torso.",
+      "Extend both elbows downward and slightly outward along the path of the cables until your arms are fully locked out.",
+      "Squeeze your triceps firmly at peak contraction for a brief pause.",
+      "Control the weight back under tension by flexing your elbows until your forearms pass roughly ninety degrees."
+    ],
+    "breathing": "Exhale as you extend your elbows into lockout; inhale as you return to the flexed position.",
+    "cues": [
+      "Lock your elbows in space.",
+      "Push down and out along the cables.",
+      "Control the stretch at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Drifting the shoulders forward and backward during reps.",
+        "correction": "Keep the upper arms stationary; movement should only occur at the elbow joint."
+      },
+      {
+        "fault": "Letting the elbows flare excessively out of line with the cable angle.",
+        "correction": "Align your upper arm angle directly with the direction of the cable line of pull."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not hyperextend the elbows abruptly under heavy loads."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable Cross Triceps Extension",
+  "previous_ids": [
+    "oec:high-cable-cross-tricep-extention-nb"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: High-Cable Cross Tricep Extention - NB",
+        "url": "https://wger.de/en/exercise/1298/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "JackSparrow"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-triceps-pushdown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-cross-body-triceps-extension"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-rope-triceps-pushdown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-triceps-pushdown"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A triceps isolation exercise performed using dual crossed high cables to extend the elbows along the natural line of the upper arms."
+}

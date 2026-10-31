@@ -1,0 +1,176 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Pin Bench Press",
+  "summary": "A barbell bench press variation where the bar pauses on safety pins at a designated height to build concentric power and eliminate sticking points.",
+  "aliases": [
+    {
+      "text": "Pin Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Pin Press",
+      "kind": "common"
+    },
+    {
+      "text": "Rack Press",
+      "kind": "common"
+    },
+    {
+      "text": "Rack Bench Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "powerlifting",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "supine",
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "range": "pin",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rotator-cuff",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "power-rack"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "adjustable-bench"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "rir",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Position a flat bench inside a power rack and set the safety pins to your target height, typically one to three inches off your chest or at your specific sticking point.",
+      "Lie supine on the bench with your eyes directly under the racked barbell.",
+      "Retract and depress your scapulae, drive your feet into the floor, and grasp the barbell with a full, pronated grip slightly wider than shoulder-width.",
+      "Unrack the barbell and establish full control directly over your chest with locked elbows."
+    ],
+    "steps": [
+      "Inhale, brace your core, and lower the barbell under control until it comes to a complete rest on the safety pins.",
+      "Pause for a deliberate second on the pins while maintaining muscular tension and your arched upper-back setup.",
+      "Drive your feet into the ground and press the barbell explosively off the pins back to the starting lockout position.",
+      "Stabilize the barbell at lockout before beginning the next repetition."
+    ],
+    "breathing": "Take a deep breath and brace your torso before descending, hold your breath through the pause on the pins, and exhale forcefully through or after the lockout.",
+    "cues": [
+      "Maintain tension on the pins; don't collapse.",
+      "Drive the floor away with your feet.",
+      "Explode off the pins with maximum intent."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bouncing the barbell off the safety pins.",
+        "correction": "Bring the bar to a complete, dead stop on the pins before pressing up to eliminate elastic energy."
+      },
+      {
+        "fault": "Losing torso tightness and scapular retraction when resting on the pins.",
+        "correction": "Keep your back arched, shoulder blades pinned together, and upper body completely tight even while the bar rests on the pins."
+      },
+      {
+        "fault": "Uneven contact where one side hits the pins before the other.",
+        "correction": "Ensure your grip is centered and lower the bar symmetrically along a consistent bar path."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Double-check that the safety pins are set at identical heights on both sides of the rack.",
+        "Ensure the bar is safely aligned to contact both pins smoothly without clipping rack uprights."
+      ],
+      "spotter": "recommended",
+      "safeties": true
+    }
+  }
+}

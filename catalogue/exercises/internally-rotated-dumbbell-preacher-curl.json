@@ -1,0 +1,199 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Preacher Curl - Internally Rotated",
+      "kind": "common"
+    },
+    {
+      "text": "Internal Rotation Preacher Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Internally Rotated Preacher Curl",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-short-head",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "internal-rotation",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "radioulnar",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "preacher-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1657"
+  },
+  "id": "oec:internally-rotated-dumbbell-preacher-curl",
+  "instructions": {
+    "setup": [
+      "Adjust the preacher bench height so your underarm rests securely near the top of the pad while seated.",
+      "Hold a dumbbell in one hand with an underhand (supinated) grip.",
+      "Angle your torso slightly toward the working arm so the humerus is internally rotated relative to the torso, resting the back of the upper arm flush against the pad."
+    ],
+    "steps": [
+      "Begin with the arm extended down the pad, maintaining slight muscular tension at the bottom of the range without locking out into hyperextension.",
+      "Curl the dumbbell upward by flexing the elbow, keeping your upper arm firmly against the preacher pad.",
+      "Squeeze the bicep forcefully at the top of the curl without letting the elbow drift off the support.",
+      "Lower the dumbbell under control along the pad back to the starting position."
+    ],
+    "breathing": "Exhale while curling the dumbbell up; inhale as you lower it back down.",
+    "cues": [
+      "Keep the arm flat against the pad.",
+      "Curl through the elbow, don't jerk the shoulder.",
+      "Control the eccentric down to a soft elbow."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the elbow violently at the bottom.",
+        "correction": "Stop just short of total passive lockout to keep active tension on the muscle and protect the elbow joint."
+      },
+      {
+        "fault": "Lifting the elbow off the pad to assist the lift.",
+        "correction": "Keep the upper arm pinned flush against the preacher pad throughout the entire repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use moderate loads to avoid excessive strain on the distal biceps tendon in the fully extended position."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Internally Rotated Dumbbell Preacher Curl",
+  "previous_ids": [
+    "oec:preacher-curl-internally-rotated"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Preacher Curl - Internally Rotated",
+        "url": "https://wger.de/en/exercise/1657/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Shiladree"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:single-arm-dumbbell-preacher-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:single-arm-dumbbell-preacher-curl"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated"
+    },
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A single-arm preacher curl variation where the torso is angled toward the working arm to emphasize elbow flexion with shoulder internal rotation."
+}

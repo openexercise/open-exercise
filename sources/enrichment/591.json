@@ -1,0 +1,154 @@
+{
+  "is_exercise": true,
+  "name": "Sit-Up",
+  "summary": "A classic bodyweight core exercise that raises the torso from a supine position to an upright seated position via spinal and hip flexion.",
+  "aliases": [
+    {
+      "text": "Situp",
+      "kind": "common"
+    },
+    {
+      "text": "Sit-ups",
+      "kind": "common"
+    },
+    {
+      "text": "Bent-Knee Sit-Up",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "synergist"
+    },
+    {
+      "muscle": "external-oblique",
+      "role": "synergist"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "synergist"
+    },
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a mat with your knees bent at approximately 90 degrees and your feet flat on the floor about hip-width apart.",
+      "Cross your arms over your chest or lightly place your fingertips behind your ears without pulling on your neck."
+    ],
+    "steps": [
+      "Engage your abdominals and curl your head, neck, and shoulders off the floor, flexing your spine.",
+      "Continue lifting by flexing at the hips until your torso reaches an upright seated position near your thighs.",
+      "Pause briefly at the top while maintaining tension across your core.",
+      "Lower your torso back to the floor in a controlled manner, unrolling through the spine until your shoulders and head lightly touch the mat."
+    ],
+    "breathing": "Exhale as you curl and sit up; inhale smoothly as you lower your torso back to the floor.",
+    "cues": [
+      "Peel up off the floor",
+      "Lead with your chest, not your neck",
+      "Control the descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling aggressively on the back of the neck with the hands.",
+        "correction": "Cross hands across the chest or touch fingertips lightly beside the ears, maintaining a neutral cervical spine."
+      },
+      {
+        "fault": "Using swinging arms or violent momentum to jerk the torso upward.",
+        "correction": "Perform the movement smoothly, initiating with abdominal flexion before pulling through the hips."
+      },
+      {
+        "fault": "Hyperextending the lower back at the bottom of the rep.",
+        "correction": "Keep your pelvis in a neutral or slightly posteriorly tilted position so your lower back does not violently arch."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Individuals with lumbar disc pathologies or active low-back irritation should limit spinal flexion or opt for non-flexion core exercises like planks."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

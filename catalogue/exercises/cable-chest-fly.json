@@ -1,0 +1,230 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Cable Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Crossover Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Cable Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Fly With Cable",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Fly Middle Chest",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-chest-fly",
+      "horizontal-push"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "237,1689"
+  },
+  "id": "oec:cable-chest-fly",
+  "instructions": {
+    "setup": [
+      "Set the cable pulleys to approximately chest height and attach a single D-handle to each side.",
+      "Grasp a handle in each hand, step forward into the center of the station into a staggered stance, and lean slightly forward at the torso.",
+      "Position your arms out to your sides with a slight, fixed bend in your elbows and your palms facing forward."
+    ],
+    "steps": [
+      "Bring both handles forward and inward along a wide arc until your hands meet in front of your chest.",
+      "Squeeze your chest muscles firmly at the peak contraction.",
+      "Reverse the movement under control, allowing your arms to open out wide until you feel a comfortable stretch across your pectorals.",
+      "Maintain the same slight bend in your elbows throughout the entire repetition."
+    ],
+    "breathing": "Inhale as you open your arms and stretch the chest; exhale as you bring the handles together in front of you.",
+    "cues": [
+      "Hug a wide tree barrel.",
+      "Lock your elbows in place.",
+      "Lead with the inner elbows, not the hands."
+    ],
+    "common_faults": [
+      {
+        "fault": "Turning the fly into a chest press by excessively bending and extending the elbows.",
+        "correction": "Maintain a fixed, slight bend in the elbows throughout the full range of motion."
+      },
+      {
+        "fault": "Swinging the torso to build momentum.",
+        "correction": "Brace your core and keep your torso angle steady throughout the set."
+      },
+      {
+        "fault": "Allowing the shoulders to shrug up toward the ears.",
+        "correction": "Keep your shoulder blades depressed and retracted at the start, only allowing natural protraction as your hands meet."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not overstretch the shoulder joint at the back of the movement; stop when your elbows align with your torso."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable Chest Fly",
+  "previous_ids": [
+    "oec:fly-with-cable",
+    "oec:cable-fly-middle-chest"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Fly With Cable",
+        "url": "https://wger.de/en/exercise/237/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      },
+      {
+        "title": "wger: Cable Fly Middle Chest",
+        "url": "https://wger.de/en/exercise/1689/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "daiben"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-crossover"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-chest-fly"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "standing",
+    "stance": {
+      "kind": "staggered"
+    }
+  },
+  "status": "active",
+  "summary": "A standing isolation exercise that uses dual cable pulleys to provide continuous tension across the chest through horizontal adduction."
+}

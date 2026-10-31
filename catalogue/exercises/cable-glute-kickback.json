@@ -1,0 +1,203 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Cable Hip Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Glute Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Cable Glute Kickback",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ],
+      [
+        "strap"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1131"
+  },
+  "id": "oec:cable-glute-kickback",
+  "instructions": {
+    "setup": [
+      "Set the cable pulley to its lowest position and attach an ankle cuff.",
+      "Fasten the cuff securely around the working ankle and face the cable tower.",
+      "Step back slightly to create tension on the cable, plant the non-working foot firmly, and grip the machine frame for upper-body support with a slight forward torso lean."
+    ],
+    "steps": [
+      "Brace your core and keep the working knee soft but fixed.",
+      "Extend your hip backward by contracting the glute, driving the heel behind you without arching your lower back.",
+      "Squeeze the glute firmly at the peak of contraction for a brief pause.",
+      "Slowly return the leg forward under control to the starting position before beginning the next repetition."
+    ],
+    "breathing": "Exhale as you kick backward against resistance; inhale as you return the leg to the start.",
+    "cues": [
+      "Drive through the heel",
+      "Lock your lower back in place",
+      "Squeeze the glute, not the spine"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive arching of the lower back at the top of the movement",
+        "correction": "Brace the abdominals tightly and limit the range of motion to where the hip extends without spinal hyperextension."
+      },
+      {
+        "fault": "Swinging the leg using momentum rather than muscular contraction",
+        "correction": "Control both the concentric kick and the eccentric return with a deliberate tempo."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid heavy loads that force spinal compensation."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Cable Glute Kickback",
+  "previous_ids": [
+    "oec:cable-glute-extension"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Cable glute extension",
+        "url": "https://wger.de/en/exercise/1131/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Franpol"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:band-glute-kickback"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-glute-kickback"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:donkey-kick"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "single-leg"
+    }
+  },
+  "status": "active",
+  "summary": "A standing isolation exercise that uses a low-pulley cable and ankle cuff to target the gluteus maximus through hip extension."
+}

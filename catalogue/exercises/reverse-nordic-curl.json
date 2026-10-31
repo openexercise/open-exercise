@@ -1,0 +1,200 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Natural Leg Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Bodyweight Leg Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse Nordic",
+      "kind": "abbreviation"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-femoris",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "vastus-lateralis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "vastus-medialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "vastus-intermedius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "isolation-knee-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "eccentric-emphasis"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat",
+      "resistance-band"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "909"
+  },
+  "id": "oec:reverse-nordic-curl",
+  "instructions": {
+    "setup": [
+      "Assume a tall-kneeling position on a padded mat with your knees spaced hip-width apart.",
+      "Point your toes behind you with the tops of your feet flat against the floor.",
+      "Squeeze your glutes and brace your abdominals to align your shoulders, hips, and knees in a straight line."
+    ],
+    "steps": [
+      "Keeping your torso and thighs completely rigid, slowly lean your entire body backward by bending at the knees.",
+      "Lower yourself under control as far as comfortable or until your quadriceps are fully stretched.",
+      "Drive through your shins and contract your quadriceps to extend your knees and pull your body back up to the starting tall-kneeling position."
+    ],
+    "breathing": "Inhale as you lower your body backward; exhale as you pull yourself back up to the top.",
+    "cues": [
+      "Stay locked in a straight line from knees to shoulders",
+      "Do not break at the hips",
+      "Control the descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Flexing at the hips and sitting back toward the heels.",
+        "correction": "Squeeze the glutes and maintain complete hip extension throughout the entire range of motion."
+      },
+      {
+        "fault": "Hyperextending the lumbar spine to create an illusion of deeper lean.",
+        "correction": "Brace the core tight and keep the ribcage down to keep the spine neutral."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use knee padding to protect the joint from hard surfaces.",
+        "Only descend through a pain-free range of motion, as this movement places high tensile stress on the patellar tendon."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Reverse Nordic Curl",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Reverse Nordic Curl",
+        "url": "https://wger.de/en/exercise/909/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "karly"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:leg-extension"
+    }
+  ],
+  "setup": {
+    "position": "kneeling",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A bodyweight exercise performed from a tall-kneeling position that challenges the quadriceps through loaded eccentric and concentric knee extension."
+}

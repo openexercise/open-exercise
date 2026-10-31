@@ -1,0 +1,227 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Three-Point Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "One-Leg Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "One-Legged Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Shoulder width three-point push-up",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "anti-rotation",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1209"
+  },
+  "id": "oec:single-leg-push-up",
+  "instructions": {
+    "setup": [
+      "Assume a standard high plank position with your hands placed directly under or slightly wider than your shoulders and your fingers spread.",
+      "Position your feet hip-width apart and establish a rigid line from your head to your heels.",
+      "Lift one foot several inches off the floor while keeping that leg straight, toes pointed toward the floor, and hips level."
+    ],
+    "steps": [
+      "Inhale and lower your chest toward the floor by bending your elbows back at roughly a 45-degree angle to your torso.",
+      "Descend until your chest is just above the floor while resisting any twisting or dipping of the hips.",
+      "Exhale and press through your palms to return to the starting plank position with full elbow extension.",
+      "Complete the desired repetitions, then switch legs."
+    ],
+    "breathing": "Inhale smoothly as you lower your body and exhale forcefully as you press back up.",
+    "cues": [
+      "Keep hips square to the floor",
+      "Glute tight on the elevated leg",
+      "Push the floor away at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the hips toward the elevated leg.",
+        "correction": "Squeeze your core and keep both hip bones facing directly down toward the floor throughout the movement."
+      },
+      {
+        "fault": "Lifting the raised leg too high and arching the lower back.",
+        "correction": "Only raise the foot a few inches off the floor, engaging the glute without extending the lumbar spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain core tension to protect the lower back from hyperextension under rotational torque."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Single-Leg Push-Up",
+  "previous_ids": [
+    "oec:shoulder-width-three-point-push-up"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Shoulder width three-point push-up",
+        "url": "https://wger.de/en/exercise/1209/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "lxmx"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:push-up"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:push-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "prone",
+    "range": "full",
+    "stance": {
+      "kind": "single-leg",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A push-up variation performed with one foot elevated off the floor to challenge core stability and anti-rotation."
+}

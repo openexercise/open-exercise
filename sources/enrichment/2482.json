@@ -1,0 +1,163 @@
+{
+  "is_exercise": true,
+  "name": "Rhythmic Bobbing Drill",
+  "summary": "A foundational swimming breathing drill where you submerge to exhale continuously underwater and surface to inhale rhythmically.",
+  "aliases": [
+    {
+      "text": "Bobs",
+      "kind": "common"
+    },
+    {
+      "text": "Bobbing Drill",
+      "kind": "common"
+    },
+    {
+      "text": "Rhythmic Bobbing",
+      "kind": "common"
+    },
+    {
+      "text": "Bobbing Exhale Drill",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "sport",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "swim"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "transversus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "calves",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "pool"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand in chest-deep water with your feet flat on the bottom of the pool.",
+      "Lightly hold the pool edge or place your hands comfortably at your sides for balance."
+    ],
+    "steps": [
+      "Take a comfortable breath in through your mouth above the surface.",
+      "Bend your knees to submerge your head fully underwater.",
+      "Exhale continuously and steadily through your nose and mouth, blowing a steady stream of bubbles.",
+      "Push off the pool floor to rise back up until your mouth clears the water.",
+      "Inhale immediately as your head breaks the surface and descend without pausing."
+    ],
+    "breathing": "Inhale exclusively above water through your mouth, and exhale completely and continuously through your nose or mouth while submerged.",
+    "cues": [
+      "Exhale under, inhale over",
+      "Blow steady bubbles",
+      "Keep the rhythm smooth and relaxed"
+    ],
+    "common_faults": [
+      {
+        "fault": "Holding your breath underwater instead of exhaling continuously.",
+        "correction": "Hum or blow bubbles the entire time your face is submerged so you are ready to inhale the instant you surface."
+      },
+      {
+        "fault": "Wiping water from the face or pausing at the surface between repetitions.",
+        "correction": "Maintain a continuous, relaxed rhythm and transition immediately from inhaling to submerging."
+      },
+      {
+        "fault": "Attempting to exhale after surfacing.",
+        "correction": "Ensure all air is emptied underwater so your time at the surface is dedicated solely to a quick inhale."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform only in shallow water where you can easily stand with your head above the surface.",
+        "Stop immediately if you feel dizzy, lightheaded, or panicked."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

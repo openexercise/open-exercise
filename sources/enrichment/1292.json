@@ -1,0 +1,171 @@
+{
+  "is_exercise": true,
+  "name": "Chin-Up",
+  "summary": "A bodyweight vertical pulling exercise using a supinated grip that targets the latissimus dorsi and elbow flexors.",
+  "aliases": [
+    {
+      "text": "Reverse-grip pull-up",
+      "kind": "common"
+    },
+    {
+      "text": "Underhand pull-up",
+      "kind": "common"
+    },
+    {
+      "text": "Supinated pull-up",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "hanging",
+  "grip_orientation": "supinated",
+  "grip_width": "shoulder",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "downward-rotation",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "pull-up-bar"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "resistance-band",
+    "dip-belt"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Grip the pull-up bar with a supinated (underhand) grip, palms facing toward you and hands roughly shoulder-width apart.",
+      "Hang with fully extended arms and legs clear of the floor, engaging your core and pulling your shoulder blades slightly down to set an active hang."
+    ],
+    "steps": [
+      "Initiate the pull by depressing and retracting your shoulder blades while driving your elbows down and back toward your ribs.",
+      "Pull smoothly upward until your chin clears the height of the bar.",
+      "Pause briefly at the top without straining or craning your neck.",
+      "Lower yourself under control back down to a full active hang."
+    ],
+    "breathing": "Exhale forcefully as you pull your body upward; inhale smoothly as you lower down under control.",
+    "cues": [
+      "Drive your elbows into your back pockets.",
+      "Chest to the bar, not chin reaching over.",
+      "Stay tight through your midsection to prevent swinging."
+    ],
+    "common_faults": [
+      {
+        "fault": "Kicking the legs or swinging the torso to generate momentum.",
+        "correction": "Brace your core and squeeze your glutes to maintain a hollow-body position throughout the set."
+      },
+      {
+        "fault": "Cutting the bottom range of motion short and failing to reach a full hang.",
+        "correction": "Lower completely until your elbows are fully extended before beginning the next repetition."
+      },
+      {
+        "fault": "Reaching upward with the chin rather than pulling the chest to the bar.",
+        "correction": "Keep your neck neutral and focus on pulling your upper chest toward the bar."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the pull-up bar is securely mounted and rated for full body weight before hanging.",
+        "Step down safely rather than dropping from the top if fatigued."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

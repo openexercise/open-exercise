@@ -1,0 +1,249 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Pin OHP",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Overhead Pin Press",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Overhead Press from Pins",
+      "kind": "common"
+    },
+    {
+      "text": "Anderson Overhead Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-lateral",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "abduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "powerlifting",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "power-rack"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1439"
+  },
+  "id": "oec:barbell-pin-overhead-press",
+  "instructions": {
+    "setup": [
+      "Set the safety pins in a power rack to your target height, typically around chin, nose, or forehead level.",
+      "Rest the barbell across the pins and load the desired weight.",
+      "Step directly beneath the bar in a hip- to shoulder-width parallel stance.",
+      "Grip the bar slightly outside shoulder width with a pronated grip and tuck your forearms vertically under the bar."
+    ],
+    "steps": [
+      "Brace your core, squeeze your glutes, and tilt your head back slightly to clear the bar path.",
+      "Drive the barbell straight up off the pins forcefully until your elbows reach full overhead extension.",
+      "Push your head forward into a neutral position once the bar clears your forehead so it finishes balanced over your midfoot.",
+      "Lower the bar back down under control until it comes to a complete rest on the pins.",
+      "Pause for a full second to dissipate momentum before beginning the next repetition."
+    ],
+    "breathing": "Take a deep breath and brace your abdominal wall before pressing off the pins, and exhale as you reach lockout overhead.",
+    "cues": [
+      "Drive from a dead stop",
+      "Keep forearms vertical",
+      "Squeeze your glutes",
+      "Push your head through at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bouncing the bar off the safety pins to create momentum.",
+        "correction": "Bring the bar to a dead stop on the pins on every repetition before pressing again."
+      },
+      {
+        "fault": "Hyperextending the lumbar spine to turn the movement into an incline press.",
+        "correction": "Firmly contract your glutes and abdominals throughout the press to maintain a neutral spine."
+      },
+      {
+        "fault": "Flaring elbows out too wide at the start.",
+        "correction": "Keep elbows slightly tucked forward directly beneath your wrists."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure both safety pins are set to the exact same height and securely locked in the rack.",
+        "Do not drop the barbell aggressively onto the safety pins to avoid damaging equipment or losing control."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Pin Overhead Press",
+  "previous_ids": [
+    "oec:pin-ohp"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Pin OHP",
+        "url": "https://wger.de/en/exercise/1439/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "M9"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-overhead-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-overhead-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "load_position": "front-rack",
+    "position": "standing",
+    "range": "pin",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A vertical barbell press initiated from a dead-stop on safety pins to develop concentric starting power and target specific overhead sticking points."
+}

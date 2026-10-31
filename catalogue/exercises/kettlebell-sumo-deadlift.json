@@ -1,0 +1,231 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "KB sumo deadlift",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "sumo kettlebell deadlift",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "kettlebell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1612"
+  },
+  "id": "oec:kettlebell-sumo-deadlift",
+  "instructions": {
+    "setup": [
+      "Place a kettlebell on the floor between your feet.",
+      "Stand with a wide stance, roughly one-and-a-half times shoulder width, with your toes turned out at approximately 30 to 45 degrees.",
+      "Position your feet so the kettlebell handle aligns directly with your midfoot."
+    ],
+    "steps": [
+      "Hinge at the hips and bend your knees to reach down, grasping the kettlebell handle firmly with both hands.",
+      "Pull your shoulder blades down and back, brace your core, and ensure your chest stays proud with a neutral spine.",
+      "Drive through the floor with your entire foot, extending your hips and knees together to stand up tall.",
+      "Lock out your hips at the top by squeezing your glutes without leaning backward.",
+      "Reverse the motion by hinging at the hips and letting the knees track out over the toes, controlling the kettlebell smoothly back to the floor."
+    ],
+    "breathing": "Inhale and brace your trunk before pulling; exhale as you complete the ascent and stand tall.",
+    "cues": [
+      "Spread the floor with your feet.",
+      "Knees track over toes.",
+      "Chest tall, lats locked."
+    ],
+    "common_faults": [
+      {
+        "fault": "Knees caving inward during the drive.",
+        "correction": "Actively push your knees outward in line with the direction your toes are pointing."
+      },
+      {
+        "fault": "Rounding the spine when reaching for the kettlebell.",
+        "correction": "Hinge deeper at the hips and bend the knees enough to reach the handle with an upright, braced torso."
+      },
+      {
+        "fault": "Hyperextending the lower back at lockout.",
+        "correction": "Finish the rep by squeezing the glutes and bracing the abs, keeping the rib cage down."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a neutral spine throughout the entire lift; do not let the load pull you into lumbar flexion."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Kettlebell Sumo Deadlift",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: kettlebell sumo deadlift",
+        "url": "https://wger.de/en/exercise/1612/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Tierrasverdes"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:kettlebell-deadlift"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-sumo-deadlift"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-sumo-deadlift"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-sumo-deadlift"
+    },
+    {
+      "type": "part-of",
+      "target": "oec:kettlebell-sumo-deadlift-high-pull"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "narrow"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "sumo"
+    }
+  },
+  "status": "active",
+  "summary": "A wide-stance hip hinge performed with a kettlebell to build strength in the glutes, adductors, hamstrings, and quadriceps."
+}

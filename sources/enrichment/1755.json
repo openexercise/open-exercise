@@ -1,0 +1,164 @@
+{
+  "is_exercise": true,
+  "name": "Cable Cross Upright Row",
+  "summary": "A compound shoulder exercise performed on a dual-pulley cable machine with crossed cables to target the lateral deltoids and upper back.",
+  "aliases": [
+    {
+      "text": "Cross-Cable Upright Row",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Crossover Upright Row",
+      "kind": "common"
+    },
+    {
+      "text": "Shoulder Y-Pull Cable",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Dual Cable Upright Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "narrow",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-lateral",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "elevation",
+        "upward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set both pulleys of a dual cable column to their lowest positions and attach single D-handles.",
+      "Stand centered between the pulleys facing forward.",
+      "Reach across your body to grasp the right handle with your left hand and the left handle with your right hand so the cables cross in front of you.",
+      "Stand tall with feet hip-width apart and arms extended downward in front of your thighs."
+    ],
+    "steps": [
+      "Pull through your elbows, driving them upward and outward toward the ceiling while keeping the handles close to your torso.",
+      "Continue raising until your elbows reach approximately shoulder height and hands reach mid-chest level.",
+      "Pause briefly at the top to squeeze the lateral deltoids and upper back.",
+      "Lower the handles smoothly under control back to the starting position with arms fully extended."
+    ],
+    "breathing": "Exhale as you pull the cables upward and inhale as you lower them under control.",
+    "cues": [
+      "Lead with your elbows",
+      "Keep hands close to your body",
+      "Elbows high and wide"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling the elbows excessively above shoulder height.",
+        "correction": "Stop the upward pull once your elbows are level with your shoulders to avoid subacromial impingement."
+      },
+      {
+        "fault": "Using torso momentum or leaning back to swing the weight up.",
+        "correction": "Brace your core, keep your torso upright, and move only at the shoulders and elbows."
+      },
+      {
+        "fault": "Letting the wrists lead the movement instead of the elbows.",
+        "correction": "Focus on driving the elbows toward the ceiling; hands should stay lower than or level with the elbows throughout."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Individuals with existing subacromial shoulder impingement should limit the top range of motion to where elbows remain slightly below shoulder level."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

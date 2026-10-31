@@ -1,0 +1,132 @@
+{
+  "is_exercise": true,
+  "name": "Machine Hip Abduction",
+  "summary": "A seated machine exercise that isolates the outer hips and glutes by spreading the thighs outward against resistance.",
+  "aliases": [
+    {
+      "text": "Seated Hip Abduction",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Machine Hip Abduction",
+      "kind": "common"
+    },
+    {
+      "text": "Hip Abductor Machine",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-hip-abduction"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "gluteus-medius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-minimus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "piriformis",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "abduction"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit upright in the machine with your back firmly against the backrest.",
+      "Adjust the thigh pads so they rest comfortably against the outside of your knees or lower thighs.",
+      "Place your feet on the foot pegs and grip the side handles for upper-body stability."
+    ],
+    "steps": [
+      "Push your thighs outward against the pads by contracting your outer hips.",
+      "Continue spreading your legs until you reach full hip abduction.",
+      "Hold the fully open position briefly while squeezing your glutes.",
+      "Slowly return your legs to the starting position under control, stopping just before the weight stack touches down."
+    ],
+    "breathing": "Exhale as you push your legs outward; inhale as you slowly return to the center.",
+    "cues": [
+      "Drive outward from the knees.",
+      "Keep your hips and lower back planted.",
+      "Control the eccentric phase without letting the weights slam."
+    ],
+    "common_faults": [
+      {
+        "fault": "Using momentum or swinging the upper body forward to move the weight.",
+        "correction": "Keep your torso stationary against the pad and move only at the hip joints."
+      },
+      {
+        "fault": "Letting the weight stack crash between repetitions.",
+        "correction": "Stop just short of resting the plates to maintain continuous tension on the target muscles."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Adjust the starting width pin to a comfortable stretch that does not force the hips into excessive adduction."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

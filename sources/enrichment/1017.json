@@ -1,0 +1,136 @@
+{
+  "is_exercise": true,
+  "name": "Neck Half Circle",
+  "summary": "A gentle cervical mobility exercise that rolls the head in a smooth semicircle from shoulder to shoulder across the chest.",
+  "aliases": [
+    {
+      "text": "Neck half circles",
+      "kind": "common"
+    },
+    {
+      "text": "Anterior neck rolls",
+      "kind": "common"
+    },
+    {
+      "text": "Half neck roll",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "isolation-neck",
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "sternocleidomastoid",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "splenius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "levator-scapulae",
+      "role": "stretched"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "flexion",
+        "lateral-flexion",
+        "rotation",
+        "circumduction"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "chair"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit or stand tall with an upright spine and relaxed shoulders.",
+      "Gently tilt your right ear toward your right shoulder without elevating the shoulder."
+    ],
+    "steps": [
+      "Slowly roll your chin downward toward the center of your chest in a smooth arc.",
+      "Continue the sweeping motion upward until your left ear nears your left shoulder.",
+      "Pause briefly, then reverse the trajectory, rolling your chin smoothly back down across your chest to the starting side."
+    ],
+    "breathing": "Breathe continuously and evenly throughout the movement, never holding your breath.",
+    "cues": [
+      "Keep shoulders relaxed down",
+      "Draw a smooth arc with your chin",
+      "Move slowly without forcing the range"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling the head backward into hyperextension",
+        "correction": "Restrict the movement to the front hemisphere only, passing through chest flexion rather than rolling backwards."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears",
+        "correction": "Actively depress and relax the shoulders so neck mobility is isolated."
+      },
+      {
+        "fault": "Moving rapidly or bouncing at the end range",
+        "correction": "Perform the movement at a slow, deliberate pace under full muscular control."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Stop immediately if you experience dizziness, numbness, tingling, or sharp pain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

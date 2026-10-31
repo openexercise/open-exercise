@@ -1,0 +1,234 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "One Arm Bent Row",
+      "kind": "common"
+    },
+    {
+      "text": "Cable One-Arm Bent-Over Row",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable Row Bent Over",
+      "kind": "common"
+    },
+    {
+      "text": "Standing One-Arm Cable Row",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "depression"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "anti-rotation"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1186"
+  },
+  "id": "oec:cable-single-arm-bent-over-row",
+  "instructions": {
+    "setup": [
+      "Attach a single D-handle to the lowest setting of a cable column.",
+      "Grasp the handle with one hand and take a step back to create tension on the cable.",
+      "Adopt a staggered stance with the foot opposite your working arm forward.",
+      "Hinge at the hips, keeping your back straight and chest proud, letting your torso sit at roughly a 45-degree angle to the floor."
+    ],
+    "steps": [
+      "Allow the working arm to extend forward toward the pulley, feeling a slight stretch in the lat while keeping your spine braced.",
+      "Drive your elbow down and back toward your hip, retracting your shoulder blade as you pull the handle to your lower ribcage.",
+      "Pause briefly at peak contraction, squeezing the lat without twisting your torso.",
+      "Slowly extend your arm under control to return to the starting position."
+    ],
+    "breathing": "Exhale smoothly as you pull the cable inward; inhale as you slowly return to the stretched position.",
+    "cues": [
+      "Drive the elbow to the hip pocket.",
+      "Keep your shoulders square to the pulley.",
+      "Pull with your back, not your hand."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive torso rotation to heave the weight back.",
+        "correction": "Brace the core firmly and keep the chest facing forward; reduce the load if rotation is unavoidable."
+      },
+      {
+        "fault": "Rounding the lumbar spine in the bent-over position.",
+        "correction": "Hinge at the hips with a slight knee bend and actively engage the spinal erectors to maintain a neutral spine."
+      },
+      {
+        "fault": "Shrugging the working shoulder up toward the ear during the pull.",
+        "correction": "Depress the shoulder blade down and focus on driving the elbow down rather than backward-upward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using momentum to yank the cable stack.",
+        "Keep the lower back locked in neutral throughout the set to minimize shear stress."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Cable Single-Arm Bent-Over Row",
+  "previous_ids": [
+    "oec:one-arm-bent-row"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: One Arm Bent Row",
+        "url": "https://wger.de/en/exercise/1186/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "anto.kreegyr"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-single-arm-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:single-arm-dumbbell-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "bent-over",
+    "stance": {
+      "kind": "staggered",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral horizontal pulling exercise performed with a low cable pulley to target the latissimus dorsi, upper back, and core stabilizers."
+}

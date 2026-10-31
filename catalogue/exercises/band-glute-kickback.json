@@ -1,0 +1,211 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Resistance Band Glute Kickback",
+      "kind": "common"
+    },
+    {
+      "text": "Band Donkey Kick",
+      "kind": "common"
+    },
+    {
+      "text": "Rubber Band Glute Kickback",
+      "kind": "common"
+    },
+    {
+      "text": "Resistance Band Donkey Kick",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "resistance-band",
+        "mini-band"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1613"
+  },
+  "id": "oec:band-glute-kickback",
+  "instructions": {
+    "setup": [
+      "Loop a mini-band around both thighs just above the knees, or anchor a resistance band around your working foot and hold the ends under your hands.",
+      "Assume an all-fours quadruped position on a mat with your wrists stacked directly beneath your shoulders and knees under your hips.",
+      "Brace your core to establish a flat, neutral spine with your gaze directed slightly forward on the floor."
+    ],
+    "steps": [
+      "Keeping your knee bent at roughly ninety degrees, kick your working heel up and back by contracting your glute.",
+      "Drive upward until your thigh aligns with your torso, ensuring your lower back does not hyperextend.",
+      "Pause briefly at the peak to squeeze the working glute.",
+      "Lower your leg with control back to the starting quadruped position without letting the knee touch down between reps."
+    ],
+    "breathing": "Exhale as you kick the leg back and contract the glute, and inhale as you return to the starting position.",
+    "cues": [
+      "Drive through the heel.",
+      "Lock your core and keep the lower back still.",
+      "Squeeze the glute at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Arching the lumbar spine to achieve greater height.",
+        "correction": "Brace the abdominals firmly and only lift the thigh as high as hip extension allows without tilting the pelvis."
+      },
+      {
+        "fault": "Rotating the hips outward to make the movement easier.",
+        "correction": "Keep both hip points squared toward the floor throughout the entire set."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the resistance band is securely placed across the foot or thighs so it does not snap or roll up during movement."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "implements": 1,
+      "kind": "elastic"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "band-tension",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Band Glute Kickback",
+  "previous_ids": [
+    "oec:rubber-band-glute-kickback"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: rubber band glute kickback",
+        "url": "https://wger.de/en/exercise/1613/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Tierrasverdes"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:donkey-kick"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:donkey-kick"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-glute-kickback"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-donkey-kick"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-glute-kickback"
+    }
+  ],
+  "setup": {
+    "position": "quadruped"
+  },
+  "status": "active",
+  "summary": "A quadruped isolation exercise targeting the glutes by extending one hip backward against band resistance."
+}

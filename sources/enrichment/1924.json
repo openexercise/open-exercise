@@ -1,0 +1,153 @@
+{
+  "is_exercise": true,
+  "name": "Machine Crunch",
+  "summary": "A seated machine exercise that isolates the abdominal muscles by flexing the spine against guided resistance.",
+  "aliases": [
+    {
+      "text": "Seated Machine Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Abdominal Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Ab Crunch Machine",
+      "kind": "common"
+    },
+    {
+      "text": "3008 Abdominal Crunch",
+      "kind": "brand"
+    },
+    {
+      "text": "3008 Klappsitz",
+      "kind": "brand"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so the machine's pivot point aligns with your lower ribs or mid-torso.",
+      "Select your desired resistance on the weight stack.",
+      "Sit back firmly against the back pad and secure your feet under the foot rollers or flat on the footrests.",
+      "Grasp the machine handles or rest your upper chest against the front pad according to the machine design."
+    ],
+    "steps": [
+      "Contract your abdominal muscles to curl your ribcage down toward your pelvis.",
+      "Flex your spine forward in a controlled arc without pulling excessively with your arms or hip flexors.",
+      "Pause and squeeze your abdominals firmly at the point of maximum contraction.",
+      "Slowly reverse the movement under control, extending your spine until you return to the starting position without letting the weights slam."
+    ],
+    "breathing": "Exhale as you crunch your torso forward into full contraction, and inhale as you return to the upright position.",
+    "cues": [
+      "Curl your ribs down to your hips",
+      "Squeeze your abs, don't yank with your arms",
+      "Control the stretch on the way up"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling primarily with the arms and shoulders rather than flexing the spine with the abdominals.",
+        "correction": "Maintain a light, steady grip on the handles and focus on drawing the ribcage down toward the pelvis."
+      },
+      {
+        "fault": "Hinging entirely at the hips with a rigid, flat back.",
+        "correction": "Actively round your upper and mid-spine to flex the trunk and isolate the rectus abdominis."
+      },
+      {
+        "fault": "Hyperextending the neck by tucking the chin excessively or throwing the head back.",
+        "correction": "Keep your neck in a neutral position relative to your thoracic spine throughout the movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not use excessive weight that forces you to brace through your hip flexors or compromise spine control."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

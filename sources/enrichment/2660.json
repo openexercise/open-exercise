@@ -1,0 +1,153 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Triceps Kickback",
+  "summary": "An isolation exercise that targets the triceps by extending the elbow from a bent-over torso position.",
+  "aliases": [
+    {
+      "text": "Bent-Over Dumbbell Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Kickback",
+      "kind": "common"
+    },
+    {
+      "text": "Triceps Kickback",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "bent-over",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "anconeus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "bench"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Hold a dumbbell in each hand with a neutral grip.",
+      "Hinge at the hips until your torso is nearly parallel to the floor, keeping your back flat and core braced.",
+      "Pull your elbows up tight to your ribcage so your upper arms are aligned with your torso."
+    ],
+    "steps": [
+      "Keeping your upper arms stationary against your sides, extend your elbows to press the dumbbells backward.",
+      "Contract your triceps firmly as your arms reach full extension.",
+      "Slowly reverse the movement, controlling the dumbbells back to approximately a 90-degree bend at the elbow."
+    ],
+    "breathing": "Exhale as you extend your arms straight back; inhale as you lower the weights with control.",
+    "cues": [
+      "Pin your elbows to your sides",
+      "Only move your forearms",
+      "Squeeze at peak extension"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the upper arm to generate momentum.",
+        "correction": "Lock your upper arms in place parallel to your torso and move strictly at the elbow joint."
+      },
+      {
+        "fault": "Dropping the elbows below torso height.",
+        "correction": "Keep your elbows pulled high and tight throughout the entire repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a neutral spine during the hip hinge to avoid lower back strain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

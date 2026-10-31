@@ -1,0 +1,241 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "DB Deadlift",
+      "kind": "abbreviation"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "trapezius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "fingers",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1370"
+  },
+  "id": "oec:dumbbell-deadlift",
+  "instructions": {
+    "setup": [
+      "Place two dumbbells on the floor just outside your feet, aligned with your midfoot.",
+      "Stand with a hip-width stance, toes pointed slightly outward.",
+      "Hinge at the hips and bend your knees to reach down and grasp the dumbbells with a neutral grip.",
+      "Flatten your back, engage your lats, and brace your core firmly."
+    ],
+    "steps": [
+      "Drive through the whole foot, extending your knees and hips simultaneously to lift the dumbbells.",
+      "Keep the dumbbells close to your body as you stand upright.",
+      "Lock out by standing tall with hips extended; do not hyperextend your lower back.",
+      "Hinge at your hips and bend your knees with control to lower the dumbbells back toward the floor, maintaining a neutral spine throughout."
+    ],
+    "breathing": "Inhale and brace your core at the bottom before initiating the lift; exhale as you pass the sticking point near the top of the repetition.",
+    "cues": [
+      "Push the floor away",
+      "Keep your chest proud and back flat",
+      "Hips back first on the descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding the lumbar spine during the lift or descent.",
+        "correction": "Keep your lats engaged, brace your abdomen, and only lower as far as your mobility allows a neutral spine."
+      },
+      {
+        "fault": "Allowing the dumbbells to drift far forward from the body.",
+        "correction": "Engage your upper back and keep the dumbbells tracking close along the outer shins and thighs."
+      },
+      {
+        "fault": "Squatting the weight rather than hinging at the hips.",
+        "correction": "Initiate the movement by sending the hips backward rather than solely bending at the knees."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid hyperextending the spine at the top of the movement.",
+        "Maintain a neutral cervical spine by gazing forward and slightly down rather than craning the neck upward."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Deadlift",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dumbbell Deadlift",
+        "url": "https://wger.de/en/exercise/1370/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Anastasious"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-deadlift"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-deadlift"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-deadlift"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:trap-bar-deadlift"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "shoulder"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A bilateral hip-hinge exercise performed with a pair of dumbbells to develop the posterior chain and leg extensors."
+}

@@ -1,0 +1,131 @@
+{
+  "is_exercise": true,
+  "name": "Levator Scapulae Stretch",
+  "summary": "A targeted static stretch that relieves tension along the side and back of the neck by gently flexing and rotating the cervical spine.",
+  "aliases": [
+    {
+      "text": "Levator Scap Stretch",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Nose to Armpit Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Sniff the Armpit Stretch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "levator-scapulae",
+      "role": "stretched"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "stretched"
+    },
+    {
+      "muscle": "splenius",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "flexion",
+        "lateral-flexion",
+        "rotation"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "chair"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "load_convention": "not-applicable",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit upright on a chair with good posture, feet flat on the floor.",
+      "Anchor the shoulder of the side you want to stretch by reaching that arm behind your back or gripping the edge of the seat.",
+      "Turn your head roughly 45 degrees away from the anchored shoulder."
+    ],
+    "steps": [
+      "Gently lower your chin toward your opposite armpit or chest until you feel a mild stretch along the side and back of your neck.",
+      "Place your opposite hand lightly onto the crown of your head to apply minimal, passive assistance.",
+      "Hold the position steadily without bouncing.",
+      "Carefully release hand pressure, return your head to neutral, and repeat on the opposite side."
+    ],
+    "breathing": "Breathe smoothly and deeply, allowing the neck musculature to relax further with each exhalation.",
+    "cues": [
+      "Nose to armpit",
+      "Keep the target shoulder depressed",
+      "Gentle guide, not a hard pull"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling aggressively down on the skull",
+        "correction": "Use only the natural weight of your arm to gently guide the stretch; never yank on the cervical spine."
+      },
+      {
+        "fault": "Allowing the target shoulder to elevate",
+        "correction": "Keep the anchored shoulder depressed and still to maintain proper tension across the muscle."
+      },
+      {
+        "fault": "Slumping or rounding the thoracic spine",
+        "correction": "Maintain an upright chest and straight torso so the stretch focuses entirely on the neck."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Stop immediately if you experience sharp pain, dizziness, or nerve-like tingling radiating down the arm."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Dumbbell Rear Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "DB Reverse Lunge",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Dumbbell Step-Back Lunge",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1651"
+  },
+  "id": "oec:dumbbell-reverse-lunge",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart holding a dumbbell in each hand at your sides with arms fully extended.",
+      "Engage your core, pull your shoulders back and down, and keep your chest upright."
+    ],
+    "steps": [
+      "Take a controlled step backward with one leg, landing on the ball of the rear foot.",
+      "Lower your hips straight down until the front thigh is roughly parallel to the floor and the back knee hovers just above the ground.",
+      "Drive firmly through the midfoot and heel of the front foot to push yourself back up to the starting position.",
+      "Complete the desired repetitions on one side before switching, or alternate legs as programmed."
+    ],
+    "breathing": "Inhale as you step back and lower into the lunge; exhale forcefully as you drive through the front foot to return to standing.",
+    "cues": [
+      "Railroad tracks, not a tightrope",
+      "Drive through the front heel",
+      "Keep your torso tall"
+    ],
+    "common_faults": [
+      {
+        "fault": "Stepping the rear foot directly behind the front foot, causing loss of balance.",
+        "correction": "Maintain hip-width spacing between your feet as you step backward."
+      },
+      {
+        "fault": "Slamming the rear knee into the floor.",
+        "correction": "Lower under control and stop just before the rear knee makes hard contact with the ground."
+      },
+      {
+        "fault": "Excessive forward torso collapse over the front thigh.",
+        "correction": "Keep your abdominal wall braced and your chest lifted throughout the movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the floor space behind you is clear of equipment before stepping back."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Dumbbell Reverse Lunge",
+  "previous_ids": [
+    "oec:dumbbell-rear-lunge"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dumbbell Rear Lunge",
+        "url": "https://wger.de/en/exercise/1651/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "AlucardEvil40"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:reverse-lunge"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:reverse-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-reverse-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-walking-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-lunge"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:dumbbell-split-squat"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "split",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral lower-body compound exercise where you step backward into a lunge while holding dumbbells at your sides."
+}

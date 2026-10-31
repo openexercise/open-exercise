@@ -1,0 +1,186 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Clean and Press",
+  "summary": "A full-body explosive lift in which a barbell is pulled from the floor to the shoulders and pressed overhead.",
+  "aliases": [
+    {
+      "text": "Clean and Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "power",
+      "strength",
+      "olympic-weightlifting",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "olympic-lift",
+      "vertical-push",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "mixed",
+    "kinetic_chain": "mixed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "advanced"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "elevation",
+        "upward-rotation"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand with feet hip-width apart and the loaded barbell over your midfoot.",
+      "Hinge at the hips and bend your knees to grip the bar just outside your shins with a pronated hook or closed grip.",
+      "Set your back flat, chest tall, and shoulders slightly ahead of the bar."
+    ],
+    "steps": [
+      "Push through the floor to pull the bar smoothly past the knees while keeping your torso angle constant.",
+      "Once the bar reaches mid-thigh, explosively extend your hips, knees, and ankles, shrugging your shoulders.",
+      "Pull yourself under the bar, rotating your elbows forward quickly to catch the bar across the front of your shoulders in a partial squat.",
+      "Stand fully upright with the bar in the front rack position and reset your feet to shoulder width.",
+      "Brace your core, squeeze your glutes, and press the bar straight overhead until your elbows are fully locked out.",
+      "Lower the bar under control back to the front rack, then safely return it to the floor or hang position."
+    ],
+    "breathing": "Inhale and brace before the initial pull, exhale briefly as the bar is racked, take a fresh breath to brace, and exhale as you lock the press out overhead.",
+    "cues": [
+      "Keep the bar close",
+      "Fast elbows on the catch",
+      "Press through the ceiling"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pressing before establishing stability in the catch position.",
+        "correction": "Stand up completely from the clean and pause to reset your stance and brace before pressing overhead."
+      },
+      {
+        "fault": "Swinging the barbell away from the body during the pull.",
+        "correction": "Keep your lats engaged and drag the bar close along the shins and thighs."
+      },
+      {
+        "fault": "Excessive lower back arching during the overhead press.",
+        "correction": "Squeeze your glutes and brace your abs hard to keep the ribs pulled down as the weight moves upward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure clear space in front and behind you in case the barbell needs to be dumped.",
+        "Use bumper plates when performing full cleans from the floor."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

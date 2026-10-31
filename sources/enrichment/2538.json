@@ -1,0 +1,160 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Lateral Raise Hold",
+  "summary": "An isolation exercise where dumbbells are held statically at shoulder height to build lateral deltoid strength and muscular endurance.",
+  "aliases": [
+    {
+      "text": "Dumbbell Isometric Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Lateral Raise Isometric",
+      "kind": "common"
+    },
+    {
+      "text": "Isometric Side Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Lateral Hold",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-lateral",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "supraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand upright with feet hip-width apart, holding a light dumbbell in each hand at your sides.",
+      "Maintain a soft bend in your knees, brace your core, and set your shoulders down and slightly back."
+    ],
+    "steps": [
+      "Raise the dumbbells out to your sides in the scapular plane with a slight bend in the elbows until your arms are parallel to the floor.",
+      "Hold the dumbbells motionless at shoulder height for the designated target duration.",
+      "Lower the weights slowly and under complete control back to your sides once the time expires."
+    ],
+    "breathing": "Breathe continuously and rhythmically throughout the hold without holding your breath.",
+    "cues": [
+      "Reach toward the walls.",
+      "Keep shoulders depressed away from the ears.",
+      "Stay tall and do not lean back."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive shrugging of the upper traps to hold the position.",
+        "correction": "Keep your shoulder blades depressed and focus on engaging the mid-shoulder rather than hiking your traps."
+      },
+      {
+        "fault": "Arching the lower back to compensate for shoulder fatigue.",
+        "correction": "Keep the glutes and abdominals braced to maintain a neutral spine throughout the hold."
+      },
+      {
+        "fault": "Arms sagging significantly below shoulder level during the hold.",
+        "correction": "End the set when parallel position can no longer be maintained, or reduce the dumbbell weight."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use significantly lighter dumbbells than standard dynamic lateral raises to protect the shoulder joint."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

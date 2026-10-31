@@ -1,0 +1,155 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Hammer Curl",
+  "summary": "A standing bicep curl variation performed with a neutral grip to target the brachialis, brachioradialis, and biceps brachii.",
+  "aliases": [
+    {
+      "text": "hammer curl",
+      "kind": "common"
+    },
+    {
+      "text": "dumbbell hammer curls",
+      "kind": "common"
+    },
+    {
+      "text": "neutral-grip dumbbell curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "brachialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "rir",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and knees slightly soft.",
+      "Hold a dumbbell in each hand at arms' length by your sides.",
+      "Position your hands with palms facing inward toward your thighs in a neutral grip, keeping your shoulders back and chest up."
+    ],
+    "steps": [
+      "Keep your upper arms stationary and pinned near your torso.",
+      "Flex at the elbows to curl the dumbbells upward while keeping your palms facing each other throughout the movement.",
+      "Continue raising the weights until your elbows are fully bent and the dumbbells approach shoulder level.",
+      "Pause momentarily at the top to squeeze the target muscles.",
+      "Lower the dumbbells smoothly back to full elbow extension under control."
+    ],
+    "breathing": "Exhale as you curl the dumbbells up, and inhale as you lower them down.",
+    "cues": [
+      "Pin your elbows to your sides.",
+      "Thumbs toward the ceiling.",
+      "Control the descent without swinging."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to gain momentum to lift the weights.",
+        "correction": "Brace your core and glutes, and reduce the dumbbell weight to ensure movement happens only at the elbow joint."
+      },
+      {
+        "fault": "Flaring elbows out or drifting them significantly forward.",
+        "correction": "Lock upper arms against your ribs so the load is placed directly on the elbow flexors rather than the anterior deltoids."
+      },
+      {
+        "fault": "Supinating or pronating the wrists during the curl.",
+        "correction": "Maintain a strict neutral grip with palms facing each other through the entire range of motion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid hyperextending the lower back under heavy loads."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

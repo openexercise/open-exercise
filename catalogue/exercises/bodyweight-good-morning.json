@@ -1,0 +1,218 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Good Morning",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Hip Hinge",
+      "kind": "common"
+    },
+    {
+      "text": "barbell good morning",
+      "kind": "common"
+    },
+    {
+      "text": "Hip Hinge",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "mobility",
+      "rehabilitation",
+      "strength"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1392"
+  },
+  "id": "oec:bodyweight-good-morning",
+  "instructions": {
+    "setup": [
+      "Stand tall with your feet between hip- and shoulder-width apart.",
+      "Place your hands on your hips or gently behind your head with your elbows flared wide.",
+      "Soften your knees slightly and engage your core to lock in a neutral spine."
+    ],
+    "steps": [
+      "Initiate the movement by reaching your hips backward as if trying to touch a wall behind you.",
+      "Lower your torso forward while keeping your chest proud, spine straight, and knees softly bent at a fixed angle.",
+      "Continue hinging until you feel a deep stretch in your hamstrings or your torso approaches parallel to the floor.",
+      "Drive your hips forward and squeeze your glutes to return to a fully upright standing position."
+    ],
+    "breathing": "Inhale deeply and brace your core as you hinge forward; exhale as you drive your hips forward to stand.",
+    "cues": [
+      "Push your hips straight back",
+      "Keep your back flat and chest proud",
+      "Hinge at the hips, do not squat"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding the lower back during the descent.",
+        "correction": "Brace the abdominals and limit your depth to only as far as you can maintain a flat, neutral spine."
+      },
+      {
+        "fault": "Bending the knees excessively into a squat.",
+        "correction": "Maintain a soft, static knee bend and focus entirely on horizontal hip displacement backward."
+      },
+      {
+        "fault": "Hyperextending the lumbar spine at the top of the movement.",
+        "correction": "Finish the rep by squeezing your glutes to stand tall without arching your lower back backward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Stop the descent if your hamstrings feel excessively tight or if your lower back begins to round."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "tempo",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Bodyweight Good Morning",
+  "previous_ids": [
+    "oec:good-morning"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Good Morning",
+        "url": "https://wger.de/en/exercise/1392/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "captive0592"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:bodyweight-hip-hinge"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-romanian-deadlift"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:dumbbell-romanian-deadlift"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A standing bodyweight hip-hinge exercise that reinforces posterior chain mechanics while strengthening the glutes, hamstrings, and spinal erectors."
+}

@@ -1,0 +1,181 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Forward Lunge",
+  "summary": "A unilateral lower-body compound exercise where you step forward with a barbell on your upper back, descend until both knees bend to approximately ninety degrees, and push back to standing.",
+  "aliases": [
+    {
+      "text": "Barbell Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Barbell Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Front Lunge",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "high-bar",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "squat-rack",
+        "power-rack"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set a barbell in a rack at roughly mid-chest height.",
+      "Step under the bar and rest it across your upper trapezius muscles in a high-bar position, gripping firmly with both hands.",
+      "Unrack the bar by extending your hips and knees, take one or two small steps backward, and stand upright with your feet hip-width apart."
+    ],
+    "steps": [
+      "Take a controlled step forward, planting your lead foot flat on the floor while keeping your torso upright.",
+      "Lower your hips straight down by bending both knees until your back knee gently hovers just above the floor and your front thigh is roughly parallel to the ground.",
+      "Push forcefully off the heel and midfoot of your front leg to drive yourself backward into the starting standing position.",
+      "Repeat the movement with the opposite leg or continue alternating sides for the desired rep count."
+    ],
+    "breathing": "Inhale and brace your core as you step forward and lower down; exhale forcefully as you drive back up to the starting position.",
+    "cues": [
+      "Step onto railroad tracks, not a tightrope.",
+      "Drop your hips straight down, not forward.",
+      "Push the floor away through the front midfoot."
+    ],
+    "common_faults": [
+      {
+        "fault": "Stepping with feet directly in line with each other, causing loss of balance.",
+        "correction": "Maintain hip-width foot spacing throughout the stride as if stepping on separate tracks."
+      },
+      {
+        "fault": "Allowing the front heel to lift off the ground as the knee translates excessively forward.",
+        "correction": "Take a slightly longer step and distribute your weight evenly across the entire front foot."
+      },
+      {
+        "fault": "Excessive forward torso lean collapsing lumbar stability.",
+        "correction": "Brace the abdominal wall firmly and keep the chest proud throughout the descent and push-off."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure adequate floor space in front and behind you clear of plates or tripping hazards.",
+        "Avoid violently banging the trailing knee into the floor on the descent."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

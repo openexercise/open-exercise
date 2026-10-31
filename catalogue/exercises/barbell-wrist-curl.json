@@ -1,0 +1,197 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Forearm Curls",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Forearm Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Barbell Wrist Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Curl De Muñeca Con Barra",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "forearm-flexors",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hand-intrinsics",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "wrist",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "fingers",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-grip"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "51,2452"
+  },
+  "id": "oec:barbell-wrist-curl",
+  "instructions": {
+    "setup": [
+      "Sit on the edge of a flat bench with your feet planted flat on the floor.",
+      "Grasp a barbell with an underhand (supinated) grip about shoulder-width apart.",
+      "Rest the backs of your forearms firmly across your thighs or flat on the bench, allowing your wrists to hang off the edge."
+    ],
+    "steps": [
+      "Lower the barbell by extending your wrists downward in a controlled manner.",
+      "Curl your wrists upward as high as possible, contracting the flexor muscles of your forearms.",
+      "Hold the peak contraction briefly at the top.",
+      "Slowly lower the barbell back down to the extended starting position."
+    ],
+    "breathing": "Exhale as you curl the wrists upward and inhale as you lower the weight.",
+    "cues": [
+      "Keep your forearms glued to the bench or thighs.",
+      "Isolate the movement completely to the wrists.",
+      "Control the descent rather than letting the bar drop."
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the forearms off the thighs or bench during the curl.",
+        "correction": "Keep your forearms firmly anchored so only the wrists move."
+      },
+      {
+        "fault": "Using excessive momentum or body sway.",
+        "correction": "Reduce the weight and execute the movement with a slow, controlled tempo."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid letting the barbell roll out onto the fingertips unless deliberately performing a finger-roll variation with lighter weight."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Wrist Curl",
+  "previous_ids": [
+    "oec:curl-de-mu-eca-con-barra"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Barbell Wrist Curl",
+        "url": "https://wger.de/en/exercise/51/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "burenl"
+      },
+      {
+        "title": "wger: Curl De Muñeca Con Barra",
+        "url": "https://wger.de/en/exercise/2452/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "xWan"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-wrist-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-wrist-curl"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated",
+      "width": "shoulder"
+    },
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A seated forearm isolation exercise that targets the wrist flexors using a barbell rested across the thighs or a flat bench."
+}

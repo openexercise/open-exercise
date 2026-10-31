@@ -1,0 +1,207 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Side Straight-Arm Pulldown (Cable)",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable Pullover",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Straight-Arm Cable Pushdown",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-long-head",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "downward-rotation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1727"
+  },
+  "id": "oec:single-arm-cable-straight-arm-pulldown",
+  "instructions": {
+    "setup": [
+      "Set a cable pulley to its highest position and attach a single D-handle.",
+      "Stand facing or slightly angled to the cable stack, gripping the handle with one hand.",
+      "Step back slightly to create tension on the cable, hinge forward slightly at the hips, and brace your core.",
+      "Keep a soft, fixed bend in your working elbow."
+    ],
+    "steps": [
+      "Depress your scapula and sweep your arm down in an arc toward your hip.",
+      "Squeeze your lat firmly as your hand reaches your hip without letting your shoulder roll forward.",
+      "Control the cable smoothly back along the same path overhead until you feel a deep stretch in your lat.",
+      "Complete all repetitions on one side before repeating with the opposite arm."
+    ],
+    "breathing": "Exhale as you pull the handle down to your hip; inhale as you slowly return the cable overhead.",
+    "cues": [
+      "Drive your elbow straight down to your pocket.",
+      "Lock your elbow angle throughout the entire movement.",
+      "Resist twisting your torso to move the weight."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending and extending the elbow during the rep, turning the movement into a triceps pushdown.",
+        "correction": "Keep a fixed slight bend in the elbow and initiate movement solely from the shoulder joint."
+      },
+      {
+        "fault": "Rotating or tilting the torso to pull the weight down.",
+        "correction": "Brace the abdominals and obliques to keep the shoulders and hips squared throughout the set."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not allow the cable stack to pull your shoulder into extreme, unsupported hyperflexion at the top."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Single-Arm Cable Straight-Arm Pulldown",
+  "previous_ids": [
+    "oec:side-straight-arm-pulldown-cable"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Side Straight-Arm Pulldown (Cable)",
+        "url": "https://wger.de/en/exercise/1727/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "barry"
+      }
+    ]
+  },
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An isolation exercise that targets the latissimus dorsi through unilateral shoulder extension using a high cable."
+}

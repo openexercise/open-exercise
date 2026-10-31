@@ -1,0 +1,171 @@
+{
+  "is_exercise": true,
+  "name": "Squat Thrust",
+  "summary": "A full-body calisthenic exercise where you drop into a squat, kick your feet back into a high plank, jump them forward, and stand up.",
+  "aliases": [
+    {
+      "text": "Four-Count Burpee",
+      "kind": "common"
+    },
+    {
+      "text": "4-Count Burpee",
+      "kind": "common"
+    },
+    {
+      "text": "Burpee without Push-Up",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "conditioning",
+      "cardio"
+    ],
+    "movement_patterns": [
+      "squat",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "moving",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "calves",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "heart-rate"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with your feet shoulder-width apart and arms relaxed at your sides."
+    ],
+    "steps": [
+      "Hinge at the hips and bend your knees to squat down, placing both hands flat on the floor roughly shoulder-width apart just inside or in front of your feet.",
+      "Jump both feet backward simultaneously to land in a rigid high plank position with arms fully extended.",
+      "Immediately jump both feet forward toward your hands, landing in a deep squat position.",
+      "Drive through your feet to stand fully upright to complete the repetition."
+    ],
+    "breathing": "Inhale as you drop down to the floor, exhale forcefully as you kick out into plank, and maintain rhythmic breathing as you return to standing.",
+    "cues": [
+      "Hands down, feet back, feet in, stand tall.",
+      "Lock your core in the plank to prevent hip sag.",
+      "Land softly on the balls of your feet when kicking back."
+    ],
+    "common_faults": [
+      {
+        "fault": "Letting the lower back arch and hips sag into hyperextension during the plank position.",
+        "correction": "Brace your abdominals and squeeze your glutes as your feet hit the back position to maintain a straight line from head to heels."
+      },
+      {
+        "fault": "Landing on the toes with knees collapsed inward when returning from the plank.",
+        "correction": "Jump your feet outside your hands and aim to land flat-footed or on a stable base with knees tracking in line with your toes."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain wrist and shoulder alignment directly over your hands when in the plank position to minimize joint strain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "is_exercise": true,
+  "name": "Wall Sit",
+  "summary": "An isometric bodyweight exercise holding a squat posture against a wall to build lower-body endurance, particularly in the quadriceps.",
+  "aliases": [
+    {
+      "text": "Wall Chair",
+      "kind": "common"
+    },
+    {
+      "text": "Isometric Wall Squat",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "wall"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand with your back flat against a sturdy, smooth wall.",
+      "Step your feet forward roughly two feet from the wall, positioned shoulder-width apart and pointing straight ahead or slightly turned out."
+    ],
+    "steps": [
+      "Slide your back down the wall until your thighs are parallel to the floor, forming ninety-degree angles at both your hips and knees.",
+      "Ensure your knees track directly above your ankles, not extending past your toes.",
+      "Press your entire back and head flat against the wall, resting your arms at your sides or across your chest.",
+      "Hold this position statically for the target duration, keeping tension in the legs throughout.",
+      "Push through your heels and slide back up the wall to stand once finished."
+    ],
+    "breathing": "Breathe continuously and steadily throughout the hold, avoiding holding your breath against fatigue.",
+    "cues": [
+      "Thighs parallel to the floor",
+      "Knees stacked over ankles",
+      "Back flat against the wall",
+      "Hands off the knees"
+    ],
+    "common_faults": [
+      {
+        "fault": "Resting hands on the thighs or knees to offload body weight.",
+        "correction": "Keep your arms crossed over your chest or hanging freely at your sides."
+      },
+      {
+        "fault": "Setting the feet too close to the wall, causing knees to drift far past the toes and overloading the patellofemoral joint.",
+        "correction": "Step your feet far enough forward so your shins remain vertical when your thighs are parallel."
+      },
+      {
+        "fault": "Sitting too high or dropping the hips below knee level.",
+        "correction": "Lower yourself until your hips and knees form clean ninety-degree angles."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform on a non-slip floor surface to prevent the feet from sliding forward during the hold."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

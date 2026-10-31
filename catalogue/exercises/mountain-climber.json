@@ -1,0 +1,235 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Mountain climbers",
+      "kind": "common"
+    },
+    {
+      "text": "Running planks",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "iliopsoas",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "conditioning",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "anti-extension",
+      "crawl"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "996"
+  },
+  "id": "oec:mountain-climber",
+  "instructions": {
+    "setup": [
+      "Place your hands flat on the floor directly beneath your shoulders with fingers spread slightly.",
+      "Extend your legs behind you onto the balls of your feet, establishing a solid high plank position.",
+      "Brace your core, squeeze your glutes, and maintain a straight line from your head to your heels."
+    ],
+    "steps": [
+      "Drive one knee forward toward your chest in a straight line without letting your hips pike upward.",
+      "Quickly switch legs by extending the front leg back while simultaneously driving the opposite knee toward your chest.",
+      "Continue alternating legs in a smooth, rhythmic running motion while keeping your shoulders stacked over your wrists."
+    ],
+    "breathing": "Breathe continuously and rhythmically throughout the set, avoiding holding your breath.",
+    "cues": [
+      "Hands glued under shoulders",
+      "Hips down",
+      "Drive knees to chest",
+      "Pace your rhythm"
+    ],
+    "common_faults": [
+      {
+        "fault": "Piking the hips up into a pike or downward dog position.",
+        "correction": "Keep your core braced and shoulders directly over your wrists to maintain a flat plank profile."
+      },
+      {
+        "fault": "Letting the lower back sag into hyperextension.",
+        "correction": "Engage your abdominal wall and slightly tuck your pelvis to keep the lumbar spine neutral."
+      },
+      {
+        "fault": "Bouncing aggressively off the toes, rocking the upper body forward and back.",
+        "correction": "Isolate the movement to the lower body, keeping the torso and shoulder girdle completely stable."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the floor surface is non-slip so your hands and feet do not slide during dynamic movement."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps",
+          "heart-rate",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Mountain Climber",
+  "previous_ids": [
+    "oec:mountain-climbers"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Mountain climbers",
+        "url": "https://wger.de/en/exercise/996/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:high-plank"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:plank-jack"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "prone",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A dynamic bodyweight movement performed from a high plank position, rapidly driving the knees toward the chest to build core stability and cardiovascular endurance."
+}

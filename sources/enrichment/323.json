@@ -1,0 +1,150 @@
+{
+  "is_exercise": true,
+  "name": "Cable Crossover",
+  "summary": "A chest isolation exercise performed standing between dual cable pulleys, bringing the arms forward and across the body against constant tension.",
+  "aliases": [
+    {
+      "text": "Cable Cross-over",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Cable Crossover",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Fly",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-chest-fly",
+      "horizontal-push"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_kind": "staggered",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach single-grip handles to both high or mid-height pulleys of a dual-cable crossover station.",
+      "Grasp a handle in each hand, step forward into the center to place tension on the cables, and adopt a staggered stance.",
+      "Lean forward slightly from the hips with a tall chest, keeping a slight, fixed bend in your elbows."
+    ],
+    "steps": [
+      "Sweep your hands forward and inward along a wide arc toward the midline of your body.",
+      "Bring your hands together or cross your wrists slightly at full contraction, squeezing the chest hard for a brief pause.",
+      "Slowly reverse the motion, opening your arms back out until you feel a deep stretch across your pectorals, maintaining the fixed elbow angle."
+    ],
+    "breathing": "Inhale as your arms open into the stretched position; exhale forcefully as you bring your hands together.",
+    "cues": [
+      "Hug a wide tree barrel",
+      "Lead with your inner elbows",
+      "Keep the elbow bend locked",
+      "Squeeze the chest, not the hands"
+    ],
+    "common_faults": [
+      {
+        "fault": "Turning the fly into a chest press by excessively bending and extending the elbows.",
+        "correction": "Maintain a consistent slight bend in your elbows throughout the entire range of motion."
+      },
+      {
+        "fault": "Swinging the torso back and forth to generate momentum.",
+        "correction": "Brace the core, maintain a stable staggered stance, and keep the torso stationary."
+      },
+      {
+        "fault": "Allowing the shoulders to shrug up toward the ears at the peak stretch.",
+        "correction": "Depress your scapulae and keep your shoulders down and back."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not allow the weights to pull your arms excessively behind the plane of the torso to avoid anterior shoulder capsule strain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Bent-Over Dumbbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Two-Arm Dumbbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Dual Dumbbell Bent-Over Row",
+      "kind": "common"
+    },
+    {
+      "text": "Bent Over Dumbbell Rows (Two Arms)",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2669"
+  },
+  "id": "oec:dumbbell-bent-over-row",
+  "instructions": {
+    "setup": [
+      "Stand holding a dumbbell in each hand with feet hip-width apart.",
+      "Unlock your knees slightly and hinge at the hips, pushing your glutes back until your torso is angled between 45 and 75 degrees relative to the floor.",
+      "Maintain a flat, neutral spine and let the dumbbells hang directly below your shoulders with fully extended arms."
+    ],
+    "steps": [
+      "Initiate the pull by retracting your shoulder blades and driving your elbows toward your hips.",
+      "Pull the dumbbells upward until your elbows reach or slightly pass your torso, squeezing your back muscles at the peak.",
+      "Lower the dumbbells smoothly back to the starting hang position, allowing full extension of the arms and controlled protraction of the scapulae."
+    ],
+    "breathing": "Inhale and brace your core before initiating the pull, and exhale as you lower the weights or at the bottom between reps.",
+    "cues": [
+      "Lead with the elbows, not the hands.",
+      "Pull to your pockets.",
+      "Keep your chest proud and spine long."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding the lumbar spine during the set.",
+        "correction": "Brace the abdominal wall, keep the chest open, and hinge deeply into the hips rather than bending from the waist."
+      },
+      {
+        "fault": "Using excessive hip thrust and torso momentum to swing the dumbbells up.",
+        "correction": "Lock your torso angle in place and perform the row solely through arm and scapular movement."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears.",
+        "correction": "Depress the shoulders and focus on pulling the elbows back toward the hip crease rather than straight up."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid this unsupported variation if acute lower back fatigue compromises spinal neutral."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Bent-Over Row",
+  "previous_ids": [
+    "oec:bent-over-dumbbell-rows-two-arms"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Bent Over Dumbbell Rows (Two Arms)",
+        "url": "https://wger.de/en/exercise/2669/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "karthikrrk"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-bent-over-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-bent-over-row"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:chest-supported-dumbbell-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "at-sides",
+    "position": "bent-over",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A bilateral free-weight row performed in a hip-hinged stance to build upper-back and lat strength while challenging posterior chain endurance."
+}

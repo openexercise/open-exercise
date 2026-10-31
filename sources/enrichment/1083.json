@@ -1,0 +1,167 @@
+{
+  "is_exercise": true,
+  "name": "Prone YTW Raise",
+  "summary": "A prone bodyweight scapular strengthening exercise that moves the arms through Y, T, and W positions to target the mid and lower trapezius, rhomboids, and rotator cuff.",
+  "aliases": [
+    {
+      "text": "YWTs",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Y-W-T",
+      "kind": "common"
+    },
+    {
+      "text": "Prone YTW",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Y-T-W",
+      "kind": "common"
+    },
+    {
+      "text": "Prone YTW Hold",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "mobility",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "horizontal-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "grip_orientation": "neutral",
+  "muscles": [
+    {
+      "muscle": "trapezius-lower",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "infraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "depression",
+        "upward-rotation"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-abduction",
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie face down on a mat with your legs extended straight behind you.",
+      "Rest your forehead lightly near the floor and keep your neck in a neutral alignment.",
+      "Position your arms overhead at roughly a 45-degree angle in a 'Y' shape, pointing your thumbs toward the ceiling."
+    ],
+    "steps": [
+      "Engage your mid and lower back to lift your arms and upper chest slightly off the ground in the 'Y' position, holding for the desired time.",
+      "Pull your elbows down and back toward your ribs into a 'W' position, pinching your shoulder blades together while keeping your hands lifted.",
+      "Extend your arms straight out to the sides perpendicular to your body in a 'T' position, actively squeezing between your shoulder blades.",
+      "Transition smoothly between the positions while keeping your arms elevated above the floor throughout the sequence."
+    ],
+    "breathing": "Breathe smoothly and continuously into your belly throughout the holds without holding your breath.",
+    "cues": [
+      "Lead with the thumbs",
+      "Pull shoulder blades back and down",
+      "Keep shoulders away from your ears"
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulders toward the ears during the movement.",
+        "correction": "Actively depress your scapulae down toward your back pockets before and during the arm raise."
+      },
+      {
+        "fault": "Excessively hyperextending the lower back or craning the neck upward.",
+        "correction": "Keep your gaze fixed toward the floor and initiate the lift by squeezing the shoulder blades rather than arching your lumbar spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Stop if you experience impingement or pinching pain at the front of the shoulders."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

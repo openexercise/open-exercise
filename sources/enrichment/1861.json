@@ -1,0 +1,138 @@
+{
+  "is_exercise": true,
+  "name": "Standing Side Stretch",
+  "summary": "A standing flexibility exercise that elongates the lateral trunk, targeting the obliques, quadratus lumborum, and latissimus dorsi through gentle lateral flexion.",
+  "aliases": [
+    {
+      "text": "Side Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Side Bend Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Lateral Stretch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "lateral-flexion"
+    ],
+    "mechanics": "not-applicable",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "obliques",
+      "role": "stretched"
+    },
+    {
+      "muscle": "quadratus-lumborum",
+      "role": "stretched"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stretched"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "lateral-flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "lateral-flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "abduction"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "load_convention": "not-applicable",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand upright with your feet hip-width apart and arms resting at your sides.",
+      "Engage your core lightly and keep your pelvis neutral with weight balanced evenly between both feet."
+    ],
+    "steps": [
+      "Reach one arm straight overhead toward the ceiling, keeping the shoulder relaxed and down.",
+      "Inhale to lengthen through your spine, then exhale as you gently bend your torso sideways toward the opposite side.",
+      "Hold the position at a comfortable stretch point along the flank of your body.",
+      "Engage your core to return smoothly to an upright posture, lower your arm, and repeat on the other side."
+    ],
+    "breathing": "Inhale to find length through your spine and exhale as you ease into the side bend, maintaining slow and steady breathing throughout the hold.",
+    "cues": [
+      "Reach up before reaching over",
+      "Keep your chest facing forward",
+      "Ground both feet firmly"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the shoulders or chest forward during the bend",
+        "correction": "Stay strictly in the frontal plane, keeping your chest open and square to the front wall."
+      },
+      {
+        "fault": "Shifting the hips excessively to the opposite side to fake range of motion",
+        "correction": "Keep your pelvis relatively stable and initiate the movement by articulating through the spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid aggressive or bouncy movements into the stretch, especially if you have a history of lumbar disc irritation."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

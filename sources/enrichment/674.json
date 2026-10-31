@@ -1,0 +1,184 @@
+{
+  "is_exercise": true,
+  "name": "Suspension Trainer Row",
+  "summary": "A bodyweight horizontal pull performed on suspension straps that develops the upper back, latissimus dorsi, and core stability.",
+  "aliases": [
+    {
+      "text": "TRX Row",
+      "kind": "brand"
+    },
+    {
+      "text": "Suspension Row",
+      "kind": "common"
+    },
+    {
+      "text": "TRX Inverted Row",
+      "kind": "brand"
+    },
+    {
+      "text": "Rowing with TRX band",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "inverted",
+  "grip_orientation": "neutral",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "depression"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "suspension-trainer"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "weight-vest"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Secure the suspension trainer to an overhead anchor point.",
+      "Grasp both handles with a neutral grip and walk your feet forward so your body leans back at a comfortable angle.",
+      "Extend your arms fully, keeping your body in a rigid, straight line from head to heels with engaged glutes and abdominals."
+    ],
+    "steps": [
+      "Initiate the movement by retracting your shoulder blades and pulling your elbows back past your torso.",
+      "Continue pulling until your chest meets or passes between the handles, pausing briefly at the peak contraction.",
+      "Lower your body under control by extending your arms and allowing your shoulder blades to protract until you return to the starting position."
+    ],
+    "breathing": "Exhale as you pull your chest toward the handles; inhale with control as you lower back down.",
+    "cues": [
+      "Lead with your chest, not your hips.",
+      "Drive your elbows straight back.",
+      "Hold a rigid plank from head to heel."
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging at the hips or thrusting the pelvis forward to initiate the pull.",
+        "correction": "Squeeze the glutes and brace the core to maintain a straight plank alignment throughout the entire repetition."
+      },
+      {
+        "fault": "Shrugging the shoulders upward toward the ears during the pull.",
+        "correction": "Keep the shoulders depressed away from the ears and focus on driving the elbows backward."
+      },
+      {
+        "fault": "Losing tension at the bottom of the movement by releasing shoulder control.",
+        "correction": "Maintain active shoulder engagement and a braced torso even at full arm extension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Verify that the suspension anchor point is rated for full body weight before leaning into the straps."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

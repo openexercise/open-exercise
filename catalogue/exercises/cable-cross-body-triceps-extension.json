@@ -1,0 +1,221 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Cable Tri Extension - Internal Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable Cross-Body Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Cross-Body Cable Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Cross-Body Cable Pushdown",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "anconeus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1662"
+  },
+  "id": "oec:cable-cross-body-triceps-extension",
+  "instructions": {
+    "setup": [
+      "Set the cable pulley to roughly shoulder or upper-chest height.",
+      "Grasp the cable end or rubber stopper with a neutral grip using the opposite hand, reaching across your body.",
+      "Step slightly away from the stack into a stable staggered stance so the cable is under tension with your upper arm aligned with the line of pull."
+    ],
+    "steps": [
+      "Fix your upper arm in place across your body and brace your core.",
+      "Extend your elbow smoothly outward and downward across your body until your arm is fully straightened.",
+      "Pause and squeeze the triceps contraction for a brief moment.",
+      "Control the weight back across your torso to full elbow flexion before beginning the next repetition."
+    ],
+    "breathing": "Exhale as you extend the elbow, and inhale as you control the return.",
+    "cues": [
+      "Keep the upper arm pinned in space.",
+      "Hinge entirely at the elbow.",
+      "Follow the diagonal angle of the cable."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the upper arm or shoulder to initiate movement.",
+        "correction": "Lock the shoulder joint in place and ensure only the forearm moves."
+      },
+      {
+        "fault": "Twisting the torso to help move the load.",
+        "correction": "Brace the core and maintain a rigid, square torso throughout the set."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Select a load that allows complete control and avoids straining the elbow joint at full extension."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Cable Cross-Body Triceps Extension",
+  "previous_ids": [
+    "oec:cable-tri-extension-internal-rotation"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Cable Tri Extension - Internal Rotation",
+        "url": "https://wger.de/en/exercise/1662/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Shiladree"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-single-arm-triceps-pushdown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-single-arm-triceps-pushdown"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:cable-cross-triceps-extension"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-cross-triceps-extension"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:cable-triceps-pushdown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:single-arm-cable-pushdown"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "staggered",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An isolation exercise that targets the triceps brachii by extending the elbow across the body along the line of a high cable."
+}

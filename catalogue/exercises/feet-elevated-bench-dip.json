@@ -1,0 +1,230 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Dips Between Two Benches",
+      "kind": "common"
+    },
+    {
+      "text": "Two-Bench Dip",
+      "kind": "common"
+    },
+    {
+      "text": "Elevated Bench Dip",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-minor",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "elevation"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "weight-plate",
+      "dumbbell"
+    ],
+    "required": [
+      [
+        "bench"
+      ],
+      [
+        "bench",
+        "plyo-box",
+        "chair",
+        "step"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "197"
+  },
+  "id": "oec:feet-elevated-bench-dip",
+  "instructions": {
+    "setup": [
+      "Place two flat benches parallel to each other, spaced just far enough apart that your heels can rest on one while your hands support you on the other.",
+      "Sit on the edge of one bench and place the palms of your hands next to your hips, gripping the bench edge with fingers facing forward.",
+      "Extend your legs forward and place the backs of your heels securely on the opposite bench.",
+      "Press through your palms to fully extend your arms, sliding your hips just off the edge of the supporting bench."
+    ],
+    "steps": [
+      "Inhale and lower your body by bending at the elbows, keeping your back close to the edge of the rear bench.",
+      "Descend under control until your upper arms are roughly parallel to the floor, forming approximately a 90-degree angle at the elbows.",
+      "Pause briefly at the bottom without resting your torso or hips on the floor.",
+      "Exhale and drive through the palms to extend your elbows and return to the starting position."
+    ],
+    "breathing": "Inhale smoothly as you lower your body; exhale as you push back up to arm extension.",
+    "cues": [
+      "Keep your torso upright and close to the rear bench.",
+      "Point your elbows straight back, not flaring outward.",
+      "Push the floor away through your palms at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Drifting hips too far forward away from the bench.",
+        "correction": "Keep your back skimming closely along the edge of the bench to avoid excessive shoulder anterior tilt and strain."
+      },
+      {
+        "fault": "Descending excessively deep past 90 degrees at the elbows.",
+        "correction": "Stop when upper arms reach roughly parallel to the floor to protect the anterior shoulder capsule."
+      },
+      {
+        "fault": "Flaring the elbows outward during the descent.",
+        "correction": "Actively track elbows straight back behind you throughout the repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure both benches are stable and cannot slide apart during the set.",
+        "Individuals with anterior shoulder impingement or laxity should limit depth or choose parallel bar dips."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "bodyweight-plus-external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "load",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Feet-Elevated Bench Dip",
+  "previous_ids": [
+    "oec:dips-between-two-benches"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dips Between Two Benches",
+        "url": "https://wger.de/en/exercise/197/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:chair-dip"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:floor-dip"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:dip"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dip"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "support"
+  },
+  "status": "active",
+  "summary": "An upper-body dip variation performed between two parallel benches with the heels elevated to increase loading on the triceps and anterior shoulders."
+}

@@ -1,0 +1,199 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Curtsy Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Dragon Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Dragon Lunge",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension",
+          "adduction",
+          "abduction"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "dumbbell",
+      "kettlebell"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1201"
+  },
+  "id": "oec:curtsy-lunge",
+  "instructions": {
+    "setup": [
+      "Stand tall with your feet hip-width apart and your hands clasped in front of your chest or on your hips.",
+      "Brace your core and keep your chest lifted with your pelvis facing squarely forward."
+    ],
+    "steps": [
+      "Shift your weight onto your front foot and step your opposite foot backward and diagonally across behind you.",
+      "Lower your hips by bending both knees until your front thigh is roughly parallel to the floor and the back knee hovers just above the ground.",
+      "Drive through the heel and midfoot of your front leg to push back up to the starting position.",
+      "Repeat the movement on the opposite side or continue alternating."
+    ],
+    "breathing": "Inhale as you step back and descend into the lunge; exhale as you press through the front foot to return to standing.",
+    "cues": [
+      "Keep hips square",
+      "Front knee tracks over toes",
+      "Drive through the front heel"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the hips and torso excessively toward the stepping leg.",
+        "correction": "Keep your headlights (pelvis and shoulders) pointing straight ahead throughout the movement."
+      },
+      {
+        "fault": "Stepping too far across, causing the front knee to cave inward.",
+        "correction": "Cross behind moderately so the front knee stays aligned directly over the second toe."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Individuals with knee sensitivity should limit the depth and crossing angle to ensure comfortable joint alignment."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Curtsy Lunge",
+  "previous_ids": [
+    "oec:dragon-squat"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dragon squat",
+        "url": "https://wger.de/en/exercise/1201/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "cynomops"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:reverse-lunge"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A lunge variation where one leg steps backward and across the midline, challenging the glutes, adductors, and quadriceps through multiplanar hip control."
+}

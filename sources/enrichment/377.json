@@ -1,0 +1,141 @@
+{
+  "is_exercise": true,
+  "name": "Lying Leg Raise",
+  "summary": "A supine bodyweight abdominal exercise that involves raising extended legs toward vertical while resisting lumbar extension.",
+  "aliases": [
+    {
+      "text": "Lying Straight Leg Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Leg Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Floor Leg Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "anti-extension",
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "synergist"
+    },
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization",
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat",
+    "bench"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rir",
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a mat or flat bench with your legs fully extended and together.",
+      "Place your arms along your sides with palms pressing into the surface, or lightly grip the sides of the bench overhead for stability.",
+      "Posteriorly tilt your pelvis to press your lower back firmly into the floor or bench."
+    ],
+    "steps": [
+      "Brace your core and slowly lift both legs together, keeping your knees extended or with a minimal soft bend.",
+      "Raise your legs until they form an angle roughly perpendicular to your torso, allowing the pelvis to slightly curl upward at the top for maximum abdominal contraction.",
+      "Pause briefly at the top.",
+      "Slowly lower your legs under control back toward the floor, stopping just before your heels touch or before your lower back begins to arch."
+    ],
+    "breathing": "Inhale as you lower your legs toward the floor; exhale forcefully as you raise them back up.",
+    "cues": [
+      "Keep your lower back glued to the floor.",
+      "Pull with your lower abs, not just your hip flexors.",
+      "Control the descent; do not drop your legs."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the lower back to arch excessively off the floor during the descent.",
+        "correction": "Only lower your legs as far as you can maintain a flat lower back; bend the knees slightly to reduce lever length if needed."
+      },
+      {
+        "fault": "Swinging the legs up rapidly using momentum.",
+        "correction": "Perform the movement slowly, initiating the pull from the abdominals and hip flexors with a distinct pause at the top."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid this movement if it provokes sharp lower-back discomfort; regress to bent-knee raises to shorten the lever arm."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

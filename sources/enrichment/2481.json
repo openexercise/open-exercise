@@ -1,0 +1,169 @@
+{
+  "is_exercise": true,
+  "name": "Kickboard Flutter Kick",
+  "summary": "A prone swimming drill using a kickboard to isolate and condition the lower body and core through continuous flutter kicks.",
+  "aliases": [
+    {
+      "text": "Kick with Board",
+      "kind": "common"
+    },
+    {
+      "text": "Flutter Kick with Kickboard",
+      "kind": "common"
+    },
+    {
+      "text": "Kickboard Kick",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning",
+      "sport"
+    ],
+    "movement_patterns": [
+      "swim"
+    ],
+    "mechanics": "compound",
+    "force": "mixed",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "pool"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "distance",
+        "duration"
+      ],
+      "optional": [
+        "pace",
+        "heart-rate",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "distance",
+        "heart-rate",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Push off the pool wall into a prone, streamlined body position near the water's surface.",
+      "Extend your arms forward holding the kickboard lightly by its edges or resting your forearms on it."
+    ],
+    "steps": [
+      "Engage your core to keep your hips high in the water.",
+      "Initiate a rhythmic flutter kick alternating legs from the hips with toes pointed and knees soft.",
+      "Keep the kick compact, breaking the water surface slightly with your heels without excessive knee bending.",
+      "Propel forward continuously for the target distance or duration."
+    ],
+    "breathing": "Breathe smoothly and rhythmically either with your face submerged and lifting forward to inhale, or with your chin resting just above the surface.",
+    "cues": [
+      "Kick from the hips",
+      "Point your toes",
+      "Keep hips high",
+      "Small, fast kicks"
+    ],
+    "common_faults": [
+      {
+        "fault": "Kicking predominantly from the knees like pedaling a bicycle, creating drag and reducing propulsion.",
+        "correction": "Lengthen the legs and drive the movement from the hip and glutes, keeping only a slight, loose knee bend."
+      },
+      {
+        "fault": "Dropping the hips and lower body deep into the water.",
+        "correction": "Brace your abdominals and push your chest slightly downward to lever the hips to the surface."
+      },
+      {
+        "fault": "Rigid, dorsiflexed ankles acting as water brakes.",
+        "correction": "Relax your ankles and point your toes behind you to create a smooth, flipper-like surface."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Swim only in designated lap lanes or monitored aquatic environments.",
+        "Avoid hyperextending the neck when keeping the head raised; lower the face into the water to rest the cervical spine if needed."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

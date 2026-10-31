@@ -1,0 +1,160 @@
+{
+  "is_exercise": true,
+  "name": "Box Jump",
+  "summary": "A bilateral plyometric exercise where you explosively leap from the floor onto an elevated platform, landing softly in an athletic stance.",
+  "aliases": [
+    {
+      "text": "box jumps",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "plyometric",
+      "power",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "jump"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "ballistic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "plyo-box"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "height",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand about one half to one foot away from a sturdy, level plyometric box.",
+      "Position your feet roughly hip-width apart with an upright posture and relaxed arms."
+    ],
+    "steps": [
+      "Initiate a rapid countermovement by hinging at the hips, bending the knees, and swinging your arms backward.",
+      "Explosively extend your hips, knees, and ankles while driving your arms forward and up to project yourself into the air.",
+      "Tuck your knees slightly in mid-air to clear the top edge of the box.",
+      "Land softly and quietly on top of the box with your entire foot in contact, absorbing the impact in a partial squat.",
+      "Stand fully upright to complete the repetition by extending your hips and knees.",
+      "Step down carefully one foot at a time to return to the starting position."
+    ],
+    "breathing": "Inhale sharply as you drop into the countermovement, and exhale forcefully as you drive upward into the jump.",
+    "cues": [
+      "Swing and spring",
+      "Land like a feather",
+      "Stand tall at the top",
+      "Step down, do not jump down"
+    ],
+    "common_faults": [
+      {
+        "fault": "Landing with a loud, heavy thud on the box.",
+        "correction": "Absorb the impact actively by flexing your hips and knees, aiming for a whisper-quiet landing."
+      },
+      {
+        "fault": "Jumping down backward off the box.",
+        "correction": "Step down one leg at a time to avoid unnecessary and dangerous eccentric shock on the Achilles tendons and knees."
+      },
+      {
+        "fault": "Landing with knees caving inward (valgus collapse).",
+        "correction": "Keep your knees tracking directly over your middle toes throughout both takeoff and landing."
+      },
+      {
+        "fault": "Selecting a box that is too high, resulting in an extreme hip tuck rather than vertical displacement.",
+        "correction": "Use a box height where you can land in a solid partial squat rather than catching yourself in a deep, precarious crouch."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the box is on a non-slip surface and will not tip over upon landing.",
+        "Clear the landing perimeter of stray equipment like plates or dumbbells."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Freestyle Breathing and Balance Drill",
+      "kind": "common"
+    },
+    {
+      "text": "Exhale Drill",
+      "kind": "abbreviation"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "extension",
+          "internal-rotation"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "downward-rotation",
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "cervical-spine",
+        "actions": [
+          "rotation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "sport",
+      "cardio"
+    ],
+    "movement_patterns": [
+      "swim"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "pool"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2692"
+  },
+  "id": "oec:exhale-and-body-position-swim-drill",
+  "instructions": {
+    "setup": [
+      "Push off gently from the pool wall into a relaxed, streamlined prone glide.",
+      "Align the head neutral with the eyes looking straight toward the pool bottom so the back of the neck remains long."
+    ],
+    "steps": [
+      "Begin swimming with gentle, relaxed strokes and light, rhythmic flutter kicking.",
+      "Exhale continuously through the nose or mouth in a steady stream of bubbles while the face is submerged.",
+      "Rotate the body along its long axis to bring the mouth to the air without lifting the head upward.",
+      "Inhale smoothly, then rotate the face back into the water and immediately resume steady exhalation until the next breath."
+    ],
+    "breathing": "Maintain a smooth, continuous exhalation whenever your face is submerged so your lungs are empty and ready for a quick, relaxed inhale upon turning.",
+    "cues": [
+      "Blow bubbles constantly",
+      "Keep head down and hips high",
+      "Rotate the torso, do not lift the chin"
+    ],
+    "common_faults": [
+      {
+        "fault": "Holding your breath while face down, causing panic and tension.",
+        "correction": "Release a steady stream of bubbles from the moment your face enters the water until you rotate to inhale."
+      },
+      {
+        "fault": "Lifting the head forward to breathe instead of rotating with the body.",
+        "correction": "Keep one goggle lens in the water and pivot the head with the shoulders to breathe into the bow wave."
+      },
+      {
+        "fault": "Hips dropping low in the water due to looking too far forward.",
+        "correction": "Direct your gaze straight down at the bottom of the pool to keep the crown of the head pressed down and the hips buoyant."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Swim only in designated lap lanes or monitored water environments."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "distance",
+          "duration"
+        ],
+        "optional": [
+          "pace",
+          "heart-rate",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "distance"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Exhale and Body-Position Swim Drill",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Exhale and Body-position Swim Drill",
+        "url": "https://wger.de/en/exercise/2692/view-base",
+        "license": "CC0-1.0",
+        "author": "Original exercise instructions prepared for nalhilal"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "part-of",
+      "target": "oec:freestyle-swimming"
+    }
+  ],
+  "setup": {
+    "position": "prone"
+  },
+  "status": "active",
+  "summary": "A continuous swimming drill performed at an easy pace to practice horizontal streamline alignment and steady underwater exhalation."
+}

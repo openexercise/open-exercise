@@ -1,0 +1,172 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Wrist Circles",
+      "kind": "common"
+    },
+    {
+      "text": "Wrist Roll",
+      "kind": "common"
+    },
+    {
+      "text": "Wrist Rolls",
+      "kind": "common"
+    },
+    {
+      "text": "Wrist Rotations",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "forearm-flexors",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "forearm-extensors",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pronators",
+        "role": "synergist"
+      },
+      {
+        "muscle": "supinator",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "wrist",
+        "actions": [
+          "circumduction"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "2543"
+  },
+  "id": "oec:wrist-circle",
+  "instructions": {
+    "setup": [
+      "Stand or sit upright with your shoulders relaxed and elbows bent at roughly ninety degrees in front of your body.",
+      "Bring your hands in front of you, either closing them into gentle fists or leaving the fingers relaxed."
+    ],
+    "steps": [
+      "Slowly trace a complete circle with your hands by moving strictly at the wrist joints through flexion, deviation, and extension.",
+      "Complete the desired repetitions or duration in one direction.",
+      "Reverse the movement and circle in the opposite direction for an equal duration or rep count."
+    ],
+    "breathing": "Breathe continuously and evenly throughout the rotations.",
+    "cues": [
+      "Draw the biggest circle you comfortably can.",
+      "Keep your forearms and elbows quiet.",
+      "Move smoothly without rushing the corners."
+    ],
+    "common_faults": [
+      {
+        "fault": "Moving from the elbows or shoulders rather than isolating the wrists.",
+        "correction": "Keep your forearms stabilized in space and direct all motion through the wrist joint."
+      },
+      {
+        "fault": "Speeding through the movement and cutting off end ranges.",
+        "correction": "Slow down the tempo to actively explore the full perimeter of your comfortable range of motion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid aggressive end ranges or snapping motions if you experience wrist impingement or sharp discomfort."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Wrist Circle",
+  "previous_ids": [
+    "oec:wrist-circles"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Wrist circles",
+        "url": "https://wger.de/en/exercise/2543/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Awlex"
+      }
+    ]
+  },
+  "setup": {
+    "position": "standing"
+  },
+  "status": "active",
+  "summary": "A dynamic mobility exercise that moves the wrists through full active circumduction to warm up the joint and surrounding musculature."
+}

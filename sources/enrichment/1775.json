@@ -1,0 +1,161 @@
+{
+  "is_exercise": true,
+  "name": "Machine Reverse Fly",
+  "summary": "A seated machine isolation exercise targeting the posterior deltoids and upper back musculature through horizontal shoulder abduction.",
+  "aliases": [
+    {
+      "text": "Reverse Pec Deck Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Rear Delt Pec Deck",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Rear Delt Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse Machine Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Pec Deck Rear Delt Fly",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "neutral",
+  "muscles": [
+    {
+      "muscle": "deltoid-posterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "infraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-minor",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the machine handles fully back so they start in front of the chest when seated facing the pad.",
+      "Adjust the seat height so that the handles sit at mid-chest to shoulder level.",
+      "Sit facing the chest pad with your torso firmly supported, feet flat on the floor, and grasp the handles with a neutral or pronated grip and a slight, fixed bend in your elbows."
+    ],
+    "steps": [
+      "Brace your core and initiate the movement by pulling your arms backward and outward in a wide horizontal arc.",
+      "Continue horizontally abducting your shoulders until your upper arms are roughly in line with your torso, squeezing the rear deltoids.",
+      "Pause briefly at peak contraction without hyperextending your lower back.",
+      "Control the handles as you reverse the arc back to the starting position, maintaining tension on the rear deltoids before the weights touch down."
+    ],
+    "breathing": "Exhale as you pull the handles outward and backward; inhale as you slowly return to the starting position.",
+    "cues": [
+      "Lead with the back of your elbows.",
+      "Keep a soft bend in your elbows throughout.",
+      "Push your chest gently into the pad, not away from it."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively bending and extending the elbows like a triceps press.",
+        "correction": "Lock a slight bend into your elbows at setup and maintain that exact angle across the entire range."
+      },
+      {
+        "fault": "Shrugging the shoulders upward toward the ears.",
+        "correction": "Depress your shoulders and lower the seat slightly so your hands track below shoulder level."
+      },
+      {
+        "fault": "Arching the lower back off the chest pad to heave the weight.",
+        "correction": "Keep your sternum pressed firmly into the pad and reduce the working weight to isolate the shoulders."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid letting the machine jerk your arms past your active range of motion into deep horizontal adduction."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

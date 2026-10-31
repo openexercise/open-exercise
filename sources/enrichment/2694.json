@@ -1,0 +1,170 @@
+{
+  "is_exercise": true,
+  "name": "Feet-Assisted Straight-Bar Support",
+  "summary": "An isometric calisthenics regression where the body is held locked out above a straight bar with foot support to build foundational scapular depression and arm strength.",
+  "aliases": [
+    {
+      "text": "Assisted Straight Bar Support Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Feet-Supported Bar Support Hold",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "support",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-minor",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "pull-up-bar",
+        "power-rack",
+        "squat-rack",
+        "smith-machine"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "plyo-box",
+    "step"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Set a straight bar at roughly waist-to-hip height, or place a stable box under a higher bar.",
+      "Grip the bar with an overhand, shoulder-width pronated grip and stand directly behind or slightly under the bar.",
+      "Press down into the bar to extend your arms fully, positioning the bar across the front of your upper thighs or hips while keeping your toes or feet resting lightly on the ground or box."
+    ],
+    "steps": [
+      "Drive your palms downward into the bar, pushing your shoulders down away from your ears to engage the lower traps and lats.",
+      "Keep the elbows locked out straight and brace your abdominals and glutes into a rigid hollow or neutral torso.",
+      "Use only as much assistance from your feet as necessary to maintain straight arms and depressed shoulders.",
+      "Hold the position steadily for the desired duration without swinging or bending the elbows.",
+      "Carefully step down to release the hold."
+    ],
+    "breathing": "Maintain steady, rhythmic breathing through your diaphragm while keeping your core braced and shoulders actively depressed.",
+    "cues": [
+      "Push the bar into the floor",
+      "Long neck, shoulders down",
+      "Lock the elbows completely",
+      "Light toes"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the shoulders to shrug up toward the ears.",
+        "correction": "Actively press downward into the bar to maintain active scapular depression throughout the hold."
+      },
+      {
+        "fault": "Soft or bent elbows.",
+        "correction": "Engage the triceps to lock out the elbow joints fully before offloading weight onto the bar."
+      },
+      {
+        "fault": "Bearing all weight through the legs rather than the upper body.",
+        "correction": "Rest only enough foot weight on the floor or platform to stabilize yourself, keeping the majority of your bodyweight supported by your hands."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the bar is firmly secured in J-hooks or a stable apparatus that cannot roll or tip over."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "is_exercise": true,
+  "name": "Cable Straight-Arm Pulldown",
+  "summary": "A standing cable isolation exercise that targets the latissimus dorsi through shoulder extension with fixed, extended elbows.",
+  "aliases": [
+    {
+      "text": "Cable Pullover",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Cable Pullover",
+      "kind": "common"
+    },
+    {
+      "text": "High-Pulley Pullover",
+      "kind": "common"
+    },
+    {
+      "text": "Straight-Arm Lat Pulldown",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "pull",
+      "vertical-pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-long-head",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach a straight bar or wide handle to the high pulley of a cable station.",
+      "Grasp the bar with an overhand (pronated), shoulder-width grip.",
+      "Take a step or two back from the pulley, hinge slightly at the hips, and maintain a soft bend in the knees and a braced core.",
+      "Extend your arms overhead with a slight, fixed bend in the elbows."
+    ],
+    "steps": [
+      "Drive your hands downward in a wide arc toward your upper thighs by contracting your lats.",
+      "Keep your elbow angle locked and fixed throughout the descent.",
+      "Squeeze your lats and depress your shoulder blades firmly at the bottom position near your thighs.",
+      "Control the weight back up along the same arc until you feel a deep stretch in your lats before initiating the next rep."
+    ],
+    "breathing": "Inhale as your arms rise into the stretch; exhale as you pull the bar down toward your thighs.",
+    "cues": [
+      "Sweep the bar down in a wide arc",
+      "Keep the elbows soft but locked",
+      "Crush oranges in your armpits at the bottom"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending and extending the elbows during the movement, turning it into a triceps pushdown.",
+        "correction": "Lock a slight bend in your elbows at the setup and do not change elbow angle as the arms sweep."
+      },
+      {
+        "fault": "Excessive torso swinging or momentum to drive the bar down.",
+        "correction": "Hinge slightly at the hips, brace your abdomen, and isolate the movement strictly to the shoulder joints."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not let the cable snap your arms overhead into extreme shoulder elevation if you lack mobility."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

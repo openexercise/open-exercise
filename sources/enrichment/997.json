@@ -1,0 +1,188 @@
+{
+  "is_exercise": true,
+  "name": "Squat Thrust",
+  "summary": "A four-count bodyweight conditioning exercise where you squat, jump back to a plank, hop back to a squat, and stand upright.",
+  "aliases": [
+    {
+      "text": "4-Count Burpee",
+      "kind": "common"
+    },
+    {
+      "text": "Four-Count Burpee",
+      "kind": "common"
+    },
+    {
+      "text": "No-Push-Up Burpee",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "conditioning",
+      "plyometric"
+    ],
+    "movement_patterns": [
+      "squat",
+      "anti-extension",
+      "jump"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "ballistic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "moving",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with your feet shoulder-width apart and your arms resting at your sides."
+    ],
+    "steps": [
+      "Bend at your hips and knees to descend into a deep squat, planting your palms flat on the floor roughly shoulder-width apart.",
+      "Jump both feet backward simultaneously to land in a rigid high plank position with your core braced and body in a straight line.",
+      "Hop both feet forward quickly, landing outside or just behind your hands in a stable squat posture.",
+      "Push through the floor with your legs and extend your hips to stand fully upright to complete the rep."
+    ],
+    "breathing": "Inhale as you squat down and jump back into plank, then exhale forcefully as you hop your feet back forward and stand up.",
+    "cues": [
+      "Hands down, feet back, feet in, stand tall.",
+      "Brace your abs to keep your hips from sagging in plank.",
+      "Land flat-footed when jumping forward."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lower back and letting the hips dip excessively upon jumping back into plank.",
+        "correction": "Squeeze your glutes and actively engage your abdominals before your feet touch down behind you."
+      },
+      {
+        "fault": "Landing solely on the toes with knees collapsed inward when hopping feet forward.",
+        "correction": "Hop feet forward wide enough so that your entire foot can plant securely on the floor."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the floor surface is dry and non-slip before performing ballistic jumps."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "is_exercise": true,
+  "name": "Machine Chest Press",
+  "summary": "A seated compound machine exercise that targets the pectoralis major, anterior deltoids, and triceps with guided stability.",
+  "aliases": [
+    {
+      "text": "Seated Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Machine Chest Press",
+      "kind": "common"
+    },
+    {
+      "text": "Chest Press Machine",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "stance_kind": "parallel",
+  "stance_width": "hip",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so the machine handles align with your mid-to-lower chest.",
+      "Sit back firmly with your head, upper back, and glutes pressed flat against the pads.",
+      "Plant your feet firmly on the floor and grasp the handles with an overhand or neutral grip."
+    ],
+    "steps": [
+      "Retract your shoulder blades and brace your core.",
+      "Press the handles forward smoothly by extending your elbows until your arms are outstretched without forcefully locking the joints.",
+      "Pause briefly at full extension while keeping tension on your chest.",
+      "Lower the weight under control by bending your elbows until your hands return to chest level."
+    ],
+    "breathing": "Exhale as you press the weight forward, and inhale as you lower it back to the start.",
+    "cues": [
+      "Drive through your chest",
+      "Keep your shoulders pinned to the back pad",
+      "Control the descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Seat height set too high, causing handles to press at neck or collarbone level.",
+        "correction": "Lower the seat so the handles sit across mid-chest level at the bottom of the movement."
+      },
+      {
+        "fault": "Letting the shoulders roll forward off the pad at lockout.",
+        "correction": "Keep your shoulder blades retracted and depressed against the backrest throughout the entire rep."
+      },
+      {
+        "fault": "Bouncing the weight stack between reps.",
+        "correction": "Reverse the motion smoothly just before the plates make contact to maintain continuous tension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not over-extend the range of motion behind the chest if you experience anterior shoulder discomfort."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

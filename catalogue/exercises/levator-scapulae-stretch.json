@@ -1,0 +1,186 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Levator Scap Stretch",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Nose to Armpit Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Sniff the Armpit Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Left levator scapulae stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Right levator scapulae stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "levator-scapulae",
+        "role": "stretched"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "stretched"
+      },
+      {
+        "muscle": "splenius",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "cervical-spine",
+        "actions": [
+          "flexion",
+          "lateral-flexion",
+          "rotation"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "chair"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1013,1014"
+  },
+  "id": "oec:levator-scapulae-stretch",
+  "instructions": {
+    "setup": [
+      "Sit upright on a chair with good posture, feet flat on the floor.",
+      "Anchor the shoulder of the side you want to stretch by reaching that arm behind your back or gripping the edge of the seat.",
+      "Turn your head roughly 45 degrees away from the anchored shoulder."
+    ],
+    "steps": [
+      "Gently lower your chin toward your opposite armpit or chest until you feel a mild stretch along the side and back of your neck.",
+      "Place your opposite hand lightly onto the crown of your head to apply minimal, passive assistance.",
+      "Hold the position steadily without bouncing.",
+      "Carefully release hand pressure, return your head to neutral, and repeat on the opposite side."
+    ],
+    "breathing": "Breathe smoothly and deeply, allowing the neck musculature to relax further with each exhalation.",
+    "cues": [
+      "Nose to armpit",
+      "Keep the target shoulder depressed",
+      "Gentle guide, not a hard pull"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling aggressively down on the skull",
+        "correction": "Use only the natural weight of your arm to gently guide the stretch; never yank on the cervical spine."
+      },
+      {
+        "fault": "Allowing the target shoulder to elevate",
+        "correction": "Keep the anchored shoulder depressed and still to maintain proper tension across the muscle."
+      },
+      {
+        "fault": "Slumping or rounding the thoracic spine",
+        "correction": "Maintain an upright chest and straight torso so the stretch focuses entirely on the neck."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Stop immediately if you experience sharp pain, dizziness, or nerve-like tingling radiating down the arm."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Levator Scapulae Stretch",
+  "previous_ids": [
+    "oec:left-levator-scapulae-stretch",
+    "oec:right-levator-scapulae-stretch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Left levator scapulae stretch",
+        "url": "https://wger.de/en/exercise/1013/view-base",
+        "license": "CC-BY-SA-4.0"
+      },
+      {
+        "title": "wger: Right levator scapulae stretch",
+        "url": "https://wger.de/en/exercise/1014/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "setup": {
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A targeted static stretch that relieves tension along the side and back of the neck by gently flexing and rotating the cervical spine."
+}

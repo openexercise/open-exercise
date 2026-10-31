@@ -1,0 +1,154 @@
+{
+  "is_exercise": true,
+  "name": "Elbow Lever",
+  "summary": "A calisthenics isometric balance hold where the body is suspended horizontally above the floor with the elbows tucked into the torso.",
+  "aliases": [],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "balance",
+      "strength"
+    ],
+    "movement_patterns": [
+      "anti-extension",
+      "balance"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "prone",
+  "grip_orientation": "supinated",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat",
+    "parallettes"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Kneel on the floor and place your hands flat with fingers turned outward or backward toward your feet.",
+      "Bend your elbows and firmly nest them into your lower abdomen or right inside your anterior hip bones.",
+      "Lean forward, shifting your center of mass over your hands while keeping your chest open."
+    ],
+    "steps": [
+      "Slowly lift your feet off the floor by shifting your weight forward onto your hands.",
+      "Extend your legs fully behind you, squeezing your glutes and core to keep your body in a straight horizontal line parallel to the ground.",
+      "Hold the horizontal position for the prescribed duration while maintaining balanced pressure through your palms and fingers.",
+      "Gently lower your feet back to the floor to exit the hold."
+    ],
+    "breathing": "Maintain steady, shallow diaphragmatic breathing throughout the hold without relaxing abdominal brace.",
+    "cues": [
+      "Lean forward past your hands",
+      "Lock elbows into the hips",
+      "Point your toes and squeeze the glutes"
+    ],
+    "common_faults": [
+      {
+        "fault": "Not leaning far enough forward, causing the legs to remain heavy and touch the floor.",
+        "correction": "Shift your shoulders forward over your fingertips to counterbalance the weight of your lower body."
+      },
+      {
+        "fault": "Elbows slipping off the torso during the lift.",
+        "correction": "Dig the elbows firmly into the abdomen or against the pelvic bones before lifting the feet."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure adequate wrist mobility before performing on flat ground, or use parallettes to reduce wrist strain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

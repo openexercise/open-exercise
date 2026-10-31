@@ -1,0 +1,179 @@
+{
+  "is_exercise": true,
+  "name": "Bear Crawl",
+  "summary": "A full-body quadrupedal locomotion exercise that builds core stability, shoulder endurance, and coordinated movement patterns.",
+  "aliases": [
+    {
+      "text": "Bear Walk",
+      "kind": "common"
+    },
+    {
+      "text": "Bear Walk 2",
+      "kind": "misspelling"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "conditioning",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "crawl",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "contralateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "quadruped",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "synergist"
+    },
+    {
+      "muscle": "calves",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "extension",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "upward-rotation"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "distance"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "distance",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Begin on all fours on hands and knees with your hands placed directly beneath your shoulders and knees under your hips.",
+      "Tuck your toes and press through the balls of your feet to hover your knees one to two inches off the floor.",
+      "Brace your core and maintain a flat, neutral spine."
+    ],
+    "steps": [
+      "Step forward simultaneously with your right hand and left foot, keeping your movements short and controlled.",
+      "Follow immediately by stepping forward with your left hand and right foot.",
+      "Continue crawling forward in this contralateral pattern while keeping your hips level and knees hovering close to the ground."
+    ],
+    "breathing": "Breathe rhythmically and continuously through the nose and mouth while maintaining core brace.",
+    "cues": [
+      "Knees low to the ground",
+      "Opposite hand and foot move together",
+      "Keep hips quiet and flat like a tabletop"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hips drifting excessively high into a pike position.",
+        "correction": "Lower the hips and keep knees hovering just an inch or two above the floor."
+      },
+      {
+        "fault": "Excessive side-to-side torso sway during steps.",
+        "correction": "Shorten your stride length and brace the core to resist rotation."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid if you have acute wrist pain or hyperextension discomfort unless modified on fists or parallettes."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

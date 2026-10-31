@@ -1,0 +1,136 @@
+{
+  "is_exercise": true,
+  "name": "Donkey Kick",
+  "summary": "A bodyweight glute-isolation exercise performed on all fours by extending one hip backward against gravity.",
+  "aliases": [
+    {
+      "text": "Kneeling Kickback",
+      "kind": "common"
+    },
+    {
+      "text": "Quadruped Hip Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Kneeling Glute Kickback",
+      "kind": "common"
+    },
+    {
+      "text": "Glute Kickback",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "quadruped",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat",
+    "ankle-weight",
+    "resistance-band"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Begin on hands and knees in a quadruped position on an exercise mat.",
+      "Align your hands directly beneath your shoulders and your knees directly beneath your hips.",
+      "Engage your abdominal muscles to maintain a neutral spine and flat back."
+    ],
+    "steps": [
+      "Keeping your core braced, lift one knee off the floor and drive your foot backward and upward.",
+      "Extend through the hip until your thigh aligns with your torso, contracting the glute firmly at the top.",
+      "Pause for a moment at peak contraction without arching your lower back.",
+      "Lower your leg back down under control to the starting position."
+    ],
+    "breathing": "Exhale as you kick your leg back into extension; inhale as you return to the starting position.",
+    "cues": [
+      "Squeeze the glute, not the lower back",
+      "Keep hips square to the floor",
+      "Lock your ribcage down"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lumbar spine to gain artificial range of motion.",
+        "correction": "Brace your core and stop the movement once your hip reaches full extension."
+      },
+      {
+        "fault": "Rotating or tilting the hips to the side.",
+        "correction": "Keep both hip points facing directly toward the floor throughout the repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid kicking aggressively or using momentum, which can stress the lower back."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

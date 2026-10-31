@@ -1,0 +1,179 @@
+{
+  "is_exercise": true,
+  "name": "Kettlebell Swing",
+  "summary": "A ballistic hip-hinge exercise that develops explosive posterior chain power, conditioning, and core stability using a kettlebell.",
+  "aliases": [
+    {
+      "text": "Russian Kettlebell Swing",
+      "kind": "common"
+    },
+    {
+      "text": "Two-Handed Kettlebell Swing",
+      "kind": "common"
+    },
+    {
+      "text": "KB Swing",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "power",
+      "conditioning",
+      "strength"
+    ],
+    "movement_patterns": [
+      "swing",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "narrow",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "kettlebell"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Place the kettlebell on the floor about one foot in front of you.",
+      "Stand with feet shoulder-width apart and toes pointed slightly outward.",
+      "Hinge at the hips with soft knees, reaching forward to grip the kettlebell handle with both hands using an overhand grip.",
+      "Tilt the kettlebell slightly back toward you while engaging your lats and keeping your spine neutral."
+    ],
+    "steps": [
+      "Hike the kettlebell dynamically back between your upper thighs, keeping your forearms connected to your inner thighs.",
+      "Snap your hips forward violently and contract your glutes and core to drive the kettlebell upward.",
+      "Allow the kettlebell to float freely to roughly chest height, keeping your arms relaxed like ropes.",
+      "Let gravity guide the kettlebell back down into the hinge; wait until your forearms contact your torso before hinging your hips back to absorb the load for the next repetition."
+    ],
+    "breathing": "Inhale sharply as you hike the bell back into the hinge, and exhale forcefully through pursed lips as you snap your hips into full extension.",
+    "cues": [
+      "Hike like a football snap",
+      "Pop the hips, don't lift with the arms",
+      "Stand tall at the top like a plank"
+    ],
+    "common_faults": [
+      {
+        "fault": "Squatting the weight rather than hinging at the hips.",
+        "correction": "Push the hips backward and keep the shins relatively vertical with minimal knee bend."
+      },
+      {
+        "fault": "Using the shoulders and arms to raise the kettlebell.",
+        "correction": "Treat the arms as tethers; all upward momentum must come from the violent hip extension."
+      },
+      {
+        "fault": "Hinging too early on the descent.",
+        "correction": "Wait to hinge until the kettlebell has descended near hip height and the upper arms touch the ribs."
+      },
+      {
+        "fault": "Hyperextending the lumbar spine at the peak of the swing.",
+        "correction": "Finish in a solid vertical plank position by bracing your abs and squeezing the glutes without leaning back."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure clear space in front of and behind you.",
+        "Never use slippery hands or loose grip; use chalk if needed.",
+        "Park the kettlebell safely by letting it swing back between the legs and setting it down out in front, rather than stopping abruptly."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

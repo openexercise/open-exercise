@@ -1,0 +1,164 @@
+{
+  "is_exercise": true,
+  "name": "Cable Lat Pulldown",
+  "summary": "A seated compound vertical pull using a cable machine to strengthen the back and elbow flexors.",
+  "aliases": [
+    {
+      "text": "lat pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "lat pull down",
+      "kind": "common"
+    },
+    {
+      "text": "pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "straight back lat pulldown",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "adduction",
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "downward-rotation",
+        "depression",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable",
+        "selectorized-machine"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the thigh pads so your legs are firmly secured with feet flat on the floor.",
+      "Grasp the wide lat pulldown bar with an overhand grip outside shoulder width.",
+      "Sit down under the pads, extending your arms fully while keeping your torso upright with a slight natural arch in the upper spine."
+    ],
+    "steps": [
+      "Depress your scapulae and pull the bar downward toward your upper chest by driving your elbows down and back.",
+      "Pause briefly when the bar reaches collarbone level while maintaining an upright, non-swaying torso.",
+      "Slowly raise the bar under control until your arms are fully extended and your lats are gently stretched at the top."
+    ],
+    "breathing": "Inhale during the setup and as the weight returns overhead; exhale as you pull the bar down toward your chest.",
+    "cues": [
+      "Drive your elbows to your back pockets.",
+      "Chest up to the bar.",
+      "Control the stretch at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso backward to use momentum.",
+        "correction": "Keep your torso nearly upright with only a slight backward lean of 10 to 15 degrees throughout the set."
+      },
+      {
+        "fault": "Pulling behind the neck.",
+        "correction": "Always pull the bar down to the upper chest to prevent excessive stress on the cervical spine and shoulders."
+      },
+      {
+        "fault": "Cutting the eccentric phase short.",
+        "correction": "Allow your arms to reach full overhead extension between reps for a full lat stretch."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the thigh support is locked securely to prevent being lifted off the seat by heavy loads."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

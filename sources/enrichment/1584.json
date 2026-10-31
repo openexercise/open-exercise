@@ -1,0 +1,164 @@
+{
+  "is_exercise": true,
+  "name": "Jog in Place",
+  "summary": "A stationary aerobic exercise simulating the running gait to elevate heart rate and warm up the body.",
+  "aliases": [
+    {
+      "text": "March in Place",
+      "kind": "common"
+    },
+    {
+      "text": "Running in Place",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "calves",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "tibialis-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "heart-rate",
+        "cadence",
+        "calories",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand upright with your feet hip-width apart and your core lightly braced.",
+      "Bend your elbows to approximately ninety degrees, keeping your shoulders relaxed."
+    ],
+    "steps": [
+      "Lift one knee toward hip height while swinging the opposite arm forward.",
+      "Lower the foot back down to the ground under control, landing softly on the ball of your foot.",
+      "Immediately switch sides, lifting the opposite knee and reversing your arm swing.",
+      "Continue alternating legs in a smooth, rhythmic, running motion without traveling forward."
+    ],
+    "breathing": "Breathe rhythmically in through your nose and out through your mouth in cadence with your strides.",
+    "cues": [
+      "Stay light on your feet",
+      "Pump arms from the shoulders",
+      "Maintain a tall posture"
+    ],
+    "common_faults": [
+      {
+        "fault": "Landing heavily on the heels, increasing joint impact.",
+        "correction": "Spring off and land lightly on the midfoot to balls of the feet with a slight knee bend."
+      },
+      {
+        "fault": "Excessive forward or backward leaning of the torso.",
+        "correction": "Keep the chest upright and engage the core to maintain a neutral spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Wear supportive athletic footwear to minimize repetitive impact on lower extremities."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

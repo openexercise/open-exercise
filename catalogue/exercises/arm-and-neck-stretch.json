@@ -1,0 +1,175 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Overhead arm and neck stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Triceps and neck stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-brachii",
+        "role": "stretched"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "stretched"
+      },
+      {
+        "muscle": "levator-scapulae",
+        "role": "stretched"
+      },
+      {
+        "muscle": "sternocleidomastoid",
+        "role": "stretched"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "cervical-spine",
+        "actions": [
+          "lateral-flexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "external-rotation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "not-applicable",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1590"
+  },
+  "id": "oec:arm-and-neck-stretch",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and your spine aligned in a neutral posture.",
+      "Raise one arm overhead and bend the elbow, letting your hand rest behind your head or upper back."
+    ],
+    "steps": [
+      "Gently grasp your raised elbow with the opposite hand and draw it lightly back and inward until you feel a stretch along the back of the arm and shoulder.",
+      "Slowly tilt your head away from the raised arm, bringing the opposite ear toward your shoulder to engage the neck.",
+      "Hold the position steadily while relaxing your shoulders and maintaining an upright torso.",
+      "Carefully release the hold, return to center, and repeat on the other side."
+    ],
+    "breathing": "Breathe deeply and smoothly through your nose, exhaling tension as you hold the stretch.",
+    "cues": [
+      "Stand tall through the crown of your head.",
+      "Keep the shoulders drawn down away from your ears.",
+      "Tilt gently without pulling forcefully on the head or neck."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding the thoracic spine and jutting the chin forward.",
+        "correction": "Keep the chest open, ribs down, and spine upright throughout the stretch."
+      },
+      {
+        "fault": "Yanking aggressively on the elbow or forcing the neck into extreme lateral flexion.",
+        "correction": "Apply only mild, comfortable pressure and stop at the first point of gentle tension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid sudden or ballistic jerking of the head and neck to prevent cervical strain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Arm and Neck Stretch",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Arm and neck stretch",
+        "url": "https://wger.de/en/exercise/1590/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "MrAlfaRobot"
+      }
+    ]
+  },
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A standing static stretch targeting the triceps, lateral shoulder, and cervical spine to relieve upper-body postural tension."
+}

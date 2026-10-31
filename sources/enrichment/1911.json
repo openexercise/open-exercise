@@ -1,0 +1,169 @@
+{
+  "is_exercise": true,
+  "name": "Cat Plank",
+  "summary": "An isometric quadruped core exercise where the knees hover off the floor while the upper back is actively rounded in spinal flexion and scapular protraction.",
+  "aliases": [
+    {
+      "text": "Hovering Cat",
+      "kind": "common"
+    },
+    {
+      "text": "Hovering Cat Plank",
+      "kind": "common"
+    },
+    {
+      "text": "Cat Pose Plank",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "pilates"
+    ],
+    "movement_patterns": [
+      "anti-extension",
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "quadruped",
+  "grip_orientation": "pronated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "flexion",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Start on all fours with your hands directly under your shoulders and your knees directly beneath your hips.",
+      "Tuck your toes under and grip the floor firmly with your fingers.",
+      "Press the floor away with your palms to spread your shoulder blades wide and gently round your upper back into a cat-like arch."
+    ],
+    "steps": [
+      "Engage your deep abdominals and press through the balls of your feet to lift your knees roughly one to two inches off the floor.",
+      "Maintain the rounded spine and protracted shoulder blades, pulling your navel toward your spine.",
+      "Hold this hovering position steadily for the target duration without allowing your hips to pike or your lower back to sag.",
+      "Gently lower your knees back to the floor to finish."
+    ],
+    "breathing": "Breathe continuously with shallow, controlled breaths while maintaining deep abdominal bracing and spinal flexion.",
+    "cues": [
+      "Push the floor away",
+      "Dome your upper back",
+      "Keep knees low to the floor",
+      "Pull ribs toward hips"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the hips too high toward a downward dog position.",
+        "correction": "Keep your knees hovering only one to two inches off the floor and thighs perpendicular to the ground."
+      },
+      {
+        "fault": "Collapsing into the shoulder blades and sagging through the midsection.",
+        "correction": "Actively push through your hands to protract the shoulder blades and keep your core braced."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you experience wrist discomfort, perform the hold onto fists or place your hands on low parallettes or yoga blocks."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

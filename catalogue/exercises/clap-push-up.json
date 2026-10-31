@@ -1,0 +1,211 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Clapping Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Plyometric Push-Up with Clap",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "plyometric",
+      "calisthenics",
+      "power"
+    ],
+    "movement_patterns": [
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "mixed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1554"
+  },
+  "id": "oec:clap-push-up",
+  "instructions": {
+    "setup": [
+      "Assume a standard high plank position with hands slightly wider than shoulder-width apart.",
+      "Engage your abdominals and glutes to align your body in a rigid straight line from head to heels."
+    ],
+    "steps": [
+      "Lower your chest toward the floor in a controlled manner until your elbows reach approximately a ninety-degree angle.",
+      "Explosively press through the palms to launch your upper body into the air.",
+      "Quickly clap your hands together under your chest at the peak of the flight phase.",
+      "Immediately return your hands to the floor, landing with soft, slightly bent elbows to absorb the impact smoothly into the next descent."
+    ],
+    "breathing": "Inhale as you lower your chest toward the floor, and exhale forcefully as you drive up into the clap.",
+    "cues": [
+      "Explode off the floor",
+      "Quick clap",
+      "Soft landing"
+    ],
+    "common_faults": [
+      {
+        "fault": "Landing with fully locked elbows, creating harsh impact on the joints.",
+        "correction": "Catch yourself with soft, bent arms and immediately yield into the next repetition."
+      },
+      {
+        "fault": "Sagging the lower back or piking the hips during the explosive drive.",
+        "correction": "Maintain rigid core and glute tension to keep the spine neutral throughout the airborne phase."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure you can comfortably perform high-rep standard push-ups before attempting ballistic push-up variations.",
+        "Perform on a non-slip, slightly cushioned surface to protect wrists."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Clap Push-Up",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Clap Push-UP",
+        "url": "https://wger.de/en/exercise/1554/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Settebello"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:explosive-push-up"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:explosive-push-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "prone",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An explosive plyometric push-up variation where you drive forcefully off the ground to clap your hands before landing."
+}

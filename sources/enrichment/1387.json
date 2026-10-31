@@ -1,0 +1,146 @@
+{
+  "is_exercise": true,
+  "name": "Standing Straight-Leg Kick",
+  "summary": "A dynamic warmup movement where one leg is kicked straight forward toward an extended hand to dynamically stretch the hamstrings and activate the hip flexors.",
+  "aliases": [
+    {
+      "text": "Frankenstein Kick",
+      "kind": "common"
+    },
+    {
+      "text": "Toy Soldier",
+      "kind": "common"
+    },
+    {
+      "text": "Hamstring Kick",
+      "kind": "common"
+    },
+    {
+      "text": "Straight-Leg March",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "stretch"
+    ],
+    "mechanics": "not-applicable",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "iliopsoas",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "stretched"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and your posture upright.",
+      "Extend your arms straight out in front of your chest at shoulder height, palms facing down."
+    ],
+    "steps": [
+      "Keeping your torso upright and core engaged, kick one leg straight out in front of you toward your opposite hand.",
+      "Keep the kicking knee extended and your toes dorsiflexed toward your shin until you feel a dynamic stretch through the hamstring.",
+      "Lower the leg back to the floor under control.",
+      "Repeat the movement with the opposite leg."
+    ],
+    "breathing": "Exhale as you kick your leg upward and inhale as you lower your foot back to the ground.",
+    "cues": [
+      "Stay tall through the torso",
+      "Kick with control, not momentum",
+      "Toes up to your shin"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding the lower back and reaching the chest forward to touch the foot.",
+        "correction": "Keep the spine neutral and bring the leg to the hand, not the hand or chest to the leg."
+      },
+      {
+        "fault": "Bending the kicking knee excessively.",
+        "correction": "Maintain a soft but extended knee to ensure the stretch reaches the hamstring belly."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Increase kicking height progressively as your hamstrings warm up rather than forcing maximal range of motion immediately."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

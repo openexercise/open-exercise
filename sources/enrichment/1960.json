@@ -1,0 +1,158 @@
+{
+  "is_exercise": true,
+  "name": "Rear-Foot-Elevated Hip Flexor Stretch",
+  "summary": "A targeted mobility stretch that places the rear foot on an elevated surface to dynamically stretch the hip flexors and rectus femoris.",
+  "aliases": [
+    {
+      "text": "Couch Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Rear-Foot-Elevated Quad Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "RFE Hip Flexor Stretch",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "half-kneeling",
+  "stance_kind": "split",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "rectus-femoris",
+      "role": "stretched"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "stretched"
+    },
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "bench",
+        "plyo-box",
+        "wall",
+        "chair"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps"
+      ]
+    },
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "per-side",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Place a mat on the floor a couple of feet in front of a bench, box, or wall.",
+      "Kneel on the mat facing away from the elevation, then place the top of one foot onto the elevated surface.",
+      "Step the other foot forward so you are in a half-kneeling position with the front shin roughly vertical and torso upright."
+    ],
+    "steps": [
+      "Engage your abdominals and actively squeeze the glute of the rear trailing leg to tilt your pelvis posteriorly.",
+      "Shift your hips gently forward and down until you feel a deep stretch in the front of the rear hip and thigh.",
+      "Hold the position while maintaining abdominal brace and glute contraction, or pulse gently in and out of the stretch before holding for several seconds.",
+      "Release the tension slowly, then switch legs and repeat on the opposite side."
+    ],
+    "breathing": "Breathe smoothly and deeply, exhaling to relax deeper into the stretch without losing core control.",
+    "cues": [
+      "Tuck your tailbone",
+      "Squeeze the trailing glute",
+      "Ribs down, don't arch"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lower back to create the illusion of hip extension.",
+        "correction": "Keep your abs braced and tuck your tailbone slightly to ensure the extension happens at the hip joint."
+      },
+      {
+        "fault": "Allowing the front knee to collapse inward.",
+        "correction": "Track the front knee in line with the middle toes."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use adequate knee padding to prevent discomfort on the kneecap of the rear leg."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Dumbbell Skull Crusher",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Dumbbell Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "French Press Dumbbells",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell French Press",
+      "kind": "common"
+    },
+    {
+      "text": "Skullcrusher Dumbbells",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-lateral-head",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-long-head",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-medial-head",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "anconeus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "bench",
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "245"
+  },
+  "id": "oec:dumbbell-lying-triceps-extension",
+  "instructions": {
+    "setup": [
+      "Sit on a flat bench with a pair of dumbbells resting vertically on your thighs.",
+      "Lie back onto the bench, bringing the dumbbells directly over your chest with arms extended.",
+      "Turn your palms inward to face each other in a neutral grip.",
+      "Angle your upper arms back slightly (about 10 to 20 degrees past vertical toward your head) to keep constant tension on the triceps."
+    ],
+    "steps": [
+      "Inhale and hinge solely at the elbows, lowering the dumbbells under control toward either side of your head or slightly behind your ears.",
+      "Descend until your forearms pass parallel to the floor and you feel a full stretch in your triceps.",
+      "Exhale and extend your elbows to press the weights back up to the starting position without letting your upper arms drift forward."
+    ],
+    "breathing": "Inhale as you lower the weights past your temples, and exhale forcefully as you extend your elbows to return to the top.",
+    "cues": [
+      "Keep upper arms pinned in space.",
+      "Elbows track straight, don't flare them out.",
+      "Control the descent to protect your joints."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbows outward during the movement.",
+        "correction": "Keep elbows tucked in line with your shoulders to maximize triceps recruitment and reduce shoulder strain."
+      },
+      {
+        "fault": "Swinging the upper arms back and forth to gain momentum.",
+        "correction": "Lock your humerus at a slight backward incline and ensure movement occurs exclusively at the elbow joint."
+      },
+      {
+        "fault": "Dropping the weights rapidly toward the face or ears.",
+        "correction": "Maintain a strict, controlled eccentric phase of at least two seconds."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure a secure grip to prevent dropping the dumbbells near your face.",
+        "If experiencing elbow discomfort, angle the upper arms slightly further back or reduce the load."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Lying Triceps Extension",
+  "previous_ids": [
+    "oec:skullcrusher-dumbbells"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Skullcrusher Dumbbells",
+        "url": "https://wger.de/en/exercise/245/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:incline-dumbbell-triceps-extension"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "shoulder"
+    },
+    "position": "supine",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A supine isolation exercise using dumbbells to build the triceps via elbow extension."
+}

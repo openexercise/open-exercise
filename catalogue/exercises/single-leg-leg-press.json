@@ -1,0 +1,218 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "One-Leg Leg Press",
+      "kind": "common"
+    },
+    {
+      "text": "Unilateral Leg Press",
+      "kind": "common"
+    },
+    {
+      "text": "Single leg press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "leg-press-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2677"
+  },
+  "id": "oec:single-leg-leg-press",
+  "instructions": {
+    "setup": [
+      "Sit back into the leg press seat with your back and hips firmly pressed against the backrest.",
+      "Place one foot in the middle of the footplate aligned with your hip and shoulder, with toes pointing slightly outward.",
+      "Rest the non-working foot on the floor or machine frame away from moving parts.",
+      "Press the sled up to unlock the safety stops and firmly grip the side handles."
+    ],
+    "steps": [
+      "Lower the sled smoothly by bending your working knee and hip until the knee reaches approximately a 90-degree angle.",
+      "Ensure your lower back and glutes remain flat against the pads throughout the descent.",
+      "Drive through your midfoot and heel to press the platform back to the start position.",
+      "Stop just short of full knee lockout to maintain muscular tension before starting the next rep.",
+      "Complete all repetitions on one leg before switching to the other."
+    ],
+    "breathing": "Inhale as you lower the weight toward your chest, and exhale forcefully as you press the footplate away.",
+    "cues": [
+      "Keep your lower back pinned to the pad.",
+      "Track your knee in line with your middle toes.",
+      "Push through the whole foot, not just the toes."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the pelvis to tuck or round off the backrest at the bottom of the movement.",
+        "correction": "Limit your depth to the active range where your lower back and hips stay firmly anchored to the seat pad."
+      },
+      {
+        "fault": "Knee caving inward (valgus collapse) during the pressing phase.",
+        "correction": "Reduce the load and consciously direct your knee outward over your second and third toes."
+      },
+      {
+        "fault": "Hyperextending or violently locking out the knee joint at the top.",
+        "correction": "Maintain a soft knee bend at full extension to keep continuous tension on the quads and protect the joint."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Always engage mechanical safety catches at a height that prevents the sled from crushing you in case of failure.",
+        "Never place your free leg on the platform or cross it over the working knee."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Single-Leg Leg Press",
+  "previous_ids": [
+    "oec:single-leg-press"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Single leg press",
+        "url": "https://wger.de/en/exercise/2677/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "qoxivi"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:leg-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:bulgarian-split-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-bulgarian-split-squat"
+    }
+  ],
+  "setup": {
+    "position": "seated",
+    "stance": {
+      "kind": "single-leg"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral lower-body compound exercise performed on a leg press machine to build quadriceps and glute strength while addressing side-to-side imbalances."
+}

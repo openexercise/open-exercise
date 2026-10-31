@@ -1,0 +1,194 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Single Leg Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Unilateral Leg Extension",
+      "kind": "common"
+    },
+    {
+      "text": "One-Leg Leg Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Leg Machine Leg Extension",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-femoris",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "vastus-lateralis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "vastus-medialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "vastus-intermedius",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "knee",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "isolation-knee-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "71"
+  },
+  "id": "oec:single-leg-leg-extension",
+  "instructions": {
+    "setup": [
+      "Adjust the backrest so that the machine's pivot axis aligns directly with the center of your knee joint.",
+      "Set the lower roller pad so it rests comfortably against the front of your working lower shin, just above the ankle.",
+      "Sit back firmly against the back pad, place one leg behind the roller, and grip the side handles to anchor your pelvis to the seat."
+    ],
+    "steps": [
+      "Smoothly extend your knee by contracting your quadriceps until your working leg is nearly straight.",
+      "Pause briefly at peak contraction without hyperextending the knee or allowing your hips to lift.",
+      "Lower the weight under control back to the starting stretch position, maintaining constant tension.",
+      "Complete the desired repetitions with one leg before repeating with the opposite leg."
+    ],
+    "breathing": "Exhale as you extend the leg and inhale as you lower the weight back down.",
+    "cues": [
+      "Pull yourself down into the seat.",
+      "Drive your shin through the pad.",
+      "Control the descent; don't let the weights slam."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso or using momentum to kick the weight up.",
+        "correction": "Keep your back firmly against the pad and move the weight using only a controlled knee extension."
+      },
+      {
+        "fault": "Allowing the pelvis or hips to lift off the seat during extension.",
+        "correction": "Firmly pull upward on the side handles to keep your glutes anchored flat against the seat cushion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid aggressive knee hyperextension or snapping the joint locked at the top of the movement."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "rir",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Single-Leg Leg Extension",
+  "previous_ids": [
+    "oec:single-leg-extension"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Single Leg Extension",
+        "url": "https://wger.de/en/exercise/71/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:leg-extension"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:leg-extension"
+    }
+  ],
+  "setup": {
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "An open-chain machine isolation exercise that targets the quadriceps of one leg at a time to build knee-extensor strength and correct side-to-side imbalances."
+}

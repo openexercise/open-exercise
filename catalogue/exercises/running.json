@@ -1,0 +1,259 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Run",
+      "kind": "common"
+    },
+    {
+      "text": "Jogging",
+      "kind": "common"
+    },
+    {
+      "text": "Jog",
+      "kind": "common"
+    },
+    {
+      "text": "Zone 2 Running",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "soleus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "synergist"
+      },
+      {
+        "muscle": "tibialis-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "subtalar",
+        "actions": [
+          "eversion",
+          "inversion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "mixed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "527,908"
+  },
+  "id": "oec:running",
+  "instructions": {
+    "setup": [
+      "Stand tall with your head facing forward, shoulders relaxed, and arms bent at roughly ninety degrees.",
+      "Engage your core lightly and lean slightly forward from your ankles, not your waist."
+    ],
+    "steps": [
+      "Push off the ground with one foot to initiate forward propulsion, driving the opposite knee forward and upward.",
+      "Land softly under your center of mass with your midfoot or forefoot, keeping your knee slightly flexed to absorb impact.",
+      "Swing your arms rhythmically front-to-back in opposition to your leg drive to maintain balance and momentum.",
+      "Cycle continuously through alternating stance and flight phases across the desired distance or duration."
+    ],
+    "breathing": "Breathe rhythmically and deeply in sync with your stride pattern (such as inhaling for two strides and exhaling for two strides).",
+    "cues": [
+      "Stay tall with a slight lean from the ankles",
+      "Land softly underneath your hips",
+      "Drive elbows back, not across the body",
+      "Keep your cadence light and quick"
+    ],
+    "common_faults": [
+      {
+        "fault": "Overstriding, where the foot lands far in front of the center of mass with a locked knee.",
+        "correction": "Shorten your stride and increase cadence so your feet land directly beneath your hips."
+      },
+      {
+        "fault": "Excessive arm crossover across the chest, causing wasted rotational energy.",
+        "correction": "Drive the elbows straight back and keep hands relaxed moving forward and backward."
+      },
+      {
+        "fault": "Bending forward at the waist or slouching through the shoulders.",
+        "correction": "Keep your chest proud, gaze fixed toward the horizon, and hinge forward slightly from the ankles."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Wear appropriate running shoes tailored to your foot strike and surface.",
+        "Gradually increase mileage and intensity to avoid overuse injuries such as shin splints or tendinopathies."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "distance",
+          "duration"
+        ],
+        "optional": [
+          "pace",
+          "speed",
+          "heart-rate",
+          "cadence",
+          "calories",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "distance",
+          "pace",
+          "speed",
+          "heart-rate",
+          "cadence",
+          "calories",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Running",
+  "previous_ids": [
+    "oec:run",
+    "oec:zone-2-running"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Run",
+        "url": "https://wger.de/en/exercise/527/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "BeLikeWater"
+      },
+      {
+        "title": "wger: Zone 2 Running",
+        "url": "https://wger.de/en/exercise/908/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "karly"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:walking"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:jogging"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:run-walk-intervals"
+    },
+    {
+      "type": "part-of",
+      "target": "oec:bronco-test"
+    }
+  ],
+  "setup": {
+    "position": "moving"
+  },
+  "status": "active",
+  "summary": "A fundamental locomotion and cardiovascular exercise involving cyclical, alternating strides with an aerial flight phase."
+}

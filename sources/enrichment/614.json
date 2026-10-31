@@ -1,0 +1,176 @@
+{
+  "is_exercise": true,
+  "name": "Jump Squat",
+  "summary": "A dynamic bodyweight plyometric exercise combining a rapid squat with an explosive vertical jump to build lower-body power.",
+  "aliases": [
+    {
+      "text": "Squat Jump",
+      "kind": "common"
+    },
+    {
+      "text": "Squat Jumps",
+      "kind": "common"
+    },
+    {
+      "text": "Bodyweight Jump Squat",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "plyometric",
+      "power",
+      "calisthenics",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "jump",
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "height",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "heart-rate"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet shoulder-width apart and toes pointed slightly outward.",
+      "Engage your core and keep your chest lifted with arms relaxed at your sides or held in front of your chest."
+    ],
+    "steps": [
+      "Hinge at the hips and bend your knees to lower smoothly into a squat until your thighs are roughly parallel to the ground.",
+      "Explosively extend your hips, knees, and ankles simultaneously to launch vertically off the ground.",
+      "Swing your arms upward to assist with momentum and reach maximum height.",
+      "Land softly on the balls of your feet, immediately rolling back onto your heels and absorbing the impact by bending your knees into the next repetition."
+    ],
+    "breathing": "Inhale as you descend into the squat and exhale forcefully as you drive upward into the jump.",
+    "cues": [
+      "Push the floor away explosively",
+      "Land soft like a cat",
+      "Absorb right into the next squat"
+    ],
+    "common_faults": [
+      {
+        "fault": "Landing with stiff, locked knees, sending heavy impact force through the joints.",
+        "correction": "Land softly on the balls of your feet and immediately bend your knees and hips to absorb the impact."
+      },
+      {
+        "fault": "Knees caving inward (valgus collapse) during the takeoff or landing.",
+        "correction": "Actively track your knees in line with your middle toes throughout both the jump and the landing."
+      },
+      {
+        "fault": "Collapsing the torso forward during the squat phase.",
+        "correction": "Keep your chest proud and maintain spinal rigidity with an engaged core."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform on a flat, non-slip, shock-absorbing surface such as a gym mat or rubber flooring rather than concrete."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

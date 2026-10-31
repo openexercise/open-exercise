@@ -1,0 +1,197 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "IT band foam rolling",
+      "kind": "common"
+    },
+    {
+      "text": "iliotibial band foam rolling",
+      "kind": "common"
+    },
+    {
+      "text": "foam rolling the IT band",
+      "kind": "common"
+    },
+    {
+      "text": "Foam Roller Iliotibial band",
+      "kind": "common"
+    },
+    {
+      "text": "Foam Roll IT Band",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "tensor-fasciae-latae",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "vastus-lateralis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "not-applicable",
+    "force": "not-applicable",
+    "kinetic_chain": "not-applicable",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "foam-roller"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1857,1950"
+  },
+  "id": "oec:foam-roller-it-band",
+  "instructions": {
+    "setup": [
+      "Lie on your side on a mat with the foam roller positioned beneath the outside of your bottom thigh, just below the hip joint.",
+      "Support your upper body on your bottom forearm or hand, and cross your top leg over in front of you, placing the foot flat on the floor to modulate pressure."
+    ],
+    "steps": [
+      "Slowly roll your body down toward your feet so the roller moves up your lateral thigh toward the hip.",
+      "Reverse the motion by rolling toward your head, stopping just above the knee joint.",
+      "Pause for several seconds on particularly tender or dense spots along the lateral thigh while breathing deeply.",
+      "Complete the desired duration, then switch sides."
+    ],
+    "breathing": "Breathe slowly and rhythmically throughout, avoiding holding your breath when rolling over tender spots.",
+    "cues": [
+      "Regulate pressure with your top foot",
+      "Roll slowly and smoothly",
+      "Avoid rolling directly over the knee or hip bone"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling directly over bony prominences such as the greater trochanter or lateral knee joint.",
+        "correction": "Confine the rolling to the soft tissue between just below the hip and just above the knee."
+      },
+      {
+        "fault": "Rolling too rapidly across the tissue.",
+        "correction": "Move at a deliberate, slow pace of about one to two inches per second, pausing on tender trigger points."
+      },
+      {
+        "fault": "Tensing up and holding breath due to discomfort.",
+        "correction": "Unload more body weight onto your supporting limbs to reduce pressure to a tolerable level."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not apply excessive pressure that causes sharp or radiating pain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Foam Roller IT Band",
+  "previous_ids": [
+    "oec:foam-roller-iliotibial-band",
+    "oec:foam-roll-it-band"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Foam Roller Iliotibial band",
+        "url": "https://wger.de/en/exercise/1857/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Davidgj32"
+      },
+      {
+        "title": "wger: Foam Roll IT Band",
+        "url": "https://wger.de/en/exercise/1950/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Pete-E automation"
+      }
+    ]
+  },
+  "setup": {
+    "position": "side-lying"
+  },
+  "status": "active",
+  "summary": "A self-myofascial release technique using a foam roller along the lateral thigh to alleviate perceived tightness and improve tissue mobility."
+}

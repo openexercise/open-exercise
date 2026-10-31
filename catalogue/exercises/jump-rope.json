@@ -1,0 +1,244 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Skipping",
+      "kind": "common"
+    },
+    {
+      "text": "Rope Skipping",
+      "kind": "common"
+    },
+    {
+      "text": "Skipping Rope",
+      "kind": "common"
+    },
+    {
+      "text": "Basic Jump Rope",
+      "kind": "common"
+    },
+    {
+      "text": "Skipping - Standard",
+      "kind": "common"
+    },
+    {
+      "text": "Jump rope: basic jumps",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gastrocnemius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "soleus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "synergist"
+      },
+      {
+        "muscle": "foot-intrinsics",
+        "role": "synergist"
+      },
+      {
+        "muscle": "tibialis-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "circumduction"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning",
+      "plyometric"
+    ],
+    "movement_patterns": [
+      "jump"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "jump-rope"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "595,993"
+  },
+  "id": "oec:jump-rope",
+  "instructions": {
+    "setup": [
+      "Hold one handle of the jump rope in each hand with the rope resting behind your heels.",
+      "Keep your elbows close to your ribs with your forearms angled slightly outward at roughly waist height.",
+      "Stand tall with feet together or hip-width apart and a soft bend in your knees."
+    ],
+    "steps": [
+      "Rotate your wrists forward to swing the rope up and over your head.",
+      "As the rope nears your feet, jump just high enough (one to two inches) off the ground for it to pass beneath you.",
+      "Land softly on the balls of your feet with knees slightly bent to absorb impact.",
+      "Rebound immediately into the next jump, maintaining a steady, rhythmic cadence driven primarily by wrist rotation."
+    ],
+    "breathing": "Breathe rhythmically in through the nose and out through the mouth in sync with your jumping tempo.",
+    "cues": [
+      "Turn with the wrists, not the whole arm",
+      "Stay light on the balls of your feet",
+      "Jump only as high as the rope is thick"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the rope using large circular motions of the entire arm from the shoulders.",
+        "correction": "Keep elbows tucked near your sides and initiate rope rotation almost entirely from the wrists."
+      },
+      {
+        "fault": "Jumping too high and tucking the knees or kicking the heels up behind the body.",
+        "correction": "Maintain a low, controlled bound with minimal knee flexion, bounding purely off the ankles."
+      },
+      {
+        "fault": "Landing flat-footed or on the heels, creating excessive joint impact.",
+        "correction": "Stay on the balls of your feet and maintain a spring-like rhythm with slight knee flexion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform on a forgiving surface such as a gym mat, wood floor, or rubber track rather than bare concrete to reduce lower-leg impact stress."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps",
+          "heart-rate",
+          "calories"
+        ]
+      },
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "heart-rate"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Jump Rope",
+  "previous_ids": [
+    "oec:skipping-standard",
+    "oec:jump-rope-basic-jumps"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Skipping - Standard",
+        "url": "https://wger.de/en/exercise/595/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Cerin"
+      },
+      {
+        "title": "wger: Jump rope: basic jumps",
+        "url": "https://wger.de/en/exercise/993/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:jumping-jack"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:tuck-jump"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "narrow"
+    }
+  },
+  "status": "active",
+  "summary": "A foundational cardiovascular and plyometric exercise where you repeatedly jump over a swinging rope with both feet."
+}

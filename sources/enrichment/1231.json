@@ -1,0 +1,111 @@
+{
+  "is_exercise": true,
+  "name": "Overhead Triceps Stretch",
+  "summary": "A static stretch performed by bending one arm behind the head and gently pulling the elbow with the opposite hand to lengthen the triceps.",
+  "aliases": [
+    {
+      "text": "Triceps stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Behind-the-head triceps stretch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "stretched"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stretched"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand or sit tall with your spine neutral and shoulders relaxed.",
+      "Raise one arm overhead and bend the elbow, reaching your hand down toward the center of your upper back."
+    ],
+    "steps": [
+      "Grasp the raised elbow with your opposite hand.",
+      "Gently pull the elbow toward your midline and slightly backward until a mild stretch is felt in the back of your upper arm.",
+      "Hold the position smoothly without bouncing, then release and repeat on the opposite side."
+    ],
+    "breathing": "Breathe slowly and deeply throughout the hold, relaxing into the stretch on each exhale.",
+    "cues": [
+      "Keep your chest upright and avoid arching your lower back.",
+      "Reach your fingertips down between your shoulder blades.",
+      "Pull gently to the point of mild tension, not pain."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lumbar spine to force the arm further back.",
+        "correction": "Brace your core and keep your ribcage down to maintain a neutral spine."
+      },
+      {
+        "fault": "Pushing the head and neck forward.",
+        "correction": "Keep your neck in line with your spine and your gaze forward throughout the stretch."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid aggressive downward pulling if you experience shoulder impingement or pain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "is_exercise": true,
+  "name": "Machine Hip Thrust",
+  "summary": "A machine-guided hip extension exercise performed against a padded belt or lap bar to target the glutes with stable spinal support.",
+  "aliases": [
+    {
+      "text": "Glute Drive",
+      "kind": "brand"
+    },
+    {
+      "text": "Plate-Loaded Hip Thrust",
+      "kind": "common"
+    },
+    {
+      "text": "Hip Thrust Machine",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "hip",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "plate-loaded-machine",
+        "selectorized-machine"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit on the machine seat with your upper back resting firmly against the padded backrest.",
+      "Fasten the padded belt or lower the lap bar securely across your hip crease, ensuring it is snug and centered.",
+      "Place your feet flat on the footplate roughly shoulder-width apart, toes pointing slightly outward so your shins will be roughly vertical at full extension."
+    ],
+    "steps": [
+      "Drive through your heels and extend your hips upward to lift the load off the safety stops.",
+      "Disengage the machine's safety release lever while holding full hip extension.",
+      "Lower your hips under control by flexing at the hips until you achieve a deep stretch in the glutes, keeping your ribcage down and chin tucked.",
+      "Drive through the feet and thrust upward until your hips are fully extended and your thighs are in line with your torso.",
+      "Pause for a brief second at the top, squeezing your glutes firmly before beginning the next repetition.",
+      "At the end of the set, re-engage the safety mechanism at lockout and carefully lower the weight onto the stops."
+    ],
+    "breathing": "Inhale as you lower your hips, and exhale forcefully as you drive up into full hip extension.",
+    "cues": [
+      "Drive through the midfoot and heel.",
+      "Keep your chin tucked and ribs down.",
+      "Lock out with your glutes, not your lower back."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lumbar spine at the top of the movement.",
+        "correction": "Focus on posterior pelvic tilt at lockout; squeeze the glutes and keep the ribcage pinned down without overarching the lower back."
+      },
+      {
+        "fault": "Feet placed too far forward or too close to the body.",
+        "correction": "Adjust foot placement so your knees form approximately a 90-degree angle when your hips reach full lockout."
+      },
+      {
+        "fault": "Knees caving inward during the upward thrust.",
+        "correction": "Actively track your knees in line with your toes throughout the entire range of motion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the safety lock mechanism is fully functional and practice engaging it before loading heavy weights.",
+        "Fasten the strap tightly across the pelvic crease, avoiding direct pressure on the soft abdomen."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

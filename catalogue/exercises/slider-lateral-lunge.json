@@ -1,0 +1,244 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Sliding Lateral Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Slider Side Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Gliding Lateral Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Gliding Side Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Goblet Slider Lateral Lunge",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension",
+          "abduction",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "kettlebell",
+      "dumbbell"
+    ],
+    "required": [
+      [
+        "slider"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1604"
+  },
+  "id": "oec:slider-lateral-lunge",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart, placing one foot on a slider or gliding disc.",
+      "Keep the stationary foot firmly planted, carrying the vast majority of your body weight.",
+      "Clasp hands at your chest for balance, or hold a kettlebell or dumbbell in a goblet position."
+    ],
+    "steps": [
+      "Hinge back at the hips and bend the knee of the stationary leg to descend into a squat.",
+      "Simultaneously slide the non-working leg straight out to the side, keeping the knee extended and toes pointing forward.",
+      "Lower yourself under control until the thigh of the working leg is roughly parallel to the floor.",
+      "Drive through the heel and midfoot of the stationary leg while actively pulling the sliding foot inward to return to the starting position."
+    ],
+    "breathing": "Inhale as you sit back and slide the leg outward, and exhale as you drive up and pull the slider back to center.",
+    "cues": [
+      "Sit back into the working hip.",
+      "Keep the sliding leg straight.",
+      "Keep most of your weight on the planted foot.",
+      "Pull the floor together to stand."
+    ],
+    "common_faults": [
+      {
+        "fault": "Putting too much weight on the sliding foot, making it difficult to return and risking groin strain.",
+        "correction": "Keep roughly 80 to 90 percent of your body weight centered over the stationary leg throughout the entire repetition."
+      },
+      {
+        "fault": "Working knee caving inward during the descent.",
+        "correction": "Actively track the knee of the squatting leg over the middle toes."
+      },
+      {
+        "fault": "Bending the sliding leg knee.",
+        "correction": "Keep the sliding leg fully straight to direct tension into the hips and stretch the adductors."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use on a smooth, non-abrasive surface with adequate friction control.",
+        "Begin with bodyweight to test groin flexibility before introducing external loads."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "kind": "bodyweight-plus-external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "load",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Slider Lateral Lunge",
+  "previous_ids": [
+    "oec:sliding-lateral-lunge"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Sliding Lateral Lunge",
+        "url": "https://wger.de/en/exercise/1604/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "RiccaBaro"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:lateral-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cossack-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-lateral-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:lateral-split-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:lateral-squat"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral lower-body exercise where one foot slides laterally while the opposite leg squats down, developing quad, glute, and adductor strength and mobility."
+}

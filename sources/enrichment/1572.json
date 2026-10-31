@@ -1,0 +1,176 @@
+{
+  "is_exercise": true,
+  "name": "Bird Dog",
+  "summary": "A quadruped core-stability exercise where opposite arm and leg are extended simultaneously while maintaining a neutral, stable spine.",
+  "aliases": [
+    {
+      "text": "Quadruped Opposite Arm and Leg Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Bird-Dog",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "rehabilitation",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "anti-rotation",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "mixed",
+    "laterality": "contralateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "quadruped",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "erector-spinae",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "multifidus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "per-side",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Assume a tabletop position on all fours with wrists stacked directly beneath shoulders and knees stacked beneath hips.",
+      "Align the spine in a neutral position with the neck neutral and gaze directed at the floor."
+    ],
+    "steps": [
+      "Brace the midsection firmly to prevent the pelvis or ribcage from shifting.",
+      "Simultaneously reach one arm straight forward and extend the opposite leg straight back until both are parallel to the floor.",
+      "Pause for one to two seconds at the top, focusing on glute contraction and total spinal stability.",
+      "Smoothly return the hand and knee to the floor with control.",
+      "Repeat the movement on the opposite side or complete all reps on one side before switching."
+    ],
+    "breathing": "Exhale smoothly as you reach outward, and inhale as you return to the quadruped starting position.",
+    "cues": [
+      "Reach long, not high",
+      "Balance a glass of water on your lower back",
+      "Keep hips and shoulders level"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lower back as the leg lifts.",
+        "correction": "Lift the leg only to hip height and actively brace your abdominal wall to keep the lumbar spine flat."
+      },
+      {
+        "fault": "Rotating the hips open toward the lifting side.",
+        "correction": "Keep your pelvis square to the floor by pointing the toes of the rear foot straight down."
+      },
+      {
+        "fault": "Craning the neck upward.",
+        "correction": "Keep your chin slightly tucked and gaze directed between your hands to maintain a neutral cervical spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use an exercise mat under the knees if you experience patellar discomfort."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

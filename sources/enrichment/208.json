@@ -1,0 +1,152 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Preacher Curl",
+  "summary": "An isolated elbow flexion exercise performed seated at a slanted preacher bench using dumbbells to eliminate body momentum and target the biceps.",
+  "aliases": [
+    {
+      "text": "Dumbbell Scott Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Scott Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Preacher Dumbbell Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Two-Arm Dumbbell Preacher Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "supinated",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "preacher-bench"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the preacher bench seat height so your armpits rest comfortably over the top edge of the pad.",
+      "Grasp a dumbbell in each hand with an underhand (supinated) grip.",
+      "Sit down firmly with your chest against the bench support and your triceps fully supported flush against the angled pad."
+    ],
+    "steps": [
+      "Start with your arms extended down the pad, maintaining a soft bend at the elbows to avoid hyperextension.",
+      "Curl the dumbbells upward by flexing at the elbows, keeping your upper arms glued to the pad.",
+      "Squeeze your biceps firmly at the top without allowing the forearms to become completely vertical and lose tension.",
+      "Lower the dumbbells smoothly back down the pad under control until your arms are nearly fully extended."
+    ],
+    "breathing": "Exhale as you curl the dumbbells upward and inhale as you lower them down the pad.",
+    "cues": [
+      "Keep triceps glued to the pad",
+      "Do not hyperextend at the bottom",
+      "Stop just short of vertical at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the elbows or chest off the pad to heave the weight up.",
+        "correction": "Keep your upper body fixed against the pad and select a lighter weight that allows strict elbow flexion."
+      },
+      {
+        "fault": "Aggressively hyperextending or bouncing out of the bottom position.",
+        "correction": "Control the descent and stop at full extension with a micro-bend in the elbow before initiating the next rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessive loads that could strain the distal biceps tendon at full extension."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

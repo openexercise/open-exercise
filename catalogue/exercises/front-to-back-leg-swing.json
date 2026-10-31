@@ -1,0 +1,204 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Leg Swings (Front–Back)",
+      "kind": "common"
+    },
+    {
+      "text": "Forward and Backward Leg Swing",
+      "kind": "common"
+    },
+    {
+      "text": "Sagittal Leg Swing",
+      "kind": "common"
+    },
+    {
+      "text": "Front to Back Leg Swing",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "iliopsoas",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "swing",
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "wall"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1670"
+  },
+  "id": "oec:front-to-back-leg-swing",
+  "instructions": {
+    "setup": [
+      "Stand tall on one leg next to a sturdy wall, post, or rack.",
+      "Place the nearest hand lightly against the support for balance.",
+      "Keep the standing leg slightly soft at the knee and brace your core."
+    ],
+    "steps": [
+      "Swing the free leg forward in a smooth, pendulum-like motion, elevating the foot comfortably.",
+      "Allow the leg to swing naturally back through the starting position and extend behind you.",
+      "Gradually increase the range of motion as your tissues warm up, maintaining a stable, upright torso.",
+      "Complete the desired repetitions, then switch sides."
+    ],
+    "breathing": "Breathe rhythmically and continuously, exhaling gently as the leg swings forward and inhaling as it swings back.",
+    "cues": [
+      "Move from the hip, not the lower back.",
+      "Stand tall on the support leg.",
+      "Keep the swing fluid and controlled."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively arching or rounding the lower back to force higher swings.",
+        "correction": "Brace the abdominals and limit the leg swing to the range your hips can achieve without spinal movement."
+      },
+      {
+        "fault": "Swinging aggressively with rigid momentum rather than controlled rhythm.",
+        "correction": "Start with smaller, relaxed swings and build amplitude gradually without forcing end-range bounce."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure ample clear space in front and behind you so your foot does not hit any objects."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Front-to-Back Leg Swing",
+  "previous_ids": [
+    "oec:leg-swings-front-back"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Leg Swings (Front–Back)",
+        "url": "https://wger.de/en/exercise/1670/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Jhonatan"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:standing-straight-leg-kick"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "single-leg"
+    }
+  },
+  "status": "active",
+  "summary": "A dynamic lower-body mobility exercise that swings the leg through sagittal hip flexion and extension to prepare the hips and legs for activity."
+}

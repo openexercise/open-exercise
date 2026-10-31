@@ -1,0 +1,156 @@
+{
+  "is_exercise": true,
+  "name": "Seated Dumbbell Curl",
+  "summary": "An upper-arm isolation exercise performed while seated to minimize bodily momentum and target the biceps brachii.",
+  "aliases": [
+    {
+      "text": "Seated Dumbbell Biceps Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Bicep Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Seated DB Curl",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "supinated",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "supination"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "adjustable-bench",
+        "chair"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit upright on the end of a flat bench or an upright utility bench with feet flat on the floor.",
+      "Hold a dumbbell in each hand with arms hanging straight down at your sides, palms facing inward or forward, and shoulders pulled back."
+    ],
+    "steps": [
+      "Keeping your upper arms pinned close to your torso, curl the dumbbells upward by flexing at the elbows.",
+      "As you lift, rotate your wrists outward so your palms face upward at the top of the movement.",
+      "Squeeze the biceps firmly at peak contraction without letting your elbows drift forward.",
+      "Lower the dumbbells smoothly back to the starting position under full control, extending the arms completely."
+    ],
+    "breathing": "Exhale as you curl the dumbbells upward and inhale as you lower them to the starting position.",
+    "cues": [
+      "Pin your elbows to your sides",
+      "Turn your pinkies up at the top",
+      "Control the descent all the way down"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the upper body or using momentum to lift the weights.",
+        "correction": "Keep your back firmly braced against the bench pad or maintain strict upright torso posture without rocking."
+      },
+      {
+        "fault": "Drifting the elbows forward during the curl.",
+        "correction": "Keep the upper arms perpendicular to the floor to prevent the front deltoids from taking over the load."
+      },
+      {
+        "fault": "Cutting the range of motion short at the bottom.",
+        "correction": "Allow your elbows to extend fully between repetitions to fully stretch the biceps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessive loads that force the lower back to arch or hyperextend off the bench."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Horizontal Shoulder Flexion Stretch",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Wall Pec Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Doorway Pec Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Wall Chest Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major",
+        "role": "stretched"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stretched"
+      },
+      {
+        "muscle": "pectoralis-minor",
+        "role": "stretched"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-abduction",
+          "external-rotation"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "rotation"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "wall"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1712"
+  },
+  "id": "oec:wall-chest-stretch",
+  "instructions": {
+    "setup": [
+      "Stand perpendicular to a sturdy wall or doorframe in a comfortable staggered stance.",
+      "Place your palm and forearm flat against the wall at roughly shoulder height, keeping a slight bend in your elbow."
+    ],
+    "steps": [
+      "Gently rotate your torso and hips away from the braced arm until you feel a comfortable stretch across your chest and the front of your shoulder.",
+      "Hold the position steadily without bouncing or aggressively twisting.",
+      "Slowly rotate your torso back toward the wall to release the tension, then switch sides."
+    ],
+    "breathing": "Breathe deeply and evenly, allowing the chest musculature to relax further with each exhale.",
+    "cues": [
+      "Chest tall",
+      "Shoulders down and back",
+      "Rotate gently from the hips and torso",
+      "Breathe through the stretch"
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulder toward the ear on the stretched side.",
+        "correction": "Keep the shoulder blade depressed and drawn slightly backward before turning away."
+      },
+      {
+        "fault": "Over-rotating through the lower back instead of the upper torso.",
+        "correction": "Maintain a braced core and turn your entire rib cage and hips smoothly as a unit."
+      },
+      {
+        "fault": "Aggressively forcing the shoulder into hyper-horizontal abduction.",
+        "correction": "Ease into the stretch until a mild to moderate pull is felt; never push into sharp joint pain."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid this stretch if you experience anterior shoulder instability or impingement symptoms."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Wall Chest Stretch",
+  "previous_ids": [
+    "oec:horizontal-shoulder-flexion-stretch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Horizontal Shoulder Flexion Stretch",
+        "url": "https://wger.de/en/exercise/1712/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Croak6728"
+      }
+    ]
+  },
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "staggered"
+    }
+  },
+  "status": "active",
+  "summary": "A standing static stretch performed by bracing the hand or forearm against a wall and rotating the torso away to stretch the chest and front shoulder."
+}

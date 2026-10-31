@@ -1,0 +1,236 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Plyometric Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Plyo Push-Up",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "explosive push ups",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "plyometric",
+      "calisthenics",
+      "power",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "2529"
+  },
+  "id": "oec:explosive-push-up",
+  "instructions": {
+    "setup": [
+      "Assume a high plank position with your hands placed slightly wider than shoulder-width apart.",
+      "Position your feet hip-width apart and squeeze your glutes and core to create a rigid, straight line from head to heels."
+    ],
+    "steps": [
+      "Lower your chest under control toward the floor by flexing your elbows at roughly a 45-degree angle to your body.",
+      "Just before your chest touches the floor, reverse direction and press into the ground with maximal speed.",
+      "Accelerate forcefully until your hands leave the floor at the peak of the movement.",
+      "Land softly by catching the ground with your hands and immediately bending your elbows to absorb impact into the next descent."
+    ],
+    "breathing": "Inhale smoothly as you lower your body, then exhale forcefully as you explode off the floor.",
+    "cues": [
+      "Push the floor away explosively",
+      "Stay rigid in the air",
+      "Cushion the landing softly"
+    ],
+    "common_faults": [
+      {
+        "fault": "Landing with stiff, locked elbows, placing high shock on the joints.",
+        "correction": "Catch the floor with soft elbows and immediately yield into the descent to absorb force."
+      },
+      {
+        "fault": "Sagging the hips and extending the lumbar spine during the explosive drive or landing.",
+        "correction": "Brace your core and glutes firmly to maintain a neutral spine throughout the repetition."
+      },
+      {
+        "fault": "Flaring the elbows out perpendicular to the torso.",
+        "correction": "Keep your elbows angled at roughly 45 degrees relative to your torso to protect the shoulders."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure wrist and shoulder mobility are adequate before performing high-impact plyometric upper body work."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Explosive Push-Up",
+  "previous_ids": [
+    "oec:explosive-push-ups"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: explosive push ups",
+        "url": "https://wger.de/en/exercise/2529/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "ege"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:clap-push-up"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:clap-push-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "prone",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A plyometric push-up variation where the upper body is driven up with enough speed for the hands to leave the floor."
+}

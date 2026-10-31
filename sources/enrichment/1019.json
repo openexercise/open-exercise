@@ -1,0 +1,162 @@
+{
+  "is_exercise": true,
+  "name": "Side Plank",
+  "summary": "An isometric bodyweight exercise performed on one forearm and the edge of the feet to develop lateral core endurance and hip stability.",
+  "aliases": [
+    {
+      "text": "Side Bridge",
+      "kind": "common"
+    },
+    {
+      "text": "Lateral Plank",
+      "kind": "common"
+    },
+    {
+      "text": "Side Plank Right",
+      "kind": "common"
+    },
+    {
+      "text": "Side Plank Left",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "anti-lateral-flexion",
+      "anti-rotation"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "side-lying",
+  "muscles": [
+    {
+      "muscle": "obliques",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadratus-lumborum",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie on your side on the floor or a mat with legs extended straight.",
+      "Place your bottom elbow directly underneath your shoulder, forearm flat and perpendicular to your torso.",
+      "Stack your top foot directly over your bottom foot, or place the top foot on the floor just in front of the bottom foot for extra balance."
+    ],
+    "steps": [
+      "Engage your abdominals, squeeze your glutes, and press your forearm into the floor to lift your hips.",
+      "Raise your body until your head, torso, hips, and ankles form a straight diagonal line.",
+      "Hold this rigid position for the designated duration without letting your hips sag or rotate.",
+      "Lower your hips under control to return to the floor, then switch sides."
+    ],
+    "breathing": "Breathe smoothly and continuously into your belly throughout the hold without relaxing abdominal tension.",
+    "cues": [
+      "Elbow under shoulder",
+      "Hips high and square",
+      "Straight line from crown to heels"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hips sagging toward the floor",
+        "correction": "Actively contract the bottom-side oblique and glute to elevate the pelvis until your spine is neutral."
+      },
+      {
+        "fault": "Rotating the chest or hips forward or backward",
+        "correction": "Keep your shoulders and hips perpendicular to the ground throughout the hold."
+      },
+      {
+        "fault": "Elbow placed too far ahead or away from the body",
+        "correction": "Ensure your supporting elbow rests directly beneath your shoulder before lifting into the plank."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If shoulder discomfort occurs, stack knees bent at 90 degrees to perform a modified side plank from the knees."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

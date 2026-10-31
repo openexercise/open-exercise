@@ -1,0 +1,120 @@
+{
+  "is_exercise": true,
+  "name": "Cross-Body Shoulder Stretch",
+  "summary": "A static upper-body stretch that increases posterior shoulder mobility by drawing one arm horizontally across the chest.",
+  "aliases": [
+    {
+      "text": "Cross-Body Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Posterior Shoulder Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Horizontal Adduction Stretch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "muscles": [
+    {
+      "muscle": "deltoid-posterior",
+      "role": "stretched"
+    },
+    {
+      "muscle": "infraspinatus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "teres-minor",
+      "role": "stretched"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and relax your shoulders downward.",
+      "Bring one arm straight across your chest at roughly shoulder height."
+    ],
+    "steps": [
+      "Hook your opposite forearm or hand around the upper arm or elbow of the extended arm.",
+      "Gently pull the arm closer toward your chest until a comfortable stretch is felt in the back of the shoulder.",
+      "Hold the position steadily without bouncing.",
+      "Release slowly and repeat on the opposite arm."
+    ],
+    "breathing": "Breathe smoothly and deeply throughout the hold, using each exhalation to relax deeper into the stretch.",
+    "cues": [
+      "Keep the shoulder blade down away from the ear.",
+      "Draw the arm in gently rather than cranking it.",
+      "Maintain a tall, upright spine without twisting the torso."
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulder of the stretched arm upward toward the ear.",
+        "correction": "Actively depress the shoulder girdle and keep the shoulder down before applying tension."
+      },
+      {
+        "fault": "Twisting the torso to follow the arm across the body.",
+        "correction": "Keep the chest and hips facing square to the front so the stretch isolates the shoulder."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid aggressive pulling if you experience sharp anterior shoulder pain or impingement symptoms."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

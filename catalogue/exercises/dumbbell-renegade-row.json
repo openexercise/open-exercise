@@ -1,0 +1,242 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Renegade Row",
+      "kind": "common"
+    },
+    {
+      "text": "Plank Row",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Plank Row",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "anti-rotation",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "mixed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "dumbbell",
+        "kettlebell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "490"
+  },
+  "id": "oec:dumbbell-renegade-row",
+  "instructions": {
+    "setup": [
+      "Place two hex dumbbells on the floor about shoulder-width apart.",
+      "Assume a high plank position with your hands gripping the dumbbell handles directly under your shoulders.",
+      "Set your feet wider than shoulder-width apart to create a stable base of support and brace your core."
+    ],
+    "steps": [
+      "Firmly press one dumbbell into the floor while maintaining a rigid, level torso.",
+      "Row the opposite dumbbell upward toward your lower ribcage, driving with the elbow and keeping the arm close to your side.",
+      "Pause briefly at the top without rotating your hips or shoulders.",
+      "Lower the dumbbell with control back to the floor.",
+      "Transfer your weight smoothly and repeat the movement on the opposite arm."
+    ],
+    "breathing": "Inhale to brace your core before initiating the pull, exhale as you row the weight up, and inhale as you lower it back to the floor.",
+    "cues": [
+      "Square hips to the floor",
+      "Drive the elbow back, not out",
+      "Push the floor away with the support arm"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive hip rotation and torso twisting during the pull.",
+        "correction": "Widen your foot stance and reduce the weight to maintain a parallel pelvis throughout the movement."
+      },
+      {
+        "fault": "Sagging or over-arching through the lower back.",
+        "correction": "Squeeze your glutes and pull your ribs toward your pelvis to maintain a neutral spine."
+      },
+      {
+        "fault": "Using round dumbbells that roll easily.",
+        "correction": "Use flat-sided hex dumbbells or flat-bottom kettlebells to provide a stable, safe base."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the dumbbells are stable before placing full bodyweight on them to prevent wrist rolling."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Renegade Row",
+  "previous_ids": [
+    "oec:renegade-row"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Renegade Row",
+        "url": "https://wger.de/en/exercise/490/view-base",
+        "license": "CC0-1.0",
+        "author": "fletchgraham"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:single-arm-kettlebell-plank-row"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:single-arm-dumbbell-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "shoulder"
+    },
+    "position": "support",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "wide"
+    }
+  },
+  "status": "active",
+  "summary": "An alternating row performed from a high plank position that challenges upper-back pulling strength and anti-rotational core stability."
+}

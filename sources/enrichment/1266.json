@@ -1,0 +1,147 @@
+{
+  "is_exercise": true,
+  "name": "Suspension Trainer Triceps Extension",
+  "summary": "A bodyweight isolation exercise that targets the triceps by bending and extending the elbows against a suspension trainer while holding a rigid plank.",
+  "aliases": [
+    {
+      "text": "TRX Triceps Extension",
+      "kind": "brand"
+    },
+    {
+      "text": "TRX Tricep Extension",
+      "kind": "brand"
+    },
+    {
+      "text": "Suspension Triceps Extension",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension",
+      "anti-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "suspension-trainer"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Secure the suspension trainer to a high anchor point so the handles hang roughly at mid-torso height.",
+      "Face away from the anchor point and grasp the handles with a shoulder-width, pronated grip.",
+      "Extend your arms in front of your chest and walk your feet backward into a straight-line plank, leaning your body weight forward onto your toes."
+    ],
+    "steps": [
+      "Keep your upper arms stationary and bend only at your elbows to lower your body forward until your hands are beside your forehead or temples.",
+      "Pause briefly at the bottom to ensure the tension remains on the triceps and your core stays braced.",
+      "Press through the palms and contract your triceps to extend your elbows, returning to the starting lockout position without moving your shoulders."
+    ],
+    "breathing": "Inhale as you bend your elbows to lower yourself down, and exhale forcefully as you press back up to arm extension.",
+    "cues": [
+      "Keep the elbows pointing forward.",
+      "Hold a rigid plank.",
+      "Bend only at the elbows."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbows out wide to the sides, shifting the load off the triceps and stressing the shoulders.",
+        "correction": "Keep your elbows tucked in line with your shoulders throughout the full range of motion."
+      },
+      {
+        "fault": "Piking at the hips or allowing the lower back to sag.",
+        "correction": "Squeeze your glutes and brace your abdominals to maintain a rigid plank from head to heels."
+      },
+      {
+        "fault": "Dropping the upper arms downward and turning the exercise into a chest press.",
+        "correction": "Fix your elbows high in space and pivot strictly around the elbow joint."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the suspension anchor is fully secured before leaning your body weight into the straps.",
+        "Adjust exercise difficulty by moving your feet forward to decrease the lean angle if elbow discomfort occurs."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

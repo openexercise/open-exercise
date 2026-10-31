@@ -1,0 +1,213 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Cobra Pose",
+      "kind": "common"
+    },
+    {
+      "text": "Bhujangasana",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Cobra Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stretched"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stretched"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "stretched"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "stretched"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "cervical-spine",
+        "actions": [
+          "extension",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "extension"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility",
+      "yoga"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "spinal-extension"
+    ],
+    "mechanics": "not-applicable",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1450"
+  },
+  "id": "oec:cobra-stretch",
+  "instructions": {
+    "setup": [
+      "Lie face down on the floor or mat with your legs extended straight behind you, tops of your feet flat on the ground.",
+      "Place your palms flat on the floor directly beneath your shoulders, hugging your elbows close to your torso."
+    ],
+    "steps": [
+      "Press the tops of your feet, thighs, and pelvis firmly into the floor.",
+      "Inhale and gently press into your palms to lift your chest off the floor, distributing the curve evenly through your upper back.",
+      "Keep a slight bend in your elbows and draw your shoulder blades back and down away from your ears.",
+      "Hold the position comfortably for the designated duration while breathing smoothly.",
+      "Slowly lower your chest and torso back down to the floor to release."
+    ],
+    "breathing": "Inhale as you lift your chest into the extension, and maintain smooth, slow diaphragmatic breaths throughout the hold.",
+    "cues": [
+      "Keep your pelvis glued to the floor",
+      "Roll your shoulders down and back",
+      "Extend through the upper chest rather than crunching the lower back"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the pelvis and thighs off the floor, turning the stretch into an upward dog.",
+        "correction": "Anchor the hip bones and tops of the feet firmly onto the mat throughout the hold."
+      },
+      {
+        "fault": "Shrugging the shoulders upward toward the ears.",
+        "correction": "Actively depress your scapulae, drawing your shoulder blades down toward your back pockets."
+      },
+      {
+        "fault": "Excessively hyperextending the lumbar spine or jamming the lower back.",
+        "correction": "Focus on lifting and opening the sternum upward, distributing extension evenly across the thoracic spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forcing backward extension if experiencing sharp pain or numbness in the lower back."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Cobra Stretch",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Cobra Stretch",
+        "url": "https://wger.de/en/exercise/1450/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "hpmbala@gmail.com"
+      }
+    ]
+  },
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "prone",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A prone bodyweight stretch that gently extends the spine to open the chest, abdominals, and anterior hip capsule."
+}

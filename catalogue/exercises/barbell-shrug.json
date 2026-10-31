@@ -1,0 +1,233 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "shrug",
+      "kind": "common"
+    },
+    {
+      "text": "barbell shrugs",
+      "kind": "common"
+    },
+    {
+      "text": "standing barbell shrug",
+      "kind": "common"
+    },
+    {
+      "text": "Shrugs, Barbells",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "trapezius-upper",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "levator-scapulae",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "elevation",
+          "depression"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "power-rack",
+      "squat-rack",
+      "strap"
+    ],
+    "required": [
+      [
+        "barbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "571"
+  },
+  "id": "oec:barbell-shrug",
+  "instructions": {
+    "setup": [
+      "Stand upright holding a loaded barbell with a double-overhand grip just outside your thighs.",
+      "Position your feet hip-width apart, soften your knees slightly, and keep your chest tall with a neutral spine."
+    ],
+    "steps": [
+      "Keeping your arms fully extended, elevate your shoulders straight up toward your ears as high as possible.",
+      "Pause briefly at the top of the contraction, squeezing your upper traps.",
+      "Lower the barbell under control back to the starting position until you feel a deep stretch in your traps."
+    ],
+    "breathing": "Inhale before initiating the lift and exhale as you reach peak elevation or as you lower the bar.",
+    "cues": [
+      "Shrug straight up toward your ears.",
+      "Keep your arms straight like ropes.",
+      "Pause and squeeze at the peak."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling the shoulders backward or forward at the top of the movement.",
+        "correction": "Move strictly up and down in a vertical plane to protect the glenohumeral joint and neck."
+      },
+      {
+        "fault": "Bending the elbows to lift the barbell higher.",
+        "correction": "Keep your arms locked straight and allow only the scapulae to elevate the weight."
+      },
+      {
+        "fault": "Using excessive leg drive or bouncing to heave the weight up.",
+        "correction": "Maintain a strict, stationary stance and select a load you can lift using only your traps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid craning your neck forward during heavy sets to reduce cervical strain.",
+        "Consider using lifting straps if grip fatigue limits upper trap recruitment."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Shrug",
+  "previous_ids": [
+    "oec:shrugs-barbells"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Shrugs, Barbells",
+        "url": "https://wger.de/en/exercise/571/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-shrug"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:smith-machine-shrug"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-shrug-in"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An isolation exercise that builds the upper trapezius and neck musculature by elevating the shoulder blades against a barbell held in front of the body."
+}

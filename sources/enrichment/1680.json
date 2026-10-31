@@ -1,0 +1,132 @@
+{
+  "is_exercise": true,
+  "name": "Seated Figure-Four Stretch",
+  "summary": "A seated mobility stretch that targets the deep external rotators and glutes by resting one ankle across the opposite thigh.",
+  "aliases": [
+    {
+      "text": "Seated Figure 4 Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Piriformis Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Chair Figure-Four Stretch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "piriformis",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stretched"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "external-rotation",
+        "flexion",
+        "abduction"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "bench",
+        "chair"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit upright near the edge of a sturdy bench or chair with both feet flat on the floor and knees bent at approximately 90 degrees.",
+      "Lift one leg and rest the outside of that ankle across the opposite thigh, just above the knee, allowing the crossed knee to open out to the side."
+    ],
+    "steps": [
+      "Maintain a tall posture with a neutral spine and level pelvis.",
+      "Hinge slightly forward at the hips while keeping your chest lifted until a comfortable stretch is felt in the outer hip and glute of the crossed leg.",
+      "Hold the position steadily for the prescribed time without bouncing.",
+      "Carefully return the torso upright, uncross the leg, and repeat on the opposite side."
+    ],
+    "breathing": "Breathe slowly and deeply through the nose, exhaling gently to relax deeper into the hip stretch.",
+    "cues": [
+      "Hinge from the hips, not the waist",
+      "Keep your chest proud",
+      "Flex the top ankle slightly to protect the knee"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding the lower and mid-back to reach forward rather than hinging at the hips.",
+        "correction": "Keep the chest high and initiate the movement purely by tilting the pelvis and torso forward as a single unit."
+      },
+      {
+        "fault": "Forcing or aggressively pushing down on the elevated knee.",
+        "correction": "Allow gravity to open the hip naturally, or use only very light hand pressure without causing knee joint discomfort."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid this stretch if you experience sharp pain inside the knee joint; keep the elevated foot lightly dorsiflexed to stabilize the knee."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

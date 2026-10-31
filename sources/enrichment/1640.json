@@ -1,0 +1,169 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Front Squat",
+  "summary": "A bilateral squat variation holding a pair of dumbbells at shoulder height in a front-rack position to emphasize the quadriceps and core.",
+  "aliases": [
+    {
+      "text": "DB Front Squat",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Dumbbell Squat with Shoulder Hold",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "front-rack",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand with feet roughly shoulder-width apart, toes turned slightly outward.",
+      "Clean or lift two dumbbells to rest one end of each dumbbell on the front of your shoulders, with elbows pointing forward and slightly up."
+    ],
+    "steps": [
+      "Brace your core and initiate the descent by bending at your knees and hips simultaneously.",
+      "Lower your hips under control until your thighs reach at least parallel to the floor, keeping your torso upright and elbows elevated.",
+      "Push through your midfoot and heels to reverse the movement and stand back up to full hip and knee extension."
+    ],
+    "breathing": "Inhale and brace your core before descending; exhale as you push past the sticking point on the ascent.",
+    "cues": [
+      "Keep the elbows high.",
+      "Sit between your heels.",
+      "Stay tall through the torso."
+    ],
+    "common_faults": [
+      {
+        "fault": "Elbows dropping, causing the chest to collapse forward.",
+        "correction": "Actively drive your elbows up throughout the squat to keep the upper back extended."
+      },
+      {
+        "fault": "Heels lifting off the floor during the descent.",
+        "correction": "Distribute weight evenly across the entire foot and work on ankle dorsiflexion mobility or elevate heels slightly."
+      },
+      {
+        "fault": "Knees caving inward (valgus collapse) on the ascent.",
+        "correction": "Track your knees in line with your toes throughout the movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you lose balance or reach failure, safely dump the dumbbells forward away from your body onto the floor."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

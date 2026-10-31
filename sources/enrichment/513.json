@@ -1,0 +1,194 @@
+{
+  "is_exercise": true,
+  "name": "T-Bar Row",
+  "summary": "A bent-over compound pulling exercise using a pivoted barbell or dedicated machine to build back thickness and upper-body pulling strength.",
+  "aliases": [
+    {
+      "text": "Rowing, T-bar",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Barbell T-Bar Row",
+      "kind": "common"
+    },
+    {
+      "text": "Landmine T-Bar Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "hinge",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "bent-over",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "plate-loaded-machine",
+        "barbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "landmine",
+    "weight-plate"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Straddle the T-bar apparatus or landmine barbell with feet shoulder-width apart.",
+      "Hinge at your hips with knees slightly bent until your torso is angled around 45 degrees relative to the floor.",
+      "Grasp the handles firmly with arms fully extended and your spine braced in neutral alignment."
+    ],
+    "steps": [
+      "Pull the weight upward toward your upper abdomen or lower chest by driving your elbows back and retracting your shoulder blades.",
+      "Squeeze your back musculature hard at the peak of the contraction without changing your torso angle.",
+      "Lower the weight smoothly under control until your arms are fully extended and your lats stretch.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "breathing": "Inhale and brace before initiating the pull, and exhale as you complete the concentric phase or slowly during the descent.",
+    "cues": [
+      "Drive your elbows toward your hips.",
+      "Keep your chest proud and spine flat.",
+      "Pull with your back, not your biceps."
+    ],
+    "common_faults": [
+      {
+        "fault": "Using excessive hip thrust and torso swing to heave the weight up.",
+        "correction": "Reduce the load and keep your hip hinge and torso angle strictly stationary throughout the set."
+      },
+      {
+        "fault": "Rounding the lumbar spine under load.",
+        "correction": "Brace your abdominals and maintain a neutral spine with active hamstring tension."
+      },
+      {
+        "fault": "Cutting the range of motion short at the bottom or top.",
+        "correction": "Allow full arm extension at the bottom for a deep stretch and pull until the handles reach the torso."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the pivot point of the bar is securely anchored before lifting.",
+        "Maintain a neutral spine under load to protect the lower back."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

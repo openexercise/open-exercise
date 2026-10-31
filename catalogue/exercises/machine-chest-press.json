@@ -1,0 +1,259 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Chest Press Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Machine Chest Press",
+      "kind": "common"
+    },
+    {
+      "text": "Chest Press",
+      "kind": "common"
+    },
+    {
+      "text": "Leverage Machine Chest Press",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Flat Machine Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "129,379,1094,1694,2627"
+  },
+  "id": "oec:machine-chest-press",
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so that the machine handles align horizontally with mid-to-lower chest level.",
+      "Sit back firmly against the back pad with your feet flat on the floor.",
+      "If equipped, depress the foot assist pedal to bring the handles forward into a comfortable starting position.",
+      "Grasp the handles with an overhand or neutral grip and retract your shoulder blades against the pad."
+    ],
+    "steps": [
+      "Release the foot pedal smoothly while holding the handles with tension on your chest.",
+      "Press the handles away by extending your elbows and squeezing your chest.",
+      "Push until your arms are fully extended without aggressively locking out your elbows or letting your shoulders roll forward.",
+      "Slowly reverse the movement, controlling the weight back until your chest experiences a full stretch."
+    ],
+    "breathing": "Exhale as you press the handles forward, and inhale as you lower the weight back under control.",
+    "cues": [
+      "Keep your chest proud against the pad",
+      "Drive through your palms",
+      "Don't let the shoulders roll forward at the finish"
+    ],
+    "common_faults": [
+      {
+        "fault": "Setting the seat too low, causing the handles to align with the neck and overstressing the shoulders.",
+        "correction": "Raise the seat so the handles align directly with the middle or lower line of the pectoral muscles."
+      },
+      {
+        "fault": "Protraction and shrugging shoulders off the back pad at full extension.",
+        "correction": "Keep your shoulder blades pulled back and down against the pad throughout the entire range of motion."
+      },
+      {
+        "fault": "Letting the weight stack slam down between repetitions.",
+        "correction": "Maintain continuous muscular tension and stop just short of the weight plates touching at the bottom."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use the foot-assist pedal if available to protect the shoulders when entering and exiting heavy sets."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Machine Chest Press",
+  "previous_ids": [
+    "oec:chest-press",
+    "oec:leverage-machine-chest-press",
+    "oec:seated-bench-press",
+    "oec:flat-machine-press"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Chest Press",
+        "url": "https://wger.de/en/exercise/129/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      },
+      {
+        "title": "wger: Leverage Machine Chest Press",
+        "url": "https://wger.de/en/exercise/379/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "tuckerm"
+      },
+      {
+        "title": "wger: Seated Bench Press",
+        "url": "https://wger.de/en/exercise/1094/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "colundrum"
+      },
+      {
+        "title": "wger: Flat Machine Press",
+        "url": "https://wger.de/en/exercise/1694/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "daiben"
+      },
+      {
+        "title": "wger: Machine Chest Press",
+        "url": "https://wger.de/en/exercise/2627/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-bench-press"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-bench-press"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:dumbbell-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:plate-loaded-chest-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A seated compound machine exercise that targets the pectoral muscles, anterior deltoids, and triceps with guided stability."
+}

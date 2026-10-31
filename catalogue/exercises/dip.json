@@ -1,0 +1,250 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Parallel Bar Dip",
+      "kind": "common"
+    },
+    {
+      "text": "Bodyweight Dip",
+      "kind": "common"
+    },
+    {
+      "text": "Chest Dip",
+      "kind": "common"
+    },
+    {
+      "text": "Triceps Dip",
+      "kind": "common"
+    },
+    {
+      "text": "Weighted Dips",
+      "kind": "common"
+    },
+    {
+      "text": "Dips",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-minor",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "dip-belt",
+      "weight-vest",
+      "resistance-band"
+    ],
+    "required": [
+      [
+        "dip-station",
+        "parallettes"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "194"
+  },
+  "id": "oec:dip",
+  "instructions": {
+    "setup": [
+      "Mount the parallel bars with a neutral grip, supporting your full body weight on extended arms.",
+      "Depress your shoulder blades down and away from your ears, engaging your upper back and core.",
+      "Bend your knees slightly or cross your ankles if necessary to clear the floor."
+    ],
+    "steps": [
+      "Inhale and lower your body with control by bending your elbows and allowing your torso to lean slightly forward.",
+      "Descend until your shoulders are slightly below your elbows, or as deep as your shoulder mobility comfortably allows without rounding forward.",
+      "Exhale and press firmly into the bars, extending your elbows to drive back up to the top lockout position."
+    ],
+    "breathing": "Inhale as you lower yourself under control; exhale forcefully as you press back up to full support.",
+    "cues": [
+      "Push the bars through the floor",
+      "Keep shoulders packed down",
+      "Chest proud at the bottom"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the shoulders to shrug up toward the ears and roll forward at the bottom.",
+        "correction": "Actively depress and stabilize the scapulae throughout the entire movement."
+      },
+      {
+        "fault": "Flaring the elbows excessively outward.",
+        "correction": "Keep the elbows tracking backward at roughly a forty-five degree angle relative to your torso."
+      },
+      {
+        "fault": "Cutting the range of motion too short or bouncing out of the bottom.",
+        "correction": "Lower under control until upper arms are at least parallel to the floor, pausing briefly before pressing up."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid descending past your comfortable active shoulder range of motion to protect the anterior joint capsule."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Dip",
+  "previous_ids": [
+    "oec:dips"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dips",
+        "url": "https://wger.de/en/exercise/194/view-base",
+        "license": "CC0-1.0",
+        "author": "BFad07"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:machine-assisted-dip"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:chair-dip"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:feet-elevated-bench-dip"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:parallel-bar-support-hold"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:ring-dip"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:suspension-trainer-dip"
+    },
+    {
+      "type": "part-of",
+      "target": "oec:bar-muscle-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "shoulder"
+    },
+    "position": "support",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A compound bodyweight pushing exercise performed on parallel bars targeting the triceps, chest, and anterior shoulders."
+}

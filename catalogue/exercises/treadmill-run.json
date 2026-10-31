@@ -1,0 +1,241 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Treadmill Running",
+      "kind": "common"
+    },
+    {
+      "text": "Run - Treadmill",
+      "kind": "common"
+    },
+    {
+      "text": "Treadmill Jog",
+      "kind": "common"
+    },
+    {
+      "text": "treadmill",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "calves",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hip-flexors",
+        "role": "synergist"
+      },
+      {
+        "muscle": "tibialis-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "treadmill"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "530"
+  },
+  "id": "oec:treadmill-run",
+  "instructions": {
+    "setup": [
+      "Straddle the treadmill belt by standing on the side rails and attach the safety clip securely to your clothing.",
+      "Select your program or start the treadmill at a low walking speed, then step smoothly onto the belt.",
+      "Gradually increase the speed and incline until you reach your target running pace."
+    ],
+    "steps": [
+      "Run with an upright posture, keeping your chest open and shoulders relaxed.",
+      "Land with your feet underneath your hips, avoiding excessive overstriding.",
+      "Allow your arms to swing naturally forward and back with bent elbows to maintain balance and rhythm.",
+      "Continue running at your prescribed pace for the planned duration or distance."
+    ],
+    "breathing": "Maintain a steady, rhythmic breathing pattern synchronized with your stride rate.",
+    "cues": [
+      "Stay tall through the torso",
+      "Quick light feet under your center of mass",
+      "Relax the shoulders and hands",
+      "Look forward, not down at the console"
+    ],
+    "common_faults": [
+      {
+        "fault": "Holding onto the handrails while running.",
+        "correction": "Reduce the belt speed or incline so you can run freely with a natural arm swing."
+      },
+      {
+        "fault": "Overstriding and landing heavily on the heels ahead of the body.",
+        "correction": "Shorten your stride and increase cadence so your feet land directly beneath your hips."
+      },
+      {
+        "fault": "Drifting too close to the front console or too far back near the end of the belt.",
+        "correction": "Position yourself in the middle third of the running deck and maintain an even pace."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Always attach the emergency stop clip to your clothing before starting the machine.",
+        "Do not jump off a fast-moving belt; straddle the side rails and decrease speed safely if needed."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration",
+          "distance"
+        ],
+        "optional": [
+          "speed",
+          "pace",
+          "incline",
+          "heart-rate",
+          "cadence",
+          "calories"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "distance",
+          "speed",
+          "pace",
+          "incline",
+          "heart-rate",
+          "cadence",
+          "calories"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Treadmill Run",
+  "previous_ids": [
+    "oec:run-treadmill"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Run - Treadmill",
+        "url": "https://wger.de/en/exercise/530/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "foguinho.peruca"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:running"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:running"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:treadmill-running"
+    }
+  ],
+  "setup": {
+    "position": "moving"
+  },
+  "status": "active",
+  "summary": "A cardiovascular exercise performed by running or jogging in place on a moving treadmill belt."
+}

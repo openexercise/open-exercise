@@ -1,0 +1,221 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Chair Triceps Dip",
+      "kind": "common"
+    },
+    {
+      "text": "Triceps Chair Dip",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Chair Dip",
+      "kind": "common"
+    },
+    {
+      "text": "Chair dips",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "elevation",
+          "depression"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "chair"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1774"
+  },
+  "id": "oec:chair-dip",
+  "instructions": {
+    "setup": [
+      "Place a sturdy, non-slip chair firmly against a wall or on stable ground.",
+      "Sit on the front edge of the seat with your hands gripping the edge right beside your hips, fingers pointing forward.",
+      "Extend your legs forward with knees slightly bent or straight, and slide your hips forward just off the seat, supporting your body on locked-out arms."
+    ],
+    "steps": [
+      "Inhale as you lower your torso vertically by bending at the elbows.",
+      "Descend until your upper arms are roughly parallel to the floor or your elbows reach approximately ninety degrees of flexion.",
+      "Exhale and press firmly through your palms to extend your elbows and return to the starting position."
+    ],
+    "breathing": "Inhale smoothly as you lower your body; exhale forcefully as you press back up to the lockout.",
+    "cues": [
+      "Keep your back skimming the chair edge",
+      "Elbows track straight back, not flared",
+      "Chest proud and shoulders down"
+    ],
+    "common_faults": [
+      {
+        "fault": "Drifting the hips too far forward away from the chair, placing excessive anterior shearing stress on the shoulders.",
+        "correction": "Keep your spine and hips skimming right along the front edge of the chair throughout the movement."
+      },
+      {
+        "fault": "Allowing the shoulders to shrug upward toward the ears at the bottom of the rep.",
+        "correction": "Actively depress your shoulder blades, keeping your chest open and neck long."
+      },
+      {
+        "fault": "Descending too deep into severe shoulder extension.",
+        "correction": "Stop when your upper arms are parallel to the floor or around a ninety-degree elbow angle."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the chair is stable and will not tip forward or slide out from under you; brace it against a wall if necessary."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Chair Dip",
+  "previous_ids": [
+    "oec:chair-dips"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Chair dips",
+        "url": "https://wger.de/en/exercise/1774/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "tinman"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:dip"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:floor-dip"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:feet-elevated-bench-dip"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-assisted-dip"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "support",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A beginner bodyweight pushing exercise performed with the hands braced on the edge of a sturdy chair to target the triceps and shoulders."
+}

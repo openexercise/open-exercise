@@ -1,0 +1,220 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Chin-up Isometric Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Isometric Chin-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Top Chin-Up Hold",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "retraction"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "plyo-box",
+      "step"
+    ],
+    "required": [
+      [
+        "pull-up-bar"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1282"
+  },
+  "id": "oec:chin-up-hold",
+  "instructions": {
+    "setup": [
+      "Grasp an overhead pull-up bar with a shoulder-width supinated grip (palms facing you).",
+      "Either step off a box or pull yourself smoothly up until your chin is clearly over the bar and your chest is close to it."
+    ],
+    "steps": [
+      "Fix your position at the top with your elbows fully flexed and drawn down toward your ribs.",
+      "Pack your shoulders down and back, keeping your chest proud.",
+      "Brace your core and squeeze your legs together to prevent swinging.",
+      "Hold this apex position motionless for the target duration.",
+      "Lower yourself under control to a dead hang or step down to the box."
+    ],
+    "breathing": "Breathe continuously with controlled, shallow breaths while maintaining core brace throughout the hold.",
+    "cues": [
+      "Chest to the bar",
+      "Elbows in your back pockets",
+      "Stay tight from hands to toes"
+    ],
+    "common_faults": [
+      {
+        "fault": "Reaching up with the neck and hyperextending the cervical spine to keep the chin over the bar.",
+        "correction": "Keep your neck neutral and drive your chest upward to maintain position rather than craning your neck."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears as fatigue sets in.",
+        "correction": "Actively depress your scapulae by pulling your shoulder blades down and back throughout the hold."
+      },
+      {
+        "fault": "Swinging the legs or allowing the body to rotate.",
+        "correction": "Brace your abdominals and squeeze your glutes and legs together in a slight hollow-body position."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the pull-up bar is secure and the area underneath is clear of hazards.",
+        "Terminate the hold before technical failure to allow a safe, controlled descent."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Chin-Up Hold",
+  "previous_ids": [
+    "oec:chin-up-isometric-hold"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Chin-up Isometric Hold",
+        "url": "https://wger.de/en/exercise/1282/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "clafal"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:chin-up"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:pull-up-hold"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:pull-up-hold"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated",
+      "width": "shoulder"
+    },
+    "position": "hanging"
+  },
+  "status": "active",
+  "summary": "An isometric bodyweight exercise where the top position of a chin-up is held with the chin above the bar to build pulling and grip endurance."
+}

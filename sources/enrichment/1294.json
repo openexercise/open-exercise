@@ -1,0 +1,165 @@
+{
+  "is_exercise": true,
+  "name": "Single-Leg Slider Hamstring Curl",
+  "summary": "A challenging unilateral bodyweight exercise that strengthens the hamstrings through knee flexion while isometrically engaging the glutes to keep the hips elevated.",
+  "aliases": [
+    {
+      "text": "Slider Single-Leg Hamstring Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Leg Slider Leg Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Leg Floor Hamstring Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Leg Hamstring Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Leg Towel Leg Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-knee-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "supine",
+  "stance_kind": "single-leg",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-femoris",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "semitendinosus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "semimembranosus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "slider"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie flat on your back with your arms resting at your sides, palms pressing into the floor for support.",
+      "Place the heel of the working foot onto a slider with your ankle dorsiflexed.",
+      "Bend the non-working knee and elevate that foot off the floor, holding it near your chest or keeping the knee bent at ninety degrees.",
+      "Engage your glutes and drive through the working heel to bridge your hips off the floor, forming a straight line from your shoulders to your working knee."
+    ],
+    "steps": [
+      "Slowly extend your working knee by sliding your heel away from your body in a controlled manner.",
+      "Continue sliding until your leg is almost completely straight, keeping your hips elevated off the floor.",
+      "Dig your heel firmly into the slider and contract your hamstrings to pull the heel back toward your glutes.",
+      "Drive your hips up at the top of the curl to re-establish full hip extension before beginning the next repetition."
+    ],
+    "breathing": "Inhale as you extend the leg and slide the heel out; exhale forcefully as you curl the heel back in toward your glutes.",
+    "cues": [
+      "Keep hips high",
+      "Dig the heel down",
+      "Control the slide out",
+      "Pull through the hamstring"
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging hips during extension",
+        "correction": "Squeeze the working glute continuously to prevent the pelvis from dropping toward the ground as the leg straightens."
+      },
+      {
+        "fault": "Sliding out too fast without control",
+        "correction": "Resist the movement during the eccentric phase, taking two to three seconds to slide outward smoothly."
+      },
+      {
+        "fault": "Pushing with the toes instead of the heel",
+        "correction": "Keep your toes pointed upward and focus pressure directly through the center of your heel."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Warm up the hamstrings thoroughly before performing this exercise to reduce the risk of muscle cramps or strains."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

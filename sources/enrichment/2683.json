@@ -1,0 +1,196 @@
+{
+  "is_exercise": true,
+  "name": "Single-Arm Dumbbell Row",
+  "summary": "A unilateral free-weight pull performed with one knee and hand braced on a bench to build back thickness and lat strength.",
+  "aliases": [
+    {
+      "text": "Dumbbell Single-Arm Row",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Dumbbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Row",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull",
+      "anti-rotation"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "bent-over",
+  "grip_orientation": "neutral",
+  "stance_kind": "staggered",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Place a dumbbell on the floor next to a flat bench.",
+      "Place your non-working knee and hand firmly on the bench, aligning the support hand directly under the shoulder.",
+      "Step the working-side foot out to the side and slightly back for stable three-point support, keeping the torso roughly parallel to the ground.",
+      "Reach down with a neutral grip to hold the dumbbell with your working arm fully extended."
+    ],
+    "steps": [
+      "Initiate the movement by retracting your shoulder blade and driving your elbow back toward your hip.",
+      "Pull the dumbbell upward until the elbow passes the torso and the back muscles contract fully.",
+      "Pause briefly at the top without twisting your torso.",
+      "Lower the dumbbell under control back to a full dead-hang stretch before starting the next rep.",
+      "Complete all repetitions on one side before switching to the opposite arm."
+    ],
+    "breathing": "Inhale as you lower the weight into a full stretch; exhale forcefully as you row the dumbbell toward your hip.",
+    "cues": [
+      "Lead with your elbow, not your hand.",
+      "Pull to your hip, not your armpit.",
+      "Keep your chest square to the bench."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the torso excessively to heave the weight up.",
+        "correction": "Keep your shoulders and hips parallel to the bench throughout the set; reduce the load if necessary."
+      },
+      {
+        "fault": "Pulling straight up into the shoulder or chest using primarily the biceps.",
+        "correction": "Think of pulling the elbow backward toward the hip in a slight arc to emphasize the latissimus dorsi."
+      },
+      {
+        "fault": "Cutting the bottom range of motion short.",
+        "correction": "Allow the scapula to protract slightly at the bottom for a full stretch before retracting and pulling."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a neutral spine and avoid rounding the lower back while supporting your weight."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "is_exercise": true,
+  "name": "Tuck Jump",
+  "summary": "An explosive plyometric bodyweight jump where both knees are rapidly pulled up toward the chest mid-air before a soft landing.",
+  "aliases": [
+    {
+      "text": "High Knee Jump",
+      "kind": "common"
+    },
+    {
+      "text": "Knee Tuck Jump",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "plyometric",
+      "conditioning",
+      "calisthenics",
+      "power"
+    ],
+    "movement_patterns": [
+      "jump"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration",
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet approximately shoulder-width apart and arms relaxed at your sides.",
+      "Brace your core and ensure adequate overhead and floor clearance."
+    ],
+    "steps": [
+      "Dip quickly into a quarter squat while swinging your arms backward.",
+      "Explosively extend your hips, knees, and ankles while driving your arms upward to launch into the air.",
+      "At the peak of your jump, actively pull your knees up toward your chest into a tight tuck.",
+      "Rapidly extend your legs back down in anticipation of the floor.",
+      "Land softly on the balls of your feet, smoothly absorbing impact through bent knees and hips before initiating the next repetition or resetting."
+    ],
+    "breathing": "Inhale sharply during the dip, exhale forcefully upon takeoff, and regain steady breathing upon landing.",
+    "cues": [
+      "Explode straight up, not forward.",
+      "Bring your knees to your chest, not your chest to your knees.",
+      "Land like a feather."
+    ],
+    "common_faults": [
+      {
+        "fault": "Landing with stiff, locked knees.",
+        "correction": "Absorb ground impact by bending smoothly through the ankles, knees, and hips into a controlled partial squat."
+      },
+      {
+        "fault": "Bending the torso forward to meet the knees instead of pulling the knees up.",
+        "correction": "Maintain an upright chest and use the hip flexors and lower abdominals to pull the knees up toward the torso."
+      },
+      {
+        "fault": "Knees caving inward (valgus collapse) during takeoff or landing.",
+        "correction": "Track your knees outward in line with your toes throughout both the jump and the landing phase."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform on a resilient, non-slip surface such as rubber matting or sprung flooring to minimize joint impact.",
+        "Discontinue if form deteriorates or landings become heavy."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

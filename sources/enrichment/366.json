@@ -1,0 +1,143 @@
+{
+  "is_exercise": true,
+  "name": "Seated Leg Curl",
+  "summary": "A seated machine isolation exercise targeting the hamstrings through guided knee flexion.",
+  "aliases": [
+    {
+      "text": "Leg Curls (sitting)",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Hamstring Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Seated Leg Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "isolation-knee-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-femoris",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "semitendinosus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "semimembranosus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gracilis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "sartorius",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the backrest so your knees align directly with the machine's pivot axis.",
+      "Position the lower leg pad so it rests comfortably against the back of your lower calves, just above the Achilles tendon.",
+      "Lower and lock the thigh pad firmly against the tops of your quadriceps to prevent your legs from lifting.",
+      "Sit upright, grip the machine handles, and dorsiflex your ankles slightly."
+    ],
+    "steps": [
+      "Pull through your heels to flex your knees, curling the pad smoothly downward and back beneath the seat.",
+      "Squeeze your hamstrings firmly at the point of maximum knee flexion.",
+      "Control the weight as you slowly extend your knees back to the starting position without allowing the weight stack to slam."
+    ],
+    "breathing": "Exhale as you curl the pad downward, and inhale as you return under control to full knee extension.",
+    "cues": [
+      "Pull your heels toward your glutes.",
+      "Keep your hips firmly pinned to the seat.",
+      "Control the eccentric return."
+    ],
+    "common_faults": [
+      {
+        "fault": "Knee alignment off the machine axis.",
+        "correction": "Adjust the seat forward or backward until the center of your knee joint aligns with the machine's pivot point."
+      },
+      {
+        "fault": "Thigh restraint set too loose, allowing hips and thighs to rise during the curl.",
+        "correction": "Snug the thigh pad down securely before initiating the set."
+      },
+      {
+        "fault": "Using momentum or jerking the weight.",
+        "correction": "Perform the movement with a deliberate cadence, pausing briefly in the contracted position."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the thigh locking mechanism is fully engaged before loading tension on the hamstrings."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "is_exercise": true,
+  "name": "Standing Soleus Stretch",
+  "summary": "A static lower-leg stretch performed with a bent knee to emphasize the soleus muscle and Achilles tendon.",
+  "aliases": [
+    {
+      "text": "Soleus / Achilles Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Bent-Knee Calf Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Wall Bent-Knee Calf Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Achilles Tendon Stretch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "staggered",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "soleus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "wall"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "load_convention": "not-applicable",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand facing a wall or sturdy support in a staggered stance with the target leg behind you.",
+      "Place both hands flat against the wall at chest height.",
+      "Point both feet directly forward and ensure the back heel is firmly planted on the floor."
+    ],
+    "steps": [
+      "Bend both knees, lowering your hips straight down while keeping your back heel firmly on the ground.",
+      "Continue shifting your weight downward and slightly back until a gentle stretch is felt deep in the back calf and Achilles tendon.",
+      "Hold the position steadily for the desired duration without bouncing.",
+      "Carefully straighten the legs to exit the stretch, then switch sides."
+    ],
+    "breathing": "Breathe smoothly and deeply throughout the hold, relaxing into the stretch on each exhalation.",
+    "cues": [
+      "Keep the rear heel flat",
+      "Bend the back knee",
+      "Sink hips straight down",
+      "Toes pointing forward"
+    ],
+    "common_faults": [
+      {
+        "fault": "Keeping the back knee straight.",
+        "correction": "Bend the rear knee to slacken the gastrocnemius and shift tension specifically to the soleus."
+      },
+      {
+        "fault": "Lifting the rear heel off the ground.",
+        "correction": "Shorten the stance slightly so the rear heel remains firmly anchored to the floor."
+      },
+      {
+        "fault": "Turning the rear foot outward.",
+        "correction": "Keep both feet parallel and facing straight ahead to maintain proper alignment across the ankle joint."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid aggressive stretching if recovering from an acute Achilles tendon strain or rupture."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

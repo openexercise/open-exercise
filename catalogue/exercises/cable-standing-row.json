@@ -1,0 +1,238 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Standing Cable Row",
+      "kind": "common"
+    },
+    {
+      "text": "Pullback",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Pullback",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "protraction"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1905"
+  },
+  "id": "oec:cable-standing-row",
+  "instructions": {
+    "setup": [
+      "Set the cable pulley to mid-torso height and attach a handle, such as a close-grip double-D handle or two single handles.",
+      "Grasp the handles, step back a few paces to lift the weight stack, and stand facing the machine with feet hip-width apart.",
+      "Unlock your knees slightly, brace your abdominal wall, and hold your chest tall with arms fully extended toward the pulley."
+    ],
+    "steps": [
+      "Initiate the pull by retracting your shoulder blades and driving your elbows backward alongside your ribcage.",
+      "Pull the handle firmly toward your abdomen or lower sternum until your back muscles are fully contracted.",
+      "Pause briefly at peak contraction, keeping your torso stable and upright.",
+      "Slowly extend your arms and allow the shoulder blades to protract under control to return to the starting position."
+    ],
+    "breathing": "Exhale forcefully as you row the handle into your torso; inhale steadily as you extend your arms back out.",
+    "cues": [
+      "Drive the elbows back.",
+      "Keep the chest proud.",
+      "Control the stretch without swinging."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso backward to generate momentum.",
+        "correction": "Keep your hips and torso braced in an athletic stance; move only through the shoulders and arms."
+      },
+      {
+        "fault": "Shrugging the shoulders upward during the pull.",
+        "correction": "Depress your shoulders down away from your ears before and throughout each rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a stable base of support with soft knees to avoid being pulled forward off balance by the cable tension."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable Standing Row",
+  "previous_ids": [
+    "oec:pullback"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Pullback",
+        "url": "https://wger.de/en/exercise/1905/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "cybro"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-seated-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-seated-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A compound cable horizontal pull performed while standing to build upper-back and lat strength."
+}

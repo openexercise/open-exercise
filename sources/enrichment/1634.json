@@ -1,0 +1,166 @@
+{
+  "is_exercise": true,
+  "name": "Cable Incline Pullover",
+  "summary": "An isolation exercise that targets the latissimus dorsi by sweeping a cable attachment down toward the hips while chest-supported on an incline bench.",
+  "aliases": [
+    {
+      "text": "Chest-Supported Cable Pullover",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Cable Pullover",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Bench Cable Pullover",
+      "kind": "common"
+    },
+    {
+      "text": "Rope Pullover/row",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Pullover Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "prone",
+  "incline_degrees": 45,
+  "grip_orientation": "neutral",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-long-head",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    },
+    {
+      "any_of": [
+        "adjustable-bench",
+        "bench"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an incline of 30 to 45 degrees, facing toward a high cable pulley.",
+      "Attach a rope attachment to the cable pulley.",
+      "Straddle the bench and lean your chest firmly against the incline pad, taking hold of the rope handles with a neutral grip.",
+      "Allow your arms to extend overhead toward the pulley so tension is placed on the lats."
+    ],
+    "steps": [
+      "Set your shoulder blades down and pull through your elbows, driving your hands downward and back in a sweeping arc toward your hips.",
+      "Keep a slight, fixed bend in your elbows throughout the pull without curling or rowing the weight.",
+      "Squeeze your lats forcefully as your hands reach the sides of your thighs.",
+      "Slowly reverse the motion under control, returning the rope overhead until you feel a full stretch through your back."
+    ],
+    "breathing": "Exhale as you sweep the rope downward toward your hips, and inhale as you return the cable overhead into the stretched position.",
+    "cues": [
+      "Chest pinned to the pad",
+      "Sweep to your pockets",
+      "Drive with the elbows"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively bending and extending the elbows, turning the exercise into a triceps pressdown or row.",
+        "correction": "Lock a soft bend in the elbows from the start and maintain that exact angle throughout the entire rep."
+      },
+      {
+        "fault": "Shrugging the shoulders upward during the pull.",
+        "correction": "Depress the shoulder blades before beginning the stroke and keep the shoulders pulled down away from the ears."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the bench is securely anchored and cannot slide toward the cable stack under load."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

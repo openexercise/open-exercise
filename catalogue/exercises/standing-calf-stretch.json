@@ -1,0 +1,160 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Standing Gastrocnemius Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Wall Calf Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gastrocnemius",
+        "role": "stretched"
+      },
+      {
+        "muscle": "soleus",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "wall",
+      "chair"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1239"
+  },
+  "id": "oec:standing-calf-stretch",
+  "instructions": {
+    "setup": [
+      "Stand facing a wall or sturdy support roughly arm's length away.",
+      "Place your hands on the wall at shoulder height for support.",
+      "Step one leg straight back into a staggered stance, keeping both feet pointed directly forward."
+    ],
+    "steps": [
+      "Keep the rear leg completely straight with the heel pressed firmly flat into the floor.",
+      "Bend your front knee and gently shift your hips forward until you feel a moderate stretch in the upper calf of the back leg.",
+      "Hold the position steadily without bouncing for the desired duration, then switch legs."
+    ],
+    "breathing": "Breathe smoothly and deeply throughout the hold, relaxing into the stretch on each exhale.",
+    "cues": [
+      "Drive the back heel into the floor",
+      "Keep back knee locked straight",
+      "Toes pointing forward"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the back heel to lift off the ground.",
+        "correction": "Shorten your stance slightly so the rear heel remains firmly anchored to the floor."
+      },
+      {
+        "fault": "Turning the back foot outward.",
+        "correction": "Keep both feet aligned pointing straight ahead to target the calf evenly."
+      },
+      {
+        "fault": "Bending the rear knee.",
+        "correction": "Keep the back knee fully extended to place the stretch primarily on the gastrocnemius."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Stretch to a point of gentle tension, not sharp pain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Standing Calf Stretch",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Standing Calf Stretch",
+        "url": "https://wger.de/en/exercise/1239/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "erikocobra"
+      }
+    ]
+  },
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "staggered"
+    }
+  },
+  "status": "active",
+  "summary": "A static lower-leg stretch performed in a staggered stance, targeting the gastrocnemius and Achilles tendon."
+}

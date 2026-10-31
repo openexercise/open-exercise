@@ -1,0 +1,214 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Side Lying Hip Abduction",
+      "kind": "common"
+    },
+    {
+      "text": "Side-Lying Leg Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Lateral Leg Raise",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-medius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-minimus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "tensor-fasciae-latae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "quadratus-lumborum",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "abduction"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "isolation-hip-abduction"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat",
+      "ankle-weight",
+      "mini-band"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1202"
+  },
+  "id": "oec:side-lying-hip-abduction",
+  "instructions": {
+    "setup": [
+      "Lie on your side on an exercise mat with your head supported by your bottom arm.",
+      "Bend your bottom leg slightly at the hip and knee to provide a stable base of support.",
+      "Extend your top leg fully so it aligns with your torso, keeping the pelvis stacked vertically."
+    ],
+    "steps": [
+      "Keeping the top leg straight and toes pointed forward or slightly downward, raise the top leg toward the ceiling.",
+      "Lift until you feel a firm contraction in the outer hip and glute, without rolling your hips backward.",
+      "Pause briefly at the top of the movement.",
+      "Lower the leg smoothly under control back to the starting position."
+    ],
+    "breathing": "Exhale as you raise the leg; inhale as you lower it back down.",
+    "cues": [
+      "Lead with your heel, not your toes.",
+      "Keep your hips stacked like two plates.",
+      "Do not let your pelvis roll backward."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the hip open so the toes point upward, shifting the focus to the hip flexors.",
+        "correction": "Keep the toes pointing straight ahead or slightly turned down toward the floor to target the gluteus medius."
+      },
+      {
+        "fault": "Rolling the pelvis backward during the lift.",
+        "correction": "Keep the hips vertically stacked perpendicular to the floor throughout the entire set."
+      },
+      {
+        "fault": "Hiking the hip or arching the lower back to gain more height.",
+        "correction": "Isolate the movement to the hip joint; only raise the leg as far as the hip allows without tilting the pelvis."
+      }
+    ],
+    "safety": {
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Side-Lying Hip Abduction",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Side Lying Hip Abduction",
+        "url": "https://wger.de/en/exercise/1202/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "wakanda90"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:clamshell"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:clamshell"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:fire-hydrant"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-hip-abduction"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:standing-hip-abduction"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:supine-hip-abduction"
+    }
+  ],
+  "setup": {
+    "position": "side-lying",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A bodyweight mat exercise performed lying on one's side to isolate and strengthen the hip abductors, particularly the gluteus medius."
+}

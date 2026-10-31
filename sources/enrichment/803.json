@@ -1,0 +1,151 @@
+{
+  "is_exercise": true,
+  "name": "Cable Single-Arm Triceps Pushdown",
+  "summary": "An isolation exercise that uses a high cable pulley to extend the elbow and train the triceps unilaterally.",
+  "aliases": [
+    {
+      "text": "One Arm Triceps Extensions on Cable",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Single-Arm Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable Pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Cable Pushdown",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "staggered",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "anconeus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set the cable pulley to its highest position and attach a single D-handle or grip the cable end.",
+      "Stand facing the pulley with feet in a stable, staggered stance and a slight forward lean at the hips.",
+      "Grasp the handle with one hand and pin your upper arm close to your torso with the elbow bent to roughly 90 degrees."
+    ],
+    "steps": [
+      "Keep your upper arm stationary against your flank and push the handle downward by extending your elbow.",
+      "Contract your triceps forcefully at full elbow lockout.",
+      "Bend your elbow under control to return the cable to the starting position without allowing the upper arm to swing forward.",
+      "Complete the desired repetitions on one arm, then repeat on the opposite side."
+    ],
+    "breathing": "Exhale as you push down and fully extend the elbow; inhale as you control the handle back up to the start.",
+    "cues": [
+      "Pin your elbow to your side.",
+      "Move only your forearm.",
+      "Lock out and squeeze."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the upper arm forward and back to gain momentum.",
+        "correction": "Keep the upper arm glued to your ribs throughout the movement so only the elbow flexes and extends."
+      },
+      {
+        "fault": "Letting the shoulder roll forward or elevate during the press.",
+        "correction": "Set your shoulder blade down and back before starting the repetition."
+      },
+      {
+        "fault": "Cutting the eccentric phase short.",
+        "correction": "Allow your elbow to achieve at least 90 degrees of flexion on each repetition before pushing back down."
+      }
+    ],
+    "safety": {
+      "precautions": [],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Trap Press",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Dumbbell Serratus Punch",
+      "kind": "common"
+    },
+    {
+      "text": "Serratus Punch",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Scapular Press",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Scapular Punch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "serratus-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-minor",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "horizontal-push"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "bench",
+        "adjustable-bench",
+        "mat"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1581"
+  },
+  "id": "oec:dumbbell-scapular-press",
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a flat bench or mat with your feet firmly planted on the floor.",
+      "Hold a dumbbell in each hand and press them directly over your chest until your arms are fully extended.",
+      "Keep your wrists stacked over your shoulders with palms facing each other or facing slightly downward."
+    ],
+    "steps": [
+      "Keeping your elbows fully locked, push the dumbbells directly toward the ceiling by protracting your shoulder blades off the bench.",
+      "Hold the peak contraction briefly at the top while feeling the muscles along the sides of your rib cage engage.",
+      "Lower the dumbbells in a controlled manner by retracting your shoulder blades back into the bench, keeping the arms straight throughout."
+    ],
+    "breathing": "Exhale as you push your shoulder blades forward toward the ceiling, and inhale as you lower your shoulders back to the bench.",
+    "cues": [
+      "Punch toward the ceiling",
+      "Lock your elbows",
+      "Move only your shoulder blades"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the elbows during the movement, turning it into a press.",
+        "correction": "Keep your arms completely straight throughout the entire set so movement occurs only at the shoulder blades."
+      },
+      {
+        "fault": "Shrugging the shoulders upward toward the ears.",
+        "correction": "Keep your shoulders depressed away from your ears and focus on driving the shoulder blades forward around the ribs."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use light to moderate weights to maintain strict control and avoid shoulder strain.",
+        "Do not allow the dumbbells to drift backwards over your face."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Scapular Press",
+  "previous_ids": [
+    "oec:trap-press"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Trap press",
+        "url": "https://wger.de/en/exercise/1581/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "CptnFatbeard"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:scapular-push-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "shoulder"
+    },
+    "position": "supine"
+  },
+  "status": "active",
+  "summary": "A supine isolation exercise that strengthens the serratus anterior by protracting the shoulder blades against dumbbell resistance with locked elbows."
+}

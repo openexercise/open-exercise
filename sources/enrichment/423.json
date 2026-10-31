@@ -1,0 +1,174 @@
+{
+  "is_exercise": true,
+  "name": "Bar Muscle-Up",
+  "summary": "An advanced bodyweight exercise combining an explosive pull-up, dynamic transition, and straight-bar dip to bring the body above the bar.",
+  "aliases": [
+    {
+      "text": "Muscle-Up",
+      "kind": "common"
+    },
+    {
+      "text": "BMU",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Bar Muscle Up",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "power"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "mixed",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "ballistic"
+    ],
+    "level": "advanced"
+  },
+  "position": "hanging",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "adduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "retraction",
+        "downward-rotation",
+        "protraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "flexion",
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "pull-up-bar"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Grasp a sturdy pull-up bar with a full overhand (pronated) grip slightly wider than shoulder-width.",
+      "Hang with arms fully extended and engage your core to keep your body under control."
+    ],
+    "steps": [
+      "Initiate an explosive pull by driving your elbows down and back, pulling your chest back and around the bar rather than directly vertical.",
+      "As your lower chest reaches bar height, aggressively roll your wrists and shoulders forward over the bar to transition into the bottom of a dip.",
+      "Press through your palms and extend your elbows fully to complete the dip, finishing in a front support position above the bar.",
+      "Lower under control by unlocking the elbows, shifting the shoulders back, and absorbing the descent into a controlled dead hang before the next repetition."
+    ],
+    "breathing": "Inhale at the bottom, exhale forcefully during the explosive pull and transition, and exhale again as you finish the dip press-out.",
+    "cues": [
+      "Pull fast to the hips, not just the chin.",
+      "Throw your chest over the bar at the apex.",
+      "Roll your wrists forward over the top of the bar."
+    ],
+    "common_faults": [
+      {
+        "fault": "Chicken-winging by rolling one arm over the bar before the other.",
+        "correction": "Pull explosively and symmetrically so both shoulders and elbows clear the bar at the exact same instant, avoiding excessive strain on one shoulder."
+      },
+      {
+        "fault": "Pulling straight up vertically into the bar instead of pulling in an arcing trajectory.",
+        "correction": "Direct your pull slightly away and around the bar to clear room for your chest and head to rotate over it."
+      },
+      {
+        "fault": "Losing wrist position during the transition.",
+        "correction": "Use a deep overhand grip and aggressively flex the wrists forward as you reach the top of the pull."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure overhead clearance is sufficient so your head does not strike the ceiling during the lockout.",
+        "Develop baseline strength with strict pull-ups, chest-to-bar pull-ups, and straight-bar dips before attempting dynamic muscle-ups."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "is_exercise": true,
+  "name": "Banded Monster Walk",
+  "summary": "A dynamic hip-abductor and glute strengthening exercise performed by walking diagonally against resistance band tension in a quarter-squat stance.",
+  "aliases": [
+    {
+      "text": "Monster Walk",
+      "kind": "common"
+    },
+    {
+      "text": "Mini Band Monster Walk",
+      "kind": "common"
+    },
+    {
+      "text": "Thigh Resisted Monster Walk",
+      "kind": "common"
+    },
+    {
+      "text": "Band Monster Walk",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "rehabilitation",
+      "mobility",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "isolation-hip-abduction",
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "transverse",
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "moving",
+  "stance_width": "hip",
+  "stance_kind": "staggered",
+  "muscles": [
+    {
+      "muscle": "gluteus-medius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-minimus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "abduction",
+        "external-rotation",
+        "flexion",
+        "extension",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "mini-band",
+        "resistance-band"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "band-tension",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "distance"
+      ],
+      "optional": [
+        "band-tension",
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "elastic",
+  "load_convention": "total",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Loop a mini band around your legs just above your knees, or around your ankles for greater resistance.",
+      "Stand with your feet hip-width apart so that the band is under constant tension.",
+      "Hinge slightly at the hips and bend your knees into a stable quarter-squat position with your chest lifted and core braced."
+    ],
+    "steps": [
+      "Take a short diagonal step forward and outward with one foot, driving out against the band without letting the knee collapse inward.",
+      "Plant the foot firmly, maintaining hip-width distance or wider between your feet.",
+      "Step the opposite foot forward and outward in the opposite diagonal direction to match, continuing the zig-zag pattern.",
+      "After completing the prescribed steps forward, reverse the direction by stepping backward and outward while maintaining continuous band tension."
+    ],
+    "breathing": "Breathe continuously and smoothly throughout the walk, bracing your core with each step.",
+    "cues": [
+      "Keep the band stretched.",
+      "Knees track over the toes.",
+      "Stay low in the hips."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the knees to cave inward into valgus collapse.",
+        "correction": "Actively push your knees outward against the band so they remain stacked over your middle toes."
+      },
+      {
+        "fault": "Standing up straight and losing the athletic quarter-squat posture.",
+        "correction": "Keep your hips and knees loaded in a shallow squat position throughout the entire set."
+      },
+      {
+        "fault": "Bringing the feet too close together between steps, causing the band to go slack.",
+        "correction": "Maintain at least hip-width separation at all times so tension on the hip abductors is never lost."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the floor path is completely clear of obstacles, especially when performing the backward stepping phase."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

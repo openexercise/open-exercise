@@ -1,0 +1,128 @@
+{
+  "is_exercise": true,
+  "name": "Half-Kneeling Ankle Mobilization",
+  "summary": "A dynamic mobility drill performed in a half-kneeling stance to improve talocrural joint dorsiflexion and calf compliance.",
+  "aliases": [
+    {
+      "text": "Ankle Dorsiflexion Rocks",
+      "kind": "common"
+    },
+    {
+      "text": "Half-Kneeling Ankle Rocks",
+      "kind": "common"
+    },
+    {
+      "text": "Half-Kneeling Dorsiflexion",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "rehabilitation",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "stretch",
+      "isolation-ankle"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "half-kneeling",
+  "stance_kind": "split",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "soleus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "stretched"
+    },
+    {
+      "muscle": "tibialis-anterior",
+      "role": "prime-mover"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat",
+    "wall"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Assume a half-kneeling position on a mat with one knee down and the working foot planted firmly in front of you.",
+      "Position the front foot flat with the ankle directly underneath or slightly behind the knee."
+    ],
+    "steps": [
+      "Shift your weight forward, driving the front knee directly over or slightly outside the middle toes.",
+      "Continue translating the knee forward into end-range dorsiflexion while keeping your front heel glued to the floor.",
+      "Pause for one to two seconds at end-range, feeling a stretch in the Achilles tendon and calf.",
+      "Push through the front foot to rock back to the starting position with control."
+    ],
+    "breathing": "Inhale as you rock back; exhale slowly as you glide forward into the stretch.",
+    "cues": [
+      "Keep the heel glued to the floor.",
+      "Track the knee over the second and third toes.",
+      "Avoid letting the foot arch collapse inward."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the heel of the front foot to lift off the ground.",
+        "correction": "Only drive the knee forward as far as you can maintain full contact with the entire foot, especially the heel."
+      },
+      {
+        "fault": "Knee caving excessively inward into medial collapse.",
+        "correction": "Direct the knee to track in line with or slightly outside the second and third toes."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Place a folded mat or cushion under the rear knee if kneeling causes discomfort."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Kneeling Kickback",
+      "kind": "common"
+    },
+    {
+      "text": "Quadruped Hip Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Kneeling Glute Kickback",
+      "kind": "common"
+    },
+    {
+      "text": "Glute Kickback",
+      "kind": "common"
+    },
+    {
+      "text": "Kneeling kickbacks",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat",
+      "ankle-weight",
+      "resistance-band"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "990"
+  },
+  "id": "oec:donkey-kick",
+  "instructions": {
+    "setup": [
+      "Begin on hands and knees in a quadruped position on an exercise mat.",
+      "Align your hands directly beneath your shoulders and your knees directly beneath your hips.",
+      "Engage your abdominal muscles to maintain a neutral spine and flat back."
+    ],
+    "steps": [
+      "Keeping your core braced, lift one knee off the floor and drive your foot backward and upward.",
+      "Extend through the hip until your thigh aligns with your torso, contracting the glute firmly at the top.",
+      "Pause for a moment at peak contraction without arching your lower back.",
+      "Lower your leg back down under control to the starting position."
+    ],
+    "breathing": "Exhale as you kick your leg back into extension; inhale as you return to the starting position.",
+    "cues": [
+      "Squeeze the glute, not the lower back",
+      "Keep hips square to the floor",
+      "Lock your ribcage down"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lumbar spine to gain artificial range of motion.",
+        "correction": "Brace your core and stop the movement once your hip reaches full extension."
+      },
+      {
+        "fault": "Rotating or tilting the hips to the side.",
+        "correction": "Keep both hip points facing directly toward the floor throughout the repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid kicking aggressively or using momentum, which can stress the lower back."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Donkey Kick",
+  "previous_ids": [
+    "oec:kneeling-kickbacks"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Kneeling kickbacks",
+        "url": "https://wger.de/en/exercise/990/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:dumbbell-donkey-kick"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:band-glute-kickback"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-glute-kickback"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-glute-kickback"
+    }
+  ],
+  "setup": {
+    "position": "quadruped"
+  },
+  "status": "active",
+  "summary": "A bodyweight glute-isolation exercise performed on all fours by extending one hip backward against gravity."
+}

@@ -1,0 +1,225 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Mike Tyson Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Tyson Pushup",
+      "kind": "common"
+    },
+    {
+      "text": "Tyson push-ups",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "wall"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2679"
+  },
+  "id": "oec:tyson-push-up",
+  "instructions": {
+    "setup": [
+      "Place your hands shoulder-width apart on the floor with your fingers facing forward.",
+      "Set the soles of both feet flat against a sturdy wall with your toes near the floor and your knees bent hovering just above the ground in a loaded quadruped position.",
+      "Brace your core and squeeze your glutes so your spine remains in a rigid neutral alignment."
+    ],
+    "steps": [
+      "Drive through your feet and extend your knees, shifting your torso forward into a standard push-up plank position over your hands.",
+      "Bend your elbows to lower your chest toward the floor until your upper arms are roughly parallel to the ground.",
+      "Press the floor away to extend your arms back to the top of the push-up.",
+      "Immediately push your hips straight back toward the wall, bending your knees to return to the crouched hover position with your knees staying close to the floor."
+    ],
+    "breathing": "Inhale as you shift forward and lower toward the floor, and exhale forcefully as you press up and drive back into the crouch.",
+    "cues": [
+      "Keep knees skimming the floor",
+      "Push hard through the wall",
+      "Lock the core like a plank"
+    ],
+    "common_faults": [
+      {
+        "fault": "Piking hips high in the air during the crouch.",
+        "correction": "Keep the knees low to the floor so the movement stays horizontal rather than turning into a pike push-up."
+      },
+      {
+        "fault": "Feet slipping off the wall.",
+        "correction": "Maintain firm, continuous backward pressure into the wall with the soles of your feet throughout every rep."
+      },
+      {
+        "fault": "Sagging the lower back during the push-up phase.",
+        "correction": "Engage the abdominals and avoid hyperextending the lumbar spine as you transition forward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the wall and floor provide adequate traction so footwear does not slip."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Tyson Push-Up",
+  "previous_ids": [
+    "oec:tyson-push-ups"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Tyson push-ups",
+        "url": "https://wger.de/en/exercise/2679/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "yahoo.ivory"
+      }
+    ]
+  },
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "prone",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A dynamic push-up variation performed with the feet braced flat against a wall, rocking back into a crouch between presses."
+}

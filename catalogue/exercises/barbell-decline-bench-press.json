@@ -1,0 +1,238 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Decline Barbell Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Decline Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Decline Press",
+      "kind": "common"
+    },
+    {
+      "text": "Decline Press",
+      "kind": "common"
+    },
+    {
+      "text": "Decline Bench Press Barbell",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-abdominal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "power-rack",
+      "squat-rack"
+    ],
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "bench",
+        "adjustable-bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "185"
+  },
+  "id": "oec:barbell-decline-bench-press",
+  "instructions": {
+    "setup": [
+      "Secure your shins and ankles snugly behind the leg pads of a decline bench.",
+      "Lie back so your eyes are directly beneath the racked barbell.",
+      "Retract and depress your shoulder blades firmly into the bench pad.",
+      "Grasp the bar with a full, pronated grip slightly wider than shoulder-width."
+    ],
+    "steps": [
+      "Unrack the barbell and steady it over your lower chest with arms fully extended.",
+      "Lower the bar under control, tucking your elbows roughly 45 degrees relative to your torso.",
+      "Touch the lower sternum lightly without bouncing the weight.",
+      "Press the bar back up explosively along a slight arc until your elbows reach full extension directly above your chest."
+    ],
+    "breathing": "Inhale deeply at the top before descending, hold your breath through the bottom transition, and exhale forcefully once past the sticking point.",
+    "cues": [
+      "Anchor your lower body",
+      "Bend the bar",
+      "Touch lower chest",
+      "Drive back to lockout"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bouncing the bar off the ribs or sternum.",
+        "correction": "Pause or lightly touch the lower chest under strict control before reversing direction."
+      },
+      {
+        "fault": "Flaring the elbows out perpendicular to the torso.",
+        "correction": "Tuck the elbows to approximately 45 to 60 degrees to protect the shoulders and engage the pectorals effectively."
+      },
+      {
+        "fault": "Lifting the pelvis and lower back off the pad during the press.",
+        "correction": "Keep your hips planted firmly on the bench and rely on leg pad support for stability."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Always ensure your legs are securely locked into the ankle pads before taking the weight out of the rack.",
+        "Rerack carefully to the lower rack pins; the altered decline angle can make misracking easier."
+      ],
+      "spotter": "recommended"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "rir",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Decline Bench Press",
+  "previous_ids": [
+    "oec:decline-bench-press-barbell"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Decline Bench Press Barbell",
+        "url": "https://wger.de/en/exercise/185/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-decline-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-decline-chest-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "wide"
+    },
+    "incline_degrees": -15,
+    "position": "supine",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A barbell pressing variation performed on a decline bench to emphasize the lower sternal fibers of the chest and triceps with reduced shoulder elevation."
+}

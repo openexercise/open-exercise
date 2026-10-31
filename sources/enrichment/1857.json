@@ -1,0 +1,141 @@
+{
+  "is_exercise": true,
+  "name": "Foam Roller IT Band",
+  "summary": "A self-myofascial release technique using a foam roller along the lateral thigh to alleviate perceived tightness and improve tissue mobility.",
+  "aliases": [
+    {
+      "text": "IT band foam rolling",
+      "kind": "common"
+    },
+    {
+      "text": "iliotibial band foam rolling",
+      "kind": "common"
+    },
+    {
+      "text": "foam rolling the IT band",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "not-applicable",
+    "force": "not-applicable",
+    "kinetic_chain": "not-applicable",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "side-lying",
+  "muscles": [
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "vastus-lateralis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "foam-roller"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "per-side",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie on your side on a mat with the foam roller positioned beneath the outside of your bottom thigh, just below the hip joint.",
+      "Support your upper body on your bottom forearm or hand, and cross your top leg over in front of you, placing the foot flat on the floor to modulate pressure."
+    ],
+    "steps": [
+      "Slowly roll your body down toward your feet so the roller moves up your lateral thigh toward the hip.",
+      "Reverse the motion by rolling toward your head, stopping just above the knee joint.",
+      "Pause for several seconds on particularly tender or dense spots along the lateral thigh while breathing deeply.",
+      "Complete the desired duration, then switch sides."
+    ],
+    "breathing": "Breathe slowly and rhythmically throughout, avoiding holding your breath when rolling over tender spots.",
+    "cues": [
+      "Regulate pressure with your top foot",
+      "Roll slowly and smoothly",
+      "Avoid rolling directly over the knee or hip bone"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling directly over bony prominences such as the greater trochanter or lateral knee joint.",
+        "correction": "Confine the rolling to the soft tissue between just below the hip and just above the knee."
+      },
+      {
+        "fault": "Rolling too rapidly across the tissue.",
+        "correction": "Move at a deliberate, slow pace of about one to two inches per second, pausing on tender trigger points."
+      },
+      {
+        "fault": "Tensing up and holding breath due to discomfort.",
+        "correction": "Unload more body weight onto your supporting limbs to reduce pressure to a tolerable level."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not apply excessive pressure that causes sharp or radiating pain."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Reverse-Grip Row",
+  "summary": "A bent-over dumbbell row performed with a supinated grip to emphasize the lower lats and biceps.",
+  "aliases": [
+    {
+      "text": "Dumbbell Underhand Dead Row",
+      "kind": "common"
+    },
+    {
+      "text": "Underhand Dumbbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse-Grip Dumbbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Supinated Row",
+      "kind": "common"
+    },
+    {
+      "text": "Supinated Dumbbell Bent-Over Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull",
+      "hinge",
+      "anti-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "bent-over",
+  "grip_orientation": "supinated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall holding a dumbbell in each hand with your palms facing forward (supinated grip).",
+      "Set your feet hip-width apart with a soft bend in your knees.",
+      "Hinge forward at your hips, pushing your hips back while keeping your spine neutral until your torso is roughly 45 degrees to nearly parallel to the floor.",
+      "Let the dumbbells hang straight down below your shoulders with your arms extended."
+    ],
+    "steps": [
+      "Initiate the pull by driving your elbows back toward your hips, keeping them tucked close to your torso.",
+      "Continue rowing until the dumbbells reach your lower rib cage and your shoulder blades retract.",
+      "Pause briefly at the top to feel a full contraction in your lats and mid-back.",
+      "Lower the dumbbells under control until your arms are fully extended, allowing the scapulae to protract slightly before starting the next rep."
+    ],
+    "breathing": "Inhale as you lower the weights to the hang position; exhale as you pull your elbows back and squeeze your back.",
+    "cues": [
+      "Drive your elbows to your hips.",
+      "Keep palms turned away from your body throughout.",
+      "Keep your chest broad and spine flat.",
+      "Do not swing your torso to initiate the pull."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding the lumbar or thoracic spine under load.",
+        "correction": "Brace your core, hinge deeply at the hips, and maintain a flat, neutral back throughout the set."
+      },
+      {
+        "fault": "Flaring the elbows out wide away from the body.",
+        "correction": "Keep your elbows tracking tight along your sides to properly target the lats and protect the shoulders."
+      },
+      {
+        "fault": "Using hip extension and momentum to heave the weights upward.",
+        "correction": "Keep your torso angle fixed and pull purely through the arms and upper back muscles."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid this unsupported variation if suffering from acute lower back pain; consider a chest-supported alternative instead."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

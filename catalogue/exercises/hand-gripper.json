@@ -1,0 +1,172 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Hand Grip Squeeze",
+      "kind": "common"
+    },
+    {
+      "text": "Gripper Close",
+      "kind": "common"
+    },
+    {
+      "text": "Spring Gripper",
+      "kind": "common"
+    },
+    {
+      "text": "Hand Grip",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "forearm-flexors",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hand-intrinsics",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "forearm-extensors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "fingers",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-grip"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "279"
+  },
+  "id": "oec:hand-gripper",
+  "instructions": {
+    "setup": [
+      "Place one handle of the gripper in the palm of your hand, seated securely against the base of your thumb.",
+      "Wrap your fingers around the opposing handle, positioning your pinky, ring, middle, and index fingers firmly along the knurling.",
+      "Maintain a neutral, locked wrist position."
+    ],
+    "steps": [
+      "Squeeze your fingers inward with maximum effort until the two handles touch together.",
+      "Pause briefly at full closure to ensure a complete repetition.",
+      "Slowly open your hand, resisting the spring tension as the gripper returns to the starting position."
+    ],
+    "breathing": "Exhale forcefully as you squeeze the gripper closed, and inhale as you release the handles under control.",
+    "cues": [
+      "Crush through the pinky and ring fingers.",
+      "Keep your wrist straight.",
+      "Control the eccentric opening."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the wrist to curl into severe flexion during the squeeze.",
+        "correction": "Keep the wrist rigid and neutral so force transfers directly into finger flexion."
+      },
+      {
+        "fault": "Failing to touch the handles together at the finish.",
+        "correction": "Use a gripper with appropriate resistance that allows a full close on every working repetition."
+      },
+      {
+        "fault": "Letting the spring snap the hand open.",
+        "correction": "Control the opening phase over one to two seconds to maximize forearm recruitment and prevent joint strain."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Warm up your hands and wrists before using high-resistance grippers to prevent tendon strain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "load",
+          "resistance-level",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Hand Gripper",
+  "previous_ids": [
+    "oec:hand-grip"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Hand Grip",
+        "url": "https://wger.de/en/exercise/279/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "vince63"
+      }
+    ]
+  },
+  "setup": {
+    "position": "standing",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A grip-strengthening exercise performed by crushing a torsion-spring gripper closed in one hand."
+}

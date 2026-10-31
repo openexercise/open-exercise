@@ -1,0 +1,148 @@
+{
+  "is_exercise": true,
+  "name": "Alternating Dumbbell Hammer Curl",
+  "summary": "An isolation arm exercise that alternately curls dumbbells with a neutral grip to target the brachialis, brachioradialis, and biceps brachii.",
+  "aliases": [
+    {
+      "text": "Alternating Hammer Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Hammer Curl Alternating",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "brachialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand upright with feet hip-width apart and knees slightly unlocked.",
+      "Hold a dumbbell in each hand at your sides with palms facing inward toward each other in a neutral grip.",
+      "Keep your chest tall, shoulders pulled slightly back, and elbows pinned close to your torso."
+    ],
+    "steps": [
+      "Keeping the upper arm stationary and the wrist neutral, curl one dumbbell upward by flexing the elbow.",
+      "Continue lifting until the forearm is near vertical and you feel a peak contraction in the arm.",
+      "Lower the dumbbell under control back to the starting position with your arm fully extended.",
+      "Repeat the movement with the opposite arm to complete one alternating pair."
+    ],
+    "breathing": "Exhale as you curl the dumbbell up, and inhale as you lower it back down.",
+    "cues": [
+      "Keep palms facing each other throughout.",
+      "Lock elbows in place against your ribs.",
+      "Control the weight on the way down; do not let it drop."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to generate momentum.",
+        "correction": "Brace the core and keep the torso strictly vertical throughout the set."
+      },
+      {
+        "fault": "Flaring the elbows outward or allowing them to drift forward excessively.",
+        "correction": "Keep the upper arms aligned with your torso to isolate elbow flexion."
+      },
+      {
+        "fault": "Pronating or supinating the wrists during the curl.",
+        "correction": "Maintain a strict neutral hammer grip from start to finish."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessively heavy weights that compromise strict posture."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "is_exercise": true,
+  "name": "Seated Calf Stretch",
+  "summary": "A seated flexibility exercise that stretches the calf muscles by pulling the foot and toes into dorsiflexion.",
+  "aliases": [
+    {
+      "text": "Sitting Calf Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Dorsiflexion Calf Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Ankle Dorsiflexion Stretch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "isolation-ankle"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "gastrocnemius",
+      "role": "stretched"
+    },
+    {
+      "muscle": "soleus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "tibialis-posterior",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "strap",
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit on the floor or on a firm chair with an upright posture.",
+      "Extend one leg straight out in front of you with the heel resting on the ground.",
+      "Optionally loop a strap, towel, or your hands around the ball of the extended foot."
+    ],
+    "steps": [
+      "Gently pull the toes and the ball of the foot back toward your shin until you feel a comfortable stretch along the back of the lower leg.",
+      "Maintain a tall torso and keep the knee straight without hyperextending it.",
+      "Hold the stretch steadily for the desired duration.",
+      "Release the tension slowly, then switch to the opposite leg."
+    ],
+    "breathing": "Breathe smoothly and deeply, exhaling as you gently deepen the stretch.",
+    "cues": [
+      "Pull toes toward the shin",
+      "Keep the heel anchored",
+      "Maintain an upright spine"
+    ],
+    "common_faults": [
+      {
+        "fault": "Slouching through the spine to reach the toes.",
+        "correction": "Sit tall from the hips and use a strap or towel if you cannot comfortably reach the foot."
+      },
+      {
+        "fault": "Aggressively forcing the foot into extreme dorsiflexion.",
+        "correction": "Apply gentle, progressive tension to produce a mild stretch rather than sharp pain."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forceful bouncing or aggressive pulling, especially if rehabilitating an Achilles tendon or calf injury."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

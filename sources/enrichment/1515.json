@@ -1,0 +1,141 @@
+{
+  "is_exercise": true,
+  "name": "Leg Press Calf Raise",
+  "summary": "An isolation exercise using a leg press machine to train the calves through loaded ankle plantarflexion.",
+  "aliases": [
+    {
+      "text": "Leg Press Toe Press",
+      "kind": "common"
+    },
+    {
+      "text": "Calf Press on Leg Press",
+      "kind": "common"
+    },
+    {
+      "text": "Toe Press on Leg Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-ankle"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gastrocnemius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "soleus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "tibialis-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "peroneals",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "leg-press-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit securely in the leg press seat with your back and hips firmly supported against the pads.",
+      "Place the balls of your feet along the bottom edge of the sled platform about hip-width apart, allowing your heels to hang free off the edge.",
+      "Extend your legs to unlock the safety handles, keeping a very slight, soft bend in the knees rather than hyperextending them."
+    ],
+    "steps": [
+      "Slowly lower the platform by flexing your ankles, letting your heels drop into a deep, controlled stretch.",
+      "Pause briefly at the bottom to eliminate elastic bounce.",
+      "Press through the balls of your feet to push the platform away into maximal plantarflexion.",
+      "Hold the peak contraction for a brief pause before lowering under control."
+    ],
+    "breathing": "Exhale as you press onto your toes; inhale smoothly as your heels drop into the stretch.",
+    "cues": [
+      "Drive through the big toes",
+      "Keep knees soft and still",
+      "Pause in the stretch"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending and straightening the knees to move the weight.",
+        "correction": "Keep your knee angle locked in a soft extension so all movement occurs strictly at the ankle joint."
+      },
+      {
+        "fault": "Allowing the balls of the feet to slip off the bottom edge.",
+        "correction": "Ensure a solid purchase with the metatarsal heads firmly anchored on the lower platform before unlatching the sled."
+      },
+      {
+        "fault": "Bouncing quickly out of the bottom position.",
+        "correction": "Descend under control and pause for one second at full dorsiflexion to prioritize calf hypertrophy over Achilles tendon recoil."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Always keep safety stops adjusted high enough to catch the sled if your feet slip off the edge.",
+        "Never aggressively hyperextend your knees under load."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  }
+}

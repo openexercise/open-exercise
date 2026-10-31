@@ -1,0 +1,159 @@
+{
+  "is_exercise": true,
+  "name": "Elephant Walk",
+  "summary": "A dynamic posterior chain mobility drill performed by folding forward and alternating knee flexion and extension to stretch the hamstrings and calves.",
+  "aliases": [
+    {
+      "text": "Elephant Walks",
+      "kind": "common"
+    },
+    {
+      "text": "Walking Hamstring Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "ATG Elephant Walk",
+      "kind": "brand"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "stretch",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "bent-over",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "hamstrings",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "yoga-block",
+    "bench",
+    "plyo-box"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and pointing straight forward.",
+      "Hinge at the hips and fold forward, placing your hands on the floor or an elevated support such as a plyo-box, bench, or yoga blocks if your hamstrings are tight.",
+      "Bend both knees slightly to find a comfortable starting position without excessive strain on the lower back."
+    ],
+    "steps": [
+      "Actively contract the quadriceps on one leg to fully straighten that knee while keeping your heel planted on the floor.",
+      "Hold the lockout momentarily to feel a deep stretch through the hamstring and calf of that leg while the opposite knee remains bent.",
+      "Bend the straightened leg while smoothly extending and locking out the opposite knee.",
+      "Continue alternating legs in a smooth, rhythmic pumping cadence for the desired number of repetitions."
+    ],
+    "breathing": "Maintain a calm, continuous breathing rhythm throughout the movement, exhaling as you extend into the stretch.",
+    "cues": [
+      "Keep heels glued to the floor",
+      "Squeeze the quad to straighten the knee",
+      "Let the upper body relax forward"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the heel off the ground when straightening the leg",
+        "correction": "Keep the entire foot flat on the floor to properly stretch the calf and hamstring, elevating your hand support if needed."
+      },
+      {
+        "fault": "Reaching too low without sufficient mobility, causing aggressive lumbar rounding and pain",
+        "correction": "Elevate your hands onto a sturdy box or bench so the torso can comfortably hinge from the hips."
+      },
+      {
+        "fault": "Bouncing or jerking through the knee extension",
+        "correction": "Use smooth, controlled muscle contraction from the quadriceps to achieve full knee extension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forcing hyperextension of the knee joint if you experience sharp posterior knee pain or discomfort.",
+        "Elevate your hands to a height that allows you to hinge comfortably without excessive strain on the lumbar spine."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

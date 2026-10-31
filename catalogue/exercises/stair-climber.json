@@ -1,0 +1,233 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "ClimbMill",
+      "kind": "brand"
+    },
+    {
+      "text": "StairMaster",
+      "kind": "brand"
+    },
+    {
+      "text": "StepMill",
+      "kind": "brand"
+    },
+    {
+      "text": "Stair Stepper Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Revolving Stair Climber",
+      "kind": "common"
+    },
+    {
+      "text": "Stair Master",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "climb",
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "stair-climber"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1449,1548"
+  },
+  "id": "oec:stair-climber",
+  "instructions": {
+    "setup": [
+      "Step onto the machine's initial step and select your desired speed or training program on the console.",
+      "Stand tall with your chest up and rest your hands lightly on the handrails for balance only."
+    ],
+    "steps": [
+      "As the revolving stairs move downward, place your leading foot flat onto the center of the next oncoming step.",
+      "Drive through your heel and midfoot to extend your hip and knee, lifting your body upward.",
+      "Alternate legs continuously in a smooth, steady climbing cadence without skipping steps."
+    ],
+    "breathing": "Breathe in a relaxed, rhythmic pattern matched to your stepping tempo.",
+    "cues": [
+      "Stand tall with an upright torso.",
+      "Step through the whole foot, not just the toes.",
+      "Keep hands light on the rails."
+    ],
+    "common_faults": [
+      {
+        "fault": "Leaning heavily onto the handrails and supporting body weight with the arms.",
+        "correction": "Rest only your fingertips on the handrails for balance, keeping all body weight over the legs."
+      },
+      {
+        "fault": "Climbing solely on the balls of the feet with heels hanging off the steps.",
+        "correction": "Place the entire foot firmly on each step to engage the glutes and prevent excessive calf strain."
+      },
+      {
+        "fault": "Hunching forward at the waist.",
+        "correction": "Keep the chest proud, shoulders back, and hips slightly forward in an upright posture."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Begin at a slow speed to find your rhythm before increasing stepping rate.",
+        "Keep clear of the base of the machine and locate the emergency stop button prior to starting."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "cadence",
+          "speed",
+          "calories",
+          "heart-rate",
+          "resistance-level",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "distance",
+          "duration"
+        ],
+        "optional": [
+          "cadence",
+          "speed",
+          "calories",
+          "heart-rate",
+          "resistance-level",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Stair Climber",
+  "previous_ids": [
+    "oec:climbmill",
+    "oec:stair-master"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: ClimbMill",
+        "url": "https://wger.de/en/exercise/1449/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "hpmbala@gmail.com"
+      },
+      {
+        "title": "wger: Stair Master",
+        "url": "https://wger.de/en/exercise/1548/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "MisterPinnacle"
+      }
+    ]
+  },
+  "setup": {
+    "position": "moving"
+  },
+  "status": "active",
+  "summary": "A continuous lower-body aerobic exercise performed on a revolving staircase machine to build cardiovascular endurance and leg strength."
+}

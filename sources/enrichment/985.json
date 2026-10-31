@@ -1,0 +1,184 @@
+{
+  "is_exercise": true,
+  "name": "T-Push-Up",
+  "summary": "A push-up variation that finishes with a rotation into a side plank with one arm extended toward the ceiling.",
+  "aliases": [
+    {
+      "text": "Push-up rotations",
+      "kind": "common"
+    },
+    {
+      "text": "Pushup rotations",
+      "kind": "common"
+    },
+    {
+      "text": "Push-Up with Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Rotational Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "T-Pushup",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "rotation",
+      "anti-lateral-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "prone",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "obliques",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-adduction",
+        "horizontal-abduction",
+        "abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "rotation"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Assume a high plank position with your hands slightly wider than shoulder-width apart and your feet set about shoulder-width apart for rotational stability.",
+      "Engage your abdominals and glutes to align your body in a straight line from head to heels."
+    ],
+    "steps": [
+      "Lower your chest toward the floor by bending your elbows back at roughly a 45-degree angle.",
+      "Push forcefully through your palms to return to the top of the push-up.",
+      "At lockout, shift your weight onto your left hand and pivot on the edges of your feet, rotating your torso open to the right.",
+      "Raise your right arm straight toward the ceiling until your arms and chest form a vertical 'T' shape.",
+      "Pause briefly in control, then rotate back down to the starting high plank position.",
+      "Perform the next push-up and rotate to the opposite side."
+    ],
+    "breathing": "Inhale as you lower into the push-up, exhale as you press up and rotate into the T-position.",
+    "cues": [
+      "Keep your body in a rigid plank throughout the rotation.",
+      "Follow your top hand with your gaze.",
+      "Drive the floor away with the supporting shoulder so it does not collapse."
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging or hiking the hips during the rotation.",
+        "correction": "Squeeze your obliques and glutes to keep the pelvis aligned with your spine throughout the transition."
+      },
+      {
+        "fault": "Feet set too close together.",
+        "correction": "Widen your stance to shoulder width to allow smooth pivoting onto the sides of your feet."
+      },
+      {
+        "fault": "Rushing the rotation and losing balance.",
+        "correction": "Complete the push-up lockout first before initiating a deliberate, controlled turn of the torso."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid if experiencing acute shoulder impingement or wrist pain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Kong Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Cross-Body Reverse Curl",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "brachialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "radioulnar",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1511"
+  },
+  "id": "oec:dumbbell-kong-curl",
+  "instructions": {
+    "setup": [
+      "Stand upright with feet hip-width apart holding a dumbbell in each hand at your sides.",
+      "Turn your hands so your palms face slightly backward in an overhand or semi-pronated position.",
+      "Pull your shoulders down and back, engage your core, and keep a soft bend in the knees."
+    ],
+    "steps": [
+      "Keeping your upper arm relatively stable, curl one dumbbell diagonally across your torso toward the opposite upper chest.",
+      "Lead with the thumb side of the hand, maintaining the pronated wrist orientation as you bring the weight toward the collarbone.",
+      "Squeeze the brachialis and forearm at the top of the movement for a brief pause.",
+      "Lower the dumbbell under control along the same path back to your side.",
+      "Repeat the movement with the opposite arm and alternate sides for the desired number of repetitions."
+    ],
+    "breathing": "Exhale as you curl the dumbbell toward your chest, and inhale as you lower it back to your side.",
+    "cues": [
+      "Curl diagonally across the ribs.",
+      "Keep palms facing down.",
+      "Elbow stays pinned close to the body."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to generate momentum.",
+        "correction": "Brace the abdominal muscles and keep the spine vertical throughout the curl."
+      },
+      {
+        "fault": "Supinating the forearm during the lift.",
+        "correction": "Maintain the overhand pronated orientation to ensure load stays focused on the brachialis and brachioradialis."
+      },
+      {
+        "fault": "Flaring the elbow excessively forward or out to the side.",
+        "correction": "Keep the upper arm anchored to isolate flexion strictly to the elbow joint."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Select a manageable weight to protect the distal biceps tendon and wrist flexors/extensors under pronation."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Dumbbell Kong Curl",
+  "previous_ids": [
+    "oec:kong-curl"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Kong Curl",
+        "url": "https://wger.de/en/exercise/1511/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Moffi"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-cross-body-hammer-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-cross-body-hammer-curl"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An alternating cross-body curl performed with a pronated or semi-pronated grip targeting the brachialis and forearm flexors."
+}

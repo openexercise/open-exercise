@@ -1,0 +1,147 @@
+{
+  "is_exercise": true,
+  "name": "Single-Leg Standing Calf Raise",
+  "summary": "A unilateral bodyweight isolation movement performed standing on one foot to strengthen the gastrocnemius and soleus.",
+  "aliases": [
+    {
+      "text": "One-Leg Calf Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Leg Calf Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Unilateral Standing Calf Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Calf raises, left leg",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength",
+      "calisthenics",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "isolation-ankle"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_kind": "single-leg",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gastrocnemius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "soleus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "tibialis-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "peroneals",
+      "role": "synergist"
+    },
+    {
+      "muscle": "foot-intrinsics",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "step",
+    "wall"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall on one foot on a flat surface or with the ball of the foot on the edge of a step.",
+      "Bend the non-working knee slightly so the opposite foot hangs freely behind you.",
+      "Lightly touch a wall or sturdy rail with one hand for balance if needed."
+    ],
+    "steps": [
+      "Press through the ball of the working foot to raise your heel as high as possible.",
+      "Pause briefly at the peak of contraction while keeping the working knee straight but not hyperextended.",
+      "Lower the heel under control until it lightly touches the floor or reaches a full, comfortable stretch below the step.",
+      "Complete the target repetitions, then switch to the other leg."
+    ],
+    "breathing": "Exhale as you press up onto your toes; inhale as you lower your heel.",
+    "cues": [
+      "Push straight through the big toe",
+      "Squeeze the calf at the top",
+      "Control the descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bouncing out of the bottom of the movement using the Achilles tendon rebound.",
+        "correction": "Pause briefly at the bottom of each repetition to ensure muscular work rather than elastic recoil."
+      },
+      {
+        "fault": "Rolling the ankle outward onto the pinky toe.",
+        "correction": "Distribute pressure evenly across the ball of the foot, driving primarily through the base of the big toe."
+      },
+      {
+        "fault": "Bending the working knee to assist the lift.",
+        "correction": "Keep the working leg locked in a straight position with only a micro-bend to fully load the gastrocnemius."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain light fingertip contact on a wall or rail to prevent loss of balance."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

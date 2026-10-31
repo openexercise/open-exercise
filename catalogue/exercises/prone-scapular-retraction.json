@@ -1,0 +1,209 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Prone Scapular Retraction - Arms at Side",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Scapular Squeeze",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Scap Retraction",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Prone T-Raise",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "trapezius-middle",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "infraspinatus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-abduction",
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "mobility",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "468"
+  },
+  "id": "oec:prone-scapular-retraction",
+  "instructions": {
+    "setup": [
+      "Lie face down on a mat with your forehead resting on a small rolled towel to keep the neck in a neutral alignment.",
+      "Extend your arms straight out to the sides perpendicular to your torso in a 'T' position, palms facing downward or thumbs pointing toward the ceiling."
+    ],
+    "steps": [
+      "Initiate the movement by drawing your shoulder blades toward each other across your upper back.",
+      "Lift your arms a few inches off the floor through the scapular retraction rather than forcing the movement from the lower back.",
+      "Hold the fully retracted position for the prescribed duration (typically 2 to 3 seconds), feeling a firm squeeze between the shoulder blades.",
+      "Slowly lower your arms back to the starting position under control."
+    ],
+    "breathing": "Exhale as you pinch your shoulder blades together and lift your arms; inhale as you lower them back to the floor.",
+    "cues": [
+      "Pinch a pencil between your shoulder blades",
+      "Keep your neck relaxed and forehead down",
+      "Lead with the scaps, not just the hands"
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulders upward toward the ears using the upper trapezius.",
+        "correction": "Keep the shoulders depressed away from your ears throughout the movement."
+      },
+      {
+        "fault": "Hyperextending the neck or lifting the chest off the floor to compensate.",
+        "correction": "Keep your forehead gently resting on the towel and isolate movement to the shoulder blades."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Stop if you experience sharp anterior shoulder pain or neck strain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Prone Scapular Retraction",
+  "previous_ids": [
+    "oec:prone-scapular-retraction-arms-at-side"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Prone Scapular Retraction - Arms at Side",
+        "url": "https://wger.de/en/exercise/468/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "donaddon"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:band-scapular-retraction"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-scapular-retraction"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-kelso-shrug"
+    }
+  ],
+  "setup": {
+    "position": "prone",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A postural rehabilitation exercise performed lying face down to strengthen the middle trapezius and rhomboids through targeted shoulder blade retraction."
+}

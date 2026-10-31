@@ -1,0 +1,151 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Lying Triceps Extension",
+  "summary": "An isolation exercise performed lying supine on a flat bench, extending a barbell overhead to target the triceps brachii.",
+  "aliases": [
+    {
+      "text": "Skull Crusher",
+      "kind": "common"
+    },
+    {
+      "text": "Skullcrusher",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Lying French Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "supine",
+  "grip_orientation": "pronated",
+  "grip_width": "narrow",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "anconeus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell",
+        "ez-bar"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "adjustable-bench"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Lie supine on a flat bench with your feet planted firmly on the floor.",
+      "Grip the barbell with an overhand (pronated) grip, hands spaced roughly shoulder-width or slightly narrower.",
+      "Press the barbell up and angle your upper arms slightly back toward your head rather than directly vertical, keeping tension on the triceps."
+    ],
+    "steps": [
+      "Inhale and lower the barbell in a controlled arc toward the crown of your head or just behind it by flexing at the elbows.",
+      "Keep your upper arms stationary and elbows tucked in without flaring excessively.",
+      "Lower until your elbows reach approximately 90 degrees or deeper to achieve a full stretch in the triceps.",
+      "Exhale and press the bar back up to the starting position by extending the elbows, stopping just short of a harsh lockout."
+    ],
+    "breathing": "Inhale as you lower the weight toward your head; exhale as you extend your elbows to press the barbell back up.",
+    "cues": [
+      "Keep your elbows pinned in place.",
+      "Lower the bar toward the top of your head, not your forehead.",
+      "Extend through the triceps without swinging your shoulders."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive elbow flaring outward during the lift.",
+        "correction": "Keep your elbows pointing forward and roughly shoulder-width apart throughout the movement."
+      },
+      {
+        "fault": "Moving the upper arms forward and back to turn the lift into a pullover or press.",
+        "correction": "Lock your humerus at a fixed backward angle and pivot strictly around the elbow joint."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Always maintain a secure grip with thumbs wrapped around the bar to avoid dropping the weight on your head or face.",
+        "If you experience elbow discomfort, switch to an EZ-bar or lower the weight."
+      ],
+      "spotter": "recommended",
+      "safeties": false
+    }
+  }
+}

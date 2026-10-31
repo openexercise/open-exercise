@@ -1,0 +1,150 @@
+{
+  "is_exercise": true,
+  "name": "Tuck V-Up",
+  "summary": "A bodyweight core exercise where the torso and knees draw together simultaneously from a hollow supine position to balance on the glutes.",
+  "aliases": [
+    {
+      "text": "Tuck-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Tuck Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "V-Up Tuck",
+      "kind": "common"
+    },
+    {
+      "text": "V-Up - Mark Lauren",
+      "kind": "brand"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie face up on the floor with your legs fully extended and arms resting along your sides.",
+      "Engage your midsection and lift your head, shoulders, and feet a few inches off the floor into a shallow hollow-body hold."
+    ],
+    "steps": [
+      "Simultaneously flex your hips and spine while bending your knees, pulling them directly toward your chest.",
+      "Raise your torso off the floor and reach your hands forward alongside your shins, balancing momentarily on your glutes at the top of the contraction.",
+      "Pause briefly at the peak, then control your descent by extending your hips, knees, and spine.",
+      "Return to the hovered hollow position with your shoulders and heels off the ground before starting the next repetition."
+    ],
+    "breathing": "Exhale forcefully as you tuck your knees and curl your torso up; inhale as you slowly extend back to the starting hollow position.",
+    "cues": [
+      "Meet in the middle.",
+      "Balance on your hips, not your lower back.",
+      "Keep heels and head hovered between reps."
+    ],
+    "common_faults": [
+      {
+        "fault": "Using momentum to throw the arms forward rather than contracting the abdominal muscles.",
+        "correction": "Initiate the movement by tucking your ribs toward your pelvis and moving with steady control."
+      },
+      {
+        "fault": "Letting the lower back aggressively arch and slam onto the floor during the descent.",
+        "correction": "Maintain abdominal tension on the way down, stopping just before the lower back loses contact or control."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid this movement if you have acute lower back pain triggered by repetitive lumbar flexion."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

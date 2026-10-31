@@ -1,0 +1,161 @@
+{
+  "is_exercise": true,
+  "name": "Smith Machine Squat",
+  "summary": "A guided back squat performed on a Smith machine to target the quadriceps and glutes with reduced balance demands.",
+  "aliases": [
+    {
+      "text": "Smith Machine Back Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Smith Squat",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "high-bar",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "smith-machine"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "weight-plate"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set the Smith machine bar at approximately mid-chest to collarbone height.",
+      "Step under the bar, placing it securely across your upper trapezius muscles.",
+      "Grip the bar firmly outside shoulder width and place your feet about shoulder-width apart, positioned a few inches forward of the bar path.",
+      "Rotate the bar to unhook it from the safety catches and stand tall with a braced core."
+    ],
+    "steps": [
+      "Inhale, brace your abdomen, and begin descending by breaking at the knees and hips simultaneously.",
+      "Lower smoothly along the fixed track until your thighs are at least parallel to the floor.",
+      "Drive through your midfoot and heel, extending your knees and hips to return to the standing starting position.",
+      "Exhale near the top of the movement without forcefully locking out your knees."
+    ],
+    "breathing": "Inhale and brace your core prior to descending, and exhale as you press back up to the top.",
+    "cues": [
+      "Chest up, spine neutral",
+      "Drive through the floor",
+      "Knees track over toes"
+    ],
+    "common_faults": [
+      {
+        "fault": "Placing the feet directly beneath the bar path, which can cause excessive forward knee travel and heel rise.",
+        "correction": "Step your feet several inches forward so your shins stay closer to vertical and your weight stays balanced over the whole foot."
+      },
+      {
+        "fault": "Relying on the bar track to slouch or lose torso tension, rounding the spine.",
+        "correction": "Maintain active core bracing and an upright chest throughout the entire range of motion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Always adjust the Smith machine mechanical safety stoppers just below your bottom squat depth before loading weight."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  }
+}

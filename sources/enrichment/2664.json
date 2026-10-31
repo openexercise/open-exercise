@@ -1,0 +1,128 @@
+{
+  "is_exercise": true,
+  "name": "Seated Knee Extension with Overpressure",
+  "summary": "A seated rehabilitation stretch that applies manual overpressure above the knee to restore terminal knee extension.",
+  "aliases": [
+    {
+      "text": "Seated Knee Extension Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Heel Prop Knee Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Knee Extension with Overpressure",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "hamstrings",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "knee",
+      "actions": [
+        "extension"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "chair",
+    "bench",
+    "foam-roller",
+    "yoga-block"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "duration"
+      ],
+      "optional": []
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": []
+    }
+  ],
+  "load_kind": "none",
+  "load_convention": "not-applicable",
+  "reps_counted": "per-side",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit upright on a firm chair or on the floor.",
+      "Extend the target leg forward with the heel propped on the floor or a low support so the knee remains completely unsupported beneath."
+    ],
+    "steps": [
+      "Completely relax the thigh and leg muscles.",
+      "Place both hands flat on the lower thigh, just above the superior border of the patella.",
+      "Gently press downward toward the floor, applying gradual overpressure into full knee extension until a mild stretch is felt in the back of the knee.",
+      "Hold the position for the prescribed duration, then release the downward pressure."
+    ],
+    "breathing": "Breathe slowly and rhythmically throughout the mobilization, exhaling gently as you apply pressure.",
+    "cues": [
+      "Relax the thigh completely",
+      "Press above the kneecap, not directly on it",
+      "Gentle firm pressure, no sharp pain"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pressing directly on the patella.",
+        "correction": "Position the hands on the distal femur just above the kneecap to avoid compressing the patellofemoral joint."
+      },
+      {
+        "fault": "Tensing the quadriceps or hamstrings defensively.",
+        "correction": "Allow the leg to hang completely passive so the joint capsule and posterior soft tissues receive the stretch."
+      },
+      {
+        "fault": "Applying sudden, ballistic force into terminal extension.",
+        "correction": "Apply smooth, sustained overpressure to prevent muscle guarding or joint irritation."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not force through sharp, pinch-type pain in the anterior joint line.",
+        "Follow post-operative range-of-motion guidelines if rehabilitating a ligament reconstruction or joint replacement."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "is_exercise": true,
+  "name": "Half-Kneeling Thoracic Rotation",
+  "summary": "A dynamic mobility exercise performed in a half-kneeling stance to improve thoracic spine rotational range of motion while stabilizing the pelvis and lumbar spine.",
+  "aliases": [
+    {
+      "text": "1/2 Kneeling Thoracic Rotation",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Half-Kneeling T-Spine Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Half-Kneeling Wall Windmill",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "rotation"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "half-kneeling",
+  "muscles": [
+    {
+      "muscle": "external-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "multifidus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "rotation"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat",
+    "wall",
+    "foam-roller",
+    "yoga-block"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Assume a half-kneeling position with the front hip and knee bent at 90 degrees and the back knee resting on the floor directly beneath the hips.",
+      "Optionally set up adjacent to a wall with the lead knee pressed lightly against a foam roller pinned to the wall to keep the hips square.",
+      "Extend both arms straight out in front of your chest with palms together."
+    ],
+    "steps": [
+      "Keeping the hips and pelvis pinned firmly in place, open the arm closest to the back leg or wall in a sweeping horizontal arc.",
+      "Follow your moving hand with your eyes, rotating your mid-back and ribcage as far as comfortably possible without shifting the hips.",
+      "Pause momentarily at the end-range of thoracic rotation.",
+      "Smoothly reverse the path to return both hands together in front of your chest.",
+      "Complete the desired repetitions on one side before switching your stance to the opposite side."
+    ],
+    "breathing": "Exhale as you rotate open and expand the chest; inhale as you return to the starting position.",
+    "cues": [
+      "Rotate through the ribs, not the hips.",
+      "Track your thumb with your eyes.",
+      "Keep the front knee tracking straight forward without flaring."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating through the lumbar spine and pelvis instead of the thoracic cage.",
+        "correction": "Squeeze the glute of the trailing leg and brace the core to lock the pelvis square facing forward."
+      },
+      {
+        "fault": "Letting the front knee collapse inward or outward during the reach.",
+        "correction": "Actively drive the front foot down and keep the knee aligned over the second toe, or pin a foam roller against a wall to enforce alignment."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Place a folded mat or cushion under the rear knee if kneeling causes discomfort."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

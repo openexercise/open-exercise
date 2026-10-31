@@ -1,0 +1,231 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Single-Arm Cable Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Cable Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Single Arm Row",
+      "kind": "misspelling"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "adduction",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "downward-rotation",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "bench",
+      "mat"
+    ],
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1637,1972"
+  },
+  "id": "oec:cable-single-arm-lat-pulldown",
+  "instructions": {
+    "setup": [
+      "Attach a single-grip handle to a high cable pulley.",
+      "Sit on the floor, a mat, or a low bench positioned beneath and slightly behind the cable line of pull.",
+      "Grasp the handle with one hand and allow your arm to extend fully overhead, establishing torso stability with your feet braced."
+    ],
+    "steps": [
+      "Initiate the pull by depressing and rotating your scapula downward while drawing your elbow toward your hip.",
+      "Pull smoothly until your elbow reaches the side of your ribcage, squeezing the latissimus dorsi at peak contraction.",
+      "Slowly reverse the motion under control, extending your arm and letting the shoulder blade elevate slightly to feel a deep stretch in the lat.",
+      "Complete the desired repetitions on one side before switching to the other."
+    ],
+    "breathing": "Exhale as you pull the handle downward toward your torso; inhale as you slowly return to the fully stretched starting position.",
+    "cues": [
+      "Drive your elbow down to your hip pocket.",
+      "Keep your chest proud and resist twisting your torso.",
+      "Embrace the full stretch at the top without shrugging into your neck."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the torso to yank the weight down.",
+        "correction": "Brace your core and keep your shoulders square to the machine throughout the set."
+      },
+      {
+        "fault": "Cutting the eccentric range of motion short.",
+        "correction": "Allow your arm to fully extend and let the scapula elevate under control for a complete lat stretch."
+      },
+      {
+        "fault": "Pulling primarily with the forearm and bicep.",
+        "correction": "Think of your hand merely as a hook and initiate the movement by pulling with the elbow and back muscles."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Select a load that allows full control during the negative phase to avoid sudden joint strain at full overhead extension."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Cable Single-Arm Lat Pulldown",
+  "previous_ids": [
+    "oec:single-arm-row",
+    "oec:single-arm-lat-pulldown"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Single arm row",
+        "url": "https://wger.de/en/exercise/1637/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Rottekongen"
+      },
+      {
+        "title": "wger: Single-Arm Lat Pulldown",
+        "url": "https://wger.de/en/exercise/1972/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "evtimovgeorg"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-lat-pulldown"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-lat-pulldown"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A unilateral vertical pull using a high cable to isolate and deeply stretch each latissimus dorsi."
+}

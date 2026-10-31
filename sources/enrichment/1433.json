@@ -1,0 +1,167 @@
+{
+  "is_exercise": true,
+  "name": "Band Reverse Wood Chop",
+  "summary": "A standing rotational exercise using a low-anchored resistance band pulled diagonally upward across the torso to build rotational strength and core power.",
+  "aliases": [
+    {
+      "text": "Reverse Wood Chop",
+      "kind": "common"
+    },
+    {
+      "text": "Band Low-to-High Wood Chop",
+      "kind": "common"
+    },
+    {
+      "text": "Resistance Band Reverse Woodchop",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "rotation"
+    ],
+    "mechanics": "compound",
+    "force": "mixed",
+    "kinetic_chain": "mixed",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "grip_width": "narrow",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "obliques",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "rotation"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "internal-rotation",
+        "external-rotation",
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "horizontal-adduction"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "resistance-band"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "band-tension",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "elastic",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Securely anchor one end of a resistance band near floor level to a sturdy post or rack.",
+      "Stand perpendicular to the anchor point with feet shoulder-width apart, so the band is to your side.",
+      "Grip the free end of the band with both hands interlaced, stepping far enough away to create light starting tension.",
+      "Slightly bend your knees and hinge at the hips, bringing your hands down by the hip closest to the anchor."
+    ],
+    "steps": [
+      "Drive through your feet and rotate your hips and torso diagonally upward away from the anchor point.",
+      "Allow your back foot to pivot on the ball of the foot as your hips turn.",
+      "Sweep your arms across your body in a straight or slightly soft-elbow path until your hands are above your opposite shoulder.",
+      "Pause briefly at the peak of the rotation while bracing your core.",
+      "Control the band as you rotate back down to the starting position."
+    ],
+    "breathing": "Exhale forcefully as you rotate upward against the band's tension, and inhale as you return to the start.",
+    "cues": [
+      "Drive from the hips, not just the arms.",
+      "Pivot the back foot.",
+      "Keep your arms long and let your torso turn the band."
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling exclusively with the arms and shoulders rather than rotating through the hips and torso.",
+        "correction": "Initiate the movement by pushing through the floor and turning the hips, using the arms merely to hold the line of the band."
+      },
+      {
+        "fault": "Failing to pivot the rear foot, placing excessive twisting torque on the knee and lower back.",
+        "correction": "Release the rear heel and pivot freely onto the ball of the back foot as your hips turn."
+      },
+      {
+        "fault": "Hyperextending the lumbar spine at the top of the movement.",
+        "correction": "Brace the abdominal wall and squeeze the glutes to keep the pelvis neutral throughout the rotation."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Inspect the resistance band for wear, tears, or fraying before anchoring it.",
+        "Ensure the anchor point is stable and will not move or dislodge under tension."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

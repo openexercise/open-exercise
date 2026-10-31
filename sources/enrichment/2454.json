@@ -1,0 +1,171 @@
+{
+  "is_exercise": true,
+  "name": "Prone Y-T-W Raise",
+  "summary": "A prone bodyweight movement that strengthens the scapular stabilizers and rotator cuff through three sequential arm positions.",
+  "aliases": [
+    {
+      "text": "YTW Raises",
+      "kind": "common"
+    },
+    {
+      "text": "Prone YTW",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Y-T-W Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Scapular YTW",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "mobility",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise",
+      "mobility-drill"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "muscles": [
+    {
+      "muscle": "trapezius-lower",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "infraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-minor",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "depression",
+        "upward-rotation"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction",
+        "horizontal-abduction",
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie face down on a mat with your legs straight and forehead resting lightly on or hovering just above the floor.",
+      "Keep your neck neutral and engage your core slightly to avoid excessive arching in the lower back."
+    ],
+    "steps": [
+      "Perform the 'Y': extend your arms overhead at roughly a 30 to 45-degree angle from your torso with thumbs pointing toward the ceiling. Retract and depress your shoulder blades to lift your arms off the floor, hold briefly, and lower under control.",
+      "Perform the 'T': move your arms straight out to the sides perpendicular to your torso with thumbs pointing up. Squeeze your shoulder blades together to raise your arms, pause, and lower them.",
+      "Perform the 'W': bend your elbows to roughly 90 degrees and pull them down toward your ribs. Rotate your forearms and thumbs upward to lift your hands and elbows off the floor, pinch your shoulder blades together, pause, and lower.",
+      "Repeat the sequence for the target number of repetitions or hold each position for the prescribed duration."
+    ],
+    "breathing": "Exhale as you lift your arms into each position and inhale as you lower them to the floor.",
+    "cues": [
+      "Lead with your thumbs.",
+      "Initiate from the shoulder blades, not the lower back.",
+      "Keep your neck long and chin tucked."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the neck and lumbar spine to lift the arms higher.",
+        "correction": "Keep your forehead down and ribs anchored to the floor; drive the movement entirely through scapular retraction and arm elevation."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears.",
+        "correction": "Keep your shoulder blades depressed down away from your ears, especially during the 'Y' and 'W' positions."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform with controlled tempos and bodyweight only; avoid adding handheld weights until full, pain-free range of motion is achieved."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

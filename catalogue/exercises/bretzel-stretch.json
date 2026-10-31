@@ -1,0 +1,193 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "The Bretzel",
+      "kind": "common"
+    },
+    {
+      "text": "Bretzel 1.0",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-femoris",
+        "role": "stretched"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stretched"
+      },
+      {
+        "muscle": "piriformis",
+        "role": "stretched"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "stretched"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "rotation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "rotation"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "mobility-drill",
+      "rotation"
+    ],
+    "mechanics": "not-applicable",
+    "force": "static",
+    "kinetic_chain": "not-applicable",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat",
+      "strap",
+      "foam-roller"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1577"
+  },
+  "id": "oec:bretzel-stretch",
+  "instructions": {
+    "setup": [
+      "Lie on your right side with your head supported by a block, pad, or your arm.",
+      "Bring your top (left) hip and knee up to roughly 90 degrees of flexion.",
+      "Hold your top knee down against the floor or a foam roller using your bottom (right) hand.",
+      "Bend your bottom (right) knee backward, reach back with your top (left) hand, and grasp your right ankle or foot."
+    ],
+    "steps": [
+      "Inhale deeply to expand your ribcage.",
+      "Exhale slowly and rotate your top (left) shoulder backward toward the floor, turning your head to follow.",
+      "Gently draw the bottom thigh further into extension by pulling lightly on the foot while keeping the top knee pinned to the ground.",
+      "Hold the position, relaxing deeper into thoracic rotation and hip extension with each exhalation.",
+      "Carefully release both legs, return to side-lying, and repeat on the opposite side."
+    ],
+    "breathing": "Take slow, deep diaphragmatic breaths, using each long exhale to sink further into the rotation and hip stretch.",
+    "cues": [
+      "Pin the top knee down",
+      "Rotate through the ribs, not just the neck",
+      "Exhale to melt toward the floor"
+    ],
+    "common_faults": [
+      {
+        "fault": "Top knee lifting off the ground or block as the shoulder turns.",
+        "correction": "Keep the bottom hand firmly holding the top knee down; elevate the knee on a foam roller or pad if mobility is restricted."
+      },
+      {
+        "fault": "Excessive hyperextension of the lower back instead of hip extension.",
+        "correction": "Keep your core gently engaged and maintain top-hip flexion to lock the pelvis and lumbar spine."
+      },
+      {
+        "fault": "Straining the neck by forcing the head backward before the torso rotates.",
+        "correction": "Support your head on a block or pillow and allow the neck to rotate naturally in line with the thoracic spine."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not force the shoulder or knee to the floor if you experience sharp knee, hip impingement, or lower back pain; reduce the stretch depth or use props."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Bretzel Stretch",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Bretzel stretch",
+        "url": "https://wger.de/en/exercise/1577/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "mountain.potato"
+      }
+    ]
+  },
+  "setup": {
+    "position": "side-lying"
+  },
+  "status": "active",
+  "summary": "A full-body rotational mobility exercise that stretches the thoracic spine, hip flexors, quadriceps, and glutes simultaneously."
+}

@@ -1,0 +1,221 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Gentle Thoracic Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Seated T-Spine Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Chair Thoracic Rotation",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "external-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "multifidus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "rotation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "cervical-spine",
+        "actions": [
+          "rotation"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "rotation",
+      "mobility-drill",
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "chair",
+      "bench",
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "2653"
+  },
+  "id": "oec:seated-thoracic-rotation",
+  "instructions": {
+    "setup": [
+      "Sit upright on a stable chair or bench with your feet planted flat on the floor, hip-width apart.",
+      "Cross your arms over your chest, resting each hand on the opposite shoulder.",
+      "Lengthen your spine by sitting tall and drawing your shoulder blades slightly down and back."
+    ],
+    "steps": [
+      "Inhale deeply to establish a tall, neutral spinal alignment.",
+      "Exhale and slowly rotate your chest and shoulders to one side, moving purely from your mid-back while keeping your hips firmly anchored.",
+      "Pause for one to two seconds at comfortable end range without forcing the movement.",
+      "Inhale as you rotate back to the starting center position.",
+      "Repeat the rotation to the opposite side."
+    ],
+    "breathing": "Exhale smoothly as you rotate outward into the stretch; inhale as you return to the center.",
+    "cues": [
+      "Sit tall and elongate the spine.",
+      "Rotate through your ribcage, not your hips.",
+      "Keep both sit bones glued to the seat."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the pelvis and shifting weight off the seat.",
+        "correction": "Keep both hips firmly grounded and knees pointing straight ahead throughout the movement."
+      },
+      {
+        "fault": "Slouching or rounding the upper back during the turn.",
+        "correction": "Maintain an upright posture and tall chest to allow the thoracic vertebrae to rotate unimpeded."
+      },
+      {
+        "fault": "Excessively twisting the neck ahead of the torso.",
+        "correction": "Keep your chin aligned with your sternum so your head turns naturally with your chest."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform smoothly and avoid rapid twisting or aggressive bouncing at the end of the range."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Seated Thoracic Rotation",
+  "previous_ids": [
+    "oec:gentle-thoracic-rotation"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Gentle Thoracic Rotation",
+        "url": "https://wger.de/en/exercise/2653/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:quadruped-thoracic-rotation"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:half-kneeling-thoracic-rotation"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:half-kneeling-thoracic-rotation"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:half-kneeling-open-book"
+    }
+  ],
+  "setup": {
+    "position": "seated",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A gentle seated mobility exercise that rotates the upper trunk while keeping the pelvis stable to improve mid-back rotational mobility."
+}

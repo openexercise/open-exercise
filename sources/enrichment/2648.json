@@ -1,0 +1,150 @@
+{
+  "is_exercise": true,
+  "name": "Standing Elevated Hamstring Stretch",
+  "summary": "A standing unilateral stretch where one leg is rested on an elevated surface such as a barre or bench while hinging forward at the hips to stretch the posterior thigh.",
+  "aliases": [
+    {
+      "text": "Barre Hamstring Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "90/90 Hamstring / Barre-Style Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Hamstring Stretch on Bench",
+      "kind": "common"
+    },
+    {
+      "text": "Ballet Barre Hamstring Stretch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch",
+      "hinge"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_kind": "single-leg",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "hamstrings",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stretched"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "stretched"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "bench",
+        "chair",
+        "plyo-box",
+        "step"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": []
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall facing a sturdy elevated surface such as a ballet barre, bench, or box set around hip or mid-thigh height.",
+      "Place the heel of one foot on top of the surface with the leg extended straight and toes pointed upward.",
+      "Keep the standing support leg straight with the foot pointing forward and hips squared to the front."
+    ],
+    "steps": [
+      "Engage your core and maintain a tall, neutral spine.",
+      "Hinge forward at the hips, reaching your chest toward your elevated foot until you feel a gentle to moderate stretch along the back of the raised thigh.",
+      "Hold the position steadily without bouncing, breathing smoothly.",
+      "Carefully return your torso upright and lower the foot back to the floor before switching to the opposite leg."
+    ],
+    "breathing": "Breathe deeply and rhythmically, exhaling slightly as you ease deeper into the hip hinge.",
+    "cues": [
+      "Hinge at the hips, not the waist",
+      "Chest tall and proud",
+      "Toes pointing up",
+      "Keep hips square"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding the lower and upper back to reach further forward.",
+        "correction": "Initiate the movement purely from the hip hinge while maintaining a flat back, only moving as far as hamstring flexibility allows."
+      },
+      {
+        "fault": "Opening or rotating the hips out to the side.",
+        "correction": "Keep both hip bones facing squarely toward the elevated foot throughout the hold."
+      },
+      {
+        "fault": "Hyperextending and locking out the supporting knee aggressively.",
+        "correction": "Maintain a soft, active knee on the standing leg to protect the joint and preserve balance."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the elevated surface is stable and will not slip or tip over.",
+        "Choose an elevation height appropriate for your current mobility to avoid strain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

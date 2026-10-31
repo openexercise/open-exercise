@@ -1,0 +1,217 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Dual Cable Shrug",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Upward and Inward Shrug",
+      "kind": "common"
+    },
+    {
+      "text": "Low Cable Shrug",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "trapezius-upper",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "levator-scapulae",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "elevation",
+          "upward-rotation"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1472"
+  },
+  "id": "oec:cable-shrug-in",
+  "instructions": {
+    "setup": [
+      "Set the pulleys of a dual cable station to the lowest position and attach a single D-handle to each side.",
+      "Stand centered between the pulleys with feet hip-width apart.",
+      "Grasp a handle in each hand with a neutral grip and stand fully upright with arms straight, allowing the cables to pull downward and outward."
+    ],
+    "steps": [
+      "Keeping your arms completely straight, elevate your shoulders upward and inward toward your ears along the line of the cables.",
+      "Pause for a second at the top of the movement to contract the upper trapezius fully.",
+      "Lower your shoulders under control, allowing the cables to pull your shoulder blades down and out into a deep stretch.",
+      "Repeat for the desired number of repetitions."
+    ],
+    "breathing": "Exhale as you shrug upward and inward; inhale smoothly as you lower the weight.",
+    "cues": [
+      "Shrug up and in toward your ears",
+      "Keep the elbows locked straight",
+      "Pause and squeeze at the peak",
+      "Control the stretch at the bottom"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the elbows to pull the weight with the biceps.",
+        "correction": "Keep the arms fully extended and let the movement occur entirely at the shoulder blades."
+      },
+      {
+        "fault": "Rolling the shoulders forward during the shrug.",
+        "correction": "Move straight up and inward along the diagonal angle of the cables without rolling the joints."
+      },
+      {
+        "fault": "Using leg drive or torso bobbing to move the load.",
+        "correction": "Brace the core, lock the knees softly, and elevate solely using the traps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid jerking the head forward or thrusting the chin during the contraction to protect the cervical spine."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable Shrug-In",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Cable Shrug-In",
+        "url": "https://wger.de/en/exercise/1472/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Expenses7000"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-shrug"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-shrug"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:smith-machine-shrug"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-shrug"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A standing shrug performed between two low cable pulleys, targeting the upper traps by aligning resistance with their diagonal line of pull."
+}

@@ -1,0 +1,240 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Seated Cable Trunk Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Cable Twist",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Seated Twist",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Torso Twist",
+      "kind": "common"
+    },
+    {
+      "text": "Trunk Rotation With Cable",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "external-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "rotation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "rotation"
+    ],
+    "mechanics": "isolation",
+    "force": "mixed",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ],
+      [
+        "bench",
+        "adjustable-bench",
+        "plyo-box",
+        "chair"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "672"
+  },
+  "id": "oec:cable-seated-trunk-rotation",
+  "instructions": {
+    "setup": [
+      "Position a bench perpendicular to a cable pulley adjusted to chest height.",
+      "Sit upright on the bench with your side facing the cable machine, feet flat on the floor for stability.",
+      "Grasp the single handle with both hands, extending your arms straight out in front of your chest with a slight unlock at the elbows."
+    ],
+    "steps": [
+      "Brace your abdominals and maintain a tall, upright posture.",
+      "Rotate your torso smoothly away from the machine, keeping your arms locked relative to your chest.",
+      "Pause briefly at the end of the rotation, actively contracting your obliques.",
+      "Slowly reverse the rotation under control back to the starting position without letting the weight stack slam.",
+      "Complete the desired repetitions on one side before turning around to train the opposite side."
+    ],
+    "breathing": "Exhale as you rotate your torso away from the pulley; inhale as you slowly return to the start.",
+    "cues": [
+      "Turn from the ribs, not the arms.",
+      "Keep the chest proud and tall.",
+      "Anchor your hips to the bench."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the arms independently of the torso.",
+        "correction": "Keep the hands centered with your sternum so the rotation is driven purely by the midsection."
+      },
+      {
+        "fault": "Allowing the pelvis and hips to shift or lift off the bench.",
+        "correction": "Press firmly through your feet and maintain even sit-bone contact on the bench throughout the set."
+      },
+      {
+        "fault": "Excessive lumbar rounding during rotation.",
+        "correction": "Sit tall with a neutral spine and rotate primarily through the mid-to-upper back."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessive loads that force aggressive twisting at the lower back."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Cable Seated Trunk Rotation",
+  "previous_ids": [
+    "oec:trunk-rotation-with-cable"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Trunk Rotation With Cable",
+        "url": "https://wger.de/en/exercise/672/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Robertcoop"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-torso-rotation"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:cable-woodchop"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:seated-thoracic-rotation"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:russian-twist"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A seated cable exercise that trains core rotational strength and oblique development while fixing the hips in place."
+}

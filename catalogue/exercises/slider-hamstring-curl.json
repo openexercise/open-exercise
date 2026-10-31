@@ -1,0 +1,225 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Floor Glider Hamstring Curls",
+      "kind": "common"
+    },
+    {
+      "text": "Slider Leg Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Sliding Hamstring Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Glider Leg Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Towel Hamstring Curl",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-femoris",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "semitendinosus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "semimembranosus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "isolation-knee-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "slider"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1833"
+  },
+  "id": "oec:slider-hamstring-curl",
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a mat or smooth surface with your arms resting at your sides for support.",
+      "Place your heels firmly on the center of the sliders with your legs extended and toes pointing upward.",
+      "Engage your glutes and core to bridge your hips off the floor, creating a straight line from your shoulders to your knees."
+    ],
+    "steps": [
+      "Pull your heels inward toward your glutes by actively flexing your knees and digging your heels down.",
+      "Keep your hips fully elevated and extended throughout the entire curling movement.",
+      "Pause briefly at peak knee flexion when your heels approach your hips.",
+      "Under control, slowly slide your heels back out until your legs are nearly straight, without letting your hips sag to the floor."
+    ],
+    "breathing": "Exhale as you pull your heels toward your glutes; inhale as you slowly slide your feet back to the starting position.",
+    "cues": [
+      "Drive your heels into the floor",
+      "Keep your hips high",
+      "Control the extension"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hips dropping toward the floor as the legs extend.",
+        "correction": "Squeeze your glutes continuously to maintain full hip extension throughout the entire set."
+      },
+      {
+        "fault": "Rushing the eccentric phase and letting the heels slide out uncontrolled.",
+        "correction": "Slow down the leg extension to maintain tension on the hamstrings and protect against cramping."
+      },
+      {
+        "fault": "Arching the lower back excessively instead of driving through the glutes.",
+        "correction": "Brace your abdominals and maintain a neutral pelvic tilt while keeping the glutes engaged."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Hamstrings are prone to cramping under strong contraction; warm up thoroughly and ease into the range of motion."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Slider Hamstring Curl",
+  "previous_ids": [
+    "oec:floor-glider-hamstring-curls"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Floor Glider Hamstring Curls",
+        "url": "https://wger.de/en/exercise/1833/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:lying-leg-curl"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:nordic-hamstring-curl"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:single-leg-slider-hamstring-curl"
+    }
+  ],
+  "setup": {
+    "position": "supine",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A bodyweight posterior chain exercise performed supine where the heels slide inward to curl the knees while maintaining an elevated hip bridge."
+}

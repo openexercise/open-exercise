@@ -1,0 +1,171 @@
+{
+  "is_exercise": true,
+  "name": "Single-Leg Romanian Deadlift",
+  "summary": "A unilateral hip-hinge exercise performed on one leg to develop hamstring strength, glute activation, and single-leg balance.",
+  "aliases": [
+    {
+      "text": "Single Leg Romanian Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "Single Leg RDL",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Single-Leg RDL",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "SL RDL",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Bodyweight Single-Leg Romanian Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "One-Legged Romanian Deadlift",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "balance"
+    ],
+    "movement_patterns": [
+      "hinge",
+      "balance"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "stance_kind": "single-leg",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "hamstrings",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "foot-intrinsics",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "subtalar",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "wall",
+    "chair"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand upright with your feet hip-width apart and your arms at your sides or hands on your hips.",
+      "Shift your weight onto the working leg while unlocking that knee slightly.",
+      "Brace your core and fix your gaze on a point on the floor a few feet ahead for balance."
+    ],
+    "steps": [
+      "Hinge at your hips to push your pelvis back while reaching your non-working leg straight behind you.",
+      "Lower your torso toward the floor in a straight line with the back leg until you feel a deep stretch in the standing hamstring.",
+      "Keep your hips square to the ground, avoiding any rotation of the pelvis.",
+      "Drive through the midfoot and heel of the standing leg, extending the hip to return to the upright starting position.",
+      "Finish all prescribed repetitions on one leg before switching to the opposite side."
+    ],
+    "breathing": "Inhale as you hinge forward and lengthen the hamstring; exhale as you extend the hip and return to the top.",
+    "cues": [
+      "Reach your back heel toward the wall.",
+      "Keep your belt buckle pointed straight at the floor.",
+      "Soft knee, grounded foot."
+    ],
+    "common_faults": [
+      {
+        "fault": "Opening or rotating the non-working hip upward toward the ceiling.",
+        "correction": "Point the toes of your floating foot straight down to keep your pelvis level and square."
+      },
+      {
+        "fault": "Rounding the spine to reach toward the floor rather than hinging at the hip.",
+        "correction": "Maintain a flat back and proud chest; stop hinging as soon as your hamstring reaches end range."
+      },
+      {
+        "fault": "Locking the standing knee completely out or letting it cave inward.",
+        "correction": "Maintain a soft knee bend and distribute weight evenly across the tripod of your standing foot."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Position yourself near a wall or sturdy support to lightly touch for balance if needed."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

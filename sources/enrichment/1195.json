@@ -1,0 +1,189 @@
+{
+  "is_exercise": true,
+  "name": "Lateral Shuffle to Squat",
+  "summary": "A dynamic agility drill that combines lateral shuffling with bodyweight squats to train lateral quickness, hip power, and lower-body conditioning.",
+  "aliases": [
+    {
+      "text": "Side Slides + Squats",
+      "kind": "common"
+    },
+    {
+      "text": "Side Shuffle to Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Lateral Shuffle with Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Defensive Slide to Squat",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "conditioning",
+      "sport",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "squat",
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "frontal",
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "moving",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "adductors",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "calves",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension",
+        "abduction",
+        "adduction",
+        "rotation"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "subtalar",
+      "actions": [
+        "inversion",
+        "eversion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "cone"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "heart-rate",
+        "calories",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand with feet shoulder-width apart, knees soft, hips pushed back into a partial athletic squat, and chest upright.",
+      "Keep your arms bent in front of your chest for balance."
+    ],
+    "steps": [
+      "Push off your trailing leg and step out with your lead leg to slide laterally for the desired number of steps while staying low.",
+      "Plant the lead foot, pivot your hips to face the opposite direction, and set your feet into a balanced squat stance.",
+      "Hinge at the hips and bend your knees to lower into a full squat until your thighs are roughly parallel to the floor.",
+      "Drive through your midfoot and heels to stand back up into an athletic quarter-squat stance.",
+      "Immediately shuffle laterally in the reverse direction to repeat the sequence."
+    ],
+    "breathing": "Breathe rhythmically during the shuffles, inhale as you descend into the squat, and exhale sharply as you drive up to standing.",
+    "cues": [
+      "Stay low on the slide",
+      "Do not cross your feet",
+      "Stick the landing before you squat"
+    ],
+    "common_faults": [
+      {
+        "fault": "Crossing feet over during the lateral shuffle, creating a tripping hazard and losing balance.",
+        "correction": "Keep feet separated throughout the shuffle, stepping wide with the lead foot and bringing the trail foot in without touching."
+      },
+      {
+        "fault": "Standing up tall between shuffle strides instead of maintaining an athletic base.",
+        "correction": "Maintain a soft knee bend and hip hinge, keeping your center of gravity low throughout the movement."
+      },
+      {
+        "fault": "Rushing into the squat with poor knee alignment or leaning excessively forward.",
+        "correction": "Pause momentarily after the pivot to establish a stable, balanced foot position before descending into the squat."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the floor surface is dry and free of debris to prevent slipping during rapid lateral directional changes."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

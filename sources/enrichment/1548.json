@@ -1,0 +1,166 @@
+{
+  "is_exercise": true,
+  "name": "Stair Climber",
+  "summary": "A continuous cyclical climbing exercise performed on a revolving staircase or stepping machine to build lower-body endurance and aerobic capacity.",
+  "aliases": [
+    {
+      "text": "Stairmaster",
+      "kind": "brand"
+    },
+    {
+      "text": "StepMill",
+      "kind": "brand"
+    },
+    {
+      "text": "Stairmill",
+      "kind": "common"
+    },
+    {
+      "text": "Stair Stepper",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "climb",
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "moving",
+  "stance_width": "hip",
+  "stance_kind": "split",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "stair-climber"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "cadence",
+        "resistance-level",
+        "heart-rate",
+        "calories",
+        "speed",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Step onto the pedals or lower steps of the stair climber machine.",
+      "Select your program or set the stepping speed to a manageable pace before pressing start.",
+      "Stand tall with chest lifted, shoulders back, and place your hands lightly on the handrails for balance only."
+    ],
+    "steps": [
+      "Step fully onto each rising step with your entire foot, avoiding hanging your heels off the edge.",
+      "Push through the midfoot and heel of the lead leg to elevate your body smoothly.",
+      "Alternate legs in a continuous, controlled rhythm, keeping your hips square and torso upright.",
+      "Maintain a steady cadence without bouncing, skipping steps, or leaning forward excessively."
+    ],
+    "breathing": "Breathe rhythmically in through your nose and out through your mouth, matching your breath to your stepping cadence.",
+    "cues": [
+      "Stand tall through the torso",
+      "Drive through the whole foot",
+      "Light fingertips on the rails"
+    ],
+    "common_faults": [
+      {
+        "fault": "Leaning heavily onto the handrails with arms supporting upper body weight.",
+        "correction": "Reduce the machine speed and use the rails only for light balance, supporting all of your body weight on your legs."
+      },
+      {
+        "fault": "Stepping only on the balls of the feet with heels hanging off the steps.",
+        "correction": "Place the entire foot flat on each step to maximize glute and quad recruitment and protect the Achilles tendon."
+      },
+      {
+        "fault": "Hunching forward at the waist.",
+        "correction": "Keep your chest up and spine neutral with a slight natural forward lean from the ankles."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Familiarize yourself with the machine's emergency stop button before beginning.",
+        "Start at a low stepping rate to ensure steady rhythm before increasing speed."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Medicine Ball Booklet Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Medicine Ball Jackknife",
+      "kind": "common"
+    },
+    {
+      "text": "Med Ball V-Up",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Medicine Ball Pike Crunch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "synergist"
+      },
+      {
+        "muscle": "tensor-fasciae-latae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "medicine-ball",
+        "slam-ball"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "976"
+  },
+  "id": "oec:medicine-ball-v-up",
+  "instructions": {
+    "setup": [
+      "Lie supine on a floor mat with your legs extended straight and together.",
+      "Grip the sides of a medicine ball between both hands and extend your arms straight overhead on the floor."
+    ],
+    "steps": [
+      "Brace your core and simultaneously raise your straight legs and upper torso off the floor.",
+      "Bring the medicine ball up and forward toward your feet, balancing momentarily on your glutes as your body forms a sharp 'V' shape.",
+      "Pause briefly at the peak contraction.",
+      "Lower your torso and legs back down under control to the floor, returning the medicine ball overhead."
+    ],
+    "breathing": "Exhale forcefully as you fold your body into the V-up; inhale as you slowly lower back to the mat.",
+    "cues": [
+      "Fold like a book",
+      "Reach the ball to your toes",
+      "Control the descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively bending the knees during the lift.",
+        "correction": "Keep the knees extended and initiate the movement using your abdominal wall and hip flexors."
+      },
+      {
+        "fault": "Using swinging momentum with the medicine ball rather than muscular control.",
+        "correction": "Slow the tempo down and focus on curling the spine and lifting the legs simultaneously with core contraction."
+      },
+      {
+        "fault": "Hyperextending the lower back upon lowering to the floor.",
+        "correction": "Maintain abdominal tension at the bottom of the movement and avoid letting the lower back aggressively arch off the floor."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid this exercise if you have acute lower back pain aggravated by repetitive spinal flexion under load."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Medicine Ball V-Up",
+  "previous_ids": [
+    "oec:medicine-ball-booklet-crunch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Medicine ball booklet crunch",
+        "url": "https://wger.de/en/exercise/976/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "clafal"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:tuck-v-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "overhead",
+    "position": "supine",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A dynamic abdominal exercise where the torso and legs elevate simultaneously into a V-shape while holding a medicine ball."
+}

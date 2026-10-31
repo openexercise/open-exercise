@@ -1,0 +1,146 @@
+{
+  "is_exercise": true,
+  "name": "Leg Press Calf Raise",
+  "summary": "An ankle plantarflexion isolation exercise performed on a leg press machine to build calf strength and hypertrophy.",
+  "aliases": [
+    {
+      "text": "Calf Press on Leg Press",
+      "kind": "common"
+    },
+    {
+      "text": "Leg Press Calf Press",
+      "kind": "common"
+    },
+    {
+      "text": "Sled Calf Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-ankle"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gastrocnemius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "soleus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "tibialis-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "peroneals",
+      "role": "synergist"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "leg-press-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit securely in the leg press machine with your back and hips firmly against the pads.",
+      "Place the balls of your feet on the lower edge of the footplate with your heels extending off into open space, feet hip-width apart.",
+      "Extend your legs to press the sled out and disengage the safety handles, keeping a slight, soft unlock at your knees throughout the exercise."
+    ],
+    "steps": [
+      "Lower your heels in a slow, controlled motion toward your body to allow maximum dorsiflexion and a full stretch in your calves.",
+      "Pause briefly at the bottom of the stretch without bouncing.",
+      "Press through the balls of your feet into full plantarflexion, driving the sled upward until your calves are fully contracted.",
+      "Hold the peak contraction briefly before slowly lowering back to the stretched position."
+    ],
+    "breathing": "Exhale as you press onto your toes into plantarflexion, and inhale as you lower your heels into the stretch.",
+    "cues": [
+      "Push through the big toes",
+      "Keep the knees softly unlocked",
+      "Pause in the deep stretch",
+      "No bouncing at the bottom"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending and extending the knees during the movement.",
+        "correction": "Keep knee joint angle fixed with a slight micro-bend, moving exclusively at the ankles."
+      },
+      {
+        "fault": "Bouncing out of the bottom of the stretch.",
+        "correction": "Pause under full muscular control for a distinct second at the bottom before pressing up."
+      },
+      {
+        "fault": "Feet slipping off the edge of the footplate.",
+        "correction": "Ensure at least the entire ball of each foot is securely planted on the textured edge of the platform and wear shoes with good traction."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the safety catch stops are set to a position that catches the sled before it can crush your legs if your feet slip.",
+        "Maintain a secure grip on the machine's side handles throughout the entire set."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  }
+}

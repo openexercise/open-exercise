@@ -1,0 +1,166 @@
+{
+  "is_exercise": true,
+  "name": "Close-Grip Push-Up",
+  "summary": "A push-up variation with hands placed inside shoulder width, shifting muscular demand toward the triceps and anterior deltoids.",
+  "aliases": [
+    {
+      "text": "Close-Grip Press-Up",
+      "kind": "regional"
+    },
+    {
+      "text": "Narrow-Grip Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Narrow-Grip Press-Up",
+      "kind": "regional"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "prone",
+  "grip_orientation": "pronated",
+  "grip_width": "narrow",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "horizontal-adduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Assume a high plank position on the floor with your body forming a straight line from head to heels.",
+      "Place your hands directly beneath your shoulders or slightly closer, thumbs a few inches apart.",
+      "Brace your core, squeeze your glutes, and tuck your toes securely into the ground."
+    ],
+    "steps": [
+      "Lower your body under control by bending your elbows, keeping them tracking close along the sides of your ribcage.",
+      "Descend until your chest is just above the floor or lightly touches your hands.",
+      "Press through your palms and extend your elbows forcefully to return to the starting plank position.",
+      "Lock out your arms at the top without allowing your hips to sag."
+    ],
+    "breathing": "Inhale as you lower your body toward the floor, and exhale as you press back up to the lockout.",
+    "cues": [
+      "Elbows brushing the ribs",
+      "Rigid plank throughout",
+      "Push the floor away"
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring elbows excessively wide",
+        "correction": "Keep elbows tucked tightly to the torso to maintain mechanical focus on the triceps and protect the shoulders."
+      },
+      {
+        "fault": "Sagging lumbar spine or elevated hips",
+        "correction": "Actively brace your abdominals and squeeze your glutes to maintain a neutral spine from heels to head."
+      },
+      {
+        "fault": "Cutting the depth short",
+        "correction": "Lower until your chest touches or comes within an inch of your hands for full range of motion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not over-turn the wrists inwards if it causes discomfort; keep fingers pointing mostly forward or slightly out."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

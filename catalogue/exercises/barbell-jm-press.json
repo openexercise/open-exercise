@@ -1,0 +1,228 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "JM Press",
+      "kind": "common"
+    },
+    {
+      "text": "Blakley Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "depression"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "powerlifting",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "barbell",
+        "ez-bar"
+      ],
+      [
+        "bench",
+        "adjustable-bench"
+      ],
+      [
+        "power-rack",
+        "squat-rack"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1302"
+  },
+  "id": "oec:barbell-jm-press",
+  "instructions": {
+    "setup": [
+      "Lie flat on a bench beneath a racked barbell with your feet planted firmly on the floor.",
+      "Grasp the barbell with an overhand grip slightly narrower than shoulder width, wrists stacked directly over your forearms.",
+      "Retract and depress your shoulder blades, then unrack the bar and hold it directly over your upper chest with elbows extended."
+    ],
+    "steps": [
+      "Lower the bar toward your neck or chin area by bending your elbows while allowing them to drift slightly forward and flare outward at roughly a 45-degree angle.",
+      "Continue descending until your forearms contact your biceps or you reach a deep stretch in the triceps.",
+      "Pause briefly without letting the bar rest on your chest or neck.",
+      "Press the barbell up and slightly back to the starting lockout position by forcefully extending the elbows."
+    ],
+    "breathing": "Inhale as you lower the barbell toward your throat or chin, and exhale as you press it back to lockout.",
+    "cues": [
+      "Elbows forward and down",
+      "Aim for the chin or throat",
+      "Stack wrists over forearms",
+      "Drive through the palms"
+    ],
+    "common_faults": [
+      {
+        "fault": "Turning the movement into a standard close-grip bench press.",
+        "correction": "Ensure your elbows translate forward so the bar travels toward your neck or chin rather than your lower sternum."
+      },
+      {
+        "fault": "Letting the elbows flare out excessively wide.",
+        "correction": "Maintain roughly a 45-degree elbow tuck to keep the load on the triceps and reduce stress on the elbow joint."
+      },
+      {
+        "fault": "Losing wrist rigidity and allowing excessive wrist hyperextension.",
+        "correction": "Keep the wrists straight and punch the knuckles toward the ceiling throughout the rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not allow the bar to drop abruptly toward your face or neck.",
+        "Set rack safety pins just above chest height in case of technical failure."
+      ],
+      "spotter": "recommended",
+      "safeties": true
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell JM Press",
+  "previous_ids": [
+    "oec:jm-press"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: JM Press",
+        "url": "https://wger.de/en/exercise/1302/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Epiphany8424"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-close-grip-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-close-grip-bench-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "narrow"
+    },
+    "position": "supine",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A hybrid barbell movement combining a close-grip bench press and a skull crusher to heavily overload the triceps."
+}

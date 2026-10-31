@@ -1,0 +1,144 @@
+{
+  "is_exercise": true,
+  "name": "Resistance Band Plantarflexion",
+  "summary": "A seated isolation exercise that strengthens the calf muscles and Achilles tendon by pushing the foot into plantarflexion against an elastic band.",
+  "aliases": [
+    {
+      "text": "Banded Plantarflexion",
+      "kind": "common"
+    },
+    {
+      "text": "Band Ankle Plantarflexion",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Band Plantarflexion",
+      "kind": "common"
+    },
+    {
+      "text": "Theraband Plantarflexion",
+      "kind": "brand"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-ankle"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "gastrocnemius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "soleus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "tibialis-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "peroneals",
+      "role": "synergist"
+    },
+    {
+      "muscle": "foot-intrinsics",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "toes",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "resistance-band"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "band-tension",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "elastic",
+  "load_convention": "not-applicable",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit on the floor with your legs extended straight out in front of you in a long-sitting position.",
+      "Loop the center of a resistance band around the ball of one foot, keeping the band flat against the sole.",
+      "Hold the ends of the band firmly with both hands, pulling back to create moderate baseline tension while keeping the ankle in neutral or slight dorsiflexion."
+    ],
+    "steps": [
+      "Slowly point your toes forward away from your body, pushing through the ball of the foot against the band's resistance.",
+      "Pause briefly at full plantarflexion while contracting the calf muscles.",
+      "Under control, slowly let the band pull your foot back into dorsiflexion to the starting position."
+    ],
+    "breathing": "Exhale as you push the foot forward into plantarflexion, and inhale as you return to the starting position.",
+    "cues": [
+      "Push like you are pressing a gas pedal.",
+      "Keep the movement smooth and straight without twisting your ankle.",
+      "Control the return against the band."
+    ],
+    "common_faults": [
+      {
+        "fault": "Letting the foot sickle inward (inversion) or flare outward (eversion) during the push.",
+        "correction": "Push straight through the ball of the foot, ensuring the ankle tracks strictly in the sagittal plane."
+      },
+      {
+        "fault": "Allowing the band to snap the foot back abruptly into dorsiflexion.",
+        "correction": "Resist the band through a slow, controlled eccentric return."
+      },
+      {
+        "fault": "Bending the working knee to assist the movement.",
+        "correction": "Keep the leg fully straight on the floor to maintain tension on both the gastrocnemius and soleus."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the band is positioned securely over the ball of the foot so it does not slip off and snap backward."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

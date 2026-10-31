@@ -1,0 +1,235 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Single-Leg Squat",
+      "kind": "common"
+    },
+    {
+      "text": "One-Legged Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Pistol squats right",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "tibialis-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "balance"
+    ],
+    "movement_patterns": [
+      "squat",
+      "balance"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "advanced"
+  },
+  "equipment": {
+    "optional": [
+      "kettlebell",
+      "plyo-box",
+      "suspension-trainer"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "456,1020"
+  },
+  "id": "oec:pistol-squat",
+  "instructions": {
+    "setup": [
+      "Stand tall on one leg with the foot firmly planted and facing forward.",
+      "Extend the opposite leg straight out in front of you, keeping the quad engaged and foot clear of the ground.",
+      "Reach both arms forward at shoulder height to help counterbalance your bodyweight."
+    ],
+    "steps": [
+      "Inhale, brace your core, and initiate the squat by bending simultaneously at the hip and knee of the working leg.",
+      "Descend smoothly under control, letting your knee travel forward over your toes while keeping the non-working leg fully elevated off the floor.",
+      "Continue descending until your hamstring contacts your calf at full depth while keeping the heel of the standing foot flat.",
+      "Drive down forcefully through the midfoot and heel to reverse the movement.",
+      "Extend the working hip and knee fully to return to the tall starting position, then repeat or switch sides."
+    ],
+    "breathing": "Inhale and brace your core as you descend, then exhale forcefully as you drive out of the bottom position.",
+    "cues": [
+      "Keep your heel pinned to the floor",
+      "Reach forward with your hands to counterbalance",
+      "Squeeze the non-working quad to keep that leg high",
+      "Drive the knee in line with your middle toes"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the heel of the working foot to peel off the floor during the descent.",
+        "correction": "Improve ankle dorsiflexion mobility or elevate the heel slightly on a small plate until full range is achieved."
+      },
+      {
+        "fault": "Letting the non-working leg drag or touch the floor.",
+        "correction": "Actively flex the hip and squeeze the quadriceps of the free leg to keep it parallel to the ground, or practice off a raised box."
+      },
+      {
+        "fault": "Excessive knee valgus (the standing knee collapsing inward under load).",
+        "correction": "Push the knee slightly outward tracking over your toes and engage the gluteus medius throughout the rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid bouncing or crashing into the bottom position to protect the knee joint.",
+        "Ensure adequate ankle dorsiflexion before attempting full depth reps unassisted."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Pistol Squat",
+  "previous_ids": [
+    "oec:pistol-squats-right"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Pistol Squat",
+        "url": "https://wger.de/en/exercise/456/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "minifigmaster125"
+      },
+      {
+        "title": "wger: Pistol squats right",
+        "url": "https://wger.de/en/exercise/1020/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:bodyweight-squat"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:single-leg-box-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:shrimp-squat"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "single-leg"
+    }
+  },
+  "status": "active",
+  "summary": "An advanced bodyweight squat performed on one leg with the opposite leg extended horizontally forward."
+}

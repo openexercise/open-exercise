@@ -1,0 +1,160 @@
+{
+  "is_exercise": true,
+  "name": "Machine Incline Chest Press",
+  "summary": "An upper-body pressing exercise performed on an incline machine to build the clavicular head of the chest, shoulders, and triceps.",
+  "aliases": [
+    {
+      "text": "Incline Machine Chest Press",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Incline Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Plate-Loaded Incline Chest Press",
+      "kind": "common"
+    },
+    {
+      "text": "LeverEdge Machine Incline Press",
+      "kind": "brand"
+    },
+    {
+      "text": "Legend Incline Bench Press",
+      "kind": "brand"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "horizontal-adduction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so the handles align across the upper chest, just below clavicle level.",
+      "Sit back firmly against the back pad with your feet flat on the floor.",
+      "Grasp the handles with an overhand grip, retract your shoulder blades, and push your chest up."
+    ],
+    "steps": [
+      "Press the handles upward and forward along the machine's fixed track until your arms are extended without forcefully locking your elbows.",
+      "Pause briefly at full extension while maintaining tension across the upper pectorals.",
+      "Lower the handles under control, feeling a deep stretch across the upper chest as the weight approaches the starting position.",
+      "Stop just before the weight stack or stop-pegs touch down, then begin the next repetition."
+    ],
+    "breathing": "Inhale as you lower the weight toward your chest; exhale forcefully as you press outward.",
+    "cues": [
+      "Drive through your upper chest",
+      "Keep your shoulders pinned to the pad",
+      "Control the descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Setting the seat too low or high, placing excessive stress on the anterior shoulder capsule.",
+        "correction": "Adjust the seat so the handles sit level with the upper portion of your sternum at the bottom of the movement."
+      },
+      {
+        "fault": "Protracting the shoulders forward off the pad at lockout.",
+        "correction": "Keep your shoulder blades retracted and depressed against the backrest throughout the entire set."
+      },
+      {
+        "fault": "Bouncing the weight off the bottom stops.",
+        "correction": "Reverse the motion smoothly just before the machine bottoms out to maintain muscular tension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure seat pins and locking mechanisms are fully engaged before loading weight."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{{template "head" .}}
+<h1>Vocabularies</h1>
+<p class="lead">The controlled terms records use. Each is also available as JSON.</p>
+{{range .Vocabs}}<section>
+<h2>{{words .Name}}</h2>
+<p>{{.Description}} <a href="/vocab/v0/{{.Name}}.json">{{.Name}}.json</a></p>
+<div class="scroll" tabindex="0" role="region" aria-label="{{.Name}} terms"><table><thead><tr><th scope="col">Term</th><th scope="col">Label</th><th scope="col">In</th><th scope="col">Meaning</th></tr></thead><tbody>
+{{range .Terms}}<tr><td><code>{{.ID}}</code></td><td>{{.Label}}</td><td>{{if .Parent}}<code>{{.Parent}}</code>{{end}}</td><td>{{.Definition}}</td></tr>
+{{end}}</tbody></table></div>
+</section>{{end}}
+{{template "foot" .}}

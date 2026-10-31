@@ -1,0 +1,241 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Marching High Knees",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Knee Drives",
+      "kind": "common"
+    },
+    {
+      "text": "Standing March",
+      "kind": "common"
+    },
+    {
+      "text": "​Standing Knee Drives",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "iliopsoas",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "tibialis-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "cardio",
+      "mobility",
+      "calisthenics",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "gait",
+      "mobility-drill",
+      "balance"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "mixed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "ankle-weight"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1965"
+  },
+  "id": "oec:high-knee-march",
+  "instructions": {
+    "setup": [
+      "Stand tall with your feet hip-width apart and your toes pointing straight ahead.",
+      "Engage your core, pull your shoulders back and down, and let your arms hang naturally at your sides with elbows bent at roughly ninety degrees."
+    ],
+    "steps": [
+      "Drive one knee up toward your chest until your thigh is parallel to the floor or slightly higher, keeping the foot dorsiflexed.",
+      "Simultaneously pump the opposite arm forward and the same-side arm backward in a natural running motion.",
+      "Lower the lifted foot under control back to the starting position.",
+      "Immediately repeat the motion with the opposite leg and arm, establishing a smooth, rhythmic marching cadence."
+    ],
+    "breathing": "Maintain a steady, rhythmic breathing pattern synchronized with your steps, exhaling as each knee reaches top height.",
+    "cues": [
+      "Stand tall through the supporting hip.",
+      "Knee up, toes up.",
+      "Pump opposite arm and knee."
+    ],
+    "common_faults": [
+      {
+        "fault": "Leaning back as the knee is raised to compensate for limited hip flexor mobility.",
+        "correction": "Brace the abdominal wall and lift the knee only as high as you can maintain a vertical torso."
+      },
+      {
+        "fault": "Allowing the foot to point downward during the lift.",
+        "correction": "Actively pull your toes up toward your shin as your knee ascends."
+      },
+      {
+        "fault": "Stomping the foot heavily onto the ground.",
+        "correction": "Land softly on the midfoot and control the descent of each leg."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If balance is compromised, perform the drill near a wall or sturdy bar for light hand support."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps",
+          "heart-rate",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "High Knee March",
+  "previous_ids": [
+    "oec:marching-high-knees"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Marching High Knees",
+        "url": "https://wger.de/en/exercise/1965/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Anon#2"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:high-knees"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:high-knees"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:high-knee-skip"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A low-impact standing drill alternating deliberate knee raises with reciprocal arm swings to build hip mobility, core control, and single-leg stability."
+}

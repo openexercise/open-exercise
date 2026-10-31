@@ -1,0 +1,176 @@
+{
+  "is_exercise": true,
+  "name": "Cable Close-Grip Seated Row",
+  "summary": "A seated horizontal cable pull using a narrow attachment to develop the latissimus dorsi, rhomboids, and mid-back.",
+  "aliases": [
+    {
+      "text": "Close-Grip Seated Cable Row",
+      "kind": "common"
+    },
+    {
+      "text": "Long Pulley Row",
+      "kind": "regional"
+    },
+    {
+      "text": "V-Bar Seated Cable Row",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Cable Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "neutral",
+  "grip_width": "narrow",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "depression"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable",
+        "selectorized-machine"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach a close-grip V-handle to the low pulley of a seated cable row station.",
+      "Sit on the bench with your feet firmly planted on the footrests and knees slightly bent.",
+      "Grasp the handles with a neutral grip and push back until your torso is upright with your arms fully extended."
+    ],
+    "steps": [
+      "Initiate the pull by retracting your shoulder blades and driving your elbows straight back tight to your torso.",
+      "Continue pulling until the handle reaches your lower abdomen.",
+      "Pause briefly at peak contraction while keeping your chest tall.",
+      "Reverse the movement with control, allowing your arms to straighten and scapulae to protract without rounding your lower back."
+    ],
+    "breathing": "Inhale as you extend your arms forward; exhale as you pull the handle into your abdomen.",
+    "cues": [
+      "Drive the elbows back.",
+      "Chest tall, shoulders down.",
+      "Do not swing your torso."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive torso swing using momentum to pull the weight.",
+        "correction": "Keep your torso stationary with a slight natural forward-and-back hinge limited to the hips."
+      },
+      {
+        "fault": "Shrugging the shoulders upward during the pull.",
+        "correction": "Depress your shoulder blades and focus on pulling the elbows down and back."
+      },
+      {
+        "fault": "Rounding the lumbar spine under load.",
+        "correction": "Maintain neutral spine alignment and brace your core throughout the movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Keep a slight bend in your knees to protect your lower back and hamstrings."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

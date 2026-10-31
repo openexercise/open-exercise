@@ -1,0 +1,164 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Cross-Body Hammer Curl",
+  "summary": "A dumbbell curl variation where the weight is lifted diagonally across the torso toward the opposite shoulder with a neutral grip.",
+  "aliases": [
+    {
+      "text": "DB Cross Body Hammer Curls",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Cross-Body Hammer Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Pinwheel Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Pinwheel Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "brachialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and knees slightly unlocked.",
+      "Hold a dumbbell in each hand at your sides with palms facing your torso in a neutral grip.",
+      "Engage your core and pull your shoulder blades slightly back and down."
+    ],
+    "steps": [
+      "Keeping the upper arm stable and palm facing inward, curl one dumbbell across your torso toward the opposite clavicle or shoulder.",
+      "Squeeze the arm flexors firmly at the peak of the movement.",
+      "Lower the dumbbell under control along the same diagonal path back to your side.",
+      "Repeat the movement with the opposite arm and alternate sides for the target repetitions."
+    ],
+    "breathing": "Exhale while curling the dumbbell across your body, and inhale as you lower it with control.",
+    "cues": [
+      "Curl toward the opposite shoulder",
+      "Keep palms facing inward throughout",
+      "Lock the upper arm in place"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to generate momentum.",
+        "correction": "Brace the core, keep hips stationary, and choose a lighter dumbbell if needed."
+      },
+      {
+        "fault": "Allowing the elbow to flare outward or drift excessively forward.",
+        "correction": "Keep the upper arm pinned near the ribcage so the elbow acts as a fixed hinge."
+      },
+      {
+        "fault": "Supinating the wrist during the lift.",
+        "correction": "Maintain a strict neutral hammer grip throughout the entire repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid hyperextending the spine while lifting."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

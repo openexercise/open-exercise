@@ -1,0 +1,174 @@
+{
+  "is_exercise": true,
+  "name": "Backward Treadmill Walk",
+  "summary": "A low-impact gait variation walking in reverse on a treadmill to strengthen the knee extensors and improve joint health.",
+  "aliases": [
+    {
+      "text": "Retro Treadmill Walking",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse Treadmill Walk",
+      "kind": "common"
+    },
+    {
+      "text": "Backward Walking on Treadmill",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "cardio",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "tibialis-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "treadmill"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "distance",
+        "incline",
+        "speed",
+        "pace",
+        "heart-rate",
+        "calories",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "distance",
+        "duration"
+      ],
+      "optional": [
+        "incline",
+        "speed",
+        "pace",
+        "heart-rate",
+        "calories",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Straddle the treadmill belt facing away from the console.",
+      "Attach the safety clip to your clothing and hold onto the handrails for balance.",
+      "Start the treadmill at the lowest possible speed setting, then carefully step onto the belt walking backward."
+    ],
+    "steps": [
+      "Reach backward with one leg, making initial contact with the ball of the foot.",
+      "Roll smoothly from the toes down to the heel as the leg straightens, actively pushing the belt away by extending the knee.",
+      "Simultaneously pull the opposite leg underneath you, cycling smoothly in a backward stride.",
+      "Maintain an upright posture without leaning excessively forward or backward.",
+      "Continue walking rhythmically for the intended duration, using the handrails as needed for stability."
+    ],
+    "breathing": "Breathe naturally and rhythmically throughout the walk.",
+    "cues": [
+      "Toe to heel on every step",
+      "Stand tall and keep chest up",
+      "Push through the quad to lock out each step"
+    ],
+    "common_faults": [
+      {
+        "fault": "Setting the speed too fast to control the backward stride safely.",
+        "correction": "Start at a very slow pace (e.g., 1.0 to 2.0 mph) and only increase speed once balance and coordination are fully established."
+      },
+      {
+        "fault": "Excessively leaning forward over the treadmill console or handrails.",
+        "correction": "Maintain an upright torso with eyes focused straight ahead rather than looking down at your feet."
+      },
+      {
+        "fault": "Taking short, choppy steps that fail to fully extend the knee.",
+        "correction": "Take deliberate, full strides, ensuring the heel connects with the belt and the knee fully extends."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Always attach the emergency stop clip to your clothing before starting the belt.",
+        "Keep hands near or lightly touching the handrails to maintain balance."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "walk",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "soleus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "synergist"
+      },
+      {
+        "muscle": "vastus-lateralis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "vastus-medialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "tibialis-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "subtalar",
+        "actions": [
+          "inversion",
+          "eversion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "treadmill"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1104"
+  },
+  "id": "oec:walking",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart, shoulders relaxed, and arms loose at your sides.",
+      "Fix your gaze straight ahead with your chin level and torso upright."
+    ],
+    "steps": [
+      "Step forward with one foot, striking lightly with the heel and rolling through to push off with the forefoot.",
+      "Simultaneously swing the opposite arm forward in a natural, fluid arc.",
+      "Repeat with the other leg to establish a continuous, rhythmic walking gait.",
+      "Maintain a steady cadence and upright posture throughout the bout."
+    ],
+    "breathing": "Breathe naturally and rhythmically in synchronization with your stride cadence.",
+    "cues": [
+      "Tall posture",
+      "Heel to toe roll",
+      "Relax the shoulders",
+      "Natural arm swing"
+    ],
+    "common_faults": [
+      {
+        "fault": "Slouching forward or looking down at the feet",
+        "correction": "Keep your gaze forward toward the horizon and pull your shoulders gently back and down."
+      },
+      {
+        "fault": "Overstriding by reaching the lead foot too far forward",
+        "correction": "Take shorter, quicker strides so your foot lands closer beneath your center of mass."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Wear supportive, well-fitting athletic shoes suitable for walking terrain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "distance",
+          "heart-rate",
+          "pace",
+          "cadence",
+          "calories"
+        ]
+      },
+      {
+        "required": [
+          "distance",
+          "duration"
+        ],
+        "optional": [
+          "pace",
+          "heart-rate",
+          "cadence",
+          "calories"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Walking",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Walking",
+        "url": "https://wger.de/en/exercise/1104/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:jogging"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:running"
+    },
+    {
+      "type": "part-of",
+      "target": "oec:run-walk-intervals"
+    }
+  ],
+  "setup": {
+    "position": "moving",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A foundational low-impact aerobic exercise involving continuous, alternating bipedal forward locomotion."
+}

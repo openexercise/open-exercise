@@ -1,0 +1,160 @@
+{
+  "is_exercise": true,
+  "name": "Forward Shoulder Circle",
+  "summary": "A bodyweight mobility drill where the shoulders and elbows cycle in a forward circular motion with fingertips on the shoulders to mobilize the shoulder girdle.",
+  "aliases": [
+    {
+      "text": "Forward Shoulder Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Forward Elbow Circle",
+      "kind": "common"
+    },
+    {
+      "text": "Bent-Arm Shoulder Circle",
+      "kind": "common"
+    },
+    {
+      "text": "Forward Shoulder Roll",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rotator-cuff",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "circumduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "elevation",
+        "depression",
+        "protraction",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand upright with your feet hip-width apart and your spine in a neutral posture.",
+      "Rest the fingertips of each hand lightly on the tops of your shoulders with your elbows pointing forward."
+    ],
+    "steps": [
+      "Trace large, controlled forward circles with your elbows, moving them forward, down, backward, and back up to the starting point.",
+      "Allow your shoulder blades to glide naturally along your rib cage through retraction, depression, protraction, and elevation.",
+      "Continue rotating in a continuous, smooth rhythm for the prescribed repetitions or duration."
+    ],
+    "breathing": "Maintain steady, rhythmic breathing throughout the movement, inhaling as the elbows lift and exhaling as they circle down.",
+    "cues": [
+      "Draw big circles with the elbows",
+      "Keep the neck relaxed",
+      "Control the full circle"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively shrugging the neck and tensing the upper trapezius.",
+        "correction": "Keep your neck relaxed and draw the circles from the shoulder joint and shoulder blades rather than hunching your neck."
+      },
+      {
+        "fault": "Hyperextending the lower back to compensate for limited shoulder mobility.",
+        "correction": "Keep your abdominal wall lightly braced and your ribs anchored down while isolating movement to the shoulders."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform the circles within a comfortable, pain-free range of motion if you have a history of shoulder impingement."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

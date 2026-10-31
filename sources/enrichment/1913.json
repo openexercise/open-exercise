@@ -1,0 +1,153 @@
+{
+  "is_exercise": true,
+  "name": "Single-Leg Glute Bridge",
+  "summary": "A unilateral bodyweight floor exercise that strengthens the glutes, hamstrings, and core by extending the hip on one leg while lying supine.",
+  "aliases": [
+    {
+      "text": "Unilateral Hip Thrust",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Leg Hip Bridge",
+      "kind": "common"
+    },
+    {
+      "text": "One-Leg Glute Bridge",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Leg Hip Thrust",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "rehabilitation",
+      "strength"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "stance_kind": "single-leg",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a mat with your knees bent and feet flat on the floor, spaced hip-width apart.",
+      "Rest your arms straight along your sides with your palms pressed gently into the floor for support.",
+      "Lift one foot off the ground, either extending the non-working leg straight out or bending the knee toward your chest."
+    ],
+    "steps": [
+      "Drive down firmly through the heel and midfoot of your working leg to lift your hips toward the ceiling.",
+      "Extend your hip until your thigh, pelvis, and torso form a straight diagonal line, actively squeezing your glute at the peak.",
+      "Hold the contraction at the top for a brief pause while keeping your pelvis square and level.",
+      "Lower your hips with control back down toward the floor until they lightly graze the mat, then immediately begin the next rep."
+    ],
+    "breathing": "Exhale as you drive through your heel to lift your hips, and inhale as you lower back down with control.",
+    "cues": [
+      "Drive through the heel.",
+      "Lock out with the glute, not the lower back.",
+      "Keep your hips level."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lumbar spine at the top of the movement.",
+        "correction": "Stop lifting once your torso and thigh form a straight line, keeping your ribs drawn down and abs engaged."
+      },
+      {
+        "fault": "Allowing the pelvis to tilt or rotate toward the non-working side.",
+        "correction": "Brace your core and actively push both hip bones upward evenly throughout the repetition."
+      },
+      {
+        "fault": "Placing the working foot too far forward or too close to the glutes.",
+        "correction": "Position the working heel directly beneath the knee so your shin is roughly vertical at the top."
+      }
+    ],
+    "safety": {
+      "precautions": [],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

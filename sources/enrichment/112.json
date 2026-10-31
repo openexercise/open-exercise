@@ -1,0 +1,162 @@
+{
+  "is_exercise": true,
+  "name": "Sphinx Push-Up",
+  "summary": "A bodyweight triceps exercise performed from a plank position by pressing the palms into the floor to extend the elbows.",
+  "aliases": [
+    {
+      "text": "Body-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Body Up",
+      "kind": "common"
+    },
+    {
+      "text": "Plank Triceps Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Tiger Bend Push-Up",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension",
+      "anti-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "prone",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Start in a forearm plank position with your elbows directly under or slightly in front of your shoulders.",
+      "Place your forearms parallel to each other, palms flat against the floor with fingers pointing forward.",
+      "Support your lower body on your toes, bracing your abdominals and glutes to form a straight line from your head to your heels."
+    ],
+    "steps": [
+      "Press your palms firmly into the floor and contract your triceps to extend your elbows.",
+      "Lift both forearms off the floor simultaneously until your arms reach full lockout.",
+      "Pause briefly at the top while maintaining a rigid core.",
+      "Bend your elbows with control, lowering both forearms back to the floor in unison to return to the starting position."
+    ],
+    "breathing": "Inhale as you lower your forearms to the floor; exhale forcefully as you press up into extension.",
+    "cues": [
+      "Drive through the palms.",
+      "Keep the elbows tucked, not flared.",
+      "Move both arms as a single unit."
+    ],
+    "common_faults": [
+      {
+        "fault": "Pressing up one arm at a time rather than simultaneously.",
+        "correction": "Push evenly through both palms; if needed, scale the movement by performing it from your knees."
+      },
+      {
+        "fault": "Sagging or piking at the hips.",
+        "correction": "Squeeze your glutes and brace your core throughout the entire set to maintain a neutral spine."
+      },
+      {
+        "fault": "Flaring the elbows outward excessively.",
+        "correction": "Keep your forearms parallel and your elbows tracking straight back to maximize triceps loading and protect the elbow joints."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid this exercise if you experience sharp pain in the triceps tendon or elbow joints.",
+        "Perform on your knees if full bodyweight places excessive stress on your elbows."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

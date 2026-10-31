@@ -1,0 +1,162 @@
+{
+  "is_exercise": true,
+  "name": "Incline Dumbbell Reverse Fly",
+  "summary": "An upper-body isolation exercise targeting the posterior deltoids and upper back while lying prone on an incline bench.",
+  "aliases": [
+    {
+      "text": "Incline Bench Reverse Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Chest-Supported Dumbbell Reverse Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Rear Delt Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Incline Dumbbell Rear Delt Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement patterns": [
+      "isolation-shoulder-raise",
+      "horizontal-pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "incline_degrees": 30,
+  "grip_orientation": "neutral",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-posterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "infraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-minor",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "adjustable-bench"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to a low incline, typically between 30 and 45 degrees.",
+      "Hold a dumbbell in each hand and lie chest-down against the bench pad.",
+      "Plant your toes firmly on the floor and let your arms hang straight down beneath your shoulders with a slight bend in the elbows."
+    ],
+    "steps": [
+      "Maintaining a fixed, soft bend in the elbows, raise the dumbbells out to the sides in a wide arc.",
+      "Lift until your upper arms are roughly aligned with your torso, feeling the contraction in your rear deltoids and upper back.",
+      "Pause briefly at the peak of the movement without shrugging your shoulders toward your ears.",
+      "Lower the dumbbells under control along the same path back to the starting position."
+    ],
+    "breathing": "Exhale as you raise the dumbbells out to the sides and inhale as you lower them.",
+    "cues": [
+      "Lead with your elbows.",
+      "Keep the chest glued to the pad.",
+      "Reach out wide rather than pulling back."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively bending the elbows to turn the fly into a row.",
+        "correction": "Maintain a fixed, slight bend in the elbows throughout the entire range of motion."
+      },
+      {
+        "fault": "Lifting the chest off the bench to use momentum.",
+        "correction": "Keep your sternum pressed into the bench pad and reduce the weight if necessary."
+      },
+      {
+        "fault": "Shrugging the upper traps excessively.",
+        "correction": "Keep the shoulder blades depressed and focus on pulling the elbows outward away from the body."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessively heavy loads that compromise shoulder mechanics or cause neck strain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

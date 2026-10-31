@@ -1,0 +1,260 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Seated rear delt rise",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Seated dumbbell rear delt fly",
+      "kind": "common"
+    },
+    {
+      "text": "Seated dumbbell rear lateral raise",
+      "kind": "common"
+    },
+    {
+      "text": "Seated bent-over dumbbell reverse fly",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-posterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "infraspinatus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "teres-minor",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise",
+      "horizontal-pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ],
+      [
+        "bench",
+        "chair"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1098"
+  },
+  "id": "oec:dumbbell-seated-rear-delt-raise",
+  "instructions": {
+    "setup": [
+      "Sit on the edge of a flat bench with your feet flat on the floor and close together.",
+      "Hold a dumbbell in each hand, then hinge forward at the hips until your torso rests on or near your thighs, letting your arms hang down beside your calves with a slight bend in the elbows."
+    ],
+    "steps": [
+      "Maintain a fixed slight bend in your elbows and brace your core.",
+      "Raise the dumbbells outward and upward in a wide arc until your upper arms are roughly parallel to the floor.",
+      "Pause briefly at the peak of the contraction, focusing on squeezing the rear shoulders.",
+      "Lower the dumbbells under control along the same path back to the starting position."
+    ],
+    "breathing": "Exhale as you raise the dumbbells out to the sides, and inhale as you lower them with control.",
+    "cues": [
+      "Lead with your elbows, not your hands.",
+      "Reach wide toward the walls rather than just pulling back.",
+      "Keep your torso still and avoid swinging your back up."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the upper body to create momentum.",
+        "correction": "Keep your torso pinned to your thighs and use lighter dumbbells to isolate the posterior deltoids."
+      },
+      {
+        "fault": "Excessive elbow bending turning the movement into a row.",
+        "correction": "Lock a slight bend in your elbows and maintain that exact angle throughout the entire repetition."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears.",
+        "correction": "Keep your shoulder blades depressed away from your ears to prevent overusing the upper trapezius."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Select moderate to light loads; overloading rear delt raises frequently compromises form and strains the neck or lower back."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Seated Rear Delt Raise",
+  "previous_ids": [
+    "oec:seated-rear-delt-rise"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Seated rear delt rise",
+        "url": "https://wger.de/en/exercise/1098/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "philip"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-bent-over-reverse-fly"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:dumbbell-bent-over-reverse-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-bent-over-reverse-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-rear-delt-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-reverse-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-reverse-fly"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-bent-over-dumbbell-rear-delt-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-dumbbell-bent-over-lateral-raise"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "at-sides",
+    "position": "seated",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A seated isolation exercise that targets the posterior deltoids and upper back musculature using dumbbells."
+}

@@ -1,0 +1,163 @@
+{
+  "is_exercise": true,
+  "name": "High Knees",
+  "summary": "A dynamic cardiovascular drill where you run in place while rapidly driving alternating knees toward hip height.",
+  "aliases": [
+    {
+      "text": "High Knee Run",
+      "kind": "common"
+    },
+    {
+      "text": "Running in Place with High Knees",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "conditioning",
+      "cardio",
+      "plyometric",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "iliopsoas",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "heart-rate",
+        "calories",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with your feet hip-width apart and your arms relaxed at your sides.",
+      "Engage your core and maintain an upright posture with a slight forward lean from the ankles."
+    ],
+    "steps": [
+      "Drive one knee upward toward hip height while balancing on the ball of the opposite foot.",
+      "Quickly lower the lifted leg and drive the opposite knee up, pumping your arms in rhythm with the opposing legs.",
+      "Continue alternating legs at a fast, explosive pace, landing softly on the balls of your feet."
+    ],
+    "breathing": "Breathe continuously and rhythmically throughout the movement without holding your breath.",
+    "cues": [
+      "Knees to hips",
+      "Stay light on the balls of your feet",
+      "Pump your arms"
+    ],
+    "common_faults": [
+      {
+        "fault": "Leaning backward significantly to lift the knees higher.",
+        "correction": "Keep your core braced and maintain an upright torso with a slight forward tilt."
+      },
+      {
+        "fault": "Landing flat-footed or heavily on the heels.",
+        "correction": "Stay springy on the forefoot to absorb impact and maintain rapid turnover."
+      },
+      {
+        "fault": "Insufficient knee lift that degrades into basic running in place.",
+        "correction": "Actively flex the hip to bring the thigh roughly parallel to the ground on each stride."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure a non-slip, level surface to minimize impact stress on joints."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

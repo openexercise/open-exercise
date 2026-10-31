@@ -1,0 +1,174 @@
+{
+  "is_exercise": true,
+  "name": "Bronco Test",
+  "summary": "A maximal-effort conditioning shuttle test consisting of five continuous rounds of 20-meter, 40-meter, and 60-meter out-and-back sprints totaling 1,200 meters.",
+  "aliases": [
+    {
+      "text": "Bronco Shuttle Run",
+      "kind": "common"
+    },
+    {
+      "text": "Rugby Bronco",
+      "kind": "common"
+    },
+    {
+      "text": "Bronco Shuttle Test",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "conditioning",
+      "cardio",
+      "sport"
+    ],
+    "movement_patterns": [
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "moving",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "soleus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hip-flexors",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "subtalar",
+      "actions": [
+        "inversion",
+        "eversion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cone"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "heart-rate",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Set out cones along a straight running lane at 0 meters (start line), 20 meters, 40 meters, and 60 meters.",
+      "Take an athletic two-point stance directly behind the 0-meter starting line."
+    ],
+    "steps": [
+      "Sprint forward to the 20-meter line, touch or cross the line, and sprint back to the 0-meter line.",
+      "Immediately turn and sprint forward to the 40-meter line, touch or cross the line, and sprint back to the 0-meter line.",
+      "Immediately turn and sprint forward to the 60-meter line, touch or cross the line, and sprint back across the 0-meter line to complete one round (240 meters).",
+      "Without pausing, repeat this entire shuttle sequence four more times for a total of five rounds (1,200 meters total).",
+      "Stop the timer the moment you cross the 0-meter line at the end of the fifth 60-meter return sprint."
+    ],
+    "breathing": "Maintain controlled, rhythmic deep breathing throughout the test, focusing on steady exhalations during turns.",
+    "cues": [
+      "Drop your center of gravity to decelerate into each turn.",
+      "Drive hard out of the turn with short, powerful strides.",
+      "Alternate your turning lead leg to distribute fatigue evenly."
+    ],
+    "common_faults": [
+      {
+        "fault": "Cutting turns short before touching or crossing the marker line.",
+        "correction": "Ensure your lead foot touches or clearly crosses the cone line on every single turn."
+      },
+      {
+        "fault": "Sprinting the first round at maximum effort and suffering severe premature exhaustion.",
+        "correction": "Pace the opening round at a controlled, high-threshold tempo rather than an all-out sprint to keep lap splits consistent."
+      },
+      {
+        "fault": "Always turning off the same leg, overloading one side and slowing directional changes.",
+        "correction": "Alternate the planting and turning leg between lines to balance fatigue and maintain sharp changes of direction."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure appropriate footwear with solid traction for the running surface (cleats for grass/turf, running shoes for track) to prevent slipping during rapid directional changes.",
+        "Complete a thorough dynamic warm-up including sprint accelerations and decelerations prior to testing."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

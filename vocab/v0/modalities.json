@@ -1,0 +1,25 @@
+{
+  "vocabulary": "modalities",
+  "version": 0,
+  "description": "The kind of training an exercise belongs to.",
+  "terms": [
+    {"id": "strength", "label": "Strength"},
+    {"id": "hypertrophy", "label": "Hypertrophy"},
+    {"id": "power", "label": "Power"},
+    {"id": "olympic-weightlifting", "label": "Olympic weightlifting"},
+    {"id": "powerlifting", "label": "Powerlifting"},
+    {"id": "strongman", "label": "Strongman"},
+    {"id": "calisthenics", "label": "Calisthenics"},
+    {"id": "plyometric", "label": "Plyometric"},
+    {"id": "cardio", "label": "Cardio"},
+    {"id": "conditioning", "label": "Conditioning"},
+    {"id": "flexibility", "label": "Flexibility"},
+    {"id": "mobility", "label": "Mobility"},
+    {"id": "balance", "label": "Balance"},
+    {"id": "rehabilitation", "label": "Rehabilitation"},
+    {"id": "yoga", "label": "Yoga"},
+    {"id": "pilates", "label": "Pilates"},
+    {"id": "sport", "label": "Sport"},
+    {"id": "other", "label": "Other"}
+  ]
+}

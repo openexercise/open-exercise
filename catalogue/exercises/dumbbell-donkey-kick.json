@@ -1,0 +1,218 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Dumbbell Glute Kickback",
+      "kind": "common"
+    },
+    {
+      "text": "Weighted Donkey Kick",
+      "kind": "common"
+    },
+    {
+      "text": "Quadruped Dumbbell Hip Extension",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "hinge",
+      "anti-extension",
+      "anti-rotation"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1616"
+  },
+  "id": "oec:dumbbell-donkey-kick",
+  "instructions": {
+    "setup": [
+      "Start on all fours on a padded mat with hands placed directly beneath shoulders and knees beneath hips.",
+      "Place a light-to-moderate dumbbell in the crease behind the working knee and squeeze the calf against the hamstring to clamp it securely in place.",
+      "Brace the core and square the hips toward the floor."
+    ],
+    "steps": [
+      "Maintaining a 90-degree bend at the knee and keeping the foot dorsiflexed, drive the heel toward the ceiling by extending the hip.",
+      "Lift until the thigh is aligned with the torso, focusing on contracting the glute without arching the lower back.",
+      "Pause briefly at the top of the movement to maximize peak contraction.",
+      "Lower the working knee under control back toward the floor without setting it down or letting the dumbbell slip.",
+      "Complete all repetitions on one side before transferring the dumbbell to the opposite leg."
+    ],
+    "breathing": "Exhale as you kick the leg upward into hip extension; inhale as you lower the knee back to the start.",
+    "cues": [
+      "Stamp the ceiling with your heel.",
+      "Clamp the dumbbell tight with your hamstring.",
+      "Keep the belt buckle facing straight down."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessively arching the lumbar spine to gain height.",
+        "correction": "Brace the abdominal wall and stop the movement when the thigh is in line with the torso."
+      },
+      {
+        "fault": "Rotating and tilting the pelvis open toward the working side.",
+        "correction": "Keep both hip bones pointing directly at the floor throughout each repetition."
+      },
+      {
+        "fault": "Losing hamstring tension, causing the dumbbell to slip or fall.",
+        "correction": "Maintain an active hamstring squeeze at roughly a 90-degree knee bend throughout the entire set."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a dumbbell with a smooth handle and secure grip behind the knee to avoid pinching or dropping it onto the support leg."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Dumbbell Donkey Kick",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dumbbell donkey kick",
+        "url": "https://wger.de/en/exercise/1616/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Tierrasverdes"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:donkey-kick"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:donkey-kick"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:band-glute-kickback"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-glute-kickback"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-glute-kickback"
+    }
+  ],
+  "setup": {
+    "position": "quadruped"
+  },
+  "status": "active",
+  "summary": "A quadruped hip extension exercise performed with a dumbbell clamped behind the working knee to load the gluteus maximus."
+}

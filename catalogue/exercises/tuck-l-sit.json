@@ -1,0 +1,232 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Tucked L-Sit",
+      "kind": "common"
+    },
+    {
+      "text": "Tuck Sit",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "protraction",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "parallettes",
+      "dip-station",
+      "bench",
+      "yoga-block"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1704"
+  },
+  "id": "oec:tuck-l-sit",
+  "instructions": {
+    "setup": [
+      "Sit on the floor, parallettes, or between dip bars with your hands placed directly beneath or slightly ahead of your shoulders.",
+      "Grip the apparatus firmly or press your palms flat into the floor with fingers spread."
+    ],
+    "steps": [
+      "Depress your scapulae by pushing hard through your hands to lock out your elbows and raise your torso off the support surface.",
+      "Pull your knees tightly toward your chest, bending your hips and knees while lifting your feet off the floor.",
+      "Hold the tucked position with hips elevated, shoulders pushed down away from your ears, and elbows fully extended for the target duration.",
+      "Lower your feet and hips back down with control to complete the set."
+    ],
+    "breathing": "Maintain shallow, steady diaphragmatic breathing while keeping high intra-abdominal pressure throughout the hold.",
+    "cues": [
+      "Push the floor away",
+      "Long neck",
+      "Knees to chest",
+      "Lock the elbows"
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulders up toward the ears.",
+        "correction": "Actively depress your scapulae by driving your hands down into the ground throughout the hold."
+      },
+      {
+        "fault": "Soft or bent elbows.",
+        "correction": "Fully lock out your elbows and contract your triceps to create a stable skeletal support pillar."
+      },
+      {
+        "fault": "Letting the knees drop low away from the chest.",
+        "correction": "Actively compress your hip flexors and pull your knees as high into your torso as possible."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure wrists and shoulders are adequately warmed up before performing support holds."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Tuck L-Sit",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Tuck L-sit",
+        "url": "https://wger.de/en/exercise/1704/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "clafal"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:foot-supported-l-sit"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:l-sit"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:l-sit"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:l-sit"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "shoulder"
+    },
+    "position": "support"
+  },
+  "status": "active",
+  "summary": "An isometric calisthenics hold supporting the body on straight arms while holding the knees tucked tightly to the chest."
+}

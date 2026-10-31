@@ -1,0 +1,221 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Cheat Bicep Curl with Dumbbells",
+      "kind": "common"
+    },
+    {
+      "text": "Heavy Eccentric Dumbbell Curl",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "eccentric-emphasis"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1482"
+  },
+  "id": "oec:dumbbell-cheat-curl",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart, holding a pair of heavy dumbbells at your sides with a supinated grip.",
+      "Engage your core, pull your shoulders back slightly, and allow your arms to hang fully extended."
+    ],
+    "steps": [
+      "Initiate the movement with a slight, controlled hip hinge and drive your hips forward to generate modest momentum.",
+      "Use that upward momentum to assist your arms in curling the dumbbells to shoulder height.",
+      "Pause briefly at the top to secure the contraction without letting the elbows drift excessively forward.",
+      "Slowly lower the dumbbells back down under strict control over three to four seconds, resisting the eccentric phase until your arms are fully extended."
+    ],
+    "breathing": "Inhale as you prepare and initiate the drive, exhale through the top of the curl, and take controlled breaths as you lower the weights.",
+    "cues": [
+      "Drive with the hips, catch with the arms",
+      "Fight the weight all the way down",
+      "Keep the lower back braced and stable"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lower back during the concentric swing.",
+        "correction": "Generate momentum purely from a quick hip pop rather than arching backward through the lumbar spine."
+      },
+      {
+        "fault": "Dropping the weights quickly on the descent.",
+        "correction": "The primary stimulus is the eccentric overload; actively resist the load for at least three seconds on the way down."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid excessive spinal extension under heavy loads; if the lower back arches excessively to lift the weight, select lighter dumbbells."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Cheat Curl",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dumbbell Cheat Curl",
+        "url": "https://wger.de/en/exercise/1482/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Moffi"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-curl"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:dumbbell-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-curl"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-biceps-curl"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:dumbbell-biceps-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-biceps-curl"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A standing bicep curl using controlled hip momentum on the concentric phase to overload the eccentric lowering portion with heavier weight."
+}

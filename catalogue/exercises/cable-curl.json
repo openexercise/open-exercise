@@ -1,0 +1,224 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Cable Biceps Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Cable Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Bicep Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Curls",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "radioulnar",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1531"
+  },
+  "id": "oec:cable-curl",
+  "instructions": {
+    "setup": [
+      "Attach a straight bar or EZ-curl bar to a cable pulley set to its lowest position.",
+      "Face the cable stack, grasp the bar with a shoulder-width underhand grip, and step back slightly to establish tension on the cable.",
+      "Stand tall with feet hip-width apart, chest upright, and elbows pinned close to your ribs."
+    ],
+    "steps": [
+      "Exhale and curl the bar upward toward your shoulders by flexing your elbows, keeping your upper arms stationary.",
+      "Squeeze your biceps firmly at the top of the contraction.",
+      "Inhale as you lower the bar under control, extending your elbows back to the starting position without letting the weight stack touch down."
+    ],
+    "breathing": "Exhale as you curl the bar upward and inhale as you lower it back to full extension.",
+    "cues": [
+      "Keep your elbows pinned to your sides.",
+      "Move only your forearms.",
+      "Control the descent; do not let the cable snap down."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso backward to use momentum.",
+        "correction": "Brace your core and select a lighter weight that allows you to remain completely upright."
+      },
+      {
+        "fault": "Allowing the elbows to drift forward excessively during the curl.",
+        "correction": "Keep upper arms perpendicular to the floor to isolate the elbow flexors."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the attachment carabiner is fully locked before loading the cable."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Cable Curl",
+  "previous_ids": [
+    "oec:cable-curls"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Cable Curls",
+        "url": "https://wger.de/en/exercise/1531/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Brigade7938"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:ez-bar-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-biceps-curl"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-curl"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated",
+      "width": "shoulder"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A standing isolation exercise that uses a low cable pulley to maintain constant tension on the elbow flexors throughout the curl."
+}

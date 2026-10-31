@@ -1,0 +1,145 @@
+{
+  "is_exercise": true,
+  "name": "Recovery Bobbing",
+  "summary": "A relaxed aquatic breath-control drill where the swimmer rhythmically sinks underwater to exhale and ascends to inhale, resetting breathing mechanics and promoting relaxation.",
+  "aliases": [
+    {
+      "text": "Deep Water Bobbing",
+      "kind": "common"
+    },
+    {
+      "text": "Pool Bobbing Drill",
+      "kind": "common"
+    },
+    {
+      "text": "Breath Recovery Bobbing",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "sport",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "swim",
+      "mobility-drill"
+    ],
+    "mechanics": "not-applicable",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "moving",
+  "muscles": [
+    {
+      "muscle": "transversus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "adduction",
+        "abduction"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "pool"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "heart-rate",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "heart-rate",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Enter the pool in water of chest-deep or greater depth where you can comfortably submerge your head.",
+      "Position yourself upright with arms relaxed near your sides or gently sculling for balance."
+    ],
+    "steps": [
+      "Inhale fully and smoothly through your mouth above the surface.",
+      "Allow your body to submerge vertically by relaxing and exhaling steadily through your nose and mouth.",
+      "As you descend, blow a continuous, gentle stream of bubbles underwater until your lungs are mostly empty.",
+      "Gently sweep your hands down or give a soft kick to assist your upward float back to the surface.",
+      "Clear the water as your mouth breaks the surface and immediately inhale smoothly, entering the next cycle without pausing."
+    ],
+    "breathing": "Inhale smoothly through your mouth above water and exhale continuously through your nose and mouth while submerged.",
+    "cues": [
+      "Continuous bubbles underwater",
+      "Quick, relaxed inhale",
+      "Sink with gravity",
+      "Stay loose"
+    ],
+    "common_faults": [
+      {
+        "fault": "Holding breath while underwater",
+        "correction": "Begin exhaling the instant your face breaks the surface of the water to avoid CO2 buildup and anxiety."
+      },
+      {
+        "fault": "Kicking or pressing down aggressively with arms",
+        "correction": "Keep arm and leg actions minimal and gentle; let changes in lung buoyancy and slight sculling guide your ascent."
+      },
+      {
+        "fault": "Gasping or rushing the inhale above water",
+        "correction": "Exhale fully underwater so that you only need a quick, effortless inhalation when surfacing."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Stay within a comfortable depth or near the pool edge if you are not fully confident in deep water.",
+        "Stop immediately and hold the pool wall if you feel lightheaded, disoriented, or out of breath."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "SZ-Bar Upright Row",
+      "kind": "regional"
+    },
+    {
+      "text": "EZ-Curl Bar Upright Row",
+      "kind": "common"
+    },
+    {
+      "text": "Upright Row, SZ-bar",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-lateral",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "abduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "elevation",
+          "upward-rotation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "weight-plate"
+    ],
+    "required": [
+      [
+        "ez-bar"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "693"
+  },
+  "id": "oec:ez-bar-upright-row",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and a slight bend in your knees.",
+      "Grasp the inner or outer bends of the EZ-bar with an overhand (pronated) grip slightly narrower than or equal to shoulder width.",
+      "Allow the bar to rest against your thighs with arms fully extended and shoulders set back and down."
+    ],
+    "steps": [
+      "Inhale and brace your core.",
+      "Pull the bar vertically along your torso by leading with your elbows driving upward and outward.",
+      "Continue raising the bar until your elbows reach approximately shoulder height and the bar approaches mid-chest level.",
+      "Pause briefly at the top without allowing the wrists or hands to rise higher than the elbows.",
+      "Lower the bar under control along the same path back to the starting position against your thighs.",
+      "Exhale near the bottom of the movement."
+    ],
+    "breathing": "Inhale and brace before initiating the pull, hold through the concentric peak, and exhale smoothly as you lower the bar.",
+    "cues": [
+      "Lead with the elbows, not the hands.",
+      "Keep the bar skimmed close to your shirt.",
+      "Stop when elbows reach shoulder level."
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling the bar too high above the clavicles, placing excessive internal rotation stress on the shoulder joint.",
+        "correction": "Stop the upward pull once your elbows reach roughly shoulder height, around mid-to-upper chest level."
+      },
+      {
+        "fault": "Swinging the torso backward to use momentum to heave the weight up.",
+        "correction": "Keep your core tight, knees soft, and maintain a steady, upright torso throughout the lift."
+      },
+      {
+        "fault": "Using an excessively narrow grip, which forces severe wrist and shoulder internal rotation.",
+        "correction": "Use a grip width around shoulder width on the angled section of the EZ-bar."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Individuals with subacromial impingement or shoulder pain should limit the range of motion or use a wider grip variation."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "EZ-Bar Upright Row",
+  "previous_ids": [
+    "oec:upright-row-sz-bar"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Upright Row, SZ-bar",
+        "url": "https://wger.de/en/exercise/693/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:close-grip-barbell-upright-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-wide-grip-upright-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-upright-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-cross-upright-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:smith-machine-upright-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A standing vertical pull using an EZ-curl bar to target the lateral deltoids and upper trapezius."
+}

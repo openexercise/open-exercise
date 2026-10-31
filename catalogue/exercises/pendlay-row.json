@@ -1,0 +1,259 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Pendelay Row",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Deadstop Barbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Deadstop Row",
+      "kind": "common"
+    },
+    {
+      "text": "Pendelay Rows",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy",
+      "power"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "strap"
+    ],
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "weight-plate"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "448"
+  },
+  "id": "oec:pendlay-row",
+  "instructions": {
+    "setup": [
+      "Stand with mid-foot beneath a loaded barbell with standard-diameter plates, feet hip-width apart.",
+      "Hinge deeply at the hips until your torso is approximately parallel to the floor, keeping your back flat and knees slightly bent.",
+      "Grasp the barbell with an overhand grip slightly wider than shoulder width, with arms fully extended."
+    ],
+    "steps": [
+      "Take a deep breath and brace your core, setting your lower back into rigid extension.",
+      "Explosively pull the bar off the floor toward your lower chest or upper abdomen by driving your elbows back.",
+      "Touch your torso with the barbell without rising up from your hip hinge.",
+      "Lower the bar under control back to the floor until it comes to a complete dead stop before starting the next rep."
+    ],
+    "breathing": "Inhale and brace your core before initiating the pull, hold your breath through the concentric effort, and exhale as the bar returns to the floor.",
+    "cues": [
+      "Pull from a dead stop every rep.",
+      "Keep your chest parallel to the floor.",
+      "Drive your elbows toward the ceiling.",
+      "Don't use hip momentum to lift the weight."
+    ],
+    "common_faults": [
+      {
+        "fault": "Standing up or using leg drive to heave the barbell upward.",
+        "correction": "Reduce the load and keep your hips and torso locked strictly parallel to the floor."
+      },
+      {
+        "fault": "Rounding the lumbar spine under load.",
+        "correction": "Set your hips back, engage the hamstrings, and lock your spinal erectors in neutral before pulling."
+      },
+      {
+        "fault": "Bouncing the bar off the floor instead of coming to a full rest.",
+        "correction": "Let the plates settle completely on the floor to eliminate all stretch-shortening rebound."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure standard-diameter bumper or Olympic plates are used so the bar rests at the correct starting height.",
+        "Do not allow the lower back to round dynamically during the explosive pull."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Pendlay Row",
+  "previous_ids": [
+    "oec:pendelay-rows"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Pendelay Rows",
+        "url": "https://wger.de/en/exercise/448/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "Nallitnas"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-bent-over-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-bent-over-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "bent-over",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A strict barbell row variation pulled explosively from a dead stop on the floor with the torso parallel to the ground."
+}

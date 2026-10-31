@@ -1,0 +1,202 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Double-Leg Abdominal Press",
+      "kind": "common"
+    },
+    {
+      "text": "Dead Bug Isometric Press",
+      "kind": "common"
+    },
+    {
+      "text": "Isometric Dead Bug Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Knee-to-Hand Isometric Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "obliques",
+        "role": "synergist"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "rehabilitation",
+      "strength"
+    ],
+    "movement_patterns": [
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1827"
+  },
+  "id": "oec:supine-isometric-abdominal-press",
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a mat.",
+      "Lift your legs into a tabletop position with your hips and knees bent at 90-degree angles and shins parallel to the floor.",
+      "Flatten your lower back gently into the floor and place both palms firmly against the fronts of your thighs just above the knees."
+    ],
+    "steps": [
+      "Simultaneously push your hands hard into your thighs while forcefully resisting the push by pulling your knees toward your chest.",
+      "Ensure neither your hands nor your legs move, maintaining a completely static, high-tension contraction.",
+      "Hold the maximal isometric effort for the prescribed duration while keeping your lower back flush against the floor.",
+      "Gradually release tension and lower your feet back to the floor."
+    ],
+    "breathing": "Maintain continuous, shallow diaphragmatic breathing throughout the hold without letting your abdominal brace loosen or holding your breath completely.",
+    "cues": [
+      "Glue your lower back to the floor",
+      "Push hands and knees into each other equally",
+      "Breathe through the brace"
+    ],
+    "common_faults": [
+      {
+        "fault": "Arching the lumbar spine off the floor during the press.",
+        "correction": "Posteriorly tilt the pelvis and actively press the lower back down before initiating hand pressure."
+      },
+      {
+        "fault": "Holding breath and bearing down excessively (Valsalva).",
+        "correction": "Take short, controlled breaths out through pursed lips while sustaining constant isometric tension."
+      },
+      {
+        "fault": "Pulling knees past 90 degrees toward the chest.",
+        "correction": "Keep the knees stacked directly over the hips to maintain optimal core engagement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you experience lower back discomfort, reduce pressing intensity and ensure the pelvis remains tilted posteriorly."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Supine Isometric Abdominal Press",
+  "previous_ids": [
+    "oec:double-leg-abdominal-press"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Double-Leg Abdominal Press",
+        "url": "https://wger.de/en/exercise/1827/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "beagle"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:abdominal-bracing"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:dead-bug"
+    }
+  ],
+  "setup": {
+    "position": "supine"
+  },
+  "status": "active",
+  "summary": "A supine core-strengthening exercise where the hands push firmly against the thighs in a tabletop position to produce maximal isometric abdominal recruitment."
+}

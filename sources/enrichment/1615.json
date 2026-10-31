@@ -1,0 +1,181 @@
+{
+  "is_exercise": true,
+  "name": "Treadmill Running",
+  "summary": "A continuous cardiovascular exercise performed on a motorized treadmill to build aerobic capacity and lower-body endurance.",
+  "aliases": [
+    {
+      "text": "Treadmill Cardio",
+      "kind": "common"
+    },
+    {
+      "text": "Treadmill Jogging",
+      "kind": "common"
+    },
+    {
+      "text": "Treadmill Run",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "soleus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "synergist"
+    },
+    {
+      "muscle": "tibialis-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "treadmill"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration",
+        "distance"
+      ],
+      "optional": [
+        "speed",
+        "incline",
+        "pace",
+        "heart-rate",
+        "calories"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "speed",
+        "incline",
+        "heart-rate",
+        "calories"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "load_convention": "not-applicable",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Straddle the treadmill belt by standing with one foot on each side rail.",
+      "Attach the safety clip securely to your clothing at waist level.",
+      "Select your target program or press start, allowing the belt to begin moving at a low speed before stepping onto the center of the deck."
+    ],
+    "steps": [
+      "Establish an upright posture with a slight forward lean from the ankles, keeping your gaze forward.",
+      "Gradually increase the belt speed and incline to your desired workout pace.",
+      "Maintain a rhythmic running gait, striking the belt beneath your center of mass and driving off the forefoot.",
+      "Swing your arms naturally in opposition to your legs with elbows bent at approximately ninety degrees.",
+      "When finishing, gradually reduce the speed to a walk before stepping off the moving belt."
+    ],
+    "breathing": "Breathe rhythmically in sync with your stride, using relaxed nasal or combined mouth-nasal breathing to match effort intensity.",
+    "cues": [
+      "Land light and quiet",
+      "Stay centered on the deck",
+      "Keep shoulders relaxed and down",
+      "Drive elbows straight back"
+    ],
+    "common_faults": [
+      {
+        "fault": "Holding onto the handrails while running, which alters natural mechanics and reduces energy expenditure.",
+        "correction": "Lower the speed or incline to a level where you can run with free, natural arm swings."
+      },
+      {
+        "fault": "Overstriding and aggressively heel-striking far in front of the hips.",
+        "correction": "Shorten your stride and increase cadence so your feet land close to your center of mass."
+      },
+      {
+        "fault": "Drifting too far back or crowding the front console.",
+        "correction": "Maintain your position in the middle third of the running deck throughout the stride cycle."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Always attach the emergency stop lanyard before starting the treadmill.",
+        "Never step onto or off of a belt operating at high speed; straddle the side rails when pausing or ending a bout."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Front Crawl",
+      "kind": "common"
+    },
+    {
+      "text": "Freestyle Swim",
+      "kind": "common"
+    },
+    {
+      "text": "Continuous Freestyle",
+      "kind": "common"
+    },
+    {
+      "text": "Easy Continuous Swim (Freestyle)",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "flexion",
+          "internal-rotation",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction",
+          "upward-rotation",
+          "downward-rotation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "cardio",
+      "sport"
+    ],
+    "movement_patterns": [
+      "swim"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "pool"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2480"
+  },
+  "id": "oec:freestyle-swimming",
+  "instructions": {
+    "setup": [
+      "Enter the pool and push off from the wall into a streamlined, horizontal prone body position just below the surface."
+    ],
+    "steps": [
+      "Extend one arm forward into the water while the other arm catches and pulls water backward along your torso.",
+      "Rotate your torso along your long axis with each stroke, initiating power from the core and hips.",
+      "Maintain a continuous, relaxed flutter kick from the hips with pointed toes.",
+      "Recover the pulling arm above the water with a high, relaxed elbow, entry finger-tips first out in front of your head.",
+      "Continue alternating arms smoothly to maintain steady forward propulsion."
+    ],
+    "breathing": "Rotate your head to the side into the pocket of air created by your head bow wave to inhale, and exhale smoothly and continuously into the water when your face is submerged.",
+    "cues": [
+      "Reach long out front",
+      "Kick from the hips, not the knees",
+      "Rotate the body as a unit",
+      "Exhale smoothly underwater"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the head forward to breathe, causing the hips and legs to drop and create excessive drag.",
+        "correction": "Keep the head neutral with eyes pointing downward, rotating the neck and torso just enough to breathe to the side."
+      },
+      {
+        "fault": "Kicking excessively with bent knees like pedaling a bicycle.",
+        "correction": "Keep legs relatively straight with loose ankles, generating the flutter kick from the hips and glutes."
+      },
+      {
+        "fault": "Crossing the centerline of the body with hand entry.",
+        "correction": "Enter the hand in line with your shoulder to optimize leverage and avoid shoulder impingement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure adequate swimming competency and comfort in deep water before attempting continuous laps.",
+        "Stay aware of lane traffic and pool boundaries to prevent collisions."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "distance",
+          "duration"
+        ],
+        "optional": [
+          "pace",
+          "heart-rate",
+          "calories",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "heart-rate",
+          "calories",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "distance"
+        ],
+        "optional": [
+          "pace",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Freestyle Swimming",
+  "previous_ids": [
+    "oec:easy-continuous-swim-freestyle"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Easy Continuous Swim (Freestyle)",
+        "url": "https://wger.de/en/exercise/2480/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:swimming"
+    }
+  ],
+  "setup": {
+    "position": "prone"
+  },
+  "status": "active",
+  "summary": "A continuous, alternating stroke swimming exercise performed face down in the water to build cardiovascular endurance and upper body pulling endurance."
+}

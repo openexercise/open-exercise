@@ -1,0 +1,151 @@
+{
+  "is_exercise": true,
+  "name": "Lying Leg Curl",
+  "summary": "A machine-based isolation exercise that targets the hamstrings through knee flexion while lying prone.",
+  "aliases": [
+    {
+      "text": "Leg Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Hamstring Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Leg Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Hamstring Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-knee-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-femoris",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "semitendinosus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "semimembranosus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gracilis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "sartorius",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Lie face down on the machine bench with your knees positioned just below the edge of the pad, aligning the knee joints with the machine's pivot axis.",
+      "Adjust the roller pad so that it rests comfortably against the lower calves, just above the heels.",
+      "Grasp the support handles firmly and press your hips down against the bench."
+    ],
+    "steps": [
+      "Curl your lower legs upward toward your glutes by bending at the knees in a smooth, controlled motion.",
+      "Squeeze your hamstrings at the top of the contraction for a brief pause.",
+      "Slowly lower the pad back to the starting position, extending your knees under control without letting the weight stack slam."
+    ],
+    "breathing": "Exhale as you curl the weight toward your glutes, and inhale as you lower the weight back down.",
+    "cues": [
+      "Hips glued to the pad",
+      "Pull through your heels",
+      "Control the descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the hips off the bench to assist the curl",
+        "correction": "Keep your pelvis anchored to the pad throughout the entire movement; lower the weight if your hips buck upward."
+      },
+      {
+        "fault": "Using momentum or swinging the legs to move the load",
+        "correction": "Perform the movement with a deliberate tempo, pausing briefly at full contraction."
+      },
+      {
+        "fault": "Cutting the range of motion short at the bottom",
+        "correction": "Lower the weight until the knees are almost fully extended, stopping just short of a complete lockout."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the pivot axis of the machine aligns directly with the axis of your knee joints to prevent shear stress on the knee."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

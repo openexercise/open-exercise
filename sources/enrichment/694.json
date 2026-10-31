@@ -1,0 +1,157 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Upright Row",
+  "summary": "A vertical pulling exercise using dumbbells to target the lateral deltoids and upper trapezius.",
+  "aliases": [
+    {
+      "text": "Upright Row with Dumbbells",
+      "kind": "common"
+    },
+    {
+      "text": "DB Upright Row",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-lateral",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "elevation",
+        "upward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart holding a dumbbell in each hand in front of your thighs.",
+      "Grip the dumbbells with an overhand (pronated) grip, keeping your chest up and shoulders back."
+    ],
+    "steps": [
+      "Initiate the pull by driving your elbows upward and slightly outward toward the ceiling.",
+      "Raise the dumbbells along the front of your torso until your elbows reach roughly chest or shoulder level.",
+      "Pause briefly at the top while keeping your elbows higher than your wrists.",
+      "Lower the dumbbells smoothly back to the starting position along your thighs under control."
+    ],
+    "breathing": "Exhale as you pull the weights upward, and inhale as you lower them with control.",
+    "cues": [
+      "Lead with the elbows.",
+      "Keep the weights close to your body.",
+      "Stop at mid-chest to protect the shoulders."
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling the elbows excessively high above shoulder level.",
+        "correction": "Stop the upward pull when your upper arms are roughly parallel to the floor to avoid shoulder impingement."
+      },
+      {
+        "fault": "Using hip momentum or swinging the torso to heave the weight up.",
+        "correction": "Maintain a braced core and upright posture, using only your shoulders and arms to move the dumbbells."
+      },
+      {
+        "fault": "Allowing the wrists to curl or sit higher than the elbows.",
+        "correction": "Keep your wrists relaxed and ensure your elbows remain higher than your hands throughout the range."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Individuals with existing subacromial impingement should limit range of motion or consider wider grip variations or lateral raises instead."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

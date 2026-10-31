@@ -1,0 +1,267 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Push Press",
+      "kind": "common"
+    },
+    {
+      "text": "Push OHP",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Overhead Push Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-lateral",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "abduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "power",
+      "olympic-weightlifting"
+    ],
+    "movement_patterns": [
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "mixed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "ballistic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "squat-rack",
+      "power-rack"
+    ],
+    "required": [
+      [
+        "barbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1440"
+  },
+  "id": "oec:barbell-push-press",
+  "instructions": {
+    "setup": [
+      "Set a barbell in a rack at approximately collarbone height.",
+      "Grip the bar slightly wider than shoulder width with a full overhand grip.",
+      "Position the bar securely across your anterior deltoids and clavicles with elbows pointed forward and down.",
+      "Unrack the barbell and step back into a hip-width stance with a tall, upright torso."
+    ],
+    "steps": [
+      "Brace your core and initiate a shallow vertical dip by bending your knees forward while keeping your torso completely upright.",
+      "Explosively reverse the dip by driving aggressively through your midfoot and extending your hips and knees.",
+      "Use the upward momentum from your legs to propel the barbell off your shoulders, tilting your head slightly back to clear the chin.",
+      "Press the bar overhead to full lockout as your arms finish the movement, pushing your head forward into a neutral position once the bar clears.",
+      "Lower the bar under control back to the front rack position by absorbing the impact with a slight knee bend before beginning the next repetition."
+    ],
+    "breathing": "Inhale deeply and brace your abdominals before initiating the dip, hold your breath through the drive, and exhale as the bar reaches lockout overhead.",
+    "cues": [
+      "Dip straight down like an elevator.",
+      "Explode through the floor.",
+      "Punch the ceiling."
+    ],
+    "common_faults": [
+      {
+        "fault": "Dipping forward by hinging at the hips instead of bending the knees.",
+        "correction": "Keep your torso perfectly vertical during the dip so momentum transfers straight upward."
+      },
+      {
+        "fault": "Pressing early with the arms before the leg drive finishes.",
+        "correction": "Wait until your hips and knees reach full extension before pressing actively with the upper body."
+      },
+      {
+        "fault": "Re-bending the knees to catch the bar under lockout.",
+        "correction": "Finish the lift with straight knees; dipping under the bar turns the push press into a push jerk."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure clear overhead clearance before lifting.",
+        "Keep the lower back braced to prevent excessive lumbar hyperextension during the press."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Push Press",
+  "previous_ids": [
+    "oec:push-ohp"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Push OHP",
+        "url": "https://wger.de/en/exercise/1440/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "M9"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-overhead-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-push-press"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-split-jerk"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-thruster"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "load_position": "front-rack",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A standing overhead lift utilizing a rapid lower-body dip and drive to launch a barbell overhead to lockout."
+}

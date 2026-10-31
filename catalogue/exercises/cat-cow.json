@@ -1,0 +1,212 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Cat-Camel",
+      "kind": "common"
+    },
+    {
+      "text": "Cat-Cow Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Marjaryasana-Bitilasana",
+      "kind": "regional"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "erector-spinae",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "multifidus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "neck-flexors",
+        "role": "synergist"
+      },
+      {
+        "muscle": "neck-extensors",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "cervical-spine",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility",
+      "rehabilitation",
+      "yoga"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "spinal-flexion",
+      "spinal-extension",
+      "stretch"
+    ],
+    "mechanics": "compound",
+    "force": "mixed",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1938"
+  },
+  "id": "oec:cat-cow",
+  "instructions": {
+    "setup": [
+      "Start on hands and knees in a tabletop position on an exercise mat.",
+      "Place your wrists directly beneath your shoulders and knees directly beneath your hips.",
+      "Maintain a flat, neutral spine with your gaze focused on the floor."
+    ],
+    "steps": [
+      "Inhale as you enter Cow pose: drop your belly toward the floor, tilt your pelvis anteriorly, retract your shoulder blades, and gently lift your chest and gaze upward.",
+      "Exhale as you transition into Cat pose: tuck your tailbone, pull your navel up toward your spine, round your back toward the ceiling, and gently let your head hang between your arms.",
+      "Flow smoothly between extension and flexion, articulating through each vertebra."
+    ],
+    "breathing": "Inhale as your spine extends into Cow pose, and exhale fully as you round your spine into Cat pose.",
+    "cues": [
+      "Move vertebra by vertebra",
+      "Push the floor away at the top",
+      "Lead the movement with your pelvis"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the elbows to create range of motion",
+        "correction": "Keep your arms straight and press firmly through your palms throughout the entire movement."
+      },
+      {
+        "fault": "Hyperextending the neck aggressively during Cow pose",
+        "correction": "Keep the cervical extension gentle and aligned with the curve of your upper back rather than throwing the head back."
+      },
+      {
+        "fault": "Rushing through the movement without segmenting the spine",
+        "correction": "Slow the tempo down and focus on articulating sequentially from the tailbone to the neck."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not force painful ranges of spinal flexion or extension if you have acute disc or spinal conditions."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Cat-Cow",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Cat-Cow",
+        "url": "https://wger.de/en/exercise/1938/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cat-cow-stretch"
+    }
+  ],
+  "setup": {
+    "position": "quadruped"
+  },
+  "status": "active",
+  "summary": "A quadruped mobility exercise alternating between spinal flexion and spinal extension to improve segmental spine control and relieve stiffness."
+}

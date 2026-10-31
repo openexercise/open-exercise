@@ -1,0 +1,177 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Left neck stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Isometric Lateral Neck Flexion",
+      "kind": "common"
+    },
+    {
+      "text": "Self-Resisted Isometric Neck Lateral Flexion",
+      "kind": "common"
+    },
+    {
+      "text": "Side Neck Isometric Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Right neck stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "sternocleidomastoid",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "levator-scapulae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "splenius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deep-neck-flexors",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "cervical-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "strength",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "isolation-neck"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1008,1009"
+  },
+  "id": "oec:isometric-neck-lateral-flexion",
+  "instructions": {
+    "setup": [
+      "Sit upright in a chair or stand with a tall, neutral spine and relaxed shoulders.",
+      "Place the palm of one hand flat against the side of your head, just above the ear."
+    ],
+    "steps": [
+      "Gently press your head sideways toward your hand while pressing back with equal force with your palm so no movement occurs.",
+      "Hold the isometric contraction steadily for the intended duration.",
+      "Gradually ease off the pressure and return to neutral before performing on the other side."
+    ],
+    "breathing": "Breathe smoothly and continuously throughout the contraction without holding your breath.",
+    "cues": [
+      "Match the force evenly",
+      "Keep shoulders down",
+      "Breathe through the hold"
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulder toward the ear during the press.",
+        "correction": "Actively keep both shoulders depressed and relaxed throughout the hold."
+      },
+      {
+        "fault": "Pushing with excessive force causing strain or head deviation.",
+        "correction": "Apply gentle, submaximal pressure and ensure your head remains completely stationary."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Begin with light resistance to avoid cervical strain.",
+        "Stop immediately if you experience dizziness, sharp pain, or tingling radiating down the arm."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Isometric Neck Lateral Flexion",
+  "previous_ids": [
+    "oec:left-neck-stretch",
+    "oec:right-neck-stretch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Left neck stretch",
+        "url": "https://wger.de/en/exercise/1008/view-base",
+        "license": "CC-BY-SA-4.0"
+      },
+      {
+        "title": "wger: Right neck stretch",
+        "url": "https://wger.de/en/exercise/1009/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "setup": {
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A self-resisted isometric exercise that strengthens the lateral cervical stabilizers by pressing the head sideways against hand resistance without movement."
+}

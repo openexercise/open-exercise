@@ -1,0 +1,166 @@
+{
+  "is_exercise": true,
+  "name": "Close-Grip Push-Up",
+  "summary": "A bodyweight pressing exercise performed with hands positioned shoulder-width or narrower and elbows tucked tight to the torso to emphasize the triceps.",
+  "aliases": [
+    {
+      "text": "Triceps Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Tricep Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Narrow Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Narrow-Grip Push-Up",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "prone",
+  "grip_orientation": "pronated",
+  "grip_width": "narrow",
+  "stance_width": "narrow",
+  "stance_kind": "parallel",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Assume a high plank position on the floor with your feet together and your body forming a straight line from heels to head.",
+      "Place your hands directly beneath your shoulders or slightly inside shoulder width, with fingers pointing forward or slightly angled outward.",
+      "Brace your core, squeeze your glutes, and screw your hands into the floor to set your shoulders."
+    ],
+    "steps": [
+      "Inhale and lower your chest toward the floor by bending your elbows directly backward, keeping them tucked tightly against your ribs.",
+      "Descend under control until your chest gently touches or hovers just above the floor.",
+      "Exhale and press forcefully through your palms, extending your elbows to return to the starting position."
+    ],
+    "breathing": "Inhale smoothly as you lower your body toward the floor, and exhale forcefully as you press up to lockout.",
+    "cues": [
+      "Keep elbows skimming your ribs.",
+      "Body in a rigid plank.",
+      "Push the floor away."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbows outward away from the torso.",
+        "correction": "Actively track your elbows straight backward along your ribcage throughout the entire repetition."
+      },
+      {
+        "fault": "Sagging at the hips or hyper-extending the lower back.",
+        "correction": "Squeeze the glutes and pull the belly button toward the spine to maintain a rigid plank."
+      },
+      {
+        "fault": "Cutting the range of motion short at the bottom.",
+        "correction": "Lower your body until your chest nearly touches the floor before reversing the movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you experience wrist discomfort from the narrow angle, slightly angle the fingers outward or perform the movement on push-up handles or parallettes."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

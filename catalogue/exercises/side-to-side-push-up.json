@@ -1,0 +1,227 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Side to Side Push Ups",
+      "kind": "common"
+    },
+    {
+      "text": "Side to Side Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Shifting Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Lateral Push-Up",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push",
+      "anti-rotation",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "583"
+  },
+  "id": "oec:side-to-side-push-up",
+  "instructions": {
+    "setup": [
+      "Set up in a high plank position on the floor with your hands slightly wider than standard push-up width.",
+      "Engage your core, squeeze your glutes, and establish a straight line from your head to your heels."
+    ],
+    "steps": [
+      "Shift your weight toward your right side as you bend your elbows, lowering your chest directly over your right hand.",
+      "Press firmly into the floor to return your torso back to the centered top plank position.",
+      "Lower your chest directly over your left hand on the next repetition.",
+      "Press back up to the starting center position and continue alternating sides for each rep."
+    ],
+    "breathing": "Inhale as you lower toward one side and exhale forcefully as you press back up to the center.",
+    "cues": [
+      "Chest over hand.",
+      "Stay rigid like a plank.",
+      "Drive straight through the palm."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hips rotating or sagging toward the floor during the descent.",
+        "correction": "Squeeze the glutes and brace the abdominals to keep the pelvis level throughout the movement."
+      },
+      {
+        "fault": "Flaring the working elbow out perpendicular to the torso.",
+        "correction": "Keep the working elbow tracking at roughly a forty-five degree angle relative to your ribs."
+      },
+      {
+        "fault": "Rushing through the center transition without establishing full lockout.",
+        "correction": "Return completely to the symmetrical plank position before shifting to the other side."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not compromise shoulder alignment by forcing excessive depth if wrist or anterior shoulder discomfort occurs."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Side-to-Side Push-Up",
+  "previous_ids": [
+    "oec:side-to-side-push-ups"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Side to Side Push Ups",
+        "url": "https://wger.de/en/exercise/583/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "nate303303"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:push-up"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:push-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "wide"
+    },
+    "position": "prone",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A push-up variation where the body descends over one hand at a time to overload each side alternately."
+}

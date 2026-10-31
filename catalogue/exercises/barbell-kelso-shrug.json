@@ -1,0 +1,232 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Kelso Shrug",
+      "kind": "common"
+    },
+    {
+      "text": "Chest-Supported Barbell Shrug",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Barbell Kelso Shrug",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Barbell Shrug",
+      "kind": "common"
+    },
+    {
+      "text": "Scapular Barbell Shrug",
+      "kind": "common"
+    },
+    {
+      "text": "kelso shrugs",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "trapezius-middle",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "protraction"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "strap"
+    ],
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "adjustable-bench",
+        "bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2672"
+  },
+  "id": "oec:barbell-kelso-shrug",
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an incline of 30 to 45 degrees.",
+      "Lie prone with your chest fully supported on the pad and your feet anchored firmly on the floor behind you.",
+      "Grasp the barbell placed beneath the bench using a pronated, shoulder-width grip, letting your arms hang fully extended toward the floor."
+    ],
+    "steps": [
+      "Begin with your arms fully extended and your shoulder blades protracted forward under the weight.",
+      "Without bending your elbows or lifting your chest off the bench, pull your shoulder blades straight back toward each other.",
+      "Pause briefly at the top of the contraction, squeezing your mid-back firmly.",
+      "Lower the barbell under control, allowing your shoulder blades to spread apart and protract back to the starting hanging position."
+    ],
+    "breathing": "Exhale as you retract your shoulder blades, and inhale as you lower the barbell back to full protraction.",
+    "cues": [
+      "Pinch your shoulder blades",
+      "Keep arms locked straight",
+      "Move only your back, not your elbows"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the elbows to pull the bar, turning the shrug into a row.",
+        "correction": "Keep your arms completely straight throughout the set so the motion comes purely from the shoulder blades."
+      },
+      {
+        "fault": "Extending the lumbar spine and lifting the torso off the bench pad.",
+        "correction": "Keep your sternum glued to the bench support pad to isolate the upper back."
+      },
+      {
+        "fault": "Shrugging the shoulders upward toward the ears.",
+        "correction": "Focus on retracting horizontally and pulling the shoulder blades together rather than elevating them."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the barbell has adequate clearance below the bench so it does not collide with the frame or support legs."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Kelso Shrug",
+  "previous_ids": [
+    "oec:kelso-shrugs"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: kelso shrugs",
+        "url": "https://wger.de/en/exercise/2672/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Friend7857"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-scapular-retraction"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:prone-scapular-retraction"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:band-scapular-retraction"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "prone",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A chest-supported barbell exercise that isolates scapular retraction to target the middle and lower trapezius and rhomboids."
+}

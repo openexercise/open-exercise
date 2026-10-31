@@ -1,0 +1,245 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Barbell Step Back Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse Barbell Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Backward Lunge",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "squat-rack",
+        "power-rack"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1830"
+  },
+  "id": "oec:barbell-reverse-lunge",
+  "instructions": {
+    "setup": [
+      "Set a barbell in a rack at approximately mid-chest height.",
+      "Step under the bar and position it across your upper trapezius in a high-bar rack position.",
+      "Grip the bar firmly outside shoulder width, unrack the weight by extending your hips and knees, and take one to two steady steps back into a hip-width stance."
+    ],
+    "steps": [
+      "Brace your core and step backward with one leg, landing smoothly on the ball of the rear foot.",
+      "Lower your hips under control until your front thigh is roughly parallel to the floor and your back knee gently taps or hovers just above the ground.",
+      "Drive firmly through the heel and midfoot of the lead leg while extending both the lead knee and hip.",
+      "Bring the back foot forward to return to the starting hip-width position.",
+      "Complete the desired repetitions on one side before switching, or alternate legs as programmed."
+    ],
+    "breathing": "Inhale and brace your core prior to taking the backward step, hold your breath through the descent, and exhale forcefully as you drive back to the standing position.",
+    "cues": [
+      "Keep your chest proud and torso upright.",
+      "Drive through the front heel.",
+      "Step straight back on tracks, not on a tightrope."
+    ],
+    "common_faults": [
+      {
+        "fault": "Stepping back directly behind the lead foot in a narrow tandem line, compromising balance.",
+        "correction": "Maintain hip-width foot spacing throughout the movement as if your feet are moving on train tracks."
+      },
+      {
+        "fault": "Slamming the rear knee into the floor.",
+        "correction": "Control the descent eccentric phase and lower slowly until the knee gently hovers just above the surface."
+      },
+      {
+        "fault": "Pushing excessively off the rear toes to stand up instead of utilizing the lead leg.",
+        "correction": "Keep most of your weight rooted through the midfoot and heel of the front leg to do the work."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the area behind you is completely clear of plates, benches, or obstacles before stepping back.",
+        "Always perform inside a power rack with safety pins set at hip height in case of a loss of balance."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Barbell Reverse Lunge",
+  "previous_ids": [
+    "oec:barbell-step-back-lunge"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Barbell Step Back Lunge",
+        "url": "https://wger.de/en/exercise/1830/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:reverse-lunge"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:reverse-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-reverse-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-forward-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-walking-lunge"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "wide"
+    },
+    "load_position": "high-bar",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral lower-body compound exercise where a lifter steps backward from a barbell-loaded back squat position to develop the quadriceps and glutes with reduced patellofemoral stress."
+}

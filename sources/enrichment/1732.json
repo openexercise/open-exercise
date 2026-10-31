@@ -1,0 +1,160 @@
+{
+  "is_exercise": true,
+  "name": "Band Face Pull",
+  "summary": "A horizontal pulling exercise using a resistance band anchored at head height to strengthen the rear deltoids, upper back, and rotator cuff.",
+  "aliases": [
+    {
+      "text": "Resistance Band Face Pull",
+      "kind": "common"
+    },
+    {
+      "text": "Face Pull with Band",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "horizontal-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "staggered",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-posterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "infraspinatus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-minor",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "horizontal-abduction",
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "upward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "resistance-band"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "band-tension",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "elastic",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Anchor a resistance band securely around an upright post or rack at approximately eye level.",
+      "Grasp the band with both hands using a neutral or overhand grip, palms facing each other or downward.",
+      "Step back until your arms are fully extended and the band has slight initial tension, adopting a stable staggered stance."
+    ],
+    "steps": [
+      "Pull the center of the band toward your face while driving your elbows high and out to the sides.",
+      "Externally rotate your shoulders as you pull so your hands finish alongside your ears and thumbs point backward.",
+      "Pause briefly at peak contraction to actively squeeze your shoulder blades and rear deltoids.",
+      "Slowly extend your arms forward under control to return to the starting position."
+    ],
+    "breathing": "Exhale as you pull the band toward your face and inhale as you return to arm extension.",
+    "cues": [
+      "Pull the band apart as you pull it toward your eyes.",
+      "Hands finish behind the elbows.",
+      "Keep your chest proud and ribs pulled down."
+    ],
+    "common_faults": [
+      {
+        "fault": "Leaning back and using body sway to pull the band.",
+        "correction": "Brace the core and use a staggered stance to keep the torso stationary throughout the movement."
+      },
+      {
+        "fault": "Pulling the band into the chest instead of the face.",
+        "correction": "Keep the elbows elevated at shoulder height and aim the pull toward your eyes or forehead."
+      },
+      {
+        "fault": "Shrugging the shoulders toward the ears.",
+        "correction": "Keep the shoulder blades depressed and focus on squeezing them together rather than pulling up."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Check the resistance band for tears, cracks, or excessive wear before securing it to the anchor point."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

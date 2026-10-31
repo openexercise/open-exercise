@@ -1,0 +1,112 @@
+{
+  "is_exercise": true,
+  "name": "Overhead Triceps Stretch",
+  "summary": "A static upper-body stretch that targets the triceps brachii, especially the long head, by combining full elbow flexion with overhead shoulder flexion.",
+  "aliases": [
+    {
+      "text": "Behind-the-Neck Triceps Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Overhead Triceps Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Triceps Stretch",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "muscles": [
+    {
+      "muscle": "triceps-long-head",
+      "role": "stretched"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "stretched"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": []
+    }
+  ],
+  "load_kind": "none",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand or sit tall with your spine neutral and shoulders relaxed.",
+      "Raise one arm overhead and bend at the elbow, dropping your palm down toward the center of your upper back."
+    ],
+    "steps": [
+      "Reach overhead with your opposite hand and grasp the raised elbow.",
+      "Gently pull the elbow back and slightly inward until you feel a comfortable stretch along the back of your upper arm.",
+      "Hold the position steadily without bouncing.",
+      "Release carefully and repeat on the opposite arm."
+    ],
+    "breathing": "Breathe smoothly and deeply, using each exhalation to relax deeper into the stretch.",
+    "cues": [
+      "Stand tall through your crown",
+      "Keep your ribs down",
+      "Gently guide the elbow, never force it"
+    ],
+    "common_faults": [
+      {
+        "fault": "Arching the lower back to force the arm further overhead.",
+        "correction": "Keep your core gently braced and ribs drawn down to maintain a neutral spine."
+      },
+      {
+        "fault": "Pushing the head and neck forward.",
+        "correction": "Keep your chin slightly tucked and your head aligned over your shoulders."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid aggressive downward pulling if you have shoulder impingement or elbow discomfort."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

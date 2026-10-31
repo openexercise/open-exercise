@@ -1,0 +1,168 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Kelso Shrug",
+  "summary": "A chest-supported barbell exercise that isolates scapular retraction to target the middle and lower trapezius and rhomboids.",
+  "aliases": [
+    {
+      "text": "Kelso Shrug",
+      "kind": "common"
+    },
+    {
+      "text": "Chest-Supported Barbell Shrug",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Barbell Kelso Shrug",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Barbell Shrug",
+      "kind": "common"
+    },
+    {
+      "text": "Scapular Barbell Shrug",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "trapezius-middle",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "protraction"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "adjustable-bench",
+        "bench"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an incline of 30 to 45 degrees.",
+      "Lie prone with your chest fully supported on the pad and your feet anchored firmly on the floor behind you.",
+      "Grasp the barbell placed beneath the bench using a pronated, shoulder-width grip, letting your arms hang fully extended toward the floor."
+    ],
+    "steps": [
+      "Begin with your arms fully extended and your shoulder blades protracted forward under the weight.",
+      "Without bending your elbows or lifting your chest off the bench, pull your shoulder blades straight back toward each other.",
+      "Pause briefly at the top of the contraction, squeezing your mid-back firmly.",
+      "Lower the barbell under control, allowing your shoulder blades to spread apart and protract back to the starting hanging position."
+    ],
+    "breathing": "Exhale as you retract your shoulder blades, and inhale as you lower the barbell back to full protraction.",
+    "cues": [
+      "Pinch your shoulder blades",
+      "Keep arms locked straight",
+      "Move only your back, not your elbows"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the elbows to pull the bar, turning the shrug into a row.",
+        "correction": "Keep your arms completely straight throughout the set so the motion comes purely from the shoulder blades."
+      },
+      {
+        "fault": "Extending the lumbar spine and lifting the torso off the bench pad.",
+        "correction": "Keep your sternum glued to the bench support pad to isolate the upper back."
+      },
+      {
+        "fault": "Shrugging the shoulders upward toward the ears.",
+        "correction": "Focus on retracting horizontally and pulling the shoulder blades together rather than elevating them."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the barbell has adequate clearance below the bench so it does not collide with the frame or support legs."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

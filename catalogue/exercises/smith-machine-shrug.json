@@ -1,0 +1,215 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Multipress Shrug",
+      "kind": "regional"
+    },
+    {
+      "text": "Smith Shrug",
+      "kind": "common"
+    },
+    {
+      "text": "Smith Machine Shoulder Shrug",
+      "kind": "common"
+    },
+    {
+      "text": "Shrugs on Multipress",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "trapezius-upper",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "levator-scapulae",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "elevation",
+          "depression"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "pull",
+      "vertical-pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "strap"
+    ],
+    "required": [
+      [
+        "smith-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "575"
+  },
+  "id": "oec:smith-machine-shrug",
+  "instructions": {
+    "setup": [
+      "Adjust the Smith machine bar height to approximately mid-thigh level.",
+      "Stand facing the bar with feet hip-width apart and grasp the bar with a shoulder-width pronated grip.",
+      "Rotate the bar to unrack it, standing upright with a braced core and arms fully extended."
+    ],
+    "steps": [
+      "Elevate your shoulders straight up toward your ears in a smooth, controlled motion.",
+      "Pause for a brief contraction at the top of the movement.",
+      "Lower the bar under control until your traps are fully stretched back to the starting position."
+    ],
+    "breathing": "Exhale as you shrug your shoulders upward; inhale as you lower the weight under control.",
+    "cues": [
+      "Shrug straight up to the ears.",
+      "Keep the elbows locked.",
+      "Pause at the peak squeeze."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling the shoulders in a circle at the top.",
+        "correction": "Move strictly up and down along the vertical plane to prevent unnecessary glenohumeral stress."
+      },
+      {
+        "fault": "Bending the elbows to pull the weight higher.",
+        "correction": "Keep arms straight and rely entirely on scapular elevation."
+      },
+      {
+        "fault": "Jutting the head forward during elevation.",
+        "correction": "Keep the neck neutral and chin tucked throughout the set."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the safety catches on the Smith machine are engaged just below your lowest working range."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Smith Machine Shrug",
+  "previous_ids": [
+    "oec:shrugs-on-multipress"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Shrugs on Multipress",
+        "url": "https://wger.de/en/exercise/575/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-shrug"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-shrug"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-shrug"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "load_position": "hip",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A Smith machine variation of the shoulder shrug targeting the upper trapezius and levator scapulae along a fixed vertical track."
+}

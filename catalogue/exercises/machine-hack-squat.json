@@ -1,0 +1,222 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Hack Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Hackenschmidt Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Leg Press on Hackenschmidt Machine",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Sled Hack Squat",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "knee",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "hack-squat-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "375"
+  },
+  "id": "oec:machine-hack-squat",
+  "instructions": {
+    "setup": [
+      "Position your back and head firmly against the angled back pad with your shoulders positioned snugly under the shoulder pads.",
+      "Place your feet on the platform roughly shoulder-width apart, with toes angled slightly outward.",
+      "Extend your legs to lift the carriage off the stops and disengage the safety release handles."
+    ],
+    "steps": [
+      "Inhale, brace your core, and smoothly lower the carriage by bending your knees and hips.",
+      "Descend until your thighs reach at least parallel to the footplate, or as deep as your hip mobility allows without your lower back rounding off the pad.",
+      "Drive through your whole foot, extending your knees and hips to return to the starting position without forcefully hyperextending your knees at the top."
+    ],
+    "breathing": "Inhale and brace your core during the descent, and exhale forcefully as you drive through the sticking point on the ascent.",
+    "cues": [
+      "Keep lower back glued to the pad",
+      "Drive through the midfoot and heel",
+      "Track knees in line with toes"
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the lower back or pelvis to lift off the back pad at the bottom of the movement.",
+        "correction": "Limit the depth of the squat to what your active mobility allows and keep the pelvis anchored against the pad."
+      },
+      {
+        "fault": "Lifting the heels off the footplate during the descent.",
+        "correction": "Move your feet slightly higher on the platform or focus on driving pressure through the whole foot."
+      },
+      {
+        "fault": "Violently locking out the knees at the top of each rep.",
+        "correction": "Stop just short of complete knee hyperextension to keep continuous tension on the quadriceps and protect the joint."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the safety catches are properly set to prevent the sled from bottoming out dangerously in case of muscle failure.",
+        "Re-engage the safety catch handles before stepping out of the machine."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Machine Hack Squat",
+  "previous_ids": [
+    "oec:leg-press-on-hackenschmidt-machine"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Leg Press on Hackenschmidt Machine",
+        "url": "https://wger.de/en/exercise/375/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:hack-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-hack-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:leg-press"
+    }
+  ],
+  "setup": {
+    "load_position": "back",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A machine-based squat variation performed on an angled sled with shoulder pads and back support, heavily loading the quadriceps."
+}

@@ -1,0 +1,210 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Snapdown",
+      "kind": "common"
+    },
+    {
+      "text": "Athletic Position Snap Down",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "plyometric",
+      "power",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "jump",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "eccentric-emphasis",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1576"
+  },
+  "id": "oec:snap-down",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width to shoulder-width apart.",
+      "Reach both arms directly overhead while rising high onto the balls of your feet in triple extension."
+    ],
+    "steps": [
+      "Initiate the movement by rapidly pulling your hips back and down into a universal athletic position.",
+      "Aggressively throw your arms down and back past your hips.",
+      "Land flat-footed with knees softly bent, chest forward over toes, and spine neutral.",
+      "Stick the landing instantly and freeze for one to two seconds with zero unwanted movement or readjustment.",
+      "Reset to the tall standing position before starting the next repetition."
+    ],
+    "breathing": "Inhale as you reach overhead, and exhale sharply as you snap down into the athletic stance.",
+    "cues": [
+      "Get tall, get small.",
+      "Throw your hands into your pockets.",
+      "Stick the landing.",
+      "Absorb the floor silently."
+    ],
+    "common_faults": [
+      {
+        "fault": "Landing purely on the balls of the feet with heels off the ground.",
+        "correction": "Absorb the impact through a full, flat foot with weight distributed through the midfoot and heel."
+      },
+      {
+        "fault": "Knee valgus (knees collapsing inward upon landing).",
+        "correction": "Track your knees outward in line with your middle toes as you descend."
+      },
+      {
+        "fault": "Excessive forward chest drop or rounding of the back.",
+        "correction": "Hinge at the hips while maintaining a proud chest and braced torso."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform on a firm, non-slip surface."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Snap Down",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Snap Down",
+        "url": "https://wger.de/en/exercise/1576/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "mountain.potato"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:box-jump"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:jump-squat"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A plyometric deceleration drill where you rapidly drop from an extended tall stance into a balanced athletic base position to train force absorption."
+}

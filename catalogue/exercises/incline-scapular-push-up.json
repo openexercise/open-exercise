@@ -1,0 +1,217 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Incline Scap Push-Up",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Incline Push-Up Plus",
+      "kind": "common"
+    },
+    {
+      "text": "Bench Scapular Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Incline Shoulder Press Up",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "serratus-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-minor",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "mobility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "bench",
+        "plyo-box",
+        "step"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1716"
+  },
+  "id": "oec:incline-scapular-push-up",
+  "instructions": {
+    "setup": [
+      "Place your hands shoulder-width apart on the edge of a stable bench or elevated box.",
+      "Step your feet back until your body forms a straight line from your heels to your head in an incline plank position.",
+      "Lock your elbows completely and brace your core and glutes."
+    ],
+    "steps": [
+      "Keeping your arms straight, slowly allow your chest to sink toward the bench by pinching your shoulder blades together.",
+      "Pause briefly at the point of maximum scapular retraction without letting your hips sag.",
+      "Press through the heels of your hands to push your chest away from the bench, spreading your shoulder blades as wide apart as possible at the top.",
+      "Hold the fully protracted position for a brief pause before beginning the next repetition."
+    ],
+    "breathing": "Inhale as you allow the chest to lower and shoulder blades retract; exhale smoothly as you push the bench away into full protraction.",
+    "cues": [
+      "Keep arms locked like pillars",
+      "Pinch the blades, then push the bench away",
+      "Move only through the upper back"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the elbows to perform a mini push-up.",
+        "correction": "Keep your elbows locked throughout the entire set; all movement must come exclusively from the shoulder blades gliding across the ribcage."
+      },
+      {
+        "fault": "Sagging at the hips or hyper-extending the lower back.",
+        "correction": "Engage your abdominals and squeeze your glutes to maintain a rigid plank line."
+      },
+      {
+        "fault": "Shrugging shoulders up toward the ears.",
+        "correction": "Depress your shoulders down away from your neck and maintain that distance throughout the movement."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the bench or platform is completely stable and will not slip forward during the movement."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Incline Scapular Push-Up",
+  "previous_ids": [
+    "oec:incline-shoulder-press-up"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Incline Shoulder Press Up",
+        "url": "https://wger.de/en/exercise/1716/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Croak6728"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:scapular-push-up"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:scapular-push-up"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "support",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An elevated bodyweight drill focusing on scapular protraction and retraction to strengthen the serratus anterior and improve shoulder blade control."
+}

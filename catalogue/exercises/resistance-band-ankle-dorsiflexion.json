@@ -1,0 +1,167 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Exercise Band Dorsiflexion",
+      "kind": "common"
+    },
+    {
+      "text": "Band Dorsiflexion",
+      "kind": "common"
+    },
+    {
+      "text": "Resistance Band Tibialis Raise",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "tibialis-anterior",
+        "role": "prime-mover"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "strength",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "isolation-ankle"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "resistance-band"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1241"
+  },
+  "id": "oec:resistance-band-ankle-dorsiflexion",
+  "instructions": {
+    "setup": [
+      "Sit on the floor with your legs extended straight in front of you.",
+      "Secure one end of a resistance band to a sturdy anchor point in front of you.",
+      "Loop the other end around the top of your working foot below the toes, ensuring taut tension with the ankle plantarflexed."
+    ],
+    "steps": [
+      "Pull your toes back toward your shin against the resistance of the band, flexing purely at the ankle joint.",
+      "Pause briefly at the peak of dorsiflexion while keeping the knee straight.",
+      "Slowly reverse the motion, controlling the band as your foot returns to the pointed starting position."
+    ],
+    "breathing": "Exhale as you pull your toes toward your shin; inhale as you slowly return to the start position.",
+    "cues": [
+      "Pull the toes toward the kneecap",
+      "Keep the leg still and move only the ankle",
+      "Control the eccentric return"
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the knee or rotating the hip to compensate.",
+        "correction": "Keep your leg resting flat and isolate movement entirely to the ankle joint."
+      },
+      {
+        "fault": "Letting the band snap the foot forward rapidly.",
+        "correction": "Resist the band through a slow, controlled negative phase to build eccentric strength."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the band is firmly anchored so it does not slip off during the movement."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "elastic"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "band-tension",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Resistance Band Ankle Dorsiflexion",
+  "previous_ids": [
+    "oec:exercise-band-dorsiflexion"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Exercise Band Dorsiflexion",
+        "url": "https://wger.de/en/exercise/1241/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "erikocobra"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:tibialis-raise"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:tibialis-raise"
+    }
+  ],
+  "setup": {
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "An isolation exercise that strengthens the anterior lower leg by pulling the foot upward against band resistance."
+}

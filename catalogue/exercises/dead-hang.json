@@ -1,0 +1,212 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Deadhang",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Passive Hang",
+      "kind": "common"
+    },
+    {
+      "text": "Bar Hang",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "forearm-flexors",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hand-intrinsics",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stretched"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "fingers",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "elevation"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "mobility",
+      "rehabilitation",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-grip",
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "dip-belt",
+      "weight-vest"
+    ],
+    "required": [
+      [
+        "pull-up-bar"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "182"
+  },
+  "id": "oec:dead-hang",
+  "instructions": {
+    "setup": [
+      "Stand beneath a secure overhead pull-up bar or grip a stable edge.",
+      "Grasp the bar with an overhand, roughly shoulder-width grip, wrapping your thumbs securely around it.",
+      "Step or lower off the platform so your full body weight is suspended by your hands with feet clear of the floor."
+    ],
+    "steps": [
+      "Allow your arms to fully straighten and let your shoulders elevate naturally toward your ears.",
+      "Relax your torso, hips, and legs, letting gravity gently traction your spine and shoulders.",
+      "Maintain a firm, unbroken grip on the bar for the target duration.",
+      "Carefully step back onto the platform or floor to finish the set."
+    ],
+    "breathing": "Breathe slowly and deeply into the abdomen throughout the hold to encourage relaxation and decompression.",
+    "cues": [
+      "White knuckles on the bar",
+      "Relax through the spine",
+      "Breathe into the belly"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging or kicking the legs during the hang.",
+        "correction": "Cross your ankles and keep your lower body still and relaxed beneath your hands."
+      },
+      {
+        "fault": "Actively pulling through the elbows or scapulae.",
+        "correction": "Let your arms extend completely and allow your shoulders to rise passively toward your ears."
+      },
+      {
+        "fault": "Dropping abruptly from full height when grip fatigues.",
+        "correction": "Dismount in a controlled manner before your grip fails completely to avoid jarring your joints."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the bar or edge is securely mounted and capable of supporting your weight.",
+        "Keep a stepping stool or box nearby if you cannot easily reach the floor."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Dead Hang",
+  "previous_ids": [
+    "oec:deadhang"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Deadhang",
+        "url": "https://wger.de/en/exercise/182/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "2dPREtEZP221u68Akf0JImv5L48"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:hangboard-dead-hang"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:hangboard-sloper-hang"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "hanging"
+  },
+  "status": "active",
+  "summary": "An isometric hang from an overhead bar or edge used to develop grip strength, decompress the spine, and stretch the upper body."
+}

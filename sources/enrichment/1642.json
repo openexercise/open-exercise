@@ -1,0 +1,155 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Hip Thrust",
+  "summary": "A glute-focused hip extension exercise performed with the upper back supported on a bench and a dumbbell held across the hips.",
+  "aliases": [
+    {
+      "text": "DB Hip Thrust",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "hip",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "plyo-box",
+        "step"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Sit on the floor with your upper back resting across the edge of a sturdy flat bench right around the bottom of your shoulder blades.",
+      "Place a dumbbell horizontally across your hip crease, holding it securely with both hands.",
+      "Bend your knees and place your feet flat on the floor roughly shoulder-width apart, positioned so your shins will be vertical at the top of the movement."
+    ],
+    "steps": [
+      "Drive through your heels and extend your hips upward to lift the dumbbell.",
+      "Continue driving until your thighs and torso form a straight horizontal line and your glutes are fully contracted.",
+      "Pause for a brief moment at full lockout while keeping your chin slightly tucked and ribs pulled down.",
+      "Lower your hips under control by hinging at the pelvis until your hips near the floor, then begin the next repetition."
+    ],
+    "breathing": "Inhale as you lower your hips, and exhale forcefully as you drive through your heels to full hip extension.",
+    "cues": [
+      "Drive through the heels.",
+      "Keep your ribs down and chin tucked.",
+      "Squeeze the glutes hard at the top."
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lumbar spine at the top of the movement.",
+        "correction": "Focus on posterior pelvic tilt and squeezing the glutes rather than arching your lower back."
+      },
+      {
+        "fault": "Placing feet too close to or too far from the bench.",
+        "correction": "Adjust your foot position so your shins are completely vertical when your hips reach full extension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a folded mat or towel beneath the dumbbell if the handle causes discomfort across the pelvic bones.",
+        "Ensure the bench is stable and will not slide backward during the set."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

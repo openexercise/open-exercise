@@ -1,0 +1,193 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Back Squat",
+  "summary": "A foundational lower-body compound exercise where a barbell is supported across the upper back while descending into a full squat.",
+  "aliases": [
+    {
+      "text": "Barbell Full Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Back Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Deep Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Full Squat",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "powerlifting",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "load_position": "high-bar",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "squat-rack",
+        "power-rack"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "rir",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set the barbell in a rack at approximately mid-chest height.",
+      "Step under the bar, resting it across your upper trapezius muscles, and grip the bar firmly with both hands outside your shoulders.",
+      "Unrack the bar by extending your hips and knees, take two to three deliberate steps back, and set your feet roughly shoulder-width apart with toes slightly turned out."
+    ],
+    "steps": [
+      "Inhale deeply into your abdomen and brace your core firmly.",
+      "Initiate the descent by bending at your hips and knees simultaneously, keeping your chest proud and your knees tracking in line with your toes.",
+      "Descend smoothly until your hip crease dips below the top of your knees.",
+      "Drive through your mid-foot to stand back up, keeping your torso rigid and extending your hips and knees together until you return to the starting position."
+    ],
+    "breathing": "Inhale and brace your core at the top before descending, hold your breath through the bottom sticking point, and exhale forcefully once past the midpoint of the ascent.",
+    "cues": [
+      "Chest up, knees out",
+      "Tripod foot pressure",
+      "Drive the floor away"
+    ],
+    "common_faults": [
+      {
+        "fault": "Knees caving inward (knee valgus) during the ascent.",
+        "correction": "Actively push your knees outward so they track directly over your middle toes throughout the entire rep."
+      },
+      {
+        "fault": "Excessive forward lean causing the hips to rise faster than the chest (stripper squat).",
+        "correction": "Maintain strong upper back tension and think about pushing your shoulders back into the bar as you reverse out of the hole."
+      },
+      {
+        "fault": "Cutting depth well above parallel.",
+        "correction": "Lower the weight if necessary and descend until your hip crease drops below the top of your patella while maintaining lumbar control."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure rack safety pins are set just below your bottom squat depth.",
+        "Do not allow the lumbar spine to excessively round into flexion under load."
+      ],
+      "spotter": "recommended",
+      "safeties": true
+    }
+  }
+}

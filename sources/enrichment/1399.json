@@ -1,0 +1,165 @@
+{
+  "is_exercise": true,
+  "name": "Standing Roll-Down",
+  "summary": "A standing mobility exercise that gently articulates the spine into full flexion and back up to improve spinal flexibility and hamstring range of motion.",
+  "aliases": [
+    {
+      "text": "Roll Down",
+      "kind": "common"
+    },
+    {
+      "text": "Pilates Roll-Down",
+      "kind": "common"
+    },
+    {
+      "text": "Spinal Roll-Down",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "mobility",
+      "pilates",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "spinal-flexion",
+      "mobility-drill",
+      "stretch"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "stretched"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with your feet hip-width apart and parallel.",
+      "Unlock your knees with a soft micro-bend and let your arms hang relaxed at your sides.",
+      "Lengthen through the crown of your head and gently engage your core."
+    ],
+    "steps": [
+      "Drop your chin toward your chest and begin rolling forward, articulating one vertebra at a time through your cervical spine.",
+      "Continue curling down sequentially through your upper, middle, and lower back, letting your arms and head dangle freely.",
+      "Allow your hips to hinge slightly as your hands reach toward the floor, feeling a gentle stretch along your posterior chain.",
+      "Pause briefly at the bottom of the movement, taking a calm breath.",
+      "Draw your navel toward your spine, squeeze your glutes lightly, and slowly unroll your spine from bottom to top until returning to the upright starting position."
+    ],
+    "breathing": "Exhale as you roll down vertebrae by vertebrae, inhale and pause at the bottom, then exhale as you rebuild and roll back up to standing.",
+    "cues": [
+      "Peel down one vertebra at a time",
+      "Let your head hang like a heavy weight",
+      "Keep the knees soft, not locked",
+      "Stack the spine from bottom to top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hinging at the hips with a flat back instead of curving the spine",
+        "correction": "Focus on rounding sequentially through the neck and upper back first, curling inward like a rolling wave."
+      },
+      {
+        "fault": "Locking the knees out completely",
+        "correction": "Maintain a soft bend at the knees to alleviate excessive strain on the lower back and hamstring origins."
+      },
+      {
+        "fault": "Carrying tension in the shoulders or neck",
+        "correction": "Consciously relax your neck and shoulders, allowing gravity to pull your head and arms down."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forced spinal flexion if experiencing acute lumbar disc herniation, severe osteoporosis, or radiating sciatic pain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

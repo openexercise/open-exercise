@@ -1,0 +1,1 @@
+[{"type":"regression-of","target":"oec:dumbbell-wrist-curl"},{"type":"substitute-for","target":"oec:dumbbell-wrist-curl"},{"type":"regression-of","target":"oec:barbell-wrist-curl"},{"type":"substitute-for","target":"oec:barbell-wrist-curl"},{"type":"substitute-for","target":"oec:cable-wrist-curl"}]

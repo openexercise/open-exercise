@@ -1,0 +1,209 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Shoulder Internal Rotation (Cable)",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Internal Rotation",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Standing Cable Internal Rotation",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "subscapularis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "synergist"
+      },
+      {
+        "muscle": "teres-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "internal-rotation"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "rotation"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1728"
+  },
+  "id": "oec:cable-shoulder-internal-rotation",
+  "instructions": {
+    "setup": [
+      "Set the cable pulley to elbow height and attach a single D-handle.",
+      "Stand perpendicular to the cable machine with your working arm closest to the pulley.",
+      "Grasp the handle with a neutral grip, bend your working elbow to 90 degrees, and pin the upper arm firmly against your side."
+    ],
+    "steps": [
+      "Begin with your forearm pointing outward toward the pulley, maintaining tension on the cable.",
+      "Rotate your shoulder to pull your forearm smoothly inward across your abdomen while keeping your elbow pinned to your flank.",
+      "Pause momentarily once your forearm contacts or approaches your stomach.",
+      "Slowly reverse the rotation, returning your forearm outward under control to the starting position without allowing the elbow to drift away."
+    ],
+    "breathing": "Exhale as you rotate inward toward your torso; inhale as you slowly return to the starting position.",
+    "cues": [
+      "Elbow pinned to your ribs.",
+      "Move only the forearm.",
+      "Keep the torso perfectly still."
+    ],
+    "common_faults": [
+      {
+        "fault": "Allowing the elbow to swing away from the torso during the rotation.",
+        "correction": "Keep the elbow glued to your flank, or roll up a small towel and hold it between your elbow and side throughout the set."
+      },
+      {
+        "fault": "Rotating the torso to swing the weight inward.",
+        "correction": "Brace the core, square your hips and shoulders, and isolate movement strictly to the shoulder joint."
+      },
+      {
+        "fault": "Using excessively heavy weight.",
+        "correction": "Select a light, controlled load that allows a full range of motion without momentum."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not force rotation past a comfortable active range of motion, especially if rehabbing a shoulder injury."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Cable Shoulder Internal Rotation",
+  "previous_ids": [
+    "oec:shoulder-internal-rotation-cable"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Shoulder Internal Rotation (Cable)",
+        "url": "https://wger.de/en/exercise/1728/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "barry"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-side-lying-internal-rotation"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A rotator cuff isolation exercise targeting the subscapularis by pulling resistance inward across the torso."
+}

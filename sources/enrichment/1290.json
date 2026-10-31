@@ -1,0 +1,155 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Reverse Curl",
+  "summary": "A standing elbow-flexion exercise using an overhand grip to target the brachialis, brachioradialis, and forearm extensors.",
+  "aliases": [
+    {
+      "text": "Reverse Grip Barbell Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse Barbell Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Overhand Barbell Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "brachialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-extensors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "ez-bar"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and knees soft.",
+      "Grip the barbell with an overhand (pronated) grip at approximately shoulder width.",
+      "Allow the bar to rest against the front of your thighs with your arms fully extended and elbows tucked close to your torso."
+    ],
+    "steps": [
+      "Brace your core and lock your upper arms firmly against your sides.",
+      "Curl the bar upward by flexing your elbows, keeping your wrists neutral and firm throughout the ascent.",
+      "Continue lifting until your forearms are nearly vertical and you achieve a strong contraction in the brachialis and forearms.",
+      "Lower the bar under control along the same path back to full elbow extension."
+    ],
+    "breathing": "Exhale as you curl the bar up; inhale as you lower it under control.",
+    "cues": [
+      "Keep knuckles facing forward and wrists rigid.",
+      "Pin your elbows to your sides.",
+      "Control the descent; don't let the weight drop."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to use momentum.",
+        "correction": "Reduce the load, brace your midsection, and keep your torso upright throughout the set."
+      },
+      {
+        "fault": "Letting the wrists bend backward into hyperextension under load.",
+        "correction": "Actively squeeze the bar and keep the wrists straight or slightly extended to protect the joint."
+      },
+      {
+        "fault": "Drifting the elbows forward or flaring them wide.",
+        "correction": "Keep your upper arms locked in place beside your ribcage to isolate elbow flexion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If straight-bar pronation causes outer wrist or forearm discomfort, switch to an EZ-bar to reduce joint strain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "is_exercise": true,
+  "name": "Isometric Neck Lateral Flexion",
+  "summary": "A self-resisted isometric exercise that strengthens the lateral cervical stabilizers by pressing the head sideways against hand resistance without movement.",
+  "aliases": [
+    {
+      "text": "Left neck stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Isometric Lateral Neck Flexion",
+      "kind": "common"
+    },
+    {
+      "text": "Self-Resisted Isometric Neck Lateral Flexion",
+      "kind": "common"
+    },
+    {
+      "text": "Side Neck Isometric Hold",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "strength",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "isolation-neck"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "sternocleidomastoid",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "levator-scapulae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "splenius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deep-neck-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "cervical-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "load_convention": "not-applicable",
+  "duration_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Sit upright in a chair or stand with a tall, neutral spine and relaxed shoulders.",
+      "Place the palm of one hand flat against the side of your head, just above the ear."
+    ],
+    "steps": [
+      "Gently press your head sideways toward your hand while pressing back with equal force with your palm so no movement occurs.",
+      "Hold the isometric contraction steadily for the intended duration.",
+      "Gradually ease off the pressure and return to neutral before performing on the other side."
+    ],
+    "breathing": "Breathe smoothly and continuously throughout the contraction without holding your breath.",
+    "cues": [
+      "Match the force evenly",
+      "Keep shoulders down",
+      "Breathe through the hold"
+    ],
+    "common_faults": [
+      {
+        "fault": "Shrugging the shoulder toward the ear during the press.",
+        "correction": "Actively keep both shoulders depressed and relaxed throughout the hold."
+      },
+      {
+        "fault": "Pushing with excessive force causing strain or head deviation.",
+        "correction": "Apply gentle, submaximal pressure and ensure your head remains completely stationary."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Begin with light resistance to avoid cervical strain.",
+        "Stop immediately if you experience dizziness, sharp pain, or tingling radiating down the arm."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

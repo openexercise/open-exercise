@@ -1,0 +1,240 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Seal Row",
+      "kind": "common"
+    },
+    {
+      "text": "Bench Pull",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Barbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Barbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Rowing, Lying on Bench",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "downward-rotation"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "510"
+  },
+  "id": "oec:barbell-seal-row",
+  "instructions": {
+    "setup": [
+      "Set up a dedicated seal row bench or elevate a flat bench securely on stable blocks or pins within a rack.",
+      "Place a loaded barbell underneath the bench directly beneath your chest.",
+      "Lie face down on the bench with your forehead or chin near the edge and your torso fully supported.",
+      "Reach down and grasp the barbell with a pronated grip, slightly wider than shoulder width."
+    ],
+    "steps": [
+      "Engage your upper back and take the slack out of the bar, keeping your neck in a neutral alignment.",
+      "Pull the bar vertically upward by driving your elbows toward the ceiling and retracting your shoulder blades.",
+      "Continue pulling until the barbell lightly touches the underside of the bench.",
+      "Pause momentarily at the top to maximally contract your back muscles.",
+      "Lower the barbell under control back to a full dead hang with elbows extended."
+    ],
+    "breathing": "Inhale before initiating the pull, hold your breath during the initial effort, and exhale as you lower the barbell back to the starting hang.",
+    "cues": [
+      "Lead with the elbows.",
+      "Pinch your shoulder blades around the bench.",
+      "Keep your chest glued to the pad."
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the chest or hyperextending the lower back off the bench to gain momentum.",
+        "correction": "Keep your sternum pressed firmly into the bench throughout the entire repetition."
+      },
+      {
+        "fault": "Cutting the range of motion short at the top or bottom.",
+        "correction": "Ensure the bar reaches the underside of the bench and return to a full hang with extended arms on every rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the bench elevation is completely stable and cannot tip or slide when loaded."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Seal Row",
+  "previous_ids": [
+    "oec:rowing-lying-on-bench"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Rowing, Lying on Bench",
+        "url": "https://wger.de/en/exercise/510/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-bent-over-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-bent-over-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:chest-supported-dumbbell-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:incline-dumbbell-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:pendlay-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "prone"
+  },
+  "status": "active",
+  "summary": "A chest-supported horizontal barbell row performed lying face-down on an elevated bench to isolate the upper back without lower-back strain."
+}

@@ -1,0 +1,175 @@
+{
+  "is_exercise": true,
+  "name": "Close-Grip Barbell Upright Row",
+  "summary": "A standing compound pull where a barbell or EZ-bar is lifted vertically along the torso using a narrow overhand grip, targeting the upper trapezius and lateral deltoids.",
+  "aliases": [
+    {
+      "text": "Narrow-Grip Barbell Upright Row",
+      "kind": "common"
+    },
+    {
+      "text": "Close-Grip Upright Row",
+      "kind": "common"
+    },
+    {
+      "text": "Close-Grip EZ-Bar Upright Row",
+      "kind": "common"
+    },
+    {
+      "text": "Front Pull Narrow",
+      "kind": "regional"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "narrow",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-lateral",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "elevation",
+        "upward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell",
+        "ez-bar"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart holding a barbell or EZ-bar with an overhand grip.",
+      "Position your hands narrower than shoulder width, approximately six to eight inches apart.",
+      "Allow the bar to rest against your upper thighs with arms fully extended, shoulders back, and core engaged."
+    ],
+    "steps": [
+      "Pull the bar straight up along your torso by driving your elbows up and out toward the ceiling.",
+      "Continue lifting until the bar reaches mid-chest height, ensuring your elbows remain higher than your wrists.",
+      "Pause briefly at the top of the contraction.",
+      "Lower the bar under control along the same path back to the starting position."
+    ],
+    "breathing": "Inhale before initiating the pull, exhale as you raise the bar, and inhale as you lower it back down.",
+    "cues": [
+      "Lead with the elbows",
+      "Keep the bar close to your shirt",
+      "Stop at mid-chest level"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling the bar too high up to the chin, increasing subacromial shoulder impingement risk.",
+        "correction": "Limit the top of the range of motion to lower- or mid-chest height so elbows stay level with or slightly below the shoulders."
+      },
+      {
+        "fault": "Swinging the torso and using hip momentum to heave the weight upward.",
+        "correction": "Keep your core braced and maintain an upright, stationary torso throughout the lift."
+      },
+      {
+        "fault": "Allowing the wrists to curl or lead above the elbows.",
+        "correction": "Keep wrists relaxed and focused downward while driving primarily through the elbows."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you experience anterior shoulder pain or impingement discomfort, switch to an EZ-bar or widen your grip.",
+        "Do not jerk or bounce the weight at the bottom of the movement."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

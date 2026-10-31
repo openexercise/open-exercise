@@ -1,0 +1,242 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Weighted Step-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Box Step-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Weighted Step-ups",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "lunge",
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "squat-rack",
+      "power-rack"
+    ],
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "plyo-box",
+        "step",
+        "bench"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "722"
+  },
+  "id": "oec:barbell-step-up",
+  "instructions": {
+    "setup": [
+      "Set up a sturdy box or bench roughly at knee height in front of you.",
+      "Unrack a barbell across your upper traps in a high-bar position and take a stable standing posture facing the box."
+    ],
+    "steps": [
+      "Place your lead foot firmly and fully on top of the box.",
+      "Drive through the midfoot and heel of the lead leg to extend your hip and knee, lifting your body upward.",
+      "Step onto the box without pushing off excessively with the trailing foot.",
+      "Briefly reach full extension at the top while maintaining your balance.",
+      "Lower your trailing foot under control back to the floor, keeping the working leg loaded until you touch down."
+    ],
+    "breathing": "Inhale and brace your core before stepping up; exhale once standing tall on the box.",
+    "cues": [
+      "Drive through the front heel",
+      "Do not bounce off the back calf",
+      "Stay tall through the torso"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pushing off heavily with the trailing foot on the floor.",
+        "correction": "Dorsiflex the back ankle and drive almost all effort through the front leg."
+      },
+      {
+        "fault": "Excessive forward torso collapse during the ascent.",
+        "correction": "Keep your chest proud and upper back tightly braced against the barbell."
+      },
+      {
+        "fault": "Using a platform that is excessively high, compromising pelvic alignment.",
+        "correction": "Choose a box height where your hip crease does not sit excessively below your knee at the start."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the box or step is completely stable and will not tip over.",
+        "Clear the floor around you to prevent tripping during descent."
+      ],
+      "spotter": "recommended"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Barbell Step-Up",
+  "previous_ids": [
+    "oec:weighted-step-ups"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Weighted Step-ups",
+        "url": "https://wger.de/en/exercise/722/view-base",
+        "license": "CC0-1.0",
+        "author": "jigglychipmunk"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:step-up"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:step-up"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-forward-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-reverse-lunge"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-walking-lunge"
+    }
+  ],
+  "setup": {
+    "load_position": "high-bar",
+    "position": "standing",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A unilateral lower-body exercise where you step onto an elevated platform with a barbell across your upper back to build quad and glute strength."
+}

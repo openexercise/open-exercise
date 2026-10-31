@@ -1,0 +1,171 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Roman Chair Hip Extension",
+  "summary": "A posterior chain exercise performed on a Roman chair or 45-degree bench holding dumbbells, hinging at the hips with a neutral spine to target the glutes and hamstrings.",
+  "aliases": [
+    {
+      "text": "Roman Chair RDL",
+      "kind": "common"
+    },
+    {
+      "text": "Roman Chair Romanian Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell 45-Degree Hip Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Roman Chair Back Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell 45-Degree Back Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Hyperextension",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "prone",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "roman-chair",
+        "ghd"
+      ]
+    },
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Position yourself on a Roman chair or 45-degree hyperextension apparatus with your feet flat against the footplate and your Achilles tendons secured under the ankle pads.",
+      "Adjust the pelvic pad height so the top edge rests just below your hip crease, allowing full forward flexion without restricting hip movement.",
+      "Grasp a dumbbell in each hand with your arms hanging naturally perpendicular to your torso."
+    ],
+    "steps": [
+      "Lock your spine into neutral alignment and brace your core.",
+      "Lower your torso by hinging strictly at your hips, allowing the dumbbells to hang toward the floor until you feel a deep stretch in your hamstrings.",
+      "Drive your hips firmly into the support pad to reverse the movement, contracting your glutes and hamstrings to return your torso into alignment with your legs.",
+      "Pause briefly at the top without hyperextending your lower back before beginning the next repetition."
+    ],
+    "breathing": "Inhale as you hinge forward under control, and exhale as you extend your hips back to the starting position.",
+    "cues": [
+      "Hinge at the hips, not the waist.",
+      "Drive your hips into the pad.",
+      "Keep your spine rigid and neutral."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding or hyperextending the lower back rather than hinging at the hips.",
+        "correction": "Keep your spine locked in neutral throughout the movement; all movement should occur at the hip joint."
+      },
+      {
+        "fault": "Pad set too high, blocking hip flexion.",
+        "correction": "Lower the support pad so it sits below the anterior superior iliac spine (hip bones), leaving the hip crease completely free to pivot."
+      },
+      {
+        "fault": "Using momentum to swing the torso up.",
+        "correction": "Control the descent and initiate the ascent through deliberate contraction of the glutes and hamstrings."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the locking pin of the apparatus is completely engaged before loading weight.",
+        "Avoid hyperextending the lumbar spine at the peak of the movement."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

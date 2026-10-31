@@ -1,0 +1,229 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Hammer Strength Decline Chest Press",
+      "kind": "brand"
+    },
+    {
+      "text": "Hammerstrength Decline Press",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Decline Machine Chest Press",
+      "kind": "common"
+    },
+    {
+      "text": "Lever Decline Chest Press",
+      "kind": "common"
+    },
+    {
+      "text": "Hammerstrength Decline Chest Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-abdominal",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-adduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "plate-loaded-machine",
+        "selectorized-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1831"
+  },
+  "id": "oec:machine-decline-chest-press",
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so the machine handles sit level with your lower chest.",
+      "Sit back firmly against the pad with your head, upper back, and glutes supported.",
+      "Plant both feet flat on the floor to provide a stable base.",
+      "Grasp the handles with an overhand grip, pull your shoulder blades down and back, and brace your core."
+    ],
+    "steps": [
+      "Press the handles smoothly forward and downward along the machine's track by extending your elbows.",
+      "Continue pressing until your arms are fully extended without hard-locking your elbows.",
+      "Squeeze your chest at full extension for a brief moment.",
+      "Lower the handles under control, feeling a deep stretch across the lower pectorals, until the handles return near chest level."
+    ],
+    "breathing": "Exhale as you press the handles forward; inhale as you control the weight back to the starting position.",
+    "cues": [
+      "Keep your chest proud and shoulders pinned back.",
+      "Press down and through your palms.",
+      "Control the descent; do not let the weight slam."
+    ],
+    "common_faults": [
+      {
+        "fault": "Protracted, rounded shoulders at lockout.",
+        "correction": "Keep your shoulder blades depressed and retracted into the back pad throughout the entire movement."
+      },
+      {
+        "fault": "Seat height set too low or too high.",
+        "correction": "Set the seat so the handles align directly with the lower border of your chest, not up near your shoulders."
+      },
+      {
+        "fault": "Flaring the elbows out excessively.",
+        "correction": "Tuck your elbows to roughly a 45-degree angle relative to your torso as you press."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the seat adjustment pin is fully locked before loading weight."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Machine Decline Chest Press",
+  "previous_ids": [
+    "oec:hammerstrength-decline-chest-press"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Hammerstrength Decline Chest Press",
+        "url": "https://wger.de/en/exercise/1831/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:machine-chest-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-decline-bench-press"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-decline-bench-press"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-decline-bench-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "seated",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A seated machine compound press that targets the lower pectoralis fibers along a guided, downward-converging path."
+}

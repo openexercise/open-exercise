@@ -1,0 +1,154 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Reverse Curl",
+  "summary": "An elbow flexion exercise using an overhand grip to target the brachialis and brachioradialis along with the biceps.",
+  "aliases": [
+    {
+      "text": "Reverse Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse Grip Barbell Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Overhand Barbell Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "brachioradialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-extensors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell",
+        "ez-bar"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and knees slightly unlocked.",
+      "Grasp the barbell with a pronated (overhand) grip roughly shoulder-width apart.",
+      "Let the bar rest against the front of your thighs with your arms fully extended and elbows tucked close to your torso."
+    ],
+    "steps": [
+      "Keeping your upper arms stationary, curl the bar upward by flexing at the elbows.",
+      "Continue lifting until your forearms are close to vertical and you feel a full contraction in your forearms and upper arms.",
+      "Pause briefly at the top while keeping your wrists firm and neutral.",
+      "Lower the bar back down under control to the starting position until your elbows are fully extended."
+    ],
+    "breathing": "Exhale as you curl the weight up, and inhale as you lower it back down.",
+    "cues": [
+      "Knuckles facing forward throughout",
+      "Keep elbows pinned to your sides",
+      "Do not swing the torso"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso to use momentum to initiate the lift.",
+        "correction": "Reduce the load and keep your core braced to isolate the arm flexors."
+      },
+      {
+        "fault": "Allowing the wrists to flex or extend excessively during the curl.",
+        "correction": "Lock your wrists in a rigid, neutral alignment throughout the repetition."
+      },
+      {
+        "fault": "Flaring the elbows outward during the upward phase.",
+        "correction": "Keep elbows tucked close to the ribcage to maintain tension on the intended musculature."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a manageable load to avoid excessive strain on the wrist and elbow joints."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

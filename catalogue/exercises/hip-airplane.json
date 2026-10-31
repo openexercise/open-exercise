@@ -1,0 +1,216 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "McGill Hip Airplane",
+      "kind": "common"
+    },
+    {
+      "text": "Pelvic Rotation on Stance Leg",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-medius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-minimus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "piriformis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "foot-intrinsics",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "internal-rotation",
+          "external-rotation",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "subtalar",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "rehabilitation",
+      "balance",
+      "strength"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "rotation",
+      "balance",
+      "hinge"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "squat-rack",
+      "wall",
+      "kettlebell",
+      "dumbbell"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "2447"
+  },
+  "id": "oec:hip-airplane",
+  "instructions": {
+    "setup": [
+      "Stand tall on one leg with a soft bend in the stance knee.",
+      "Hinge forward at the hips, extending the non-working leg straight behind you until your torso and rear leg form a rigid, continuous line nearly parallel to the floor.",
+      "Extend your arms out to your sides for balance, or lightly hold a stationary object such as a rack or wall for support if needed."
+    ],
+    "steps": [
+      "Keep the stance foot firmly rooted and slowly rotate your pelvis and torso away from the stance leg, opening the hips as far as mobility allows.",
+      "Pause briefly at the peak of external rotation while maintaining trunk alignment and balance.",
+      "Controlled and smoothly, rotate your pelvis back toward the floor and continue turning inward past neutral into hip internal rotation.",
+      "Pause under control, then rotate back open to complete the repetition."
+    ],
+    "breathing": "Maintain steady, rhythmic breathing throughout, exhaling during the active rotations and bracing smoothly into your abdomen.",
+    "cues": [
+      "Move the pelvis around a fixed thigh.",
+      "Tripod foot: big toe, pinky toe, and heel pinned to the floor.",
+      "Keep torso and back leg moving as one solid unit.",
+      "Rotate from the hip, not through the spine."
+    ],
+    "common_faults": [
+      {
+        "fault": "Twisting the lumbar spine rather than rotating at the hip joint.",
+        "correction": "Lock the pelvis and ribcage together; imagine your torso and back leg are a single rigid airplane fuselage."
+      },
+      {
+        "fault": "Allowing the stance knee to collapse into severe valgus.",
+        "correction": "Maintain active glute engagement and keep the knee aligned over your second toe throughout the movement."
+      },
+      {
+        "fault": "Rushing through the range of motion and losing balance.",
+        "correction": "Slow the tempo down or place fingertips on a sturdy rack to master the rotational control before progressing to free-standing reps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If balance or hip mobility is limited, hold onto a rack, bar, or wall to avoid sudden falls."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "per-side",
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Hip Airplane",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Hip Airplane",
+        "url": "https://wger.de/en/exercise/2447/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "TobiasFalk"
+      }
+    ]
+  },
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "single-leg"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral hip mobility and stability exercise performed in a single-leg hinge position by rotating the pelvis open and closed over the stance hip."
+}

@@ -1,0 +1,215 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Curl - With Shoulder Elevated",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell High Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell High Elbow Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Dumbbell High Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Curl  - With Shoulder Elevated",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "radioulnar",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "adjustable-bench"
+    ],
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1666"
+  },
+  "id": "oec:dumbbell-high-biceps-curl",
+  "instructions": {
+    "setup": [
+      "Stand upright holding a dumbbell in one hand with an underhand (supinated) grip.",
+      "Raise your working arm forward until your upper arm is parallel to the floor and your elbow is level with your shoulder.",
+      "Brace your core and keep your torso upright and still."
+    ],
+    "steps": [
+      "Keeping your upper arm fixed and elevated, curl the dumbbell toward your shoulder.",
+      "Squeeze your biceps firmly at peak contraction without letting your elbow drop.",
+      "Lower the dumbbell under control, extending your elbow back out until you feel a full stretch in the biceps.",
+      "Complete all repetitions for one arm before switching to the other side."
+    ],
+    "breathing": "Exhale as you curl the weight toward your shoulder and inhale as you lower it back to the extended position.",
+    "cues": [
+      "Keep the elbow high and still.",
+      "Isolate the forearm movement.",
+      "Control the eccentric stretch."
+    ],
+    "common_faults": [
+      {
+        "fault": "Dropping the elbow as the weight curls inward.",
+        "correction": "Actively hold the upper arm level with the shoulder throughout the entire range of motion."
+      },
+      {
+        "fault": "Using torso momentum to swing the dumbbell up.",
+        "correction": "Reduce the load and keep your spine vertical and core braced."
+      },
+      {
+        "fault": "Rushing the eccentric lowering phase.",
+        "correction": "Lower the weight slowly under tension until the arm is fully extended."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use moderate loads to prevent shoulder fatigue from compromising shoulder stability."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Dumbbell High Biceps Curl",
+  "previous_ids": [
+    "oec:curl-with-shoulder-elevated"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Curl  - With Shoulder Elevated",
+        "url": "https://wger.de/en/exercise/1666/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Shiladree"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-biceps-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-overhead-curl"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated"
+    },
+    "position": "standing"
+  },
+  "status": "active",
+  "summary": "An isolation exercise that targets the biceps brachii by performing an elbow curl while holding the upper arm elevated at shoulder height."
+}

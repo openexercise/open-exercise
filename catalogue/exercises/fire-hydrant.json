@@ -1,0 +1,193 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Quadruped Hip Abduction",
+      "kind": "common"
+    },
+    {
+      "text": "Dirty Dog",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-medius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-minimus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "tensor-fasciae-latae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "piriformis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "abduction",
+          "external-rotation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "mobility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "isolation-hip-abduction"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat",
+      "mini-band",
+      "ankle-weight"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1915"
+  },
+  "id": "oec:fire-hydrant",
+  "instructions": {
+    "setup": [
+      "Start on all fours on an exercise mat, with hands directly under your shoulders and knees under your hips.",
+      "Flatten your back into a neutral spine and brace your core so your hips are level and stable."
+    ],
+    "steps": [
+      "Keeping your knee bent at ninety degrees, raise one leg out to the side away from your midline.",
+      "Lift until your thigh is roughly parallel to the floor, without rotating your torso or shifting your hips excessively.",
+      "Pause briefly at the top to squeeze the glute.",
+      "Lower the knee smoothly back to the starting position without resting your weight fully between reps."
+    ],
+    "breathing": "Exhale as you lift the leg away from the body; inhale as you return to the starting position.",
+    "cues": [
+      "Keep the pelvis square to the floor.",
+      "Move from the hip, not the lower back.",
+      "Imagine balancing a glass of water on your lower back."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the spine or flaring the ribcage to lift the leg higher.",
+        "correction": "Limit the range of motion to what your hip joint can achieve while keeping your back flat and shoulders level."
+      },
+      {
+        "fault": "Shifting all body weight entirely onto the supporting side hip.",
+        "correction": "Press firmly through both hands and keep the supporting hip stacked directly over the grounded knee."
+      }
+    ],
+    "safety": {
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Fire Hydrant",
+  "previous_ids": [
+    "oec:quadruped-hip-abduction"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Quadruped Hip Abduction",
+        "url": "https://wger.de/en/exercise/1915/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "treder"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:quadruped-hip-circle"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:clamshell"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:side-lying-hip-abduction"
+    }
+  ],
+  "setup": {
+    "position": "quadruped",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A bodyweight quadruped exercise that targets the hip abductors and external rotators while challenging core stability."
+}

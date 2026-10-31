@@ -1,0 +1,193 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Overhead Arm Clap",
+      "kind": "common"
+    },
+    {
+      "text": "Claps Over the Head",
+      "kind": "common"
+    },
+    {
+      "text": "Overhead Hand Clap",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-lateral",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "abduction",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "downward-rotation"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "mobility",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1223"
+  },
+  "id": "oec:overhead-clap",
+  "instructions": {
+    "setup": [
+      "Stand tall with your feet shoulder-width apart and your arms resting naturally at your sides.",
+      "Brace your core lightly and keep your chest lifted with shoulders relaxed."
+    ],
+    "steps": [
+      "Raise both arms out to the sides in a wide arc until they meet directly over your head.",
+      "Clap your palms together firmly at the top of the motion.",
+      "Lower your arms back down along the same path under control to the starting position."
+    ],
+    "breathing": "Breathe rhythmically, inhaling as the arms ascend and exhaling as they descend.",
+    "cues": [
+      "Keep elbows long but soft",
+      "Clap directly overhead",
+      "Keep your ribs down and core braced"
+    ],
+    "common_faults": [
+      {
+        "fault": "Arching the lower back when reaching overhead.",
+        "correction": "Engage your abdominals to keep the ribs anchored and the spine neutral."
+      },
+      {
+        "fault": "Shrugging the shoulders aggressively up into the ears.",
+        "correction": "Allow natural scapular upward rotation without excessively tensing the neck."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you experience shoulder impingement or pain overhead, stop short of full abduction or turn the thumbs upward."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Overhead Clap",
+  "previous_ids": [
+    "oec:claps-over-the-head"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Claps over the head",
+        "url": "https://wger.de/en/exercise/1223/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Lynn_McIntyre"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "part-of",
+      "target": "oec:step-jack"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A standing calisthenic drill where the arms are repeatedly raised out to the sides or front to clap overhead."
+}

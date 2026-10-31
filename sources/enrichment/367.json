@@ -1,0 +1,155 @@
+{
+  "is_exercise": true,
+  "name": "Machine Standing Leg Curl",
+  "summary": "A unilateral isolation exercise that targets the hamstrings through knee flexion on a standing leg curl machine.",
+  "aliases": [
+    {
+      "text": "Standing Leg Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Hamstring Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Standing Hamstring Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Leg Standing Leg Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-knee-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_kind": "single-leg",
+  "muscles": [
+    {
+      "muscle": "biceps-femoris",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "semitendinosus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "semimembranosus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gracilis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "sartorius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the machine so the knee of your working leg aligns with the machine's axis of rotation.",
+      "Position the lower leg pad comfortably against the back of your working calf or just below the Achilles tendon.",
+      "Stand upright facing the machine with the front of your thighs supported by the thigh pad and grasp the handles for stability."
+    ],
+    "steps": [
+      "Brace your core and keep your hips pressed gently forward against the support pad.",
+      "Curl the working leg upward by bending your knee as far as comfortable through a full range of motion.",
+      "Squeeze your hamstring forcefully at peak contraction for a brief pause.",
+      "Lower the weight smoothly under control back to the starting position without allowing the weight stack to slam."
+    ],
+    "breathing": "Exhale as you curl the pad toward your glutes, and inhale as you lower the weight back down.",
+    "cues": [
+      "Keep your hips pinned to the pad.",
+      "Drive your heel to your glute.",
+      "Control the descent."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flexing forward at the hips to swing the weight up.",
+        "correction": "Maintain an upright torso and keep your pelvis pressed steadily against the thigh support pad throughout the set."
+      },
+      {
+        "fault": "Rushing the eccentric phase and letting the weight drop.",
+        "correction": "Lower the leg slowly over two to three seconds to maintain constant muscular tension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the pivot point of the machine is aligned directly with your knee joint to prevent excess shearing forces."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

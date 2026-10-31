@@ -1,0 +1,242 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Leverage Machine Iso Row",
+      "kind": "common"
+    },
+    {
+      "text": "Leverage Iso Row",
+      "kind": "common"
+    },
+    {
+      "text": "Plate-Loaded Iso-Lateral Row",
+      "kind": "common"
+    },
+    {
+      "text": "Hammer Strength Row",
+      "kind": "brand"
+    },
+    {
+      "text": "Iso-Lateral Row",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "extension",
+          "horizontal-abduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction",
+          "depression"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "plate-loaded-machine",
+        "selectorized-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "380"
+  },
+  "id": "oec:machine-iso-lateral-row",
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so that the chest pad sits comfortably against your sternum and the handles align with your lower chest.",
+      "Sit facing the pad with your feet planted firmly on the floor or machine footrests.",
+      "Reach forward and take a secure grip on the handles with your arms fully extended and torso braced against the chest pad."
+    ],
+    "steps": [
+      "Initiate the pull by retracting your shoulder blades and driving your elbows straight back alongside your ribcage.",
+      "Continue pulling until your elbows pass your torso, squeezing your back muscles firmly at full contraction.",
+      "Pause momentarily at peak contraction without letting your chest pull away from the pad.",
+      "Lower the weight smoothly under control, allowing your arms to extend fully and your shoulder blades to protract into a complete stretch."
+    ],
+    "breathing": "Exhale as you pull the handles toward your torso and inhale as you return to full extension.",
+    "cues": [
+      "Drive with the elbows.",
+      "Keep your chest glued to the pad.",
+      "Squeeze your shoulder blades together at the finish."
+    ],
+    "common_faults": [
+      {
+        "fault": "Leaning back and lifting the chest off the support pad to use momentum.",
+        "correction": "Keep your sternum pressed firmly into the pad throughout the entire repetition."
+      },
+      {
+        "fault": "Shrugging the shoulders upward during the pull.",
+        "correction": "Actively depress your shoulder blades away from your ears before and during the rowing motion."
+      },
+      {
+        "fault": "Cutting the range of motion short at either the stretch or contraction.",
+        "correction": "Allow your shoulder blades to wrap around your ribs at full extension, and pull until your elbows pass your torso."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the seat pin is fully locked in place before loading weight.",
+        "Control the eccentric phase to avoid letting the weight stack or lever arms slam onto the stops."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-side",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Machine Iso-Lateral Row",
+  "previous_ids": [
+    "oec:leverage-machine-iso-row"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Leverage Machine Iso Row",
+        "url": "https://wger.de/en/exercise/380/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "tuckerm"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:machine-seated-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:chest-supported-dumbbell-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-seated-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-seated-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:single-arm-dumbbell-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "seated",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A chest-supported machine compound pull that targets the lats, mid-back, and biceps with independent arm movement."
+}

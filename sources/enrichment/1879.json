@@ -1,0 +1,167 @@
+{
+  "is_exercise": true,
+  "name": "Incline Dumbbell Y-Raise",
+  "summary": "A prone shoulder raise performed on an incline bench to target the lower trapezius and lateral deltoids through the scapular plane.",
+  "aliases": [
+    {
+      "text": "Incline DB Y-Raise",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Prone Incline Y-Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Chest-Supported Dumbbell Y-Raise",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "prone",
+  "incline_degrees": 45,
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "trapezius-lower",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-lateral",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "supraspinatus",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "adjustable-bench"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to a 30- to 45-degree incline.",
+      "Straddle the bench and lie prone with your chest fully supported by the pad.",
+      "Hold a dumbbell in each hand with arms hanging straight down toward the floor, palms facing inward and thumbs pointed slightly upward."
+    ],
+    "steps": [
+      "Maintain a soft bend in the elbows and brace your torso against the pad.",
+      "Raise both arms diagonally outward at roughly a 30- to 45-degree angle from your torso to form a 'Y' shape.",
+      "Continue raising until your upper arms align roughly with your torso and ears.",
+      "Pause briefly at the top to emphasize lower trapezius contraction.",
+      "Lower the dumbbells smoothly back to the starting hanging position under full control."
+    ],
+    "breathing": "Exhale as you raise the dumbbells into the Y position, and inhale as you lower them.",
+    "cues": [
+      "Thumbs to the ceiling",
+      "Make a wide Y",
+      "Lead with your shoulder blades rotating up, not your traps shrugging to your ears"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive shrugging toward the neck.",
+        "correction": "Focus on depressing and upwardly rotating the scapulae rather than using the upper traps to heave the weight."
+      },
+      {
+        "fault": "Using body momentum or hyperextending the lower back off the pad.",
+        "correction": "Keep your sternum pinned to the bench pad throughout the entire movement; reduce the dumbbell weight if necessary."
+      },
+      {
+        "fault": "Raising arms purely to the side or purely to the front.",
+        "correction": "Maintain a diagonal path roughly midway between a lateral raise and a front raise (in the scapular plane)."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use light weights; this movement isolates relatively small scapular and shoulder muscles."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

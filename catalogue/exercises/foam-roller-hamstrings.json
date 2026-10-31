@@ -1,0 +1,193 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Hamstring Foam Rolling",
+      "kind": "common"
+    },
+    {
+      "text": "Foam Rolling Hamstrings",
+      "kind": "common"
+    },
+    {
+      "text": "Hamstring Foam Roller",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "hamstrings",
+        "role": "stretched"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "extension",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "not-applicable",
+    "force": "not-applicable",
+    "kinetic_chain": "not-applicable",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "foam-roller"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1855"
+  },
+  "id": "oec:foam-roller-hamstrings",
+  "instructions": {
+    "setup": [
+      "Sit on the floor with your legs extended forward and place a foam roller directly under the back of your thighs.",
+      "Place your hands on the floor slightly behind your hips to support your upper body weight.",
+      "Press through your hands to lift your glutes slightly off the floor, transferring your lower body weight onto the roller."
+    ],
+    "steps": [
+      "Slowly roll from the base of your pelvis down toward the back of your knees by pushing and pulling through your hands.",
+      "Pause and hold pressure on any tight or tender spots for several seconds until tension begins to release.",
+      "Rotate your legs slightly inward and outward as you roll to address the medial and lateral hamstring compartments.",
+      "Continue rolling back and forth at a slow, controlled pace for the designated duration."
+    ],
+    "breathing": "Maintain slow, deep, diaphragmatic breathing throughout the drill to encourage muscle relaxation.",
+    "cues": [
+      "Relax the legs completely",
+      "Roll slow, don't rush",
+      "Cross one leg over the other to increase pressure if needed"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling directly over the back of the knee joint.",
+        "correction": "Stop the roller just above the popliteal fossa to avoid compressing nerves and blood vessels behind the knee."
+      },
+      {
+        "fault": "Rolling too quickly across the tissue.",
+        "correction": "Move at an inch per second to give the muscle tissue time to respond and adapt to the pressure."
+      },
+      {
+        "fault": "Sagging through the shoulders and collapsing the chest.",
+        "correction": "Keep your hands pressed firmly into the floor and maintain an active, stable upper body posture."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid rolling directly across the joint capsule behind the knee."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Foam Roller Hamstrings",
+  "previous_ids": [
+    "oec:hamstring-foam-roller"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Hamstring Foam roller",
+        "url": "https://wger.de/en/exercise/1855/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Davidgj32"
+      }
+    ]
+  },
+  "setup": {
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "A self-myofascial release technique using a foam roller to reduce muscle tension and improve tissue mobility in the back of the thighs."
+}

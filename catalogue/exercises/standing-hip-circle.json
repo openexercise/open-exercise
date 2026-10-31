@@ -1,0 +1,189 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Hip Circle",
+      "kind": "common"
+    },
+    {
+      "text": "Hip Circles",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Pelvic Circle",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-medius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductors",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "circumduction"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "circumduction"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "stretch"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1862"
+  },
+  "id": "oec:standing-hip-circle",
+  "instructions": {
+    "setup": [
+      "Stand tall with your feet placed shoulder-width apart and your hands resting on your hips.",
+      "Keep a soft, slight bend in your knees to allow smooth movement through the pelvis."
+    ],
+    "steps": [
+      "Shift your hips forward, then sweep them smoothly out to one side, backward, and around to the other side.",
+      "Trace continuous, controlled circular motions for the desired number of repetitions.",
+      "Pause, reverse direction, and perform an equal number of circles on the opposite side."
+    ],
+    "breathing": "Breathe smoothly and rhythmically without holding your breath throughout the circles.",
+    "cues": [
+      "Draw a wide circle with your belt line.",
+      "Keep your torso upright and relaxed.",
+      "Soft knees, smooth circles."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the upper torso excessively instead of moving the hips.",
+        "correction": "Keep your chest relatively tall and focus movement on rotating the pelvis and hips."
+      },
+      {
+        "fault": "Locking out the knees completely.",
+        "correction": "Maintain a soft knee bend so the hips can move through their full, comfortable range."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Stay within a comfortable range of motion and avoid forcing deep hip pinching or lower-back hyperextension."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Standing Hip Circle",
+  "previous_ids": [
+    "oec:hip-circles"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Hip Circles",
+        "url": "https://wger.de/en/exercise/1862/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Davidgj32"
+      }
+    ]
+  },
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A dynamic standing mobility drill in which the hips rotate in circular motions to warm up and mobilize the pelvic and hip musculature."
+}

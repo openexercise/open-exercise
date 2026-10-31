@@ -1,0 +1,180 @@
+{
+  "is_exercise": true,
+  "name": "Cable Seated Row",
+  "summary": "A seated horizontal cable pull targeting the latissimus dorsi, middle back, and biceps.",
+  "aliases": [
+    {
+      "text": "Seated Cable Row",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Row",
+      "kind": "common"
+    },
+    {
+      "text": "Low Cable Row",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "neutral",
+  "grip_width": "narrow",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction",
+        "depression"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable",
+        "selectorized-machine"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach a close-grip V-handle to the low pulley of a seated cable row station.",
+      "Sit upright with your feet firmly braced on the footrests and knees slightly bent.",
+      "Grasp the handle with both hands, slide your hips back slightly, and establish a tall, braced torso perpendicular to the floor."
+    ],
+    "steps": [
+      "Initiate the pull by retracting your shoulder blades and driving your elbows backward tight along your ribcage.",
+      "Continue pulling until the handle touches your lower abdomen, squeezing your back musculature hard.",
+      "Pause briefly at peak contraction without leaning backward.",
+      "Slowly extend your arms and allow your shoulder blades to protract under control to return the weight stack without rounding your lower back."
+    ],
+    "breathing": "Exhale as you pull the handle toward your abdomen, and inhale as you return the weight under control.",
+    "cues": [
+      "Drive your elbows into your pockets.",
+      "Chest up, proud posture throughout.",
+      "Squeeze your shoulder blades behind you."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive torso swinging to generate momentum.",
+        "correction": "Keep your torso nearly upright and stationary, initiating the movement with the back muscles rather than hip extension."
+      },
+      {
+        "fault": "Shrugging the shoulders up toward the ears during the pull.",
+        "correction": "Depress your scapulae and keep your traps relaxed away from your ears."
+      },
+      {
+        "fault": "Rounding the lumbar spine at the front of the movement.",
+        "correction": "Maintain a neutral spine and soft bend in the knees; allow only the shoulder blades to protract forward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessive body momentum that places sudden shear forces on the lumbar spine.",
+        "Never lock the knees out completely when braced against the footplates."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

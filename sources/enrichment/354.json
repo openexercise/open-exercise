@@ -1,0 +1,175 @@
+{
+  "is_exercise": true,
+  "name": "Cable Lean-Back Lat Pulldown",
+  "summary": "A lat pulldown variation performed with a fixed backward torso lean to target the latissimus dorsi, rhomboids, and middle trapezius.",
+  "aliases": [
+    {
+      "text": "Lat Pull Down (Leaning Back)",
+      "kind": "common"
+    },
+    {
+      "text": "Leaning Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Lean-Back Lat Pulldown",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull",
+      "horizontal-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "downward-rotation",
+        "retraction",
+        "depression"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable",
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the thigh pad on the lat pulldown machine so your knees fit snugly and your feet rest flat on the floor.",
+      "Grasp the lat pulldown bar with a pronated grip slightly wider than shoulder width.",
+      "Sit down under the pads, extend your arms overhead, and lean your torso back roughly 30 to 45 degrees with your chest held high and spine neutral."
+    ],
+    "steps": [
+      "Initiate the pull by drawing your shoulder blades down and back.",
+      "Pull the bar down toward your mid-to-upper chest while driving your elbows downward and behind your torso.",
+      "Pause briefly at the bottom to actively squeeze your lats and mid-back musculature.",
+      "Control the ascent as you allow the bar to return overhead, maintaining the fixed torso angle throughout the repetition."
+    ],
+    "breathing": "Inhale as your arms extend overhead, and exhale smoothly as you pull the bar down toward your chest.",
+    "cues": [
+      "Drive elbows down and back",
+      "Chest up to the bar",
+      "Hold your torso angle steady"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso dynamically back and forth to generate momentum.",
+        "correction": "Lock your torso into a fixed 30 to 45 degree lean before the rep begins and keep it stationary."
+      },
+      {
+        "fault": "Pulling primarily with the biceps without engaging the back.",
+        "correction": "Initiate the repetition by depressing the scapulae before bending your elbows."
+      }
+    ],
+    "safety": {
+      "precautions": [],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

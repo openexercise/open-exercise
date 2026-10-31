@@ -1,0 +1,155 @@
+{
+  "is_exercise": true,
+  "name": "Reverse Lunge",
+  "summary": "A lower-body unilateral exercise where one leg steps backward and lowers into a lunge, developing knee and hip extensor strength and balance.",
+  "aliases": [
+    {
+      "text": "Backward Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Step-Back Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Bodyweight Reverse Lunge",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_width": "hip",
+  "stance_kind": "split",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "vastus-lateralis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "vastus-medialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "vastus-intermedius",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and your hands resting on your hips or held together at your chest.",
+      "Engage your core and keep your chest upright with your gaze directed straight ahead."
+    ],
+    "steps": [
+      "Take a controlled step backward with one foot onto the ball of that foot, maintaining hip-width distance between your feet.",
+      "Lower your body smoothly by bending both knees until your back knee hovers just above the floor and your front thigh is roughly parallel to the ground.",
+      "Drive through the midfoot and heel of your front foot to push yourself back up to the starting position.",
+      "Complete the desired repetitions on one side or alternate legs each rep."
+    ],
+    "breathing": "Inhale as you step back and lower into the lunge; exhale as you press through the front foot to return to standing.",
+    "cues": [
+      "Railroad tracks, not a tightrope",
+      "Weight heavy in the front heel",
+      "Tall torso throughout"
+    ],
+    "common_faults": [
+      {
+        "fault": "Stepping directly behind the front foot, causing loss of balance.",
+        "correction": "Step backward along the same hip-width track you started on."
+      },
+      {
+        "fault": "Letting the front heel lift off the ground as you descend.",
+        "correction": "Take a slightly longer stride back and keep your front foot firmly grounded through the heel and midfoot."
+      },
+      {
+        "fault": "Allowing the front knee to collapse inward (valgus collapse).",
+        "correction": "Actively track your front knee directly over your second toe."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid violently banging the back knee into the floor on the descent."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

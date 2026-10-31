@@ -1,0 +1,282 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Lap Swimming",
+      "kind": "common"
+    },
+    {
+      "text": "Pool Swimming",
+      "kind": "common"
+    },
+    {
+      "text": "Freestyle Swimming",
+      "kind": "common"
+    },
+    {
+      "text": "Swim Sprints",
+      "kind": "common"
+    },
+    {
+      "text": "50m Swim Sprints",
+      "kind": "common"
+    },
+    {
+      "text": "Swimming 50m sprints",
+      "kind": "common"
+    },
+    {
+      "text": "Schwimmen",
+      "kind": "common"
+    },
+    {
+      "text": "Controlled Brisk Swim",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "deltoid",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "extension",
+          "adduction",
+          "internal-rotation",
+          "circumduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "downward-rotation",
+          "protraction",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "rotation"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning",
+      "sport"
+    ],
+    "movement_patterns": [
+      "swim"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "pool"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "961,1574,2695"
+  },
+  "id": "oec:swimming",
+  "instructions": {
+    "setup": [
+      "Enter the pool and prepare at the wall or on the starting block.",
+      "Push off into a streamlined prone glide with your core engaged, hips high near the surface, and head aligned neutrally with your spine."
+    ],
+    "steps": [
+      "Reach forward with one hand entering fingertips-first, initiating a high-elbow catch and pulling water firmly backward toward your hips.",
+      "Push past your hip to complete the stroke, then relax the arm as it recovers smoothly over the surface back toward the front.",
+      "Alternate continuously with the opposite arm while maintaining a rhythmic, narrow flutter kick initiated from the hips.",
+      "Rotate your torso along your long axis with each stroke, turning your head to the side inside the bow wave to inhale before rotating face-down to exhale."
+    ],
+    "breathing": "Exhale continuously underwater through your nose and mouth, turning your head smoothly to the side to inhale quickly when your mouth clears the surface.",
+    "cues": [
+      "Reach long and rotate",
+      "High elbow on the catch",
+      "Kick from the hips, not the knees",
+      "Stay streamlined like a torpedo"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the head forward to breathe, which forces the hips and legs downward and creates drag.",
+        "correction": "Rotate your entire body and roll your head sideways into the breathing pocket, keeping one goggle lens submerged."
+      },
+      {
+        "fault": "Bending the knees excessively during the kick (bicycling).",
+        "correction": "Keep your legs relatively long and initiate small, rapid flutter kicks from the hips and glutes with relaxed ankles."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Only swim in safe, supervised pools or designated areas with a lifeguard or swim partner.",
+        "Ensure adequate water depth before performing starts, dives, or aggressive push-offs."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "distance",
+          "duration"
+        ],
+        "optional": [
+          "pace",
+          "heart-rate",
+          "calories",
+          "cadence",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "distance",
+          "pace",
+          "heart-rate",
+          "calories",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Swimming",
+  "previous_ids": [
+    "oec:swimming-50m-sprints",
+    "oec:schwimmen",
+    "oec:controlled-brisk-swim"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Swimming 50m sprints",
+        "url": "https://wger.de/en/exercise/961/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "abuono"
+      },
+      {
+        "title": "wger: Schwimmen",
+        "url": "https://wger.de/en/exercise/1574/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "delta@romeo"
+      },
+      {
+        "title": "wger: Controlled Brisk Swim",
+        "url": "https://wger.de/en/exercise/2695/view-base",
+        "license": "CC0-1.0",
+        "author": "Original exercise instructions prepared for nalhilal"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:freestyle-swimming"
+    }
+  ],
+  "setup": {
+    "position": "prone"
+  },
+  "status": "active",
+  "summary": "A whole-body cardiovascular aquatic exercise performed by propelling oneself through water using coordinated arm strokes and leg kicks."
+}

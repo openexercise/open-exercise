@@ -1,0 +1,235 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Dumbbell Biceps Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Bicep Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Dumbbell Curl",
+      "kind": "common"
+    },
+    {
+      "text": "DB Curl",
+      "kind": "abbreviation"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "radioulnar",
+        "actions": [
+          "supination",
+          "pronation"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1931"
+  },
+  "id": "oec:dumbbell-curl",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet hip-width apart and knees slightly unlocked.",
+      "Hold a dumbbell in each hand with arms fully extended down by your sides and palms facing inward toward your thighs."
+    ],
+    "steps": [
+      "Pin your upper arms firmly beside your torso.",
+      "Flex your elbows to curl the weights upward, rotating your forearms into a fully supinated (palms-up) position as the dumbbells pass your thighs.",
+      "Continue lifting until your biceps reach a peak contraction near shoulder height, without letting the elbows drift forward.",
+      "Squeeze your biceps at the top for a moment.",
+      "Lower the dumbbells in a controlled motion, gradually rotating your forearms back to neutral as you return to full elbow extension."
+    ],
+    "breathing": "Exhale while curling the weights upward, and inhale as you lower them under control.",
+    "cues": [
+      "Glue your elbows to your sides",
+      "Turn your pinkies up at the top",
+      "Control the descent all the way to straight arms"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso and using hip momentum to heave the dumbbells upward.",
+        "correction": "Brace your core and glutes to keep the torso stationary; reduce load if necessary."
+      },
+      {
+        "fault": "Drifting the elbows forward during the curl, turning it into shoulder flexion.",
+        "correction": "Keep your elbows pinned directly underneath your shoulders throughout the repetition."
+      },
+      {
+        "fault": "Cutting the bottom of the repetition short and failing to reach full elbow extension.",
+        "correction": "Lower the weight until your arms are completely straight to ensure full range of motion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid hyper-extending the lower back while initiating the movement"
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Curl",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dumbbell Curl",
+        "url": "https://wger.de/en/exercise/1931/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "amaesc"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:ez-bar-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-biceps-curl"
+    },
+    {
+      "type": "part-of",
+      "target": "oec:dumbbell-curl-to-overhead-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "rotating"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A standing free-weight isolation movement that trains the elbow flexors, emphasizing the biceps brachii through combined forearm supination and elbow flexion."
+}

@@ -1,0 +1,172 @@
+{
+  "is_exercise": true,
+  "name": "Plank Shoulder Tap",
+  "summary": "A core stability exercise performed in a high plank position where one hand alternately lifts to tap the opposite shoulder while resisting torso rotation.",
+  "aliases": [
+    {
+      "text": "Plank Shoulder Taps",
+      "kind": "common"
+    },
+    {
+      "text": "Shoulder Taps",
+      "kind": "common"
+    },
+    {
+      "text": "High Plank Shoulder Taps",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "anti-rotation",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "mixed",
+    "laterality": "alternating",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "support",
+  "stance_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "obliques",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Assume a high plank position with your hands directly under your shoulders and arms fully extended.",
+      "Set your feet shoulder-width apart or slightly wider to provide a stable base of support.",
+      "Engage your glutes and brace your core so your body forms a straight line from head to heels."
+    ],
+    "steps": [
+      "Shift your weight slightly into your left hand while keeping your hips and shoulders level with the floor.",
+      "Lift your right hand and tap your left shoulder in a controlled motion.",
+      "Return your right hand smoothly to the starting position beneath your shoulder.",
+      "Repeat the movement on the opposite side by lifting your left hand to tap your right shoulder."
+    ],
+    "breathing": "Maintain a continuous, steady breathing pattern throughout the movement; do not hold your breath while bracing.",
+    "cues": [
+      "Keep hips square to the floor.",
+      "No swaying side to side.",
+      "Push the floor away with the supporting hand."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive hip sway or rotation from side to side.",
+        "correction": "Widen your foot stance and consciously squeeze your glutes and core to resist rotational movement."
+      },
+      {
+        "fault": "Sagging the lower back or hiking the hips into a pike position.",
+        "correction": "Reset your plank to ensure a straight alignment from shoulders through hips to ankles."
+      },
+      {
+        "fault": "Rushing the taps with jerky hand movements.",
+        "correction": "Perform each tap slowly with a brief pause on the shoulder to maximize anti-rotation demands."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If wrist discomfort occurs, perform the movement with hands gripping parallel bars or dumbbells on the floor."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "is_exercise": true,
+  "name": "Single-Leg Leg Extension",
+  "summary": "An open-chain machine isolation exercise that targets the quadriceps of one leg at a time to build knee-extensor strength and correct side-to-side imbalances.",
+  "aliases": [
+    {
+      "text": "Single Leg Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Unilateral Leg Extension",
+      "kind": "common"
+    },
+    {
+      "text": "One-Leg Leg Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Leg Machine Leg Extension",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "isolation-knee-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "muscles": [
+    {
+      "muscle": "rectus-femoris",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "vastus-lateralis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "vastus-medialis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "vastus-intermedius",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "knee",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "rir",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Adjust the backrest so that the machine's pivot axis aligns directly with the center of your knee joint.",
+      "Set the lower roller pad so it rests comfortably against the front of your working lower shin, just above the ankle.",
+      "Sit back firmly against the back pad, place one leg behind the roller, and grip the side handles to anchor your pelvis to the seat."
+    ],
+    "steps": [
+      "Smoothly extend your knee by contracting your quadriceps until your working leg is nearly straight.",
+      "Pause briefly at peak contraction without hyperextending the knee or allowing your hips to lift.",
+      "Lower the weight under control back to the starting stretch position, maintaining constant tension.",
+      "Complete the desired repetitions with one leg before repeating with the opposite leg."
+    ],
+    "breathing": "Exhale as you extend the leg and inhale as you lower the weight back down.",
+    "cues": [
+      "Pull yourself down into the seat.",
+      "Drive your shin through the pad.",
+      "Control the descent; don't let the weights slam."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso or using momentum to kick the weight up.",
+        "correction": "Keep your back firmly against the pad and move the weight using only a controlled knee extension."
+      },
+      {
+        "fault": "Allowing the pelvis or hips to lift off the seat during extension.",
+        "correction": "Firmly pull upward on the side handles to keep your glutes anchored flat against the seat cushion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid aggressive knee hyperextension or snapping the joint locked at the top of the movement."
+      ],
+      "spotter": "not-needed"
+    }
+  }
+}

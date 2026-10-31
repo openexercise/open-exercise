@@ -1,0 +1,167 @@
+{
+  "is_exercise": true,
+  "name": "Plank Triceps Extension",
+  "summary": "A calisthenic core and upper-arm exercise where you press from a forearm plank onto your hands by extending the elbows.",
+  "aliases": [
+    {
+      "text": "Plank-to-Elbow Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Plank Press",
+      "kind": "common"
+    },
+    {
+      "text": "Forearm Push-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Bodyweight Triceps Extension",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension",
+      "anti-extension",
+      "push"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "prone",
+  "grip_orientation": "pronated",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "transversus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "external-oblique",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "anconeus",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Start in a forearm plank position with your elbows directly under or slightly forward of your shoulders and your palms flat on the floor.",
+      "Extend your legs behind you with feet hip-width apart, establishing a rigid line from head to heels.",
+      "Brace your core and squeeze your glutes to maintain a neutral spine."
+    ],
+    "steps": [
+      "Press your palms firmly into the floor, using your triceps to extend both elbows simultaneously and lift your forearms off the ground.",
+      "Continue pressing until your arms are fully extended without hyperextending the elbows.",
+      "Slowly reverse the motion under control, lowering your forearms back to the mat without letting your hips sag or hike."
+    ],
+    "breathing": "Inhale as you lower your forearms to the floor; exhale forcefully as you press through your palms to full extension.",
+    "cues": [
+      "Press through the heels of your hands",
+      "Keep your body in a straight plank",
+      "Extend both arms simultaneously",
+      "Control the descent down to the elbows"
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging the hips and extending the lumbar spine during the press.",
+        "correction": "Engage your abdominals and glutes forcefully to maintain a rigid plank throughout the movement."
+      },
+      {
+        "fault": "Pressing up one arm at a time rather than simultaneously.",
+        "correction": "Ensure equal pressure through both hands and extend both elbows together; if too difficult, perform the movement from the knees."
+      },
+      {
+        "fault": "Placing hands too far under the chest, turning the movement into a standard push-up.",
+        "correction": "Keep palms set out in front so the movement isolates elbow extension rather than chest horizontal adduction."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Individuals with elbow tendinopathy or wrist discomfort should progress gradually from the knees or an elevated surface before attempting full floor repetitions."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

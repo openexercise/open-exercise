@@ -1,0 +1,219 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Double Leg Calf Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Heel Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Double Leg Heel Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Bodyweight Calf Raise",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gastrocnemius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "soleus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "tibialis-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "peroneals",
+        "role": "synergist"
+      },
+      {
+        "muscle": "foot-intrinsics",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "toes",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "rehabilitation",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-ankle"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "wall"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1243"
+  },
+  "id": "oec:standing-calf-raise",
+  "instructions": {
+    "setup": [
+      "Stand tall with your feet hip-width apart and toes pointing straight ahead.",
+      "Keep your knees straight but unlocked, with your hands resting on your hips or gently against a wall for balance."
+    ],
+    "steps": [
+      "Press through the balls of both feet and lift your heels as high as possible.",
+      "Pause for a moment at the peak contraction while keeping your weight evenly distributed across the base of your toes.",
+      "Lower your heels with control back to the floor until they lightly touch down."
+    ],
+    "breathing": "Exhale as you press onto your toes and inhale as you lower back to the starting position.",
+    "cues": [
+      "Push straight up through the big toes.",
+      "Squeeze the calves hard at the top.",
+      "Control the descent; do not drop."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rolling onto the outer edges of the feet.",
+        "correction": "Distribute your pressure evenly across the metatarsal heads, specifically driving through the ball of the big toe."
+      },
+      {
+        "fault": "Bending the knees to bounce or generate momentum.",
+        "correction": "Keep the knees extended throughout the set to isolate the triceps surae."
+      },
+      {
+        "fault": "Rushing through reps without a full range of motion.",
+        "correction": "Achieve full plantarflexion at the top with a brief pause, and lower slowly under tension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Place fingertips lightly against a wall or sturdy object if balance is compromised."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Standing Calf Raise",
+  "previous_ids": [
+    "oec:double-leg-calf-raise"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Double Leg Calf Raise",
+        "url": "https://wger.de/en/exercise/1243/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "erikocobra"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:single-leg-standing-calf-raise"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:machine-standing-calf-raise"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:dumbbell-standing-calf-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-standing-calf-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-standing-calf-raise"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:resistance-band-plantarflexion"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A fundamental bodyweight movement that strengthens the gastrocnemius and soleus by raising the heels off the ground."
+}

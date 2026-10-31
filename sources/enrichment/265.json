@@ -1,0 +1,154 @@
+{
+  "is_exercise": true,
+  "name": "Glute Bridge",
+  "summary": "A supine bodyweight exercise targeting the glutes and hamstrings through hip extension.",
+  "aliases": [
+    {
+      "text": "Floor Glute Bridge",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Hip Extension",
+      "kind": "common"
+    },
+    {
+      "text": "Butt Bridge",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "tempo",
+        "rpe",
+        "rir"
+      ]
+    },
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie face up on the floor with your knees bent and feet flat on the ground, hip-width apart.",
+      "Position your heels approximately six to twelve inches away from your buttocks so your shins are nearly vertical at full extension.",
+      "Rest your arms flat along your sides with palms facing down and engage your core to flatten your lower back slightly."
+    ],
+    "steps": [
+      "Drive through your heels to extend your hips upward off the floor.",
+      "Continue raising your pelvis until your knees, hips, and shoulders form a straight line.",
+      "Squeeze your glutes firmly at the top for a brief pause without hyperextending your lower back.",
+      "Lower your hips under control back to the starting position on the floor."
+    ],
+    "breathing": "Exhale as you drive through your heels and lift your hips; inhale as you lower back down to the floor.",
+    "cues": [
+      "Drive through the heels",
+      "Ribs down, pelvis tucked",
+      "Squeeze your glutes at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lumbar spine at the top of the movement instead of extending at the hips.",
+        "correction": "Keep your ribcage pulled down and abdominals braced, stopping when your torso forms a straight line from shoulder to knee."
+      },
+      {
+        "fault": "Placing the feet too far forward, shifting tension almost entirely onto the hamstrings.",
+        "correction": "Bring your feet closer to your hips so that your shins are vertical when your hips are fully extended."
+      },
+      {
+        "fault": "Knees collapsing inward during hip extension.",
+        "correction": "Keep your knees tracking in line with your toes throughout the entire range of motion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid pressing through the neck or cervical spine; keep upper back and shoulders grounded."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

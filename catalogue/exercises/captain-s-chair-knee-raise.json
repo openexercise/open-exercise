@@ -1,0 +1,221 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Vertical Knee Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Roman Chair Knee Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Power Tower Knee Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Knieheben Beinhebemaschine",
+      "kind": "regional"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "obliques",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "synergist"
+      },
+      {
+        "muscle": "tensor-fasciae-latae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "depression",
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "roman-chair",
+        "dip-station"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2674"
+  },
+  "id": "oec:captain-s-chair-knee-raise",
+  "instructions": {
+    "setup": [
+      "Step onto the foot pegs of the captain's chair station.",
+      "Rest your forearms securely on the padded rests and grip the forward handles.",
+      "Press firmly down through your forearms to depress your shoulders away from your ears.",
+      "Step your feet off the pegs so your torso is supported by your forearms and your back rests flush against the pad."
+    ],
+    "steps": [
+      "Engage your core and bend your knees slightly.",
+      "Exhale and raise your knees toward your chest by flexing your hips and rounding your pelvis upward.",
+      "Pause momentarily at the top of the movement with your pelvis tilted forward.",
+      "Inhale as you lower your knees back down under control until your legs hang vertically without swinging."
+    ],
+    "breathing": "Exhale forcefully as you lift your knees and curl your pelvis up; inhale smoothly as you lower your legs back to the start.",
+    "cues": [
+      "Push the floor away through your elbows.",
+      "Roll your pelvis up toward your ribcage.",
+      "Control the descent to eliminate swing."
+    ],
+    "common_faults": [
+      {
+        "fault": "Relying on momentum and swinging the legs to achieve height.",
+        "correction": "Pause at the bottom between reps and initiate the lift entirely through abdominal and hip flexor contraction."
+      },
+      {
+        "fault": "Stopping hip flexion before tilting the pelvis upward, turning the exercise purely into a hip flexor lift.",
+        "correction": "Curl the lower back off the pad slightly at the peak to actively recruit the rectus abdominis."
+      },
+      {
+        "fault": "Allowing the shoulders to shrug upward toward the ears.",
+        "correction": "Actively depress your scapulae by pushing down into the forearm pads throughout the entire set."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain shoulder depression to avoid excessive strain on the shoulder girdle and neck.",
+        "Discontinue if you feel sharp pain in the front of the hip or lower back."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Captain's Chair Knee Raise",
+  "previous_ids": [
+    "oec:knieheben-beinhebemaschine"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Knieheben Beinhebemaschine",
+        "url": "https://wger.de/en/exercise/2674/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "fen"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:captain-s-chair-leg-raise"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:hanging-knee-raise"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:hanging-knee-raise"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral",
+      "width": "shoulder"
+    },
+    "position": "support"
+  },
+  "status": "active",
+  "summary": "An abdominal exercise performed in forearm support where the knees are drawn up toward the chest to train the hip flexors and abdominals."
+}

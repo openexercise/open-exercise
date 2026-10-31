@@ -1,0 +1,188 @@
+{
+  "is_exercise": true,
+  "name": "Arch Hang",
+  "summary": "A calisthenics straight-arm exercise where you hang from an overhead bar and retract and depress the shoulder blades while extending the thoracic spine to pull the chest toward the ceiling.",
+  "aliases": [
+    {
+      "text": "Active Arch Hang",
+      "kind": "common"
+    },
+    {
+      "text": "Scapular Pull-Up Hang",
+      "kind": "common"
+    },
+    {
+      "text": "Straight-Arm Scapular Hang",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "vertical-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "isometric",
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "hanging",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "synergist"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "retraction"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "fingers",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "pull-up-bar",
+        "gymnastic-rings"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "resistance-band"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration",
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Grasp an overhead pull-up bar with an overhand, shoulder-width grip.",
+      "Hang with your feet off the floor, arms fully extended overhead, starting in a relaxed dead hang."
+    ],
+    "steps": [
+      "Depress your scapulae by pulling your shoulder blades down away from your ears.",
+      "Squeeze your shoulder blades together into retraction while extending your upper chest toward the bar.",
+      "Keep your elbows locked straight as your torso tilts backward into an arched posture.",
+      "Hold this arched position for the target duration, or lower under control back into a dead hang to complete a repetition."
+    ],
+    "breathing": "Breathe continuously and smoothly, exhaling slightly as you pull into the arch and maintaining steady diaphragmatic breaths during a hold.",
+    "cues": [
+      "Drive your shoulder blades down into your back pockets.",
+      "Chest to the sky, arms stay locked.",
+      "Break the bar apart to engage your lats."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the elbows to pull higher.",
+        "correction": "Keep arms completely straight; all movement must come exclusively from the shoulder blades and upper back."
+      },
+      {
+        "fault": "Excessive arching through the lower back rather than extending the thoracic spine.",
+        "correction": "Maintain moderate abdominal tension and focus on opening and lifting the chest toward the ceiling."
+      },
+      {
+        "fault": "Shrugging the shoulders toward the ears.",
+        "correction": "Actively depress your scapulae before attempting to retract and arch."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the pull-up bar is secure and the drop zone below is clear of obstructions.",
+        "Avoid forcefully hyperextending the lumbar spine if experiencing lower back sensitivity."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

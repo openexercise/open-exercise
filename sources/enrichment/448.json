@@ -1,0 +1,199 @@
+{
+  "is_exercise": true,
+  "name": "Pendlay Row",
+  "summary": "A strict barbell row variation pulled explosively from a dead stop on the floor with the torso parallel to the ground.",
+  "aliases": [
+    {
+      "text": "Pendelay Row",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Deadstop Barbell Row",
+      "kind": "common"
+    },
+    {
+      "text": "Deadstop Row",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy",
+      "power"
+    ],
+    "movement_patterns": [
+      "horizontal-pull",
+      "pull",
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "bent-over",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "retraction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "weight-plate"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "strap"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand with mid-foot beneath a loaded barbell with standard-diameter plates, feet hip-width apart.",
+      "Hinge deeply at the hips until your torso is approximately parallel to the floor, keeping your back flat and knees slightly bent.",
+      "Grasp the barbell with an overhand grip slightly wider than shoulder width, with arms fully extended."
+    ],
+    "steps": [
+      "Take a deep breath and brace your core, setting your lower back into rigid extension.",
+      "Explosively pull the bar off the floor toward your lower chest or upper abdomen by driving your elbows back.",
+      "Touch your torso with the barbell without rising up from your hip hinge.",
+      "Lower the bar under control back to the floor until it comes to a complete dead stop before starting the next rep."
+    ],
+    "breathing": "Inhale and brace your core before initiating the pull, hold your breath through the concentric effort, and exhale as the bar returns to the floor.",
+    "cues": [
+      "Pull from a dead stop every rep.",
+      "Keep your chest parallel to the floor.",
+      "Drive your elbows toward the ceiling.",
+      "Don't use hip momentum to lift the weight."
+    ],
+    "common_faults": [
+      {
+        "fault": "Standing up or using leg drive to heave the barbell upward.",
+        "correction": "Reduce the load and keep your hips and torso locked strictly parallel to the floor."
+      },
+      {
+        "fault": "Rounding the lumbar spine under load.",
+        "correction": "Set your hips back, engage the hamstrings, and lock your spinal erectors in neutral before pulling."
+      },
+      {
+        "fault": "Bouncing the bar off the floor instead of coming to a full rest.",
+        "correction": "Let the plates settle completely on the floor to eliminate all stretch-shortening rebound."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure standard-diameter bumper or Olympic plates are used so the bar rests at the correct starting height.",
+        "Do not allow the lower back to round dynamically during the explosive pull."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

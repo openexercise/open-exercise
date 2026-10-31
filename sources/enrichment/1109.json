@@ -1,0 +1,155 @@
+{
+  "is_exercise": true,
+  "name": "Cable Concentration Curl",
+  "summary": "A seated unilateral cable curl performed with the upper arm braced against the inner thigh to isolate the elbow flexors.",
+  "aliases": [
+    {
+      "text": "Seated Cable Concentration Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable Concentration Curl",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Cable Concentration Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "supinated",
+  "stance_width": "wide",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "adjustable-bench"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Position a flat bench a short distance in front of a low cable pulley equipped with a single-handle attachment.",
+      "Sit on the edge of the bench with your feet spread wide and flat on the floor.",
+      "Hinge slightly forward at the hips, grasp the handle with an underhand grip, and brace the back of your working triceps firmly against the inside of your same-side thigh just above the knee.",
+      "Place your non-working hand on your opposite thigh or knee for stability."
+    ],
+    "steps": [
+      "Initiate the movement by flexing your elbow, curling the handle upward toward your shoulder.",
+      "Keep your upper arm anchored against your inner thigh without shifting your torso.",
+      "Squeeze your biceps forcefully at peak contraction at the top of the curl.",
+      "Lower the cable handle under control until your arm is fully extended, maintaining continuous tension on the cable.",
+      "Complete all repetitions on one side before switching to the other."
+    ],
+    "breathing": "Exhale as you curl the handle upward; inhale as you lower the weight back down with control.",
+    "cues": [
+      "Lock your elbow into your inner thigh.",
+      "Curl your hand toward your shoulder without rocking.",
+      "Control the descent; do not let the cable snap your arm down."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the torso backward to initiate the curl.",
+        "correction": "Keep your torso stationary and braced, moving only at the elbow joint."
+      },
+      {
+        "fault": "Allowing the elbow or upper arm to drift off the inner thigh.",
+        "correction": "Maintain constant pressure between the triceps and the inner thigh throughout the entire rep."
+      },
+      {
+        "fault": "Cutting the range of motion short at the bottom.",
+        "correction": "Allow the elbow to extend fully under control to take advantage of continuous cable tension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid hyperextending or violently jarring the elbow at the bottom of the movement."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

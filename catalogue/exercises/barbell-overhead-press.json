@@ -1,0 +1,270 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Overhead Press",
+      "kind": "common"
+    },
+    {
+      "text": "Strict Press",
+      "kind": "common"
+    },
+    {
+      "text": "OHP",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Standing Barbell Press",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Press",
+      "kind": "common"
+    },
+    {
+      "text": "Military Press",
+      "kind": "common"
+    },
+    {
+      "text": "Overhead Barbell Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-lateral",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "abduction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "weight-plate"
+    ],
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "squat-rack",
+        "power-rack"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "687,1893"
+  },
+  "id": "oec:barbell-overhead-press",
+  "instructions": {
+    "setup": [
+      "Set a barbell in a rack at approximately mid-chest height.",
+      "Grip the bar slightly wider than shoulder-width with a full, pronated grip, resting it across the heel of your palms.",
+      "Step under the bar so it rests on the anterior deltoids and clavicles with elbows slightly in front of the bar.",
+      "Unrack the bar, take two steps back, and set feet hip-width apart with glutes, quads, and core squeezed tightly."
+    ],
+    "steps": [
+      "Pull your chin slightly backward to clear a vertical path for the bar.",
+      "Press the barbell vertically in a straight line, keeping your forearms vertical and core braced.",
+      "Once the bar clears the forehead, push your head and torso slightly forward underneath the bar.",
+      "Lock out your elbows with the bar centered directly over the midfoot, shrugging your shoulders slightly at the top.",
+      "Lower the bar under control along the same path, tucking the chin back until the bar returns to the upper chest."
+    ],
+    "breathing": "Inhale and brace your abdominal wall before pressing, hold your breath through the sticking point, and exhale at lockout or between reps in the rack position.",
+    "cues": [
+      "Squeeze glutes and brace your abs",
+      "Elbows slightly forward of the bar",
+      "Press straight up, not around your face",
+      "Push your head through the window at lockout"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive lumbar hyperextension, turning the lift into a standing incline bench press.",
+        "correction": "Squeeze the glutes hard and brace the abdominal wall to maintain a neutral spine throughout the lift."
+      },
+      {
+        "fault": "Pressing the bar forward around the face instead of pulling the chin back.",
+        "correction": "Tilt your head back slightly by pulling your chin into your neck, keeping the bar path completely vertical."
+      },
+      {
+        "fault": "Using leg drive to propel the bar upward.",
+        "correction": "Lock out the knees and keep the lower body rigid to ensure all force is generated strictly by the upper body."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If a repetition fails, safely lower the barbell back onto the anterior shoulders and collarbones under control rather than dropping it overhead."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Overhead Press",
+  "previous_ids": [
+    "oec:overhead-press",
+    "oec:overhead-barbell-press"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Overhead Press",
+        "url": "https://wger.de/en/exercise/687/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Vazco"
+      },
+      {
+        "title": "wger: Overhead Barbell Press",
+        "url": "https://wger.de/en/exercise/1893/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "nishant0712"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "part-of",
+      "target": "oec:barbell-clean-and-press"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:dowel-overhead-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "load_position": "front-rack",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A foundational compound exercise that presses a barbell vertically from the upper chest to full lockout overhead while standing."
+}

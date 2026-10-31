@@ -1,0 +1,229 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Box Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Bodyweight Squat to Box",
+      "kind": "common"
+    },
+    {
+      "text": "Chair Squat",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "vastus-lateralis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "vastus-medialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "vastus-intermedius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "plyo-box",
+        "bench",
+        "chair"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "977"
+  },
+  "id": "oec:bodyweight-box-squat",
+  "instructions": {
+    "setup": [
+      "Place a sturdy box, bench, or chair behind you at a height that allows your hips to descend to roughly parallel with your knees.",
+      "Stand facing away from the box with your feet shoulder-width apart and toes angled slightly outward.",
+      "Extend your arms forward for balance or clasp your hands at your chest, bracing your core with an upright torso."
+    ],
+    "steps": [
+      "Hinge at your hips and bend your knees to lower your body under control toward the box.",
+      "Touch down lightly onto the box with your glutes, pausing briefly without completely relaxing your core or rocking backward.",
+      "Press firmly through your midfoot and heels, extending your knees and hips to return to the standing position.",
+      "Lock out your hips fully at the top by contracting your glutes."
+    ],
+    "breathing": "Inhale as you lower toward the box, brace briefly on contact, and exhale forcefully as you drive back up to standing.",
+    "cues": [
+      "Sit back, not just down",
+      "Control the touch",
+      "Drive the floor away",
+      "Keep your chest proud"
+    ],
+    "common_faults": [
+      {
+        "fault": "Rocking backward on the box and using momentum to stand up.",
+        "correction": "Maintain torso angle and core tension on the box, driving straight up without rocking."
+      },
+      {
+        "fault": "Crashing down heavily onto the box and losing muscular tension.",
+        "correction": "Control the eccentric phase smoothly all the way down so contact is gentle and deliberate."
+      },
+      {
+        "fault": "Knees collapsing inward during descent or ascent.",
+        "correction": "Actively track your knees in line with your middle toes throughout the entire rep."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the box or chair is solid, stable, and will not slide during the movement."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Bodyweight Box Squat",
+  "previous_ids": [
+    "oec:box-squat"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Box squat",
+        "url": "https://wger.de/en/exercise/977/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "clafal"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:bodyweight-squat"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:bodyweight-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:bodyweight-squat"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "box",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A lower-body compound exercise where you squat down until sitting lightly on a box or bench before driving back up to a standing position."
+}

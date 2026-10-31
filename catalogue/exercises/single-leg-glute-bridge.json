@@ -1,0 +1,230 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "One-Leg Glute Bridge",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Leg Hip Bridge",
+      "kind": "common"
+    },
+    {
+      "text": "Unilateral Glute Bridge",
+      "kind": "common"
+    },
+    {
+      "text": "Single Leg Glute Bridge",
+      "kind": "common"
+    },
+    {
+      "text": "Unilateral Hip Thrust",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1740,1913"
+  },
+  "id": "oec:single-leg-glute-bridge",
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on the floor or an exercise mat with your knees bent and feet flat on the ground, hip-width apart.",
+      "Rest your arms flat alongside your torso with palms facing down for stability.",
+      "Lift one foot off the floor, either extending the leg outward at roughly forty-five degrees or flexing the hip and knee toward your chest."
+    ],
+    "steps": [
+      "Brace your core and drive through the heel of the planted foot.",
+      "Extend your working hip upward until your knee, hip, and shoulder form a straight line.",
+      "Squeeze your glute firmly at the top of the movement while keeping both sides of your pelvis level.",
+      "Lower your hips under control until your glutes lightly contact the floor, then begin the next repetition."
+    ],
+    "breathing": "Exhale as you drive through your heel to extend the hip; inhale as you lower back down with control.",
+    "cues": [
+      "Drive through the heel",
+      "Keep the hips level",
+      "Squeeze the glute at the top",
+      "Lock the ribs to the pelvis"
+    ],
+    "common_faults": [
+      {
+        "fault": "Overextending the lumbar spine instead of extending the hip.",
+        "correction": "Engage your abdominal muscles to maintain a neutral spine and stop the lift once your hip is fully extended in line with your torso."
+      },
+      {
+        "fault": "Pelvic tilt or rotation where the non-working side drops.",
+        "correction": "Squeeze the working hip's abductors and brace the core to ensure both anterior superior iliac spines remain level throughout the rep."
+      },
+      {
+        "fault": "Placing the planted foot too far forward, shifting tension excessively into the hamstrings.",
+        "correction": "Position the planted heel closer to your glutes so the shin is nearly vertical at full extension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Discontinue if you feel acute sharp pain or cramping in the hamstrings; reposition the heel closer to the body to increase glute engagement."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "tempo",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Single-Leg Glute Bridge",
+  "previous_ids": [
+    "oec:unilateral-hip-thrust"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Single Leg Glute Bridge",
+        "url": "https://wger.de/en/exercise/1740/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Happy"
+      },
+      {
+        "title": "wger: Unilateral Hip Thrust",
+        "url": "https://wger.de/en/exercise/1913/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "cybro"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:glute-bridge"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:glute-bridge"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:dumbbell-single-leg-hip-thrust"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:glute-bridge-march"
+    }
+  ],
+  "setup": {
+    "position": "supine",
+    "range": "full",
+    "stance": {
+      "kind": "single-leg"
+    }
+  },
+  "status": "active",
+  "summary": "A unilateral bodyweight exercise performed supine that targets the glutes and hamstrings while challenging pelvic and trunk stability."
+}

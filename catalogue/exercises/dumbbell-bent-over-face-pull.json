@@ -1,0 +1,245 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Bent-Over Dumbbell Face Pull",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Dumbbell Face Pull",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Bent Over Face Pull",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-posterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "infraspinatus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "teres-minor",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "horizontal-abduction",
+          "external-rotation"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "horizontal-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1639"
+  },
+  "id": "oec:dumbbell-bent-over-face-pull",
+  "instructions": {
+    "setup": [
+      "Stand tall holding a light dumbbell in each hand with an overhand grip.",
+      "Hinge forward at the hips with a flat back and soft knees until your torso is roughly 45 degrees to nearly parallel to the floor.",
+      "Allow your arms to hang naturally beneath your shoulders."
+    ],
+    "steps": [
+      "Initiate the movement by retracting your shoulder blades and pulling your elbows wide and high.",
+      "Rotate your forearms upward as you pull so the dumbbells finish outside your ears or temples at the top of the range.",
+      "Pause briefly at peak contraction, actively squeezing your upper back and rear shoulders.",
+      "Lower the dumbbells under control back to the hanging starting position, feeling a stretch across your upper back."
+    ],
+    "breathing": "Inhale as you lower the dumbbells; exhale forcefully as you pull and externally rotate toward your face.",
+    "cues": [
+      "Lead with the knuckles and elbows, not the forearms.",
+      "Show your hands to the ceiling at the top.",
+      "Keep your chest proud and spine neutral throughout."
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling the dumbbells into the chest or abdomen like a standard bent-over row.",
+        "correction": "Flare your elbows wide and pull toward your eye line to prioritize the rear delts and external rotators."
+      },
+      {
+        "fault": "Using excessive body momentum or bouncing the torso to heave the weight up.",
+        "correction": "Select lighter dumbbells and maintain a rigid, stationary hip hinge throughout each repetition."
+      },
+      {
+        "fault": "Failing to externally rotate at the top, leaving the forearms hanging low.",
+        "correction": "Actively rotate your wrists and thumbs backward so the dumbbells end beside your ears with forearms roughly vertical."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use conservative loading to avoid stressing the rotator cuff tendons and compromising spinal stability.",
+        "Maintain a neutral lumbar spine to prevent lower-back strain while in the hinged position."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Bent-Over Face Pull",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dumbbell Bent Over Face Pull",
+        "url": "https://wger.de/en/exercise/1639/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "AlucardEvil40"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-face-pull"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-face-pull"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:band-face-pull"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-rear-delt-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-bent-over-row-to-external-rotation"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "bent-over",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A bent-over horizontal pull targeting the rear deltoids, upper back, and rotator cuff by pulling dumbbells toward the face with high elbows and external shoulder rotation."
+}

@@ -1,0 +1,237 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Plank Jumping Jacks",
+      "kind": "common"
+    },
+    {
+      "text": "Plank Jacks",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "obliques",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductors",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "abduction",
+          "adduction"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "conditioning",
+      "plyometric"
+    ],
+    "movement_patterns": [
+      "anti-extension",
+      "jump"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1489"
+  },
+  "id": "oec:plank-jack",
+  "instructions": {
+    "setup": [
+      "Begin in a solid high plank position with your hands planted directly beneath your shoulders, arms extended, and fingers spread.",
+      "Engage your core, squeeze your glutes, and start with your feet together so your body forms a straight line from head to heels."
+    ],
+    "steps": [
+      "Brace your core firmly and hop both feet outward slightly wider than shoulder-width, landing softly on the balls of your feet.",
+      "Immediately hop both feet back together to the starting position without letting your hips sag or bounce upward.",
+      "Repeat the hopping motion at a controlled, rhythmic pace while keeping your torso completely stable."
+    ],
+    "breathing": "Maintain steady, rhythmic breathing throughout the movement, exhaling as your feet jump outward and inhaling as they return.",
+    "cues": [
+      "Lock your torso in place",
+      "Light on your toes",
+      "Don't let the hips bounce"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hips sagging toward the floor during the hops.",
+        "correction": "Brace the abdominals and squeeze the glutes to keep the pelvis aligned with the spine."
+      },
+      {
+        "fault": "Hips piking high into the air with each jump.",
+        "correction": "Focus on horizontal foot movement rather than jumping high; keep your shoulders and hips on the same level."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform on a non-slip surface to prevent your hands or feet from sliding during the movement.",
+        "Transition to tapping one foot out at a time if hopping causes lower back discomfort."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Plank Jack",
+  "previous_ids": [
+    "oec:plank-jacks"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Plank Jacks",
+        "url": "https://wger.de/en/exercise/1489/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "jayninja"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:high-plank"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:plank"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:mountain-climber"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:plank-tuck-jump"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:high-plank"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:plank"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "prone",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A dynamic core and conditioning exercise where you jump your feet out and in while maintaining a stable plank position."
+}

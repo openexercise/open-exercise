@@ -1,0 +1,223 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Two-Arm Landmine Press",
+      "kind": "common"
+    },
+    {
+      "text": "Bilateral Landmine Press",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Landmine Press",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-clavicular",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "protraction"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "weight-plate"
+    ],
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "landmine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "346"
+  },
+  "id": "oec:landmine-press",
+  "instructions": {
+    "setup": [
+      "Insert one end of a barbell into a secure landmine swivel or wedge it into a reinforced corner.",
+      "Load the opposite sleeve with the desired weight and secure with a collar.",
+      "Stand facing the loaded end in an athletic shoulder-width stance.",
+      "Cup the very tip of the barbell sleeve with both hands interlaced or stacked, holding it at upper-chest height close to the collarbone with elbows tucked."
+    ],
+    "steps": [
+      "Brace your core, squeeze your glutes, and maintain a slight forward lean that matches the angle of the barbell.",
+      "Press the barbell upward and away along its natural arc until both elbows are fully extended.",
+      "Push actively through your shoulder blades at the top of the movement without overarching your lower back.",
+      "Lower the barbell under control back to the starting position at the upper chest."
+    ],
+    "breathing": "Inhale and brace your abdomen before lowering or while at the chest; exhale forcefully as you press the bar forward and up.",
+    "cues": [
+      "Brace your ribs down",
+      "Press through the collar",
+      "Reach long at the top"
+    ],
+    "common_faults": [
+      {
+        "fault": "Hyperextending the lumbar spine to heave the weight up.",
+        "correction": "Squeeze the glutes, lock the ribcage down, and lean forward slightly into the bar."
+      },
+      {
+        "fault": "Flaring elbows excessively wide to the sides.",
+        "correction": "Keep the elbows tucked at roughly a 45-degree angle in the scapular plane."
+      },
+      {
+        "fault": "Cutting the range of motion short at the top.",
+        "correction": "Extend the elbows fully and allow the scapulae to rotate upward and protract naturally at lockout."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the base of the landmine is securely anchored so it cannot slide during pressing."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Landmine Press",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Landmine press",
+        "url": "https://wger.de/en/exercise/346/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Torsten Linnecke"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-overhead-press"
+    },
+    {
+      "type": "part-of",
+      "target": "oec:landmine-squat-to-press"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "chest",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "An angled overhead press performed by gripping the end of an anchored barbell with both hands and pressing it upward and forward."
+}

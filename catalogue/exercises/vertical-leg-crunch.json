@@ -1,0 +1,203 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Crunches With Legs Up",
+      "kind": "common"
+    },
+    {
+      "text": "Toe Touch Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Legs-Up Crunch",
+      "kind": "common"
+    },
+    {
+      "text": "Toe Reach",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "external-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "174"
+  },
+  "id": "oec:vertical-leg-crunch",
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a mat.",
+      "Raise your legs straight up toward the ceiling so your hips are flexed at approximately ninety degrees.",
+      "Extend your arms upward toward your feet or place your fingertips lightly behind your ears without pulling on your neck."
+    ],
+    "steps": [
+      "Contract your abdominals to curl your upper torso upward, lifting your shoulder blades off the floor.",
+      "Reach your hands toward your toes or ankles at the peak of the contraction.",
+      "Pause briefly at the top to fully squeeze the abdominals.",
+      "Lower your upper back smoothly toward the floor under control without letting your lower back arch or legs drop."
+    ],
+    "breathing": "Exhale as you curl up and reach toward your feet; inhale as you lower back down.",
+    "cues": [
+      "Ribs to hips.",
+      "Reach up, not forward.",
+      "Keep legs steady over hips."
+    ],
+    "common_faults": [
+      {
+        "fault": "Swinging the legs back and forth to generate momentum.",
+        "correction": "Keep the hips stacked at ninety degrees and hold the legs motionless throughout the movement."
+      },
+      {
+        "fault": "Pulling on the head and yanking the cervical spine.",
+        "correction": "Keep the neck neutral with the chin slightly tucked, focusing on lifting the chest with the abdominals."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain a slight bend in the knees if tight hamstrings prevent holding the legs perpendicular to the floor."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "not-applicable",
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Vertical Leg Crunch",
+  "previous_ids": [
+    "oec:crunches-with-legs-up"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Crunches With Legs Up",
+        "url": "https://wger.de/en/exercise/174/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "krisbbb"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:crunch"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:crunch"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:crunch"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:reach-up-crunch"
+    }
+  ],
+  "setup": {
+    "position": "supine"
+  },
+  "status": "active",
+  "summary": "A supine bodyweight abdominal exercise where the legs are held extended vertically while flexing the spine to lift the shoulder blades off the floor."
+}

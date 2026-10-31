@@ -1,0 +1,219 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Clean",
+  "summary": "An explosive Olympic weightlifting movement where a barbell is pulled from the floor and caught across the front deltoids in a deep squat before standing up.",
+  "aliases": [
+    {
+      "text": "Clean",
+      "kind": "common"
+    },
+    {
+      "text": "Squat Clean",
+      "kind": "common"
+    },
+    {
+      "text": "Full Clean",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "olympic-weightlifting",
+      "power",
+      "strength"
+    ],
+    "movement_patterns": [
+      "olympic-lift",
+      "hinge",
+      "squat",
+      "vertical-pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "ballistic",
+      "dynamic"
+    ],
+    "level": "advanced"
+  },
+  "position": "standing",
+  "grip_orientation": "hook",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gastrocnemius",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "elevation",
+        "upward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "weight-plate"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand with feet hip-width apart and the barbell over midfoot, touching or close to the shins.",
+      "Grip the bar slightly outside shoulder width using a hook grip.",
+      "Lower your hips, flatten your back, engage your lats, and look straight ahead with shoulders slightly in front of the bar."
+    ],
+    "steps": [
+      "Initiate the first pull by driving through the midfoot and pushing the floor away, maintaining your torso angle until the bar passes the knees.",
+      "Accelerate into the second pull as the bar crosses the mid-thigh by explosively extending your hips, knees, and ankles simultaneously.",
+      "Shrug forcefully and pull yourself downward under the barbell as it reaches peak height.",
+      "Whip your elbows forward and high to receive the bar across the anterior deltoids in a full front squat.",
+      "Stabilize the bottom position, then stand erect by extending the hips and knees to complete the lift.",
+      "Return the barbell safely to the floor under control or drop onto lifting platforms equipped with bumper plates."
+    ],
+    "breathing": "Take a deep breath and brace your core prior to breaking the bar from the floor, hold through the explosive pull and catch, and exhale after recovering to the standing position.",
+    "cues": [
+      "Push the floor away",
+      "Keep the bar close",
+      "Fast elbows under",
+      "Stand tall out of the hole"
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling primarily with the arms before reaching full hip extension, reducing power transfer.",
+        "correction": "Keep the arms long and relaxed like ropes until the hips and knees achieve complete explosive extension."
+      },
+      {
+        "fault": "Letting the barbell drift forward away from the body during the pull.",
+        "correction": "Engage the lats to sweep the bar inward and keep it close to the thighs and torso throughout the lift."
+      },
+      {
+        "fault": "Slow elbow turnover, leading to catching the bar on the wrists or chest instead of the shoulders.",
+        "correction": "Actively snap your elbows around the bar into a high rack position as you drop into the squat."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Perform on a dedicated weightlifting platform using bumper plates.",
+        "Do not attempt to save a missed lift behind you; push the barbell forward and bail backward if unable to complete the catch or recovery."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

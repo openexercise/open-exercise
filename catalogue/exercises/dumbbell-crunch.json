@@ -1,0 +1,198 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "dumbbell crunches",
+      "kind": "common"
+    },
+    {
+      "text": "weighted crunch with dumbbell",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "obliques",
+        "role": "synergist"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1415"
+  },
+  "id": "oec:dumbbell-crunch",
+  "instructions": {
+    "setup": [
+      "Lie supine on the floor or an exercise mat with your knees bent and feet flat on the ground roughly hip-width apart.",
+      "Hold a single dumbbell horizontally against the center of your chest with both hands."
+    ],
+    "steps": [
+      "Brace your core and draw your ribcage down toward your pelvis.",
+      "Curl your head, shoulders, and upper back off the floor, rounding through the spine while keeping your lower back in contact with the mat.",
+      "Pause for a brief contraction at the top of the crunch.",
+      "Slowly lower your shoulders back to the starting position under control."
+    ],
+    "breathing": "Exhale forcefully as you curl upward to maximize abdominal contraction; inhale as you lower your upper back to the floor.",
+    "cues": [
+      "Ribs to hips",
+      "Keep the dumbbell tight to your chest",
+      "Roll up, don't jerk"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting the entire lower back off the floor into a sit-up.",
+        "correction": "Focus on curling only the thoracic spine and shoulder blades off the floor while keeping the lower back anchored."
+      },
+      {
+        "fault": "Using momentum or throwing the weight forward.",
+        "correction": "Keep the dumbbell pressed firmly against your chest and perform the movement with slow, deliberate spinal flexion."
+      },
+      {
+        "fault": "Excessive neck straining or jutting the chin forward.",
+        "correction": "Keep the chin slightly tucked in a neutral position relative to the torso throughout the repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not allow the dumbbell to shift onto your throat or neck."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Crunch",
+  "previous_ids": [
+    "oec:dumbbell-crunches"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Dumbbell Crunches",
+        "url": "https://wger.de/en/exercise/1415/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "hpmbala@gmail.com"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:crunch"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:weighted-crunch"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-kneeling-crunch"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-crunch"
+    }
+  ],
+  "setup": {
+    "load_position": "chest",
+    "position": "supine",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A weighted crunch variation where a dumbbell is held across the chest to progressively overload the rectus abdominis during spinal flexion."
+}

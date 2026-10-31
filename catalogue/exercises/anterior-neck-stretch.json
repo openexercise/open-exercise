@@ -1,0 +1,152 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Front Neck Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Platysma Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Neck Extension Stretch",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "sternocleidomastoid",
+        "role": "stretched"
+      },
+      {
+        "muscle": "deep-neck-flexors",
+        "role": "stretched"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "cervical-spine",
+        "actions": [
+          "extension"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "isolation",
+    "force": "static",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1011"
+  },
+  "id": "oec:anterior-neck-stretch",
+  "instructions": {
+    "setup": [
+      "Sit upright on a stable chair or stand tall with feet hip-width apart.",
+      "Relax your shoulders down and back, maintaining a neutral spine."
+    ],
+    "steps": [
+      "Slightly part your lips or open your mouth to reduce tension before moving.",
+      "Slowly tilt your head backward, looking up toward the ceiling until you feel a gentle stretch across the front of your neck.",
+      "Gently close your mouth, bringing your lower jaw toward the upper teeth to deepen the stretch along the anterior neck muscles.",
+      "Hold the position comfortably for the designated duration while breathing smoothly.",
+      "Carefully return your head to the neutral starting position."
+    ],
+    "breathing": "Breathe slowly and deeply through your nose throughout the hold; avoid holding your breath.",
+    "cues": [
+      "Lengthen through the throat rather than jamming the back of the neck",
+      "Keep your shoulders depressed and relaxed",
+      "Close the jaw gently to intensify the stretch"
+    ],
+    "common_faults": [
+      {
+        "fault": "Compressing or pinching the cervical spine by aggressively dropping the head back.",
+        "correction": "Focus on lifting the chin upward and elongating the neck rather than purely hinging backward."
+      },
+      {
+        "fault": "Shrugging the shoulders upward toward the ears.",
+        "correction": "Keep your shoulder blades pulled gently downward away from your ears."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Stop immediately if you experience dizziness, tingling, or sharp pinching pain in the neck."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "convention": "not-applicable",
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "reps"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Anterior Neck Stretch",
+  "previous_ids": [
+    "oec:front-neck-stretch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Front neck stretch",
+        "url": "https://wger.de/en/exercise/1011/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "setup": {
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A gentle mobility stretch targeting the throat, jaw, and anterior cervical flexors through controlled neck extension."
+}

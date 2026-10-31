@@ -1,0 +1,161 @@
+{
+  "is_exercise": true,
+  "name": "Low Cable Crossover",
+  "summary": "A standing cable isolation fly performed from the lowest pulley setting to target the upper chest and anterior shoulders.",
+  "aliases": [
+    {
+      "text": "Low-to-High Cable Crossover",
+      "kind": "common"
+    },
+    {
+      "text": "Low Cable Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Low-to-High Cable Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Low-Cable Cross-Over",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-chest-fly",
+      "push"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "standing",
+  "stance_kind": "staggered",
+  "grip_orientation": "supinated",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "synergist"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "horizontal-adduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "protraction",
+        "upward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set both pulleys of a dual-cable station to the lowest position and attach single-D handles.",
+      "Grasp a handle in each hand with an underhand or semi-supinated grip.",
+      "Step forward into the center of the station to establish cable tension and assume a stable staggered stance.",
+      "Maintain a slight bend in your elbows, brace your core, and keep your chest upright with a subtle forward torso lean."
+    ],
+    "steps": [
+      "Drive your hands upward and inward along a sweeping diagonal arc toward chest or lower face level.",
+      "Bring the handles together at the top of the motion, focusing on squeezing your upper chest.",
+      "Lower your arms under control along the same path back to the starting stretch position without shifting your torso."
+    ],
+    "breathing": "Exhale as you bring your hands upward together, and inhale as you lower the weight back down under control.",
+    "cues": [
+      "Scoop upward and bring your inner biceps toward each other.",
+      "Freeze the elbow angle throughout the rep.",
+      "Keep your shoulders down and avoid shrugging."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending and extending the elbows, turning the fly into an incline pressing motion.",
+        "correction": "Lock a slight bend into your elbows from the start and move strictly from the shoulders."
+      },
+      {
+        "fault": "Rocking the torso back and forth to generate momentum.",
+        "correction": "Brace through your staggered stance and lower the weight to isolate the chest completely."
+      },
+      {
+        "fault": "Excessive shrugging at the top of the contraction.",
+        "correction": "Depress your shoulder blades before beginning the repetition to keep tension on the pectorals rather than the upper traps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not allow the cables to pull your arms behind the plane of your torso into extreme hyperextension."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

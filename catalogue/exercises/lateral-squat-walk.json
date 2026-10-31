@@ -1,0 +1,238 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Lateral Walk",
+      "kind": "common"
+    },
+    {
+      "text": "Side Step Walk",
+      "kind": "common"
+    },
+    {
+      "text": "Squat Walk",
+      "kind": "common"
+    },
+    {
+      "text": "Bodyweight Lateral Walk",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-medius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-minimus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "tensor-fasciae-latae",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "synergist"
+      },
+      {
+        "muscle": "abdominals",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "abduction",
+          "adduction",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "dorsiflexion",
+          "plantarflexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "mobility",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "isolation-hip-abduction",
+      "squat",
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic",
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mini-band",
+      "resistance-band"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1514"
+  },
+  "id": "oec:lateral-squat-walk",
+  "instructions": {
+    "setup": [
+      "Stand tall with your feet parallel and hip-width apart.",
+      "Hinge slightly at the hips and bend your knees to lower into a quarter or half squat.",
+      "Keep your chest upright, spine neutral, and hands held together in front of your chest for balance."
+    ],
+    "steps": [
+      "Step laterally to the side with your lead foot, widening your stance while maintaining the squat depth.",
+      "Slowly bring the trailing foot inward until feet return to hip-width apart.",
+      "Continue stepping in the same direction for the target number of reps or distance, then repeat in the opposite direction."
+    ],
+    "breathing": "Breathe continuously and rhythmically throughout the set without holding your breath.",
+    "cues": [
+      "Stay low throughout the entire set",
+      "Keep feet pointing straight ahead",
+      "Push through the hips, not the lower back"
+    ],
+    "common_faults": [
+      {
+        "fault": "Standing up between steps.",
+        "correction": "Maintain a constant squat depth without bobbing up and down."
+      },
+      {
+        "fault": "Turning toes outward excessively during lateral steps.",
+        "correction": "Keep your toes pointed forward so the lateral glutes remain under active tension."
+      },
+      {
+        "fault": "Letting the feet touch together on the follow-through step.",
+        "correction": "Stop the trailing foot when it returns to hip-width apart to maintain continuous hip tension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the floor path is completely clear of tripping hazards before stepping sideways."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "distance"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Lateral Squat Walk",
+  "previous_ids": [
+    "oec:lateral-walk"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Lateral Walk",
+        "url": "https://wger.de/en/exercise/1514/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "cozyGalvinism"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:band-lateral-step"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:band-lateral-step"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:banded-monster-walk"
+    }
+  ],
+  "setup": {
+    "position": "moving",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A lower-body exercise performed in a partial squat while stepping sideways to strengthen the hip abductors and glutes."
+}

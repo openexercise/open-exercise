@@ -1,0 +1,186 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "quad extension",
+      "kind": "common"
+    },
+    {
+      "text": "seated leg extension",
+      "kind": "common"
+    },
+    {
+      "text": "machine leg extension",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-femoris",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "vastus-lateralis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "vastus-medialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "vastus-intermedius",
+        "role": "prime-mover"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "knee",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-knee-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "369"
+  },
+  "id": "oec:leg-extension",
+  "instructions": {
+    "setup": [
+      "Adjust the backrest so the axis of rotation of the machine aligns directly with your knee joints.",
+      "Position the lower leg pad so it rests comfortably against your lower shins just above the ankles.",
+      "Sit back firmly against the pad, grasp the side handles, and pull yourself down into the seat."
+    ],
+    "steps": [
+      "Extend your knees smoothly to raise the pad until your legs are fully straightened.",
+      "Pause briefly at peak contraction without hyperextending or lifting your hips from the seat.",
+      "Lower the weight under control back to the starting flexed position."
+    ],
+    "breathing": "Exhale as you extend your legs and inhale as you lower the weight.",
+    "cues": [
+      "Keep your hips glued to the seat",
+      "Squeeze your quads at the top",
+      "Control the descent"
+    ],
+    "common_faults": [
+      {
+        "fault": "Kicking or using momentum to swing the weight up.",
+        "correction": "Initiate the movement smoothly and maintain a controlled cadence throughout."
+      },
+      {
+        "fault": "Hips lifting off the bench during the repetition.",
+        "correction": "Pull up firmly on the machine handles to lock your pelvis into the seat."
+      },
+      {
+        "fault": "Misaligned knee pivot point with the machine axis.",
+        "correction": "Adjust the seat back so your knees line up directly with the machine's pivot point."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid aggressive hyperextension at the top of the movement, especially under heavy loads."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Leg Extension",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Leg Extension",
+        "url": "https://wger.de/en/exercise/369/view-base",
+        "license": "CC0-1.0",
+        "author": "BFad07"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "regression-of",
+      "target": "oec:single-leg-leg-extension"
+    },
+    {
+      "type": "progression-of",
+      "target": "oec:isometric-leg-extension"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:reverse-nordic-curl"
+    }
+  ],
+  "setup": {
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "An open-chain machine exercise that isolates the quadriceps through seated knee extension."
+}

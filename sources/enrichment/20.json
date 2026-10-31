@@ -1,0 +1,184 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Arnold Press",
+  "summary": "A seated overhead press variation where dumbbells are rotated from a supinated chest position to a pronated overhead position.",
+  "aliases": [
+    {
+      "text": "Arnold Press",
+      "kind": "common"
+    },
+    {
+      "text": "Arnold Shoulder Press",
+      "kind": "common"
+    },
+    {
+      "text": "Schwarzenegger Press",
+      "kind": "common"
+    },
+    {
+      "text": "Rotational Dumbbell Press",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Corkscrew Press",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "seated",
+  "grip_orientation": "rotating",
+  "grip_width": "shoulder",
+  "load_position": "chest",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-lateral",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rotator-cuff",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "abduction",
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    },
+    {
+      "joint": "radioulnar",
+      "actions": [
+        "pronation"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "adjustable-bench",
+        "bench"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "rir"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set an adjustable bench to an upright angle (roughly 75 to 90 degrees).",
+      "Sit firmly against the back pad with your feet planted flat on the floor.",
+      "Bring the dumbbells to upper-chest level with elbows tucked in front of you, forearms vertical, and palms facing inward toward your body."
+    ],
+    "steps": [
+      "Press the dumbbells upward while simultaneously flaring your elbows out to the sides.",
+      "Rotate your wrists smoothly as the weights ascend so that your palms face forward at the top of the lift.",
+      "Lock out your arms overhead without violently hyperextending your elbows.",
+      "Lower the dumbbells along the reverse path, rotating your palms back toward your torso as your elbows return to the starting position in front of your chest."
+    ],
+    "breathing": "Inhale as you lower the weights to the chest, and exhale forcefully as you rotate and press the dumbbells overhead.",
+    "cues": [
+      "Smooth twist on the way up.",
+      "Elbows in at the bottom, elbows out at the top.",
+      "Stay glued to the back pad."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the wrists completely before beginning the upward press.",
+        "correction": "Synchronize the rotation with the upward pressing motion so the turn happens fluidly across the middle third of the range."
+      },
+      {
+        "fault": "Excessively arching the lower back to press the load.",
+        "correction": "Brace your core, keep your lower back in contact with the bench, and reduce the weight if necessary."
+      },
+      {
+        "fault": "Flaring the elbows immediately without an active upward drive.",
+        "correction": "Initiate the press upward from the front deltoids before opening the elbows wide into the frontal plane."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using excessively heavy weights that compromise rotational shoulder control."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

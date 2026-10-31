@@ -1,0 +1,177 @@
+{
+  "is_exercise": true,
+  "name": "Cable Cross-Body Y-Raise",
+  "summary": "A unilateral cable exercise that trains the deltoids, upper back, and lower trapezius by raising the arm diagonally overhead across the body.",
+  "aliases": [
+    {
+      "text": "Cross-Body Cable Y-Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Sword Draw",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable Y-Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Cable D2 Flexion",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "rehabilitation",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-shoulder-raise"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "frontal",
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "neutral",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "deltoid-lateral",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "synergist"
+    },
+    {
+      "muscle": "infraspinatus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "abduction",
+        "flexion",
+        "external-rotation"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "upward-rotation",
+        "elevation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Set the cable pulley to its lowest position and attach a single D-handle.",
+      "Stand perpendicular or slightly angled to the cable stack, far enough away that the cable has tension.",
+      "Reach across your body with the far arm and grasp the handle with a neutral or slightly pronated grip near your opposite hip.",
+      "Brace your core, maintain a tall chest, and establish a stable hip-width stance."
+    ],
+    "steps": [
+      "With a slight, fixed bend in your elbow, initiate the movement by raising your arm diagonally upward and outward across your torso.",
+      "Continue raising until your arm reaches an overhead angle roughly 30 to 45 degrees outward from vertical, forming one branch of a 'Y'.",
+      "Pause briefly at the top to feel the peak contraction in your deltoid and lower trapezius.",
+      "Lower the cable under control along the same diagonal path back to the starting position across your body.",
+      "Complete all repetitions on one side before switching to the other."
+    ],
+    "breathing": "Exhale as you raise the cable overhead; inhale smoothly as you lower it back across your body.",
+    "cues": [
+      "Draw the sword diagonally up and out.",
+      "Lead with your thumb pointing slightly backward at the top.",
+      "Keep your torso quiet and resist rotating your spine."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the torso to swing the weight upward.",
+        "correction": "Brace the abdominals and isolate the movement strictly to the shoulder and scapula."
+      },
+      {
+        "fault": "Bending and extending the elbow excessively like a triceps press.",
+        "correction": "Lock a soft bend in the elbow and keep that joint angle fixed throughout the entire range of motion."
+      },
+      {
+        "fault": "Excessive shrugging toward the ear at the start of the movement.",
+        "correction": "Initiate through the shoulder, allowing the scapula to rotate upward naturally as the arm rises rather than forcefully hiking the shoulder first."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid using momentum or excessive weight that compromises shoulder joint positioning.",
+        "Stop short of full overhead extension if you experience anterior shoulder impingement or pain."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

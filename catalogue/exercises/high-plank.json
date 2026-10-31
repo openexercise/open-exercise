@@ -1,0 +1,230 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Straight-Arm Plank",
+      "kind": "common"
+    },
+    {
+      "text": "Push-Up Plank",
+      "kind": "common"
+    },
+    {
+      "text": "Full Plank",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "transversus-abdominis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "obliques",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "quadriceps",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "protraction",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1001"
+  },
+  "id": "oec:high-plank",
+  "instructions": {
+    "setup": [
+      "Start on all fours with your hands placed directly underneath your shoulders, fingers spread comfortably.",
+      "Step your feet back one at a time to extend your legs, supporting your weight on your hands and the balls of your feet with feet hip-width apart.",
+      "Press the floor away through your palms to spread your shoulder blades and create a straight line from your head to your heels."
+    ],
+    "steps": [
+      "Lock your position by bracing your abdominals, squeezing your glutes, and engaging your quadriceps.",
+      "Hold this rigid straight-arm position for the target duration without allowing your hips to sag or hike upward.",
+      "Lower your knees gently to the floor when the set is complete."
+    ],
+    "breathing": "Breathe continuously and evenly through your nose and mouth without releasing abdominal tension.",
+    "cues": [
+      "Push the ground away.",
+      "Ribs toward your pelvis.",
+      "Squeeze glutes and thighs tight."
+    ],
+    "common_faults": [
+      {
+        "fault": "Sagging at the hips and hyperextending the lower back.",
+        "correction": "Tuck your pelvis slightly under and aggressively brace your core and glutes to restore a neutral spine."
+      },
+      {
+        "fault": "Piking the hips up into a tent shape to relieve core tension.",
+        "correction": "Lower your hips until your shoulders, hips, and ankles align in a straight plane."
+      },
+      {
+        "fault": "Winged scapulae with sunken chest.",
+        "correction": "Actively push through your hands to keep your upper back slightly rounded and shoulder blades protracted."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Those with wrist discomfort can elevate hands on parallettes or perform the movement on their forearms."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "High Plank",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: High plank",
+        "url": "https://wger.de/en/exercise/1001/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:plank"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:plank"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:plank-shoulder-tap"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:plank-reach"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:plank-walkout"
+    }
+  ],
+  "setup": {
+    "position": "prone",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "An isometric bodyweight core exercise held at the top of a push-up position to build anterior core stability and shoulder endurance."
+}

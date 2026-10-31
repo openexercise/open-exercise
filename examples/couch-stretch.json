@@ -1,0 +1,67 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "id": "oec:couch-stretch",
+  "name": "Couch Stretch",
+  "summary": "A kneeling stretch for the front of the hip and thigh, with the back foot against a wall.",
+  "classification": {
+    "modalities": [
+      "flexibility",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "stretch"
+    ],
+    "mechanics": "not-applicable",
+    "force": "static",
+    "laterality": "unilateral",
+    "contraction": [
+      "isometric"
+    ],
+    "level": "beginner"
+  },
+  "setup": {
+    "position": "half-kneeling"
+  },
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "rectus-femoris",
+        "role": "stretched"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "stretched"
+      }
+    ]
+  },
+  "equipment": {
+    "required": [
+      [
+        "wall",
+        "bench"
+      ]
+    ],
+    "optional": [
+      "mat"
+    ]
+  },
+  "measurement": {
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ]
+      }
+    ],
+    "load": {
+      "kind": "none"
+    },
+    "duration_counted": "per-side"
+  },
+  "provenance": {
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "unreviewed"
+    }
+  }
+}

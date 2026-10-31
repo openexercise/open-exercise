@@ -1,0 +1,132 @@
+{
+  "is_exercise": true,
+  "name": "Diaphragmatic Breathing",
+  "summary": "A foundational breathing drill performed supine to recruit the diaphragm, encourage 360-degree abdominal expansion, and downregulate the nervous system.",
+  "aliases": [
+    {
+      "text": "Belly Breathing",
+      "kind": "common"
+    },
+    {
+      "text": "Abdominal Breathing",
+      "kind": "common"
+    },
+    {
+      "text": "Deep Belly Breathing",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "rehabilitation",
+      "mobility",
+      "yoga"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "not-applicable",
+    "force": "not-applicable",
+    "kinetic_chain": "not-applicable",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "supine",
+  "muscles": [
+    {
+      "muscle": "transversus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "internal-oblique",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "thoracic-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "reps"
+      ]
+    },
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "duration"
+      ]
+    }
+  ],
+  "load_kind": "none",
+  "reps_counted": "total",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Lie flat on your back on a comfortable floor or exercise mat.",
+      "Bend your knees so your feet rest flat on the floor about hip-width apart.",
+      "Place one hand on your upper chest and the other hand on your abdomen just below your rib cage."
+    ],
+    "steps": [
+      "Inhale slowly and deeply through your nose, directing the air low into your abdomen so your belly rises against your bottom hand while your chest remains relatively still.",
+      "Pause gently at the top of the inhalation without straining.",
+      "Exhale slowly and completely through pursed lips or your nose, feeling your belly gently fall back toward your spine.",
+      "Repeat for the target number of breath cycles or set duration."
+    ],
+    "breathing": "Maintain a smooth, relaxed rhythm with nasal inhalation and a controlled, prolonged exhalation.",
+    "cues": [
+      "Breathe into your bottom hand",
+      "Keep your chest and shoulders quiet",
+      "Expand 360 degrees around your waist"
+    ],
+    "common_faults": [
+      {
+        "fault": "Chest breathing with excessive shoulder elevation.",
+        "correction": "Consciously relax the neck and upper traps, ensuring only the lower hand rises on the inhale."
+      },
+      {
+        "fault": "Forcefully pushing the belly out using spinal extension rather than breathing.",
+        "correction": "Keep the lower back relaxed in a neutral position against the floor; allow the breath itself to drive the expansion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "If you feel lightheaded or dizzy, pause and return to normal, unforced breathing."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

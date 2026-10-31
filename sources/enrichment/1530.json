@@ -1,0 +1,148 @@
+{
+  "is_exercise": true,
+  "name": "Lying Dumbbell Curl",
+  "summary": "An isolation exercise that works the biceps from a position of deep shoulder extension by curling dumbbells while lying supine on a flat bench.",
+  "aliases": [
+    {
+      "text": "Lying Supine Dumbbell Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Flat Bench Dumbbell Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Biceps Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "supine",
+  "grip_orientation": "supinated",
+  "muscles": [
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench",
+        "adjustable-bench"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Hold a dumbbell in each hand and sit at the edge of a flat bench.",
+      "Lie back flat on the bench with your head, upper back, and glutes supported, and feet planted firmly on the floor.",
+      "Allow your arms to hang straight down toward the floor at your sides, with palms facing forward."
+    ],
+    "steps": [
+      "Keeping your upper arms stationary, curl the dumbbells upward by flexing at the elbows.",
+      "Continue lifting until your biceps are fully contracted and your forearms are roughly perpendicular to the torso.",
+      "Squeeze your biceps briefly at the top of the contraction.",
+      "Lower the dumbbells under strict control back to the fully extended starting position."
+    ],
+    "breathing": "Exhale as you curl the dumbbells upward and inhale as you lower them toward the floor.",
+    "cues": [
+      "Keep the elbows pinned in space.",
+      "Squeeze the biceps at the top.",
+      "Control the descent for a full stretch."
+    ],
+    "common_faults": [
+      {
+        "fault": "Drifting the elbows forward into shoulder flexion during the curl.",
+        "correction": "Keep your upper arms pointing toward the floor throughout the movement to isolate the biceps."
+      },
+      {
+        "fault": "Arching the lower back excessively to gain leverage.",
+        "correction": "Engage your core and keep your torso flat and stabilized against the bench."
+      },
+      {
+        "fault": "Dropping the weights quickly out of the top position.",
+        "correction": "Lower the dumbbells slowly to capitalize on the eccentric stretch on the long head of the biceps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not use excessive load that forces the shoulder into painful hyperextension at the bottom of the rep."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

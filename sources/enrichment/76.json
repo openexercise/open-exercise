@@ -1,0 +1,186 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Close-Grip Bench Press",
+  "summary": "A flat barbell bench press performed with a shoulder-width grip to shift emphasis onto the triceps and anterior deltoids.",
+  "aliases": [
+    {
+      "text": "Close-Grip Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "CGBP",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Narrow-Grip Bench Press",
+      "kind": "common"
+    },
+    {
+      "text": "Bench Press Narrow Grip",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy",
+      "powerlifting"
+    ],
+    "movement_patterns": [
+      "horizontal-push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "supine",
+  "incline_degrees": 0,
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "stance_width": "shoulder",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "triceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "pectoralis-major-sternal",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "synergist"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rotator-cuff",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "extension",
+        "flexion"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "flexion",
+        "extension",
+        "horizontal-adduction",
+        "horizontal-abduction"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "bench"
+      ]
+    },
+    {
+      "any_of": [
+        "power-rack",
+        "squat-rack"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Lie flat on the bench with your eyes directly under the racked barbell.",
+      "Plant your feet firmly on the floor and retract your shoulder blades into the bench.",
+      "Grasp the bar with a full, pronated grip roughly shoulder-width apart, ensuring your hands are far enough apart to prevent excessive wrist strain.",
+      "Unrack the barbell and establish full elbow lockout over your lower chest and shoulders."
+    ],
+    "steps": [
+      "Inhale, brace your core, and lower the bar in a controlled path toward the lower sternum.",
+      "Keep your elbows tucked at roughly a 30 to 45-degree angle relative to your torso as the bar descends.",
+      "Touch the lower chest lightly without bouncing the weight.",
+      "Drive forcefully through your palms to press the bar straight up to lockout, exhaling past the sticking point."
+    ],
+    "breathing": "Inhale deeply and hold your breath to brace before lowering the bar, then exhale forcefully as you press past the sticking point near the top.",
+    "cues": [
+      "Elbows tucked close to ribs",
+      "Bend the bar across your palms",
+      "Push through the base of the hands"
+    ],
+    "common_faults": [
+      {
+        "fault": "Gripping the bar with hands too close together, placing severe torque on the wrists and elbows.",
+        "correction": "Set your grip approximately shoulder-width apart so your forearms remain nearly vertical at the bottom."
+      },
+      {
+        "fault": "Flaring the elbows out wide during the press.",
+        "correction": "Tuck the elbows toward your torso at roughly a 30- to 45-degree angle to keep the load on the triceps and spare the shoulders."
+      },
+      {
+        "fault": "Bouncing the bar aggressively off the sternum.",
+        "correction": "Lower the bar under control and make gentle contact with the chest before initiating the press."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use safety catches set just below chest level when benching in a power rack.",
+        "Never use a thumbless (suicide) grip on the barbell."
+      ],
+      "spotter": "recommended",
+      "safeties": true
+    }
+  }
+}

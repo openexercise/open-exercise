@@ -1,0 +1,189 @@
+{
+  "is_exercise": true,
+  "name": "Scapular Pull-Up",
+  "summary": "A hanging bodyweight exercise targeting scapular depression and retraction to build upper back control, grip, and shoulder girdle stability.",
+  "aliases": [
+    {
+      "text": "Scap Pull-Up",
+      "kind": "common"
+    },
+    {
+      "text": "Scapula Pulls",
+      "kind": "common"
+    },
+    {
+      "text": "Scapular Shrug",
+      "kind": "common"
+    },
+    {
+      "text": "Straight-Arm Pull-Up",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "mobility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "vertical-pull"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "hanging",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "trapezius-lower",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-middle",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-minor",
+      "role": "synergist"
+    },
+    {
+      "muscle": "forearm-flexors",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "retraction",
+        "downward-rotation"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "fingers",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "pull-up-bar"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "resistance-band"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "reps",
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Grasp a pull-up bar with an overhand (pronated) grip, hands spaced roughly shoulder-width apart.",
+      "Hang freely with your arms fully extended and your feet clear of the floor.",
+      "Engage your midsection and glutes to maintain a stable, hollow-body position without swinging."
+    ],
+    "steps": [
+      "Without bending your elbows, draw your shoulder blades down away from your ears and back toward each other.",
+      "Allow your torso to elevate slightly as your scapulae fully depress and retract.",
+      "Hold the peak contraction for a brief pause.",
+      "Slowly lower yourself back to the starting dead hang by allowing the shoulder blades to elevate in a controlled manner."
+    ],
+    "breathing": "Exhale as you pull your shoulder blades down and lift your body; inhale smoothly as you return to the dead hang.",
+    "cues": [
+      "Shoulders away from the ears.",
+      "Keep arms bone-straight.",
+      "Pinch your shoulder blades into your back pockets."
+    ],
+    "common_faults": [
+      {
+        "fault": "Bending the elbows to pull the body upward.",
+        "correction": "Keep your arms completely locked throughout the entire movement so that motion occurs strictly at the shoulder blades."
+      },
+      {
+        "fault": "Swinging the legs or hyperextending the lower back for momentum.",
+        "correction": "Brace the abdominals and squeeze the legs together in a hollow-body hold to prevent body sway."
+      },
+      {
+        "fault": "Failing to return to a full hang between repetitions.",
+        "correction": "Allow your scapulae to fully elevate at the bottom of each repetition to train the full active range of motion."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a step or bench to reach and exit the bar safely if it is out of easy reach.",
+        "Ensure your grip is secure before initiating movement to avoid slipping off the bar."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

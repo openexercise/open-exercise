@@ -1,0 +1,208 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Torso Twist",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Trunk Twist",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Trunk Rotation",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "external-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "rotation"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "rotation",
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "calisthenics"
+    ],
+    "movement_patterns": [
+      "rotation",
+      "mobility-drill"
+    ],
+    "mechanics": "isolation",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "1377"
+  },
+  "id": "oec:standing-torso-twist",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet shoulder-width apart, knees slightly soft, and pelvis facing forward.",
+      "Bend your elbows and hold your hands at chest height or across your shoulders."
+    ],
+    "steps": [
+      "Rotate your torso smoothly to one side, initiating the movement through your ribs and thoracic spine.",
+      "Pause briefly at the comfortable end of your active range of motion while keeping your hips relatively square.",
+      "Rotate back through the center and smoothly twist to the opposite side."
+    ],
+    "breathing": "Maintain a steady, rhythmic breathing pattern, exhaling as you reach maximum rotation on each side.",
+    "cues": [
+      "Twist from the ribs, not the knees",
+      "Keep hips facing forward",
+      "Move with control, don't whip"
+    ],
+    "common_faults": [
+      {
+        "fault": "Swiveling the hips and knees aggressively, transferring rotational torque into the knee joints.",
+        "correction": "Anchor your feet firmly and keep the pelvis relatively steady, focusing rotation in the mid-back and core."
+      },
+      {
+        "fault": "Using uncontrolled momentum or ballistic whipping motions.",
+        "correction": "Control the rotation actively with your abdominal musculature through a smooth, deliberate arc."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid aggressive over-rotation if experiencing acute lumbar spine irritation or disc issues."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Standing Torso Twist",
+  "previous_ids": [
+    "oec:torso-twist"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Torso Twist",
+        "url": "https://wger.de/en/exercise/1377/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "brucem"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:seated-thoracic-rotation"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:half-kneeling-thoracic-rotation"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:quadruped-thoracic-rotation"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:seated-thoracic-rotation"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A dynamic bodyweight exercise and warm-up drill that rotates the upper body through the thoracic spine while stabilizing the pelvis."
+}

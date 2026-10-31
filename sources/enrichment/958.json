@@ -1,0 +1,167 @@
+{
+  "is_exercise": true,
+  "name": "Suspension Trainer Biceps Curl",
+  "summary": "A closed-chain bodyweight arm exercise that isolates the elbow flexors using a suspension trainer.",
+  "aliases": [
+    {
+      "text": "TRX Biceps Curl",
+      "kind": "brand"
+    },
+    {
+      "text": "TRX Bicep Curl",
+      "kind": "misspelling"
+    },
+    {
+      "text": "Suspension Biceps Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Suspension Curl",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "grip_orientation": "supinated",
+  "grip_width": "shoulder",
+  "stance_width": "hip",
+  "stance_kind": "parallel",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "biceps-brachii",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachioradialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "deltoid-anterior",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "suspension-trainer"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Face the suspension trainer anchor point and grasp the handles with a supinated (palms facing up) grip.",
+      "Walk your feet toward the anchor point to lean back, extending your arms until the straps are taut.",
+      "Engage your core and glutes to establish a rigid plank line from head to heels, with your upper arms raised to roughly shoulder height."
+    ],
+    "steps": [
+      "Keep your elbows pinned high and pointing directly at the anchor point.",
+      "Curl your body upward by flexing your elbows, bringing your hands toward your temples or forehead.",
+      "Squeeze your biceps hard at peak flexion without dropping your elbows.",
+      "Lower yourself under control by extending your elbows until your arms are straight, maintaining a stable plank."
+    ],
+    "breathing": "Exhale as you curl your body upward; inhale as you slowly extend your arms back down.",
+    "cues": [
+      "Keep elbows high and still",
+      "Hands to temples",
+      "Stay in a rigid plank",
+      "Pull with your biceps, not your back"
+    ],
+    "common_faults": [
+      {
+        "fault": "Dropping the elbows to turn the movement into a row.",
+        "correction": "Keep upper arms horizontal and parallel to the floor throughout the entire rep."
+      },
+      {
+        "fault": "Sagging at the hips or thrusting the pelvis forward.",
+        "correction": "Maintain glute and abdominal tension to hold a straight plank alignment."
+      },
+      {
+        "fault": "Letting the straps lose tension at the top of the curl.",
+        "correction": "Stop just before the straps slacken to maintain continuous tension on the biceps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the suspension trainer anchor point is rated for full body weight before leaning back."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Triceps on Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Overhead Triceps Extension Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Triceps Extension",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "anconeus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-extension"
+    ],
+    "mechanics": "isolation",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "661"
+  },
+  "id": "oec:machine-overhead-triceps-extension",
+  "instructions": {
+    "setup": [
+      "Adjust the seat height so the machine's axis of rotation aligns with your elbow joints.",
+      "Sit back firmly against the backrest with your feet planted flat on the floor.",
+      "Reach overhead and grasp the handles with a firm, secure grip, positioning your elbows pointed forward."
+    ],
+    "steps": [
+      "Keeping your upper arms stationary, extend your elbows to push the handles upward until your arms are nearly fully extended.",
+      "Pause briefly at peak contraction without aggressively locking out your elbows.",
+      "Lower the weight with control by flexing your elbows back to the starting stretch position."
+    ],
+    "breathing": "Exhale as you extend your elbows to press upward; inhale as you lower the weight back down under control.",
+    "cues": [
+      "Keep your upper arms locked in place.",
+      "Extend through the triceps, not by flaring the elbows.",
+      "Control the descent for a full triceps stretch."
+    ],
+    "common_faults": [
+      {
+        "fault": "Flaring the elbows out excessively during extension.",
+        "correction": "Keep elbows pointed forward and aligned with the machine handles."
+      },
+      {
+        "fault": "Swinging the torso or moving the upper arms to create momentum.",
+        "correction": "Keep your back firmly pressed against the pad and move only at the elbow joint."
+      },
+      {
+        "fault": "Hyperextending or violently slamming the elbows into full lockout.",
+        "correction": "Stop just short of complete bone-on-bone lockout to maintain muscular tension."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Do not allow the handles to yank your arms back past a comfortable range of shoulder flexion."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Machine Overhead Triceps Extension",
+  "previous_ids": [
+    "oec:triceps-on-machine"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Triceps on Machine",
+        "url": "https://wger.de/en/exercise/661/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:dumbbell-overhead-triceps-extension"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-overhead-triceps-extension"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:single-arm-cable-overhead-triceps-extension"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "load_position": "overhead",
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A seated machine isolation exercise that targets the triceps brachii through elbow extension in an overhead position."
+}

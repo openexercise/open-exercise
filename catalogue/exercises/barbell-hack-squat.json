@@ -1,0 +1,246 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Behind-the-Back Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "Hackenschmidt Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Rear Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "Barbell Hack Squats",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "knee",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "fingers",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "weight-plate"
+    ],
+    "required": [
+      [
+        "barbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "43"
+  },
+  "id": "oec:barbell-hack-squat",
+  "instructions": {
+    "setup": [
+      "Place a loaded barbell on the floor directly behind your heels.",
+      "Stand with your feet hip-width apart, toes pointing forward or slightly outward.",
+      "Squat down by flexing your knees and hips while maintaining an upright torso until your hands reach the bar behind your legs.",
+      "Grip the barbell with a shoulder-width pronated grip (palms facing backward), depress your shoulders, and brace your core."
+    ],
+    "steps": [
+      "Drive through your midfoot and heels, pushing the floor away to extend your knees and hips simultaneously.",
+      "Keep your torso as upright as possible as the bar slides up along the backs of your calves and thighs.",
+      "Stand fully erect, locking out your hips and knees at the top without hyperextending your lower back.",
+      "Controlledly descend by bending at the knees and hips, guiding the bar back down behind your legs until the plates touch the floor."
+    ],
+    "breathing": "Inhale and brace your core before descending or breaking the bar off the floor, holding tension through the lift and exhaling as you complete the lockout.",
+    "cues": [
+      "Stay upright and push the floor away.",
+      "Drive your knees forward over your toes.",
+      "Keep your chest proud and arms fully straight."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive forward torso lean turning the movement into a stiff-legged deadlift.",
+        "correction": "Elevate your heels slightly on small plates if needed and focus on bending deeply at the knees to keep your torso upright."
+      },
+      {
+        "fault": "Letting the bar drift away from the backs of your legs.",
+        "correction": "Keep the bar in close proximity to your calves and hamstrings throughout the ascent and descent."
+      },
+      {
+        "fault": "Bending the elbows to pull the weight up.",
+        "correction": "Keep your arms completely straight like ropes and let your leg drive lift the barbell."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure your grip is secure and use lifting straps if your grip fails before your quadriceps.",
+        "Do not allow your lumbar spine to round into flexion at the bottom of the lift."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Hack Squat",
+  "previous_ids": [
+    "oec:barbell-hack-squats"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Barbell Hack Squats",
+        "url": "https://wger.de/en/exercise/43/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "BePieToday"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:hack-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-hack-squat"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-back-squat"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "load_position": "at-sides",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A classic squat variation where a barbell is lifted from the floor behind the calves, placing high mechanical demand on the quadriceps."
+}

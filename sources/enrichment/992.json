@@ -1,0 +1,159 @@
+{
+  "is_exercise": true,
+  "name": "Bodyweight Split Squat",
+  "summary": "A stationary lower-body compound movement performed in a split stance to build unilateral leg strength and stability.",
+  "aliases": [
+    {
+      "text": "Split Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Static Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Stationary Lunge",
+      "kind": "common"
+    },
+    {
+      "text": "Split squats right",
+      "kind": "misspelling"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "lunge"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "split-stance",
+  "stance_width": "hip",
+  "stance_kind": "split",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "dorsiflexion",
+        "plantarflexion"
+      ]
+    }
+  ],
+  "required_equipment": [],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Stand upright with feet hip-width apart.",
+      "Step one foot backward into a comfortable split stance, elevating the rear heel so your weight rests on the ball of the back foot.",
+      "Distribute your weight primarily through the front foot and maintain an upright torso with hands on your hips or clasped at your chest."
+    ],
+    "steps": [
+      "Lower your hips straight down by bending both knees simultaneously until your back knee is hovering just above the floor.",
+      "Pause briefly at the bottom, ensuring your front thigh is nearly parallel to the floor.",
+      "Drive through the midfoot and heel of your front foot to extend both knees and return to the starting position without moving your feet.",
+      "Complete the prescribed repetitions, then switch leg positions."
+    ],
+    "breathing": "Inhale as you lower your body down, and exhale forcefully as you press back up to the starting position.",
+    "cues": [
+      "Drop straight down, not forward",
+      "Keep chest tall",
+      "Drive through the front heel"
+    ],
+    "common_faults": [
+      {
+        "fault": "Positioning feet in a straight line like on a tightrope, compromising lateral balance.",
+        "correction": "Keep feet roughly hip-width apart in terms of width while stepping back into the split."
+      },
+      {
+        "fault": "Shifting excessively forward onto the front toes, lifting the front heel off the floor.",
+        "correction": "Lengthen your split stance slightly and focus on lowering your hips straight down while keeping the front heel planted."
+      },
+      {
+        "fault": "Front knee caving inward during the descent or ascent.",
+        "correction": "Actively track the front knee outward in line with the middle toes."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a wall or sturdy support for balance if unilateral stability is limited."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

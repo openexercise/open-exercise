@@ -1,0 +1,192 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "DB Wrist Extension",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Dumbbell Reverse Wrist Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Dumbbell Wrist Extension",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "forearm-extensors",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "hand-intrinsics",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "wrist",
+        "actions": [
+          "extension",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "fingers",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "isolation-grip"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "bench"
+    ],
+    "required": [
+      [
+        "dumbbell"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1881"
+  },
+  "id": "oec:dumbbell-wrist-extension",
+  "instructions": {
+    "setup": [
+      "Sit securely on a flat bench or chair holding a dumbbell in each hand with an overhand (pronated) grip.",
+      "Rest your forearms across your thighs or flat on the edge of a bench, allowing your wrists and the dumbbells to hang freely past your knees or the bench edge."
+    ],
+    "steps": [
+      "Lower the dumbbells by flexing your wrists downward in a controlled manner as far as comfortably possible.",
+      "Extend your wrists upward, raising the dumbbells as high as your range of motion allows without lifting your forearms.",
+      "Squeeze your forearm extensors at the top of the contraction for a brief pause.",
+      "Lower the weights slowly back to the starting stretch position."
+    ],
+    "breathing": "Exhale as you extend your wrists to lift the dumbbells; inhale as you lower them into flexion.",
+    "cues": [
+      "Keep forearms glued to your thighs",
+      "Move only at the wrists",
+      "Control the descent completely"
+    ],
+    "common_faults": [
+      {
+        "fault": "Lifting forearms or elbows off the support surface to help move the weight.",
+        "correction": "Keep your forearms firmly pressed into your thighs or bench so movement occurs strictly at the wrist joint."
+      },
+      {
+        "fault": "Using excessively heavy weights leading to jerky momentum and incomplete extension.",
+        "correction": "Use lighter dumbbells to ensure a strict, pain-free range of motion with full control."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid sudden or ballistic movements, especially at full wrist flexion, to minimize strain on the wrist joint and extensor tendons."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "per-implement",
+      "implements": 2,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Dumbbell Wrist Extension",
+  "previous_ids": [
+    "oec:db-wrist-extension"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: DB Wrist Extension",
+        "url": "https://wger.de/en/exercise/1881/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Deflation"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-reverse-wrist-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-reverse-wrist-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:resistance-bar-wrist-extension"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated"
+    },
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "An isolation exercise that targets the forearm extensors by extending the wrists upward while the forearms remain supported."
+}

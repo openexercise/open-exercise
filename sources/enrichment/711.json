@@ -1,0 +1,176 @@
+{
+  "is_exercise": true,
+  "name": "Wall Handstand",
+  "summary": "An inverted isometric hold against a wall that develops overhead shoulder strength, scapular elevation, and full-body alignment.",
+  "aliases": [
+    {
+      "text": "Chest-to-Wall Handstand",
+      "kind": "common"
+    },
+    {
+      "text": "Wall Handstand Hold",
+      "kind": "common"
+    },
+    {
+      "text": "Handstand Against Wall",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "balance"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "anti-extension"
+    ],
+    "mechanics": "compound",
+    "force": "static",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "isometric"
+    ],
+    "level": "intermediate"
+  },
+  "position": "inverted",
+  "grip_orientation": "pronated",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "deltoid-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "trapezius-upper",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "triceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "pectoralis-major-clavicular",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-abdominis",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "elevation",
+        "upward-rotation"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "wrist",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "wall"
+      ]
+    }
+  ],
+  "optional_equipment": [
+    "mat"
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "duration"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "duration_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Place your hands flat on the floor shoulder-width apart, facing away from a sturdy wall, roughly two to three feet out.",
+      "Place your feet on the base of the wall and walk your feet up while walking your hands backward toward the wall.",
+      "Continue until your chest is within a few inches of the wall and your body forms a straight vertical line, supported on your palms."
+    ],
+    "steps": [
+      "Press the floor away aggressively through your palms to elevate your shoulders toward your ears.",
+      "Lock out your elbows completely and grip the floor with your fingers.",
+      "Squeeze your glutes, brace your abdominals, and point your toes up toward the ceiling to maintain a hollow-body position.",
+      "Hold the position steadily for the prescribed duration without letting your lower back arch.",
+      "To exit, safely walk your hands forward and walk your feet down the wall until you reach the floor."
+    ],
+    "breathing": "Breathe shallowly and steadily through your nose while maintaining constant abdominal brace throughout the hold.",
+    "cues": [
+      "Push the floor away",
+      "Ribs to hips",
+      "Squeeze your glutes",
+      "Point your toes"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive lumbar extension (banana back)",
+        "correction": "Tuck your tailbone, brace your abs, and hold a posterior pelvic tilt so only your toes and upper chest touch the wall."
+      },
+      {
+        "fault": "Soft or bent elbows",
+        "correction": "Actively lock your triceps and drive through your hands to keep your arms completely straight."
+      },
+      {
+        "fault": "Depressed or passive shoulders",
+        "correction": "Shrug your shoulders upward toward your ears to engage the serratus and upper traps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure you have the stamina to safely walk down before reaching complete muscular failure.",
+        "Clear the surrounding floor space of any objects in case of an accidental bail or forward roll."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

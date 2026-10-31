@@ -1,0 +1,222 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Baithak",
+      "kind": "regional"
+    },
+    {
+      "text": "Bethak",
+      "kind": "regional"
+    },
+    {
+      "text": "Hindu Squats",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "soleus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "toes",
+        "actions": [
+          "extension"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "required": []
+  },
+  "external_ids": {
+    "wger": "291"
+  },
+  "id": "oec:hindu-squat",
+  "instructions": {
+    "setup": [
+      "Stand tall with feet approximately shoulder-width apart and toes pointing straight ahead or slightly turned out.",
+      "Begin with arms extended forward at chest height, hands relaxed or loosely fisted."
+    ],
+    "steps": [
+      "Initiate the descent by bending your knees and hips while sweeping your arms down and back past your hips.",
+      "Allow your heels to elevate naturally as you descend, coming onto the balls of your feet while keeping the torso as upright as possible.",
+      "Descend smoothly into a deep squat until your thighs pass parallel or reach full comfortable depth, brushing your fingertips near your heels.",
+      "Drive through the balls of your feet to ascend, simultaneously swinging your arms forward and up back to chest height.",
+      "Lower your heels back to the floor at the top of the repetition as your arms return to the starting position."
+    ],
+    "breathing": "Inhale deeply as you sweep the arms back and descend into the squat, then exhale forcefully as you drive up and reach your arms forward.",
+    "cues": [
+      "Stay tall through the spine",
+      "Heels rise on the way down",
+      "Flow smoothly with the arm swing",
+      "Drive through the balls of your feet"
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive forward torso lean during descent",
+        "correction": "Keep the chest proud and eyes forward, letting the knees travel forward over the toes to maintain an upright posture."
+      },
+      {
+        "fault": "Jerking or bouncing abruptly at the bottom",
+        "correction": "Maintain continuous, rhythmic control rather than collapsing into passive knee flexion."
+      },
+      {
+        "fault": "Failing to coordinate arm swing with leg drive",
+        "correction": "Synchronize the movement so the arms swing forward precisely as you push through the floor to stand."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Hindu squats impose high shear and compressive forces on the patellofemoral joint due to significant forward knee travel; progress gradually and avoid if experiencing active knee pain."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "tempo",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration",
+          "reps"
+        ],
+        "optional": [
+          "heart-rate"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Hindu Squat",
+  "previous_ids": [
+    "oec:hindu-squats"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Hindu Squats",
+        "url": "https://wger.de/en/exercise/291/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Vilhelmo"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:bodyweight-squat"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:bodyweight-squat"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A rhythmic bodyweight squat performed on the balls of the feet with synchronized arm swings, emphasizing knee flexion and lower-body endurance."
+}

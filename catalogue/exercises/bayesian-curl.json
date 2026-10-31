@@ -1,0 +1,210 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Behind-the-Back Cable Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Face-Away Cable Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Behind-the-Back Curl",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "biceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachioradialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "forearm-flexors",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "radioulnar",
+        "actions": [
+          "supination",
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "isolation-elbow-flexion"
+    ],
+    "mechanics": "isolation",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "cable"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "1493"
+  },
+  "id": "oec:bayesian-curl",
+  "instructions": {
+    "setup": [
+      "Set a cable pulley to the lowest position and attach a single D-handle.",
+      "Grasp the handle with a supinated grip and face directly away from the machine.",
+      "Take a step forward into a staggered stance until the cable is taut and your working arm is pulled behind your torso into shoulder extension."
+    ],
+    "steps": [
+      "Keep your upper arm stationary behind your torso to maintain a stretch across the biceps.",
+      "Curl the handle forward and upward by flexing at the elbow until peak contraction is achieved.",
+      "Squeeze the biceps at the top for a brief moment.",
+      "Lower the weight with control, resisting the cable as your arm extends fully back into the stretched starting position."
+    ],
+    "breathing": "Exhale as you curl the weight forward; inhale as you lower it with control into the stretch.",
+    "cues": [
+      "Keep the elbow pinned back",
+      "Feel the deep stretch at the bottom",
+      "Curl your hand toward your shoulder without swinging"
+    ],
+    "common_faults": [
+      {
+        "fault": "Drifting the elbow forward during the curl",
+        "correction": "Keep the upper arm anchored behind your torso to maintain shoulder extension and focus tension on the long head of the biceps."
+      },
+      {
+        "fault": "Using torso momentum or leaning forward",
+        "correction": "Brace your core and maintain an upright, stable staggered stance throughout the repetition."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid letting the cable aggressively jerk your arm back into hyperextension at the bottom of the movement."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "per-side"
+  },
+  "name": "Bayesian Curl",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Bayesian Curl",
+        "url": "https://wger.de/en/exercise/1493/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "aahuja"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:cable-biceps-curl"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:cable-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-biceps-curl"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:cable-curl"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "supinated"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "staggered"
+    }
+  },
+  "status": "active",
+  "summary": "A cable biceps curl performed facing away from a low pulley with the shoulder extended to place the long head of the biceps in a stretched position."
+}

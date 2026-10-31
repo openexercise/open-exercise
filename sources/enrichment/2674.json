@@ -1,0 +1,164 @@
+{
+  "is_exercise": true,
+  "name": "Captain's Chair Knee Raise",
+  "summary": "An abdominal exercise performed in forearm support where the knees are drawn up toward the chest to train the hip flexors and abdominals.",
+  "aliases": [
+    {
+      "text": "Vertical Knee Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Roman Chair Knee Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Power Tower Knee Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Knieheben Beinhebemaschine",
+      "kind": "regional"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "spinal-flexion"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "support",
+  "grip_orientation": "neutral",
+  "grip_width": "shoulder",
+  "muscles": [
+    {
+      "muscle": "rectus-abdominis",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "iliopsoas",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "obliques",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rectus-femoris",
+      "role": "synergist"
+    },
+    {
+      "muscle": "tensor-fasciae-latae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "serratus-anterior",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "depression",
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "roman-chair",
+        "dip-station"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "bodyweight",
+  "load_convention": "not-applicable",
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": false,
+  "instructions": {
+    "setup": [
+      "Step onto the foot pegs of the captain's chair station.",
+      "Rest your forearms securely on the padded rests and grip the forward handles.",
+      "Press firmly down through your forearms to depress your shoulders away from your ears.",
+      "Step your feet off the pegs so your torso is supported by your forearms and your back rests flush against the pad."
+    ],
+    "steps": [
+      "Engage your core and bend your knees slightly.",
+      "Exhale and raise your knees toward your chest by flexing your hips and rounding your pelvis upward.",
+      "Pause momentarily at the top of the movement with your pelvis tilted forward.",
+      "Inhale as you lower your knees back down under control until your legs hang vertically without swinging."
+    ],
+    "breathing": "Exhale forcefully as you lift your knees and curl your pelvis up; inhale smoothly as you lower your legs back to the start.",
+    "cues": [
+      "Push the floor away through your elbows.",
+      "Roll your pelvis up toward your ribcage.",
+      "Control the descent to eliminate swing."
+    ],
+    "common_faults": [
+      {
+        "fault": "Relying on momentum and swinging the legs to achieve height.",
+        "correction": "Pause at the bottom between reps and initiate the lift entirely through abdominal and hip flexor contraction."
+      },
+      {
+        "fault": "Stopping hip flexion before tilting the pelvis upward, turning the exercise purely into a hip flexor lift.",
+        "correction": "Curl the lower back off the pad slightly at the peak to actively recruit the rectus abdominis."
+      },
+      {
+        "fault": "Allowing the shoulders to shrug upward toward the ears.",
+        "correction": "Actively depress your scapulae by pushing down into the forearm pads throughout the entire set."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Maintain shoulder depression to avoid excessive strain on the shoulder girdle and neck.",
+        "Discontinue if you feel sharp pain in the front of the hip or lower back."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "is_exercise": true,
+  "name": "Barbell Walking Lunge",
+  "summary": "A dynamic lower-body compound exercise where you step forward continuously with a barbell across the upper back, challenging leg strength, unilateral stability, and hip extension.",
+  "aliases": [
+    {
+      "text": "Barbell Lunges Walking",
+      "kind": "common"
+    },
+    {
+      "text": "Walking Barbell Lunge",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "lunge",
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "moving",
+  "grip_orientation": "pronated",
+  "grip_width": "wide",
+  "stance_width": "hip",
+  "stance_kind": "split",
+  "load_position": "high-bar",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "quadriceps",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "hamstrings",
+      "role": "synergist"
+    },
+    {
+      "muscle": "soleus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "flexion",
+        "extension"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "plantarflexion",
+        "dorsiflexion"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "barbell"
+      ]
+    },
+    {
+      "any_of": [
+        "squat-rack",
+        "power-rack"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    },
+    {
+      "required": [
+        "distance",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "total",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Unrack a barbell from a squat rack across your upper traps, securing it with an overhand grip wider than shoulder-width.",
+      "Step back clear of the rack, stand tall with your feet hip-width apart, and brace your core."
+    ],
+    "steps": [
+      "Take a controlled, exaggerated step forward with one leg, keeping your feet hip-width apart on separate tracks.",
+      "Lower your hips under control until your back knee gently taps or hovers just above the floor and your front thigh is roughly parallel to the ground.",
+      "Drive firmly through the heel and midfoot of the lead leg to extend your hip and knee.",
+      "Bring the trailing foot smoothly forward in one fluid motion into the next step, repeating the lunge on the opposite side."
+    ],
+    "breathing": "Inhale as you step forward and descend, and exhale forcefully as you drive up out of the lunge.",
+    "cues": [
+      "Stay on train tracks, not a tightrope.",
+      "Chest tall and proud.",
+      "Drive through the front heel."
+    ],
+    "common_faults": [
+      {
+        "fault": "Stepping in a straight line as if on a balance beam, causing loss of lateral balance.",
+        "correction": "Keep your stride hip-width apart to create a stable base of support."
+      },
+      {
+        "fault": "Letting the lead knee cave inward (valgus collapse) on the descent or drive.",
+        "correction": "Track your lead knee directly in line with your middle toes throughout the movement."
+      },
+      {
+        "fault": "Banging the trailing knee violently into the floor.",
+        "correction": "Control the eccentric descent and stop when the rear knee gently touches or hovers an inch off the floor."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure an open, non-slip pathway completely free of plates, clips, and other gym equipment before beginning the set.",
+        "Maintain an upright torso to prevent excessive shear on the lumbar spine."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "is_exercise": true,
+  "name": "Dumbbell Single-Leg Deadlift",
+  "summary": "A unilateral hip hinge performed on one leg with dumbbells to develop hamstring strength, glute power, and balance.",
+  "aliases": [
+    {
+      "text": "Single-Leg Dumbbell Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Single-Leg Romanian Deadlift",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Leg Dumbbell RDL",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Dumbbell SLDL",
+      "kind": "abbreviation"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy",
+      "balance"
+    ],
+    "movement_patterns": [
+      "hinge",
+      "balance"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "unilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "position": "standing",
+  "stance_kind": "single-leg",
+  "load_position": "at-sides",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "hamstrings",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "gluteus-maximus",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "adductor-magnus",
+      "role": "synergist"
+    },
+    {
+      "muscle": "erector-spinae",
+      "role": "synergist"
+    },
+    {
+      "muscle": "gluteus-medius",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "gluteus-minimus",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "obliques",
+      "role": "stabilizer"
+    },
+    {
+      "muscle": "foot-intrinsics",
+      "role": "stabilizer"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "hip",
+      "actions": [
+        "flexion",
+        "extension",
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "knee",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "lumbar-spine",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "ankle",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    },
+    {
+      "joint": "subtalar",
+      "actions": [
+        "isometric-stabilization"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "dumbbell"
+      ]
+    }
+  ],
+  "optional_equipment": [],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "per-implement",
+  "load_implements": 2,
+  "reps_counted": "per-side",
+  "records_e1rm": false,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Stand tall holding a dumbbell in each hand (or a single dumbbell held in the hand opposite the working leg).",
+      "Shift your weight onto the working foot, keeping a soft bend in that knee.",
+      "Engage your core, pull your shoulder blades down, and lift the non-working foot slightly off the floor."
+    ],
+    "steps": [
+      "Hinge at the hips, driving your non-working leg straight back behind you as your torso lowers forward.",
+      "Keep the dumbbells close to your standing leg and your pelvis squared toward the floor.",
+      "Descend until your torso and back leg form a straight line roughly parallel to the ground, or until you feel a strong stretch in the standing hamstring without rounding your lower back.",
+      "Drive through the midfoot and heel of the standing leg, extending the hip to return to the upright starting position."
+    ],
+    "breathing": "Inhale and brace your core before initiating the hinge, then exhale as you extend the hip to return to standing.",
+    "cues": [
+      "Reach the back heel to the wall behind you.",
+      "Keep your hips level like headlights facing the floor.",
+      "Soft knee, push the hip straight back."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rotating the pelvis open toward the free leg during the descent.",
+        "correction": "Point the toes of your floating leg straight down toward the floor to keep the pelvis square."
+      },
+      {
+        "fault": "Rounding the lumbar or thoracic spine to reach the dumbbells lower.",
+        "correction": "Maintain a flat back and only descend as far as hamstring flexibility allows while keeping spine neutral."
+      },
+      {
+        "fault": "Locking out the standing knee completely.",
+        "correction": "Maintain a slight 15- to 20-degree knee bend throughout the entire movement to load the hamstrings and glutes safely."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Clear the floor space around you in case you lose balance and need to step down."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}

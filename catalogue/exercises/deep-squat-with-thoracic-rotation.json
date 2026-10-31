@@ -1,0 +1,219 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Squat Thoracic Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Squat Sky Reach Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Deep Squat Sky Reach",
+      "kind": "common"
+    },
+    {
+      "text": "Squat to Sky Reach",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "obliques",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rhomboids",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "stretched"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "stretched"
+      },
+      {
+        "muscle": "adductors",
+        "role": "stretched"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "rotation",
+          "extension"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "abduction",
+          "external-rotation"
+        ]
+      },
+      {
+        "joint": "hip",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "flexibility"
+    ],
+    "movement_patterns": [
+      "mobility-drill",
+      "rotation",
+      "stretch",
+      "squat"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "transverse",
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "mat"
+    ],
+    "required": []
+  },
+  "external_ids": {
+    "wger": "2528"
+  },
+  "id": "oec:deep-squat-with-thoracic-rotation",
+  "instructions": {
+    "setup": [
+      "Stand with feet roughly shoulder-width apart and toes turned slightly outward.",
+      "Descend into a full deep squat with an upright torso, flat feet, and knees tracking in line with toes.",
+      "Anchor yourself at the bottom by gripping your opposite ankle or the floor with one hand, keeping that arm inside your knee to maintain hip abduction."
+    ],
+    "steps": [
+      "Inhale to prepare, then exhale as you rotate your torso upward toward the free side.",
+      "Reach the active arm toward the ceiling, following your hand with your eyes and opening your chest fully.",
+      "Pause for one to two seconds at maximum rotation while keeping both heels grounded and hips steady.",
+      "Return the rotating arm back to center and switch sides, or complete the prescribed repetitions per side."
+    ],
+    "breathing": "Exhale as you twist and reach toward the ceiling, and inhale as you return your hand to center.",
+    "cues": [
+      "Keep heels glued to the floor",
+      "Follow your hand with your eyes",
+      "Use the anchored arm to keep your knee pushed out",
+      "Rotate from the mid-back, not just the arm"
+    ],
+    "common_faults": [
+      {
+        "fault": "Heels lifting off the floor during the squat hold",
+        "correction": "Widen your stance or elevate your heels slightly on a small plate until ankle mobility improves."
+      },
+      {
+        "fault": "Knees caving inward as the torso rotates",
+        "correction": "Actively push your knees outward using your hip musculature and your anchored arm."
+      },
+      {
+        "fault": "Moving only the arm rather than rotating through the thoracic spine",
+        "correction": "Focus on turning your ribcage and sternum toward the side wall rather than flinging your shoulder backward."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Avoid forcing rotation if you experience sharp pain in the lower back or shoulders."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "duration",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "per-side"
+  },
+  "name": "Deep Squat with Thoracic Rotation",
+  "previous_ids": [
+    "oec:squat-sky-reach-stretch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "gemini-3.8-flash",
+      "at": "2026-10-31"
+    },
+    "sources": [
+      {
+        "title": "wger: Squat Sky Reach Stretch",
+        "url": "https://wger.de/en/exercise/2528/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Croak6728"
+      }
+    ]
+  },
+  "setup": {
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "A mobility drill performed in the bottom of a deep squat that rotates the upper torso toward the ceiling to open the thoracic spine, chest, and hips."
+}

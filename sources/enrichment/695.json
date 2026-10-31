@@ -1,0 +1,169 @@
+{
+  "is_exercise": true,
+  "name": "V-Bar Lat Pulldown",
+  "summary": "A seated vertical pulling exercise using a close neutral V-bar attachment to target the latissimus dorsi and upper back.",
+  "aliases": [
+    {
+      "text": "V-Bar Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Close-Grip V-Bar Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Close-Grip Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "V-Handle Pulldown",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "hypertrophy",
+      "strength"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "position": "seated",
+  "grip_orientation": "neutral",
+  "grip_width": "narrow",
+  "load_position": "overhead",
+  "range": "full",
+  "muscles": [
+    {
+      "muscle": "latissimus-dorsi",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "teres-major",
+      "role": "prime-mover"
+    },
+    {
+      "muscle": "biceps-brachii",
+      "role": "synergist"
+    },
+    {
+      "muscle": "brachialis",
+      "role": "synergist"
+    },
+    {
+      "muscle": "rhomboids",
+      "role": "synergist"
+    },
+    {
+      "muscle": "trapezius-lower",
+      "role": "synergist"
+    },
+    {
+      "muscle": "deltoid-posterior",
+      "role": "synergist"
+    }
+  ],
+  "joints": [
+    {
+      "joint": "glenohumeral",
+      "actions": [
+        "extension",
+        "adduction"
+      ]
+    },
+    {
+      "joint": "elbow",
+      "actions": [
+        "flexion"
+      ]
+    },
+    {
+      "joint": "scapulothoracic",
+      "actions": [
+        "downward-rotation",
+        "depression",
+        "retraction"
+      ]
+    }
+  ],
+  "required_equipment": [
+    {
+      "any_of": [
+        "cable",
+        "selectorized-machine"
+      ]
+    }
+  ],
+  "measurement_profiles": [
+    {
+      "required": [
+        "reps",
+        "load"
+      ],
+      "optional": [
+        "rpe",
+        "tempo"
+      ]
+    }
+  ],
+  "load_kind": "external",
+  "load_convention": "weight-stack",
+  "load_implements": 1,
+  "reps_counted": "total",
+  "records_e1rm": true,
+  "records_volume": true,
+  "instructions": {
+    "setup": [
+      "Attach a V-bar (close-grip triangle handle) to the high pulley of a lat pulldown station.",
+      "Adjust the thigh pads so your legs are securely anchored with feet flat on the floor.",
+      "Grasp the handles with a neutral grip and sit down, securing your thighs beneath the pads with arms fully extended overhead and chest lifted."
+    ],
+    "steps": [
+      "Initiate the pull by depressing and retracting your shoulder blades, leaning back slightly through the hips without hyperextending your lower back.",
+      "Drive your elbows down and back, pulling the V-bar toward your upper chest.",
+      "Pause briefly at the bottom while contracting your lats.",
+      "Slowly reverse the movement, extending your arms and allowing your shoulder blades to elevate to a full stretch at the top."
+    ],
+    "breathing": "Exhale as you pull the handle down to your chest; inhale as you return the weight smoothly to the starting position.",
+    "cues": [
+      "Drive your elbows down to your pockets.",
+      "Puff your chest up to meet the handle.",
+      "Control the stretch at the top without letting the stack slam."
+    ],
+    "common_faults": [
+      {
+        "fault": "Excessive torso swing and leaning too far back to heave the weight down.",
+        "correction": "Keep your torso relatively fixed with only a slight natural backward lean of about ten to fifteen degrees."
+      },
+      {
+        "fault": "Cutting the range of motion short at the top.",
+        "correction": "Allow your arms to fully extend and shoulder blades to elevate for a deep stretch on the lats between repetitions."
+      },
+      {
+        "fault": "Pulling primarily with the arms and rolling shoulders forward at the bottom.",
+        "correction": "Lead with scapular depression and focus on driving through the elbows rather than curling with the biceps."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Ensure the thigh pads are locked firmly over your legs before starting the set."
+      ],
+      "spotter": "not-needed",
+      "safeties": false
+    }
+  }
+}
