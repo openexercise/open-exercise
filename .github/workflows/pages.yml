@@ -24,7 +24,7 @@ jobs:
         with:
           go-version-file: go.mod
       - run: go run ./cmd/oes site dist
-      - run: echo openexercise.runmighty.dev > dist/CNAME
+      - run: echo openexercise.org > dist/CNAME
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
