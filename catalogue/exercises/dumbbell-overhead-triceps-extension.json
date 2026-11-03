@@ -20,6 +20,10 @@
     {
       "text": "Triceps Overhead (Dumbbell)",
       "kind": "common"
+    },
+    {
+      "text": "Overhead Dumbbell Extension",
+      "kind": "common"
     }
   ],
   "anatomy": {

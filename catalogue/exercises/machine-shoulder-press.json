@@ -20,6 +20,10 @@
     {
       "text": "Shoulder Press, on Machine",
       "kind": "common"
+    },
+    {
+      "text": "Shoulder Press Machine",
+      "kind": "common"
     }
   ],
   "anatomy": {

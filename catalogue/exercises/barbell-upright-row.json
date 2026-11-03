@@ -1,0 +1,215 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Upright Row",
+      "kind": "common"
+    },
+    {
+      "text": "BB Upright Row",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-lateral",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-middle",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "brachialis",
+        "role": "synergist"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "abduction",
+          "flexion"
+        ]
+      },
+      {
+        "joint": "scapulothoracic",
+        "actions": [
+          "upward-rotation",
+          "elevation",
+          "retraction"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion"
+        ]
+      },
+      {
+        "joint": "wrist",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-pull",
+      "pull"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "frontal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [],
+    "required": [
+      [
+        "barbell",
+        "ez-bar"
+      ]
+    ]
+  },
+  "id": "oec:barbell-upright-row",
+  "instructions": {
+    "setup": [
+      "Stand with feet hip-width apart holding a barbell or EZ-bar in an overhand grip about shoulder width.",
+      "Let the bar rest against your thighs at arm's length, brace your trunk and set your shoulders down and back."
+    ],
+    "steps": [
+      "Drive the elbows up and out to the sides so the bar travels straight up along your body.",
+      "Stop when the bar reaches the lower chest and your upper arms are about level with the floor, elbows above the wrists.",
+      "Hold for a moment, then lower the bar along the same path until your arms are straight again.",
+      "Repeat for the planned number of reps without swinging the torso."
+    ],
+    "breathing": "Exhale as the bar rises and inhale as you lower it under control.",
+    "cues": [
+      "Elbows lead, hands follow.",
+      "Bar close to the body.",
+      "Stop at the lower chest."
+    ],
+    "common_faults": [
+      {
+        "fault": "Pulling the bar up to the chin with the elbows above shoulder height",
+        "correction": "Finish the pull at the lower chest with the upper arms level with the floor, which keeps the shoulder out of the pinch range."
+      },
+      {
+        "fault": "Rocking back and heaving the bar with the hips",
+        "correction": "Lighten the load, keep the trunk still and let the shoulders and elbows do the lifting."
+      },
+      {
+        "fault": "Letting the wrists curl up as the bar rises",
+        "correction": "Keep the wrists straight and think of the hands as hooks so the elbows stay highest."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "The shoulder-width grip puts the shoulder in more internal rotation than a wide grip; if the front of the shoulder pinches, widen the grip, shorten the range or switch to an EZ-bar."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Upright Row",
+  "provenance": {
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "unreviewed"
+    }
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:barbell-wide-grip-upright-row"
+    },
+    {
+      "type": "variation-of",
+      "target": "oec:close-grip-barbell-upright-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:dumbbell-upright-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:ez-bar-upright-row"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:smith-machine-upright-row"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "pronated",
+      "width": "shoulder"
+    },
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A standing vertical pull with a shoulder-width overhand grip on a barbell, lifting the bar along the torso to the lower chest to work the side deltoids and upper trapezius."
+}

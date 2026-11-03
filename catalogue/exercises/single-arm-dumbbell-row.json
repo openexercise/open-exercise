@@ -32,6 +32,10 @@
     {
       "text": "Dumbbell single arm row",
       "kind": "common"
+    },
+    {
+      "text": "Dumbbell Row",
+      "kind": "common"
     }
   ],
   "anatomy": {

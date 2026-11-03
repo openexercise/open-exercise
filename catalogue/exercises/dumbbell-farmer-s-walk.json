@@ -36,6 +36,14 @@
     {
       "text": "farmer carry",
       "kind": "common"
+    },
+    {
+      "text": "Farmer's Carry",
+      "kind": "common"
+    },
+    {
+      "text": "Farmer's Walk",
+      "kind": "common"
     }
   ],
   "anatomy": {

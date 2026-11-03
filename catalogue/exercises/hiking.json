@@ -1,0 +1,214 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Hike",
+      "kind": "common"
+    },
+    {
+      "text": "Trail Walking",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "vastus-lateralis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "vastus-medialis",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "soleus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gastrocnemius",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "rectus-femoris",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-femoris",
+        "role": "synergist"
+      },
+      {
+        "muscle": "tibialis-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "iliopsoas",
+        "role": "synergist"
+      },
+      {
+        "muscle": "gluteus-medius",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "subtalar",
+        "actions": [
+          "inversion",
+          "eversion"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "gait"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "optional": [
+      "weight-vest"
+    ],
+    "required": []
+  },
+  "id": "oec:hiking",
+  "instructions": {
+    "setup": [
+      "Choose a trail or hill route that suits your fitness, and wear shoes with grip and ankle support for the ground you expect.",
+      "Stand tall with a light pack settled close to your back, straps snug, and your eyes on the path a few metres ahead."
+    ],
+    "steps": [
+      "Walk at a pace you can hold for the whole route, shortening your stride and leaning slightly into the slope on climbs.",
+      "Push off the whole foot and drive through the glutes and thighs on each uphill step, keeping a steady rhythm.",
+      "On descents, bend the knees a little, land softly, and let your arms balance you over loose or uneven ground.",
+      "Keep moving at a steady effort, stopping only as the route or terrain demands, until the planned distance or time is done."
+    ],
+    "breathing": "Breathe deeply in time with your steps; slow the pace rather than hold your breath when a climb gets hard.",
+    "cues": [
+      "Short steps uphill",
+      "Soft knees downhill",
+      "Eyes on the trail ahead",
+      "Steady effort, not speed"
+    ],
+    "common_faults": [
+      {
+        "fault": "Starting too fast and fading before the end of the route",
+        "correction": "Settle into a pace you could talk at and save any push for the final stretch."
+      },
+      {
+        "fault": "Locking the knees and landing heavily on descents",
+        "correction": "Keep the knees slightly bent and take shorter, quieter steps so the thighs absorb each landing."
+      },
+      {
+        "fault": "Hunching under a pack and staring at your feet",
+        "correction": "Tighten the straps so the load sits close, lift your chest, and look a few metres ahead."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Carry water, check the weather and daylight before setting out, and tell someone your route and expected return.",
+        "Build up distance and elevation gradually, since downhill walking loads the knees and thighs more than flat ground."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "distance",
+          "heart-rate",
+          "pace",
+          "cadence",
+          "calories",
+          "incline"
+        ]
+      },
+      {
+        "required": [
+          "distance",
+          "duration"
+        ],
+        "optional": [
+          "pace",
+          "heart-rate",
+          "cadence",
+          "calories",
+          "incline"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Hiking",
+  "provenance": {
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "unreviewed"
+    }
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:walking"
+    }
+  ],
+  "setup": {
+    "position": "moving",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "Sustained walking over trails and hills, where climbs and descents ask more of the glutes and thighs than walking on the flat."
+}

@@ -16,6 +16,10 @@
     {
       "text": "Lento Avanti Seduto",
       "kind": "regional"
+    },
+    {
+      "text": "Seated Dumbbell Press",
+      "kind": "common"
     }
   ],
   "anatomy": {
