@@ -1,0 +1,198 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Good Morning",
+      "kind": "common"
+    },
+    {
+      "text": "BB Good Morning",
+      "kind": "common"
+    },
+    {
+      "text": "Back Good Morning",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "hamstrings",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "erector-spinae",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "adductor-magnus",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "lumbar-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      },
+      {
+        "joint": "thoracic-spine",
+        "actions": [
+          "isometric-stabilization"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "hinge"
+    ],
+    "mechanics": "compound",
+    "force": "pull",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "intermediate"
+  },
+  "equipment": {
+    "optional": [
+      "weight-plate"
+    ],
+    "required": [
+      [
+        "barbell"
+      ],
+      [
+        "squat-rack",
+        "power-rack"
+      ]
+    ]
+  },
+  "id": "oec:barbell-good-morning",
+  "instructions": {
+    "setup": [
+      "Set the bar in a rack at upper-chest height and step under it so it rests across the upper back, as for a high-bar squat.",
+      "Unrack it, step back, and stand with feet about hip width apart, knees softly bent and the trunk braced."
+    ],
+    "steps": [
+      "Push the hips straight back and let the torso tip forward, keeping the back flat and the knee bend fixed.",
+      "Lower until you feel a strong stretch in the hamstrings or the torso nears parallel to the floor, whichever comes first.",
+      "Drive the hips forward and squeeze the glutes to return to standing without leaning back at the top.",
+      "Repeat for the planned reps, then walk the bar back into the rack."
+    ],
+    "breathing": "Take a breath and brace before each descent, and exhale as you pass the hardest part of the rise.",
+    "cues": [
+      "Hips back, not down.",
+      "Flat back, chest proud.",
+      "Knees stay where they started."
+    ],
+    "common_faults": [
+      {
+        "fault": "Rounding the lower back to reach more depth",
+        "correction": "Stop the descent where the back stays flat, and lighten the bar until that depth is controlled."
+      },
+      {
+        "fault": "Bending the knees more as the hips go back, turning it into a squat",
+        "correction": "Set a slight knee bend before the first rep and keep it fixed so the hamstrings take the stretch."
+      },
+      {
+        "fault": "Starting too heavy",
+        "correction": "Learn the hinge with the empty bar or the bodyweight version; the long lever makes small loads feel heavy."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Use a load well below your squat: the bar sits far from the hips at the bottom, so the lower back carries a long lever.",
+        "Set the rack's safety arms below the lowest point of the bar's path so a missed rep can be dumped safely."
+      ],
+      "spotter": "not-needed",
+      "safeties": true
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "total",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Barbell Good Morning",
+  "provenance": {
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "unreviewed"
+    }
+  },
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:bodyweight-good-morning"
+    },
+    {
+      "type": "substitute-for",
+      "target": "oec:barbell-romanian-deadlift"
+    }
+  ],
+  "setup": {
+    "load_position": "high-bar",
+    "position": "standing",
+    "range": "full",
+    "stance": {
+      "kind": "parallel",
+      "width": "hip"
+    }
+  },
+  "status": "active",
+  "summary": "A standing hip hinge with a barbell across the upper back, bowing the torso forward with soft knees and a flat back to load the hamstrings, glutes and spinal erectors."
+}

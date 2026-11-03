@@ -2,15 +2,7 @@
   "$schema": "https://openexercise.org/schema/v0/exercise.json",
   "aliases": [
     {
-      "text": "Good Morning",
-      "kind": "common"
-    },
-    {
       "text": "Standing Hip Hinge",
-      "kind": "common"
-    },
-    {
-      "text": "barbell good morning",
       "kind": "common"
     },
     {
@@ -203,6 +195,10 @@
     {
       "type": "regression-of",
       "target": "oec:dumbbell-romanian-deadlift"
+    },
+    {
+      "type": "regression-of",
+      "target": "oec:barbell-good-morning"
     }
   ],
   "setup": {
