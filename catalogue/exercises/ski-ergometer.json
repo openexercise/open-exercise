@@ -12,6 +12,10 @@
     {
       "text": "Nordic Ski Ergometer",
       "kind": "common"
+    },
+    {
+      "text": "Ski Erg",
+      "kind": "common"
     }
   ],
   "anatomy": {

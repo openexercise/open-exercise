@@ -12,6 +12,10 @@
     {
       "text": "Chest-Supported Machine Row",
       "kind": "common"
+    },
+    {
+      "text": "Machine Row",
+      "kind": "common"
     }
   ],
   "anatomy": {
