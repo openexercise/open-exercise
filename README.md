@@ -35,6 +35,10 @@ go run ./cmd/enrich relate
 go run ./cmd/enrich merge
 ```
 
+## Taking part
+
+Issues and pull requests are welcome: see [CONTRIBUTING.md](CONTRIBUTING.md), [GOVERNANCE.md](GOVERNANCE.md) for who decides and how, the [code of conduct](CODE_OF_CONDUCT.md), and [SECURITY.md](SECURITY.md) for reporting vulnerabilities privately.
+
 ## Licences
 
 Schema, spec, vocabularies and tools: [Apache-2.0](LICENSE). Catalogue (`catalogue/`, `sources/`): [CC-BY-SA 4.0](catalogue/LICENSE), derived from wger, with each record crediting its authors in `provenance.sources`.
