@@ -245,6 +245,7 @@
     },
     "position": "seated"
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:stationary-bike",
   "summary": "Pedal an indoor stationary bicycle to build cardiovascular endurance and lower-body muscular stamina."
 }

@@ -1,0 +1,241 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Assault Bike",
+      "kind": "brand"
+    },
+    {
+      "text": "Echo Bike",
+      "kind": "brand"
+    },
+    {
+      "text": "Fan Bike",
+      "kind": "common"
+    },
+    {
+      "text": "Airdyne",
+      "kind": "brand"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "quadriceps",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "gluteus-maximus",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "hamstrings",
+        "role": "synergist"
+      },
+      {
+        "muscle": "calves",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-posterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "biceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "latissimus-dorsi",
+        "role": "synergist"
+      },
+      {
+        "muscle": "pectoralis-major",
+        "role": "synergist"
+      },
+      {
+        "muscle": "obliques",
+        "role": "stabilizer"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ],
+    "joints": [
+      {
+        "joint": "hip",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "knee",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "ankle",
+        "actions": [
+          "plantarflexion",
+          "dorsiflexion"
+        ]
+      },
+      {
+        "joint": "glenohumeral",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      },
+      {
+        "joint": "elbow",
+        "actions": [
+          "flexion",
+          "extension"
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "cardio",
+      "conditioning"
+    ],
+    "movement_patterns": [
+      "cycle"
+    ],
+    "mechanics": "compound",
+    "force": "mixed",
+    "kinetic_chain": "closed",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "air-bike"
+      ]
+    ]
+  },
+  "id": "oec:air-bike",
+  "instructions": {
+    "setup": [
+      "Set the seat so your knee keeps a slight bend with the pedal at its lowest point, and the seat level with your hip when you stand beside the bike.",
+      "Sit tall, place your feet on the pedals, and take the moving handles with a relaxed grip."
+    ],
+    "steps": [
+      "Start pedalling and let your arms push and pull the handles in time with your legs: push with the arm on the side of the leg that's pushing down.",
+      "Drive through the whole foot and keep the effort shared between your legs and arms.",
+      "Go harder by pedalling and pushing faster: the fan's resistance rises with your speed, so there is no resistance setting to change.",
+      "Ease off to a slow pedal to recover between hard efforts, and keep going for the planned time, distance or calories."
+    ],
+    "breathing": "Breathe steadily through the work; on hard sprints, breathe faster rather than holding your breath.",
+    "cues": [
+      "Arms and legs together",
+      "Sit tall, chest open",
+      "Speed is the resistance"
+    ],
+    "common_faults": [
+      {
+        "fault": "Letting the arms ride along while the legs do all the work",
+        "correction": "Push and pull the handles on purpose, matching each arm to the opposite pedal stroke."
+      },
+      {
+        "fault": "Starting a sprint flat out and fading within seconds",
+        "correction": "Build to your target pace over the first few seconds and hold an effort you can keep for the whole interval."
+      },
+      {
+        "fault": "Hunching forward over the handles",
+        "correction": "Sit up, keep the chest open and the shoulders away from the ears."
+      }
+    ],
+    "safety": {
+      "precautions": [
+        "Let the pedals and handles slow down before getting off: they keep moving after you stop pushing.",
+        "Build up sprint intervals gradually, since all-out efforts on an air bike raise the heart rate quickly."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "none"
+    },
+    "profiles": [
+      {
+        "required": [
+          "duration"
+        ],
+        "optional": [
+          "distance",
+          "calories",
+          "power",
+          "cadence",
+          "heart-rate",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration",
+          "calories"
+        ],
+        "optional": [
+          "distance",
+          "power",
+          "heart-rate",
+          "rpe"
+        ]
+      },
+      {
+        "required": [
+          "duration",
+          "distance"
+        ],
+        "optional": [
+          "calories",
+          "power",
+          "cadence",
+          "heart-rate",
+          "rpe"
+        ]
+      }
+    ],
+    "records": {}
+  },
+  "name": "Air Bike",
+  "provenance": {
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "unreviewed"
+    }
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:stationary-bike"
+    }
+  ],
+  "setup": {
+    "position": "seated"
+  },
+  "status": "active",
+  "summary": "Pedal a fan-resisted bike while pushing and pulling its moving handles, so the arms and legs share the work and resistance rises with effort."
+}
