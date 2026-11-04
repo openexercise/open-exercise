@@ -16,6 +16,14 @@
     {
       "text": "treadmill",
       "kind": "common"
+    },
+    {
+      "text": "Treadmill Jogging",
+      "kind": "common"
+    },
+    {
+      "text": "Treadmill Cardio",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -227,10 +235,6 @@
     {
       "type": "substitute-for",
       "target": "oec:running"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:treadmill-running"
     }
   ],
   "setup": {

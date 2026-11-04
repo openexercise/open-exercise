@@ -211,23 +211,11 @@
     },
     {
       "type": "substitute-for",
-      "target": "oec:stationary-bike-cycling"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:stationary-cycling"
-    },
-    {
-      "type": "substitute-for",
       "target": "oec:recumbent-bike"
     },
     {
       "type": "progression-of",
       "target": "oec:stationary-bike"
-    },
-    {
-      "type": "progression-of",
-      "target": "oec:stationary-cycling"
     }
   ],
   "setup": {

@@ -16,6 +16,18 @@
     {
       "text": "upright bike",
       "kind": "common"
+    },
+    {
+      "text": "Stationary Cycling",
+      "kind": "common"
+    },
+    {
+      "text": "Stationary Biking",
+      "kind": "common"
+    },
+    {
+      "text": "Spinning",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -205,14 +217,6 @@
     {
       "type": "substitute-for",
       "target": "oec:recumbent-bike"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:stationary-bike-cycling"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:stationary-cycling"
     }
   ],
   "setup": {

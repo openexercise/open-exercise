@@ -227,6 +227,7 @@
   "setup": {
     "position": "standing"
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:treadmill-run",
   "summary": "A continuous cardiovascular exercise performed on a motorized treadmill to build aerobic capacity and lower-body endurance."
 }

@@ -232,6 +232,7 @@
     },
     "position": "seated"
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:stationary-bike",
   "summary": "A low-impact cardiovascular exercise performed on an indoor stationary bicycle to build aerobic endurance and lower-body stamina."
 }

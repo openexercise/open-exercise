@@ -244,10 +244,6 @@
     {
       "type": "substitute-for",
       "target": "oec:treadmill-run"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:treadmill-running"
     }
   ],
   "setup": {
