@@ -10,6 +10,12 @@ changes that change what matches, and format changes.
 
 ## Unreleased
 
+## v0.3.0 (2026-11-05)
+
+Benches with built-in uprights. A format change, though only an addition: two new equipment terms,
+and SPEC §8 now says one item may fill more than one equipment group. An app that checks equipment
+should let one item a person has satisfy every group it appears in.
+
 - **Vocabulary (additions):** `flat-bench-with-uprights` and `incline-bench-with-uprights`, a bench
   with hooks that hold the bar (openexercise/open-exercise#10). SPEC §8 now says one item may fill
   more than one equipment group.
