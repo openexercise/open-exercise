@@ -10,6 +10,13 @@ changes that change what matches, and format changes.
 
 ## Unreleased
 
+## v0.4.0 (2026-11-05)
+
+Automated verification. A format addition, the `machine-verified` review status, and its first
+use: 21 of the 54 exercises Lifterclub's programs use are verified, and 33 of those 54 were
+corrected. An app may now show a verified record's summary and instructions, labelled as checked
+automatically. Records whose aliases became `legacy` stop deciding matches by those names.
+
 - **Verification pilot (batch 1):** the 54 exercises Lifterclub's programs use went through the
   pipeline. 33 records were fixed: summaries, aliases (misleading ones now `legacy`), equipment,
   load conventions, setup facets and instructions. 21 are now `machine-verified`; the other 33
