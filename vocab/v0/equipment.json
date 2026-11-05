@@ -43,6 +43,8 @@
     {"id": "ghd", "label": "Glute-ham developer", "parent": "benches-racks"},
     {"id": "squat-rack", "label": "Squat rack", "parent": "benches-racks"},
     {"id": "power-rack", "label": "Power rack", "parent": "benches-racks"},
+    {"id": "flat-bench-with-uprights", "label": "Flat bench with uprights (a bench press station)", "parent": "benches-racks"},
+    {"id": "incline-bench-with-uprights", "label": "Incline bench with uprights (an incline press station)", "parent": "benches-racks"},
     {"id": "plyo-box", "label": "Box", "parent": "benches-racks"},
     {"id": "step", "label": "Step", "parent": "benches-racks"},
     {"id": "bodyweight-stations", "label": "Bodyweight stations"},

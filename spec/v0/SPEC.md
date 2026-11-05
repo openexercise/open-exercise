@@ -80,7 +80,7 @@ Terms come from the muscle tree in `vocab/v0/muscles.json`: region, group, muscl
 { "required": [["barbell"], ["squat-rack", "power-rack"]], "optional": ["strap"] }
 ```
 
-An empty `required` means no equipment. Absent means unknown. A parent term in the vocabulary means any of its children.
+An empty `required` means no equipment. Absent means unknown. A parent term in the vocabulary means any of its children. One item may fill more than one group: a bench press lists `flat-bench-with-uprights` in both its bench group and its rack group, because that one station is both.
 
 ## 9. Measurement
 

@@ -117,11 +117,13 @@
         "barbell"
       ],
       [
-        "bench"
+        "bench",
+        "flat-bench-with-uprights"
       ],
       [
         "power-rack",
-        "squat-rack"
+        "squat-rack",
+        "flat-bench-with-uprights"
       ]
     ]
   },

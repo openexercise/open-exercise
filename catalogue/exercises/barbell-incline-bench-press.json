@@ -103,12 +103,13 @@
         "barbell"
       ],
       [
-        "bench",
-        "adjustable-bench"
+        "adjustable-bench",
+        "incline-bench-with-uprights"
       ],
       [
         "squat-rack",
-        "power-rack"
+        "power-rack",
+        "incline-bench-with-uprights"
       ]
     ]
   },

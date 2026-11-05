@@ -10,6 +10,13 @@ changes that change what matches, and format changes.
 
 ## Unreleased
 
+- **Vocabulary (additions):** `flat-bench-with-uprights` and `incline-bench-with-uprights`, a bench
+  with hooks that hold the bar (openexercise/open-exercise#10). SPEC §8 now says one item may fill
+  more than one equipment group.
+- **Equipment:** the barbell bench press and its six flat variants accept a flat bench with
+  uprights for both the bench and the rack, and the two barbell incline presses an incline one.
+  The incline presses no longer accept a flat `bench`. Pin and overhead presses still need a rack.
+
 ## v0.2.0 (2026-11-05)
 
 The maintainer's pass over `catalogue/REVIEW.md`: duplicates folded together, wrong merges and

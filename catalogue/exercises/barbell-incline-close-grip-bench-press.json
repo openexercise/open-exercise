@@ -99,11 +99,12 @@
       ],
       [
         "adjustable-bench",
-        "bench"
+        "incline-bench-with-uprights"
       ],
       [
         "power-rack",
-        "squat-rack"
+        "squat-rack",
+        "incline-bench-with-uprights"
       ]
     ]
   },
