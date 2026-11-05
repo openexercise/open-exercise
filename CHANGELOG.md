@@ -10,6 +10,11 @@ changes that change what matches, and format changes.
 
 ## Unreleased
 
+- **Format (addition):** review status `machine-verified`, between `machine-generated` and
+  `community-reviewed`, with `review.models` naming the independent models that checked the record
+  (openexercise/open-exercise#15). `oes validate` refuses one without `by`, `at` and two distinct
+  models. Consumers may show such a record's text, labelled as checked automatically.
+
 ## v0.3.0 (2026-11-05)
 
 Benches with built-in uprights. A format change, though only an addition: two new equipment terms,

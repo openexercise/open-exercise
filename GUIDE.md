@@ -97,6 +97,7 @@ candidate to confirm. Every other kind matches alike.
 | Status | Meaning |
 | --- | --- |
 | `machine-generated` | A model wrote it from the sources; `provenance.generated` lists the values no person has checked |
+| `machine-verified` | Automated checks by at least two independent models (`models`) confirmed it against its sources; no person has checked it yet |
 | `community-reviewed` | A person checked every value (`by`, `at`) |
 | `expert-reviewed` | A qualified person checked it, such as a coach or physiotherapist |
 | `unreviewed` | Neither generated nor checked, such as a record set aside |
@@ -104,8 +105,9 @@ candidate to confirm. Every other kind matches alike.
 `by` is the latest reviewer's GitHub handle; the record's git history keeps earlier reviews.
 
 Until a record is reviewed, use its IDs, names, aliases and measurement, but don't present its
-instructions, safety text or summary as authoritative. Once reviewed, show them with the credit the
-licence asks for: the record's `provenance.sources` (title, author, licence), and "Open Exercise
+instructions, safety text or summary as authoritative. A `machine-verified` record's summary and
+instructions may be shown, labelled as checked automatically rather than by a person. Once reviewed, show them with the
+credit the licence asks for: the record's `provenance.sources` (title, author, licence), and "Open Exercise
 Catalogue, CC-BY-SA 4.0".
 
 ## Send corrections back

@@ -87,6 +87,9 @@ func buildSite(root, out string) error {
 		"isGenerated": func(e *oes.Exercise) bool {
 			return e.Provenance.Review != nil && e.Provenance.Review.Status == "machine-generated"
 		},
+		"isVerified": func(e *oes.Exercise) bool {
+			return e.Provenance.Review != nil && e.Provenance.Review.Status == oes.MachineVerified
+		},
 	}).ParseFS(templateFS, "templates/*.html")
 	if err != nil {
 		return fmt.Errorf("parse templates: %w", err)

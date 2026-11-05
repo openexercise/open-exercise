@@ -318,8 +318,9 @@
           "required": ["status"],
           "additionalProperties": false,
           "properties": {
-            "status": { "enum": ["unreviewed", "machine-generated", "community-reviewed", "expert-reviewed"] },
-            "model": { "type": "string", "description": "The model, when machine-generated." },
+            "status": { "enum": ["unreviewed", "machine-generated", "machine-verified", "community-reviewed", "expert-reviewed"] },
+            "model": { "type": "string", "description": "The model that generated the record." },
+            "models": { "type": "array", "minItems": 2, "items": { "type": "string" }, "description": "When machine-verified: the independent models that checked the record." },
             "at": { "type": "string", "format": "date" },
             "by": { "type": "string" }
           }

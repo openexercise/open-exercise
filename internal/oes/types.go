@@ -118,10 +118,11 @@ type Source struct {
 }
 
 type Review struct {
-	Status string `json:"status"`
-	Model  string `json:"model,omitempty"`
-	At     string `json:"at,omitempty"`
-	By     string `json:"by,omitempty"`
+	Status string   `json:"status"`
+	Model  string   `json:"model,omitempty"`
+	Models []string `json:"models,omitempty"`
+	At     string   `json:"at,omitempty"`
+	By     string   `json:"by,omitempty"`
 }
 
 type Provenance struct {

@@ -147,10 +147,11 @@ Relations aren't assumed to be symmetric, except `same-as` and `antagonist-of`.
 Every value is only as good as where it came from, so a consumer must be able to tell.
 
 - `license` is the SPDX ID of the record. `sources` credit what it derives from.
-- `review.status` is `unreviewed`, `machine-generated`, `community-reviewed` or `expert-reviewed`.
-- `generated` lists JSON pointers to values a machine produced and no person has checked. A person who checks a value removes its pointer. A record with `review.status` above `machine-generated` SHOULD have an empty list.
+- `review.status` is, from least to most checked, `unreviewed`, `machine-generated`, `machine-verified`, `community-reviewed` or `expert-reviewed`.
+- `machine-verified` means an automated pipeline checked the record against its sources with at least two independent models from different providers, they agreed nothing is left wrong, and the record validates. No person has checked it. `review.by` names the pipeline and its version, `review.at` the day, and `review.models` the models that checked it. It never replaces a person's review.
+- `generated` lists JSON pointers to values a machine produced and no person has checked. A person who checks a value removes its pointer. A `machine-verified` record keeps its list; a record a person reviewed SHOULD have an empty one.
 
-Consumers SHOULD NOT present machine-generated safety text as authoritative.
+Consumers MAY present a `machine-verified` record's text, marked as checked automatically. Consumers SHOULD NOT present machine-generated or machine-verified safety text as authoritative.
 
 ## 14. Vocabularies
 
