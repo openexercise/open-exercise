@@ -208,8 +208,7 @@
     "position": "standing",
     "range": "pause",
     "stance": {
-      "kind": "parallel",
-      "width": "shoulder"
+      "kind": "parallel"
     }
   },
   "status": "active",

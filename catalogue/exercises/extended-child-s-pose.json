@@ -191,13 +191,11 @@
   },
   "setup": {
     "grip": {
-      "orientation": "pronated",
-      "width": "shoulder"
+      "orientation": "pronated"
     },
     "position": "kneeling",
     "stance": {
-      "kind": "parallel",
-      "width": "wide"
+      "kind": "parallel"
     }
   },
   "status": "active",

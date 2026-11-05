@@ -208,8 +208,7 @@
     "position": "standing",
     "range": "pause",
     "stance": {
-      "kind": "staggered",
-      "width": "hip"
+      "kind": "staggered"
     }
   },
   "status": "active",

@@ -207,8 +207,7 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "rotating",
-      "width": "shoulder"
+      "orientation": "rotating"
     },
     "incline_degrees": 45,
     "position": "seated"

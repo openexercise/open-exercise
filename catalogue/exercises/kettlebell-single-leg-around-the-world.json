@@ -230,8 +230,7 @@
     "load_position": "at-sides",
     "position": "standing",
     "stance": {
-      "kind": "single-leg",
-      "width": "narrow"
+      "kind": "single-leg"
     }
   },
   "status": "active",

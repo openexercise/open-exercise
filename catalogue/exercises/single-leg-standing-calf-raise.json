@@ -244,8 +244,7 @@
     "position": "standing",
     "range": "full",
     "stance": {
-      "kind": "single-leg",
-      "width": "narrow"
+      "kind": "single-leg"
     }
   },
   "status": "active",

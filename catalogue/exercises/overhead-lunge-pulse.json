@@ -216,15 +216,13 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "pronated",
-      "width": "wide"
+      "orientation": "pronated"
     },
     "load_position": "overhead",
     "position": "split-stance",
     "range": "partial",
     "stance": {
-      "kind": "split",
-      "width": "hip"
+      "kind": "split"
     }
   },
   "status": "active",

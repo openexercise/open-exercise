@@ -231,8 +231,7 @@
     "position": "bent-over",
     "range": "full",
     "stance": {
-      "kind": "parallel",
-      "width": "hip"
+      "kind": "parallel"
     }
   },
   "status": "active",

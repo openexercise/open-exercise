@@ -226,8 +226,7 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "pronated",
-      "width": "wide"
+      "orientation": "pronated"
     },
     "incline_degrees": -15,
     "position": "supine",

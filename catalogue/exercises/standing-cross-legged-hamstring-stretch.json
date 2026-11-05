@@ -178,8 +178,7 @@
     "position": "standing",
     "range": "full",
     "stance": {
-      "kind": "staggered",
-      "width": "narrow"
+      "kind": "staggered"
     }
   },
   "status": "active",

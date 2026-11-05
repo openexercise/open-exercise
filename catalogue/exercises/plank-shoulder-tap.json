@@ -221,10 +221,7 @@
     }
   ],
   "setup": {
-    "position": "support",
-    "stance": {
-      "width": "shoulder"
-    }
+    "position": "support"
   },
   "status": "active",
   "summary": "A core stability exercise performed in a high plank position where one hand alternately lifts to tap the opposite shoulder while resisting torso rotation."

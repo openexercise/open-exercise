@@ -169,8 +169,7 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "pronated",
-      "width": "shoulder"
+      "orientation": "pronated"
     },
     "load_position": "at-sides",
     "position": "seated",

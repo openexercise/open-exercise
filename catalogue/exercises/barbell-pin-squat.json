@@ -223,8 +223,7 @@
     "position": "standing",
     "range": "pin",
     "stance": {
-      "kind": "parallel",
-      "width": "shoulder"
+      "kind": "parallel"
     }
   },
   "status": "active",

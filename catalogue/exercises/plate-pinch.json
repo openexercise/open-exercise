@@ -188,8 +188,7 @@
     "load_position": "at-sides",
     "position": "standing",
     "stance": {
-      "kind": "parallel",
-      "width": "hip"
+      "kind": "parallel"
     }
   },
   "status": "active",

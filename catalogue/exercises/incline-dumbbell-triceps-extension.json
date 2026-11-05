@@ -208,8 +208,7 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "neutral",
-      "width": "shoulder"
+      "orientation": "neutral"
     },
     "incline_degrees": 45,
     "load_position": "overhead",

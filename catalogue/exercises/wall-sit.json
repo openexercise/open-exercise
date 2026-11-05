@@ -204,8 +204,7 @@
     "position": "seated",
     "range": "pause",
     "stance": {
-      "kind": "parallel",
-      "width": "hip"
+      "kind": "parallel"
     }
   },
   "status": "active",

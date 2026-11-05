@@ -220,14 +220,12 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "pronated",
-      "width": "shoulder"
+      "orientation": "pronated"
     },
     "position": "kneeling",
     "range": "full",
     "stance": {
-      "kind": "parallel",
-      "width": "hip"
+      "kind": "parallel"
     }
   },
   "status": "active",

@@ -239,15 +239,13 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "pronated",
-      "width": "wide"
+      "orientation": "pronated"
     },
     "load_position": "high-bar",
     "position": "moving",
     "range": "full",
     "stance": {
-      "kind": "split",
-      "width": "hip"
+      "kind": "split"
     }
   },
   "status": "active",

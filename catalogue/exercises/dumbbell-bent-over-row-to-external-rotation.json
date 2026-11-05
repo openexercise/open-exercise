@@ -233,8 +233,7 @@
     },
     "position": "bent-over",
     "stance": {
-      "kind": "parallel",
-      "width": "hip"
+      "kind": "parallel"
     }
   },
   "status": "active",

@@ -245,8 +245,7 @@
   "setup": {
     "position": "quadruped",
     "stance": {
-      "kind": "parallel",
-      "width": "shoulder"
+      "kind": "parallel"
     }
   },
   "status": "active",

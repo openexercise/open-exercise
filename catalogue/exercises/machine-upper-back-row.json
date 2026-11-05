@@ -217,8 +217,7 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "pronated",
-      "width": "wide"
+      "orientation": "pronated"
     },
     "position": "seated"
   },

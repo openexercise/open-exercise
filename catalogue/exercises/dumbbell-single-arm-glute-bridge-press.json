@@ -225,8 +225,7 @@
     "position": "supine",
     "range": "full",
     "stance": {
-      "kind": "parallel",
-      "width": "hip"
+      "kind": "parallel"
     }
   },
   "status": "active",

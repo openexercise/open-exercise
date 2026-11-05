@@ -251,8 +251,7 @@
   "setup": {
     "position": "seated",
     "stance": {
-      "kind": "parallel",
-      "width": "hip"
+      "kind": "parallel"
     }
   },
   "status": "active",

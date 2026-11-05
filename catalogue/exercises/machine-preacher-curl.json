@@ -184,8 +184,7 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "supinated",
-      "width": "shoulder"
+      "orientation": "supinated"
     },
     "position": "seated"
   },

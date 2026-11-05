@@ -241,15 +241,13 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "neutral",
-      "width": "shoulder"
+      "orientation": "neutral"
     },
     "incline_degrees": 45,
     "position": "prone",
     "range": "full",
     "stance": {
-      "kind": "parallel",
-      "width": "hip"
+      "kind": "parallel"
     }
   },
   "status": "active",

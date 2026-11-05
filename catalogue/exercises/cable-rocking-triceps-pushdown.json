@@ -201,8 +201,7 @@
     "position": "standing",
     "range": "full",
     "stance": {
-      "kind": "staggered",
-      "width": "hip"
+      "kind": "staggered"
     }
   },
   "status": "active",

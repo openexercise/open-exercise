@@ -241,15 +241,11 @@
     }
   ],
   "setup": {
-    "grip": {
-      "width": "shoulder"
-    },
     "load_position": "front-rack",
     "position": "standing",
     "range": "full",
     "stance": {
-      "kind": "parallel",
-      "width": "shoulder"
+      "kind": "parallel"
     }
   },
   "status": "active",

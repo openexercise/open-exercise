@@ -239,14 +239,12 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "neutral",
-      "width": "shoulder"
+      "orientation": "neutral"
     },
     "position": "moving",
     "range": "full",
     "stance": {
-      "kind": "parallel",
-      "width": "wide"
+      "kind": "parallel"
     }
   },
   "status": "active",

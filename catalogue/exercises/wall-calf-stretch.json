@@ -167,8 +167,7 @@
   "setup": {
     "position": "standing",
     "stance": {
-      "kind": "split",
-      "width": "hip"
+      "kind": "split"
     }
   },
   "status": "active",

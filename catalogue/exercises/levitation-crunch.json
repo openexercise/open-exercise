@@ -177,8 +177,7 @@
     "position": "supine",
     "range": "partial",
     "stance": {
-      "kind": "parallel",
-      "width": "hip"
+      "kind": "parallel"
     }
   },
   "status": "active",

@@ -235,8 +235,7 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "pronated",
-      "width": "shoulder"
+      "orientation": "pronated"
     },
     "position": "inverted"
   },

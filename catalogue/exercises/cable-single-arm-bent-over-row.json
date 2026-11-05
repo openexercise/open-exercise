@@ -225,8 +225,7 @@
     },
     "position": "bent-over",
     "stance": {
-      "kind": "staggered",
-      "width": "hip"
+      "kind": "staggered"
     }
   },
   "status": "active",

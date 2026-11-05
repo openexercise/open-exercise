@@ -228,8 +228,7 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "pronated",
-      "width": "narrow"
+      "orientation": "pronated"
     },
     "load_position": "overhead",
     "position": "seated",

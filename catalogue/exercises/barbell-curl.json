@@ -207,15 +207,13 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "supinated",
-      "width": "shoulder"
+      "orientation": "supinated"
     },
     "load_position": "at-sides",
     "position": "standing",
     "range": "full",
     "stance": {
-      "kind": "parallel",
-      "width": "hip"
+      "kind": "parallel"
     }
   },
   "status": "active",

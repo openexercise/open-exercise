@@ -215,8 +215,7 @@
   "setup": {
     "position": "standing",
     "stance": {
-      "kind": "parallel",
-      "width": "shoulder"
+      "kind": "parallel"
     }
   },
   "status": "active",

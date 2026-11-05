@@ -233,8 +233,7 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "neutral",
-      "width": "narrow"
+      "orientation": "neutral"
     },
     "position": "seated"
   },

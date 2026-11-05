@@ -57,7 +57,7 @@ An exercise is a distinct record when it differs in any way that changes how it'
 
 ## 6. Setup
 
-`setup` holds the facets that tell a variation from its siblings: `position`, `incline_degrees`, `grip`, `stance`, `load_position`, `range`. Leave out what the exercise doesn't fix. A "Barbell Row" fixes no grip; a "Pronated Barbell Row" does.
+`setup` holds the facets that tell a variation from its siblings: `position`, `incline_degrees`, `grip`, `stance`, `load_position`, `range`. Leave out what the exercise doesn't fix. A name fixes the grip its exercise is conventionally done with, so a curl's grip is `supinated` and a bench press's `pronated`; a variant with another grip is a record of its own ("Hammer Curl", "Reverse-Grip Bench Press"). A name fixes no grip or stance width unless it says one ("Wide-Grip Pull-Up") or the exercise is defined by it ("Diamond Push-Up").
 
 ## 7. Anatomy
 

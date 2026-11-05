@@ -222,13 +222,11 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "neutral",
-      "width": "shoulder"
+      "orientation": "neutral"
     },
     "position": "standing",
     "stance": {
-      "kind": "staggered",
-      "width": "shoulder"
+      "kind": "staggered"
     }
   },
   "status": "active",
