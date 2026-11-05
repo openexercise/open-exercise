@@ -194,10 +194,6 @@
     {
       "type": "substitute-for",
       "target": "oec:hack-squat"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:machine-hack-squat"
     }
   ],
   "setup": {

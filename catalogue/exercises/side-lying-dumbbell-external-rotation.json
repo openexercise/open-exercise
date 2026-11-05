@@ -197,7 +197,7 @@
   "relations": [
     {
       "type": "variation-of",
-      "target": "oec:dumbbell-external-rotation"
+      "target": "oec:dumbbell-side-lying-external-rotation"
     },
     {
       "type": "substitute-for",
@@ -206,10 +206,6 @@
     {
       "type": "substitute-for",
       "target": "oec:cable-external-rotation"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:cable-shoulder-external-rotation"
     },
     {
       "type": "substitute-for",
@@ -222,6 +218,7 @@
     },
     "position": "side-lying"
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:dumbbell-side-lying-external-rotation",
   "summary": "An isolation exercise that strengthens the shoulder external rotators and posterior rotator cuff against gravity while lying on your side."
 }

@@ -12,6 +12,18 @@
     {
       "text": "Marjaryasana-Bitilasana",
       "kind": "regional"
+    },
+    {
+      "text": "Cat and Cow",
+      "kind": "common"
+    },
+    {
+      "text": "Cow-Cat",
+      "kind": "common"
+    },
+    {
+      "text": "Yoga exercise: Cow-cat",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -195,15 +207,16 @@
         "title": "wger: Cat-Cow",
         "url": "https://wger.de/en/exercise/1938/view-base",
         "license": "CC-BY-SA-4.0"
+      },
+      {
+        "title": "wger: Yoga exercise: Cow-cat",
+        "url": "https://wger.de/en/exercise/1244/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "damnlost"
       }
     ]
   },
-  "relations": [
-    {
-      "type": "substitute-for",
-      "target": "oec:cat-cow-stretch"
-    }
-  ],
+  "relations": [],
   "setup": {
     "position": "quadruped"
   },

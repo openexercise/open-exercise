@@ -16,6 +16,14 @@
     {
       "text": "Sled Hack Squat",
       "kind": "common"
+    },
+    {
+      "text": "Hackenschmidt Squat",
+      "kind": "common"
+    },
+    {
+      "text": "Leg Press on Hackenschmidt Machine",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -196,6 +204,12 @@
         "url": "https://wger.de/en/exercise/1414/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "hpmbala@gmail.com"
+      },
+      {
+        "title": "wger: Leg Press on Hackenschmidt Machine",
+        "url": "https://wger.de/en/exercise/375/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
       }
     ]
   },
@@ -225,7 +239,6 @@
     "grip": {
       "orientation": "neutral"
     },
-    "incline_degrees": 45,
     "load_position": "back",
     "position": "support",
     "range": "full",

@@ -1,29 +1,172 @@
 {
   "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Heavy Bag Boxing",
+      "kind": "common"
+    },
+    {
+      "text": "Heavy Bag",
+      "kind": "common"
+    },
+    {
+      "text": "Bag Training",
+      "kind": "common"
+    },
+    {
+      "text": "Bag Work",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "deltoid-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "triceps-brachii",
+        "role": "synergist"
+      },
+      {
+        "muscle": "serratus-anterior",
+        "role": "synergist"
+      },
+      {
+        "muscle": "external-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "internal-oblique",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rectus-abdominis",
+        "role": "stabilizer"
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "conditioning",
+      "cardio",
+      "sport"
+    ],
+    "movement_patterns": [
+      "horizontal-push",
+      "rotation"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "alternating",
+    "planes": [
+      "sagittal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic",
+      "ballistic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
   "external_ids": {
     "wger": "2542"
   },
   "id": "oec:boxing",
+  "instructions": {
+    "setup": [
+      "Wrap your hands and put on bag gloves.",
+      "Stand in your boxing stance an arm's length from the bag, hands up guarding your chin."
+    ],
+    "steps": [
+      "Throw combinations of punches at the bag, turning your hips and shoulders into each one.",
+      "Move around the bag between combinations, keeping your hands up.",
+      "Work for the round, then rest before the next."
+    ],
+    "cues": [
+      "Hands back to your face after every punch",
+      "Turn the hip with the punch",
+      "Breathe out on each punch"
+    ],
+    "safety": {
+      "precautions": [
+        "Wrap your hands and wear gloves to protect your wrists and knuckles.",
+        "Keep your wrist straight on contact."
+      ],
+      "spotter": "not-needed"
+    }
+  },
   "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
     "profiles": [
       {
         "required": [
-          "reps"
+          "duration"
+        ],
+        "optional": [
+          "reps",
+          "heart-rate",
+          "calories",
+          "rpe"
         ]
       }
-    ]
+    ],
+    "records": {}
   },
   "name": "Boxing",
   "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
     "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "claude-opus-5-5",
+      "at": "2026-11-05"
+    },
     "sources": [
       {
         "title": "wger: Boxing",
         "url": "https://wger.de/en/exercise/2542/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "SAH"
+      },
+      {
+        "title": "wger: Bag training",
+        "url": "https://wger.de/en/exercise/1092/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "clafal"
       }
     ]
   },
-  "status": "deprecated"
+  "relations": [
+    {
+      "type": "progression-of",
+      "target": "oec:straight-punch"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "stance": {
+      "kind": "staggered",
+      "width": "shoulder"
+    }
+  },
+  "status": "active",
+  "summary": "Punching a heavy bag in timed rounds, for conditioning and boxing skill."
 }

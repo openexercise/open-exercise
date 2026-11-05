@@ -215,7 +215,7 @@
     },
     {
       "type": "variation-of",
-      "target": "oec:assisted-pull-up"
+      "target": "oec:machine-assisted-pull-up"
     },
     {
       "type": "substitute-for",

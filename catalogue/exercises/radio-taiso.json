@@ -1,21 +1,96 @@
 {
   "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Rajio Taisō",
+      "kind": "regional"
+    },
+    {
+      "text": "Rajio Taiso",
+      "kind": "regional"
+    },
+    {
+      "text": "Radio Calisthenics",
+      "kind": "common"
+    }
+  ],
+  "classification": {
+    "modalities": [
+      "calisthenics",
+      "mobility"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "compound",
+    "force": "not-applicable",
+    "kinetic_chain": "mixed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal",
+      "frontal",
+      "transverse"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": []
+  },
   "external_ids": {
     "wger": "2671"
   },
   "id": "oec:radio-taiso",
+  "instructions": {
+    "steps": [
+      "Follow the routine's sequence: arm raises with deep breaths, knee bends, arm circles, side bends, trunk twists and jumps, in time with the music.",
+      "Move through a comfortable full range and keep a steady rhythm."
+    ],
+    "safety": {
+      "precautions": [
+        "Skip the jumps if they hurt your knees or ankles."
+      ],
+      "spotter": "not-needed"
+    }
+  },
   "measurement": {
+    "duration_counted": "total",
+    "load": {
+      "kind": "none"
+    },
     "profiles": [
       {
         "required": [
-          "reps"
+          "duration"
+        ],
+        "optional": [
+          "heart-rate",
+          "calories",
+          "rpe"
         ]
       }
-    ]
+    ],
+    "records": {}
   },
   "name": "Radio Taiso",
   "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup"
+    ],
     "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "claude-opus-5-5",
+      "at": "2026-11-05"
+    },
     "sources": [
       {
         "title": "wger: Radio Taiso",
@@ -25,5 +100,9 @@
       }
     ]
   },
-  "status": "deprecated"
+  "setup": {
+    "position": "standing"
+  },
+  "status": "active",
+  "summary": "A short Japanese calisthenics routine set to music, moving every major joint, logged as one timed activity."
 }

@@ -191,10 +191,6 @@
     {
       "type": "variation-of",
       "target": "oec:dumbbell-biceps-curl"
-    },
-    {
-      "type": "variation-of",
-      "target": "oec:dumbbell-curl"
     }
   ],
   "setup": {

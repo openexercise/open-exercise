@@ -22,10 +22,6 @@
       "kind": "common"
     },
     {
-      "text": "Tricep Pushdown on Cable",
-      "kind": "common"
-    },
-    {
       "text": "tricep pushdown",
       "kind": "common"
     },
@@ -105,7 +101,7 @@
     ]
   },
   "external_ids": {
-    "wger": "659,660,805,1185"
+    "wger": "659,660,1185"
   },
   "id": "oec:cable-triceps-pushdown",
   "instructions": {
@@ -174,7 +170,6 @@
   "previous_ids": [
     "oec:triceps-extensions-on-cable",
     "oec:triceps-extensions-on-cable-with-bar",
-    "oec:tricep-pushdown-on-cable",
     "oec:triceps-pushdown"
   ],
   "provenance": {
@@ -207,12 +202,6 @@
         "url": "https://wger.de/en/exercise/660/view-base",
         "license": "CC-BY-SA-3.0",
         "author": "wger.de"
-      },
-      {
-        "title": "wger: Tricep Pushdown on Cable",
-        "url": "https://wger.de/en/exercise/805/view-base",
-        "license": "CC-BY-SA-4.0",
-        "author": "cshep442"
       },
       {
         "title": "wger: Triceps Pushdown",

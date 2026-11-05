@@ -8,6 +8,22 @@
     {
       "text": "Standing Wall Angel",
       "kind": "common"
+    },
+    {
+      "text": "Wall Slide",
+      "kind": "common"
+    },
+    {
+      "text": "Back-to-Wall Shoulder Slide",
+      "kind": "common"
+    },
+    {
+      "text": "Scapular Wall Slide",
+      "kind": "common"
+    },
+    {
+      "text": "Wall Slides",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -199,18 +215,16 @@
         "url": "https://wger.de/en/exercise/1679/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "bbayuwega"
+      },
+      {
+        "title": "wger: Wall Slides",
+        "url": "https://wger.de/en/exercise/716/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Whythebigpaws"
       }
     ]
   },
   "relations": [
-    {
-      "type": "substitute-for",
-      "target": "oec:wall-slide"
-    },
-    {
-      "type": "variation-of",
-      "target": "oec:wall-slide"
-    },
     {
       "type": "regression-of",
       "target": "oec:prone-snow-angel"

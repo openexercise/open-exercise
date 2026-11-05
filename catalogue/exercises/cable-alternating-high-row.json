@@ -205,11 +205,7 @@
   "relations": [
     {
       "type": "variation-of",
-      "target": "oec:single-arm-cable-high-row"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:single-arm-cable-high-row"
+      "target": "oec:half-kneeling-cable-high-row"
     },
     {
       "type": "substitute-for",

@@ -192,7 +192,7 @@
     },
     {
       "type": "substitute-for",
-      "target": "oec:dumbbell-curl"
+      "target": "oec:dumbbell-biceps-curl"
     },
     {
       "type": "substitute-for",
@@ -219,6 +219,7 @@
       "width": "hip"
     }
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:cable-biceps-curl",
   "summary": "A standing isolation exercise that uses a low cable pulley to maintain constant tension on the elbow flexors throughout the curl."
 }

@@ -8,6 +8,18 @@
     {
       "text": "Standing Cable External Rotation",
       "kind": "common"
+    },
+    {
+      "text": "Standing Cable Shoulder External Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Rotator Cuff External Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Shoulder External Rotation (Cable)",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -180,25 +192,19 @@
         "url": "https://wger.de/en/exercise/142/view-base",
         "license": "CC-BY-SA-3.0",
         "author": "lauroernesto"
+      },
+      {
+        "title": "wger: Shoulder External Rotation (Cable)",
+        "url": "https://wger.de/en/exercise/1729/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "barry"
       }
     ]
   },
   "relations": [
     {
       "type": "substitute-for",
-      "target": "oec:cable-shoulder-external-rotation"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:dumbbell-external-rotation"
-    },
-    {
-      "type": "substitute-for",
       "target": "oec:dumbbell-side-lying-external-rotation"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:side-lying-dumbbell-external-rotation"
     }
   ],
   "setup": {

@@ -23,7 +23,10 @@
         "license": "CC-BY-SA-4.0",
         "author": "4"
       }
-    ]
+    ],
+    "review": {
+      "status": "unreviewed"
+    }
   },
   "status": "deprecated"
 }

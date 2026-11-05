@@ -28,10 +28,6 @@
     {
       "text": "barbell bench",
       "kind": "common"
-    },
-    {
-      "text": "Supine press",
-      "kind": "common"
     }
   ],
   "anatomy": {
@@ -130,7 +126,7 @@
     ]
   },
   "external_ids": {
-    "wger": "73,1583"
+    "wger": "73"
   },
   "id": "oec:barbell-bench-press",
   "instructions": {
@@ -201,8 +197,7 @@
   },
   "name": "Barbell Bench Press",
   "previous_ids": [
-    "oec:bench-press",
-    "oec:supine-press"
+    "oec:bench-press"
   ],
   "provenance": {
     "generated": [
@@ -228,12 +223,6 @@
         "url": "https://wger.de/en/exercise/73/view-base",
         "license": "CC-BY-SA-3.0",
         "author": "sistab2"
-      },
-      {
-        "title": "wger: Supine press",
-        "url": "https://wger.de/en/exercise/1583/view-base",
-        "license": "CC-BY-SA-4.0",
-        "author": "CptnFatbeard"
       }
     ]
   },
@@ -253,8 +242,7 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "pronated",
-      "width": "wide"
+      "orientation": "pronated"
     },
     "incline_degrees": 0,
     "load_position": "chest",

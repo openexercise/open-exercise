@@ -193,6 +193,7 @@
       "width": "hip"
     }
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:weighted-crunch",
   "summary": "A weighted crunch variation where a dumbbell is held across the chest to progressively overload the rectus abdominis during spinal flexion."
 }

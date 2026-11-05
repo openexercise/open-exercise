@@ -16,6 +16,18 @@
     {
       "text": "Alternating Biceps Curls With Dumbbell",
       "kind": "common"
+    },
+    {
+      "text": "Dumbbell Alternating Biceps Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Alternating bicep curls",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell alternate bicep curl",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -205,21 +217,18 @@
         "title": "wger: Alternating Dumbbell Curl",
         "url": "https://wger.de/en/exercise/2659/view-base",
         "license": "CC-BY-SA-4.0"
+      },
+      {
+        "title": "wger: Alternating bicep curls",
+        "url": "https://wger.de/en/exercise/1012/view-base",
+        "license": "CC-BY-SA-4.0"
       }
     ]
   },
   "relations": [
     {
       "type": "variation-of",
-      "target": "oec:dumbbell-curl"
-    },
-    {
-      "type": "variation-of",
       "target": "oec:dumbbell-biceps-curl"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:dumbbell-curl"
     },
     {
       "type": "substitute-for",

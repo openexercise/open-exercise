@@ -23,7 +23,10 @@
         "license": "CC-BY-SA-3.0",
         "author": "http://www.carinatum.com/"
       }
-    ]
+    ],
+    "review": {
+      "status": "unreviewed"
+    }
   },
   "status": "deprecated"
 }

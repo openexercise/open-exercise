@@ -220,6 +220,7 @@
       "width": "hip"
     }
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:dumbbell-standing-calf-raise",
   "summary": "A standing calf isolation exercise performed with dumbbells held at the sides to strengthen the ankle plantarflexors."
 }

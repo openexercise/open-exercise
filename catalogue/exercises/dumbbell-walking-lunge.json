@@ -237,10 +237,6 @@
     },
     {
       "type": "progression-of",
-      "target": "oec:forward-lunge"
-    },
-    {
-      "type": "progression-of",
       "target": "oec:bodyweight-forward-lunge"
     }
   ],

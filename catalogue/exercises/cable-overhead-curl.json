@@ -19,7 +19,7 @@
     },
     {
       "text": "Overhand Cable Curl",
-      "kind": "misspelling"
+      "kind": "legacy"
     }
   ],
   "anatomy": {
@@ -199,7 +199,7 @@
   "relations": [
     {
       "type": "variation-of",
-      "target": "oec:cable-curl"
+      "target": "oec:cable-biceps-curl"
     },
     {
       "type": "substitute-for",

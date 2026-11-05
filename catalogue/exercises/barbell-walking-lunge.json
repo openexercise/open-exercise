@@ -93,13 +93,13 @@
     "level": "intermediate"
   },
   "equipment": {
+    "optional": [
+      "squat-rack",
+      "power-rack"
+    ],
     "required": [
       [
         "barbell"
-      ],
-      [
-        "squat-rack",
-        "power-rack"
       ]
     ]
   },
@@ -210,7 +210,7 @@
   "relations": [
     {
       "type": "progression-of",
-      "target": "oec:forward-lunge"
+      "target": "oec:bodyweight-forward-lunge"
     },
     {
       "type": "progression-of",

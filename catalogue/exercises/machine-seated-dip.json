@@ -1,0 +1,152 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Seated Dip Machine",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Dip",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Dip",
+      "kind": "common"
+    },
+    {
+      "text": "Machine Dip or Triceps Extension",
+      "kind": "legacy"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "triceps-brachii",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "pectoralis-major-sternal",
+        "role": "synergist"
+      },
+      {
+        "muscle": "deltoid-anterior",
+        "role": "synergist"
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "strength",
+      "hypertrophy"
+    ],
+    "movement_patterns": [
+      "vertical-push",
+      "push"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "open",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "selectorized-machine",
+        "plate-loaded-machine"
+      ]
+    ]
+  },
+  "id": "oec:machine-seated-dip",
+  "instructions": {
+    "setup": [
+      "Sit with your back against the pad and grip the handles at your sides, elbows bent and pointing back."
+    ],
+    "steps": [
+      "Press the handles down until your arms are straight, keeping your shoulders down and back.",
+      "Let the handles rise under control until your elbows are bent to about 90 degrees, then press again."
+    ],
+    "cues": [
+      "Elbows back, not out",
+      "Shoulders away from your ears"
+    ],
+    "safety": {
+      "precautions": [
+        "Stop the handles before your shoulders roll forward at the top of the range."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "convention": "weight-stack",
+      "implements": 1,
+      "kind": "external"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps",
+          "load"
+        ],
+        "optional": [
+          "rpe",
+          "tempo"
+        ]
+      }
+    ],
+    "records": {
+      "e1rm": true,
+      "volume": true
+    },
+    "reps_counted": "total"
+  },
+  "name": "Machine Seated Dip",
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "claude-opus-5-5",
+      "at": "2026-11-05"
+    },
+    "sources": [
+      {
+        "title": "wger: Machine Dip or Triceps Extension",
+        "url": "https://wger.de/en/exercise/2634/view-base",
+        "license": "CC-BY-SA-4.0"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "substitute-for",
+      "target": "oec:machine-assisted-dip"
+    }
+  ],
+  "setup": {
+    "grip": {
+      "orientation": "neutral"
+    },
+    "position": "seated",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A seated machine press downward on two handles at the sides, training the triceps, lower chest and front delts through the dip's range."
+}

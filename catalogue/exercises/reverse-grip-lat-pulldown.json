@@ -24,6 +24,18 @@
     {
       "text": "Inverted Lat Pull Down",
       "kind": "common"
+    },
+    {
+      "text": "Cable Reverse-Grip Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Close-Grip Underhand Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Biceps Close Grip Pull Down",
+      "kind": "legacy"
     }
   ],
   "anatomy": {
@@ -212,6 +224,12 @@
         "url": "https://wger.de/en/exercise/1927/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "amaesc"
+      },
+      {
+        "title": "wger: Biceps Close Grip Pull Down",
+        "url": "https://wger.de/en/exercise/1280/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "daniel.escada"
       }
     ]
   },
@@ -227,10 +245,6 @@
     {
       "type": "substitute-for",
       "target": "oec:chin-up"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:cable-reverse-grip-lat-pulldown"
     }
   ],
   "setup": {

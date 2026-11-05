@@ -227,6 +227,7 @@
       "width": "hip"
     }
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:dumbbell-hex-press",
   "summary": "A compound horizontal press performed on a flat bench with a pair of dumbbells held together in a neutral grip to target the triceps and inner chest."
 }

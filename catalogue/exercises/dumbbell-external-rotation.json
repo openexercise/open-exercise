@@ -198,19 +198,11 @@
     },
     {
       "type": "substitute-for",
-      "target": "oec:cable-shoulder-external-rotation"
-    },
-    {
-      "type": "substitute-for",
       "target": "oec:dumbbell-seated-external-rotation"
     },
     {
       "type": "substitute-for",
       "target": "oec:dumbbell-side-lying-external-rotation"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:side-lying-dumbbell-external-rotation"
     }
   ],
   "setup": {
@@ -220,6 +212,7 @@
     "position": "side-lying",
     "range": "full"
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:dumbbell-side-lying-external-rotation",
   "summary": "An isolation exercise performed lying on one's side to strengthen the infraspinatus and teres minor of the rotator cuff."
 }

@@ -181,18 +181,6 @@
   "relations": [
     {
       "type": "variation-of",
-      "target": "oec:dumbbell-curl"
-    },
-    {
-      "type": "progression-of",
-      "target": "oec:dumbbell-curl"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:dumbbell-curl"
-    },
-    {
-      "type": "variation-of",
       "target": "oec:dumbbell-biceps-curl"
     },
     {

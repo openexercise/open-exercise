@@ -203,10 +203,6 @@
   "relations": [
     {
       "type": "regression-of",
-      "target": "oec:jogging"
-    },
-    {
-      "type": "regression-of",
       "target": "oec:running"
     },
     {

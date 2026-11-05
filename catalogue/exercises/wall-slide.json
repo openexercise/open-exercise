@@ -16,10 +16,6 @@
     {
       "text": "Wall Slides",
       "kind": "common"
-    },
-    {
-      "text": "Serratus Wall Slide Stretch",
-      "kind": "common"
     }
   ],
   "anatomy": {
@@ -115,7 +111,7 @@
     ]
   },
   "external_ids": {
-    "wger": "716,2523"
+    "wger": "716"
   },
   "id": "oec:wall-slide",
   "instructions": {
@@ -179,8 +175,7 @@
   },
   "name": "Wall Slide",
   "previous_ids": [
-    "oec:wall-slides",
-    "oec:serratus-wall-slide-stretch"
+    "oec:wall-slides"
   ],
   "provenance": {
     "generated": [
@@ -206,12 +201,6 @@
         "url": "https://wger.de/en/exercise/716/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "Whythebigpaws"
-      },
-      {
-        "title": "wger: Serratus Wall Slide Stretch",
-        "url": "https://wger.de/en/exercise/2523/view-base",
-        "license": "CC-BY-SA-4.0",
-        "author": "Croak6728"
       }
     ]
   },
@@ -237,6 +226,7 @@
       "width": "hip"
     }
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:wall-angel",
   "summary": "A postural mobility drill performed with the back against a wall to enhance scapular upward rotation, thoracic extension, and shoulder mobility."
 }

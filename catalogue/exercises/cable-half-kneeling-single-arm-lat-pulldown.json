@@ -16,6 +16,18 @@
     {
       "text": "Half-Kneeling Cable Lat Pulldown",
       "kind": "common"
+    },
+    {
+      "text": "Half-Kneeling Single-Arm Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Half-Kneeling Unilateral Lat Pulldown",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Half-Kneeling Lat Pulldown",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -213,6 +225,12 @@
         "url": "https://wger.de/en/exercise/1470/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "Expenses7000"
+      },
+      {
+        "title": "wger: Half-Kneeling Unilateral Lat Pulldown",
+        "url": "https://wger.de/en/exercise/1719/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "polloperro"
       }
     ]
   },
@@ -232,10 +250,6 @@
     {
       "type": "substitute-for",
       "target": "oec:cable-single-arm-cross-body-lat-pulldown"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:half-kneeling-single-arm-lat-pulldown"
     }
   ],
   "setup": {

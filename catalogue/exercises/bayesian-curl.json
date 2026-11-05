@@ -183,16 +183,8 @@
       "target": "oec:cable-biceps-curl"
     },
     {
-      "type": "variation-of",
-      "target": "oec:cable-curl"
-    },
-    {
       "type": "substitute-for",
       "target": "oec:cable-biceps-curl"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:cable-curl"
     }
   ],
   "setup": {

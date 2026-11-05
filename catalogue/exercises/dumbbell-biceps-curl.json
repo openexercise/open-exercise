@@ -28,6 +28,10 @@
     {
       "text": "Biceps Curl",
       "kind": "common"
+    },
+    {
+      "text": "Dumbbell Bicep Curl",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -210,6 +214,12 @@
         "url": "https://wger.de/en/exercise/2698/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "2"
+      },
+      {
+        "title": "wger: Dumbbell Curl",
+        "url": "https://wger.de/en/exercise/1931/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "amaesc"
       }
     ]
   },

@@ -207,7 +207,7 @@
     },
     {
       "type": "substitute-for",
-      "target": "oec:cable-rear-delt-fly"
+      "target": "oec:cable-reverse-fly"
     },
     {
       "type": "substitute-for",
@@ -237,6 +237,7 @@
       "width": "hip"
     }
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:cable-reverse-fly",
   "summary": "A standing cable isolation exercise that targets the posterior deltoids and upper back musculature through horizontal shoulder abduction."
 }

@@ -22,10 +22,6 @@
       "kind": "common"
     },
     {
-      "text": "Rowing seated, narrow grip",
-      "kind": "common"
-    },
-    {
       "text": "cable row",
       "kind": "common"
     },
@@ -127,7 +123,7 @@
     ]
   },
   "external_ids": {
-    "wger": "394,512,1117"
+    "wger": "394,1117"
   },
   "id": "oec:cable-seated-row",
   "instructions": {
@@ -195,7 +191,6 @@
   "name": "Cable Seated Row",
   "previous_ids": [
     "oec:long-pulley-low-row",
-    "oec:rowing-seated-narrow-grip",
     "oec:seated-cable-row"
   ],
   "provenance": {
@@ -220,12 +215,6 @@
       {
         "title": "wger: Long-Pulley (low Row)",
         "url": "https://wger.de/en/exercise/394/view-base",
-        "license": "CC-BY-SA-3.0",
-        "author": "wger.de"
-      },
-      {
-        "title": "wger: Rowing seated, narrow grip",
-        "url": "https://wger.de/en/exercise/512/view-base",
         "license": "CC-BY-SA-3.0",
         "author": "wger.de"
       },

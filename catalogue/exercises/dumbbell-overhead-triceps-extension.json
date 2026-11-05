@@ -213,7 +213,7 @@
     },
     {
       "type": "substitute-for",
-      "target": "oec:single-arm-cable-overhead-triceps-extension"
+      "target": "oec:cable-single-arm-overhead-triceps-extension"
     }
   ],
   "setup": {

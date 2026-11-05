@@ -23,7 +23,11 @@
         "license": "CC-BY-SA-4.0",
         "author": "clafal"
       }
-    ]
+    ],
+    "review": {
+      "status": "unreviewed"
+    }
   },
-  "status": "deprecated"
+  "status": "replaced",
+  "replaced_by": "oec:boxing"
 }

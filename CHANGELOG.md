@@ -14,6 +14,31 @@ changes that change what matches, and format changes.
   suggestion, never a sure match), and no longer groups `misspelling` with them: the table trusts
   misspellings for matching what people type.
 
+- **Replaced (41):** near-duplicates from `catalogue/REVIEW.md` section 4 now point at one record
+  each through `replaced_by` (for example `oec:dumbbell-curl` → `oec:dumbbell-biceps-curl`,
+  `oec:jogging` → `oec:running`, both single-arm cable lateral raises → `oec:cable-lateral-raise`),
+  plus `oec:bag-training` → `oec:boxing` and `oec:machine-dip-or-triceps-extension` →
+  `oec:machine-seated-dip`. Move logs on a replaced record to its `replaced_by`.
+- **Reinstated (3):** `oec:boxing`, `oec:radio-taiso` and `oec:leg-and-hip-stretch` (now "Lower-Body
+  Stretching") are `active` again, timed activities. An app that retired them on loading v0.1.0
+  should restore them.
+- **Added (2):** `oec:serratus-wall-slide`, split from `oec:wall-slide` (it takes wger 2523 and the
+  previous ID `oec:serratus-wall-slide-stretch`), and `oec:machine-seated-dip`.
+- **Moved between records:** wger 805 and `oec:tricep-pushdown-on-cable` to
+  `oec:cable-rope-triceps-pushdown`; wger 1583 and `oec:supine-press` to
+  `oec:barbell-close-grip-bench-press`; wger 512 and `oec:rowing-seated-narrow-grip` to
+  `oec:cable-close-grip-seated-row`.
+- **Aliases that change matches:** 19 wrong or vague names become `legacy` (for example "Single Arm
+  Row" on the single-arm pulldown, "Overhand Cable Curl", "Dynamic Planche", "Unilateral Hip
+  Thrust"); "Neck Extension" and "90/90 Hamstring Stretch" are gone; 7 misspellings become
+  `common` and 2 `brand`.
+- **Setup and equipment:** facets the name doesn't fix are gone from the back and Smith squats,
+  pull-up, lat pulldown, deadlift, RDL, bench press, assisted pull-up and hack squat; the rack is
+  optional for the overhead press and barbell lunges; 14 steps no longer prescribe a hold time;
+  `oec:barbell-lying-triceps-extension` is barbell-only.
+- **Review:** the 13 set-aside or replaced-from-set-aside records say `unreviewed`. `review.by` is
+  the latest reviewer ([GUIDE.md](GUIDE.md)).
+
 ## v0.1.0 (2026-11-05)
 
 The first release: the format and the catalogue as they stand, so apps can pin them.

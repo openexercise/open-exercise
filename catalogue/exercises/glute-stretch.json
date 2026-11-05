@@ -158,6 +158,7 @@
   "setup": {
     "position": "supine"
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:supine-figure-four-stretch",
   "summary": "A static flexibility exercise performed lying on the back to stretch the gluteal muscles and deep hip rotators."
 }

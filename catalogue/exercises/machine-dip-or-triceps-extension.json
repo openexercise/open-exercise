@@ -22,7 +22,11 @@
         "url": "https://wger.de/en/exercise/2634/view-base",
         "license": "CC-BY-SA-4.0"
       }
-    ]
+    ],
+    "review": {
+      "status": "unreviewed"
+    }
   },
-  "status": "deprecated"
+  "status": "replaced",
+  "replaced_by": "oec:machine-seated-dip"
 }

@@ -15,7 +15,7 @@
     },
     {
       "text": "External Rotation Stretch",
-      "kind": "misspelling"
+      "kind": "legacy"
     }
   ],
   "anatomy": {
@@ -200,7 +200,7 @@
   "relations": [
     {
       "type": "variation-of",
-      "target": "oec:dumbbell-external-rotation"
+      "target": "oec:dumbbell-side-lying-external-rotation"
     },
     {
       "type": "substitute-for",
@@ -208,15 +208,7 @@
     },
     {
       "type": "substitute-for",
-      "target": "oec:cable-shoulder-external-rotation"
-    },
-    {
-      "type": "substitute-for",
       "target": "oec:dumbbell-side-lying-external-rotation"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:side-lying-dumbbell-external-rotation"
     }
   ],
   "setup": {

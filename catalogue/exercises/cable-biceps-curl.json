@@ -20,6 +20,14 @@
     {
       "text": "Straight Bar Cable Curls",
       "kind": "common"
+    },
+    {
+      "text": "Cable Bicep Curl",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Curls",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -194,6 +202,12 @@
         "url": "https://wger.de/en/exercise/912/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "novadani"
+      },
+      {
+        "title": "wger: Cable Curls",
+        "url": "https://wger.de/en/exercise/1531/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Brigade7938"
       }
     ]
   },
@@ -208,15 +222,7 @@
     },
     {
       "type": "substitute-for",
-      "target": "oec:cable-curl"
-    },
-    {
-      "type": "substitute-for",
       "target": "oec:dumbbell-biceps-curl"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:dumbbell-curl"
     },
     {
       "type": "substitute-for",

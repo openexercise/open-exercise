@@ -199,7 +199,7 @@
   "relations": [
     {
       "type": "variation-of",
-      "target": "oec:forward-lunge"
+      "target": "oec:bodyweight-forward-lunge"
     },
     {
       "type": "progression-of",

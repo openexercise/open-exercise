@@ -207,6 +207,7 @@
   "setup": {
     "position": "moving"
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:running",
   "summary": "A continuous, moderate-paced running gait performed for cardiovascular conditioning and aerobic endurance."
 }

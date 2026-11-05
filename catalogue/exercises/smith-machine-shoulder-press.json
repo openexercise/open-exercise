@@ -16,6 +16,22 @@
     {
       "text": "Smith Press",
       "kind": "common"
+    },
+    {
+      "text": "Smith Machine Seated Overhead Press",
+      "kind": "common"
+    },
+    {
+      "text": "Multi Press Shoulder Press",
+      "kind": "regional"
+    },
+    {
+      "text": "Seated Smith Shoulder Press",
+      "kind": "common"
+    },
+    {
+      "text": "Shoulder Press, on Multi Press",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -200,6 +216,12 @@
         "url": "https://wger.de/en/exercise/916/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "novadani"
+      },
+      {
+        "title": "wger: Shoulder Press, on Multi Press",
+        "url": "https://wger.de/en/exercise/569/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
       }
     ]
   },
@@ -219,10 +241,6 @@
     {
       "type": "substitute-for",
       "target": "oec:seated-dumbbell-shoulder-press"
-    },
-    {
-      "type": "variation-of",
-      "target": "oec:smith-machine-overhead-press"
     }
   ],
   "setup": {

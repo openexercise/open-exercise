@@ -12,6 +12,14 @@
     {
       "text": "Standing biceps stretch right",
       "kind": "regional"
+    },
+    {
+      "text": "Wall Chest and Biceps Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Standing biceps stretch left",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -167,6 +175,12 @@
       {
         "title": "wger: Standing biceps stretch right",
         "url": "https://wger.de/en/exercise/1233/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Lynn_McIntyre"
+      },
+      {
+        "title": "wger: Standing biceps stretch left",
+        "url": "https://wger.de/en/exercise/1232/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "Lynn_McIntyre"
       }

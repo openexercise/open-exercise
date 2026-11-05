@@ -164,6 +164,7 @@
   "setup": {
     "position": "seated"
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:seated-figure-four-stretch",
   "summary": "A seated mobility exercise that targets the deep external rotators of the hip by hinging forward over a crossed leg."
 }

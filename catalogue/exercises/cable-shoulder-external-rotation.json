@@ -198,10 +198,6 @@
     {
       "type": "substitute-for",
       "target": "oec:dumbbell-side-lying-external-rotation"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:side-lying-dumbbell-external-rotation"
     }
   ],
   "setup": {
@@ -215,6 +211,7 @@
       "width": "hip"
     }
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:cable-external-rotation",
   "summary": "A standing cable isolation exercise that strengthens the external rotators of the rotator cuff."
 }

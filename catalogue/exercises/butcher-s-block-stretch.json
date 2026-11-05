@@ -16,6 +16,22 @@
     {
       "text": "Elbows-on-Bench Lat Stretch",
       "kind": "common"
+    },
+    {
+      "text": "Elevated prayer stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Bench thoracic spine stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Kneeling lat stretch on bench",
+      "kind": "common"
+    },
+    {
+      "text": "Child's pose on bench",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -185,6 +201,12 @@
         "url": "https://wger.de/en/exercise/1710/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "Croak6728"
+      },
+      {
+        "title": "wger: Elevated prayer stretch",
+        "url": "https://wger.de/en/exercise/1027/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "tinman"
       }
     ]
   },

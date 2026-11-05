@@ -228,6 +228,7 @@
     "position": "seated",
     "range": "full"
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:seated-dumbbell-shoulder-press",
   "summary": "A seated vertical press using dumbbells to develop strength and muscle mass in the anterior deltoids, upper chest, and triceps."
 }

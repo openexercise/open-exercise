@@ -16,6 +16,14 @@
     {
       "text": "Zone 2 Running",
       "kind": "common"
+    },
+    {
+      "text": "Slow Running",
+      "kind": "common"
+    },
+    {
+      "text": "Easy Run",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -230,6 +238,12 @@
         "url": "https://wger.de/en/exercise/908/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "karly"
+      },
+      {
+        "title": "wger: Jogging",
+        "url": "https://wger.de/en/exercise/319/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Papazit"
       }
     ]
   },
@@ -237,10 +251,6 @@
     {
       "type": "progression-of",
       "target": "oec:walking"
-    },
-    {
-      "type": "progression-of",
-      "target": "oec:jogging"
     },
     {
       "type": "progression-of",

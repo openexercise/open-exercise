@@ -222,10 +222,6 @@
     {
       "type": "substitute-for",
       "target": "oec:cable-half-kneeling-single-arm-lat-pulldown"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:half-kneeling-single-arm-lat-pulldown"
     }
   ],
   "setup": {

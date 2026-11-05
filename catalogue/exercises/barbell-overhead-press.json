@@ -122,15 +122,13 @@
   },
   "equipment": {
     "optional": [
-      "weight-plate"
+      "weight-plate",
+      "squat-rack",
+      "power-rack"
     ],
     "required": [
       [
         "barbell"
-      ],
-      [
-        "squat-rack",
-        "power-rack"
       ]
     ]
   },

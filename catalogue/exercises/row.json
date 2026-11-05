@@ -23,7 +23,10 @@
         "license": "CC0-1.0",
         "author": "BFad07"
       }
-    ]
+    ],
+    "review": {
+      "status": "unreviewed"
+    }
   },
   "status": "deprecated"
 }

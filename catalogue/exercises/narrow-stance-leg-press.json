@@ -11,7 +11,7 @@
     },
     {
       "text": "Leg Presses (narrow)",
-      "kind": "misspelling"
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -193,7 +193,7 @@
     },
     {
       "type": "substitute-for",
-      "target": "oec:machine-hack-squat"
+      "target": "oec:hack-squat"
     },
     {
       "type": "substitute-for",

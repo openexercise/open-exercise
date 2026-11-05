@@ -198,6 +198,7 @@
       "width": "hip"
     }
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:butcher-s-block-stretch",
   "summary": "A kneeling mobility stretch performed with elbows elevated on a bench to increase shoulder flexion, thoracic extension, and lat flexibility."
 }

@@ -101,6 +101,8 @@ candidate to confirm. Every other kind matches alike.
 | `expert-reviewed` | A qualified person checked it, such as a coach or physiotherapist |
 | `unreviewed` | Neither generated nor checked, such as a record set aside |
 
+`by` is the latest reviewer's GitHub handle; the record's git history keeps earlier reviews.
+
 Until a record is reviewed, use its IDs, names, aliases and measurement, but don't present its
 instructions, safety text or summary as authoritative. Once reviewed, show them with the credit the
 licence asks for: the record's `provenance.sources` (title, author, licence), and "Open Exercise

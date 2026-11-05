@@ -12,6 +12,34 @@
     {
       "text": "Lying Rotator Cuff Exercise",
       "kind": "common"
+    },
+    {
+      "text": "Shoulder External Rotation with Dumbbell",
+      "kind": "common"
+    },
+    {
+      "text": "Side-Lying Infraspinatus Dumbbell Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell External Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Shoulder Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell External Shoulder Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Dumbbell External Rotation",
+      "kind": "common"
+    },
+    {
+      "text": "Dumbbell Shoulder Rotations",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -183,18 +211,22 @@
         "url": "https://wger.de/en/exercise/578/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "apeschel"
+      },
+      {
+        "title": "wger: Shoulder External Rotation with Dumbbell",
+        "url": "https://wger.de/en/exercise/1715/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Croak6728"
+      },
+      {
+        "title": "wger: Dumbbell Shoulder Rotations",
+        "url": "https://wger.de/en/exercise/1429/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "hpmbala@gmail.com"
       }
     ]
   },
   "relations": [
-    {
-      "type": "variation-of",
-      "target": "oec:dumbbell-external-rotation"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:side-lying-dumbbell-external-rotation"
-    },
     {
       "type": "substitute-for",
       "target": "oec:dumbbell-seated-external-rotation"
@@ -202,10 +234,6 @@
     {
       "type": "substitute-for",
       "target": "oec:cable-external-rotation"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:cable-shoulder-external-rotation"
     }
   ],
   "setup": {

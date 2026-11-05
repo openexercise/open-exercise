@@ -235,10 +235,6 @@
   "relations": [
     {
       "type": "substitute-for",
-      "target": "oec:jogging"
-    },
-    {
-      "type": "substitute-for",
       "target": "oec:running"
     },
     {

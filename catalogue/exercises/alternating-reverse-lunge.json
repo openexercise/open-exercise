@@ -197,10 +197,6 @@
       "target": "oec:bodyweight-forward-lunge"
     },
     {
-      "type": "substitute-for",
-      "target": "oec:forward-lunge"
-    },
-    {
       "type": "progression-of",
       "target": "oec:bodyweight-split-squat"
     },

@@ -24,6 +24,10 @@
     {
       "text": "Seated V-Grip Row",
       "kind": "common"
+    },
+    {
+      "text": "Rowing seated, narrow grip",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -119,7 +123,7 @@
     ]
   },
   "external_ids": {
-    "wger": "395,1928"
+    "wger": "395,1928,512"
   },
   "id": "oec:cable-close-grip-seated-row",
   "instructions": {
@@ -187,7 +191,8 @@
   "name": "Cable Close-Grip Seated Row",
   "previous_ids": [
     "oec:long-pulley-narrow",
-    "oec:seated-v-grip-row"
+    "oec:seated-v-grip-row",
+    "oec:rowing-seated-narrow-grip"
   ],
   "provenance": {
     "generated": [
@@ -219,6 +224,12 @@
         "url": "https://wger.de/en/exercise/1928/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "amaesc"
+      },
+      {
+        "title": "wger: Rowing seated, narrow grip",
+        "url": "https://wger.de/en/exercise/512/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
       }
     ]
   },

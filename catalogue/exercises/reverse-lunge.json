@@ -206,10 +206,6 @@
     {
       "type": "substitute-for",
       "target": "oec:bodyweight-forward-lunge"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:forward-lunge"
     }
   ],
   "setup": {
