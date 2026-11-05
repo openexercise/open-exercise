@@ -3,11 +3,11 @@
   "aliases": [
     {
       "text": "Leg Curl",
-      "kind": "common"
+      "kind": "legacy"
     },
     {
       "text": "Hamstring Curl",
-      "kind": "common"
+      "kind": "legacy"
     },
     {
       "text": "Prone Leg Curl",

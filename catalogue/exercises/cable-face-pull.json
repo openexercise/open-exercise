@@ -99,9 +99,6 @@
     "level": "beginner"
   },
   "equipment": {
-    "optional": [
-      "resistance-band"
-    ],
     "required": [
       [
         "cable"
@@ -223,10 +220,7 @@
     "grip": {
       "orientation": "neutral"
     },
-    "position": "standing",
-    "stance": {
-      "kind": "staggered"
-    }
+    "position": "standing"
   },
   "status": "active",
   "summary": "A cable pulling exercise targeting the rear deltoids, upper back, and rotator cuff through combined horizontal abduction and external rotation."

@@ -19,7 +19,7 @@
     },
     {
       "text": "Long-Pulley (low Row)",
-      "kind": "common"
+      "kind": "legacy"
     },
     {
       "text": "cable row",
@@ -249,10 +249,7 @@
     }
   ],
   "setup": {
-    "position": "seated",
-    "stance": {
-      "kind": "parallel"
-    }
+    "position": "seated"
   },
   "status": "active",
   "summary": "A seated cable pull targeting the latissimus dorsi, middle back, and elbow flexors."
