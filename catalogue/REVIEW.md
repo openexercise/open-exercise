@@ -76,7 +76,7 @@ The scan found `setup` facets the name doesn't fix in most records: `stance.widt
 | [x] | `oec:hack-squat` | `incline_degrees: 45`; machines differ | Remove `incline_degrees` | low |
 | [x] | `oec:barbell-overhead-press` | Rack is `required`; the bar can be cleaned from the floor | Move `squat-rack`/`power-rack` to `optional` | med |
 | [x] | `oec:barbell-forward-lunge`, `oec:barbell-reverse-lunge`, `oec:barbell-walking-lunge` | Rack is `required` | Move the rack to `optional` | med |
-| [ ] | `oec:barbell-bench-press` and 8 other bench variants | Rack `required`, so a flat bench with built-in uprights doesn't count | Format issue: propose a vocab term (e.g. `bench-with-uprights`) as an alternative in the rack group, or make the rack optional | med |
+| [x] | `oec:barbell-bench-press` and 8 other bench variants | Rack `required`, so a flat bench with built-in uprights doesn't count | Format issue: propose a vocab term (e.g. `bench-with-uprights`) as an alternative in the rack group, or make the rack optional | med |
 | [x] | ~20 records (e.g. `oec:machine-standing-calf-raise`, `oec:levitation-crunch`, `oec:bilateral-band-external-rotation`) | Steps prescribe a 1–2 s hold at the top; that's tempo, not the exercise (SPEC §10) | Reword to "pause briefly" or drop; leave genuine pause variants (`barbell-pause-*`, `pause-hack-squat`, `bodyweight-tempo-squat`) as they are | low |
 
 ## 4. Near-duplicates
