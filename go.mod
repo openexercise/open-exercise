@@ -3,6 +3,7 @@ module github.com/openexercise/open-exercise
 go 1.26.2
 
 require (
+	cloud.google.com/go/auth v0.9.3
 	github.com/santhosh-tekuri/jsonschema/v6 v6.0.3
 	github.com/yuin/goldmark v1.8.7
 	google.golang.org/genai v1.77.0
@@ -10,7 +11,6 @@ require (
 
 require (
 	cloud.google.com/go v0.116.0 // indirect
-	cloud.google.com/go/auth v0.9.3 // indirect
 	cloud.google.com/go/compute/metadata v0.5.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
