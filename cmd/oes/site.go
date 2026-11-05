@@ -118,6 +118,20 @@ func buildSite(root, out string) error {
 	if err := render("spec", "doc.html", page{Title: "Specification", Description: "The Open Exercise Schema, version 0 draft.", HTML: spec}); err != nil {
 		return err
 	}
+	// The consumer guide and the changelog, with links between the repository's files made site paths.
+	for _, doc := range []struct{ path, file, title, description string }{
+		{"guide", "GUIDE.md", "Using the catalogue", "Pinning a release, resolving IDs, deprecated and replaced records, alias kinds, normalization and a worked matching example."},
+		{"changelog", "CHANGELOG.md", "Changelog", "What each release of the schema and catalogue changed."},
+	} {
+		html, err := renderMarkdown(filepath.Join(root, doc.file))
+		if err != nil {
+			return err
+		}
+		html = template.HTML(repoLinks.Replace(string(html)))
+		if err := render(doc.path, "doc.html", page{Title: doc.title, Description: doc.description, HTML: html}); err != nil {
+			return err
+		}
+	}
 	if err := render("vocabulary", "vocabulary.html", page{Title: "Vocabularies", Description: "The controlled terms the schema uses.", Vocabs: vocabList}); err != nil {
 		return err
 	}
@@ -166,6 +180,15 @@ func loadCatalogue(dir string) ([]oes.Exercise, map[string]string, error) {
 	slices.SortFunc(exercises, func(a, b oes.Exercise) int { return cmp.Compare(a.Name, b.Name) })
 	return exercises, raw, nil
 }
+
+// repoLinks point the guide's and changelog's links at the site, or at the repository for files the
+// site doesn't show.
+var repoLinks = strings.NewReplacer(
+	`href="spec/v0/SPEC.md"`, `href="/spec/"`,
+	`href="CHANGELOG.md"`, `href="/changelog/"`,
+	`href="GUIDE.md"`, `href="/guide/"`,
+	`href="CONTRIBUTING.md"`, `href="https://github.com/openexercise/open-exercise/blob/main/CONTRIBUTING.md"`,
+)
 
 func renderMarkdown(path string) (template.HTML, error) {
 	data, err := os.ReadFile(path)
