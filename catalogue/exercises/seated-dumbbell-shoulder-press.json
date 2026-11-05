@@ -43,7 +43,8 @@
     },
     {
       "text": "Lento Avanti Seduto",
-      "kind": "regional"
+      "lang": "it",
+      "kind": "common"
     },
     {
       "text": "Seated Dumbbell Press",
@@ -258,7 +259,6 @@
     }
   ],
   "setup": {
-    "load_position": "overhead",
     "position": "seated",
     "range": "full"
   },

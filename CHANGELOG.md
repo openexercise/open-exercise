@@ -10,6 +10,14 @@ changes that change what matches, and format changes.
 
 ## Unreleased
 
+- **Verification pilot (batch 1):** the 54 exercises Lifterclub's programs use went through the
+  pipeline. 33 records were fixed: summaries, aliases (misleading ones now `legacy`), equipment,
+  load conventions, setup facets and instructions. 21 are now `machine-verified`; the other 33
+  wait for a person. `catalogue/verification/batch-1.json` lists every fix with its reason, and
+  every open question. The check ran on `gemini-3.8-flash`, the model that generated the records,
+  because it was the only Gemini model available; the fix pass, from another provider, is the
+  independent half.
+
 - **Format (addition):** review status `machine-verified`, between `machine-generated` and
   `community-reviewed`, with `review.models` naming the independent models that checked the record
   (openexercise/open-exercise#15). `oes validate` refuses one without `by`, `at` and two distinct

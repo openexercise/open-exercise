@@ -195,9 +195,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-05",
+      "by": "oes-verify/1"
     },
     "sources": [
       {
@@ -231,10 +236,6 @@
     }
   ],
   "setup": {
-    "grip": {
-      "orientation": "mixed",
-      "width": "shoulder"
-    },
     "position": "standing",
     "stance": {
       "kind": "parallel",

@@ -136,7 +136,7 @@
       },
       {
         "fault": "Bouncing or colliding the dumbbells at the top.",
-        "correction": "Maintain tension throughout the movement by stopping just short of full lockout and keeping the dumbbells separated by a few inches."
+        "correction": "Press to full extension with the dumbbells a few inches apart, without clashing them at the top."
       }
     ],
     "safety": {
@@ -226,10 +226,7 @@
     },
     "incline_degrees": 30,
     "position": "supine",
-    "range": "full",
-    "stance": {
-      "kind": "parallel"
-    }
+    "range": "full"
   },
   "status": "active",
   "summary": "An upper-body compound pressing movement performed on an inclined bench to target the upper chest, anterior shoulders, and triceps."

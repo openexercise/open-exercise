@@ -101,9 +101,6 @@
     "level": "intermediate"
   },
   "equipment": {
-    "optional": [
-      "resistance-band"
-    ],
     "required": [
       [
         "pull-up-bar"

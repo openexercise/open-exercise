@@ -11,7 +11,7 @@
     },
     {
       "text": "Hammer Strength Lat Pulldown",
-      "kind": "brand"
+      "kind": "legacy"
     }
   ],
   "anatomy": {
@@ -90,8 +90,7 @@
   "equipment": {
     "required": [
       [
-        "selectorized-machine",
-        "plate-loaded-machine"
+        "selectorized-machine"
       ]
     ]
   },

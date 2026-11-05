@@ -23,7 +23,7 @@
     },
     {
       "text": "Supine press",
-      "kind": "common"
+      "kind": "legacy"
     }
   ],
   "anatomy": {
@@ -254,11 +254,7 @@
     },
     "incline_degrees": 0,
     "position": "supine",
-    "range": "full",
-    "stance": {
-      "kind": "parallel",
-      "width": "shoulder"
-    }
+    "range": "full"
   },
   "status": "active",
   "summary": "A flat barbell bench press performed with a shoulder-width grip to shift emphasis onto the triceps and anterior deltoids."

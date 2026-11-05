@@ -126,15 +126,17 @@
     "level": "intermediate"
   },
   "equipment": {
-    "optional": [
-      "landmine",
-      "weight-plate"
-    ],
     "required": [
       [
         "plate-loaded-machine",
         "barbell"
+      ],
+      [
+        "weight-plate"
       ]
+    ],
+    "optional": [
+      "landmine"
     ]
   },
   "external_ids": {

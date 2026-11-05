@@ -7,7 +7,7 @@
     },
     {
       "text": "French Press",
-      "kind": "common"
+      "kind": "legacy"
     },
     {
       "text": "EZ-Bar French Press",
@@ -19,7 +19,7 @@
     },
     {
       "text": "Overhead Triceps Extension",
-      "kind": "common"
+      "kind": "legacy"
     }
   ],
   "anatomy": {
@@ -104,11 +104,11 @@
     "required": [
       [
         "ez-bar"
-      ],
-      [
-        "bench",
-        "adjustable-bench"
       ]
+    ],
+    "optional": [
+      "bench",
+      "adjustable-bench"
     ]
   },
   "external_ids": {
@@ -231,7 +231,6 @@
       "orientation": "pronated"
     },
     "load_position": "overhead",
-    "position": "seated",
     "range": "full"
   },
   "status": "active",

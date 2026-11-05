@@ -110,9 +110,6 @@
     "level": "beginner"
   },
   "equipment": {
-    "optional": [
-      "weight-vest"
-    ],
     "required": [
       [
         "gymnastic-rings",

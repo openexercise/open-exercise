@@ -35,7 +35,7 @@
     },
     {
       "text": "Dumbbell Row",
-      "kind": "common"
+      "kind": "legacy"
     }
   ],
   "anatomy": {
@@ -295,10 +295,7 @@
     },
     "load_position": "at-sides",
     "position": "bent-over",
-    "range": "full",
-    "stance": {
-      "kind": "staggered"
-    }
+    "range": "full"
   },
   "status": "active",
   "summary": "A unilateral horizontal pull where a single dumbbell is rowed toward the hip while hinging at the hips with torso support."

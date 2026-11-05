@@ -149,7 +149,7 @@
       }
     ],
     "records": {
-      "e1rm": true,
+      "e1rm": false,
       "volume": true
     },
     "reps_counted": "total"
@@ -172,9 +172,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-05",
+      "by": "oes-verify/1"
     },
     "sources": [
       {
@@ -204,10 +209,7 @@
       "orientation": "neutral"
     },
     "position": "supine",
-    "range": "full",
-    "stance": {
-      "kind": "parallel"
-    }
+    "range": "full"
   },
   "status": "active",
   "summary": "An isolation exercise performed lying supine on a flat bench to target the pectorals through horizontal adduction."

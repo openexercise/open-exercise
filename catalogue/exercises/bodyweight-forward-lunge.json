@@ -246,9 +246,9 @@
     "position": "standing",
     "range": "full",
     "stance": {
-      "kind": "parallel"
+      "kind": "split"
     }
   },
   "status": "active",
-  "summary": "A foundational lower-body bodyweight exercise that builds unilateral leg strength, hip stability, and balance."
+  "summary": "A bodyweight lunge in which you step forward into a split stance, lower the back knee toward the floor and push back to standing."
 }

@@ -11,7 +11,7 @@
     },
     {
       "text": "Face pulls with yellow/green band",
-      "kind": "common"
+      "kind": "legacy"
     }
   ],
   "anatomy": {
@@ -142,9 +142,8 @@
   },
   "measurement": {
     "load": {
-      "convention": "total",
-      "implements": 1,
-      "kind": "elastic"
+      "kind": "elastic",
+      "convention": "not-applicable"
     },
     "profiles": [
       {
@@ -178,9 +177,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-05",
+      "by": "oes-verify/1"
     },
     "sources": [
       {
@@ -214,10 +218,7 @@
       "orientation": "neutral"
     },
     "position": "standing",
-    "range": "full",
-    "stance": {
-      "kind": "staggered"
-    }
+    "range": "full"
   },
   "status": "active",
   "summary": "A horizontal pulling exercise using a resistance band anchored at head height to strengthen the rear deltoids, upper back, and rotator cuff."

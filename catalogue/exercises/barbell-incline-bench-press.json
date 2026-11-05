@@ -23,6 +23,7 @@
     },
     {
       "text": "Supino inclinado",
+      "lang": "pt",
       "kind": "common"
     }
   ],
@@ -153,7 +154,7 @@
     ],
     "safety": {
       "precautions": [
-        "Ensure safety pins or spotter arms are set at chest height if training in a power rack without a spotter.",
+        "If training in a power rack without a spotter, set the safety pins or spotter arms just below the height of the bar at your chest.",
         "Maintain a wrapped thumb around the bar rather than a thumbless (suicide) grip to avoid dropping the weight."
       ],
       "spotter": "recommended",
@@ -241,8 +242,7 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "pronated",
-      "width": "shoulder"
+      "orientation": "pronated"
     },
     "position": "supine"
   },

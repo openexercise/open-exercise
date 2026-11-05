@@ -1,0 +1,878 @@
+{
+  "batch": 1,
+  "date": "2026-11-05",
+  "pipeline": "oes-verify/1",
+  "models": {
+    "fix": "claude-opus-5-5",
+    "check": "gemini-3.8-flash (thinking HIGH)"
+  },
+  "note": "The 54 exercises Lifterclub programs use. A record is machine-verified only when the fix pass left nothing uncertain and the check confirmed it with no issues; everything else waits for a person.",
+  "records": [
+    {
+      "id": "oec:barbell-back-squat",
+      "outcome": "machine-verified",
+      "fixes": [],
+      "uncertain": [],
+      "check": {
+        "verdict": "confirmed",
+        "issues": []
+      }
+    },
+    {
+      "id": "oec:barbell-overhead-press",
+      "outcome": "machine-verified",
+      "fixes": [],
+      "uncertain": [],
+      "check": {
+        "verdict": "confirmed",
+        "issues": []
+      }
+    },
+    {
+      "id": "oec:barbell-bent-over-row",
+      "outcome": "machine-verified",
+      "fixes": [],
+      "uncertain": [],
+      "check": {
+        "verdict": "confirmed",
+        "issues": []
+      }
+    },
+    {
+      "id": "oec:machine-standing-calf-raise",
+      "outcome": "to a person",
+      "fixes": [
+        {
+          "path": "/instructions/common_faults",
+          "op": "set",
+          "why": "The correction prescribed a one-second hold, which SPEC §10 leaves to programs."
+        }
+      ],
+      "uncertain": [
+        "Required equipment allows a plate-loaded machine while load.convention is weight-stack (and setup says 'lift the weight stack'); decide whether the record is selectorized-only or the convention should cover plates loaded.",
+        "records.e1rm is true for a calf raise; the catalogue sets e1rm true on every record, so whether isolation lifts should keep it is a catalogue-wide policy call."
+      ],
+      "check": null
+    },
+    {
+      "id": "oec:dumbbell-lateral-raise",
+      "outcome": "to a person",
+      "fixes": [
+        {
+          "path": "/instructions/cues",
+          "op": "set",
+          "why": "The 'pour water from a pitcher' cue internally rotates the shoulder at peak abduction, which many coaches now avoid, and contradicts the setup grip."
+        }
+      ],
+      "uncertain": [
+        "setup.grip neutral only describes the start (palms face down at the top) and the name fixes no grip; consider removing setup.grip.",
+        "'Shoulder Fly' as a common alias could equally mean a reverse or front fly; consider kind legacy."
+      ],
+      "check": null
+    },
+    {
+      "id": "oec:dumbbell-hammer-curl",
+      "outcome": "to a person",
+      "fixes": [
+        {
+          "path": "/setup/stance",
+          "op": "set",
+          "why": "Stance width 'hip' isn't stated by the name nor defines the exercise (SPEC §6)."
+        }
+      ],
+      "uncertain": [],
+      "check": {
+        "verdict": "issues",
+        "issues": [
+          {
+            "field": "setup",
+            "problem": "The setup includes facets not fixed by the exercise name (position, stance, load position, and range), whereas only the neutral grip orientation is fixed."
+          }
+        ]
+      }
+    },
+    {
+      "id": "oec:dumbbell-biceps-curl",
+      "outcome": "to a person",
+      "fixes": [],
+      "uncertain": [
+        "setup.grip is 'rotating' (start neutral, supinate on the way up), which the wger sources 92 and 1931 describe, but SPEC §6 and the maintainer ruling say a curl's name fixes supinated; decide whether to set grip supinated and rewrite setup/steps to start palms forward, or keep rotating."
+      ],
+      "check": null
+    },
+    {
+      "id": "oec:seated-dumbbell-shoulder-press",
+      "outcome": "to a person",
+      "fixes": [
+        {
+          "path": "/setup",
+          "op": "set",
+          "why": "load_position 'overhead' is the lockout, not where the load is held: the press starts with the dumbbells at the shoulders."
+        },
+        {
+          "path": "/aliases",
+          "op": "set",
+          "why": "'Lento Avanti Seduto' is Italian, not a regional English name, so it is tagged lang it."
+        }
+      ],
+      "uncertain": [
+        "Setup has you sit against a near-vertical backrest, which a plain flat 'bench' lacks; decide whether to require adjustable-bench only or make the back pad optional in setup.",
+        "spotter 'recommended' seems high for a seated dumbbell press whose safety note already says to lower the dumbbells to the knees; consider not-needed.",
+        "'Lento Avanti Seduto' might belong in translations.it.aliases instead (translations is outside the allowed patch paths)."
+      ],
+      "check": null
+    },
+    {
+      "id": "oec:dumbbell-romanian-deadlift",
+      "outcome": "to a person",
+      "fixes": [
+        {
+          "path": "/setup",
+          "op": "set",
+          "why": "load_position 'at-sides' contradicts the instructions, which hold the dumbbells in front of the thighs and skim them down the legs."
+        }
+      ],
+      "uncertain": [
+        "setup.grip is pronated while the setup text allows an overhand or neutral grip; decide whether to drop setup.grip or say overhand only."
+      ],
+      "check": null
+    },
+    {
+      "id": "oec:dumbbell-bent-over-face-pull",
+      "outcome": "to a person",
+      "fixes": [],
+      "uncertain": [
+        "records.e1rm is true for a light rear-delt/external-rotation movement where an estimated one-rep max means little; every catalogue record has e1rm true, so this is a policy call."
+      ],
+      "check": null
+    },
+    {
+      "id": "oec:barbell-curl",
+      "outcome": "machine-verified",
+      "fixes": [
+        {
+          "path": "/setup",
+          "op": "set",
+          "why": "load_position 'at-sides' is wrong: the barbell hangs in front of the thighs."
+        }
+      ],
+      "uncertain": [],
+      "check": {
+        "verdict": "confirmed",
+        "issues": []
+      }
+    },
+    {
+      "id": "oec:bodyweight-box-squat",
+      "outcome": "to a person",
+      "fixes": [
+        {
+          "path": "/aliases",
+          "op": "set",
+          "why": "To lifters 'Box Squat' usually means the barbell box squat, so a logged 'box squat at 225' should not match a bodyweight record without asking; it stays as legacy because oec:box-squat once meant this record."
+        }
+      ],
+      "uncertain": [
+        "The catalogue has no plain Barbell Box Squat record (only the wide-stance low box squat), which the wger source 977 also covers; consider adding one."
+      ],
+      "check": null
+    },
+    {
+      "id": "oec:incline-push-up",
+      "outcome": "machine-verified",
+      "fixes": [],
+      "uncertain": [],
+      "check": {
+        "verdict": "confirmed",
+        "issues": []
+      }
+    },
+    {
+      "id": "oec:reverse-lunge",
+      "outcome": "to a person",
+      "fixes": [
+        {
+          "path": "/instructions/steps",
+          "op": "set",
+          "why": "Alternating each rep is oec:alternating-reverse-lunge, and reps here are counted per side."
+        }
+      ],
+      "uncertain": [],
+      "check": {
+        "verdict": "issues",
+        "issues": [
+          {
+            "field": "setup.stance",
+            "problem": "A reverse lunge starts from a standing position with feet hip-width apart rather than a split stance, which describes the setup of a split squat."
+          }
+        ]
+      }
+    },
+    {
+      "id": "oec:inverted-row",
+      "outcome": "to a person",
+      "fixes": [],
+      "uncertain": [
+        "Required equipment demands a barbell or Smith machine in a rack, but inverted rows are often done on a fixed low bar; rings and suspension trainers have oec:suspension-trainer-row. Decide whether to keep it bar-only (and say so in the summary) or loosen the requirement."
+      ],
+      "check": null
+    },
+    {
+      "id": "oec:barbell-sumo-deadlift",
+      "outcome": "machine-verified",
+      "fixes": [
+        {
+          "path": "/setup",
+          "op": "set",
+          "why": "A mixed grip isn't fixed by the name or mentioned in the instructions, and the wger source allows pronated, mixed or hook grips."
+        }
+      ],
+      "uncertain": [],
+      "check": {
+        "verdict": "confirmed",
+        "issues": []
+      }
+    },
+    {
+      "id": "oec:barbell-incline-bench-press",
+      "outcome": "to a person",
+      "fixes": [
+        {
+          "path": "/setup/grip",
+          "op": "set",
+          "why": "The name fixes no grip width, and the instructions say slightly wider than shoulder width."
+        },
+        {
+          "path": "/instructions/safety",
+          "op": "set",
+          "why": "Pins set at chest height can pin the lifter at the touch point; they belong just below the bar's lowest point."
+        },
+        {
+          "path": "/aliases",
+          "op": "set",
+          "why": "'Supino inclinado' is Portuguese, not English, so it is tagged lang pt."
+        }
+      ],
+      "uncertain": [
+        "'Supino inclinado' might belong in translations.pt.aliases instead (translations is outside the allowed patch paths)."
+      ],
+      "check": null
+    },
+    {
+      "id": "oec:cable-reverse-fly",
+      "outcome": "to a person",
+      "fixes": [],
+      "uncertain": [
+        "records.e1rm is true for a cable rear-delt isolation fly; every catalogue record has e1rm true, so this is a policy call.",
+        "load.implements 2 under the weight-stack convention: decide whether the logged number is one stack or both (dual pulleys each have a pin), and say so."
+      ],
+      "check": null
+    },
+    {
+      "id": "oec:barbell-bench-press",
+      "outcome": "machine-verified",
+      "fixes": [
+        {
+          "path": "/setup/stance",
+          "op": "remove",
+          "why": "Foot placement on a bench press doesn't tell it from any sibling, so per SPEC §6 the record shouldn't fix a stance."
+        }
+      ],
+      "uncertain": [],
+      "check": {
+        "verdict": "confirmed",
+        "issues": []
+      }
+    },
+    {
+      "id": "oec:machine-lat-pulldown",
+      "outcome": "to a person",
+      "fixes": [
+        {
+          "path": "/equipment/required",
+          "op": "set",
+          "why": "The record's load convention is weight-stack and plate-loaded pulldowns have their own record (oec:plate-loaded-lat-pulldown, per-side), so a plate-loaded machine doesn't belong here."
+        },
+        {
+          "path": "/aliases",
+          "op": "set",
+          "why": "Hammer Strength pulldowns are mostly plate-loaded, which is the plate-loaded record's exercise, so the brand name shouldn't decide a match here."
+        }
+      ],
+      "uncertain": [
+        "'Lever Lat Pulldown' is an alias of both this record and oec:plate-loaded-lat-pulldown; decide whether it belongs only on the plate-loaded one (legacy here).",
+        "Grip is fixed as pronated, but many selectorized pulldown machines have neutral handles; decide whether the grip should be left unset."
+      ],
+      "check": null
+    },
+    {
+      "id": "oec:cable-seated-row",
+      "outcome": "to a person",
+      "fixes": [
+        {
+          "path": "/aliases",
+          "op": "set",
+          "why": "'Long-Pulley (low Row)' is a garbled wger title (old ID oec:long-pulley-low-row), kept only so old data resolves."
+        },
+        {
+          "path": "/setup/stance",
+          "op": "remove",
+          "why": "The feet rest on footrests; a seated row fixes no stance (SPEC §6)."
+        }
+      ],
+      "uncertain": [],
+      "check": {
+        "verdict": "issues",
+        "issues": [
+          {
+            "field": "equipment.required",
+            "problem": "A cable seated row specifically requires a cable and cannot be performed on a non-cable selectorized machine, so selectorized-machine should not be listed as an alternative in the required equipment group."
+          }
+        ]
+      }
+    },
+    {
+      "id": "oec:incline-dumbbell-bench-press",
+      "outcome": "to a person",
+      "fixes": [
+        {
+          "path": "/instructions/common_faults",
+          "op": "set",
+          "why": "The third correction told the lifter to stop short of lockout, contradicting the step that presses to full extension (range full)."
+        },
+        {
+          "path": "/setup/stance",
+          "op": "remove",
+          "why": "Foot placement on a bench doesn't distinguish this exercise (SPEC §6)."
+        }
+      ],
+      "uncertain": [
+        "incline_degrees is 30 while the instructions allow 30 to 45 degrees; decide whether the record fixes 30 (and say about 30 in the setup step) or keeps the range."
+      ],
+      "check": null
+    },
+    {
+      "id": "oec:leg-press",
+      "outcome": "to a person",
+      "fixes": [],
+      "uncertain": [
+        "Load convention 'total' fits poorly: 45-degree sled users usually log plates added (sled weight often unknown) and seated selectorized leg presses log a pin number; decide which machine this record is and whether per-side or weight-stack siblings are needed.",
+        "position is 'seated' while aliases include '45-degree leg press', 'sled leg press' and 'incline leg press'; decide whether the plain record covers both sled and seated machines."
+      ],
+      "check": null
+    },
+    {
+      "id": "oec:dumbbell-goblet-squat",
+      "outcome": "machine-verified",
+      "fixes": [
+        {
+          "path": "/setup/grip",
+          "op": "remove",
+          "why": "Both palms cup the top head of a vertical dumbbell, which isn't a neutral grip; load_position goblet already fixes how it's held."
+        }
+      ],
+      "uncertain": [],
+      "check": {
+        "verdict": "confirmed",
+        "issues": []
+      }
+    },
+    {
+      "id": "oec:push-up",
+      "outcome": "machine-verified",
+      "fixes": [],
+      "uncertain": [],
+      "check": {
+        "verdict": "confirmed",
+        "issues": []
+      }
+    },
+    {
+      "id": "oec:pull-up",
+      "outcome": "machine-verified",
+      "fixes": [],
+      "uncertain": [],
+      "check": {
+        "verdict": "confirmed",
+        "issues": []
+      }
+    },
+    {
+      "id": "oec:glute-bridge",
+      "outcome": "to a person",
+      "fixes": [],
+      "uncertain": [
+        "Alias 'Hip Raise, Lying' is a wger-style title (old ID oec:hip-raise-lying); decide whether it should be legacy."
+      ],
+      "check": null
+    },
+    {
+      "id": "oec:ez-bar-overhead-triceps-extension",
+      "outcome": "to a person",
+      "fixes": [
+        {
+          "path": "/equipment",
+          "op": "set",
+          "why": "The exercise is done seated or standing (as the summary says), so a bench isn't a necessity."
+        },
+        {
+          "path": "/setup/position",
+          "op": "remove",
+          "why": "Seated is one way to do it, not a fixed facet; the record covers standing too."
+        },
+        {
+          "path": "/aliases",
+          "op": "set",
+          "why": "'Overhead Triceps Extension' names no implement and 'French Press' also means the lying extension, so neither should decide a match outright."
+        }
+      ],
+      "uncertain": [
+        "The setup instructions describe only the seated version; decide whether to add a standing note or make the record seated-only (and restore position and the bench)."
+      ],
+      "check": null
+    },
+    {
+      "id": "oec:dumbbell-fly",
+      "outcome": "machine-verified",
+      "fixes": [
+        {
+          "path": "/measurement/records",
+          "op": "set",
+          "why": "An estimated one-rep max isn't meaningful for a fly, and a heavy single at the stretch is a shoulder risk."
+        },
+        {
+          "path": "/setup/stance",
+          "op": "remove",
+          "why": "Foot placement on a bench doesn't distinguish this exercise (SPEC §6)."
+        }
+      ],
+      "uncertain": [],
+      "check": {
+        "verdict": "confirmed",
+        "issues": []
+      }
+    },
+    {
+      "id": "oec:bodyweight-split-squat",
+      "outcome": "machine-verified",
+      "fixes": [
+        {
+          "path": "/aliases",
+          "op": "set",
+          "why": "These are wger titles for each side (old IDs), not names for the exercise; keep them only so old data resolves."
+        }
+      ],
+      "uncertain": [],
+      "check": {
+        "verdict": "confirmed",
+        "issues": []
+      }
+    },
+    {
+      "id": "oec:diamond-push-up",
+      "outcome": "machine-verified",
+      "fixes": [
+        {
+          "path": "/setup/stance",
+          "op": "set",
+          "why": "The name fixes the hand position, not the feet, so the hip stance width isn't part of the exercise (SPEC §6)."
+        }
+      ],
+      "uncertain": [],
+      "check": {
+        "verdict": "confirmed",
+        "issues": []
+      }
+    },
+    {
+      "id": "oec:bodyweight-squat",
+      "outcome": "machine-verified",
+      "fixes": [
+        {
+          "path": "/aliases",
+          "op": "set",
+          "why": "'Bodyweight Squat HD' is a wger video-entry label (old ID), not a name people use."
+        }
+      ],
+      "uncertain": [],
+      "check": {
+        "verdict": "confirmed",
+        "issues": []
+      }
+    },
+    {
+      "id": "oec:wall-push-up",
+      "outcome": "machine-verified",
+      "fixes": [],
+      "uncertain": [],
+      "check": {
+        "verdict": "confirmed",
+        "issues": []
+      }
+    },
+    {
+      "id": "oec:barbell-close-grip-bench-press",
+      "outcome": "to a person",
+      "fixes": [
+        {
+          "path": "/aliases",
+          "op": "set",
+          "why": "'Supine press' usually names a different exercise (a neutral-grip dumbbell press), so it should only resolve old data (old ID oec:supine-press)."
+        },
+        {
+          "path": "/setup/stance",
+          "op": "remove",
+          "why": "The name fixes only grip width; the shoulder-width stance isn't part of the exercise (SPEC §6), matching the bench press record."
+        }
+      ],
+      "uncertain": [
+        "Pectoral heads are synergists here; many coaches would list pectoralis-major-sternal as a prime mover alongside the triceps."
+      ],
+      "check": null
+    },
+    {
+      "id": "oec:band-face-pull",
+      "outcome": "machine-verified",
+      "fixes": [
+        {
+          "path": "/aliases",
+          "op": "set",
+          "why": "This wger title names band colours, not the exercise (old ID oec:face-pulls-with-yellow-green-band)."
+        },
+        {
+          "path": "/measurement/load",
+          "op": "set",
+          "why": "No profile records load and a band's tension isn't a weight, so 'total' with one implement describes nothing."
+        },
+        {
+          "path": "/setup/stance",
+          "op": "remove",
+          "why": "A staggered stance is a balance choice, not a facet the exercise fixes (SPEC §6)."
+        }
+      ],
+      "uncertain": [],
+      "check": {
+        "verdict": "confirmed",
+        "issues": []
+      }
+    },
+    {
+      "id": "oec:cable-face-pull",
+      "outcome": "to a person",
+      "fixes": [
+        {
+          "path": "/equipment/optional",
+          "op": "remove",
+          "why": "A resistance band has no role in a cable face pull (the band version is its own record)."
+        },
+        {
+          "path": "/setup/stance",
+          "op": "remove",
+          "why": "A staggered stance is a balance choice, not a facet the exercise fixes (SPEC §6)."
+        }
+      ],
+      "uncertain": [
+        "The setup needs a rope attachment, which the equipment vocabulary has no term for; decide whether to add one."
+      ],
+      "check": null
+    },
+    {
+      "id": "oec:barbell-deadlift",
+      "outcome": "machine-verified",
+      "fixes": [],
+      "uncertain": [],
+      "check": {
+        "verdict": "confirmed",
+        "issues": []
+      }
+    },
+    {
+      "id": "oec:single-arm-dumbbell-row",
+      "outcome": "to a person",
+      "fixes": [
+        {
+          "path": "/aliases",
+          "op": "set",
+          "why": "\"Dumbbell Row\" is equally used for the two-arm oec:dumbbell-bent-over-row, so as a common alias it sure-matches this record when it should offer a choice."
+        },
+        {
+          "path": "/setup",
+          "op": "set",
+          "why": "The name does not fix a stance and the instructions allow knee-on-bench support or a staggered stance, so stance staggered over-specifies it."
+        }
+      ],
+      "uncertain": [
+        "load_position \"at-sides\" fits poorly for a dumbbell hanging below the shoulder in a row; consider dropping load_position."
+      ],
+      "check": null
+    },
+    {
+      "id": "oec:barbell-romanian-deadlift",
+      "outcome": "machine-verified",
+      "fixes": [],
+      "uncertain": [],
+      "check": {
+        "verdict": "confirmed",
+        "issues": []
+      }
+    },
+    {
+      "id": "oec:cable-triceps-pushdown",
+      "outcome": "to a person",
+      "fixes": [
+        {
+          "path": "/aliases",
+          "op": "set",
+          "why": "\"Cable Triceps Extension\" and wger's old name \"Triceps Extensions on Cable\" commonly mean the overhead cable extension (oec:cable-overhead-triceps-extension), so they should only suggest this record."
+        }
+      ],
+      "uncertain": [],
+      "check": {
+        "verdict": "issues",
+        "issues": [
+          {
+            "field": "setup.stance",
+            "problem": "The exercise name does not fix a parallel stance, so stance should not be specified in setup."
+          }
+        ]
+      }
+    },
+    {
+      "id": "oec:lying-leg-curl",
+      "outcome": "to a person",
+      "fixes": [
+        {
+          "path": "/aliases",
+          "op": "set",
+          "why": "\"Leg Curl\" and \"Hamstring Curl\" are generic (seated, standing, band and nordic curls have their own records), so they should not sure-match the lying variant."
+        }
+      ],
+      "uncertain": [],
+      "check": {
+        "verdict": "issues",
+        "issues": [
+          {
+            "field": "equipment.required",
+            "problem": "The exercise requires a dedicated leg curl machine, but listing generic selectorized-machine and plate-loaded-machine allows any machine in those categories to satisfy the requirement."
+          },
+          {
+            "field": "setup.range",
+            "problem": "The name 'Lying Leg Curl' does not state or fix a range of motion, so range should be omitted from setup."
+          }
+        ]
+      }
+    },
+    {
+      "id": "oec:chin-up",
+      "outcome": "to a person",
+      "fixes": [
+        {
+          "path": "/equipment",
+          "op": "set",
+          "why": "A band makes it a band-assisted chin-up (bodyweight-minus-assistance, oec:assisted-chin-up), which this bodyweight record cannot log comparably."
+        }
+      ],
+      "uncertain": [
+        "The cue \"Chest to the bar\" asks for more than the chin-over-bar finish the steps describe; consider \"Chin over the bar\"."
+      ],
+      "check": null
+    },
+    {
+      "id": "oec:plank",
+      "outcome": "machine-verified",
+      "fixes": [],
+      "uncertain": [],
+      "check": {
+        "verdict": "confirmed",
+        "issues": []
+      }
+    },
+    {
+      "id": "oec:dumbbell-lunge",
+      "outcome": "to a person",
+      "fixes": [
+        {
+          "path": "/setup",
+          "op": "set",
+          "why": "A lunge is worked in a split stance, not a parallel one (as oec:reverse-lunge and the walking lunges record)."
+        }
+      ],
+      "uncertain": [
+        "Aliases and instructions describe a forward lunge while reverse and walking dumbbell lunges have their own records; consider renaming to \"Dumbbell Forward Lunge\" with \"Dumbbell Lunge\" kept as an alias.",
+        "Laterality is \"alternating\" here but \"unilateral\" on oec:bodyweight-forward-lunge, though both allow either; pick one convention."
+      ],
+      "check": null
+    },
+    {
+      "id": "oec:leg-extension",
+      "outcome": "to a person",
+      "fixes": [],
+      "uncertain": [],
+      "check": {
+        "verdict": "issues",
+        "issues": [
+          {
+            "field": "equipment.required",
+            "problem": "The exercise requires a dedicated leg extension machine ('leg-extension-machine') rather than generic 'selectorized-machine' or 'plate-loaded-machine' terms that could match any unrelated machine."
+          },
+          {
+            "field": "anatomy.joints",
+            "problem": "The knee joint lists 'flexion' alongside 'extension', but only actions during the working phase should be listed, which for a leg extension is solely knee extension."
+          }
+        ]
+      }
+    },
+    {
+      "id": "oec:dumbbell-bench-press",
+      "outcome": "to a person",
+      "fixes": [],
+      "uncertain": [
+        "Setup locks out over the mid-chest while a fault correction stops \"directly over the shoulders\"; consider one lockout position in both places."
+      ],
+      "check": null
+    },
+    {
+      "id": "oec:chair-dip",
+      "outcome": "to a person",
+      "fixes": [],
+      "uncertain": [],
+      "check": {
+        "verdict": "issues",
+        "issues": [
+          {
+            "field": "setup.stance",
+            "problem": "The name 'Chair Dip' does not fix a stance, so stance should be omitted from setup."
+          },
+          {
+            "field": "setup.range",
+            "problem": "The name 'Chair Dip' does not specify a range variation, so range should be omitted from setup."
+          }
+        ]
+      }
+    },
+    {
+      "id": "oec:single-leg-glute-bridge",
+      "outcome": "machine-verified",
+      "fixes": [],
+      "uncertain": [],
+      "check": {
+        "verdict": "confirmed",
+        "issues": []
+      }
+    },
+    {
+      "id": "oec:bodyweight-forward-lunge",
+      "outcome": "to a person",
+      "fixes": [
+        {
+          "path": "/setup",
+          "op": "set",
+          "why": "A lunge is worked in a split stance, not a parallel one."
+        },
+        {
+          "path": "/summary",
+          "op": "set",
+          "why": "The current summary lists benefits but never says what the exercise is."
+        }
+      ],
+      "uncertain": [
+        "\"Bodyweight lunge HD\" (a wger video-title artifact) and \"Unilateral Lunges\" are old wger names; consider kind legacy, though oec:bodyweight-squat keeps \"Bodyweight Squat HD\" as common."
+      ],
+      "check": null
+    },
+    {
+      "id": "oec:ring-incline-row",
+      "outcome": "to a person",
+      "fixes": [
+        {
+          "path": "/equipment",
+          "op": "set",
+          "why": "A weight vest adds load that a bodyweight record cannot log, so vested and unvested sets would look alike."
+        }
+      ],
+      "uncertain": [],
+      "check": {
+        "verdict": "issues",
+        "issues": [
+          {
+            "field": "equipment.required",
+            "problem": "Ring Incline Row specifically requires gymnastic rings and cannot be performed with a suspension trainer, which is a distinct implement with its own exercise record."
+          }
+        ]
+      }
+    },
+    {
+      "id": "oec:bodyweight-tempo-squat",
+      "outcome": "to a person",
+      "fixes": [
+        {
+          "path": "/aliases",
+          "op": "set",
+          "why": "The second \"3-1-1 Squat\" is a duplicate prefixed with a zero-width space."
+        },
+        {
+          "path": "/instructions/steps",
+          "op": "set",
+          "why": "Steps prescribed a three-second descent and one-second pause; tempo belongs to the program (the profile already records tempo)."
+        },
+        {
+          "path": "/instructions/cues",
+          "op": "set",
+          "why": "The cue \"three, two, one\" prescribed a specific tempo."
+        },
+        {
+          "path": "/instructions/common_faults",
+          "op": "set",
+          "why": "The correction prescribed a three-second descent; keep it to the program's tempo."
+        }
+      ],
+      "uncertain": [
+        "\"3-1-1 Squat\" names one specific tempo; consider kind legacy, or folding this record into oec:bodyweight-squat with tempo logged as a metric."
+      ],
+      "check": null
+    },
+    {
+      "id": "oec:barbell-front-squat",
+      "outcome": "machine-verified",
+      "fixes": [],
+      "uncertain": [],
+      "check": {
+        "verdict": "confirmed",
+        "issues": []
+      }
+    },
+    {
+      "id": "oec:t-bar-row",
+      "outcome": "to a person",
+      "fixes": [
+        {
+          "path": "/equipment",
+          "op": "set",
+          "why": "Both a T-bar machine and a barbell T-bar row are loaded with plates, so plates are a necessity, not an option."
+        }
+      ],
+      "uncertain": [
+        "The barbell route needs a landmine or a corner anchor, which equipment cannot express without a corner term; decide whether landmine should be required alongside barbell.",
+        "The logged number is usually the plates loaded on a pivoting bar or lever, not the mass moved, and landmine and machine loads differ; convention \"total\" and e1rm true are doubtful (per-side or e1rm false may fit better).",
+        "Teres major as a prime mover with rhomboids and middle trapezius only synergists understates the scapular retractors; consider rhomboids and trapezius-middle as prime movers and teres-major as a synergist.",
+        "Movement pattern \"hinge\" describes a held position, not the working motion; consider removing it."
+      ],
+      "check": null
+    },
+    {
+      "id": "oec:band-pull-apart",
+      "outcome": "to a person",
+      "fixes": [
+        {
+          "path": "/measurement/load",
+          "op": "set",
+          "why": "A band's load is a tension recorded as band-tension, not a mass, so convention \"total\" (everything moved, bar included) and implements do not apply."
+        }
+      ],
+      "uncertain": [
+        "Elastic records across the catalogue mix convention \"total\" and \"not-applicable\" (for example oec:band-face-pull, oec:resistance-band-seated-row); settle one rule catalogue-wide."
+      ],
+      "check": null
+    }
+  ]
+}

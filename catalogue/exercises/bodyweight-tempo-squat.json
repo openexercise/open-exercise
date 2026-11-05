@@ -16,10 +16,6 @@
     {
       "text": "Tempo Air Squat",
       "kind": "common"
-    },
-    {
-      "text": "​3-1-1 Squat",
-      "kind": "common"
     }
   ],
   "anatomy": {
@@ -115,21 +111,21 @@
     ],
     "steps": [
       "Initiate the descent by breaking simultaneously at the hips and knees.",
-      "Lower your body slowly over a strict three-second count until your hip crease drops below the top of your knees.",
-      "Pause motionless in the bottom position for a full one-second count without losing core tension.",
+      "Lower your body slowly at the prescribed tempo until your hip crease drops below the top of your knees.",
+      "Pause motionless in the bottom position for the prescribed count without losing core tension.",
       "Drive through your midfoot to stand up at a normal, controlled speed.",
       "Fully extend your hips and knees at the top before beginning the next repetition."
     ],
     "breathing": "Inhale deeply into your abdomen on the slow descent, hold your breath through the pause, and exhale as you drive back to standing.",
     "cues": [
-      "Count your descent: three, two, one.",
+      "Count your descent.",
       "Own the bottom position.",
       "Keep your chest proud and knees tracking your toes."
     ],
     "common_faults": [
       {
         "fault": "Rushing the eccentric tempo as fatigue sets in.",
-        "correction": "Use an internal or audible metronome count to ensure a true three-second descent on every rep."
+        "correction": "Use an internal or audible metronome count to keep every descent at the prescribed tempo."
       },
       {
         "fault": "Collapsing tension or bouncing out of the bottom position.",
