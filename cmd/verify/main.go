@@ -283,7 +283,7 @@ func ask(ctx context.Context, c *genai.Client, model, system, prompt string) ([]
 		if attempt > 0 {
 			time.Sleep(time.Duration(attempt*attempt) * 3 * time.Second)
 		}
-		callCtx, cancel := context.WithTimeout(ctx, 120*time.Second)
+		callCtx, cancel := context.WithTimeout(ctx, 240*time.Second)
 		cfg := &genai.GenerateContentConfig{
 			SystemInstruction: genai.NewContentFromText(system, genai.RoleUser),
 			ResponseMIMEType:  "application/json",
