@@ -86,8 +86,9 @@ handles both.
    candidates as guesses.
 
 Every result carries its candidates, best first. Records that are `deprecated` or `replaced` never
-match. Today Lifterclub trusts every alias kind the same; following the table above would stop
-`legacy` and `misspelling` aliases from deciding a match on their own.
+match. Following the table above, a `legacy` alias never decides a match: Lifterclub skips it in
+step 3 and caps its similarity below 0.85 in step 4, so it only brings its exercise up as a
+candidate to confirm. Every other kind matches alike.
 
 ## Show what's trustworthy
 
