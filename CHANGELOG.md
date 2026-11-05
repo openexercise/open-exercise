@@ -10,10 +10,16 @@ changes that change what matches, and format changes.
 
 ## Unreleased
 
+## v0.2.0 (2026-11-05)
+
+The maintainer's pass over `catalogue/REVIEW.md`: duplicates folded together, wrong merges and
+misleading aliases fixed, and setup details the names don't fix removed. 817 records: 762 active,
+11 deprecated and 44 replaced. Apps that loaded v0.1.0 act on the replaced, reinstated and moved
+entries below.
+
 - **Guide:** the worked matching example now says how Lifterclub treats `legacy` aliases (a
   suggestion, never a sure match), and no longer groups `misspelling` with them: the table trusts
   misspellings for matching what people type.
-
 - **Replaced (41):** near-duplicates from `catalogue/REVIEW.md` section 4 now point at one record
   each through `replaced_by` (for example `oec:dumbbell-curl` → `oec:dumbbell-biceps-curl`,
   `oec:jogging` → `oec:running`, both single-arm cable lateral raises → `oec:cable-lateral-raise`),
@@ -42,7 +48,8 @@ changes that change what matches, and format changes.
   done with (a curl `supinated`, a bench press `pronated`), and no width unless it says one or the
   exercise is defined by it. No field or term changes.
 - **Review:** the 13 set-aside or replaced-from-set-aside records say `unreviewed`. `review.by` is
-  the latest reviewer ([GUIDE.md](GUIDE.md)).
+  the latest reviewer ([GUIDE.md](GUIDE.md)). No record has been reviewed one by one yet: all active records are still
+  `machine-generated`.
 
 ## v0.1.0 (2026-11-05)
 
