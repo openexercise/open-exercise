@@ -10,6 +10,10 @@ changes that change what matches, and format changes.
 
 ## Unreleased
 
+- **Guide:** the worked matching example now says how Lifterclub treats `legacy` aliases (a
+  suggestion, never a sure match), and no longer groups `misspelling` with them: the table trusts
+  misspellings for matching what people type.
+
 ## v0.1.0 (2026-11-05)
 
 The first release: the format and the catalogue as they stand, so apps can pin them.
