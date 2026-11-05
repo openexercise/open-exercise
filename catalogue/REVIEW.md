@@ -138,7 +138,8 @@ The schema already has what's needed: `provenance.review.status` (`unreviewed`, 
    - **Setup:** only the facets the name fixes (section 3).
 3. **How it's recorded.** The reviewer removes each pointer they checked from `provenance.generated`. When the list is empty, they set `review` to `{status: "community-reviewed", at, by}` (an expert sets `expert-reviewed`) and drop `model`. A partly checked record stays `machine-generated` with a shorter list, so field-level progress is kept.
 4. **What Lifterclub does with it.** Lifterclub shows a record's `summary` and `instructions` only when its status is `community-reviewed` or `expert-reviewed`, and never shows text whose pointer is still in `generated` (SPEC §13: machine-generated safety text isn't authoritative). Names, equipment and measurement are used either way.
-5. **Order.** Fix sections 1–4 first, then review records in the order Lifterclub users log them.
+5. **Automated verification (decided 2026-11-05, openexercise/open-exercise#15).** Before a person reaches a record, a pipeline can mark it `machine-verified`: one model proposes fixes against the sources and the spec, the fixes are applied and validated, and a model from another provider confirms nothing is left wrong. Anything they disagree on or call uncertain goes to a person instead. `generated` keeps its pointers, and a person's review later replaces the status. Apps may show a verified record's text, labelled as checked automatically.
+6. **Order.** Fix sections 1–4 first, then review records in the order Lifterclub users log them.
 
 Proposals for the schema (each is a format change, so it goes through an issue):
 

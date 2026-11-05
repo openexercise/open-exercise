@@ -185,6 +185,15 @@ func checkSense(e Exercise, doc any) []string {
 			out = append(out, fmt.Sprintf("provenance.generated names %q, which doesn't exist", p))
 		}
 	}
+	// A machine-verified record names its pipeline, day and at least two models (SPEC §13).
+	if r := e.Provenance.Review; r != nil && r.Status == MachineVerified {
+		if r.By == "" || r.At == "" {
+			out = append(out, "review.status machine-verified needs by and at")
+		}
+		if distinct(r.Models) < 2 {
+			out = append(out, "review.status machine-verified needs at least two different models")
+		}
+	}
 	// A person who reviewed a record checked every value and says who and when (SPEC §13).
 	if r := e.Provenance.Review; isReviewed(r) {
 		if len(e.Provenance.Generated) > 0 {
