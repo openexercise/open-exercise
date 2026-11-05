@@ -185,6 +185,15 @@ func checkSense(e Exercise, doc any) []string {
 			out = append(out, fmt.Sprintf("provenance.generated names %q, which doesn't exist", p))
 		}
 	}
+	// A person who reviewed a record checked every value and says who and when (SPEC §13).
+	if r := e.Provenance.Review; isReviewed(r) {
+		if len(e.Provenance.Generated) > 0 {
+			out = append(out, fmt.Sprintf("review.status is %s, but provenance.generated still lists unchecked values", r.Status))
+		}
+		if r.By == "" || r.At == "" {
+			out = append(out, fmt.Sprintf("review.status %s needs by and at", r.Status))
+		}
+	}
 	return out
 }
 
@@ -213,7 +222,7 @@ func pointerResolves(doc any, pointer string) bool {
 }
 
 // CheckCatalogue checks rules across records: unique IDs, and relation targets and
-// replaced_by that exist. An ID may not be another record's previous ID.
+// replaced_by that exist, with no replaced_by loop. An ID may not be another record's previous ID.
 func CheckCatalogue(all []Exercise) []string {
 	var out []string
 	ids := make(map[string]bool, len(all))
@@ -241,6 +250,23 @@ func CheckCatalogue(all []Exercise) []string {
 		}
 		if e.ReplacedBy != "" && !ids[e.ReplacedBy] {
 			out = append(out, fmt.Sprintf("%s: replaced_by %s doesn't exist", e.ID, e.ReplacedBy))
+		}
+	}
+	// A replaced_by chain ends: a consumer follows it to the record to use.
+	next := map[string]string{}
+	for _, e := range all {
+		if e.ReplacedBy != "" {
+			next[e.ID] = e.ReplacedBy
+		}
+	}
+	for _, e := range all {
+		seen := map[string]bool{e.ID: true}
+		for at := next[e.ID]; at != ""; at = next[at] {
+			if seen[at] {
+				out = append(out, fmt.Sprintf("%s: replaced_by loops back through %s", e.ID, at))
+				break
+			}
+			seen[at] = true
 		}
 	}
 	return out
