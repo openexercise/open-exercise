@@ -14,7 +14,7 @@ Write to the maintainers at maintainers@openexercise.org, or open an issue. Some
 
 - **Records** (`catalogue/`): a pull request that follows [CONTRIBUTING.md](CONTRIBUTING.md) and passes `oes validate` is merged by a maintainer. Published IDs never change and records are never deleted.
 - **The format** (`spec/`, `schema/`, `vocab/`): a change starts as an issue with real records it would improve, and a maintainer decides after at least a week for comment. New vocabulary terms are additions; renaming a term or field is breaking.
-- **Versions:** v0 is a development draft, so breaking changes can still land. v1 freezes the format; after it, breaking changes need a new major version.
+- **Versions:** v0 is a development draft, so breaking changes can still land. v1 freezes the format; after it, breaking changes need a new major version through a written proposal (an RFC process set up at that point), as in Open Workout.
 
 Maintainers aim for agreement in the issue. When there isn't any, the lead maintainer decides and says why in the issue.
 
