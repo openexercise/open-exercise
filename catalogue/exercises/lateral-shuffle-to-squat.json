@@ -235,8 +235,7 @@
     "position": "moving",
     "range": "full",
     "stance": {
-      "kind": "parallel",
-      "width": "shoulder"
+      "kind": "parallel"
     }
   },
   "status": "active",

@@ -252,14 +252,12 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "supinated",
-      "width": "shoulder"
+      "orientation": "supinated"
     },
     "position": "bent-over",
     "range": "full",
     "stance": {
-      "kind": "parallel",
-      "width": "hip"
+      "kind": "parallel"
     }
   },
   "status": "active",

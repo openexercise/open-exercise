@@ -199,8 +199,7 @@
   "setup": {
     "position": "standing",
     "stance": {
-      "kind": "parallel",
-      "width": "narrow"
+      "kind": "parallel"
     }
   },
   "status": "active",

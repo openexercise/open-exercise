@@ -36,6 +36,8 @@ changes that change what matches, and format changes.
   pull-up, lat pulldown, deadlift, RDL, bench press, assisted pull-up and hack squat; the rack is
   optional for the overhead press and barbell lunges; 14 steps no longer prescribe a hold time;
   `oec:barbell-lying-triceps-extension` is barbell-only.
+- **Setup widths:** `stance.width` and `grip.width` are gone from 439 records whose name doesn't fix
+  them (SPEC §6). An app that filtered or displayed by them should read them only where present.
 - **Review:** the 13 set-aside or replaced-from-set-aside records say `unreviewed`. `review.by` is
   the latest reviewer ([GUIDE.md](GUIDE.md)).
 

@@ -211,14 +211,12 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "neutral",
-      "width": "shoulder"
+      "orientation": "neutral"
     },
     "position": "standing",
     "range": "full",
     "stance": {
-      "kind": "staggered",
-      "width": "hip"
+      "kind": "staggered"
     }
   },
   "status": "active",

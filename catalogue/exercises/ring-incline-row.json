@@ -224,13 +224,11 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "rotating",
-      "width": "shoulder"
+      "orientation": "rotating"
     },
     "range": "full",
     "stance": {
-      "kind": "parallel",
-      "width": "hip"
+      "kind": "parallel"
     }
   },
   "status": "active",

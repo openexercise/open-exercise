@@ -227,15 +227,13 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "pronated",
-      "width": "wide"
+      "orientation": "pronated"
     },
     "load_position": "chest",
     "position": "supine",
     "range": "pause",
     "stance": {
-      "kind": "parallel",
-      "width": "shoulder"
+      "kind": "parallel"
     }
   },
   "status": "active",

@@ -176,8 +176,7 @@
   "setup": {
     "position": "supine",
     "stance": {
-      "kind": "parallel",
-      "width": "hip"
+      "kind": "parallel"
     }
   },
   "status": "active",

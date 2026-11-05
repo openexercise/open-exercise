@@ -208,13 +208,11 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "neutral",
-      "width": "narrow"
+      "orientation": "neutral"
     },
     "position": "standing",
     "stance": {
-      "kind": "parallel",
-      "width": "hip"
+      "kind": "parallel"
     }
   },
   "status": "active",

@@ -210,14 +210,10 @@
     }
   ],
   "setup": {
-    "grip": {
-      "width": "shoulder"
-    },
     "position": "support",
     "range": "full",
     "stance": {
-      "kind": "parallel",
-      "width": "hip"
+      "kind": "parallel"
     }
   },
   "status": "active",

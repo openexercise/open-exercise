@@ -220,14 +220,10 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "pronated",
-      "width": "shoulder"
+      "orientation": "pronated"
     },
     "position": "kneeling",
-    "range": "full",
-    "stance": {
-      "width": "hip"
-    }
+    "range": "full"
   },
   "status": "active",
   "summary": "An anti-extension core exercise where you roll a loaded barbell forward from a kneeling position and pull back using the abdominals and lats."

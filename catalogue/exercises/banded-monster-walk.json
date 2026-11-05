@@ -219,8 +219,7 @@
   "setup": {
     "position": "moving",
     "stance": {
-      "kind": "staggered",
-      "width": "hip"
+      "kind": "staggered"
     }
   },
   "status": "active",

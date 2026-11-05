@@ -163,8 +163,7 @@
   "setup": {
     "position": "standing",
     "stance": {
-      "kind": "staggered",
-      "width": "shoulder"
+      "kind": "staggered"
     }
   },
   "status": "active",

@@ -218,8 +218,7 @@
   "setup": {
     "position": "standing",
     "stance": {
-      "kind": "single-leg",
-      "width": "hip"
+      "kind": "single-leg"
     }
   },
   "status": "active",

@@ -221,8 +221,7 @@
     "position": "standing",
     "range": "full",
     "stance": {
-      "kind": "split",
-      "width": "hip"
+      "kind": "split"
     }
   },
   "status": "active",

@@ -190,8 +190,7 @@
     "position": "split-stance",
     "range": "partial",
     "stance": {
-      "kind": "staggered",
-      "width": "hip"
+      "kind": "staggered"
     }
   },
   "status": "active",

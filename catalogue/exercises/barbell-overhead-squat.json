@@ -256,15 +256,13 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "pronated",
-      "width": "snatch"
+      "orientation": "pronated"
     },
     "load_position": "overhead",
     "position": "standing",
     "range": "full",
     "stance": {
-      "kind": "parallel",
-      "width": "shoulder"
+      "kind": "parallel"
     }
   },
   "status": "active",

@@ -224,8 +224,7 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "supinated",
-      "width": "shoulder"
+      "orientation": "supinated"
     },
     "position": "kneeling",
     "range": "full"

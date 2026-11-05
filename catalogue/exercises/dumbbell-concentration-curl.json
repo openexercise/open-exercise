@@ -193,10 +193,7 @@
       "orientation": "supinated"
     },
     "position": "seated",
-    "range": "full",
-    "stance": {
-      "width": "wide"
-    }
+    "range": "full"
   },
   "status": "active",
   "summary": "A seated single-arm dumbbell curl with the back of the upper arm braced against the inner thigh to strictly isolate the elbow flexors."

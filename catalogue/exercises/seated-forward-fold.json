@@ -193,8 +193,7 @@
     "position": "seated",
     "range": "full",
     "stance": {
-      "kind": "parallel",
-      "width": "narrow"
+      "kind": "parallel"
     }
   },
   "status": "active",

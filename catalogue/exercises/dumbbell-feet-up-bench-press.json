@@ -225,8 +225,7 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "pronated",
-      "width": "shoulder"
+      "orientation": "pronated"
     },
     "incline_degrees": 0,
     "load_position": "chest",

@@ -253,14 +253,12 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "neutral",
-      "width": "shoulder"
+      "orientation": "neutral"
     },
     "position": "bent-over",
     "range": "full",
     "stance": {
-      "kind": "parallel",
-      "width": "wide"
+      "kind": "parallel"
     }
   },
   "status": "active",

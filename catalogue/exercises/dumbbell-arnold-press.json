@@ -230,8 +230,7 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "rotating",
-      "width": "shoulder"
+      "orientation": "rotating"
     },
     "load_position": "chest",
     "position": "seated",
