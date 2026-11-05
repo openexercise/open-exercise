@@ -216,10 +216,6 @@
   "relations": [
     {
       "type": "progression-of",
-      "target": "oec:assisted-pull-up"
-    },
-    {
-      "type": "progression-of",
       "target": "oec:machine-assisted-pull-up"
     },
     {
@@ -237,8 +233,7 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "pronated",
-      "width": "wide"
+      "orientation": "pronated"
     },
     "position": "hanging",
     "range": "full"

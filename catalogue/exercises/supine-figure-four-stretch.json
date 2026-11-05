@@ -16,6 +16,22 @@
     {
       "text": "Reclined Pigeon Pose",
       "kind": "common"
+    },
+    {
+      "text": "Glute Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Supine Glute Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Lying Glute Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Figure-Four Stretch",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -159,6 +175,11 @@
         "url": "https://wger.de/en/exercise/1869/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "Davidgj32"
+      },
+      {
+        "title": "wger: Glute Stretch",
+        "url": "https://wger.de/en/exercise/2649/view-base",
+        "license": "CC-BY-SA-4.0"
       }
     ]
   },

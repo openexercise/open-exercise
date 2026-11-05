@@ -1,0 +1,145 @@
+{
+  "$schema": "https://openexercise.org/schema/v0/exercise.json",
+  "aliases": [
+    {
+      "text": "Serratus Wall Slide Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Forearm Wall Slide",
+      "kind": "common"
+    }
+  ],
+  "anatomy": {
+    "muscles": [
+      {
+        "muscle": "serratus-anterior",
+        "role": "prime-mover"
+      },
+      {
+        "muscle": "trapezius-lower",
+        "role": "synergist"
+      },
+      {
+        "muscle": "trapezius-upper",
+        "role": "synergist"
+      },
+      {
+        "muscle": "rotator-cuff",
+        "role": "stabilizer"
+      }
+    ]
+  },
+  "classification": {
+    "modalities": [
+      "mobility",
+      "rehabilitation"
+    ],
+    "movement_patterns": [
+      "mobility-drill"
+    ],
+    "mechanics": "compound",
+    "force": "push",
+    "kinetic_chain": "closed",
+    "laterality": "bilateral",
+    "planes": [
+      "sagittal"
+    ],
+    "contraction": [
+      "dynamic"
+    ],
+    "level": "beginner"
+  },
+  "equipment": {
+    "required": [
+      [
+        "wall"
+      ]
+    ]
+  },
+  "external_ids": {
+    "wger": "2523"
+  },
+  "id": "oec:serratus-wall-slide",
+  "instructions": {
+    "setup": [
+      "Stand facing a wall with your forearms on it, palms in, elbows at about shoulder height.",
+      "Angle your forearms slightly outward from vertical."
+    ],
+    "steps": [
+      "Push your forearms gently into the wall, spreading your shoulder blades apart around your ribs.",
+      "Keeping that pressure, slide your forearms up the wall until your elbows are about level with your chin.",
+      "Slide them back down under control and repeat."
+    ],
+    "cues": [
+      "Push the wall away",
+      "Shoulders down, away from your ears"
+    ],
+    "safety": {
+      "precautions": [
+        "Stop short of any pinching at the front or top of the shoulder."
+      ],
+      "spotter": "not-needed"
+    }
+  },
+  "measurement": {
+    "load": {
+      "kind": "bodyweight"
+    },
+    "profiles": [
+      {
+        "required": [
+          "reps"
+        ],
+        "optional": [
+          "rpe"
+        ]
+      }
+    ],
+    "records": {},
+    "reps_counted": "total"
+  },
+  "name": "Serratus Wall Slide",
+  "previous_ids": [
+    "oec:serratus-wall-slide-stretch"
+  ],
+  "provenance": {
+    "generated": [
+      "/name",
+      "/summary",
+      "/classification",
+      "/anatomy",
+      "/equipment",
+      "/measurement",
+      "/instructions",
+      "/setup",
+      "/relations"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "review": {
+      "status": "machine-generated",
+      "model": "claude-opus-5-5",
+      "at": "2026-11-05"
+    },
+    "sources": [
+      {
+        "title": "wger: Serratus Wall Slide Stretch",
+        "url": "https://wger.de/en/exercise/2523/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Croak6728"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "variation-of",
+      "target": "oec:wall-angel"
+    }
+  ],
+  "setup": {
+    "position": "standing",
+    "range": "full"
+  },
+  "status": "active",
+  "summary": "A shoulder drill done facing a wall with the forearms on it, sliding them up while protracting the shoulder blades to train the serratus anterior and upward rotation."
+}

@@ -24,6 +24,18 @@
     {
       "text": "Cable Triceps Press",
       "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable Triceps Pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Triceps Pushdown",
+      "kind": "common"
+    },
+    {
+      "text": "Cable One-Arm Pushdown",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -189,6 +201,12 @@
         "url": "https://wger.de/en/exercise/1661/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "Shiladree"
+      },
+      {
+        "title": "wger: Single-arm cable pushdown",
+        "url": "https://wger.de/en/exercise/1969/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "evtimovgeorg"
       }
     ]
   },
@@ -200,10 +218,6 @@
     {
       "type": "substitute-for",
       "target": "oec:cable-triceps-pushdown"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:single-arm-cable-pushdown"
     },
     {
       "type": "substitute-for",

@@ -249,6 +249,7 @@
       "width": "hip"
     }
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:smith-machine-shoulder-press",
   "summary": "A seated or standing vertical press using a Smith machine to target the shoulders and triceps along a fixed track."
 }

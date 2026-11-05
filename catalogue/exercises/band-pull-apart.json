@@ -185,10 +185,6 @@
   "relations": [
     {
       "type": "substitute-for",
-      "target": "oec:cable-rear-delt-fly"
-    },
-    {
-      "type": "substitute-for",
       "target": "oec:cable-reverse-fly"
     },
     {
@@ -198,10 +194,6 @@
     {
       "type": "substitute-for",
       "target": "oec:machine-reverse-fly"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:standing-cable-reverse-fly"
     }
   ],
   "setup": {

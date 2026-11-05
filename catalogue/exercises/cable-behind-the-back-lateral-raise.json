@@ -11,7 +11,11 @@
     },
     {
       "text": "Side lateral raise - Back (Cable)",
-      "kind": "misspelling"
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable Lateral Raise Behind Back",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -180,6 +184,12 @@
         "title": "wger: Side lateral raise - Back (Cable)",
         "url": "https://wger.de/en/exercise/1753/view-base",
         "license": "CC-BY-SA-4.0"
+      },
+      {
+        "title": "wger: Behind the Back Cable Lateral Raise",
+        "url": "https://wger.de/en/exercise/1807/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "LEBRERO"
       }
     ]
   },
@@ -187,14 +197,6 @@
     {
       "type": "variation-of",
       "target": "oec:cable-lateral-raise"
-    },
-    {
-      "type": "variation-of",
-      "target": "oec:cable-single-arm-lateral-raise"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:behind-the-back-cable-lateral-raise"
     },
     {
       "type": "substitute-for",

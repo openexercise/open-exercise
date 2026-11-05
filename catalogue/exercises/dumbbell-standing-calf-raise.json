@@ -12,6 +12,10 @@
     {
       "text": "Dumbbell or Machine Calf Raise",
       "kind": "common"
+    },
+    {
+      "text": "DB Calf Raise",
+      "kind": "abbreviation"
     }
   ],
   "anatomy": {
@@ -176,6 +180,11 @@
         "title": "wger: Dumbbell or Machine Calf Raise",
         "url": "https://wger.de/en/exercise/2644/view-base",
         "license": "CC-BY-SA-4.0"
+      },
+      {
+        "title": "wger: Dumbbell Calf Raise",
+        "url": "https://wger.de/en/exercise/2661/view-base",
+        "license": "CC-BY-SA-4.0"
       }
     ]
   },
@@ -187,10 +196,6 @@
     {
       "type": "progression-of",
       "target": "oec:standing-calf-raise"
-    },
-    {
-      "type": "variation-of",
-      "target": "oec:dumbbell-calf-raise"
     },
     {
       "type": "substitute-for",

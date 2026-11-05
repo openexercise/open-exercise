@@ -224,10 +224,6 @@
     },
     {
       "type": "substitute-for",
-      "target": "oec:lateral-split-squat"
-    },
-    {
-      "type": "substitute-for",
       "target": "oec:lateral-squat"
     }
   ],

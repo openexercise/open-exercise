@@ -220,7 +220,7 @@
     },
     {
       "type": "substitute-for",
-      "target": "oec:machine-hack-squat"
+      "target": "oec:hack-squat"
     },
     {
       "type": "substitute-for",
@@ -232,11 +232,6 @@
     }
   ],
   "setup": {
-    "grip": {
-      "orientation": "pronated",
-      "width": "wide"
-    },
-    "load_position": "high-bar",
     "position": "standing",
     "range": "full",
     "stance": {

@@ -8,6 +8,14 @@
     {
       "text": "Wall Hip Flexor Stretch",
       "kind": "common"
+    },
+    {
+      "text": "Rear-Foot-Elevated Quad Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "RFE Hip Flexor Stretch",
+      "kind": "abbreviation"
     }
   ],
   "anatomy": {
@@ -177,6 +185,12 @@
         "url": "https://wger.de/en/exercise/2525/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "Croak6728"
+      },
+      {
+        "title": "wger: Rear-foot-elevated Hip Flexor Stretch",
+        "url": "https://wger.de/en/exercise/1960/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Pete-E automation"
       }
     ]
   },

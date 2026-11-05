@@ -20,6 +20,10 @@
     {
       "text": "close grip bench",
       "kind": "common"
+    },
+    {
+      "text": "Supine press",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -117,7 +121,7 @@
     ]
   },
   "external_ids": {
-    "wger": "76"
+    "wger": "76,1583"
   },
   "id": "oec:barbell-close-grip-bench-press",
   "instructions": {
@@ -187,7 +191,8 @@
   },
   "name": "Barbell Close-Grip Bench Press",
   "previous_ids": [
-    "oec:bench-press-narrow-grip"
+    "oec:bench-press-narrow-grip",
+    "oec:supine-press"
   ],
   "provenance": {
     "generated": [
@@ -213,21 +218,23 @@
         "url": "https://wger.de/en/exercise/76/view-base",
         "license": "CC-BY-SA-3.0",
         "author": "wger.de"
+      },
+      {
+        "title": "wger: Supine press",
+        "url": "https://wger.de/en/exercise/1583/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "CptnFatbeard"
       }
     ]
   },
   "relations": [
     {
       "type": "substitute-for",
-      "target": "oec:dumbbell-close-grip-bench-press"
+      "target": "oec:dumbbell-hex-press"
     },
     {
       "type": "substitute-for",
       "target": "oec:smith-machine-close-grip-bench-press"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:dumbbell-hex-press"
     },
     {
       "type": "progression-of",

@@ -113,7 +113,7 @@
   "instructions": {
     "setup": [
       "Adjust the thigh pads so your legs are firmly secured with feet flat on the floor.",
-      "Grasp the wide lat pulldown bar with an overhand grip outside shoulder width.",
+      "Grasp a lat pulldown bar with an overhand grip outside shoulder width.",
       "Sit down under the pads, extending your arms fully while keeping your torso upright with a slight natural arch in the upper spine."
     ],
     "steps": [
@@ -222,8 +222,7 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "pronated",
-      "width": "wide"
+      "orientation": "pronated"
     },
     "position": "seated"
   },

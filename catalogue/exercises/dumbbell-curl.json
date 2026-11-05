@@ -207,10 +207,6 @@
     },
     {
       "type": "substitute-for",
-      "target": "oec:cable-curl"
-    },
-    {
-      "type": "substitute-for",
       "target": "oec:cable-biceps-curl"
     },
     {
@@ -230,6 +226,7 @@
       "width": "hip"
     }
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:dumbbell-biceps-curl",
   "summary": "A standing free-weight isolation movement that trains the elbow flexors, emphasizing the biceps brachii through combined forearm supination and elbow flexion."
 }

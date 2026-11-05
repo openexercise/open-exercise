@@ -207,10 +207,6 @@
     },
     {
       "type": "substitute-for",
-      "target": "oec:standing-cable-reverse-fly"
-    },
-    {
-      "type": "substitute-for",
       "target": "oec:band-pull-apart"
     }
   ],
@@ -225,6 +221,7 @@
       "width": "hip"
     }
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:cable-reverse-fly",
   "summary": "An upper-body cable isolation movement targeting the posterior deltoids through shoulder horizontal abduction."
 }

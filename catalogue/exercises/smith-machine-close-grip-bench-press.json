@@ -198,7 +198,7 @@
     },
     {
       "type": "substitute-for",
-      "target": "oec:dumbbell-close-grip-bench-press"
+      "target": "oec:dumbbell-hex-press"
     }
   ],
   "setup": {

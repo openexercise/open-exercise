@@ -178,6 +178,7 @@
       "width": "hip"
     }
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:standing-biceps-stretch",
   "summary": "A standing static stretch that lengthens the biceps brachii, anterior deltoid, and chest against a wall."
 }

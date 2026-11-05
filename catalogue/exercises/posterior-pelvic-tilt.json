@@ -20,6 +20,14 @@
     {
       "text": "Pelvic Tilt Drill / Supine Pelvic Tilt",
       "kind": "common"
+    },
+    {
+      "text": "Pelvic Tilt",
+      "kind": "common"
+    },
+    {
+      "text": "Pelvic Tilts",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -179,6 +187,11 @@
         "url": "https://wger.de/en/exercise/2488/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "Raj"
+      },
+      {
+        "title": "wger: Pelvic Tilts",
+        "url": "https://wger.de/en/exercise/2647/view-base",
+        "license": "CC-BY-SA-4.0"
       }
     ]
   },

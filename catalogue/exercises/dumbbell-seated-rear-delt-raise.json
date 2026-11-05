@@ -16,6 +16,42 @@
     {
       "text": "Seated bent-over dumbbell reverse fly",
       "kind": "common"
+    },
+    {
+      "text": "Seated Bent-Over Dumbbell Rear Delt Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Rear Delt Raises",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Rear Delt Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Dumbbell Rear Delt Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Dumbbell Reverse Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Rear Delt Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Dumbbell Bent-Over Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Bent-Over Dumbbell Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Bent-over Lateral Raises",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -206,6 +242,18 @@
         "url": "https://wger.de/en/exercise/1098/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "philip"
+      },
+      {
+        "title": "wger: Rear Delt Raises",
+        "url": "https://wger.de/en/exercise/487/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "YYCfit"
+      },
+      {
+        "title": "wger: Bent-over Lateral Raises",
+        "url": "https://wger.de/en/exercise/82/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "apeschel"
       }
     ]
   },
@@ -224,23 +272,11 @@
     },
     {
       "type": "substitute-for",
-      "target": "oec:cable-rear-delt-fly"
-    },
-    {
-      "type": "substitute-for",
       "target": "oec:cable-reverse-fly"
     },
     {
       "type": "substitute-for",
       "target": "oec:machine-reverse-fly"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:seated-bent-over-dumbbell-rear-delt-raise"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:seated-dumbbell-bent-over-lateral-raise"
     }
   ],
   "setup": {

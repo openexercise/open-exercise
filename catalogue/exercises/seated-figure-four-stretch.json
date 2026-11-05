@@ -16,6 +16,14 @@
     {
       "text": "seated figure four",
       "kind": "common"
+    },
+    {
+      "text": "Chair Piriformis Stretch",
+      "kind": "common"
+    },
+    {
+      "text": "Seated Glute Stretch",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -165,6 +173,12 @@
         "url": "https://wger.de/en/exercise/1680/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "ricardodavidrd"
+      },
+      {
+        "title": "wger: Seated Piriformis Stretch",
+        "url": "https://wger.de/en/exercise/1959/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Pete-E automation"
       }
     ]
   },

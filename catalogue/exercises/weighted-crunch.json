@@ -12,6 +12,14 @@
     {
       "text": "Weighted Abdominal Crunch",
       "kind": "common"
+    },
+    {
+      "text": "dumbbell crunches",
+      "kind": "common"
+    },
+    {
+      "text": "weighted crunch with dumbbell",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -171,6 +179,12 @@
         "url": "https://wger.de/en/exercise/1648/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "AlucardEvil40"
+      },
+      {
+        "title": "wger: Dumbbell Crunches",
+        "url": "https://wger.de/en/exercise/1415/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "hpmbala@gmail.com"
       }
     ]
   },
@@ -186,10 +200,6 @@
     {
       "type": "substitute-for",
       "target": "oec:cable-kneeling-crunch"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:dumbbell-crunch"
     },
     {
       "type": "substitute-for",

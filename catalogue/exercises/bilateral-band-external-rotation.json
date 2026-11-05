@@ -109,7 +109,7 @@
     "steps": [
       "Keeping your elbows firmly pinned to your sides, rotate your forearms outward away from each other.",
       "Gently squeeze your shoulder blades together as your hands travel outward to full comfortable external rotation.",
-      "Hold the peak contraction for one to two seconds.",
+      "Hold the peak contraction briefly.",
       "Slowly reverse the movement under control back to the starting position without letting the band lose tension."
     ],
     "breathing": "Exhale as you rotate your hands outward against the resistance, and inhale as you return to the starting position.",
@@ -193,7 +193,7 @@
   "relations": [
     {
       "type": "substitute-for",
-      "target": "oec:side-lying-dumbbell-external-rotation"
+      "target": "oec:dumbbell-side-lying-external-rotation"
     }
   ],
   "setup": {

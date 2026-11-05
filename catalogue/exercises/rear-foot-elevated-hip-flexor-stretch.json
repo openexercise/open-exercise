@@ -192,6 +192,7 @@
       "kind": "split"
     }
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:couch-stretch",
   "summary": "A targeted mobility stretch that places the rear foot on an elevated surface to dynamically stretch the hip flexors and rectus femoris."
 }

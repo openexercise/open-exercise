@@ -20,6 +20,18 @@
     {
       "text": "Kneeling Cable High Row",
       "kind": "common"
+    },
+    {
+      "text": "Remo alto polea alta",
+      "kind": "regional"
+    },
+    {
+      "text": "One-Arm Cable High Row",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm High Pulley Row",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -221,25 +233,19 @@
         "url": "https://wger.de/en/exercise/1492/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "aahuja"
+      },
+      {
+        "title": "wger: Remo alto polea alta",
+        "url": "https://wger.de/en/exercise/1718/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "polloperro"
       }
     ]
   },
   "relations": [
     {
-      "type": "variation-of",
-      "target": "oec:single-arm-cable-high-row"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:single-arm-cable-high-row"
-    },
-    {
       "type": "substitute-for",
       "target": "oec:cable-half-kneeling-single-arm-lat-pulldown"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:half-kneeling-single-arm-lat-pulldown"
     }
   ],
   "setup": {

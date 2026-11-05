@@ -212,10 +212,6 @@
     },
     {
       "type": "substitute-for",
-      "target": "oec:incline-dumbbell-row"
-    },
-    {
-      "type": "substitute-for",
       "target": "oec:dumbbell-rear-delt-row"
     }
   ],

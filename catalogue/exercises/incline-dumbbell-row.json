@@ -223,6 +223,7 @@
     "position": "prone",
     "range": "full"
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:chest-supported-dumbbell-row",
   "summary": "A chest-supported dumbbell row performed prone on an incline bench to isolate the upper back and lats without loading the lower spine."
 }

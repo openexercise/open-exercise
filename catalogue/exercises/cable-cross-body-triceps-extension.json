@@ -199,10 +199,6 @@
     {
       "type": "variation-of",
       "target": "oec:cable-triceps-pushdown"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:single-arm-cable-pushdown"
     }
   ],
   "setup": {

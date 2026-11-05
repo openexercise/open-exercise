@@ -194,11 +194,7 @@
     },
     {
       "type": "substitute-for",
-      "target": "oec:dumbbell-curl"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:dumbbell-alternating-biceps-curl"
+      "target": "oec:alternating-dumbbell-curl"
     },
     {
       "type": "substitute-for",

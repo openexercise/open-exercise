@@ -198,7 +198,7 @@
     },
     {
       "type": "substitute-for",
-      "target": "oec:machine-hack-squat"
+      "target": "oec:hack-squat"
     }
   ],
   "setup": {

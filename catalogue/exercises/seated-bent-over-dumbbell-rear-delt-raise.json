@@ -228,19 +228,11 @@
     },
     {
       "type": "substitute-for",
-      "target": "oec:cable-rear-delt-fly"
-    },
-    {
-      "type": "substitute-for",
       "target": "oec:cable-reverse-fly"
     },
     {
       "type": "substitute-for",
       "target": "oec:dumbbell-seated-rear-delt-raise"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:seated-dumbbell-bent-over-lateral-raise"
     },
     {
       "type": "substitute-for",
@@ -259,6 +251,7 @@
       "width": "hip"
     }
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:dumbbell-seated-rear-delt-raise",
   "summary": "A seated isolation exercise that targets the posterior deltoids and upper back musculature using dumbbells."
 }

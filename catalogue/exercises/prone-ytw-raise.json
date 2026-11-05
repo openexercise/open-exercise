@@ -233,6 +233,7 @@
     },
     "position": "prone"
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:prone-y-t-w-raise",
   "summary": "A prone bodyweight scapular strengthening exercise that moves the arms through Y, T, and W positions to target the mid and lower trapezius, rhomboids, and rotator cuff."
 }

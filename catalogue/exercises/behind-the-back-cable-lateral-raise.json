@@ -194,10 +194,6 @@
       "target": "oec:cable-lateral-raise"
     },
     {
-      "type": "variation-of",
-      "target": "oec:cable-single-arm-lateral-raise"
-    },
-    {
       "type": "substitute-for",
       "target": "oec:cable-lateral-raise"
     },
@@ -221,6 +217,7 @@
       "width": "hip"
     }
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:cable-behind-the-back-lateral-raise",
   "summary": "A unilateral isolation exercise targeting the lateral deltoid by abducting the arm with a cable running behind the torso."
 }

@@ -96,13 +96,13 @@
     "level": "intermediate"
   },
   "equipment": {
+    "optional": [
+      "squat-rack",
+      "power-rack"
+    ],
     "required": [
       [
         "barbell"
-      ],
-      [
-        "squat-rack",
-        "power-rack"
       ]
     ]
   },

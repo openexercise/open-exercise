@@ -36,6 +36,18 @@
     {
       "text": "Shoulder Press, Dumbbells",
       "kind": "common"
+    },
+    {
+      "text": "Seated DB Overhead Press",
+      "kind": "abbreviation"
+    },
+    {
+      "text": "Lento Avanti Seduto",
+      "kind": "regional"
+    },
+    {
+      "text": "Seated Dumbbell Press",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -218,6 +230,12 @@
         "url": "https://wger.de/en/exercise/567/view-base",
         "license": "CC-BY-SA-3.0",
         "author": "wger.de"
+      },
+      {
+        "title": "wger: lento avanti seduto",
+        "url": "https://wger.de/en/exercise/1967/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Cf"
       }
     ]
   },
@@ -225,10 +243,6 @@
     {
       "type": "substitute-for",
       "target": "oec:seated-barbell-overhead-press"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:seated-dumbbell-overhead-press"
     },
     {
       "type": "substitute-for",

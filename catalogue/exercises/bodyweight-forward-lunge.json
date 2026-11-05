@@ -24,6 +24,18 @@
     {
       "text": "Unilateral Lunges",
       "kind": "common"
+    },
+    {
+      "text": "alternating forward lunge",
+      "kind": "common"
+    },
+    {
+      "text": "lunge",
+      "kind": "common"
+    },
+    {
+      "text": "lunges",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -204,14 +216,15 @@
         "url": "https://wger.de/en/exercise/1907/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "cybro"
+      },
+      {
+        "title": "wger: Lunges",
+        "url": "https://wger.de/en/exercise/984/view-base",
+        "license": "CC-BY-SA-4.0"
       }
     ]
   },
   "relations": [
-    {
-      "type": "variation-of",
-      "target": "oec:forward-lunge"
-    },
     {
       "type": "progression-of",
       "target": "oec:bodyweight-split-squat"

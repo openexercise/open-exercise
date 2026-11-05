@@ -84,8 +84,7 @@
   "equipment": {
     "required": [
       [
-        "barbell",
-        "ez-bar"
+        "barbell"
       ],
       [
         "bench",

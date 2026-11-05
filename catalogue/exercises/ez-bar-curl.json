@@ -215,11 +215,11 @@
     },
     {
       "type": "substitute-for",
-      "target": "oec:dumbbell-curl"
+      "target": "oec:dumbbell-biceps-curl"
     },
     {
       "type": "substitute-for",
-      "target": "oec:cable-curl"
+      "target": "oec:cable-biceps-curl"
     }
   ],
   "setup": {

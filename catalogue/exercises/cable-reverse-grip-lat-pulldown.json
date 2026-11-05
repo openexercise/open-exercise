@@ -19,7 +19,7 @@
     },
     {
       "text": "Biceps Close Grip Pull Down",
-      "kind": "misspelling"
+      "kind": "legacy"
     }
   ],
   "anatomy": {
@@ -226,6 +226,7 @@
     "position": "seated",
     "range": "full"
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:reverse-grip-lat-pulldown",
   "summary": "A vertical pulling exercise performed on a pulldown station using a supinated grip to target the latissimus dorsi and elbow flexors."
 }

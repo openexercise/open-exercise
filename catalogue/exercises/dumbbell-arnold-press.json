@@ -221,15 +221,7 @@
   "relations": [
     {
       "type": "variation-of",
-      "target": "oec:seated-dumbbell-overhead-press"
-    },
-    {
-      "type": "variation-of",
       "target": "oec:seated-dumbbell-shoulder-press"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:seated-dumbbell-overhead-press"
     },
     {
       "type": "substitute-for",

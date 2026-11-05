@@ -213,6 +213,7 @@
     "position": "kneeling",
     "range": "full"
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:machine-assisted-pull-up",
   "summary": "A machine-assisted vertical pulling exercise that offsets a portion of body weight to train the lats and upper back through a full pull-up range of motion."
 }

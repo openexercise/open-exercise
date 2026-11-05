@@ -208,6 +208,7 @@
       "width": "hip"
     }
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:cobra-pose",
   "summary": "A prone bodyweight stretch that gently extends the spine to open the chest, abdominals, and anterior hip capsule."
 }

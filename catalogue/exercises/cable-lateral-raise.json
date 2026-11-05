@@ -24,6 +24,34 @@
     {
       "text": "High-Cable Lateral Raise",
       "kind": "common"
+    },
+    {
+      "text": "Cable Single-Arm Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "One-Arm Cable Lateral Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Side raises on Cable",
+      "kind": "common"
+    },
+    {
+      "text": "Lateral Rows on Cable, One Armed",
+      "kind": "legacy"
+    },
+    {
+      "text": "Cable Lateral Raises (Single Arm)",
+      "kind": "common"
+    },
+    {
+      "text": "Single-Arm Cable Side Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Unilateral Cable Lateral Raise",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -203,6 +231,24 @@
         "url": "https://wger.de/en/exercise/1882/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "Deflation"
+      },
+      {
+        "title": "wger: Lateral Rows on Cable, One Armed",
+        "url": "https://wger.de/en/exercise/349/view-base",
+        "license": "CC-BY-SA-3.0",
+        "author": "wger.de"
+      },
+      {
+        "title": "wger: Cable Lateral Raises (Single Arm)",
+        "url": "https://wger.de/en/exercise/1378/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "carlos3c"
+      },
+      {
+        "title": "wger: Unilateral Cable Lateral Raise",
+        "url": "https://wger.de/en/exercise/1707/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "polloperro"
       }
     ]
   },

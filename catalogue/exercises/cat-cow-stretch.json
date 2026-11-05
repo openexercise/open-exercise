@@ -222,6 +222,7 @@
       "width": "hip"
     }
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:cat-cow",
   "summary": "A gentle quadruped mobility exercise that alternates between spinal flexion and spinal extension to improve vertebral articulation and core awareness."
 }

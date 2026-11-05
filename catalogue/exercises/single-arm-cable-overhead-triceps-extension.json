@@ -2,10 +2,6 @@
   "$schema": "https://openexercise.org/schema/v0/exercise.json",
   "aliases": [
     {
-      "text": "Neck Extension",
-      "kind": "misspelling"
-    },
-    {
       "text": "One-Arm Cable Overhead Triceps Extension",
       "kind": "common"
     },
@@ -201,6 +197,7 @@
       "kind": "staggered"
     }
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:cable-single-arm-overhead-triceps-extension",
   "summary": "An isolation exercise that trains the triceps, particularly the long head, by extending the elbow overhead against high cable resistance."
 }

@@ -197,14 +197,10 @@
   "relations": [
     {
       "type": "variation-of",
-      "target": "oec:machine-hack-squat"
+      "target": "oec:hack-squat"
     },
     {
       "type": "progression-of",
-      "target": "oec:machine-hack-squat"
-    },
-    {
-      "type": "variation-of",
       "target": "oec:hack-squat"
     }
   ],

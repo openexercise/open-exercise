@@ -219,7 +219,7 @@
     },
     {
       "type": "substitute-for",
-      "target": "oec:forward-lunge"
+      "target": "oec:bodyweight-forward-lunge"
     },
     {
       "type": "substitute-for",

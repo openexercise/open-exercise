@@ -16,6 +16,18 @@
     {
       "text": "Prone Scapular YTW",
       "kind": "common"
+    },
+    {
+      "text": "YWTs",
+      "kind": "common"
+    },
+    {
+      "text": "Prone Y-W-T",
+      "kind": "common"
+    },
+    {
+      "text": "Prone YTW Hold",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -203,14 +215,16 @@
         "url": "https://wger.de/en/exercise/2454/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "probablyforging"
+      },
+      {
+        "title": "wger: YWTs",
+        "url": "https://wger.de/en/exercise/1083/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "tinman"
       }
     ]
   },
   "relations": [
-    {
-      "type": "variation-of",
-      "target": "oec:prone-ytw-raise"
-    },
     {
       "type": "substitute-for",
       "target": "oec:bent-over-ytwl"

@@ -20,6 +20,10 @@
     {
       "text": "Pull Ups on Machine",
       "kind": "common"
+    },
+    {
+      "text": "Counterweight Pull-Up",
+      "kind": "common"
     }
   ],
   "anatomy": {
@@ -113,7 +117,7 @@
   "instructions": {
     "setup": [
       "Select the desired counterweight on the weight stack, remembering that a heavier weight provides more assistance.",
-      "Grasp the outer pull-up handles with an overhand (pronated) grip slightly wider than shoulder width.",
+      "Grasp the pull-up handles with an overhand (pronated) grip.",
       "Place one knee firmly onto the center of the padded assist lever, then carefully place the second knee alongside it.",
       "Lower yourself smoothly into a full hang with your arms fully extended and core braced."
     ],
@@ -200,14 +204,16 @@
         "url": "https://wger.de/en/exercise/477/view-base",
         "license": "CC-BY-SA-3.0",
         "author": "wger.de"
+      },
+      {
+        "title": "wger: Assisted Pull-Up",
+        "url": "https://wger.de/en/exercise/1929/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "amaesc"
       }
     ]
   },
   "relations": [
-    {
-      "type": "variation-of",
-      "target": "oec:assisted-pull-up"
-    },
     {
       "type": "regression-of",
       "target": "oec:pull-up"
@@ -215,8 +221,7 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "pronated",
-      "width": "wide"
+      "orientation": "pronated"
     },
     "position": "kneeling",
     "range": "full"

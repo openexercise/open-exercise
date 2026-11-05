@@ -203,7 +203,7 @@
   "relations": [
     {
       "type": "variation-of",
-      "target": "oec:seated-dumbbell-overhead-press"
+      "target": "oec:seated-dumbbell-shoulder-press"
     },
     {
       "type": "substitute-for",

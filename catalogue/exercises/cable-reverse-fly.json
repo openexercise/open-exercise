@@ -7,7 +7,7 @@
     },
     {
       "text": "Reverse Cable Flye",
-      "kind": "misspelling"
+      "kind": "common"
     },
     {
       "text": "Cable Rear Delt Fly",
@@ -19,6 +19,18 @@
     },
     {
       "text": "Standing Cable Reverse Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Standing Cable Rear Delt Fly",
+      "kind": "common"
+    },
+    {
+      "text": "Cable Rear Delt Raise",
+      "kind": "common"
+    },
+    {
+      "text": "Reverse Fly Standing",
       "kind": "common"
     }
   ],
@@ -197,18 +209,22 @@
         "url": "https://wger.de/en/exercise/1473/view-base",
         "license": "CC-BY-SA-4.0",
         "author": "Expenses7000"
+      },
+      {
+        "title": "wger: Cable Rear Delt Fly",
+        "url": "https://wger.de/en/exercise/822/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "cshep442"
+      },
+      {
+        "title": "wger: Reverse Fly Standing",
+        "url": "https://wger.de/en/exercise/1709/view-base",
+        "license": "CC-BY-SA-4.0",
+        "author": "Croak6728"
       }
     ]
   },
   "relations": [
-    {
-      "type": "substitute-for",
-      "target": "oec:cable-rear-delt-fly"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:standing-cable-reverse-fly"
-    },
     {
       "type": "substitute-for",
       "target": "oec:machine-reverse-fly"

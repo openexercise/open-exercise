@@ -11,7 +11,7 @@
     },
     {
       "text": "Leg Press on Hackenschmidt Machine",
-      "kind": "misspelling"
+      "kind": "common"
     },
     {
       "text": "Sled Hack Squat",
@@ -217,6 +217,7 @@
       "width": "shoulder"
     }
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:hack-squat",
   "summary": "A machine-based squat variation performed on an angled sled with shoulder pads and back support, heavily loading the quadriceps."
 }

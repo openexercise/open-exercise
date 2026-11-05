@@ -225,6 +225,7 @@
     "position": "half-kneeling",
     "range": "full"
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:half-kneeling-cable-high-row",
   "summary": "A unilateral pulling exercise performed from a high cable pulley to build the lats, upper back, and elbow flexors."
 }

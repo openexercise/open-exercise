@@ -19,7 +19,7 @@
     },
     {
       "text": "Lateral Rows on Cable, One Armed",
-      "kind": "misspelling"
+      "kind": "legacy"
     }
   ],
   "anatomy": {
@@ -211,10 +211,6 @@
     {
       "type": "substitute-for",
       "target": "oec:machine-lateral-raise"
-    },
-    {
-      "type": "substitute-for",
-      "target": "oec:single-arm-cable-lateral-raise"
     }
   ],
   "setup": {
@@ -229,6 +225,7 @@
       "width": "hip"
     }
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:cable-lateral-raise",
   "summary": "An isolation exercise that uses a low cable pulley to train the lateral deltoid through continuous tension."
 }

@@ -220,10 +220,6 @@
       "target": "oec:hack-squat"
     },
     {
-      "type": "substitute-for",
-      "target": "oec:machine-hack-squat"
-    },
-    {
       "type": "variation-of",
       "target": "oec:barbell-back-squat"
     }

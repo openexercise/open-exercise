@@ -225,6 +225,7 @@
       "width": "hip"
     }
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:bodyweight-forward-lunge",
   "summary": "A dynamic lower-body exercise where you step forward into a split stance, lowering the hips until both knees are bent, then push back to standing."
 }

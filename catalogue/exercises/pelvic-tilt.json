@@ -191,6 +191,7 @@
       "width": "hip"
     }
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:posterior-pelvic-tilt",
   "summary": "A foundational core and lumbo-pelvic mobility exercise performed supine to develop pelvic control and engage the deep abdominals."
 }

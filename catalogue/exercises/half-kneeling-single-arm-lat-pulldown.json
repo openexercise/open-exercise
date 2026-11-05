@@ -235,6 +235,7 @@
     },
     "position": "half-kneeling"
   },
-  "status": "active",
+  "status": "replaced",
+  "replaced_by": "oec:cable-half-kneeling-single-arm-lat-pulldown",
   "summary": "A unilateral vertical pull performed from a half-kneeling position to target the latissimus dorsi while challenging trunk anti-rotation."
 }
