@@ -101,7 +101,7 @@
     ],
     "steps": [
       "Grip the side handles lightly and begin pedaling smoothly forward.",
-      "Push through the midfoot and heel during the extension phase while actively pulling back through the bottom of the stroke.",
+      "Push through the balls of your feet and midfoot during the extension phase while actively pulling back through the bottom of the stroke.",
       "Maintain an even, continuous pedal cadence against the selected resistance level throughout the workout duration."
     ],
     "breathing": "Breathe in a continuous, rhythmic pattern matched to your pedal strokes, avoiding holding your breath.",
@@ -185,9 +185,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/1"
     },
     "sources": [
       {

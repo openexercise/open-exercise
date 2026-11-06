@@ -74,7 +74,7 @@
   "instructions": {
     "setup": [
       "Stand or sit upright with your shoulders relaxed.",
-      "Extend one arm straight out in front of you at shoulder height with your palm facing away or upward, fingers pointing toward the floor."
+      "Extend one arm straight out in front of you at shoulder height with your palm facing away from you and your fingers pointing toward the floor."
     ],
     "steps": [
       "Use your opposite hand to gently grasp the fingers and palm of the extended hand.",
@@ -143,9 +143,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/2"
     },
     "sources": [
       {

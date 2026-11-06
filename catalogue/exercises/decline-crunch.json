@@ -3,7 +3,7 @@
   "aliases": [
     {
       "text": "Incline Crunch",
-      "kind": "common"
+      "kind": "legacy"
     },
     {
       "text": "Decline Bench Crunch",
@@ -19,7 +19,7 @@
     },
     {
       "text": "Incline Crunches",
-      "kind": "common"
+      "kind": "legacy"
     },
     {
       "text": "Negative Crunches",

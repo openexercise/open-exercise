@@ -209,8 +209,7 @@
     "incline_degrees": 0,
     "position": "supine",
     "stance": {
-      "kind": "parallel",
-      "width": "shoulder"
+      "kind": "parallel"
     }
   },
   "status": "active",

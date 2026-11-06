@@ -133,8 +133,8 @@
         "correction": "Lock out the elbows completely before kicking up and maintain active extension throughout."
       },
       {
-        "fault": "Depressed or relaxed shoulders sinking toward the ears.",
-        "correction": "Shrug your shoulders upward toward your ears to maximize scapular elevation and shoulder flexion stability."
+        "fault": "Relaxed shoulders that let the body sink and close the shoulder angle.",
+        "correction": "Push tall through the floor, elevating the shoulder blades toward your ears to open the shoulder angle."
       }
     ],
     "safety": {
@@ -177,9 +177,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/1"
     },
     "sources": [
       {

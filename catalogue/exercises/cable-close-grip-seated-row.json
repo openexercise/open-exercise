@@ -7,7 +7,7 @@
     },
     {
       "text": "Long Pulley Row",
-      "kind": "regional"
+      "kind": "legacy"
     },
     {
       "text": "V-Bar Seated Cable Row",
@@ -15,7 +15,7 @@
     },
     {
       "text": "Seated Cable Row",
-      "kind": "common"
+      "kind": "legacy"
     },
     {
       "text": "Long-Pulley, Narrow",
@@ -258,8 +258,7 @@
     },
     "position": "seated",
     "stance": {
-      "kind": "parallel",
-      "width": "hip"
+      "kind": "parallel"
     }
   },
   "status": "active",

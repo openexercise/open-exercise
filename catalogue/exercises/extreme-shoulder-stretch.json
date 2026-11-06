@@ -77,7 +77,7 @@
     "movement_patterns": [
       "stretch"
     ],
-    "mechanics": "isolation",
+    "mechanics": "not-applicable",
     "force": "static",
     "kinetic_chain": "closed",
     "laterality": "bilateral",
@@ -178,9 +178,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/1"
     },
     "sources": [
       {
@@ -192,13 +197,11 @@
   },
   "setup": {
     "grip": {
-      "orientation": "pronated",
-      "width": "wide"
+      "orientation": "pronated"
     },
     "position": "standing",
     "stance": {
-      "kind": "parallel",
-      "width": "hip"
+      "kind": "parallel"
     }
   },
   "status": "active",

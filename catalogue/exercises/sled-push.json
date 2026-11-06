@@ -235,7 +235,6 @@
     "grip": {
       "orientation": "neutral"
     },
-    "load_position": "chest",
     "position": "moving",
     "range": "full",
     "stance": {

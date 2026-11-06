@@ -172,9 +172,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/2"
     },
     "sources": [
       {
@@ -198,5 +203,5 @@
     }
   },
   "status": "active",
-  "summary": "An advanced isometric proprioception exercise where you maintain upright balance on one foot without visual feedback."
+  "summary": "An isometric balance exercise where you hold upright on one foot with your eyes closed, removing visual feedback."
 }

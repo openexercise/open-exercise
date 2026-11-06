@@ -103,7 +103,6 @@
   "instructions": {
     "setup": [
       "Set one pulley of a dual-cable crossover station to the highest setting and the other pulley to the lowest setting.",
-      "Select appropriate loads for each stack, typically using slightly more weight on the high pulley than the low pulley.",
       "Grasp the high handle with one hand and the low handle with the other, then step forward into a stable staggered stance centered between the towers.",
       "Maintain a slight bend in your elbows and brace your core with your torso leaned marginally forward."
     ],
@@ -139,7 +138,7 @@
   },
   "measurement": {
     "load": {
-      "convention": "per-implement",
+      "convention": "weight-stack",
       "implements": 2,
       "kind": "external"
     },

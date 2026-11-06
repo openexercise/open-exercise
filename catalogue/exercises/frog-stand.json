@@ -3,7 +3,7 @@
   "aliases": [
     {
       "text": "Frog Pose",
-      "kind": "common"
+      "kind": "legacy"
     },
     {
       "text": "Kakasana",
@@ -162,7 +162,8 @@
   "measurement": {
     "duration_counted": "total",
     "load": {
-      "kind": "none"
+      "convention": "not-applicable",
+      "kind": "bodyweight"
     },
     "profiles": [
       {

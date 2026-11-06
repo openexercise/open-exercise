@@ -119,7 +119,7 @@
       "Lower your body in a controlled tempo by bending your elbows, keeping them tucked at roughly a 45-degree angle to your torso.",
       "Descend into a deficit until your chest passes below the level of the dumbbell handles, feeling a stretch across the pectorals.",
       "Press firmly through the handles to extend your elbows and return to the starting plank position.",
-      "Protracted your shoulder blades slightly at the top lockout before beginning the next repetition."
+      "Protract your shoulder blades slightly at the top lockout before beginning the next repetition."
     ],
     "breathing": "Inhale smoothly as you lower your chest into the deficit, and exhale forcefully as you press back up.",
     "cues": [
@@ -182,9 +182,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/2"
     },
     "sources": [
       {

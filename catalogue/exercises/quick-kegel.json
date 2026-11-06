@@ -28,8 +28,7 @@
   },
   "classification": {
     "modalities": [
-      "rehabilitation",
-      "conditioning"
+      "rehabilitation"
     ],
     "mechanics": "isolation",
     "kinetic_chain": "not-applicable",
@@ -56,8 +55,8 @@
     ],
     "steps": [
       "Quickly contract and draw the pelvic floor muscles inward and upward as if stopping the flow of urine.",
-      "Squeeze firmly for one second without bearing down or tensing your buttocks.",
-      "Immediately let go, allowing the pelvic floor muscles to fully relax back to baseline for one to two seconds before starting the next rep."
+      "Squeeze firmly for a moment without bearing down or tensing your buttocks.",
+      "Immediately let go, allowing the pelvic floor muscles to fully relax back to baseline before starting the next rep."
     ],
     "breathing": "Breathe normally throughout the set; do not hold your breath during the contractions.",
     "cues": [
@@ -88,7 +87,7 @@
   },
   "measurement": {
     "load": {
-      "kind": "bodyweight"
+      "kind": "none"
     },
     "profiles": [
       {

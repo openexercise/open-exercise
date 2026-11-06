@@ -95,7 +95,7 @@
   "instructions": {
     "setup": [
       "Stand upright with your feet hip-width apart.",
-      "Cross one foot over and behind the other, planting both feet flat on the floor with toes pointing forward.",
+      "Cross one leg in front of the other, planting both feet flat on the floor side by side with toes pointing forward.",
       "Keep the rear leg straight while allowing a soft, slight bend in the front knee."
     ],
     "steps": [
@@ -161,9 +161,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/1"
     },
     "sources": [
       {

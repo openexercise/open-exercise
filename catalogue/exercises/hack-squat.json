@@ -7,7 +7,7 @@
     },
     {
       "text": "Machine Squat",
-      "kind": "common"
+      "kind": "legacy"
     },
     {
       "text": "Hack Squats",
@@ -23,7 +23,7 @@
     },
     {
       "text": "Leg Press on Hackenschmidt Machine",
-      "kind": "common"
+      "kind": "legacy"
     }
   ],
   "anatomy": {

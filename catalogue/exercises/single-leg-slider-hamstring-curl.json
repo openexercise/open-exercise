@@ -15,7 +15,7 @@
     },
     {
       "text": "Single-Leg Hamstring Curl",
-      "kind": "common"
+      "kind": "legacy"
     },
     {
       "text": "Single-Leg Towel Leg Curl",
@@ -134,7 +134,7 @@
       },
       {
         "fault": "Sliding out too fast without control",
-        "correction": "Resist the movement during the eccentric phase, taking two to three seconds to slide outward smoothly."
+        "correction": "Resist the movement during the eccentric phase, sliding outward slowly and smoothly."
       },
       {
         "fault": "Pushing with the toes instead of the heel",

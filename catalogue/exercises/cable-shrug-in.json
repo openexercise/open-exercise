@@ -11,7 +11,7 @@
     },
     {
       "text": "Low Cable Shrug",
-      "kind": "common"
+      "kind": "legacy"
     }
   ],
   "anatomy": {
@@ -132,7 +132,7 @@
   },
   "measurement": {
     "load": {
-      "convention": "per-implement",
+      "convention": "weight-stack",
       "implements": 2,
       "kind": "external"
     },

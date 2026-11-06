@@ -7,11 +7,11 @@
     },
     {
       "text": "Air Bike",
-      "kind": "common"
+      "kind": "legacy"
     },
     {
       "text": "Bicycle",
-      "kind": "common"
+      "kind": "legacy"
     }
   ],
   "anatomy": {
@@ -143,7 +143,7 @@
       },
       {
         "fault": "Moving rapidly using momentum rather than muscular control.",
-        "correction": "Slow the tempo down, holding each rotational peak for a brief one-count."
+        "correction": "Slow down and pause briefly at each rotation."
       }
     ],
     "safety": {
@@ -196,9 +196,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/2"
     },
     "sources": [
       {

@@ -3,7 +3,7 @@
   "aliases": [
     {
       "text": "March in Place",
-      "kind": "common"
+      "kind": "legacy"
     },
     {
       "text": "Running in Place",
@@ -112,7 +112,7 @@
       "Bend your elbows to approximately ninety degrees, keeping your shoulders relaxed."
     ],
     "steps": [
-      "Lift one knee toward hip height while swinging the opposite arm forward.",
+      "Lift one foot off the floor, bringing the knee forward and up while swinging the opposite arm forward.",
       "Lower the foot back down to the ground under control, landing softly on the ball of your foot.",
       "Immediately switch sides, lifting the opposite knee and reversing your arm swing.",
       "Continue alternating legs in a smooth, rhythmic, running motion without traveling forward."
@@ -188,9 +188,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/2"
     },
     "sources": [
       {

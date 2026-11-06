@@ -7,7 +7,7 @@
     },
     {
       "text": "Toe Raise",
-      "kind": "common"
+      "kind": "legacy"
     },
     {
       "text": "Tib Raise",
@@ -30,7 +30,7 @@
       },
       {
         "muscle": "peroneals",
-        "role": "synergist"
+        "role": "stabilizer"
       }
     ],
     "joints": [

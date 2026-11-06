@@ -189,14 +189,18 @@
       "/equipment",
       "/measurement",
       "/instructions",
-      "/setup",
       "/relations"
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/1"
     },
     "sources": [
       {
@@ -212,9 +216,6 @@
       "target": "oec:swimming"
     }
   ],
-  "setup": {
-    "position": "prone"
-  },
   "status": "active",
   "summary": "An easy-paced swim performed at low intensity to gradually lower heart rate and promote active recovery."
 }

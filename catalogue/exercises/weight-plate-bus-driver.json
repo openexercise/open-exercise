@@ -150,7 +150,7 @@
     ],
     "safety": {
       "precautions": [
-        "Start with light weight plates (5–10 lb / 2.5–5 kg), as the long lever arm places significant demand on shoulder stamina."
+        "Start with a light plate, as the long lever arm places significant demand on shoulder endurance."
       ],
       "spotter": "not-needed"
     }
@@ -204,9 +204,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/2"
     },
     "sources": [
       {

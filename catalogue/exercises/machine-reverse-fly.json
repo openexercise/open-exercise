@@ -105,7 +105,7 @@
   "id": "oec:machine-reverse-fly",
   "instructions": {
     "setup": [
-      "Adjust the machine handles fully back so they start in front of you.",
+      "Set the machine's handles to their forward position so they start together in front of you.",
       "Set the seat height so that your hands grip the handles at or slightly below shoulder level.",
       "Sit facing the chest pad with your torso firmly supported and feet flat on the floor.",
       "Grasp the handles with a neutral or pronated grip and maintain a slight, fixed bend in your elbows."
@@ -184,9 +184,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/1"
     },
     "sources": [
       {

@@ -152,7 +152,7 @@
       },
       {
         "fault": "Rushing through reps without pausing at full extension.",
-        "correction": "Hold lockout for at least one second where the lever arm and anti-rotational challenge are highest."
+        "correction": "Pause briefly at full extension, where the lever arm and anti-rotational challenge are highest."
       }
     ],
     "safety": {
@@ -212,9 +212,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/1"
     },
     "sources": [
       {

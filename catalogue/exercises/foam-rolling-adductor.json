@@ -89,7 +89,7 @@
     "steps": [
       "Shift your weight onto the roller while maintaining abdominal tension to keep your spine neutral.",
       "Slowly roll your body sideways to move the roller along your inner thigh toward your groin.",
-      "Pause and hold pressure on any particularly tender or tight trigger points for 20 to 30 seconds.",
+      "Pause and hold pressure briefly on any particularly tender or tight trigger points.",
       "Slowly roll back down toward the top of the knee, stopping just before the knee joint.",
       "Repeat for the desired duration, then switch to the opposite leg."
     ],
@@ -155,9 +155,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/1"
     },
     "sources": [
       {

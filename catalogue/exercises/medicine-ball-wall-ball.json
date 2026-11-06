@@ -131,8 +131,7 @@
   "equipment": {
     "required": [
       [
-        "medicine-ball",
-        "slam-ball"
+        "medicine-ball"
       ],
       [
         "wall"

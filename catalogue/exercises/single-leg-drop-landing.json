@@ -125,7 +125,7 @@
       "Step off the edge with one foot without jumping upward or pushing off aggressively.",
       "Drop straight down and contact the floor with the balls of your landing foot first, immediately rolling to the heel.",
       "Absorb the impact softly by flexing simultaneously at your ankle, knee, and hip into a balanced athletic quarter-squat.",
-      "Freeze instantly upon landing and hold the single-leg stance motionless for one to two seconds.",
+      "Freeze upon landing and hold the single-leg stance motionless briefly.",
       "Step back up onto the box and reset before the next repetition."
     ],
     "breathing": "Exhale sharply as your foot contacts the ground to brace your trunk, holding steady through the pause.",
@@ -191,9 +191,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/2"
     },
     "sources": [
       {

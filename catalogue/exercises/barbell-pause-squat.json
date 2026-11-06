@@ -127,7 +127,7 @@
     "steps": [
       "Inhale deeply into your belly and brace your core.",
       "Break simultaneously at the hips and knees to descend under control until your hip crease drops below the top of your knees.",
-      "Come to a complete, motionless stop in the bottom position for the prescribed count (typically one to three seconds) while maintaining full muscular tension.",
+      "Come to a complete, motionless stop in the bottom position and pause briefly while maintaining full muscular tension.",
       "Drive aggressively through your midfoot, extending your hips and knees to return to the starting standing position.",
       "Lock out your hips and knees under control before beginning the next repetition."
     ],
@@ -144,7 +144,7 @@
       },
       {
         "fault": "Bouncing out of the hole or cutting the pause short.",
-        "correction": "Bring the barbell to a definite, motionless stop and count full seconds before initiating the concentric drive."
+        "correction": "Bring the barbell to a definite, motionless stop and hold the pause fully before initiating the concentric drive."
       },
       {
         "fault": "Shifting weight forward onto the toes when driving up out of the pause.",
@@ -226,7 +226,7 @@
     }
   ],
   "setup": {
-    "load_position": "high-bar",
+    "load_position": "back",
     "position": "standing",
     "range": "pause",
     "stance": {

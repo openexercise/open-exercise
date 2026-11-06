@@ -148,7 +148,7 @@
       }
     ],
     "records": {
-      "e1rm": true,
+      "e1rm": false,
       "volume": true
     },
     "reps_counted": "total"

@@ -117,7 +117,7 @@
       },
       {
         "fault": "Dropping the dumbbells quickly during the lowering phase.",
-        "correction": "Emphasize the eccentric tempo by taking two to three seconds to lower the weights with the overhand grip."
+        "correction": "Lower the weights slowly and under control with the overhand grip rather than letting them drop."
       },
       {
         "fault": "Flaring the elbows outward during the rotation or descent.",
@@ -173,9 +173,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/2"
     },
     "sources": [
       {

@@ -3,7 +3,7 @@
   "aliases": [
     {
       "text": "Reverse Preacher Curl (Close Grip)",
-      "kind": "common"
+      "kind": "legacy"
     },
     {
       "text": "Close-Grip EZ-Bar Spider Curl",
@@ -19,11 +19,11 @@
     },
     {
       "text": "Close-Grip EZ-Bar Reverse Preacher Curl",
-      "kind": "common"
+      "kind": "legacy"
     },
     {
       "text": "Reverse Preacher Curl",
-      "kind": "common"
+      "kind": "legacy"
     }
   ],
   "anatomy": {

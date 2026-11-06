@@ -114,7 +114,7 @@
   "id": "oec:speed-deadlift",
   "instructions": {
     "setup": [
-      "Load the barbell with a submaximal weight, typically between 50% and 75% of your one-rep max.",
+      "Load the barbell with a submaximal weight you can move explosively with perfect form.",
       "Stand with feet hip-width apart and mid-foot directly under the bar.",
       "Hinge at the hips, grip the barbell just outside your shins, and pull the slack out of the bar while engaging your lats.",
       "Brace your core firmly and establish a neutral, rigid spine before initiating the pull."
@@ -214,7 +214,6 @@
     "grip": {
       "orientation": "pronated"
     },
-    "load_position": "at-sides",
     "position": "standing",
     "range": "full",
     "stance": {

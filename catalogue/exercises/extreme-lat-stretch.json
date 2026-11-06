@@ -100,7 +100,7 @@
   "instructions": {
     "setup": [
       "If loading the stretch, secure a weight plate to a dip belt around your waist.",
-      "Stand beneath a sturdy pull-up bar and take a wide overhand grip, using lifting straps if needed to ensure grip failure does not cut the stretch short.",
+      "Stand beneath a sturdy pull-up bar and take an overhand grip, using lifting straps if needed to ensure grip failure does not cut the stretch short.",
       "Step off the platform or bench to suspend your full bodyweight."
     ],
     "steps": [
@@ -167,9 +167,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/2"
     },
     "sources": [
       {
@@ -181,8 +186,7 @@
   },
   "setup": {
     "grip": {
-      "orientation": "pronated",
-      "width": "wide"
+      "orientation": "pronated"
     },
     "load_position": "hip",
     "position": "hanging",

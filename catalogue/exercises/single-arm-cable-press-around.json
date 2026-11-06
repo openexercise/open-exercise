@@ -75,7 +75,6 @@
     ],
     "movement_patterns": [
       "horizontal-push",
-      "push",
       "anti-rotation"
     ],
     "mechanics": "compound",

@@ -10,6 +10,17 @@ changes that change what matches, and format changes.
 
 ## Unreleased
 
+- **Format (wording):** SPEC §6 now says `position`, `range`, `load_position` and the stance's `kind`
+  may describe the standard way an exercise is done, as conventional grips do, when its
+  instructions agree, and are left out only where they'd contradict it. No field or term changes.
+- **Verification batch 2:** every remaining active machine-generated record went through the
+  pipeline (`catalogue/verification/batch-2.json`). 217 records were fixed (268 fixes: aliases made
+  `legacy`, summaries, equipment, muscles, load conventions, setup facets and instructions), and
+  397 are now `machine-verified`, for 418 in all. The other 307 wait for a person: 68 with
+  questions from the fix pass, 239 with issues from the check.
+- **Checker:** `oes-verify/2` reads the schema, so it no longer calls valid values invalid, and
+  applies the §6 rule above. Records whose only issues were setup facets were rechecked with it.
+
 ## v0.4.0 (2026-11-05)
 
 Automated verification. A format addition, the `machine-verified` review status, and its first
