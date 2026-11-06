@@ -10,6 +10,13 @@ changes that change what matches, and format changes.
 
 ## Unreleased
 
+## v0.5.0 (2026-11-06)
+
+Verification across the catalogue. 418 records are now `machine-verified`, 382 still
+`machine-generated` and 17 `unreviewed`. SPEC §6 gains a wording rule for conventional setup facets.
+Records whose aliases became `legacy` stop deciding matches by those names; an app that shows
+descriptions by review status will show more as checked automatically.
+
 - **Format (wording):** SPEC §6 now says `position`, `range`, `load_position` and the stance's `kind`
   may describe the standard way an exercise is done, as conventional grips do, when its
   instructions agree, and are left out only where they'd contradict it. No field or term changes.
