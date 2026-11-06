@@ -155,7 +155,7 @@
   },
   "measurement": {
     "load": {
-      "kind": "bodyweight"
+      "kind": "none"
     },
     "profiles": [
       {

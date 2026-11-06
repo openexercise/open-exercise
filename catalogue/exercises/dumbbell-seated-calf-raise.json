@@ -106,7 +106,7 @@
     "common_faults": [
       {
         "fault": "Bouncing out of the bottom stretch using Achilles tendon elasticity.",
-        "correction": "Pause for one to two seconds in the stretched position before initiating the upward drive."
+        "correction": "Pause briefly in the stretched position before initiating the upward drive."
       },
       {
         "fault": "Cutting the range of motion short at the top or bottom.",
@@ -161,9 +161,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/2"
     },
     "sources": [
       {
@@ -185,7 +190,6 @@
     }
   ],
   "setup": {
-    "load_position": "at-sides",
     "position": "seated",
     "range": "full"
   },

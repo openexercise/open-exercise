@@ -35,10 +35,6 @@
       {
         "muscle": "piriformis",
         "role": "stretched"
-      },
-      {
-        "muscle": "triceps-brachii",
-        "role": "stabilizer"
       }
     ],
     "joints": [
@@ -97,7 +93,7 @@
     "steps": [
       "Slowly shift your body weight onto the ball to apply tolerable pressure to the muscle tissue.",
       "Roll gently in small circles or back and forth over tender areas of the glute and lateral hip.",
-      "When a particularly tender trigger point is found, pause on the spot for twenty to thirty seconds while breathing deeply to allow the muscle to relax.",
+      "When you find a particularly tender spot, pause on it while breathing deeply to let the muscle relax.",
       "Slowly mobilize the hip by slightly opening and closing the knee to floss the tissue over the ball.",
       "Complete the desired duration, then switch sides."
     ],
@@ -162,9 +158,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/2"
     },
     "sources": [
       {

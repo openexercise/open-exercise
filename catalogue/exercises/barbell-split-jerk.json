@@ -248,7 +248,7 @@
     "position": "standing",
     "range": "full",
     "stance": {
-      "kind": "parallel"
+      "kind": "split"
     }
   },
   "status": "active",

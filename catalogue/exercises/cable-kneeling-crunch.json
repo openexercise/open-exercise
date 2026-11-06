@@ -167,7 +167,6 @@
       }
     ],
     "records": {
-      "e1rm": true,
       "volume": true
     },
     "reps_counted": "total"
@@ -221,7 +220,6 @@
     "grip": {
       "orientation": "neutral"
     },
-    "load_position": "overhead",
     "position": "kneeling",
     "range": "full"
   },

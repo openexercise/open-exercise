@@ -78,8 +78,7 @@
       "hypertrophy"
     ],
     "movement_patterns": [
-      "horizontal-push",
-      "push"
+      "horizontal-push"
     ],
     "mechanics": "compound",
     "force": "static",

@@ -148,7 +148,7 @@
     }
   },
   "measurement": {
-    "duration_counted": "per-side",
+    "duration_counted": "total",
     "load": {
       "kind": "none"
     },

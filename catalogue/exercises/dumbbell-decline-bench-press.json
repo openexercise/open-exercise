@@ -65,8 +65,7 @@
       "strength"
     ],
     "movement_patterns": [
-      "horizontal-push",
-      "push"
+      "horizontal-push"
     ],
     "mechanics": "compound",
     "force": "push",
@@ -87,8 +86,7 @@
         "dumbbell"
       ],
       [
-        "adjustable-bench",
-        "bench"
+        "adjustable-bench"
       ]
     ]
   },

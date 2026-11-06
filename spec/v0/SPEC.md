@@ -57,7 +57,7 @@ An exercise is a distinct record when it differs in any way that changes how it'
 
 ## 6. Setup
 
-`setup` holds the facets that tell a variation from its siblings: `position`, `incline_degrees`, `grip`, `stance`, `load_position`, `range`. Leave out what the exercise doesn't fix. A name fixes the grip its exercise is conventionally done with, so a curl's grip is `supinated` and a bench press's `pronated`; a variant with another grip is a record of its own ("Hammer Curl", "Reverse-Grip Bench Press"). A name fixes no grip or stance width unless it says one ("Wide-Grip Pull-Up") or the exercise is defined by it ("Diamond Push-Up").
+`setup` holds the facets that tell a variation from its siblings: `position`, `incline_degrees`, `grip`, `stance`, `load_position`, `range`. Leave out what the exercise doesn't fix. A name fixes the grip its exercise is conventionally done with, so a curl's grip is `supinated` and a bench press's `pronated`; a variant with another grip is a record of its own ("Hammer Curl", "Reverse-Grip Bench Press"). A name fixes no grip or stance width unless it says one ("Wide-Grip Pull-Up") or the exercise is defined by it ("Diamond Push-Up"). In the same way, `position`, `range`, `load_position` and the stance's `kind` may describe the standard way the exercise is done, as long as its instructions agree: a calf raise done seated is `seated`. Leave one out where it would contradict the exercise, such as a stance on an exercise done lying down.
 
 ## 7. Anatomy
 

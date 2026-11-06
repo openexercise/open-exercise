@@ -126,7 +126,7 @@
     "steps": [
       "Hinge at the hips and bend the knees simultaneously to descend under control.",
       "Gently lower the bar until it rests fully on the safety pins, maintaining total body tension and your braced position without relaxing.",
-      "Pause for one to two seconds on the pins to eliminate all elastic rebound.",
+      "Pause briefly on the pins to eliminate all elastic rebound.",
       "Drive aggressively through the middle of your feet, extending your hips and knees to return to a fully standing lockout."
     ],
     "breathing": "Inhale deeply and brace your core with the Valsalva maneuver before descending; hold your breath through the pause on the pins and exhale once past the sticking point on the ascent.",
@@ -195,9 +195,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/2"
     },
     "sources": [
       {

@@ -184,9 +184,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/1"
     },
     "sources": [
       {
@@ -227,15 +232,10 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "neutral",
-      "width": "shoulder"
+      "orientation": "neutral"
     },
     "position": "seated",
-    "range": "full",
-    "stance": {
-      "kind": "parallel",
-      "width": "hip"
-    }
+    "range": "full"
   },
   "status": "active",
   "summary": "A vertical pulling exercise performed on a cable pulldown machine using a neutral grip to target the latissimus dorsi and elbow flexors."

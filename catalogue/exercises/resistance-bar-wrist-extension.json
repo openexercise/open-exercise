@@ -101,7 +101,7 @@
       "Allow your wrist to flex downward under control, lowering the end of the bar.",
       "Extend your wrist upward against the resistance of the bar until you reach full extension without lifting your forearm.",
       "Pause briefly at the top contraction.",
-      "Slowly lower the bar back to the starting flexed position over a controlled three-count."
+      "Slowly lower the bar back to the starting flexed position under control."
     ],
     "breathing": "Exhale as you extend the wrist upward; inhale as you slowly lower the resistance bar back down.",
     "cues": [
@@ -128,9 +128,8 @@
   },
   "measurement": {
     "load": {
-      "convention": "total",
-      "implements": 1,
-      "kind": "elastic"
+      "kind": "elastic",
+      "convention": "not-applicable"
     },
     "profiles": [
       {

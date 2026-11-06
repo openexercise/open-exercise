@@ -191,9 +191,6 @@
     }
   ],
   "setup": {
-    "grip": {
-      "orientation": "supinated"
-    },
     "position": "prone"
   },
   "status": "active",

@@ -115,7 +115,7 @@
       },
       {
         "fault": "Letting the band snap the legs back during extension.",
-        "correction": "Actively resist the elastic band tension and maintain a slow two- to three-second eccentric phase."
+        "correction": "Actively resist the elastic band tension and lower slowly under control."
       }
     ],
     "safety": {
@@ -127,9 +127,8 @@
   },
   "measurement": {
     "load": {
-      "convention": "total",
-      "implements": 1,
-      "kind": "elastic"
+      "kind": "elastic",
+      "convention": "not-applicable"
     },
     "profiles": [
       {

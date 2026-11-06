@@ -145,7 +145,7 @@
       },
       {
         "fault": "Letting the cable yank the body back into the starting position without control.",
-        "correction": "Take two to three seconds on the return phase to work the eccentric contraction of the obliques."
+        "correction": "Control the return phase to work the obliques eccentrically."
       },
       {
         "fault": "Excessively twisting through the lower back instead of rotating from the thoracic spine and hips.",
@@ -199,9 +199,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/1"
     },
     "sources": [
       {

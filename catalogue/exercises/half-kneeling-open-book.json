@@ -3,7 +3,7 @@
   "aliases": [
     {
       "text": "Half-Kneeling Thoracic Rotation",
-      "kind": "common"
+      "kind": "legacy"
     },
     {
       "text": "Wall Open Book",
@@ -15,7 +15,7 @@
     },
     {
       "text": "Open Book",
-      "kind": "common"
+      "kind": "legacy"
     }
   ],
   "anatomy": {

@@ -122,7 +122,7 @@
       },
       {
         "fault": "Swinging the leg and relying on momentum rather than controlled muscular effort.",
-        "correction": "Control the tempo, pause briefly at peak contraction, and use a deliberate 2-to-3 second eccentric return."
+        "correction": "Pause briefly at peak contraction and lower the pad slowly under control rather than letting it swing back."
       }
     ],
     "safety": {
@@ -173,9 +173,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/1"
     },
     "sources": [
       {

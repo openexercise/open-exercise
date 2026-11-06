@@ -167,9 +167,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/2"
     },
     "sources": [
       {
@@ -198,5 +203,5 @@
     "range": "full"
   },
   "status": "active",
-  "summary": "An advanced calisthenics exercise where the athlete hangs from an overhead bar and flexes the hips and spine until the toes make contact with the bar."
+  "summary": "A calisthenics exercise where you hang from an overhead bar and flex the hips and spine until the toes touch the bar."
 }

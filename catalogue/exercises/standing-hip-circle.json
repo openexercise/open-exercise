@@ -94,7 +94,7 @@
     "steps": [
       "Shift your hips forward, then sweep them smoothly out to one side, backward, and around to the other side.",
       "Trace continuous, controlled circular motions for the desired number of repetitions.",
-      "Pause, reverse direction, and perform an equal number of circles on the opposite side."
+      "Pause, reverse direction, and perform an equal number of circles the other way."
     ],
     "breathing": "Breathe smoothly and rhythmically without holding your breath throughout the circles.",
     "cues": [
@@ -163,9 +163,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/2"
     },
     "sources": [
       {

@@ -15,11 +15,11 @@
     },
     {
       "text": "Rope Pullover/row",
-      "kind": "common"
+      "kind": "legacy"
     },
     {
       "text": "Cable Pullover Row",
-      "kind": "common"
+      "kind": "legacy"
     }
   ],
   "anatomy": {

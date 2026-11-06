@@ -123,9 +123,8 @@
   "measurement": {
     "duration_counted": "per-side",
     "load": {
-      "convention": "total",
-      "implements": 1,
-      "kind": "elastic"
+      "kind": "elastic",
+      "convention": "not-applicable"
     },
     "profiles": [
       {

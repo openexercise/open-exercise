@@ -171,13 +171,8 @@
     "grip": {
       "orientation": "pronated"
     },
-    "load_position": "at-sides",
     "position": "seated",
-    "range": "full",
-    "stance": {
-      "kind": "parallel",
-      "width": "hip"
-    }
+    "range": "full"
   },
   "status": "active",
   "summary": "An isolation exercise that targets the forearm extensors by extending the wrists with an overhand grip while the forearms rest on a bench or thighs."

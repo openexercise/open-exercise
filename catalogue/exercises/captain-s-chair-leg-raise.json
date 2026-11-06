@@ -19,7 +19,7 @@
     },
     {
       "text": "Leg Raises, Standing",
-      "kind": "common"
+      "kind": "legacy"
     }
   ],
   "anatomy": {
@@ -108,7 +108,6 @@
     ],
     "required": [
       [
-        "roman-chair",
         "dip-station"
       ]
     ]

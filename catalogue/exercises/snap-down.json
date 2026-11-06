@@ -111,7 +111,7 @@
       "Initiate the movement by rapidly pulling your hips back and down into a universal athletic position.",
       "Aggressively throw your arms down and back past your hips.",
       "Land flat-footed with knees softly bent, chest forward over toes, and spine neutral.",
-      "Stick the landing instantly and freeze for one to two seconds with zero unwanted movement or readjustment.",
+      "Stick the landing instantly and hold it briefly with no unwanted movement or readjustment.",
       "Reset to the tall standing position before starting the next repetition."
     ],
     "breathing": "Inhale as you reach overhead, and exhale sharply as you snap down into the athletic stance.",
@@ -175,9 +175,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/1"
     },
     "sources": [
       {

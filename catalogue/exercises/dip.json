@@ -15,7 +15,7 @@
     },
     {
       "text": "Triceps Dip",
-      "kind": "common"
+      "kind": "legacy"
     },
     {
       "text": "Weighted Dips",
@@ -110,8 +110,7 @@
     ],
     "required": [
       [
-        "dip-station",
-        "parallettes"
+        "dip-station"
       ]
     ]
   },

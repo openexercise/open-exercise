@@ -127,7 +127,7 @@
       },
       {
         "fault": "Dropping uncontrolled to the floor without resisting eccentrically.",
-        "correction": "Slow the descent deliberately and use a resistance band around your chest if you cannot maintain tension for at least two to three seconds."
+        "correction": "Slow the descent deliberately, and use a resistance band around your chest for assistance if you cannot control the lowering."
       }
     ],
     "safety": {
@@ -176,9 +176,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/1"
     },
     "sources": [
       {

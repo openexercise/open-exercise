@@ -194,9 +194,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/2"
     },
     "sources": [
       {
@@ -219,16 +224,11 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "supinated",
-      "width": "shoulder"
+      "orientation": "supinated"
     },
     "load_position": "chest",
     "position": "supine",
-    "range": "full",
-    "stance": {
-      "kind": "parallel",
-      "width": "shoulder"
-    }
+    "range": "full"
   },
   "status": "active",
   "summary": "A flat bench press variation performed with a supinated grip to place greater emphasis on the upper chest and triceps."

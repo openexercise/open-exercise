@@ -133,7 +133,7 @@
       },
       {
         "fault": "Rushing through the eccentric phase",
-        "correction": "Lower the dumbbell smoothly over two to three seconds to maintain constant muscular tension."
+        "correction": "Lower the dumbbell slowly and smoothly to maintain constant muscular tension."
       }
     ],
     "safety": {
@@ -161,7 +161,6 @@
       }
     ],
     "records": {
-      "e1rm": true,
       "volume": true
     },
     "reps_counted": "per-side"

@@ -136,7 +136,7 @@
       "Hinge slightly at the hip and load your support leg like a compressed spring.",
       "Explosively push off the floor laterally, driving sideways across your body using your hip and lower leg.",
       "Land softly on the opposite foot, absorbing the impact by bending through the ankle, knee, and hip in a controlled quarter-squat.",
-      "Pause for one to two seconds to establish complete balance and stability before repeating the bound back in the opposite direction."
+      "Stick the landing and pause briefly until you are fully balanced before bounding back in the opposite direction."
     ],
     "breathing": "Inhale as you load the stance leg, exhale forcefully during the lateral drive, and breathe steadily while stabilizing the landing.",
     "cues": [
@@ -156,7 +156,7 @@
       },
       {
         "fault": "Rushing immediately into the next jump without stabilizing.",
-        "correction": "Hold the landing for a distinct one- to two-second pause to develop deceleration mechanics before bounding again."
+        "correction": "Stick the landing and pause briefly until you are balanced to develop deceleration control before bounding again."
       }
     ],
     "safety": {
@@ -202,9 +202,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/1"
     },
     "sources": [
       {

@@ -102,10 +102,10 @@
       "Gently drag your heels downward on the wall without moving them to feel your hamstrings engage, letting your tailbone curl slightly off the floor while keeping your lower back flat on the mat."
     ],
     "steps": [
-      "Inhale deeply through your nose for a count of three to four seconds, directing air into your upper back and sides of your rib cage.",
-      "Exhale fully through your mouth for a count of six to eight seconds, feeling your ribs depress and sink down toward your pelvis.",
-      "Pause and hold your breath out for two to three seconds while maintaining abdominal engagement.",
-      "Inhale again through your nose while keeping the ribs anchored down, repeating for the desired number of breath cycles."
+      "Inhale slowly through your nose, directing air into your upper back and the sides of your rib cage.",
+      "Exhale fully through your mouth, feeling your ribs depress and sink down toward your pelvis.",
+      "Pause briefly with the air out while keeping your abdominals engaged.",
+      "Inhale again through your nose while keeping the ribs anchored down, and repeat for the desired number of breath cycles."
     ],
     "breathing": "Inhale quietly through your nose into the back of your ribs, then perform a slow, complete, fogging exhale through your mouth to fully empty the lungs.",
     "cues": [
@@ -171,9 +171,14 @@
     ],
     "license": "CC-BY-SA-4.0",
     "review": {
-      "status": "machine-generated",
+      "status": "machine-verified",
       "model": "gemini-3.8-flash",
-      "at": "2026-10-31"
+      "models": [
+        "claude-opus-5-5",
+        "gemini-3.8-flash"
+      ],
+      "at": "2026-11-06",
+      "by": "oes-verify/2"
     },
     "sources": [
       {

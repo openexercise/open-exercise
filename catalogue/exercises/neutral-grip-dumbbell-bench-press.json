@@ -200,15 +200,13 @@
   ],
   "setup": {
     "grip": {
-      "orientation": "neutral",
-      "width": "shoulder"
+      "orientation": "neutral"
     },
     "load_position": "chest",
     "position": "supine",
     "range": "full",
     "stance": {
-      "kind": "parallel",
-      "width": "shoulder"
+      "kind": "parallel"
     }
   },
   "status": "active",
