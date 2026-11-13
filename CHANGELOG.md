@@ -8,6 +8,22 @@ so when it does. Records are never deleted and IDs never reused; a rename adds t
 Each entry lists what a consumer has to act on: records added, renamed, retired or replaced, alias
 changes that change what matches, and format changes.
 
+## Still to do
+
+Known gaps and deferred work, removed when it ships (and recorded under Unreleased).
+
+- **Person review of 307 records** the verification pipeline handed on: 68 with questions from the
+  fix pass and 239 with issues from the check (`catalogue/verification/batch-2.json`).
+- **No record is `community-reviewed` or `expert-reviewed` yet:** 382 are still
+  `machine-generated` and 17 `unreviewed`. Review in the order Lifterclub users log them
+  (`catalogue/REVIEW.md` §5).
+- **No qualified expert reviewers** are listed in [GOVERNANCE.md](GOVERNANCE.md), so nothing can be
+  `expert-reviewed` yet (`catalogue/REVIEW.md` §5).
+- **`review.scope`** (what an expert checked) waits until an expert reviews (`catalogue/REVIEW.md`,
+  decisions on section 5).
+- **v1:** freeze the format and set up the RFC process for breaking changes after it
+  ([GOVERNANCE.md](GOVERNANCE.md), Versions).
+
 ## Unreleased
 
 ## v0.5.0 (2026-11-06)
