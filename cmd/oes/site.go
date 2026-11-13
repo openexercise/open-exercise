@@ -191,6 +191,7 @@ var repoLinks = strings.NewReplacer(
 	`href="CHANGELOG.md"`, `href="/changelog/"`,
 	`href="GUIDE.md"`, `href="/guide/"`,
 	`href="CONTRIBUTING.md"`, `href="https://github.com/openexercise/open-exercise/blob/main/CONTRIBUTING.md"`,
+	`href="docs/developer-guide.md"`, `href="https://github.com/openexercise/open-exercise/blob/main/docs/developer-guide.md"`,
 )
 
 func renderMarkdown(path string) (template.HTML, error) {

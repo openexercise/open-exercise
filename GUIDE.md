@@ -1,7 +1,10 @@
 # Using the catalogue
 
 For apps that store, match or show Open Exercise IDs. The [specification](spec/v0/SPEC.md) says what
-a record means; this says how to use the catalogue well.
+a record means; this says how to use the catalogue well. The
+[developer guide](docs/developer-guide.md) covers the rest of building on the schema: getting the
+files, each field with real examples, units, vocabularies, validating your own records, and
+licences.
 
 ## Pin a release
 
