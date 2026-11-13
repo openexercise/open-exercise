@@ -26,6 +26,14 @@ Known gaps and deferred work, removed when it ships (and recorded under Unreleas
 
 ## Unreleased
 
+- **Guides (additions):** a [developer guide](docs/developer-guide.md) for apps building on the
+  schema: getting a release, every field with examples from the catalogue, units and what a load
+  number means, vocabularies, validating your own records and `x-` extensions with `oes validate`,
+  loading a new release (with a `jq` release diff), licences and versioning. CONTRIBUTING.md now
+  covers setup, the repository layout, a worked correction, adding, renaming and retiring records,
+  sources, format changes, the checks CI runs, and commit and changelog conventions. No record or
+  format changes.
+
 ## v0.5.0 (2026-11-06)
 
 Verification across the catalogue. 418 records are now `machine-verified`, 382 still
