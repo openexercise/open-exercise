@@ -30,6 +30,8 @@ Open an issue with real records it would improve. New vocabulary terms are addit
 
 ## Releasing
 
+Every pull request a consumer would notice adds an entry under `Unreleased` in [CHANGELOG.md](CHANGELOG.md), and keeps its `Still to do` list current: add what you leave undone, remove what ships.
+
 Maintainers cut a release when records or the format have changed enough for apps to take:
 
 1. Move the `Unreleased` entries in [CHANGELOG.md](CHANGELOG.md) under a new `## vX.Y.Z (date)`
