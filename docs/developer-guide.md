@@ -569,32 +569,30 @@ go run ./cmd/oes validate ~/acme/exercises
 term is in its vocabulary (or `x-`), a profile that records `load` has a `measurement.load`, an
 `external` load has a real convention, `per-implement` has `implements` of 2 or more, `e1rm` only
 with external load, no muscle listed twice or with its parent, `provenance.generated` pointers
-that resolve, and review statuses with their `by`, `at` and `models`. Then it checks the files of
-each directory as one catalogue: unique IDs, relation and `replaced_by` targets that exist, no
-`replaced_by` loops, and no ID that's both current and another record's previous ID.
+that resolve, and review statuses with their `by`, `at` and `models`. Then it checks your records
+with the catalogue: unique IDs, relation and `replaced_by` targets that exist (yours or the
+catalogue's), no `replaced_by` loops, and no ID that's both current and another record's previous
+ID. A record of yours with the same ID as a catalogue record stands in for it, so one edited
+catalogue file can be checked alone too.
 
-Because of that last step, a record that relates to an `oec:` record fails on its own (path
-shortened):
-
-```
-/Users/me/acme/exercises: acme:half-kneeling-landmine-press: relation target oec:landmine-press doesn't exist
-1 documents, 1 problems
-validation failed
-```
-
-Validate your records together with the catalogue instead. Copy both into one directory, yours
-last, and check the file names don't collide (here `landmine-press.json` would have overwritten
-the catalogue's own):
+The catalogue it checks with is this checkout's `catalogue/exercises`. To check against the release
+you've pinned instead, give its `catalogue.json` (or a directory of records) with `-catalogue`,
+before the paths:
 
 ```bash
-mkdir /tmp/oes-check
-cp catalogue/exercises/*.json /tmp/oes-check/
-cp ~/acme/exercises/*.json /tmp/oes-check/
-go run ./cmd/oes validate /tmp/oes-check
+go run ./cmd/oes validate -catalogue ~/Downloads/catalogue.json ~/acme/exercises
 ```
 
 ```
-818 documents, 0 problems
+1 documents, 0 problems
+```
+
+A target that's in neither yours nor the catalogue is reported (path shortened):
+
+```
+/Users/me/acme/exercises: acme:half-kneeling-landmine-press: relation target oec:landmine-pres doesn't exist
+1 documents, 1 problems
+validation failed
 ```
 
 What failures look like (paths shortened):

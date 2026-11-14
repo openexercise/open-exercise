@@ -139,3 +139,40 @@ func TestVocabularyParentsExist(t *testing.T) {
 		}
 	}
 }
+
+// CheckAgainst checks some records with the catalogue they belong with: targets may be catalogue
+// records, a checked record stands in for the catalogue's with its ID, and only problems with the
+// checked records are reported.
+func TestCheckAgainst(t *testing.T) {
+	known := []Exercise{
+		{ID: "oec:a"},
+		{ID: "oec:b", PreviousIDs: []string{"oec:old-b"}},
+		{ID: "oec:broken", Relations: []Relation{{Type: "variation-of", Target: "oec:missing"}}},
+	}
+	tests := []struct {
+		name    string
+		checked []Exercise
+		want    []string
+	}{
+		{"own record relating to the catalogue", []Exercise{{ID: "acme:x", Relations: []Relation{{Type: "variation-of", Target: "oec:a"}}}}, nil},
+		{"a catalogue record checked alone, edited", []Exercise{{ID: "oec:b", PreviousIDs: []string{"oec:old-b"}, ReplacedBy: "oec:a"}}, nil},
+		{"a missing target", []Exercise{{ID: "acme:x", Relations: []Relation{{Type: "variation-of", Target: "oec:nope"}}}},
+			[]string{"acme:x: relation target oec:nope doesn't exist"}},
+		{"a missing replaced_by", []Exercise{{ID: "acme:x", ReplacedBy: "oec:nope"}}, []string{"acme:x: replaced_by oec:nope doesn't exist"}},
+		{"a previous id that's a catalogue id", []Exercise{{ID: "acme:x", PreviousIDs: []string{"oec:a"}}},
+			[]string{"acme:x lists previous id oec:a, which is a current id"}},
+		{"a previous id the catalogue claims", []Exercise{{ID: "acme:x", PreviousIDs: []string{"oec:old-b"}}},
+			[]string{"previous id oec:old-b is claimed by oec:b and acme:x"}},
+		{"an id the catalogue lists as previous", []Exercise{{ID: "oec:old-b"}}, []string{"oec:old-b is a previous id of oec:b"}},
+		{"a loop through the catalogue", []Exercise{{ID: "oec:a", ReplacedBy: "oec:c"}, {ID: "oec:c", ReplacedBy: "oec:a"}},
+			[]string{"oec:a: replaced_by loops back through oec:a", "oec:c: replaced_by loops back through oec:c"}},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			got := CheckAgainst(tt.checked, known)
+			if strings.Join(got, "\n") != strings.Join(tt.want, "\n") {
+				t.Errorf("got %q, want %q", got, tt.want)
+			}
+		})
+	}
+}

@@ -26,6 +26,10 @@ Known gaps and deferred work, removed when it ships (and recorded under Unreleas
 
 ## Unreleased
 
+- **`oes validate` checks a single file:** records outside the catalogue (one edited catalogue file,
+  your own records, the examples) are checked with the catalogue, so a relation or `replaced_by`
+  pointing at an `oec:` record resolves instead of failing as missing. `-catalogue PATH` checks
+  against a release's `catalogue.json` or another directory instead of the checkout's.
 - **`enrich merge` refuses to discard edits:** it works out every record first and writes nothing
   when that would change or remove a record in `catalogue/exercises`, since records are edited by
   hand now. `-out DIR` writes the rebuild elsewhere to compare; `-force` overwrites as before.

@@ -6,6 +6,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"maps"
 	"os"
 	"path/filepath"
 	"slices"
@@ -233,44 +234,68 @@ func pointerResolves(doc any, pointer string) bool {
 // CheckCatalogue checks rules across records: unique IDs, and relation targets and
 // replaced_by that exist, with no replaced_by loop. An ID may not be another record's previous ID.
 func CheckCatalogue(all []Exercise) []string {
+	return CheckAgainst(all, nil)
+}
+
+// CheckAgainst checks the same rules for some records alongside a catalogue they belong with:
+// a relation target or replaced_by may be a catalogue record, and previous IDs may not clash with
+// one. A checked record replaces the catalogue's record with the same ID, so a file from the
+// catalogue can be checked on its own after an edit. Only problems with the checked records are
+// reported.
+func CheckAgainst(checked, known []Exercise) []string {
 	var out []string
-	ids := make(map[string]bool, len(all))
-	for _, e := range all {
+	ids := make(map[string]bool, len(checked))
+	for _, e := range checked {
 		if ids[e.ID] {
 			out = append(out, "duplicate id "+e.ID)
 		}
 		ids[e.ID] = true
 	}
-	previous := map[string]string{}
-	for _, e := range all {
+	// Every record, the checked ones in place of the catalogue's with the same ID.
+	byID := make(map[string]Exercise, len(known)+len(checked))
+	for _, e := range known {
+		byID[e.ID] = e
+	}
+	for _, e := range checked {
+		byID[e.ID] = e
+	}
+	claimed := map[string][]string{} // previous ID -> the records listing it
+	for _, id := range slices.Sorted(maps.Keys(byID)) {
+		for _, p := range byID[id].PreviousIDs {
+			claimed[p] = append(claimed[p], id)
+		}
+	}
+	for _, e := range checked {
 		for _, p := range e.PreviousIDs {
-			if ids[p] && p != e.ID {
+			if _, current := byID[p]; current && p != e.ID {
 				out = append(out, fmt.Sprintf("%s lists previous id %s, which is a current id", e.ID, p))
 			}
-			if other, ok := previous[p]; ok && other != e.ID {
-				out = append(out, fmt.Sprintf("previous id %s is claimed by %s and %s", p, other, e.ID))
+			for _, other := range claimed[p] {
+				// A pair of checked records is reported once.
+				if other != e.ID && (!ids[other] || other < e.ID) {
+					out = append(out, fmt.Sprintf("previous id %s is claimed by %s and %s", p, other, e.ID))
+					break
+				}
 			}
-			previous[p] = e.ID
+		}
+		for _, other := range claimed[e.ID] {
+			if other != e.ID && !ids[other] {
+				out = append(out, fmt.Sprintf("%s is a previous id of %s", e.ID, other))
+			}
 		}
 		for _, r := range e.Relations {
-			if !ids[r.Target] {
+			if _, ok := byID[r.Target]; !ok {
 				out = append(out, fmt.Sprintf("%s: relation target %s doesn't exist", e.ID, r.Target))
 			}
 		}
-		if e.ReplacedBy != "" && !ids[e.ReplacedBy] {
+		if _, ok := byID[e.ReplacedBy]; e.ReplacedBy != "" && !ok {
 			out = append(out, fmt.Sprintf("%s: replaced_by %s doesn't exist", e.ID, e.ReplacedBy))
 		}
 	}
 	// A replaced_by chain ends: a consumer follows it to the record to use.
-	next := map[string]string{}
-	for _, e := range all {
-		if e.ReplacedBy != "" {
-			next[e.ID] = e.ReplacedBy
-		}
-	}
-	for _, e := range all {
+	for _, e := range checked {
 		seen := map[string]bool{e.ID: true}
-		for at := next[e.ID]; at != ""; at = next[at] {
+		for at := byID[e.ID].ReplacedBy; at != ""; at = byID[at].ReplacedBy {
 			if seen[at] {
 				out = append(out, fmt.Sprintf("%s: replaced_by loops back through %s", e.ID, at))
 				break

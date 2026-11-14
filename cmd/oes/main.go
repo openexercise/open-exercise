@@ -43,7 +43,8 @@ func main() {
 }
 
 const usage = `usage:
-  oes validate [path...]                         check records against the schema and the catalogue rules
+  oes validate [-catalogue PATH] [path...]       check records against the schema and the catalogue rules;
+                                                 records outside the catalogue are checked with it
   oes review --by NAME [--level L] [--at DATE] [--checked] <id>...
                                                  mark catalogue records as reviewed by a person
   oes site [outdir]                              build the website (dist/ by default)`
@@ -92,11 +93,23 @@ func review(args []string) error {
 	return nil
 }
 
-func validate(paths []string) error {
+const catalogueDir = "catalogue/exercises"
+
+func validate(args []string) error {
+	flags := flag.NewFlagSet("validate", flag.ContinueOnError)
+	against := flags.String("catalogue", "", "the catalogue other records are checked with: a directory of records or a release's catalogue.json (default catalogue/exercises, when there is one)")
+	if err := flags.Parse(args); err != nil {
+		return err
+	}
+	paths := flags.Args()
 	if len(paths) == 0 {
-		paths = []string{"examples", "catalogue/exercises"}
+		paths = []string{"examples", catalogueDir}
 	}
 	v, err := oes.NewValidator(".")
+	if err != nil {
+		return err
+	}
+	known, err := readCatalogue(*against)
 	if err != nil {
 		return err
 	}
@@ -125,10 +138,13 @@ func validate(paths []string) error {
 		if err != nil {
 			return err
 		}
-		if root == "examples" {
-			continue // examples point at catalogue exercises they don't include
+		var found []string
+		if isCatalogue(root) && *against == "" {
+			found = oes.CheckCatalogue(all) // the whole catalogue, checked by itself
+		} else {
+			found = oes.CheckAgainst(all, known)
 		}
-		for _, p := range oes.CheckCatalogue(all) {
+		for _, p := range found {
 			problems++
 			fmt.Printf("%s: %s\n", root, p)
 		}
@@ -138,4 +154,53 @@ func validate(paths []string) error {
 		return fmt.Errorf("validation failed")
 	}
 	return nil
+}
+
+// isCatalogue says a path is the catalogue directory itself.
+func isCatalogue(path string) bool {
+	return filepath.Clean(path) == filepath.Clean(catalogueDir)
+}
+
+// readCatalogue reads the records other files are checked with: a directory of records, a
+// release's catalogue.json (an array of records), or by default this checkout's catalogue. No
+// catalogue is no records: relations then can't resolve, and validate says so.
+func readCatalogue(path string) ([]oes.Exercise, error) {
+	if path == "" {
+		if _, err := os.Stat(catalogueDir); err != nil {
+			return nil, nil
+		}
+		path = catalogueDir
+	}
+	info, err := os.Stat(path)
+	if err != nil {
+		return nil, fmt.Errorf("catalogue: %w", err)
+	}
+	if !info.IsDir() {
+		data, err := os.ReadFile(path)
+		if err != nil {
+			return nil, fmt.Errorf("catalogue: %w", err)
+		}
+		var all []oes.Exercise
+		if err := json.Unmarshal(data, &all); err != nil {
+			return nil, fmt.Errorf("catalogue %s: want an array of records: %w", path, err)
+		}
+		return all, nil
+	}
+	var all []oes.Exercise
+	err = filepath.WalkDir(path, func(p string, d fs.DirEntry, err error) error {
+		if err != nil || d.IsDir() || !strings.HasSuffix(p, ".json") {
+			return err
+		}
+		data, err := os.ReadFile(p)
+		if err != nil {
+			return err
+		}
+		var e oes.Exercise
+		if err := json.Unmarshal(data, &e); err != nil {
+			return fmt.Errorf("catalogue %s: %w", p, err)
+		}
+		all = append(all, e)
+		return nil
+	})
+	return all, err
 }

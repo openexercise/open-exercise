@@ -50,7 +50,8 @@ site: 821 pages for 806 exercises in dist
 ```
 
 `validate` checks the examples and the catalogue against the schema, the vocabularies and the
-cross-record rules. `site` builds the website into `dist/`, which git ignores; open
+cross-record rules. Given paths, it checks just those, with the catalogue: `go run ./cmd/oes
+validate catalogue/exercises/plank.json` checks one edited record, its relations included. `site` builds the website into `dist/`, which git ignores; open
 `dist/index.html` or serve the folder to look at it.
 
 ## What's where
