@@ -41,6 +41,12 @@ Known gaps and deferred work, removed when it ships (and recorded under Unreleas
   sources, format changes, the checks CI runs, and commit and changelog conventions. No record or
   format changes.
 
+- **The developer guide is on openexercise.org** at [/developers/](https://openexercise.org/developers/),
+  linked from the navigation and the home page. Links between the site's documents now go to site
+  pages, with working section anchors (headings get IDs); links to repository files the site
+  doesn't show (CONTRIBUTING.md, GOVERNANCE.md, licences) go to GitHub. A test builds the site and
+  fails on any link to a Markdown file or to a page, file or anchor the build lacks.
+
 ## v0.5.0 (2026-11-06)
 
 Verification across the catalogue. 418 records are now `machine-verified`, 382 still
