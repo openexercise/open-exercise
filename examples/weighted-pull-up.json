@@ -1,6 +1,6 @@
 {
   "$schema": "https://openexercise.org/schema/v0/exercise.json",
-  "id": "oec:weighted-pull-up",
+  "id": "acme:weighted-pull-up",
   "name": "Weighted Pull-Up",
   "summary": "A pull-up with added weight, recorded as the weight added.",
   "classification": {

@@ -26,6 +26,10 @@ Known gaps and deferred work, removed when it ships (and recorded under Unreleas
 
 ## Unreleased
 
+- **Examples keep `oec:` for the catalogue:** the four examples that aren't catalogue records
+  (`assisted-dip`, `kettlebell-single-arm-swing`, `outdoor-run`, `weighted-pull-up`) move to the
+  `acme:` namespace, since `oec:` is reserved for the catalogue (SPEC section 3). They now show an
+  app's own records, related to the catalogue's.
 - **`oes validate` checks a single file:** records outside the catalogue (one edited catalogue file,
   your own records, the examples) are checked with the catalogue, so a relation or `replaced_by`
   pointing at an `oec:` record resolves instead of failing as missing. `-catalogue PATH` checks
