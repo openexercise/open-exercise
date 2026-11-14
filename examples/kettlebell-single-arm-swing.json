@@ -1,6 +1,6 @@
 {
   "$schema": "https://openexercise.org/schema/v0/exercise.json",
-  "id": "oec:kettlebell-single-arm-swing",
+  "id": "acme:kettlebell-single-arm-swing",
   "name": "Kettlebell Single-Arm Swing",
   "summary": "A hip-driven swing of a kettlebell in one hand.",
   "classification": {
