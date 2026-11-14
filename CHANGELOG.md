@@ -26,6 +26,9 @@ Known gaps and deferred work, removed when it ships (and recorded under Unreleas
 
 ## Unreleased
 
+- **`enrich merge` refuses to discard edits:** it works out every record first and writes nothing
+  when that would change or remove a record in `catalogue/exercises`, since records are edited by
+  hand now. `-out DIR` writes the rebuild elsewhere to compare; `-force` overwrites as before.
 - **Guides (additions):** a [developer guide](docs/developer-guide.md) for apps building on the
   schema: getting a release, every field with examples from the catalogue, units and what a load
   number means, vocabularies, validating your own records and `x-` extensions with `oes validate`,

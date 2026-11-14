@@ -1,10 +1,15 @@
 package main
 
 import (
+	"bytes"
 	"cmp"
 	"context"
 	"encoding/json"
+	"errors"
+	"flag"
 	"fmt"
+	"io/fs"
+	"maps"
 	"os"
 	"path/filepath"
 	"regexp"
@@ -213,60 +218,136 @@ func mergeAliases(g *group) []oes.Alias {
 	return out
 }
 
-func merge() error {
+const catalogueDir = "catalogue/exercises"
+
+// merge rebuilds every record from the snapshot, the model's answers and the relations. It works
+// out each file first and writes only when that loses nothing: a record changed or removed since the
+// last merge is a person's edit (a review, a correction), and merging would discard it.
+func merge(args []string) error {
+	flags := flag.NewFlagSet("merge", flag.ContinueOnError)
+	out := flags.String("out", "", "write the records and REPORT.md under this directory instead of the catalogue, to compare")
+	force := flags.Bool("force", false, "overwrite catalogue/exercises even though that discards edits made since the last merge")
+	if err := flags.Parse(args); err != nil {
+		return err
+	}
 	exercises, err := loadSnapshot()
 	if err != nil {
 		return err
 	}
-	groups, rejected, err := buildGroups(exercises)
+	files, report, groups, rejected, err := build(exercises)
 	if err != nil {
 		return err
 	}
+	dir, reportPath := catalogueDir, "catalogue/REPORT.md"
+	if *out != "" {
+		dir, reportPath = filepath.Join(*out, "exercises"), filepath.Join(*out, "REPORT.md")
+	} else if !*force {
+		lost, err := discarded(catalogueDir, files)
+		if err != nil {
+			return err
+		}
+		if len(lost) > 0 {
+			return fmt.Errorf("merge would discard edits to %d record(s) in %s (%s); nothing was written.\n"+
+				"Records are edited by hand now, so merge no longer owns them. To see what it would make,\n"+
+				"run it with -out DIR and diff. To overwrite anyway, pass -force", len(lost), catalogueDir, sample(lost))
+		}
+	}
+	if err := os.RemoveAll(dir); err != nil {
+		return fmt.Errorf("clear %s: %w", dir, err)
+	}
+	if err := os.MkdirAll(dir, 0o755); err != nil {
+		return fmt.Errorf("create %s: %w", dir, err)
+	}
+	for _, name := range slices.Sorted(maps.Keys(files)) {
+		if err := os.WriteFile(filepath.Join(dir, name), files[name], 0o644); err != nil {
+			return fmt.Errorf("write %s: %w", name, err)
+		}
+	}
+	if err := os.WriteFile(reportPath, report, 0o644); err != nil {
+		return fmt.Errorf("write report: %w", err)
+	}
+	fmt.Printf("%d source records, %d exercises, %d set aside, written to %s\n", len(exercises), groups, rejected, dir)
+	return nil
+}
+
+// build works out every record file, by name, and the report, without writing anything.
+func build(exercises []wger) (files map[string][]byte, report []byte, groups, rejected int, err error) {
+	gs, rej, err := buildGroups(exercises)
+	if err != nil {
+		return nil, nil, 0, 0, err
+	}
 	vocabs, err := oes.LoadVocabularies(".")
 	if err != nil {
-		return err
+		return nil, nil, 0, 0, err
 	}
 	muscleParents := map[string]string{}
 	for _, t := range vocabs["muscles"].Terms {
 		muscleParents[t.ID] = t.Parent
 	}
 	current := map[string]bool{}
-	for _, g := range groups {
+	for _, g := range gs {
 		current[g.id] = true
 	}
-	dir := "catalogue/exercises"
-	if err := os.RemoveAll(dir); err != nil {
-		return fmt.Errorf("clear catalogue: %w", err)
-	}
-	if err := os.MkdirAll(dir, 0o755); err != nil {
-		return fmt.Errorf("create catalogue: %w", err)
-	}
-	var report strings.Builder
-	report.WriteString("# Enrichment report\n\nWhat merging did to the wger snapshot. Every line here needs a person's eye.\n\n## Merged because they got the same canonical name\n\n")
-	for _, g := range groups {
-		if err := writeRecord(dir, g, current, muscleParents); err != nil {
-			return err
+	files = map[string][]byte{}
+	var b strings.Builder
+	b.WriteString("# Enrichment report\n\nWhat merging did to the wger snapshot. Every line here needs a person's eye.\n\n## Merged because they got the same canonical name\n\n")
+	for _, g := range gs {
+		name, data, err := recordFile(g, current, muscleParents)
+		if err != nil {
+			return nil, nil, 0, 0, err
 		}
+		files[name] = data
 		if len(g.members) > 1 {
 			names := []string{}
 			for _, m := range g.members {
 				names = append(names, m.Name)
 			}
-			fmt.Fprintf(&report, "- `%s`: %s\n", g.id, strings.Join(names, "; "))
+			fmt.Fprintf(&b, "- `%s`: %s\n", g.id, strings.Join(names, "; "))
 		}
 	}
-	report.WriteString("\n## Set aside as not being exercises\n\n")
-	for _, e := range rejected {
-		fmt.Fprintf(&report, "- %s (wger %d, was `%s`)\n", e.Name, e.ID, e.LegacyID)
-		if err := writeRejected(dir, e); err != nil {
-			return err
+	b.WriteString("\n## Set aside as not being exercises\n\n")
+	for _, e := range rej {
+		fmt.Fprintf(&b, "- %s (wger %d, was `%s`)\n", e.Name, e.ID, e.LegacyID)
+		name, data, err := rejectedFile(e)
+		if err != nil {
+			return nil, nil, 0, 0, err
+		}
+		files[name] = data
+	}
+	return files, []byte(b.String()), len(gs), len(rej), nil
+}
+
+// discarded lists the records in dir that writing files would change or remove.
+func discarded(dir string, files map[string][]byte) ([]string, error) {
+	entries, err := os.ReadDir(dir)
+	if errors.Is(err, fs.ErrNotExist) {
+		return nil, nil
+	}
+	if err != nil {
+		return nil, fmt.Errorf("read %s: %w", dir, err)
+	}
+	var lost []string
+	for _, e := range entries {
+		if e.IsDir() || !strings.HasSuffix(e.Name(), ".json") {
+			continue
+		}
+		have, err := os.ReadFile(filepath.Join(dir, e.Name()))
+		if err != nil {
+			return nil, err
+		}
+		if want, ok := files[e.Name()]; !ok || !bytes.Equal(have, want) {
+			lost = append(lost, strings.TrimSuffix(e.Name(), ".json"))
 		}
 	}
-	if err := os.WriteFile("catalogue/REPORT.md", []byte(report.String()), 0o644); err != nil {
-		return fmt.Errorf("write report: %w", err)
+	return lost, nil
+}
+
+// sample names a few records, for a message.
+func sample(ids []string) string {
+	if len(ids) <= 3 {
+		return strings.Join(ids, ", ")
 	}
-	fmt.Printf("%d source records, %d exercises, %d set aside\n", len(exercises), len(groups), len(rejected))
-	return nil
+	return fmt.Sprintf("%s and %d more", strings.Join(ids[:3], ", "), len(ids)-3)
 }
 
 func provenanceFor(members []wger) map[string]any {
@@ -291,11 +372,11 @@ func dropParents(muscles []oes.MuscleUse, parents map[string]string) []oes.Muscl
 	return slices.DeleteFunc(slices.Clone(muscles), func(m oes.MuscleUse) bool { return covered[m.Muscle] })
 }
 
-func writeRecord(dir string, g *group, current map[string]bool, muscleParents map[string]string) error {
+func recordFile(g *group, current map[string]bool, muscleParents map[string]string) (string, []byte, error) {
 	var relations []oes.Relation
 	if data, err := os.ReadFile(relationPath(g.id)); err == nil {
 		if err := json.Unmarshal(data, &relations); err != nil {
-			return fmt.Errorf("decode relations of %s: %w", g.id, err)
+			return "", nil, fmt.Errorf("decode relations of %s: %w", g.id, err)
 		}
 	}
 	g.answer.Muscles = dropParents(g.answer.Muscles, muscleParents)
@@ -327,11 +408,11 @@ func writeRecord(dir string, g *group, current map[string]bool, muscleParents ma
 	prov["review"] = oes.Review{Status: "machine-generated", Model: model, At: enrichedOn}
 	prov["generated"] = generated
 	doc["provenance"] = prov
-	return writeDoc(dir, g.id, doc)
+	return encodeDoc(g.id, doc)
 }
 
-// writeRejected keeps a deprecated record, so an old ID still resolves.
-func writeRejected(dir string, e wger) error {
+// rejectedFile keeps a deprecated record, so an old ID still resolves.
+func rejectedFile(e wger) (string, []byte, error) {
 	doc := map[string]any{
 		"$schema": "https://openexercise.org/schema/v0/exercise.json",
 		"id":      e.LegacyID, "name": e.Name, "status": "deprecated",
@@ -339,14 +420,14 @@ func writeRejected(dir string, e wger) error {
 		"external_ids": map[string]string{"wger": strconv.Itoa(e.ID)},
 		"provenance":   provenanceFor([]wger{e}),
 	}
-	return writeDoc(dir, e.LegacyID, doc)
+	return encodeDoc(e.LegacyID, doc)
 }
 
-func writeDoc(dir, id string, doc map[string]any) error {
+// encodeDoc is a record's file name and contents.
+func encodeDoc(id string, doc map[string]any) (string, []byte, error) {
 	data, err := json.MarshalIndent(doc, "", "  ")
 	if err != nil {
-		return fmt.Errorf("encode %s: %w", id, err)
+		return "", nil, fmt.Errorf("encode %s: %w", id, err)
 	}
-	path := filepath.Join(dir, strings.TrimPrefix(id, "oec:")+".json")
-	return os.WriteFile(path, append(data, '\n'), 0o644)
+	return strings.TrimPrefix(id, "oec:") + ".json", append(data, '\n'), nil
 }

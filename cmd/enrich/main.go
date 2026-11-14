@@ -4,7 +4,11 @@
 //
 //	go run ./cmd/enrich generate [-limit N] [-ids 9,31]
 //	go run ./cmd/enrich relate
-//	go run ./cmd/enrich merge
+//	go run ./cmd/enrich merge [-out DIR] [-force]
+//
+// merge rebuilt the catalogue from the snapshot once. Records have been edited by hand since, so it
+// refuses to overwrite catalogue/exercises when that would change or remove any record: write to
+// -out DIR to compare instead, or pass -force to throw the edits away.
 package main
 
 import (
@@ -62,7 +66,7 @@ func main() {
 	case "relate":
 		err = relate(ctx)
 	case "merge":
-		err = merge()
+		err = merge(os.Args[2:])
 	default:
 		err = fmt.Errorf("unknown command %q", os.Args[1])
 	}

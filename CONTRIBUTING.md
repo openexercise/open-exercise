@@ -85,9 +85,11 @@ then every change has been made to the files in `catalogue/exercises` directly: 
 [REVIEW.md](catalogue/REVIEW.md) decisions, new records, and the verification batches
 (`cmd/verify`).
 
-So **edit `catalogue/exercises/<slug>.json` directly**, and **don't run `enrich merge`**: it
-deletes `catalogue/exercises` and rebuilds it from the October snapshot, which throws away every
-later fix, every verification and six records.
+So **edit `catalogue/exercises/<slug>.json` directly**. `enrich merge` rebuilds the catalogue from
+the October snapshot, which would throw away every later fix, every verification and six records,
+so it refuses to write over `catalogue/exercises` when any record would change or go. `-out DIR`
+writes its rebuild somewhere else to compare; only `-force` overwrites, and a pull request made
+that way won't be merged.
 
 ## Correct a record
 
