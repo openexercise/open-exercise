@@ -9,12 +9,15 @@ import (
 	"html/template"
 	"io/fs"
 	"os"
+	"path"
 	"path/filepath"
+	"regexp"
 	"slices"
 	"strings"
 
 	"github.com/yuin/goldmark"
 	"github.com/yuin/goldmark/extension"
+	"github.com/yuin/goldmark/parser"
 
 	"github.com/openexercise/open-exercise/internal/oes"
 )
@@ -114,23 +117,13 @@ func buildSite(root, out string) error {
 	if err := render("", "home.html", page{Title: "Open Exercise", Description: "An open standard for describing exercises, and a public catalogue in that format.", Count: len(active)}); err != nil {
 		return err
 	}
-	spec, err := renderMarkdown(filepath.Join(root, "spec", "v0", "SPEC.md"))
-	if err != nil {
-		return err
-	}
-	if err := render("spec", "doc.html", page{Title: "Specification", Description: "The Open Exercise Schema, version 0 draft.", HTML: spec}); err != nil {
-		return err
-	}
-	// The consumer guide and the changelog, with links between the repository's files made site paths.
-	for _, doc := range []struct{ path, file, title, description string }{
-		{"guide", "GUIDE.md", "Using the catalogue", "Pinning a release, resolving IDs, deprecated and replaced records, alias kinds, normalization and a worked matching example."},
-		{"changelog", "CHANGELOG.md", "Changelog", "What each release of the schema and catalogue changed."},
-	} {
+	// The guides and the changelog, with links between the repository's files made site paths.
+	for _, doc := range docs {
 		html, err := renderMarkdown(filepath.Join(root, doc.file))
 		if err != nil {
 			return err
 		}
-		html = template.HTML(repoLinks.Replace(string(html)))
+		html = template.HTML(rewriteLinks(root, doc.file, string(html)))
 		if err := render(doc.path, "doc.html", page{Title: doc.title, Description: doc.description, HTML: html}); err != nil {
 			return err
 		}
@@ -157,7 +150,7 @@ func buildSite(root, out string) error {
 	if err := writeData(root, out, exercises, raw, active, vocabs); err != nil {
 		return err
 	}
-	fmt.Printf("site: %d pages for %d exercises in %s\n", len(exercises)+4, len(active), out)
+	fmt.Printf("site: %d pages for %d exercises in %s\n", len(exercises)+len(docs)+3, len(active), out)
 	return nil
 }
 
@@ -184,15 +177,56 @@ func loadCatalogue(dir string) ([]oes.Exercise, map[string]string, error) {
 	return exercises, raw, nil
 }
 
-// repoLinks point the guide's and changelog's links at the site, or at the repository for files the
-// site doesn't show.
-var repoLinks = strings.NewReplacer(
-	`href="spec/v0/SPEC.md"`, `href="/spec/"`,
-	`href="CHANGELOG.md"`, `href="/changelog/"`,
-	`href="GUIDE.md"`, `href="/guide/"`,
-	`href="CONTRIBUTING.md"`, `href="https://github.com/openexercise/open-exercise/blob/main/CONTRIBUTING.md"`,
-	`href="docs/developer-guide.md"`, `href="https://github.com/openexercise/open-exercise/blob/main/docs/developer-guide.md"`,
-)
+// docs are the repository's Markdown files the site renders, each at its own path.
+var docs = []struct{ path, file, title, description string }{
+	{"spec", "spec/v0/SPEC.md", "Specification", "The Open Exercise Schema, version 0 draft."},
+	{"guide", "GUIDE.md", "Using the catalogue", "Pinning a release, resolving IDs, deprecated and replaced records, alias kinds, normalization and a worked matching example."},
+	{"developers", "docs/developer-guide.md", "Developer guide", "Building on the schema: getting the data, every field with real examples, units and load meaning, vocabularies, validating your own records, loading new releases, licences and versioning."},
+	{"changelog", "CHANGELOG.md", "Changelog", "What each release of the schema and catalogue changed."},
+}
+
+const repoURL = "https://github.com/openexercise/open-exercise"
+
+var hrefPattern = regexp.MustCompile(`href="([^"]*)"`)
+
+// rewriteLinks points a rendered document's links to other repository files at the site's page for
+// that file, the file the site copies, or the repository on GitHub for files the site doesn't show.
+// file is the document's path from root, which relative links are resolved against.
+func rewriteLinks(root, file, html string) string {
+	return hrefPattern.ReplaceAllStringFunc(html, func(m string) string {
+		href := hrefPattern.FindStringSubmatch(m)[1]
+		return `href="` + siteLink(root, file, href) + `"`
+	})
+}
+
+func siteLink(root, file, href string) string {
+	if href == "" || strings.HasPrefix(href, "#") || strings.HasPrefix(href, "/") || strings.Contains(href, ":") {
+		return href
+	}
+	target, anchor, _ := strings.Cut(href, "#")
+	if anchor != "" {
+		anchor = "#" + anchor
+	}
+	repoPath := path.Clean(path.Join(path.Dir(file), target))
+	for _, d := range docs {
+		if d.file == repoPath {
+			return "/" + d.path + "/" + anchor
+		}
+	}
+	switch {
+	case repoPath == "vocab/v0":
+		return "/vocabulary/" + anchor
+	case strings.HasPrefix(repoPath, "schema/") || strings.HasPrefix(repoPath, "vocab/"):
+		return "/" + repoPath + anchor // writeData copies both directories
+	case strings.HasPrefix(repoPath, "catalogue/exercises/") && strings.HasSuffix(repoPath, ".json"):
+		return "/exercises/" + strings.TrimSuffix(path.Base(repoPath), ".json") + "/" + anchor
+	}
+	kind := "blob"
+	if info, err := os.Stat(filepath.Join(root, filepath.FromSlash(repoPath))); err == nil && info.IsDir() {
+		kind = "tree"
+	}
+	return repoURL + "/" + kind + "/main/" + repoPath + anchor
+}
 
 func renderMarkdown(path string) (template.HTML, error) {
 	data, err := os.ReadFile(path)
@@ -200,7 +234,7 @@ func renderMarkdown(path string) (template.HTML, error) {
 		return "", err
 	}
 	var b bytes.Buffer
-	if err := goldmark.New(goldmark.WithExtensions(extension.Table)).Convert(data, &b); err != nil {
+	if err := goldmark.New(goldmark.WithExtensions(extension.Table), goldmark.WithParserOptions(parser.WithAutoHeadingID())).Convert(data, &b); err != nil {
 		return "", fmt.Errorf("render markdown: %w", err)
 	}
 	return template.HTML(b.String()), nil // our own file in this repository
