@@ -31,7 +31,7 @@ id = namespace ":" slug
 ```
 
 - `oec:` is reserved for the catalogue. Anyone else uses their own namespace (`acme:my-press`). Private, per-user exercises SHOULD use `usr:`, which is meaningful only inside the system that made it.
-- From v1, a published ID never changes meaning and is never reused.
+- A published ID is never reused for another exercise, and its record is never deleted. A rename keeps the old ID in `previous_ids`. Until v1 a record may still be corrected (a narrower definition, a fixed muscle or measurement) or merged into another with `replaced_by`; from v1 an ID's meaning is fixed too.
 - `previous_ids` lists IDs that once meant this exercise. A consumer holding an ID MUST look there if it finds no record with that ID.
 - `status` is `active` (default), `deprecated` (keep resolving; don't offer for new logs) or `replaced` (`replaced_by` is required). Records are retired, never deleted.
 

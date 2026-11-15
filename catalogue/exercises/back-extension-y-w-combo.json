@@ -221,10 +221,6 @@
   },
   "relations": [
     {
-      "type": "variation-of",
-      "target": "oec:back-extension"
-    },
-    {
       "type": "progression-of",
       "target": "oec:back-extension"
     },

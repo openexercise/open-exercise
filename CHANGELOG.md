@@ -26,6 +26,16 @@ Known gaps and deferred work, removed when it ships (and recorded under Unreleas
 
 ## Unreleased
 
+- **IDs (SPEC section 3):** the spec now states the promise the catalogue already keeps: a
+  published ID is never reused and its record never deleted (a rename keeps the old ID in
+  `previous_ids`); until v1 a record may still be corrected or replaced, and from v1 its meaning is
+  fixed too. It used to promise stable IDs only from v1.
+- **The site lists what to log now:** the catalogue page and `catalogue/index.json` leave out
+  `replaced` records as well as `deprecated` ones (762 listed); a replaced record's page says what
+  replaced it, with a link. `catalogue.json` still holds every record, so old IDs resolve.
+- **Catalogue notes:** `REPORT.md` says it's the first import's report and that REVIEW.md's 11
+  fixes came after; REVIEW.md's "815 records" is the count when it was written;
+  `oec:back-extension-y-w-combo` relates to `oec:back-extension` once (`progression-of`), not twice.
 - **Examples keep `oec:` for the catalogue:** the four examples that aren't catalogue records
   (`assisted-dip`, `kettlebell-single-arm-swing`, `outdoor-run`, `weighted-pull-up`) move to the
   `acme:` namespace, since `oec:` is reserved for the catalogue (SPEC section 3). They now show an
