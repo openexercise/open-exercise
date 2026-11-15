@@ -113,7 +113,9 @@ func buildSite(root, out string) error {
 		return os.WriteFile(dest, b.Bytes(), 0o644)
 	}
 
-	active := slices.DeleteFunc(slices.Clone(exercises), func(e oes.Exercise) bool { return e.Status == "deprecated" })
+	// The catalogue page and index offer what to log now: deprecated and replaced records keep
+	// their own pages, so old IDs still resolve, but aren't listed.
+	active := slices.DeleteFunc(slices.Clone(exercises), func(e oes.Exercise) bool { return e.Status == "deprecated" || e.Status == "replaced" })
 	if err := render("", "home.html", page{Title: "Open Exercise", Description: "An open standard for describing exercises, and a public catalogue in that format.", Count: len(active)}); err != nil {
 		return err
 	}

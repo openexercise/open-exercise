@@ -2,6 +2,8 @@
 
 What merging did to the wger snapshot. Every line here needs a person's eye.
 
+This is the first import's report (October 2026), kept as history: [REVIEW.md](REVIEW.md) section 1 checked these groups, and the 11 it found wrong or doubtful have been fixed since (split, moved or their aliases changed) ("Supine press" now belongs to `oec:barbell-close-grip-bench-press`, not `oec:barbell-bench-press`). The records in `exercises/` are what's current.
+
 ## Merged because they got the same canonical name
 
 - `oec:alternating-dumbbell-curl`: Alternating Biceps Curls With Dumbbell; Alternating Dumbbell Curl

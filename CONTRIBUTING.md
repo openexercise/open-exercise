@@ -159,8 +159,8 @@ go run ./cmd/oes validate
 825 documents, 0 problems
 ```
 
-Run it with no arguments. Validating one file on its own reports every relation as pointing at a
-record that doesn't exist, because the cross-record checks only see the files you give them.
+With no arguments it checks everything. To check just the file you edited, give its path: it's
+checked with the rest of the catalogue, so its relations resolve.
 
 **5. Add a changelog entry and open a pull request** (see below). The second question, the load
 convention, can stay open: say so in the pull request.

@@ -856,9 +856,9 @@ anything that matters.
 
 ## 10. Versioning and what stays stable
 
-The project is a **v0 development draft**. In the spec's words, anything may change until v1. In
-practice the project already keeps these promises for the catalogue
-([CONTRIBUTING.md](../CONTRIBUTING.md), [GOVERNANCE.md](../GOVERNANCE.md)):
+The project is a **v0 development draft**: the format may change until v1. The catalogue already
+keeps these promises ([SPEC.md section 3](../spec/v0/SPEC.md#3-identity),
+[GOVERNANCE.md](../GOVERNANCE.md)):
 
 - Records are never deleted. A record is retired with `status`.
 - A published ID is never reused for another exercise. A rename adds the old ID to

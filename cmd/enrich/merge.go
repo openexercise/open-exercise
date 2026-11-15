@@ -290,7 +290,7 @@ func build(exercises []wger) (files map[string][]byte, report []byte, groups, re
 	}
 	files = map[string][]byte{}
 	var b strings.Builder
-	b.WriteString("# Enrichment report\n\nWhat merging did to the wger snapshot. Every line here needs a person's eye.\n\n## Merged because they got the same canonical name\n\n")
+	b.WriteString("# Enrichment report\n\nWhat merging did to the wger snapshot. Every line here needs a person's eye.\n\nThis is the first import's report (October 2026), kept as history: [REVIEW.md](REVIEW.md) section 1 checked these groups, and the 11 it found wrong or doubtful have been fixed since (split, moved or their aliases changed) (\"Supine press\" now belongs to `oec:barbell-close-grip-bench-press`, not `oec:barbell-bench-press`). The records in `exercises/` are what's current.\n\n## Merged because they got the same canonical name\n\n")
 	for _, g := range gs {
 		name, data, err := recordFile(g, current, muscleParents)
 		if err != nil {
