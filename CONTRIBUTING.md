@@ -162,8 +162,10 @@ go run ./cmd/oes validate
 With no arguments it checks everything. To check just the file you edited, give its path: it's
 checked with the rest of the catalogue, so its relations resolve.
 
-**5. Add a changelog entry and open a pull request** (see below). The second question, the load
-convention, can stay open: say so in the pull request.
+**5. Add a changelog entry and open a pull request** (see below). A question you can't settle can stay
+open: say so in the pull request. (This record's second question, the load convention, has since
+been settled from the same wger text, "a light weight plate in each hand": `per-implement`, two
+implements, as for dumbbells.)
 
 When you edit by hand, keep the file's style: two-space indentation and a newline at the end. Most
 records have their top-level keys in alphabetical order; keep the order the file already has.

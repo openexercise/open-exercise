@@ -170,7 +170,7 @@
   },
   "measurement": {
     "load": {
-      "convention": "total",
+      "convention": "per-implement",
       "implements": 2,
       "kind": "bodyweight-plus-external"
     },
@@ -199,7 +199,9 @@
       "/classification",
       "/anatomy",
       "/equipment",
-      "/measurement",
+      "/measurement/profiles",
+      "/measurement/records",
+      "/measurement/reps_counted",
       "/instructions",
       "/setup",
       "/relations"
