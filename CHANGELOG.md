@@ -26,6 +26,10 @@ Known gaps and deferred work, removed when it ships (and recorded under Unreleas
 
 ## Unreleased
 
+- **`oec:back-extension-y-w-combo` load:** `per-implement` with two implements (was `total`), as
+  its wger source holds "a light weight plate in each hand": a logged 5 kg is each plate, as for
+  dumbbells. `/measurement/load` leaves `provenance.generated`; the record stays
+  `machine-generated`.
 - **IDs (SPEC section 3):** the spec now states the promise the catalogue already keeps: a
   published ID is never reused and its record never deleted (a rename keeps the old ID in
   `previous_ids`); until v1 a record may still be corrected or replaced, and from v1 its meaning is
