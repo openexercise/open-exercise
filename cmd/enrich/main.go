@@ -1,4 +1,6 @@
-// Command enrich turns the wger snapshot into Open Exercise records with Gemini.
+// Command enrich turns the wger snapshot into Open Exercise records with Claude (ANTHROPIC_API_KEY,
+// or an `ant auth login` profile). With OES_GCP_PROJECT set, Gemini on Vertex AI is the backup when
+// the Claude API is unavailable.
 // Each model answer is kept in sources/enrichment/<wger id>.json, so a run resumes and
 // merging never calls the model again.
 //
@@ -24,16 +26,11 @@ import (
 	"strings"
 	"sync"
 	"sync/atomic"
-	"time"
-
-	"google.golang.org/genai"
 
 	"github.com/openexercise/open-exercise/internal/oes"
 )
 
 const (
-	model       = "gemini-3.8-flash"
-	location    = "global"
 	workers     = 12
 	enrichDir   = "sources/enrichment"
 	relationDir = "sources/relations"
@@ -92,43 +89,6 @@ func loadSnapshot() ([]wger, error) {
 		return nil, fmt.Errorf("decode snapshot: %w", err)
 	}
 	return snap.Exercises, nil
-}
-
-func newClient(ctx context.Context) (*genai.Client, error) {
-	project := os.Getenv("OES_GCP_PROJECT")
-	if project == "" {
-		return nil, errors.New("OES_GCP_PROJECT is required")
-	}
-	return genai.NewClient(ctx, &genai.ClientConfig{Backend: genai.BackendVertexAI, Project: project, Location: location})
-}
-
-// ask sends no response schema: constraint decoding times out at this size. The shape
-// is in the prompt and the validator enforces it.
-func ask(ctx context.Context, c *genai.Client, system, prompt string) ([]byte, error) {
-	var last error
-	for attempt := range 5 {
-		if attempt > 0 {
-			time.Sleep(time.Duration(attempt*attempt) * 3 * time.Second)
-		}
-		callCtx, cancel := context.WithTimeout(ctx, 90*time.Second)
-		resp, err := c.Models.GenerateContent(callCtx, model, genai.Text(prompt), &genai.GenerateContentConfig{
-			SystemInstruction: genai.NewContentFromText(system, genai.RoleUser),
-			ResponseMIMEType:  "application/json",
-			Temperature:       genai.Ptr[float32](0),
-		})
-		cancel()
-		if err != nil {
-			last = err
-			fmt.Fprintf(os.Stderr, "attempt %d: %v\n", attempt+1, err)
-			continue
-		}
-		text := resp.Text()
-		if json.Valid([]byte(text)) {
-			return []byte(text), nil
-		}
-		last = errors.New("model returned invalid JSON")
-	}
-	return nil, last
 }
 
 func generate(ctx context.Context, args []string) error {
@@ -196,7 +156,7 @@ func generate(ctx context.Context, args []string) error {
 
 func enrichPath(id int) string { return filepath.Join(enrichDir, strconv.Itoa(id)+".json") }
 
-func enrichOne(ctx context.Context, c *genai.Client, v *oes.Validator, system string, e wger) error {
+func enrichOne(ctx context.Context, c *models, v *oes.Validator, system string, e wger) error {
 	input, err := json.Marshal(map[string]any{
 		"name": e.Name, "description": e.Description, "category": e.Category, "primary_muscles": e.Muscles,
 		"secondary_muscles": e.Secondary, "equipment": e.Equipment, "aliases": slices.Concat(e.WgerAliases, e.CuratedAliases),

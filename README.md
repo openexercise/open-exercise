@@ -33,7 +33,7 @@ go run ./cmd/oes site dist
 
 `validate` checks the examples and catalogue against the schema, vocabularies and cross-record rules. `site` builds the static website into `dist`.
 
-The first import generated records with Vertex AI, which needs Google Cloud credentials and `OES_GCP_PROJECT`. `sources/enrichment` and `sources/relations` keep each model answer, so `merge` needs no credentials. Records have been edited by hand since, so `merge` is kept as history: it refuses to overwrite `catalogue/exercises` when that would change or remove any record. `-out DIR` writes what it would make somewhere else, to compare; `-force` overwrites anyway, discarding every later change. Don't run it to contribute.
+The first import generated records with Gemini on Vertex AI. `cmd/enrich generate` now asks Claude (`ANTHROPIC_API_KEY`) and falls back to Gemini on Vertex AI, when `OES_GCP_PROJECT` is set, if the Claude API is unavailable. `sources/enrichment` and `sources/relations` keep each model answer, so `merge` needs no credentials. Records have been edited by hand since, so `merge` is kept as history: it refuses to overwrite `catalogue/exercises` when that would change or remove any record. `-out DIR` writes what it would make somewhere else, to compare; `-force` overwrites anyway, discarding every later change. Don't run it to contribute.
 
 ```bash
 go run ./cmd/enrich generate

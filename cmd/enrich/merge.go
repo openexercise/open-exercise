@@ -22,7 +22,13 @@ import (
 	"github.com/openexercise/open-exercise/internal/oes"
 )
 
-const enrichedOn = "2026-10-31"
+// The saved answers in sources/enrichment all came from one run: this model, on this day. merge
+// stamps every record with them. Answers generated since (Claude, or the Gemini backup) are not
+// tagged with their model, so a new import has to record it before merge can be trusted for them.
+const (
+	enrichedOn = "2026-10-31"
+	enrichedBy = "gemini-3.8-flash"
+)
 
 var nonSlug = regexp.MustCompile(`[^a-z0-9]+`)
 
@@ -405,7 +411,7 @@ func recordFile(g *group, current map[string]bool, muscleParents map[string]stri
 		generated = append(generated, "/relations")
 	}
 	prov := provenanceFor(g.members)
-	prov["review"] = oes.Review{Status: "machine-generated", Model: model, At: enrichedOn}
+	prov["review"] = oes.Review{Status: "machine-generated", Model: enrichedBy, At: enrichedOn}
 	prov["generated"] = generated
 	doc["provenance"] = prov
 	return encodeDoc(g.id, doc)
