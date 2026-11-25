@@ -26,6 +26,12 @@ Known gaps and deferred work, removed when it ships (and recorded under Unreleas
 
 ## Unreleased
 
+- **`cmd/enrich` asks Claude first:** `generate` and `relate` call the Claude API
+  (`claude-opus-5-5`, `ANTHROPIC_API_KEY`) and fall back to Gemini on Vertex AI only when Claude is
+  rate-limited, erroring or unreachable, and only if `OES_GCP_PROJECT` is set, which is now
+  optional. `cmd/verify` still checks with Gemini, so the check stays with a second provider. No
+  record changed: the saved answers in `sources/enrichment` are the first import's.
+
 - **`oec:back-extension-y-w-combo` load:** `per-implement` with two implements (was `total`), as
   its wger source holds "a light weight plate in each hand": a logged 5 kg is each plate, as for
   dumbbells. `/measurement/load` leaves `provenance.generated`; the record stays

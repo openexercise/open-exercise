@@ -70,7 +70,7 @@ validate catalogue/exercises/plank.json` checks one edited record, its relations
 | `sources/enrichment/`, `sources/relations/` | The model answers the first import was built from | CC-BY-SA 4.0 |
 | `internal/oes/` | Validation (`oes.go`), the record type (`types.go`), marking reviews (`review.go`) and their tests | Apache-2.0 |
 | `cmd/oes/` | The `oes` command: `validate`, `review`, `site`, and the website's templates | Apache-2.0 |
-| `cmd/enrich/`, `cmd/verify/` | The import and verification pipelines (they call Vertex AI) | Apache-2.0 |
+| `cmd/enrich/`, `cmd/verify/` | The import and verification pipelines (they call the Claude API and Vertex AI) | Apache-2.0 |
 | `GUIDE.md`, `docs/developer-guide.md` | For apps using the catalogue and the schema | Apache-2.0 |
 | `CHANGELOG.md` | Every release, plus `Still to do` and `Unreleased` | Apache-2.0 |
 | `.github/workflows/` | CI, the website deploy and releases | Apache-2.0 |
@@ -302,8 +302,9 @@ equipment terms and a sentence in SPEC section 8).
 
 The Go code follows the standard library and the existing style: `gofmt`, errors wrapped with
 context, no new dependencies without a reason. Add or update a test in `internal/oes` for any rule
-`validate` checks. `cmd/enrich` and `cmd/verify` call Vertex AI and need Google Cloud credentials
-and `OES_GCP_PROJECT`; you don't need them for anything else.
+`validate` checks. `cmd/enrich` calls the Claude API (`ANTHROPIC_API_KEY`), with Gemini on Vertex AI as the backup when
+`OES_GCP_PROJECT` is set; `cmd/verify` calls Vertex AI and needs Google Cloud credentials and
+`OES_GCP_PROJECT`. You don't need any of them for anything else.
 
 ## Before you open a pull request
 
