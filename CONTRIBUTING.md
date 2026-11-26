@@ -339,6 +339,9 @@ Each must pass. Then check:
   unrelated record fixes are two.
 - In the pull request, say what you checked and against which source, and list anything you left
   open.
+- Pull requests are squash-merged, so the pull request's title becomes the commit on `main`: it
+  must be a conventional commit too. CI's `required` check (the tests and builds, a title check
+  and a secret scan) must pass before a pull request can merge.
 
 ## The changelog
 

@@ -26,6 +26,13 @@ Known gaps and deferred work, removed when it ships (and recorded under Unreleas
 
 ## Unreleased
 
+- **`main` is protected, and pull requests have one required check:** `main` is protected (pull
+  request, squash only, linear history, no force push or deletion), and release tags can't be moved
+  or deleted. CI's `required` job is the one check a pull request needs: it covers the existing jobs
+  plus a PR title check and gitleaks on the pull request's commits. Every action is pinned to a SHA
+  on `ubuntu-24.04`, workflows get read-only permissions and timeouts, the Pages deploy now reports
+  its URL (its step had no `id`), and the repository gains Dependabot, CODEOWNERS and a PR template.
+
 - **`cmd/enrich` asks Claude first:** `generate` and `relate` call the Claude API
   (`claude-opus-5-5`, `ANTHROPIC_API_KEY`) and fall back to Gemini on Vertex AI only when Claude is
   rate-limited, erroring or unreachable, and only if `OES_GCP_PROJECT` is set, which is now
